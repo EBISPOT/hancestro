@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY ethno "http://www.ebi.ac.uk/ethno/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.ebi.ac.uk/ethno.owl#"
+     xml:base="http://www.ebi.ac.uk/ethno.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ethno="http://www.ebi.ac.uk/ethno/">
+    <owl:Ontology rdf:about="http://www.ebi.ac.uk/ethno.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0001 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0001">
+        <rdfs:label rdf:datatype="&xsd;string">major area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0002 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0002">
+        <rdfs:label rdf:datatype="&xsd;string">region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0003 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0003">
+        <rdfs:label rdf:datatype="&xsd;string">country</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0004 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0004">
+        <rdfs:label rdf:datatype="&xsd;string">ancestral group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0005 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0005">
+        <rdfs:label rdf:datatype="&xsd;string">European</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0006 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0006">
+        <rdfs:label rdf:datatype="&xsd;string">South Asian</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0007 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0007">
+        <rdfs:label rdf:datatype="&xsd;string">South East Asian</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0008 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0008">
+        <rdfs:label rdf:datatype="&xsd;string">Asian</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0009 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0009">
+        <rdfs:label rdf:datatype="&xsd;string">East Asian</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0010 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0010">
+        <rdfs:label rdf:datatype="&xsd;string">African</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0011 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0011">
+        <rdfs:label rdf:datatype="&xsd;string">Sub-Saharan African</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0010"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0013 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0013">
+        <rdfs:label rdf:datatype="&xsd;string">American Indian</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0014 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0014">
+        <rdfs:label rdf:datatype="&xsd;string">Hispanic/Latin American</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0015 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0015">
+        <rdfs:label rdf:datatype="&xsd;string">Middle Eastern/North African</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0016 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0016">
+        <rdfs:label rdf:datatype="&xsd;string">African American/Afro-Caribbean</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0017 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0017">
+        <rdfs:label rdf:datatype="&xsd;string">Oceanian</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0018 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0018">
+        <rdfs:label rdf:datatype="&xsd;string">admixed population</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0019 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0019">
+        <rdfs:label rdf:datatype="&xsd;string">Japanese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0020 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0020">
+        <rdfs:label rdf:datatype="&xsd;string">Taiwanese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0021 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0021">
+        <rdfs:label rdf:datatype="&xsd;string">Chinese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0022 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0022">
+        <rdfs:label rdf:datatype="&xsd;string">Korean</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0023 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0023">
+        <rdfs:label rdf:datatype="&xsd;string">Mongolian</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0024 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0024">
+        <rdfs:label rdf:datatype="&xsd;string">Macau</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0025 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0025">
+        <rdfs:label rdf:datatype="&xsd;string">Singaporean</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0026 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0026">
+        <rdfs:label rdf:datatype="&xsd;string">Hong Kong Chinese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0021"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0027 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0027">
+        <rdfs:label rdf:datatype="&xsd;string">Han Chinese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0021"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
