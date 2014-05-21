@@ -545,6 +545,15 @@
         <rdfs:label rdf:datatype="&xsd;string">Polynesia</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ethno;ethno_0002"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0055 -->
+
+    <owl:Class rdf:about="&ethno;ethno_0055">
+        <rdfs:label rdf:datatype="&xsd;string">Easterm Asia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ethno;ethno_0002"/>
+    </owl:Class>
 </rdf:RDF>
 
 
