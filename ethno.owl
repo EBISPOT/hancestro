@@ -413,15 +413,6 @@
     
 
 
-    <!-- http://www.ebi.ac.uk/ethno/ethno_0040 -->
-
-    <owl:Class rdf:about="&ethno;ethno_0040">
-        <rdfs:label rdf:datatype="&xsd;string">Eastern Africa</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ethno;ethno_0002"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ebi.ac.uk/ethno/ethno_0041 -->
 
     <owl:Class rdf:about="&ethno;ethno_0041">
