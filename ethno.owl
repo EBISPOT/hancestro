@@ -283,6 +283,8 @@
     <owl:Class rdf:about="&ethno;ethno_0014">
         <rdfs:label rdf:datatype="&xsd;string">Hispanic/Latin American</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ethno;ethno_0004"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An admixed population </obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Emily Bowler</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -992,12 +994,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0058"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0058"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1006,6 +1002,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0035"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0058"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1056,6 +1058,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0060"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0060"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1064,12 +1072,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0035"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0060"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1088,6 +1090,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0061"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0061"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1096,12 +1104,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0035"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0061"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1248,12 +1250,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0066"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0066"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1262,6 +1258,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0035"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0066"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1408,6 +1410,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0071"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0071"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1416,12 +1424,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0035"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0071"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1440,12 +1442,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0072"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0072"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1454,6 +1450,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0035"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0072"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1472,12 +1474,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0073"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0073"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1486,6 +1482,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0035"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0073"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1504,12 +1506,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0074"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0074"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1518,6 +1514,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0035"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0074"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1536,6 +1538,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0075"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0075"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1544,12 +1552,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0035"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0075"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1600,6 +1602,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0077"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0077"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1608,12 +1616,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0036"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0077"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1728,12 +1730,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0081"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0081"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1742,6 +1738,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0036"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0081"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1760,6 +1762,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0082"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0082"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1768,12 +1776,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0036"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0082"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1792,6 +1794,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0083"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0083"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1800,12 +1808,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0036"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0083"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1856,6 +1858,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0085"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0085"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1864,12 +1872,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0036"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0085"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -1888,6 +1890,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0086"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0086"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -1896,12 +1904,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0037"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0086"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2048,12 +2050,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0091"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0091"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2062,6 +2058,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0037"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0091"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2112,6 +2114,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0093"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0093"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2120,12 +2128,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0038"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0093"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2144,6 +2146,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0094"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0094"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2152,12 +2160,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0038"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0094"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2240,6 +2242,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0097"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0097"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2248,12 +2256,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0038"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0097"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2272,12 +2274,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0098"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0098"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2286,6 +2282,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0098"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2304,12 +2306,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0099"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0099"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2318,6 +2314,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0099"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2336,12 +2338,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0100"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0100"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2350,6 +2346,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0100"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2368,6 +2370,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0101"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0101"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2376,12 +2384,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0101"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2400,6 +2402,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0102"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0102"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2408,12 +2416,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0102"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2432,12 +2434,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0103"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0103"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2446,6 +2442,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0103"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2496,6 +2498,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0105"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0105"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2504,12 +2512,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0105"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2560,12 +2562,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0107"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0107"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2574,6 +2570,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0107"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2656,6 +2658,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0110"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0110"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2664,12 +2672,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0110"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2688,12 +2690,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0111"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0111"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2702,6 +2698,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0111"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2720,6 +2722,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0112"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0112"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2728,12 +2736,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0112"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2752,12 +2754,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0113"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0113"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2766,6 +2762,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0113"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2784,12 +2786,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0114"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0114"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2798,6 +2794,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0039"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0114"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2848,12 +2850,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0116"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0116"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2862,6 +2858,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0055"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0116"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2912,12 +2914,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0118"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0118"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2926,6 +2922,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0055"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0118"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -2944,6 +2946,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0119"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0119"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -2952,12 +2960,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0055"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0119"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3040,6 +3042,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0122"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0122"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3048,12 +3056,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0041"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0122"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3136,12 +3138,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0125"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0125"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3150,6 +3146,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0041"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0125"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3168,12 +3170,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0126"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0126"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3182,6 +3178,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0041"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0126"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3200,12 +3202,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0127"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0127"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3214,6 +3210,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0041"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0127"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3264,6 +3266,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0129"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0129"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3272,12 +3280,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0041"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0129"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3296,6 +3298,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0130"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0130"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3304,12 +3312,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0041"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0130"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3360,6 +3362,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0132"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0132"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3368,12 +3376,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0041"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0132"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3424,6 +3426,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0134"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0134"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3432,12 +3440,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0041"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0134"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3456,12 +3458,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0135"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0135"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3470,6 +3466,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0041"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0135"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3488,12 +3490,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0136"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0136"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3502,6 +3498,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0042"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0136"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3520,12 +3522,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0137"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0137"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3534,6 +3530,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0042"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0137"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3552,6 +3554,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0138"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0138"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3560,12 +3568,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0042"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0138"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3584,6 +3586,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0139"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0139"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3592,12 +3600,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0042"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0139"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3616,6 +3618,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0140"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0140"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3624,12 +3632,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0042"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0140"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3648,12 +3650,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0141"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0141"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3662,6 +3658,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0042"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0141"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3744,12 +3746,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0144"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0144"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3758,6 +3754,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0042"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0144"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -3904,6 +3906,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0149"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0149"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -3912,12 +3920,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0149"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4000,6 +4002,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0152"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0152"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4008,12 +4016,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0152"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4064,6 +4066,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0154"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0154"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4072,12 +4080,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0154"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4096,6 +4098,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0155"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0155"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4104,12 +4112,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0155"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4128,12 +4130,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0156"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0156"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4142,6 +4138,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0156"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4160,6 +4162,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0157"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0157"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4168,12 +4176,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0157"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4192,6 +4194,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0158"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0158"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4200,12 +4208,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0158"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4256,6 +4258,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0160"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0160"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4264,12 +4272,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0160"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4288,12 +4290,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0161"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0161"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4302,6 +4298,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0161"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4320,6 +4322,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0162"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0162"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4328,12 +4336,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0043"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0162"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4384,6 +4386,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0164"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0164"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4392,12 +4400,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0044"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0164"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4448,6 +4450,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0166"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0166"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4456,12 +4464,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0044"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0166"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4512,6 +4514,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0168"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0168"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4520,12 +4528,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0044"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0168"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4608,6 +4610,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0171"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0171"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4616,12 +4624,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0044"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0171"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4640,12 +4642,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0172"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0172"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4654,6 +4650,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0044"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0172"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4672,12 +4674,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0173"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0173"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4686,6 +4682,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0044"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0173"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4768,12 +4770,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0176"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0176"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4782,6 +4778,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0045"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0176"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4800,12 +4802,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0177"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0177"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4814,6 +4810,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0045"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0177"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4832,12 +4834,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0178"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0178"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4846,6 +4842,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0045"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0178"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4896,12 +4898,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0180"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0180"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4910,6 +4906,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0045"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0180"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4928,12 +4930,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0181"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0181"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4942,6 +4938,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0045"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0181"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4960,6 +4962,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0182"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0182"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -4968,12 +4976,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0045"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0182"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -4992,12 +4994,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0183"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0183"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5006,6 +5002,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0045"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0183"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5152,12 +5154,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0188"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0188"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5166,6 +5162,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0188"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5216,6 +5218,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0190"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0190"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5224,12 +5232,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0190"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5248,6 +5250,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0191"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0191"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5256,12 +5264,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0191"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5280,12 +5282,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0192"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0192"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5294,6 +5290,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0192"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5312,6 +5314,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0193"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0193"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5320,12 +5328,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0193"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5376,12 +5378,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0195"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0195"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5390,6 +5386,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0195"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5440,12 +5442,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0197"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0197"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5454,6 +5450,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0197"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5504,12 +5506,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0199"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0199"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5518,6 +5514,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0199"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5568,12 +5570,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0201"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0201"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5582,6 +5578,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0201"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5600,6 +5602,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0202"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0202"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5608,12 +5616,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0046"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0202"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5728,6 +5730,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0206"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0206"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5736,12 +5744,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0047"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0206"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5792,12 +5794,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0208"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0208"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5806,6 +5802,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0047"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0208"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5856,6 +5858,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0210"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0210"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5864,12 +5872,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0047"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0210"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5888,12 +5890,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0211"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0211"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5902,6 +5898,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0047"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0211"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -5952,6 +5954,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0213"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0213"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -5960,12 +5968,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0213"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6048,12 +6050,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0216"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0216"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6062,6 +6058,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0216"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6112,6 +6114,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0218"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0218"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6120,12 +6128,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0218"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6176,12 +6178,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0220"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0220"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6190,6 +6186,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0220"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6240,6 +6242,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0222"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0222"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6248,12 +6256,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0222"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6336,12 +6338,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0225"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0225"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6350,6 +6346,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0225"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6368,12 +6370,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0226"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0226"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6382,6 +6378,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0226"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6400,6 +6402,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0227"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0227"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6408,12 +6416,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0227"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6528,6 +6530,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0231"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0231"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6536,12 +6544,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0231"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6624,6 +6626,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0234"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0234"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6632,12 +6640,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0048"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0234"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6688,6 +6690,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0236"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0236"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6696,12 +6704,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0050"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0236"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6752,12 +6754,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0238"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0238"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6766,6 +6762,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0050"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0238"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6848,6 +6850,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0241"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0241"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6856,12 +6864,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0050"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0241"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6880,12 +6882,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0242"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0242"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6894,6 +6890,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0050"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0242"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6944,6 +6946,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0244"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0244"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6952,12 +6960,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0049"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0244"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -6976,6 +6978,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0245"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0245"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -6984,12 +6992,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0049"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0245"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7008,6 +7010,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0246"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0246"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7016,12 +7024,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0049"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0246"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7072,12 +7074,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0248"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0248"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7086,6 +7082,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0049"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0248"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7104,6 +7106,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0249"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0249"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7112,12 +7120,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0049"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0249"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7136,6 +7138,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0250"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0250"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7144,12 +7152,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0049"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0250"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7168,6 +7170,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0251"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0251"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7176,12 +7184,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0049"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0251"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7232,6 +7234,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0253"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0253"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7240,12 +7248,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0049"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0253"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7264,6 +7266,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0254"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0254"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7272,12 +7280,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0049"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0254"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7531,6 +7533,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0265"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0265"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7539,12 +7547,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0052"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0265"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7563,6 +7565,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0266"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0266"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7571,12 +7579,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0052"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0266"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7627,12 +7629,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0268"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0268"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7641,6 +7637,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0052"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0268"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7659,12 +7661,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0269"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0269"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7673,6 +7669,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0053"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0269"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7851,12 +7853,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0275"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0275"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7865,6 +7861,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0054"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0275"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7947,6 +7949,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0278"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0278"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7955,12 +7963,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0054"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0278"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -7979,12 +7981,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0279"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0279"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -7993,6 +7989,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0054"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0279"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -8011,6 +8013,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0280"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0280"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -8019,12 +8027,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0054"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0280"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -8043,12 +8045,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0281"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0281"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -8057,6 +8053,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0054"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0281"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -8107,12 +8109,6 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0283"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0283"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -8121,6 +8117,12 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0054"/>
             </owl:Restriction>
         </owl:annotatedTarget>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0283"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -8139,6 +8141,12 @@
     </owl:Class>
     <owl:Axiom>
         <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
+        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
+        <owl:annotatedSource rdf:resource="&ethno;ethno_0284"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
         <owl:annotatedSource rdf:resource="&ethno;ethno_0284"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -8147,12 +8155,6 @@
                 <owl:allValuesFrom rdf:resource="&ethno;ethno_0054"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <patterns:createdBy rdf:datatype="&xsd;string">http://e-lico.eu/populous#OPPL_pattern</patterns:createdBy>
-        <owl:annotatedTarget rdf:resource="&ethno;ethno_0003"/>
-        <owl:annotatedSource rdf:resource="&ethno;ethno_0284"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
     </owl:Axiom>
     
 
@@ -8165,6 +8167,17 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&ethno;ethno_0029"/>
+            <rdf:Description rdf:about="&ethno;ethno_0030"/>
+            <rdf:Description rdf:about="&ethno;ethno_0031"/>
+            <rdf:Description rdf:about="&ethno;ethno_0032"/>
+            <rdf:Description rdf:about="&ethno;ethno_0033"/>
+            <rdf:Description rdf:about="&ethno;ethno_0034"/>
+        </owl:members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -8188,17 +8201,6 @@
             <rdf:Description rdf:about="&ethno;ethno_0053"/>
             <rdf:Description rdf:about="&ethno;ethno_0054"/>
             <rdf:Description rdf:about="&ethno;ethno_0055"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="&ethno;ethno_0029"/>
-            <rdf:Description rdf:about="&ethno;ethno_0030"/>
-            <rdf:Description rdf:about="&ethno;ethno_0031"/>
-            <rdf:Description rdf:about="&ethno;ethno_0032"/>
-            <rdf:Description rdf:about="&ethno;ethno_0033"/>
-            <rdf:Description rdf:about="&ethno;ethno_0034"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
