@@ -10,7 +10,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY ont "http://www.co-ode.org/ontologies/ont.owl#" >
+    <!ENTITY ont "http://www.ebi.ac.uk/ethno/" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
 
@@ -21,7 +21,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:patterns="http://www.co-ode.org/patterns#"
-     xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:ont="http://www.ebi.ac.uk/ethno/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -191,7 +191,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0331 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0331 -->
 
     <owl:Class rdf:about="&ont;ethno_0331">
         <rdfs:label xml:lang="en">Sudanese</rdfs:label>
@@ -223,7 +223,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0332 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0332 -->
 
     <owl:Class rdf:about="&ont;ethno_0332">
         <rdfs:label xml:lang="en">Sahrawi</rdfs:label>
@@ -255,7 +255,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0333 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0333 -->
 
     <owl:Class rdf:about="&ont;ethno_0333">
         <rdfs:label xml:lang="en">Anguillan</rdfs:label>
@@ -287,7 +287,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0334 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0334 -->
 
     <owl:Class rdf:about="&ont;ethno_0334">
         <rdfs:label xml:lang="en">Antiguan or Barbudan</rdfs:label>
@@ -319,7 +319,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0335 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0335 -->
 
     <owl:Class rdf:about="&ont;ethno_0335">
         <rdfs:label xml:lang="en">Barbadian</rdfs:label>
@@ -351,7 +351,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0336 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0336 -->
 
     <owl:Class rdf:about="&ont;ethno_0336">
         <rdfs:label xml:lang="en">Haitian</rdfs:label>
@@ -383,7 +383,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0337 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0337 -->
 
     <owl:Class rdf:about="&ont;ethno_0337">
         <rdfs:label xml:lang="en">Jamaican</rdfs:label>
@@ -415,7 +415,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0338 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0338 -->
 
     <owl:Class rdf:about="&ont;ethno_0338">
         <rdfs:label xml:lang="en">Tajikistani</rdfs:label>
@@ -447,7 +447,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0339 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0339 -->
 
     <owl:Class rdf:about="&ont;ethno_0339">
         <rdfs:label xml:lang="en">Turkmen</rdfs:label>
@@ -479,7 +479,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0340 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0340 -->
 
     <owl:Class rdf:about="&ont;ethno_0340">
         <rdfs:label xml:lang="en">Uzbekistani</rdfs:label>
@@ -511,7 +511,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0341 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0341 -->
 
     <owl:Class rdf:about="&ont;ethno_0341">
         <rdfs:label xml:lang="en">Afghan</rdfs:label>
@@ -543,7 +543,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0342 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0342 -->
 
     <owl:Class rdf:about="&ont;ethno_0342">
         <rdfs:label xml:lang="en">Kazakhstani</rdfs:label>
@@ -575,7 +575,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0343 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0343 -->
 
     <owl:Class rdf:about="&ont;ethno_0343">
         <rdfs:label xml:lang="en">Kyrgyzstani</rdfs:label>
@@ -607,7 +607,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0344 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0344 -->
 
     <owl:Class rdf:about="&ont;ethno_0344">
         <rdfs:label xml:lang="en">Albanian</rdfs:label>
@@ -639,7 +639,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0345 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0345 -->
 
     <owl:Class rdf:about="&ont;ethno_0345">
         <rdfs:label xml:lang="en">Andorran</rdfs:label>
@@ -671,7 +671,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0346 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0346 -->
 
     <owl:Class rdf:about="&ont;ethno_0346">
         <rdfs:label xml:lang="en">Australian</rdfs:label>
@@ -703,7 +703,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0347 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0347 -->
 
     <owl:Class rdf:about="&ont;ethno_0347">
         <rdfs:label xml:lang="en">Austrian</rdfs:label>
@@ -735,7 +735,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0348 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0348 -->
 
     <owl:Class rdf:about="&ont;ethno_0348">
         <rdfs:label xml:lang="en">Belarusian</rdfs:label>
@@ -767,7 +767,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0349 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0349 -->
 
     <owl:Class rdf:about="&ont;ethno_0349">
         <rdfs:label xml:lang="en">Belgian</rdfs:label>
@@ -799,7 +799,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0350 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0350 -->
 
     <owl:Class rdf:about="&ont;ethno_0350">
         <rdfs:label xml:lang="en">Bermudian</rdfs:label>
@@ -831,7 +831,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0351 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0351 -->
 
     <owl:Class rdf:about="&ont;ethno_0351">
         <rdfs:label xml:lang="en">Bosnian or Herzegovinian</rdfs:label>
@@ -863,7 +863,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0352 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0352 -->
 
     <owl:Class rdf:about="&ont;ethno_0352">
         <rdfs:label xml:lang="en">Brazilian</rdfs:label>
@@ -895,7 +895,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0353 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0353 -->
 
     <owl:Class rdf:about="&ont;ethno_0353">
         <rdfs:label xml:lang="en">Bulgarian</rdfs:label>
@@ -927,7 +927,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0354 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0354 -->
 
     <owl:Class rdf:about="&ont;ethno_0354">
         <rdfs:label xml:lang="en">Canadian</rdfs:label>
@@ -959,7 +959,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0355 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0355 -->
 
     <owl:Class rdf:about="&ont;ethno_0355">
         <rdfs:label xml:lang="en">Channel Islander</rdfs:label>
@@ -991,7 +991,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0356 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0356 -->
 
     <owl:Class rdf:about="&ont;ethno_0356">
         <rdfs:label xml:lang="en">Chilean</rdfs:label>
@@ -1023,7 +1023,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0357 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0357 -->
 
     <owl:Class rdf:about="&ont;ethno_0357">
         <rdfs:label xml:lang="en">Croatian</rdfs:label>
@@ -1055,7 +1055,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0358 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0358 -->
 
     <owl:Class rdf:about="&ont;ethno_0358">
         <rdfs:label xml:lang="en">Czech</rdfs:label>
@@ -1087,7 +1087,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0359 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0359 -->
 
     <owl:Class rdf:about="&ont;ethno_0359">
         <rdfs:label xml:lang="en">Danish</rdfs:label>
@@ -1119,7 +1119,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0360 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0360 -->
 
     <owl:Class rdf:about="&ont;ethno_0360">
         <rdfs:label xml:lang="en">Estonian</rdfs:label>
@@ -1151,7 +1151,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0361 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0361 -->
 
     <owl:Class rdf:about="&ont;ethno_0361">
         <rdfs:label xml:lang="en">Faroese</rdfs:label>
@@ -1183,7 +1183,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0362 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0362 -->
 
     <owl:Class rdf:about="&ont;ethno_0362">
         <rdfs:label xml:lang="en">Falkland Islander</rdfs:label>
@@ -1215,7 +1215,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0363 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0363 -->
 
     <owl:Class rdf:about="&ont;ethno_0363">
         <rdfs:label xml:lang="en">French</rdfs:label>
@@ -1247,7 +1247,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0364 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0364 -->
 
     <owl:Class rdf:about="&ont;ethno_0364">
         <rdfs:label xml:lang="en">German</rdfs:label>
@@ -1279,7 +1279,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0365 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0365 -->
 
     <owl:Class rdf:about="&ont;ethno_0365">
         <rdfs:label xml:lang="en">Gibraltarian</rdfs:label>
@@ -1311,7 +1311,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0366 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0366 -->
 
     <owl:Class rdf:about="&ont;ethno_0366">
         <rdfs:label xml:lang="en">Greek</rdfs:label>
@@ -1343,7 +1343,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0367 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0367 -->
 
     <owl:Class rdf:about="&ont;ethno_0367">
         <rdfs:label xml:lang="en">Greenlander</rdfs:label>
@@ -1375,7 +1375,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0368 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0368 -->
 
     <owl:Class rdf:about="&ont;ethno_0368">
         <rdfs:label xml:lang="en">Hungrian</rdfs:label>
@@ -1407,7 +1407,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0369 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0369 -->
 
     <owl:Class rdf:about="&ont;ethno_0369">
         <rdfs:label xml:lang="en">Icelandic</rdfs:label>
@@ -1439,7 +1439,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0370 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0370 -->
 
     <owl:Class rdf:about="&ont;ethno_0370">
         <rdfs:label xml:lang="en">Manx</rdfs:label>
@@ -1471,7 +1471,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0371 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0371 -->
 
     <owl:Class rdf:about="&ont;ethno_0371">
         <rdfs:label xml:lang="en">Latvian</rdfs:label>
@@ -1503,7 +1503,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0372 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0372 -->
 
     <owl:Class rdf:about="&ont;ethno_0372">
         <rdfs:label xml:lang="en">Liechtensteiner</rdfs:label>
@@ -1535,7 +1535,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0373 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0373 -->
 
     <owl:Class rdf:about="&ont;ethno_0373">
         <rdfs:label xml:lang="en">Lithuanian</rdfs:label>
@@ -1567,7 +1567,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0374 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0374 -->
 
     <owl:Class rdf:about="&ont;ethno_0374">
         <rdfs:label xml:lang="en">Luxembourgish</rdfs:label>
@@ -1599,7 +1599,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0375 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0375 -->
 
     <owl:Class rdf:about="&ont;ethno_0375">
         <rdfs:label xml:lang="en">Maltese</rdfs:label>
@@ -1631,7 +1631,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0376 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0376 -->
 
     <owl:Class rdf:about="&ont;ethno_0376">
         <rdfs:label xml:lang="en">Monegasque</rdfs:label>
@@ -1663,7 +1663,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0377 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0377 -->
 
     <owl:Class rdf:about="&ont;ethno_0377">
         <rdfs:label xml:lang="en">Montenegrin</rdfs:label>
@@ -1695,7 +1695,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0378 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0378 -->
 
     <owl:Class rdf:about="&ont;ethno_0378">
         <rdfs:label xml:lang="en">New Zealandish</rdfs:label>
@@ -1727,7 +1727,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0379 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0379 -->
 
     <owl:Class rdf:about="&ont;ethno_0379">
         <rdfs:label xml:lang="en">Norfolk Islander</rdfs:label>
@@ -1759,7 +1759,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0380 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0380 -->
 
     <owl:Class rdf:about="&ont;ethno_0380">
         <rdfs:label xml:lang="en">Norwegian</rdfs:label>
@@ -1791,7 +1791,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0381 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0381 -->
 
     <owl:Class rdf:about="&ont;ethno_0381">
         <rdfs:label xml:lang="en">Polish</rdfs:label>
@@ -1823,7 +1823,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0382 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0382 -->
 
     <owl:Class rdf:about="&ont;ethno_0382">
         <rdfs:label xml:lang="en">Portugese</rdfs:label>
@@ -1855,7 +1855,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0383 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0383 -->
 
     <owl:Class rdf:about="&ont;ethno_0383">
         <rdfs:label xml:lang="en">Irish</rdfs:label>
@@ -1887,7 +1887,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0384 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0384 -->
 
     <owl:Class rdf:about="&ont;ethno_0384">
         <rdfs:label xml:lang="en">Moldovan</rdfs:label>
@@ -1919,7 +1919,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0385 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0385 -->
 
     <owl:Class rdf:about="&ont;ethno_0385">
         <rdfs:label xml:lang="en">Romanian</rdfs:label>
@@ -1951,7 +1951,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0386 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0386 -->
 
     <owl:Class rdf:about="&ont;ethno_0386">
         <rdfs:label xml:lang="en">Russian</rdfs:label>
@@ -1983,7 +1983,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0387 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0387 -->
 
     <owl:Class rdf:about="&ont;ethno_0387">
         <rdfs:label xml:lang="en">Saint-Pierrais or Miquelonnais</rdfs:label>
@@ -2015,7 +2015,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0388 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0388 -->
 
     <owl:Class rdf:about="&ont;ethno_0388">
         <rdfs:label xml:lang="en">Sammarinese</rdfs:label>
@@ -2047,7 +2047,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0389 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0389 -->
 
     <owl:Class rdf:about="&ont;ethno_0389">
         <rdfs:label xml:lang="en">Serb</rdfs:label>
@@ -2079,7 +2079,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0390 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0390 -->
 
     <owl:Class rdf:about="&ont;ethno_0390">
         <rdfs:label xml:lang="en">Slovak</rdfs:label>
@@ -2111,7 +2111,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0391 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0391 -->
 
     <owl:Class rdf:about="&ont;ethno_0391">
         <rdfs:label xml:lang="en">Slovene</rdfs:label>
@@ -2143,7 +2143,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0392 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0392 -->
 
     <owl:Class rdf:about="&ont;ethno_0392">
         <rdfs:label xml:lang="en">Spanish</rdfs:label>
@@ -2175,7 +2175,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0393 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0393 -->
 
     <owl:Class rdf:about="&ont;ethno_0393">
         <rdfs:label xml:lang="en">Swedish</rdfs:label>
@@ -2207,7 +2207,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0394 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0394 -->
 
     <owl:Class rdf:about="&ont;ethno_0394">
         <rdfs:label xml:lang="en">Swiss</rdfs:label>
@@ -2239,7 +2239,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0395 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0395 -->
 
     <owl:Class rdf:about="&ont;ethno_0395">
         <rdfs:label xml:lang="en">Macedonian</rdfs:label>
@@ -2271,7 +2271,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0396 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0396 -->
 
     <owl:Class rdf:about="&ont;ethno_0396">
         <rdfs:label xml:lang="en">Ukrainian</rdfs:label>
@@ -2303,7 +2303,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0397 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0397 -->
 
     <owl:Class rdf:about="&ont;ethno_0397">
         <rdfs:label xml:lang="en">Argentine</rdfs:label>
@@ -2335,7 +2335,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0398 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0398 -->
 
     <owl:Class rdf:about="&ont;ethno_0398">
         <rdfs:label xml:lang="en">Bahamian</rdfs:label>
@@ -2367,7 +2367,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0399 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0399 -->
 
     <owl:Class rdf:about="&ont;ethno_0399">
         <rdfs:label xml:lang="en">Belizean</rdfs:label>
@@ -2399,7 +2399,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0400 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0400 -->
 
     <owl:Class rdf:about="&ont;ethno_0400">
         <rdfs:label xml:lang="en">Bolivian</rdfs:label>
@@ -2431,7 +2431,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0401 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0401 -->
 
     <owl:Class rdf:about="&ont;ethno_0401">
         <rdfs:label xml:lang="en">British Virgin Islander</rdfs:label>
@@ -2463,7 +2463,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0402 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0402 -->
 
     <owl:Class rdf:about="&ont;ethno_0402">
         <rdfs:label xml:lang="en">Caymanian</rdfs:label>
@@ -2495,7 +2495,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0403 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0403 -->
 
     <owl:Class rdf:about="&ont;ethno_0403">
         <rdfs:label xml:lang="en">Colombian</rdfs:label>
@@ -2527,7 +2527,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0404 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0404 -->
 
     <owl:Class rdf:about="&ont;ethno_0404">
         <rdfs:label xml:lang="en">Costa Rican</rdfs:label>
@@ -2559,7 +2559,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0405 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0405 -->
 
     <owl:Class rdf:about="&ont;ethno_0405">
         <rdfs:label xml:lang="en">Cuban</rdfs:label>
@@ -2591,7 +2591,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0406 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0406 -->
 
     <owl:Class rdf:about="&ont;ethno_0406">
         <rdfs:label xml:lang="en">Dominican</rdfs:label>
@@ -2623,7 +2623,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0407 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0407 -->
 
     <owl:Class rdf:about="&ont;ethno_0407">
         <rdfs:label xml:lang="en">Ecuadorian</rdfs:label>
@@ -2655,7 +2655,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0408 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0408 -->
 
     <owl:Class rdf:about="&ont;ethno_0408">
         <rdfs:label xml:lang="en">Salvadoran</rdfs:label>
@@ -2687,7 +2687,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0409 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0409 -->
 
     <owl:Class rdf:about="&ont;ethno_0409">
         <rdfs:label xml:lang="en">French Guianese</rdfs:label>
@@ -2719,7 +2719,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0410 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0410 -->
 
     <owl:Class rdf:about="&ont;ethno_0410">
         <rdfs:label xml:lang="en">Grenadian</rdfs:label>
@@ -2751,7 +2751,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0411 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0411 -->
 
     <owl:Class rdf:about="&ont;ethno_0411">
         <rdfs:label xml:lang="en">Guatemalan</rdfs:label>
@@ -2783,7 +2783,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0412 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0412 -->
 
     <owl:Class rdf:about="&ont;ethno_0412">
         <rdfs:label xml:lang="en">Guyanese</rdfs:label>
@@ -2815,7 +2815,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0413 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0413 -->
 
     <owl:Class rdf:about="&ont;ethno_0413">
         <rdfs:label xml:lang="en">Honduran</rdfs:label>
@@ -2847,7 +2847,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0414 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0414 -->
 
     <owl:Class rdf:about="&ont;ethno_0414">
         <rdfs:label xml:lang="en">Martinican</rdfs:label>
@@ -2879,7 +2879,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0415 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0415 -->
 
     <owl:Class rdf:about="&ont;ethno_0415">
         <rdfs:label xml:lang="en">Mexican</rdfs:label>
@@ -2911,7 +2911,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0416 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0416 -->
 
     <owl:Class rdf:about="&ont;ethno_0416">
         <rdfs:label xml:lang="en">Montserratian</rdfs:label>
@@ -2943,7 +2943,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0417 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0417 -->
 
     <owl:Class rdf:about="&ont;ethno_0417">
         <rdfs:label xml:lang="en">Nicaraguan</rdfs:label>
@@ -2975,7 +2975,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0418 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0418 -->
 
     <owl:Class rdf:about="&ont;ethno_0418">
         <rdfs:label xml:lang="en">Panamanian</rdfs:label>
@@ -3007,7 +3007,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0419 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0419 -->
 
     <owl:Class rdf:about="&ont;ethno_0419">
         <rdfs:label xml:lang="en">Paraguayan</rdfs:label>
@@ -3039,7 +3039,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0420 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0420 -->
 
     <owl:Class rdf:about="&ont;ethno_0420">
         <rdfs:label xml:lang="en">Peruvian</rdfs:label>
@@ -3071,7 +3071,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0421 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0421 -->
 
     <owl:Class rdf:about="&ont;ethno_0421">
         <rdfs:label xml:lang="en">Puerto Rican</rdfs:label>
@@ -3103,7 +3103,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0422 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0422 -->
 
     <owl:Class rdf:about="&ont;ethno_0422">
         <rdfs:label xml:lang="en">Kittitian or Nevisian</rdfs:label>
@@ -3135,7 +3135,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0423 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0423 -->
 
     <owl:Class rdf:about="&ont;ethno_0423">
         <rdfs:label xml:lang="en">Saint Lucian</rdfs:label>
@@ -3167,7 +3167,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0424 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0424 -->
 
     <owl:Class rdf:about="&ont;ethno_0424">
         <rdfs:label xml:lang="en">Saint Vincentian</rdfs:label>
@@ -3199,7 +3199,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0425 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0425 -->
 
     <owl:Class rdf:about="&ont;ethno_0425">
         <rdfs:label xml:lang="en">Surinamer</rdfs:label>
@@ -3231,7 +3231,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0426 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0426 -->
 
     <owl:Class rdf:about="&ont;ethno_0426">
         <rdfs:label xml:lang="en">Trinidadian or Tobagonian</rdfs:label>
@@ -3263,7 +3263,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0427 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0427 -->
 
     <owl:Class rdf:about="&ont;ethno_0427">
         <rdfs:label xml:lang="en">Turks and Caicos Islander</rdfs:label>
@@ -3295,7 +3295,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0428 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0428 -->
 
     <owl:Class rdf:about="&ont;ethno_0428">
         <rdfs:label xml:lang="en">Virgin Islander</rdfs:label>
@@ -3327,7 +3327,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0429 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0429 -->
 
     <owl:Class rdf:about="&ont;ethno_0429">
         <rdfs:label xml:lang="en">Uruguayan</rdfs:label>
@@ -3359,7 +3359,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0430 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0430 -->
 
     <owl:Class rdf:about="&ont;ethno_0430">
         <rdfs:label xml:lang="en">Venezuelan</rdfs:label>
@@ -3391,7 +3391,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0431 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0431 -->
 
     <owl:Class rdf:about="&ont;ethno_0431">
         <rdfs:label xml:lang="en">Algerian</rdfs:label>
@@ -3423,7 +3423,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0432 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0432 -->
 
     <owl:Class rdf:about="&ont;ethno_0432">
         <rdfs:label xml:lang="en">Armenian</rdfs:label>
@@ -3455,7 +3455,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0433 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0433 -->
 
     <owl:Class rdf:about="&ont;ethno_0433">
         <rdfs:label xml:lang="en">Azerbaijani</rdfs:label>
@@ -3487,7 +3487,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0434 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0434 -->
 
     <owl:Class rdf:about="&ont;ethno_0434">
         <rdfs:label xml:lang="en">Bahraini</rdfs:label>
@@ -3519,7 +3519,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0435 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0435 -->
 
     <owl:Class rdf:about="&ont;ethno_0435">
         <rdfs:label xml:lang="en">Cypriote</rdfs:label>
@@ -3551,7 +3551,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0436 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0436 -->
 
     <owl:Class rdf:about="&ont;ethno_0436">
         <rdfs:label xml:lang="en">Egyptian</rdfs:label>
@@ -3583,7 +3583,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0437 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0437 -->
 
     <owl:Class rdf:about="&ont;ethno_0437">
         <rdfs:label xml:lang="en">Georgian</rdfs:label>
@@ -3615,7 +3615,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0438 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0438 -->
 
     <owl:Class rdf:about="&ont;ethno_0438">
         <rdfs:label xml:lang="en">Iranian</rdfs:label>
@@ -3647,7 +3647,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0439 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0439 -->
 
     <owl:Class rdf:about="&ont;ethno_0439">
         <rdfs:label xml:lang="en">Iraqi</rdfs:label>
@@ -3679,7 +3679,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0440 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0440 -->
 
     <owl:Class rdf:about="&ont;ethno_0440">
         <rdfs:label xml:lang="en">Israeli</rdfs:label>
@@ -3711,7 +3711,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0441 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0441 -->
 
     <owl:Class rdf:about="&ont;ethno_0441">
         <rdfs:label xml:lang="en">Jordanian</rdfs:label>
@@ -3743,7 +3743,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0442 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0442 -->
 
     <owl:Class rdf:about="&ont;ethno_0442">
         <rdfs:label xml:lang="en">Kuwaiti</rdfs:label>
@@ -3775,7 +3775,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0443 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0443 -->
 
     <owl:Class rdf:about="&ont;ethno_0443">
         <rdfs:label xml:lang="en">Lebanese</rdfs:label>
@@ -3807,7 +3807,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0444 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0444 -->
 
     <owl:Class rdf:about="&ont;ethno_0444">
         <rdfs:label xml:lang="en">Libyan</rdfs:label>
@@ -3839,7 +3839,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0445 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0445 -->
 
     <owl:Class rdf:about="&ont;ethno_0445">
         <rdfs:label xml:lang="en">Moroccan</rdfs:label>
@@ -3871,7 +3871,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0446 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0446 -->
 
     <owl:Class rdf:about="&ont;ethno_0446">
         <rdfs:label xml:lang="en">Palestinian</rdfs:label>
@@ -3903,7 +3903,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0447 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0447 -->
 
     <owl:Class rdf:about="&ont;ethno_0447">
         <rdfs:label xml:lang="en">Omani</rdfs:label>
@@ -3935,7 +3935,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0448 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0448 -->
 
     <owl:Class rdf:about="&ont;ethno_0448">
         <rdfs:label xml:lang="en">Qatari</rdfs:label>
@@ -3967,7 +3967,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0449 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0449 -->
 
     <owl:Class rdf:about="&ont;ethno_0449">
         <rdfs:label xml:lang="en">Saudi</rdfs:label>
@@ -3999,7 +3999,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0450 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0450 -->
 
     <owl:Class rdf:about="&ont;ethno_0450">
         <rdfs:label xml:lang="en">Tunisian</rdfs:label>
@@ -4031,7 +4031,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0451 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0451 -->
 
     <owl:Class rdf:about="&ont;ethno_0451">
         <rdfs:label xml:lang="en">Turkish</rdfs:label>
@@ -4063,7 +4063,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0452 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0452 -->
 
     <owl:Class rdf:about="&ont;ethno_0452">
         <rdfs:label xml:lang="en">Emirati</rdfs:label>
@@ -4095,7 +4095,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0453 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0453 -->
 
     <owl:Class rdf:about="&ont;ethno_0453">
         <rdfs:label xml:lang="en">Yemeni</rdfs:label>
@@ -4127,7 +4127,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0454 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0454 -->
 
     <owl:Class rdf:about="&ont;ethno_0454">
         <rdfs:label xml:lang="en">Aruban</rdfs:label>
@@ -4159,7 +4159,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0455 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0455 -->
 
     <owl:Class rdf:about="&ont;ethno_0455">
         <rdfs:label xml:lang="en">Christmas Islander</rdfs:label>
@@ -4191,7 +4191,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0456 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0456 -->
 
     <owl:Class rdf:about="&ont;ethno_0456">
         <rdfs:label xml:lang="en">Cocos Islander</rdfs:label>
@@ -4223,7 +4223,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0457 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0457 -->
 
     <owl:Class rdf:about="&ont;ethno_0457">
         <rdfs:label xml:lang="en">Curacaoan</rdfs:label>
@@ -4255,7 +4255,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0458 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0458 -->
 
     <owl:Class rdf:about="&ont;ethno_0458">
         <rdfs:label xml:lang="en">Kosovar</rdfs:label>
@@ -4287,7 +4287,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0459 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0459 -->
 
     <owl:Class rdf:about="&ont;ethno_0459">
         <rdfs:label xml:lang="en">Northern Mariana Islander</rdfs:label>
@@ -4319,7 +4319,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0460 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0460 -->
 
     <owl:Class rdf:about="&ont;ethno_0460">
         <rdfs:label xml:lang="en">South Sudanese</rdfs:label>
@@ -4351,7 +4351,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0461 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0461 -->
 
     <owl:Class rdf:about="&ont;ethno_0461">
         <rdfs:label xml:lang="en">Syrian</rdfs:label>
@@ -4383,7 +4383,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0462 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0462 -->
 
     <owl:Class rdf:about="&ont;ethno_0462">
         <rdfs:label xml:lang="en">British</rdfs:label>
@@ -4415,7 +4415,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0463 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0463 -->
 
     <owl:Class rdf:about="&ont;ethno_0463">
         <rdfs:label xml:lang="en">American</rdfs:label>
@@ -4447,7 +4447,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0464 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0464 -->
 
     <owl:Class rdf:about="&ont;ethno_0464">
         <rdfs:label xml:lang="en">American Samoan</rdfs:label>
@@ -4479,7 +4479,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0465 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0465 -->
 
     <owl:Class rdf:about="&ont;ethno_0465">
         <rdfs:label xml:lang="en">Cook Islander</rdfs:label>
@@ -4511,7 +4511,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0466 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0466 -->
 
     <owl:Class rdf:about="&ont;ethno_0466">
         <rdfs:label xml:lang="en">Fijian</rdfs:label>
@@ -4543,7 +4543,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0467 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0467 -->
 
     <owl:Class rdf:about="&ont;ethno_0467">
         <rdfs:label xml:lang="en">French Polynesian</rdfs:label>
@@ -4575,7 +4575,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0468 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0468 -->
 
     <owl:Class rdf:about="&ont;ethno_0468">
         <rdfs:label xml:lang="en">Guamanian</rdfs:label>
@@ -4607,7 +4607,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0469 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0469 -->
 
     <owl:Class rdf:about="&ont;ethno_0469">
         <rdfs:label xml:lang="en">I-Kiribati</rdfs:label>
@@ -4639,7 +4639,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0470 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0470 -->
 
     <owl:Class rdf:about="&ont;ethno_0470">
         <rdfs:label xml:lang="en">Marshallese</rdfs:label>
@@ -4671,7 +4671,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0471 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0471 -->
 
     <owl:Class rdf:about="&ont;ethno_0471">
         <rdfs:label xml:lang="en">Micronesian</rdfs:label>
@@ -4703,7 +4703,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0472 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0472 -->
 
     <owl:Class rdf:about="&ont;ethno_0472">
         <rdfs:label xml:lang="en">Nauruan</rdfs:label>
@@ -4735,7 +4735,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0473 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0473 -->
 
     <owl:Class rdf:about="&ont;ethno_0473">
         <rdfs:label xml:lang="en">New Caledonian</rdfs:label>
@@ -4767,7 +4767,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0474 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0474 -->
 
     <owl:Class rdf:about="&ont;ethno_0474">
         <rdfs:label xml:lang="en">Niuean</rdfs:label>
@@ -4799,7 +4799,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0475 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0475 -->
 
     <owl:Class rdf:about="&ont;ethno_0475">
         <rdfs:label xml:lang="en">Palauan</rdfs:label>
@@ -4831,7 +4831,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0476 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0476 -->
 
     <owl:Class rdf:about="&ont;ethno_0476">
         <rdfs:label xml:lang="en">Papua New Guinean</rdfs:label>
@@ -4863,7 +4863,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0477 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0477 -->
 
     <owl:Class rdf:about="&ont;ethno_0477">
         <rdfs:label xml:lang="en">Pitcairn Islander</rdfs:label>
@@ -4895,7 +4895,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0478 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0478 -->
 
     <owl:Class rdf:about="&ont;ethno_0478">
         <rdfs:label xml:lang="en">Samoan</rdfs:label>
@@ -4927,7 +4927,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0479 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0479 -->
 
     <owl:Class rdf:about="&ont;ethno_0479">
         <rdfs:label xml:lang="en">Solomon Islander</rdfs:label>
@@ -4959,7 +4959,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0480 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0480 -->
 
     <owl:Class rdf:about="&ont;ethno_0480">
         <rdfs:label xml:lang="en">Tokelauan</rdfs:label>
@@ -4991,7 +4991,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0481 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0481 -->
 
     <owl:Class rdf:about="&ont;ethno_0481">
         <rdfs:label xml:lang="en">Tongan</rdfs:label>
@@ -5023,7 +5023,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0482 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0482 -->
 
     <owl:Class rdf:about="&ont;ethno_0482">
         <rdfs:label xml:lang="en">Tuvaluan</rdfs:label>
@@ -5055,7 +5055,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0483 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0483 -->
 
     <owl:Class rdf:about="&ont;ethno_0483">
         <rdfs:label xml:lang="en">Ni-Vanuato</rdfs:label>
@@ -5087,7 +5087,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0484 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0484 -->
 
     <owl:Class rdf:about="&ont;ethno_0484">
         <rdfs:label xml:lang="en">Wallis and Futuna Islander</rdfs:label>
@@ -5119,7 +5119,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0485 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0485 -->
 
     <owl:Class rdf:about="&ont;ethno_0485">
         <rdfs:label xml:lang="en">Bangladeshi</rdfs:label>
@@ -5151,7 +5151,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0486 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0486 -->
 
     <owl:Class rdf:about="&ont;ethno_0486">
         <rdfs:label xml:lang="en">Bhutanese</rdfs:label>
@@ -5183,7 +5183,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0487 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0487 -->
 
     <owl:Class rdf:about="&ont;ethno_0487">
         <rdfs:label xml:lang="en">Indian</rdfs:label>
@@ -5215,7 +5215,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0488 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0488 -->
 
     <owl:Class rdf:about="&ont;ethno_0488">
         <rdfs:label xml:lang="en">Maldivian</rdfs:label>
@@ -5247,7 +5247,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0489 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0489 -->
 
     <owl:Class rdf:about="&ont;ethno_0489">
         <rdfs:label xml:lang="en">Nepalese</rdfs:label>
@@ -5279,7 +5279,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0490 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0490 -->
 
     <owl:Class rdf:about="&ont;ethno_0490">
         <rdfs:label xml:lang="en">Pakistani</rdfs:label>
@@ -5311,7 +5311,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0491 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0491 -->
 
     <owl:Class rdf:about="&ont;ethno_0491">
         <rdfs:label xml:lang="en">Sri Lankan</rdfs:label>
@@ -5343,7 +5343,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0492 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0492 -->
 
     <owl:Class rdf:about="&ont;ethno_0492">
         <rdfs:label xml:lang="en">Bruneian</rdfs:label>
@@ -5375,7 +5375,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0493 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0493 -->
 
     <owl:Class rdf:about="&ont;ethno_0493">
         <rdfs:label xml:lang="en">Cambodian</rdfs:label>
@@ -5407,7 +5407,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0494 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0494 -->
 
     <owl:Class rdf:about="&ont;ethno_0494">
         <rdfs:label xml:lang="en">Indonesian</rdfs:label>
@@ -5439,7 +5439,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0495 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0495 -->
 
     <owl:Class rdf:about="&ont;ethno_0495">
         <rdfs:label xml:lang="en">Lao</rdfs:label>
@@ -5471,7 +5471,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0496 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0496 -->
 
     <owl:Class rdf:about="&ont;ethno_0496">
         <rdfs:label xml:lang="en">Malaysian</rdfs:label>
@@ -5503,7 +5503,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0497 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0497 -->
 
     <owl:Class rdf:about="&ont;ethno_0497">
         <rdfs:label xml:lang="en">Burmese</rdfs:label>
@@ -5535,7 +5535,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0498 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0498 -->
 
     <owl:Class rdf:about="&ont;ethno_0498">
         <rdfs:label xml:lang="en">Filipino</rdfs:label>
@@ -5567,7 +5567,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0500 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0500 -->
 
     <owl:Class rdf:about="&ont;ethno_0500">
         <rdfs:label xml:lang="en">Thai</rdfs:label>
@@ -5599,7 +5599,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0501 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0501 -->
 
     <owl:Class rdf:about="&ont;ethno_0501">
         <rdfs:label xml:lang="en">Timorese</rdfs:label>
@@ -5631,7 +5631,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0502 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0502 -->
 
     <owl:Class rdf:about="&ont;ethno_0502">
         <rdfs:label xml:lang="en">Vietnamese</rdfs:label>
@@ -5663,7 +5663,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0503 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0503 -->
 
     <owl:Class rdf:about="&ont;ethno_0503">
         <rdfs:label xml:lang="en">Cameroonian</rdfs:label>
@@ -5695,7 +5695,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0504 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0504 -->
 
     <owl:Class rdf:about="&ont;ethno_0504">
         <rdfs:label xml:lang="en">Cape Verdean</rdfs:label>
@@ -5727,7 +5727,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0505 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0505 -->
 
     <owl:Class rdf:about="&ont;ethno_0505">
         <rdfs:label xml:lang="en">Chadian</rdfs:label>
@@ -5759,7 +5759,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0506 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0506 -->
 
     <owl:Class rdf:about="&ont;ethno_0506">
         <rdfs:label xml:lang="en">Ethiopian</rdfs:label>
@@ -5791,7 +5791,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0507 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0507 -->
 
     <owl:Class rdf:about="&ont;ethno_0507">
         <rdfs:label xml:lang="en">Kenyan</rdfs:label>
@@ -5823,7 +5823,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0508 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0508 -->
 
     <owl:Class rdf:about="&ont;ethno_0508">
         <rdfs:label xml:lang="en">Liberian</rdfs:label>
@@ -5855,7 +5855,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0509 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0509 -->
 
     <owl:Class rdf:about="&ont;ethno_0509">
         <rdfs:label xml:lang="en">Malagasy</rdfs:label>
@@ -5887,7 +5887,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0510 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0510 -->
 
     <owl:Class rdf:about="&ont;ethno_0510">
         <rdfs:label xml:lang="en">Mauritanian</rdfs:label>
@@ -5919,7 +5919,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0511 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0511 -->
 
     <owl:Class rdf:about="&ont;ethno_0511">
         <rdfs:label xml:lang="en">Mauritian</rdfs:label>
@@ -5951,7 +5951,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0512 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0512 -->
 
     <owl:Class rdf:about="&ont;ethno_0512">
         <rdfs:label xml:lang="en">Mahoran</rdfs:label>
@@ -5983,7 +5983,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0513 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0513 -->
 
     <owl:Class rdf:about="&ont;ethno_0513">
         <rdfs:label xml:lang="en">Namibian</rdfs:label>
@@ -6015,7 +6015,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0514 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0514 -->
 
     <owl:Class rdf:about="&ont;ethno_0514">
         <rdfs:label xml:lang="en">Sao Tomean</rdfs:label>
@@ -6047,7 +6047,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0515 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0515 -->
 
     <owl:Class rdf:about="&ont;ethno_0515">
         <rdfs:label xml:lang="en">Senegalese</rdfs:label>
@@ -6079,7 +6079,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0516 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0516 -->
 
     <owl:Class rdf:about="&ont;ethno_0516">
         <rdfs:label xml:lang="en">Seychellois</rdfs:label>
@@ -6111,7 +6111,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0517 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0517 -->
 
     <owl:Class rdf:about="&ont;ethno_0517">
         <rdfs:label xml:lang="en">Sierra Leonean</rdfs:label>
@@ -6143,7 +6143,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0518 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0518 -->
 
     <owl:Class rdf:about="&ont;ethno_0518">
         <rdfs:label xml:lang="en">Somali</rdfs:label>
@@ -6175,7 +6175,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0519 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0519 -->
 
     <owl:Class rdf:about="&ont;ethno_0519">
         <rdfs:label xml:lang="en">South African</rdfs:label>
@@ -6207,7 +6207,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0520 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0520 -->
 
     <owl:Class rdf:about="&ont;ethno_0520">
         <rdfs:label xml:lang="en">St. Helenian</rdfs:label>
@@ -6239,7 +6239,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0521 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0521 -->
 
     <owl:Class rdf:about="&ont;ethno_0521">
         <rdfs:label xml:lang="en">Ugandan</rdfs:label>
@@ -6271,7 +6271,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0522 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0522 -->
 
     <owl:Class rdf:about="&ont;ethno_0522">
         <rdfs:label xml:lang="en">Angolan</rdfs:label>
@@ -6303,7 +6303,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0523 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0523 -->
 
     <owl:Class rdf:about="&ont;ethno_0523">
         <rdfs:label xml:lang="en">Beninese</rdfs:label>
@@ -6335,7 +6335,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0524 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0524 -->
 
     <owl:Class rdf:about="&ont;ethno_0524">
         <rdfs:label xml:lang="en">Motswana</rdfs:label>
@@ -6367,7 +6367,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0525 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0525 -->
 
     <owl:Class rdf:about="&ont;ethno_0525">
         <rdfs:label xml:lang="en">Burkinabe</rdfs:label>
@@ -6399,7 +6399,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0526 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0526 -->
 
     <owl:Class rdf:about="&ont;ethno_0526">
         <rdfs:label xml:lang="en">Burundian</rdfs:label>
@@ -6431,7 +6431,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0527 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0527 -->
 
     <owl:Class rdf:about="&ont;ethno_0527">
         <rdfs:label xml:lang="en">Central African</rdfs:label>
@@ -6463,7 +6463,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0528 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0528 -->
 
     <owl:Class rdf:about="&ont;ethno_0528">
         <rdfs:label xml:lang="en">Comoran</rdfs:label>
@@ -6495,7 +6495,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0529 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0529 -->
 
     <owl:Class rdf:about="&ont;ethno_0529">
         <rdfs:label xml:lang="en">Congolese</rdfs:label>
@@ -6544,7 +6544,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0530 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0530 -->
 
     <owl:Class rdf:about="&ont;ethno_0530">
         <rdfs:label xml:lang="en">Ivoirian</rdfs:label>
@@ -6576,7 +6576,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0531 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0531 -->
 
     <owl:Class rdf:about="&ont;ethno_0531">
         <rdfs:label xml:lang="en">Djiboutian</rdfs:label>
@@ -6608,7 +6608,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0532 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0532 -->
 
     <owl:Class rdf:about="&ont;ethno_0532">
         <rdfs:label xml:lang="en">Equatorial Guinean</rdfs:label>
@@ -6640,7 +6640,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0533 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0533 -->
 
     <owl:Class rdf:about="&ont;ethno_0533">
         <rdfs:label xml:lang="en">Eritrean</rdfs:label>
@@ -6672,7 +6672,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0534 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0534 -->
 
     <owl:Class rdf:about="&ont;ethno_0534">
         <rdfs:label xml:lang="en">Gabonese</rdfs:label>
@@ -6704,7 +6704,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0535 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0535 -->
 
     <owl:Class rdf:about="&ont;ethno_0535">
         <rdfs:label xml:lang="en">Gambian</rdfs:label>
@@ -6736,7 +6736,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0536 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0536 -->
 
     <owl:Class rdf:about="&ont;ethno_0536">
         <rdfs:label xml:lang="en">Ghanaian</rdfs:label>
@@ -6768,7 +6768,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0537 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0537 -->
 
     <owl:Class rdf:about="&ont;ethno_0537">
         <rdfs:label xml:lang="en">Guinean</rdfs:label>
@@ -6800,7 +6800,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0538 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0538 -->
 
     <owl:Class rdf:about="&ont;ethno_0538">
         <rdfs:label xml:lang="en">Bissau-Guinean</rdfs:label>
@@ -6832,7 +6832,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0539 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0539 -->
 
     <owl:Class rdf:about="&ont;ethno_0539">
         <rdfs:label xml:lang="en">Mosotho</rdfs:label>
@@ -6864,7 +6864,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0540 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0540 -->
 
     <owl:Class rdf:about="&ont;ethno_0540">
         <rdfs:label xml:lang="en">Malawian</rdfs:label>
@@ -6896,7 +6896,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0541 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0541 -->
 
     <owl:Class rdf:about="&ont;ethno_0541">
         <rdfs:label xml:lang="en">Malian</rdfs:label>
@@ -6928,7 +6928,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0542 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0542 -->
 
     <owl:Class rdf:about="&ont;ethno_0542">
         <rdfs:label xml:lang="en">Mozambican</rdfs:label>
@@ -6960,7 +6960,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0543 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0543 -->
 
     <owl:Class rdf:about="&ont;ethno_0543">
         <rdfs:label xml:lang="en">Nigerien</rdfs:label>
@@ -6992,7 +6992,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0544 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0544 -->
 
     <owl:Class rdf:about="&ont;ethno_0544">
         <rdfs:label xml:lang="en">Nigerian</rdfs:label>
@@ -7024,7 +7024,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0545 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0545 -->
 
     <owl:Class rdf:about="&ont;ethno_0545">
         <rdfs:label xml:lang="en">Rwandan</rdfs:label>
@@ -7056,7 +7056,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0546 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0546 -->
 
     <owl:Class rdf:about="&ont;ethno_0546">
         <rdfs:label xml:lang="en">Swazi</rdfs:label>
@@ -7088,7 +7088,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0547 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0547 -->
 
     <owl:Class rdf:about="&ont;ethno_0547">
         <rdfs:label xml:lang="en">Togolese</rdfs:label>
@@ -7120,7 +7120,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0548 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0548 -->
 
     <owl:Class rdf:about="&ont;ethno_0548">
         <rdfs:label xml:lang="en">Tanzanian</rdfs:label>
@@ -7152,7 +7152,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0549 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0549 -->
 
     <owl:Class rdf:about="&ont;ethno_0549">
         <rdfs:label xml:lang="en">Zambian</rdfs:label>
@@ -7184,7 +7184,7 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#ethno_0550 -->
+    <!-- http://www.ebi.ac.uk/ethno/ethno_0550 -->
 
     <owl:Class rdf:about="&ont;ethno_0550">
         <rdfs:label xml:lang="en">Zimbabweian</rdfs:label>
