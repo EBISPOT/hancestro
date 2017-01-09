@@ -11,7 +11,7 @@ The following ANCESTRO release files are provided
 
 ### Contact Details ###
 
-For questions and comments and to report any issues, please email Dani Welter at dwelter@ebi.ac.uk. The submit a feature request, submit a tickets via GOCI JIRA https://www.ebi.ac.uk/panda/jira/browse/GOCI/ using component "Ancestry" or contact Dani Welter.
+For questions and comments and to report any issues, please email Dani Welter at dwelter@ebi.ac.uk. To submit a feature request, submit a ticket via GOCI JIRA https://www.ebi.ac.uk/panda/jira/browse/GOCI/ using component "Ancestry" or contact Dani Welter.
 
 
 ### Licence ###
