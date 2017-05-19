@@ -408,6 +408,9 @@
         <Class IRI="http://dbpedia.org/resource/Sint_Maarten"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://dbpedia.org/resource/American_Samoa"/>
     </Declaration>
     <Declaration>
@@ -1939,9 +1942,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Tanzania"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="obsolete_class"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0185"/>
@@ -8796,911 +8796,911 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0058"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0059"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0060"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0061"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0062"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0063"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0064"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0065"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0066"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0067"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0068"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0069"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0070"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0071"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0072"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0073"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0074"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0075"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0076"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0077"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0078"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0079"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0080"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0081"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0082"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0083"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0084"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0085"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0086"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0087"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0088"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0089"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0090"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0091"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0092"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0093"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0094"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0095"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0096"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0097"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0098"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0099"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0100"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0101"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0102"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0103"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0104"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0105"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0106"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0107"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0108"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0109"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0110"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0111"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0112"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0113"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0114"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0115"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0116"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0117"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0118"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0119"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0120"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0121"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0122"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0123"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0124"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0125"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0126"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0127"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0128"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0129"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0130"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0131"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0132"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0133"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0134"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0135"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0136"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0137"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0138"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0139"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0140"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0141"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0142"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0143"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0144"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0145"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0146"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0147"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0148"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0149"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0150"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0151"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0152"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0153"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0154"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0155"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0156"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0157"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0158"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0159"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0160"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0161"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0162"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0163"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0164"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0165"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0166"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0167"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0168"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0169"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0170"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0171"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0172"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0173"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0174"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0175"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0176"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0177"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0178"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0179"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0180"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0181"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0182"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0183"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0184"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0185"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0186"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0187"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0188"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0189"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0190"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0191"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0192"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0193"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0194"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0195"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0196"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0197"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0198"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0199"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0200"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0201"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0202"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0203"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0204"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0205"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0206"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0207"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0208"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0209"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0210"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0211"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0212"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0213"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0214"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0215"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0216"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0217"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0218"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0219"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0220"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0221"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0222"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0223"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0224"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0225"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0226"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0227"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0228"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0229"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0230"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0231"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0232"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0233"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0234"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0235"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0236"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0237"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0238"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0239"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0240"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0241"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0242"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0243"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0244"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0245"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0246"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0247"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0248"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0249"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0250"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0251"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0252"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0253"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0254"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0255"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0256"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0257"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0258"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0259"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0260"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0261"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0262"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0263"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0264"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0265"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0266"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0267"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0268"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0269"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0270"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0271"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0272"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0273"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0274"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0275"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0276"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0277"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0278"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0279"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0280"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0281"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0282"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0283"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0284"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0286"/>
@@ -9727,43 +9727,43 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0291"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0292"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0293"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0294"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0295"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0296"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0297"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0298"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0299"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0300"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0300"/>
@@ -10042,15 +10042,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0325"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0326"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0327"/>
-        <Class IRI="obsolete_class"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0328"/>
@@ -19761,7 +19761,7 @@ category does not include all native populations within the Arctic circle for ex
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>obsolete_class</IRI>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#ObsoleteClass</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">obsolete class</Literal>
     </AnnotationAssertion>
 </Ontology>
