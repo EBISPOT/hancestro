@@ -135,6 +135,9 @@
         <Class IRI="ancestro_0106"/>
     </Declaration>
     <Declaration>
+        <Class IRI="ancestro_0566"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="ancestro_0215"/>
     </Declaration>
     <Declaration>
@@ -522,6 +525,9 @@
         <Class IRI="ancestro_0302"/>
     </Declaration>
     <Declaration>
+        <Class IRI="ancestro_0568"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="ancestro_0435"/>
     </Declaration>
     <Declaration>
@@ -541,6 +547,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0458"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ancestro_0567"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0107"/>
@@ -930,6 +939,9 @@
         <Class IRI="ancestro_0132"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="ancestro_0374"/>
     </Declaration>
     <Declaration>
@@ -1011,10 +1023,10 @@
         <Class IRI="ancestro_0134"/>
     </Declaration>
     <Declaration>
-        <Class IRI="ancestro_0485"/>
+        <Class IRI="http://dbpedia.org/resource/Estonia"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://dbpedia.org/resource/Estonia"/>
+        <Class IRI="ancestro_0485"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0243"/>
@@ -1293,10 +1305,10 @@
         <Class IRI="ancestro_0333"/>
     </Declaration>
     <Declaration>
-        <Class IRI="ancestro_0466"/>
+        <Class IRI="ancestro_0551"/>
     </Declaration>
     <Declaration>
-        <Class IRI="ancestro_0551"/>
+        <Class IRI="ancestro_0466"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0007"/>
@@ -1803,13 +1815,13 @@
         <Class IRI="ancestro_0316"/>
     </Declaration>
     <Declaration>
+        <Class IRI="ancestro_0558"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://dbpedia.org/resource/Norway"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0401"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="ancestro_0558"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0534"/>
@@ -1891,6 +1903,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0519"/>
@@ -2103,19 +2118,19 @@
         <Class IRI="ancestro_0073"/>
     </Declaration>
     <Declaration>
-        <Class IRI="ancestro_0517"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://dbpedia.org/resource/China"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://dbpedia.org/resource/Central_African_Republic"/>
+        <Class IRI="ancestro_0517"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0097"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0408"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Central_African_Republic"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0181"/>
@@ -2283,10 +2298,10 @@
         <Class IRI="ancestro_0254"/>
     </Declaration>
     <Declaration>
-        <Class IRI="ancestro_0472"/>
+        <Class IRI="ancestro_0121"/>
     </Declaration>
     <Declaration>
-        <Class IRI="ancestro_0121"/>
+        <Class IRI="ancestro_0472"/>
     </Declaration>
     <Declaration>
         <Class IRI="ancestro_0363"/>
@@ -2542,17 +2557,6 @@
         </Annotation>
         <Class IRI="http://dbpedia.org/resource/Albania"/>
         <Class IRI="ancestro_0003"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="patterns:createdBy"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
-        </Annotation>
-        <Class IRI="http://dbpedia.org/resource/Albania"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="ancestro_0285"/>
-            <Class IRI="ancestro_0005"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -9821,11 +9825,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0302"/>
-        <Class IRI="ancestro_0290"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0303"/>
-        <Class IRI="ancestro_0290"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0305"/>
@@ -10085,7 +10089,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0324"/>
-        <Class IRI="ancestro_0302"/>
+        <Class IRI="ancestro_0566"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ancestro_0324"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="ancestro_0301"/>
+            <Class IRI="ancestro_0305"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ancestro_0325"/>
@@ -11021,7 +11032,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0379"/>
-        <Class IRI="ancestro_0018"/>
+        <Class IRI="ancestro_0566"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -11045,7 +11056,10 @@
         <Class IRI="ancestro_0379"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="ancestro_0308"/>
-            <Class IRI="http://dbpedia.org/resource/Norfolk_Island"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://dbpedia.org/resource/United_Kingdom"/>
+                <Class IRI="ancestro_0054"/>
+            </ObjectIntersectionOf>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -12403,7 +12417,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0451"/>
-        <Class IRI="ancestro_0015"/>
+        <Class IRI="ancestro_0018"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -12460,7 +12474,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0454"/>
-        <Class IRI="ancestro_0018"/>
+        <Class IRI="ancestro_0566"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -12479,7 +12493,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0455"/>
-        <Class IRI="ancestro_0018"/>
+        <Class IRI="ancestro_0566"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -12498,7 +12512,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0456"/>
-        <Class IRI="ancestro_0018"/>
+        <Class IRI="ancestro_0566"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -12517,7 +12531,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0457"/>
-        <Class IRI="ancestro_0018"/>
+        <Class IRI="ancestro_0566"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -12536,7 +12550,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0458"/>
-        <Class IRI="ancestro_0018"/>
+        <Class IRI="ancestro_0566"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -12555,7 +12569,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0459"/>
-        <Class IRI="ancestro_0018"/>
+        <Class IRI="ancestro_0566"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -12631,7 +12645,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0463"/>
-        <Class IRI="ancestro_0018"/>
+        <Class IRI="ancestro_0566"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -13125,7 +13139,7 @@
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class IRI="ancestro_0489"/>
-        <Class IRI="ancestro_0006"/>
+        <Class IRI="ancestro_0008"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -14463,6 +14477,22 @@
     <SubClassOf>
         <Class IRI="ancestro_0565"/>
         <Class IRI="ancestro_0357"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ancestro_0566"/>
+        <Class IRI="ancestro_0004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ancestro_0567"/>
+        <Class IRI="ancestro_0016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ancestro_0568"/>
+        <Class IRI="ancestro_0016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh"/>
+        <Class IRI="ancestro_0006"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="ancestro_0029"/>
@@ -15911,12 +15941,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="IAO_0000118"/>
         <IRI>ancestro_0001</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">continent</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">major area</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>ancestro_0001</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">major area</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">continent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="IAO_0000118"/>
@@ -15948,6 +15978,16 @@
         <IRI>ancestro_0005</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Includes individuals who either self-report or have been described by authors as
 European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="IAO_0000118"/>
+        <IRI>ancestro_0005</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Caucasian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="IAO_0000118"/>
+        <IRI>ancestro_0005</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">white</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16096,7 +16136,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <AnnotationAssertion>
         <AnnotationProperty IRI="IAO_0000115"/>
         <IRI>ancestro_0018</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a population whose individuals are from a diverse range of ancestral backgrounds and which can therefore not be classed under a specific majority ancestry, or a population for which insufficient information is available to allocate it to a specific ancestral group</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18554,6 +18594,11 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasMajorityEthnicity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>ancestro_0285</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="IAO_0000115"/>
         <IRI>ancestro_0286</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Includes individuals who either self-report or have been described by authors as Central Asian. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap.</Literal>
@@ -18584,9 +18629,14 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">founder population</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="IAO_0000118"/>
+        <IRI>ancestro_0290</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">population isolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>ancestro_0290</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">population isolate</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">genetically isolated population</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="IAO_0100001"/>
@@ -18696,12 +18746,12 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>ancestro_0302</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cultural isolate</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">obsolete_cultural isolate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>ancestro_0303</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geographic isolate</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">obsolete_geographic isolate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18711,7 +18761,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>ancestro_0305</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conserved ancestry</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">genetically isolated ancestry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20039,6 +20089,31 @@ category does not include all native populations within the Arctic circle for ex
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>ancestro_0565</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Split founder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="IAO_0000115"/>
+        <IRI>ancestro_0566</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ancestro_0566</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">undefined ancestry population</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ancestro_0567</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Afro-Caribbean</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ancestro_0568</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">African American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Punjabi Sikh</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
