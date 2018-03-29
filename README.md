@@ -21,19 +21,19 @@ Apache License, version 2.0.
 
 ### Citing ANCESTRO ###
 
-Please cite *Joannella Morales, Danielle Welter, Emily H. Bowler, Maria Cerezo, Laura W. Harris, Aoife C. McMahon, Peggy Hall, Heather A. Junkins, Annalisa Milano, Emma Hastings, Cinzia Malangone, Annalisa Buniello, Tony Burdett, Paul Flicek, Helen Parkinson, Fiona Cunningham, Lucia A. Hindorff and Jacqueline A. L. MacArthur*. A standardized framework for representation of ancestry data in genomics studies, with application to the NHGRI-EBI GWAS Catalog. Genome Biology, 2018, 19:21
+Please cite *Joannella Morales, Danielle Welter, Emily H. Bowler, Maria Cerezo, Laura W. Harris, Aoife C. McMahon, Peggy Hall, Heather A. Junkins, Annalisa Milano, Emma Hastings, Cinzia Malangone, Annalisa Buniello, Tony Burdett, Paul Flicek, Helen Parkinson, Fiona Cunningham, Lucia A. Hindorff and Jacqueline A. L. MacArthur*. **A standardized framework for representation of ancestry data in genomics studies, with application to the NHGRI-EBI GWAS Catalog**. Genome Biology, 2018, 19:21
 
 To reference a specific version of the ontology, please provide a link to this GITHUB repo, including the tag for the version you downloaded and the date of the download.
 
 
-### Ancestry Ontology - Release Notes###
+### Ancestry Ontology - Release Notes ###
 
 Date Released: 15th April 2015
 
 Class Count: 541
 
 
-### Notice of release###
+### Notice of release ###
 
 ANCESTRO is currently undergoing some refactoring. The 2.0 release is expected for sometime in Q2-2018.
 
