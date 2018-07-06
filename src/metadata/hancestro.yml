@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/hancestro
+
+idspace: HANCESTRO
+base_url: /obo/hancestro
+
+products:
+- hancestro.owl: https://raw.githubusercontent.com/daniwelter/human-ancestry-ontology/master/hancestro.owl
+- hancestro.obo: https://raw.githubusercontent.com/daniwelter/human-ancestry-ontology/master/hancestro.obo
+
+term_browser: ontobee
+example_terms:
+- HANCESTRO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/daniwelter/human-ancestry-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/daniwelter/human-ancestry-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/HANCESTRO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/daniwelter/human-ancestry-ontology/master/

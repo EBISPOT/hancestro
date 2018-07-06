@@ -1,0 +1,8 @@
+*.tmp
+src/ontology/mirror
+src/ontology/mirror/*
+src/ontology/hancestro.obo
+src/ontology/hancestro.owl
+src/ontology/hancestro_inferred.owl
+semantic.cache
+catalog-v001.xml
