@@ -21,7 +21,7 @@ For questions and comments and to report any issues, please email Dani Welter at
 
 ### Licence ###
 
-Apache License, version 2.0. 
+[Creative Commons CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 
 ### Citing HANCESTRO ###

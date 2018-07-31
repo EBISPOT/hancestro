@@ -20,7 +20,7 @@ SPARQLDIR = ../sparql
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test all_imports $(ONT).owl $(ONT_INF).owl $(ONT_BFO).owl 
+all: sparql_test all_imports bfo_intermediate bfo_full $(ONT).owl $(ONT_INF).owl $(ONT_BFO).owl
 #	$(ONT).obo 
 test: sparql_test all
 prepare_release: all
@@ -57,8 +57,9 @@ $(ONT_INF).owl: $(ONT).owl
 # These live in the imports/ folder
 # These can be regenerated with make all_imports
 
-IMPORTS = bfo ro geo
-IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
+IMPORTS = bfo geo obi
+# IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
+IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))  imports/obi_import.owl
 
 # Make this target to regenerate ALL
 all_imports: $(IMPORTS_OWL)
@@ -68,14 +69,35 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
+imports/obi_import.owl: mirror/obi.owl imports/obi_terms.txt
+	$(ROBOT) extract -i mirror/obi.owl -T imports/obi_terms.txt --method MIREOT --upper-term "obo:BFO_0000040" --lower-term "obo:OBI_0000181" -O $(BASE)/$@ -o $@
+.PRECIOUS: imports/obi_import.owl
+
 # Add '--check false' flag if your OWL is not obo-strict
-imports/%_import.obo: imports/%_import.owl
-	$(ROBOT) convert -i $< -o $@
+#imports/%_import.obo: imports/%_import.owl
+#	$(ROBOT) convert -f -i $< -o $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
 	$(ROBOT) convert -I $(OBO)/$*.owl -o $@
 .PRECIOUS: mirror/%.owl
+
+
+# ----------------------------------------
+# Build HANCESTRO-BFO 
+# ----------------------------------------
+# Use a template file to build a
+#
+
+bfo_intermediate: 
+	$(ROBOT) template --input hancestro-edit.owl --prefix "geo: http://purl.obolibrary.org/obo/" --prefix "hancestro: http://purl.obolibrary.org/obo/" --prefix "bfo: http://purl.obolibrary.org/obo/" --prefix "obi: http://purl.obolibrary.org/obo/" --template ../templates/upper_level.tsv merge --input hancestro-edit.owl --include-annotations true reduce --reasoner ELK --output hancestro_bfo_intermediate.owl 
+
+
+bfo_full: 
+	$(ROBOT) merge --input hancestro_bfo_intermediate.owl --input imports/bfo_import.owl --input imports/geo_import.owl  --input imports/obi_import.owl --include-annotations true annotate --ontology-iri http://purl.obolibrary.org/obo/hancestro reduce --reasoner ELK --output hancestro_bfo.owl
+
+
+
 
 # ----------------------------------------
 # Release
@@ -83,7 +105,8 @@ mirror/%.owl: $(SRC)
 # copy from staging area (this directory) to top-level
 release: $(ONT).owl $(ONT_INF).owl $(ONT_BFO).owl
 	#$(ONT).obo 	
-	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
+#	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
+	cp $^ $(RELEASEDIR) 
 
 # ----------------------------------------
 # Sparql queries: Q/C
