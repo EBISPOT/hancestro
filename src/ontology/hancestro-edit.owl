@@ -438,6 +438,9 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0362"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0580"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0350"/>
     </Declaration>
     <Declaration>
@@ -753,10 +756,16 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0454"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0575"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0345"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0006"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0587"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0466"/>
@@ -840,6 +849,9 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0322"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0576"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="obo:RO_0001025"/>
     </Declaration>
     <Declaration>
@@ -871,6 +883,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0358"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0588"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0467"/>
@@ -909,6 +924,9 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0355"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0573"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0343"/>
     </Declaration>
     <Declaration>
@@ -919,6 +937,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0464"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0585"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0561"/>
@@ -960,6 +981,9 @@
         <Class IRI="http://dbpedia.org/resource/Liechtenstein"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0586"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0005"/>
     </Declaration>
     <Declaration>
@@ -985,6 +1009,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0332"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0574"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0320"/>
@@ -1059,10 +1086,16 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0486"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0571"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0450"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0341"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0583"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Guam"/>
@@ -1122,6 +1155,9 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0039"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0584"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0354"/>
     </Declaration>
     <Declaration>
@@ -1138,6 +1174,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0451"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0572"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Colombia"/>
@@ -1206,6 +1245,9 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0460"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0581"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://dbpedia.org/resource/Cocos_(Keeling)_Islands"/>
     </Declaration>
     <Declaration>
@@ -1260,6 +1302,9 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0461"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0582"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0352"/>
     </Declaration>
     <Declaration>
@@ -1270,6 +1315,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Nepal"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0570"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/United_States"/>
@@ -1446,6 +1494,9 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0315"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0569"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0412"/>
     </Declaration>
     <Declaration>
@@ -1540,6 +1591,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Dominica"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0579"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0349"/>
@@ -1680,6 +1734,9 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0456"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0577"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0347"/>
     </Declaration>
     <Declaration>
@@ -1759,6 +1816,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0324"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0578"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0457"/>
@@ -6914,7 +6974,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0318"/>
-        <Class abbreviatedIRI="obo:HANCESTRO_0566"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0005"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0318"/>
@@ -11011,6 +11071,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0554"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0286"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0554"/>
         <ObjectAllValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:HANCESTRO_0301"/>
             <Class abbreviatedIRI="obo:HANCESTRO_0305"/>
@@ -11119,6 +11183,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0561"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0561"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0385"/>
     </SubClassOf>
     <SubClassOf>
@@ -11148,11 +11216,33 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0564"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0564"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0357"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0564"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:HANCESTRO_0301"/>
+            <Class abbreviatedIRI="obo:HANCESTRO_0305"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0565"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0005"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0565"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0357"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0565"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:HANCESTRO_0301"/>
+            <Class abbreviatedIRI="obo:HANCESTRO_0305"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0566"/>
@@ -11165,6 +11255,100 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0568"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0569"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0307"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0569"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:HANCESTRO_0301"/>
+            <Class abbreviatedIRI="obo:HANCESTRO_0305"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0569"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:HANCESTRO_0308"/>
+            <Class IRI="http://dbpedia.org/resource/Italy"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0570"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0571"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0572"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0573"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0574"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0575"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0576"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0577"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0578"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0579"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0580"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0581"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0582"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0583"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0584"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0585"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0586"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0587"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0588"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh"/>
@@ -12801,6 +12985,11 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Japanese</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0020</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-aboriginal Taiwanese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0020</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Taiwanese</Literal>
@@ -13736,6 +13925,11 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Qatari</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0449</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Saudi Arab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0449</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Saudi</Literal>
@@ -14298,6 +14492,11 @@ category does not include all native populations within the Arctic circle for ex
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Silk Road founder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0555</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Israeli Arab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0555</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Arab Israeli founder</Literal>
@@ -14358,6 +14557,11 @@ category does not include all native populations within the Arctic circle for ex
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">undefined ancestry population</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0567</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">African Caribbean</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0567</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Afro-Caribbean</Literal>
@@ -14366,6 +14570,116 @@ category does not include all native populations within the Arctic circle for ex
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0568</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">African American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0569</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Talana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0570</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pima Indian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0571</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plains American Indian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0572</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kosraen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0573</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Native Hawaiian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0574</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pacific Islander</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0575</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Yoruban</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0576</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">West African</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0577</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dai Chinese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0578</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hui Chinese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0579</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jingpo Chinese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0580</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Malaysian Chinese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0581</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uigur Chinese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0581</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uygur Chinese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0582</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tibetan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0583</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Han Taiwanese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0583</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Taiwanese Han</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0584</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sri Lankan Sinhalese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0585</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tatar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0586</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bashkir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0587</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Martu Australian Aboriginal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0588</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jewish Israeli</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
