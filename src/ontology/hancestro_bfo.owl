@@ -9393,6 +9393,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
+        <obo:IAO_0000115>a population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation</obo:IAO_0000115>
         <obo:IAO_0000118>founder population</obo:IAO_0000118>
         <obo:IAO_0000118>population isolate</obo:IAO_0000118>
         <rdfs:label xml:lang="en">genetically isolated population</rdfs:label>
@@ -9412,6 +9413,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>general characterisation of the ancestry of a population or individual</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ancestry status</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ancestry status</rdfs:label>
     </owl:Class>
@@ -9422,6 +9424,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
+        <obo:IAO_0000115>Ancestry that is the result of cultural or geographic isolation. Generally characterised by increased genetic homogeneity and reduced genetic variation</obo:IAO_0000115>
         <rdfs:label xml:lang="en">genetically isolated ancestry</rdfs:label>
     </owl:Class>
     
@@ -9431,6 +9434,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
+        <obo:IAO_0000115>Ancestry which is an admixture of more than one defined ancestral population. The degree and type of admixture may vary within a population and the accuracy of classification requires well-defined reference samples</obo:IAO_0000115>
         <rdfs:label xml:lang="en">admixed ancestry</rdfs:label>
     </owl:Class>
     

@@ -72,10 +72,10 @@
         <Class IRI="http://dbpedia.org/resource/Cyprus"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0050"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0508"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0508"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0050"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Netherlands"/>
@@ -312,10 +312,10 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0501"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://dbpedia.org/resource/Eritrea"/>
+        <Class IRI="http://dbpedia.org/resource/Lithuania"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://dbpedia.org/resource/Lithuania"/>
+        <Class IRI="http://dbpedia.org/resource/Eritrea"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Wallis_and_Futuna"/>
@@ -438,10 +438,10 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0362"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0580"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0350"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0350"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0580"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0471"/>
@@ -663,10 +663,10 @@
         <Class IRI="http://dbpedia.org/resource/Russia"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0509"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0051"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0051"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0509"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0390"/>
@@ -675,10 +675,10 @@
         <Class IRI="http://dbpedia.org/resource/Norway"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://dbpedia.org/resource/Australia"/>
+        <Class IRI="http://dbpedia.org/resource/Montserrat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://dbpedia.org/resource/Montserrat"/>
+        <Class IRI="http://dbpedia.org/resource/Australia"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Sweden"/>
@@ -885,10 +885,10 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0358"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0588"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0467"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0467"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0588"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0346"/>
@@ -933,10 +933,10 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0452"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0331"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0464"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0464"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0331"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0585"/>
@@ -1086,19 +1086,19 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0486"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0571"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0450"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0450"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0571"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0341"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0583"/>
+        <Class IRI="http://dbpedia.org/resource/Guam"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://dbpedia.org/resource/Guam"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0583"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0462"/>
@@ -1419,10 +1419,10 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0548"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0427"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0318"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0318"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0427"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0439"/>
@@ -1623,10 +1623,10 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0567"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://dbpedia.org/resource/Maldives"/>
+        <Class IRI="http://dbpedia.org/resource/French_Guiana"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://dbpedia.org/resource/French_Guiana"/>
+        <Class IRI="http://dbpedia.org/resource/Maldives"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Northern_Mariana_Islands"/>
@@ -1707,10 +1707,10 @@
         <Class IRI="http://dbpedia.org/resource/Comoros"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0541"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0008"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0008"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0541"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0420"/>
@@ -1734,10 +1734,10 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0456"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0577"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0347"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:HANCESTRO_0347"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0577"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Lebanon"/>
@@ -13185,6 +13185,11 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">South Asia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0290</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <AbbreviatedIRI>obo:HANCESTRO_0290</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">founder population</Literal>
@@ -13205,14 +13210,29 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasAncestryStatus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0304</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">general characterisation of the ancestry of a population or individual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0304</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ancestry status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0305</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ancestry that is the result of cultural or geographic isolation. Generally characterised by increased genetic homogeneity and reduced genetic variation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0305</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">genetically isolated ancestry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0306</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ancestry which is an admixture of more than one defined ancestral population. The degree and type of admixture may vary within a population and the accuracy of classification requires well-defined reference samples</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
