@@ -3,6 +3,7 @@
      xml:base="http://purl.obolibrary.org/obo/hancestro/hancestro.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:patterns="http://www.co-ode.org/patterns#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -10,7 +11,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hancestro/hancestro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2018-07-31/hancestro.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2018-10-04/hancestro.owl"/>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joannella Morales</dc:contributor>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Ancestry Ontology</rdfs:label>
@@ -50,14 +51,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label>alternative_term</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
@@ -89,6 +82,14 @@
     <!-- http://www.co-ode.org/patterns#createdBy -->
 
     <owl:AnnotationProperty rdf:about="http://www.co-ode.org/patterns#createdBy"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -205,7 +206,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Congo</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Congo</oboInOwl:hasExactSynonym>
         <rdfs:label>Republic of the Congo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1100,7 +1101,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Brunei Darussalam</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Brunei Darussalam</oboInOwl:hasExactSynonym>
         <rdfs:label>Brunei</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1967,7 +1968,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Timor-Leste</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Timor-Leste</oboInOwl:hasExactSynonym>
         <rdfs:label>East Timor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2256,7 +2257,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Falkland Islands (Malvinas)</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Falkland Islands (Malvinas)</oboInOwl:hasExactSynonym>
         <rdfs:label>Falkland Islands</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2976,7 +2977,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">China, Hong Kong SAR</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">China, Hong Kong SAR</oboInOwl:hasExactSynonym>
         <rdfs:label>Hong Kong</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3137,7 +3138,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Iran (Islamic Republic of)</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Iran (Islamic Republic of)</oboInOwl:hasExactSynonym>
         <rdfs:label>Iran</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3298,7 +3299,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Côte d&apos;Ivoire</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Côte d&apos;Ivoire</oboInOwl:hasExactSynonym>
         <rdfs:label>Ivory Coast</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3602,7 +3603,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Lao People&apos;s Democratic Republic</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Lao People&apos;s Democratic Republic</oboInOwl:hasExactSynonym>
         <rdfs:label>Laos</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3763,7 +3764,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Libyan Arab Jamahiriya</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Libyan Arab Jamahiriya</oboInOwl:hasExactSynonym>
         <rdfs:label>Libya</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3892,7 +3893,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">China, Macao SAR</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">China, Macao SAR</oboInOwl:hasExactSynonym>
         <rdfs:label>Macau</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4181,7 +4182,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mauritania</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mauritania</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Mauretania</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4310,7 +4311,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Republic of Moldova</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Republic of Moldova</oboInOwl:hasExactSynonym>
         <rdfs:label>Moldova</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4535,7 +4536,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burma</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burma</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Myanmar</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4952,7 +4953,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Democratic People&apos;s Republic of Korea</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Democratic People&apos;s Republic of Korea</oboInOwl:hasExactSynonym>
         <rdfs:label>North Korea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5134,7 +5135,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0043"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Occupied Palestinian Territory</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Occupied Palestinian Territory</oboInOwl:hasExactSynonym>
         <rdfs:label>Palestinian Territories</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5327,7 +5328,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Pitcairn</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Pitcairn</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pitcairn Islands</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5488,7 +5489,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118>Ireland</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>Ireland</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Republic of Ireland</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5521,7 +5522,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">The former Yugoslav Republic of Macedonia</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">The former Yugoslav Republic of Macedonia</oboInOwl:hasExactSynonym>
         <rdfs:label>Republic of Macedonia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5593,7 +5594,7 @@
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Russian Federation</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Russian Federation</oboInOwl:hasExactSynonym>
         <rdfs:label>Russia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5697,7 +5698,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">St. Helena</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">St. Helena</oboInOwl:hasExactSynonym>
         <rdfs:label>Saint Helena</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5803,7 +5804,7 @@
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Saint_Pierre_and_Miquelon">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-        <obo:IAO_0000118 xml:lang="en">Saint-Pierre-et-Miquelon</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Saint-Pierre-et-Miquelon</oboInOwl:hasExactSynonym>
         <rdfs:label>Saint Pierre and Miquelon</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6303,7 +6304,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Republic of Korea</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Republic of Korea</oboInOwl:hasExactSynonym>
         <rdfs:label>South Korea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6675,7 +6676,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">United Republic of Tanzania</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">United Republic of Tanzania</oboInOwl:hasExactSynonym>
         <rdfs:label>Tanzania</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6740,7 +6741,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0048"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Bahamas</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Bahamas</oboInOwl:hasExactSynonym>
         <rdfs:label>The Bahamas</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6773,7 +6774,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Gambia</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Gambia</oboInOwl:hasExactSynonym>
         <rdfs:label>The Gambia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7190,7 +7191,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">U.K.</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">U.K.</oboInOwl:hasExactSynonym>
         <rdfs:label>United Kingdom</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7217,7 +7218,7 @@
 
     <owl:Class rdf:about="http://dbpedia.org/resource/United_States">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-        <obo:IAO_0000118 xml:lang="en">U.S.</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">U.S.</oboInOwl:hasExactSynonym>
         <rdfs:label>United States</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7239,7 +7240,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0048"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">U.S. Virgin Islands</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">U.S. Virgin Islands</oboInOwl:hasExactSynonym>
         <rdfs:label>United States Virgin Islands</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7432,7 +7433,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">Wallis and Futuna Islands</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Wallis and Futuna Islands</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Wallis and Futuna</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7634,7 +7635,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000374">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">major area</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">major area</oboInOwl:hasExactSynonym>
         <rdfs:label>continent</rdfs:label>
     </owl:Class>
     
@@ -7649,7 +7650,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118>geographical area</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>geographical area</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7697,7 +7698,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0004">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ancestral group</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ancestral group</oboInOwl:hasExactSynonym>
         <rdfs:label>ancestry category</rdfs:label>
     </owl:Class>
     
@@ -7709,8 +7710,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as
 European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations.</obo:IAO_0000115>
-        <obo:IAO_0000118>Caucasian</obo:IAO_0000118>
-        <obo:IAO_0000118>white</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>Caucasian</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>white</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European</rdfs:label>
     </owl:Class>
     
@@ -7742,7 +7743,7 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals that either self-report or have been described as Asian but there was not sufficient information to allow classification as East Asian, Central Asian, South Asian or South-East Asian.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asian unspecified</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asian unspecified</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asian</rdfs:label>
     </owl:Class>
     
@@ -7763,7 +7764,7 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals that either self-report or have been described as African, but there was not sufficient information to allow classification as African American, AfroCaribbean or Sub-Saharan African.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">African unspecified</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">African unspecified</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">African</rdfs:label>
     </owl:Class>
     
@@ -7785,7 +7786,7 @@ This category also includes individuals who genetically cluster with reference p
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Indian</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Indian</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Native American</rdfs:label>
     </owl:Class>
     
@@ -7815,7 +7816,7 @@ from this region. This category includes individuals with known admixture of pri
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle Eastern/North African</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle Eastern/North African</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Greater Middle Eastern  (Middle Eastern, North African or Persian)</rdfs:label>
     </owl:Class>
     
@@ -7883,6 +7884,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Taiwan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>non-aboriginal Taiwanese</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taiwanese</rdfs:label>
     </owl:Class>
     
@@ -8617,8 +8619,9 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
-        <obo:IAO_0000118>founder population</obo:IAO_0000118>
-        <obo:IAO_0000118>population isolate</obo:IAO_0000118>
+        <obo:IAO_0000115>a population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>founder population</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>population isolate</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">genetically isolated population</rdfs:label>
     </owl:Class>
     
@@ -8636,6 +8639,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0000115>general characterisation of the ancestry of a population or individual</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ancestry status</rdfs:label>
     </owl:Class>
     
@@ -8645,6 +8649,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
+        <obo:IAO_0000115>Ancestry that is the result of cultural or geographic isolation. Generally characterised by increased genetic homogeneity and reduced genetic variation</obo:IAO_0000115>
         <rdfs:label xml:lang="en">genetically isolated ancestry</rdfs:label>
     </owl:Class>
     
@@ -8654,6 +8659,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
+        <obo:IAO_0000115>Ancestry which is an admixture of more than one defined ancestral population. The degree and type of admixture may vary within a population and the accuracy of classification requires well-defined reference samples</obo:IAO_0000115>
         <rdfs:label xml:lang="en">admixed ancestry</rdfs:label>
     </owl:Class>
     
@@ -8855,7 +8861,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0318">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0566"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0301"/>
@@ -11721,7 +11727,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Suriname"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118>Surinamer</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>Surinamer</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Surinamese</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -12490,6 +12496,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Saudi_Arabia"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>Saudi Arab</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Saudi</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -12932,7 +12939,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/United_States"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118>European American</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>European American</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">American</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -13701,8 +13708,8 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/India"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118>Asian Indian</obo:IAO_0000118>
-        <obo:IAO_0000118>Indian Asian</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>Asian Indian</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Indian Asian</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Indian</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -15718,7 +15725,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
                 <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Republic_of_Ireland"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118>Irish founder</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>Irish founder</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">genetically homogenous Irish</rdfs:label>
     </owl:Class>
     
@@ -15751,6 +15758,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0554">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0301"/>
@@ -15772,6 +15780,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0305"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>Israeli Arab</oboInOwl:hasExactSynonym>
         <rdfs:label>Arab Israeli founder</rdfs:label>
     </owl:Class>
     
@@ -15885,6 +15894,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0385"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -15921,7 +15931,14 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0357"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0301"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0305"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Vis founder</rdfs:label>
     </owl:Class>
     
@@ -15930,7 +15947,14 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0357"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0301"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0305"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Split founder</rdfs:label>
     </owl:Class>
     
@@ -15950,6 +15974,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0567">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0016"/>
+        <oboInOwl:hasExactSynonym>African Caribbean</oboInOwl:hasExactSynonym>
         <rdfs:label>Afro-Caribbean</rdfs:label>
     </owl:Class>
     
@@ -15960,6 +15985,200 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0568">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0016"/>
         <rdfs:label>African American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0301"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0305"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Italy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Talana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
+        <rdfs:label>Pima Indian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
+        <rdfs:label>Plains American Indian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
+        <rdfs:label>Kosraen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
+        <rdfs:label>Native Hawaiian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
+        <rdfs:label>Pacific Islander</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0011"/>
+        <rdfs:label>Yoruban</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0011"/>
+        <rdfs:label>West African</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0021"/>
+        <rdfs:label>Dai Chinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0578">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0021"/>
+        <rdfs:label>Hui Chinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0021"/>
+        <rdfs:label>Jingpo Chinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0580">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0021"/>
+        <rdfs:label>Malaysian Chinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0021"/>
+        <oboInOwl:hasExactSynonym>Uigur Chinese</oboInOwl:hasExactSynonym>
+        <rdfs:label>Uygur Chinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
+        <rdfs:label>Tibetan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
+        <oboInOwl:hasExactSynonym>Han Taiwanese</oboInOwl:hasExactSynonym>
+        <rdfs:label>Taiwanese Han</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
+        <rdfs:label>Sri Lankan Sinhalese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0018"/>
+        <rdfs:label>Tatar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0018"/>
+        <rdfs:label>Bashkir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0018"/>
+        <rdfs:label>Martu Australian Aboriginal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0018"/>
+        <rdfs:label>Jewish Israeli</rdfs:label>
     </owl:Class>
     
 

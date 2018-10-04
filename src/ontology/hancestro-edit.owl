@@ -14,6 +14,7 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
     <Prefix name="patterns" IRI="http://www.co-ode.org/patterns#"/>
     <Prefix name="hancestro" IRI="http://purl.obolibrary.org/obo/HANCESTRO#"/>
     <Annotation>
@@ -381,7 +382,7 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0373"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <Class abbreviatedIRI="oboInOwl:ObsoleteClass"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0361"/>
@@ -1260,6 +1261,9 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0036"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://dbpedia.org/resource/Antigua_and_Barbuda"/>
     </Declaration>
     <Declaration>
@@ -1750,9 +1754,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/Gabon"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://dbpedia.org/resource/South_Korea"/>
@@ -7076,7 +7077,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0328"/>
-        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <Class abbreviatedIRI="oboInOwl:ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -11063,7 +11064,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0553"/>
-        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <Class abbreviatedIRI="oboInOwl:ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0554"/>
@@ -11405,7 +11406,7 @@
         <ObjectProperty abbreviatedIRI="obo:RO_0001025"/>
     </InverseObjectProperties>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/page/Republic_of_the_Congo</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Congo</Literal>
     </AnnotationAssertion>
@@ -11555,7 +11556,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">British Virgin Islands</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Brunei</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Brunei Darussalam</Literal>
     </AnnotationAssertion>
@@ -11705,7 +11706,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dominican Republic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/East_Timor</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Timor-Leste</Literal>
     </AnnotationAssertion>
@@ -11755,7 +11756,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Faeroe Islands</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Falkland_Islands</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Falkland Islands (Malvinas)</Literal>
     </AnnotationAssertion>
@@ -11875,7 +11876,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Honduras</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Hong_Kong</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">China, Hong Kong SAR</Literal>
     </AnnotationAssertion>
@@ -11905,7 +11906,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indonesia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Iran</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Iran (Islamic Republic of)</Literal>
     </AnnotationAssertion>
@@ -11935,7 +11936,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Italy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Ivory_Coast</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Côte d&apos;Ivoire</Literal>
     </AnnotationAssertion>
@@ -11990,7 +11991,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kyrgyzstan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Laos</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lao People&apos;s Democratic Republic</Literal>
     </AnnotationAssertion>
@@ -12020,7 +12021,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Liberia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Libya</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Libyan Arab Jamahiriya</Literal>
     </AnnotationAssertion>
@@ -12045,7 +12046,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luxembourg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Macau</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">China, Macao SAR</Literal>
     </AnnotationAssertion>
@@ -12095,7 +12096,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Martinique</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Mauretania</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mauritania</Literal>
     </AnnotationAssertion>
@@ -12120,7 +12121,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mexico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Moldova</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Republic of Moldova</Literal>
     </AnnotationAssertion>
@@ -12160,7 +12161,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mozambique</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Myanmar</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Burma</Literal>
     </AnnotationAssertion>
@@ -12230,7 +12231,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Norfolk Island</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/North_Korea</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Democratic People&apos;s Republic of Korea</Literal>
     </AnnotationAssertion>
@@ -12265,7 +12266,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Palau</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Palestinian_territories</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Occupied Palestinian Territory</Literal>
     </AnnotationAssertion>
@@ -12300,7 +12301,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Philippines</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Pitcairn_Islands</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pitcairn</Literal>
     </AnnotationAssertion>
@@ -12330,7 +12331,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Qatar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Republic_of_Ireland</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ireland</Literal>
     </AnnotationAssertion>
@@ -12340,7 +12341,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Republic of Ireland</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Republic_of_Macedonia</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The former Yugoslav Republic of Macedonia</Literal>
     </AnnotationAssertion>
@@ -12355,7 +12356,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Romania</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Russia</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Russian Federation</Literal>
     </AnnotationAssertion>
@@ -12375,7 +12376,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Réunion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Saint_Helena</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">St. Helena</Literal>
     </AnnotationAssertion>
@@ -12400,7 +12401,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Saint Martin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Saint_Pierre_and_Miquelon</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Saint-Pierre-et-Miquelon</Literal>
     </AnnotationAssertion>
@@ -12490,7 +12491,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">South Africa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/South_Korea</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Republic of Korea</Literal>
     </AnnotationAssertion>
@@ -12560,7 +12561,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tajikistan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Tanzania</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">United Republic of Tanzania</Literal>
     </AnnotationAssertion>
@@ -12575,7 +12576,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Thailand</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/The_Bahamas</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bahamas</Literal>
     </AnnotationAssertion>
@@ -12585,7 +12586,7 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Bahamas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/The_Gambia</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gambia</Literal>
     </AnnotationAssertion>
@@ -12655,7 +12656,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">United Arab Emirates</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/United_Kingdom</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">U.K.</Literal>
     </AnnotationAssertion>
@@ -12665,7 +12666,7 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">United Kingdom</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/United_States</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">U.S.</Literal>
     </AnnotationAssertion>
@@ -12675,7 +12676,7 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">United States</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/United_States_Virgin_Islands</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">U.S. Virgin Islands</Literal>
     </AnnotationAssertion>
@@ -12710,7 +12711,7 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vietnam</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://dbpedia.org/resource/Wallis_and_Futuna</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Wallis and Futuna Islands</Literal>
     </AnnotationAssertion>
@@ -12760,7 +12761,7 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has_part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:GEO_000000374</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">major area</Literal>
     </AnnotationAssertion>
@@ -12770,7 +12771,7 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">continent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0002</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geographical area</Literal>
     </AnnotationAssertion>
@@ -12795,7 +12796,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">country</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0004</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ancestral group</Literal>
     </AnnotationAssertion>
@@ -12811,12 +12812,12 @@
 European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0005</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Caucasian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0005</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">white</Literal>
     </AnnotationAssertion>
@@ -12852,7 +12853,7 @@ BEB, GIH, ITU, PJL and STU populations.</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Includes individuals that either self-report or have been described as Asian but there was not sufficient information to allow classification as East Asian, Central Asian, South Asian or South-East Asian.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0008</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Asian unspecified</Literal>
     </AnnotationAssertion>
@@ -12877,7 +12878,7 @@ BEB, GIH, ITU, PJL and STU populations.</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Includes individuals that either self-report or have been described as African, but there was not sufficient information to allow classification as African American, AfroCaribbean or Sub-Saharan African.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0010</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">African unspecified</Literal>
     </AnnotationAssertion>
@@ -12903,7 +12904,7 @@ This category also includes individuals who genetically cluster with reference p
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0013</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">American Indian</Literal>
     </AnnotationAssertion>
@@ -12939,7 +12940,7 @@ from this region. This category includes individuals with known admixture of pri
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0015</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Middle Eastern/North African</Literal>
     </AnnotationAssertion>
@@ -12985,7 +12986,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Japanese</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0020</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-aboriginal Taiwanese</Literal>
     </AnnotationAssertion>
@@ -13190,12 +13191,12 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0290</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">founder population</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0290</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">population isolate</Literal>
     </AnnotationAssertion>
@@ -13820,7 +13821,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Saint Vincentian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0425</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Surinamer</Literal>
     </AnnotationAssertion>
@@ -13945,7 +13946,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Qatari</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0449</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Saudi Arab</Literal>
     </AnnotationAssertion>
@@ -14020,7 +14021,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">British</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0463</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">European American</Literal>
     </AnnotationAssertion>
@@ -14145,12 +14146,12 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bhutanese</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0487</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Asian Indian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0487</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indian Asian</Literal>
     </AnnotationAssertion>
@@ -14470,7 +14471,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Zimbabweian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0551</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Irish founder</Literal>
     </AnnotationAssertion>
@@ -14512,7 +14513,7 @@ category does not include all native populations within the Arctic circle for ex
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Silk Road founder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0555</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Israeli Arab</Literal>
     </AnnotationAssertion>
@@ -14577,7 +14578,7 @@ category does not include all native populations within the Arctic circle for ex
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">undefined ancestry population</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0567</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">African Caribbean</Literal>
     </AnnotationAssertion>
@@ -14652,7 +14653,7 @@ category does not include all native populations within the Arctic circle for ex
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Malaysian Chinese</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0581</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uigur Chinese</Literal>
     </AnnotationAssertion>
@@ -14667,7 +14668,7 @@ category does not include all native populations within the Arctic circle for ex
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tibetan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:HANCESTRO_0583</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Han Taiwanese</Literal>
     </AnnotationAssertion>
@@ -14718,11 +14719,6 @@ category does not include all native populations within the Arctic circle for ex
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000118</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alternative_term</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">definition_source</Literal>
     </AnnotationAssertion>
@@ -14748,8 +14744,13 @@ category does not include all native populations within the Arctic circle for ex
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.geneontology.org/formats/oboInOwl#ObsoleteClass</IRI>
+        <AbbreviatedIRI>oboInOwl:ObsoleteClass</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">obsolete class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</Literal>
     </AnnotationAssertion>
 </Ontology>
 
