@@ -11,13 +11,13 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hancestro/hancestro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2018-10-04/hancestro.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2018-11-23/hancestro.owl"/>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joannella Morales</dc:contributor>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1.1</owl:versionInfo>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Ancestry Ontology</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human ancestry ontology for the NHGRI GWAS Catalog</rdfs:comment>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dani Welter</dc:contributor>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</owl:versionInfo>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jackie MacArthur</dc:contributor>
     </owl:Ontology>
     
@@ -8919,7 +8919,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Finland"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Finish</rdfs:label>
+        <rdfs:label xml:lang="en">Finnish</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0321"/>
