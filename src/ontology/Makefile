@@ -10,6 +10,7 @@ ONT_INF=hancestro_inferred
 ONT_BFO=hancestro_bfo
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
+SRCANOT=$(ONT)_annotated.owl
 RELEASEDIR=../..
 ROBOT= ../../bin/robot
 OWLTOOLS= ../../bin/owltools
@@ -20,7 +21,7 @@ SPARQLDIR = ../sparql
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test all_imports bfo_intermediate bfo_full $(ONT).owl $(ONT_INF).owl $(ONT_BFO).owl
+all: sparql_test all_imports hancestro_annotated bfo_intermediate bfo_full $(ONT).owl $(ONT_INF).owl $(ONT_BFO).owl
 #	$(ONT).obo 
 test: sparql_test all
 prepare_release: all
@@ -39,7 +40,7 @@ prepare_release: all
 
 # by default we use Elk to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
-$(ONT).owl: $(SRC)
+$(ONT).owl: $(SRCANOT)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -O $(BASE)/$(ONT).owl -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 #$(ONT).obo: $(ONT).owl
 #	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
@@ -82,13 +83,23 @@ mirror/%.owl: $(SRC)
 
 
 # ----------------------------------------
+# Annotate HANCESTRO with xrefs
+# ----------------------------------------
+# Use a template file to build annotations
+#
+
+hancestro_annotated: $(SRC)
+	$(ROBOT) template --input $<  --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "go: http://www.geneontology.org/formats/oboInOwl#" --prefix "obo http://purl.obolibrary.org/obo/" --template ../templates/gaz_xrefs.tsv merge --input $< --include-annotations true annotate --ontology-iri http://purl.obolibrary.org/obo/hancestro --output $(SRCANOT)
+
+
+# ----------------------------------------
 # Build HANCESTRO-BFO 
 # ----------------------------------------
 # Use a template file to build a
 #
 
 bfo_intermediate: 
-	$(ROBOT) template --input hancestro-edit.owl --prefix "geo: http://purl.obolibrary.org/obo/" --prefix "hancestro: http://purl.obolibrary.org/obo/" --prefix "bfo: http://purl.obolibrary.org/obo/" --prefix "obi: http://purl.obolibrary.org/obo/" --template ../templates/upper_level.tsv merge --input hancestro-edit.owl --include-annotations true reduce --reasoner ELK --output hancestro_bfo_intermediate.owl 
+	$(ROBOT) template --input $(SRCANOT) --prefix "geo: http://purl.obolibrary.org/obo/" --prefix "hancestro: http://purl.obolibrary.org/obo/" --prefix "bfo: http://purl.obolibrary.org/obo/" --prefix "obi: http://purl.obolibrary.org/obo/" --template ../templates/upper_level.tsv merge --input $(SRCANOT) --include-annotations true reduce --reasoner ELK --output hancestro_bfo_intermediate.owl 
 
 
 bfo_full: 
@@ -117,7 +128,7 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference xref-synt
 # run all violation checks
 VQUERIES = $(foreach V,$(VCHECKS),$(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC)
-	robot verify -i $< --queries $(VQUERIES) -O reports/
+	$(ROBOT) verify -i $< --queries $(VQUERIES) -O reports/
 
 # ----------------------------------------
 # Sparql queries: Reports
@@ -126,7 +137,7 @@ sparql_test: $(SRC)
 REPORTS = basic-report class-count-by-prefix edges xrefs obsoletes synonyms
 REPORT_ARGS = $(foreach V,$(REPORTS),-s $(SPARQLDIR)/$V.sparql reports/$V.tsv)
 all_reports: $(SRC)
-	robot query -f tsv -i $< $(REPORT_ARGS)
+	$(ROBOT) query -f tsv -i $< $(REPORT_ARGS)
 
 # ----------------------------------------
 # Docker (experimental)

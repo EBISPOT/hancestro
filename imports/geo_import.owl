@@ -89,12 +89,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -1116,18 +1110,6 @@ for now.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
         <rdfs:label xml:lang="en">requires discussion</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000651 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000651">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
-        <obo:IAO_0000115>Term has undergone final review, is ready for use and included in the release.  It is the final stage of a curated term.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/information-artifact-ontology/IAO/issues/197</obo:IAO_0000233>
-        <rdfs:label xml:lang="en">released</rdfs:label>
     </owl:NamedIndividual>
     
 
