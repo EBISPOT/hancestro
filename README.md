@@ -1,6 +1,3 @@
-<-- [![Build Status](https://travis-ci.org/daniwelter/human-ancestry-ontology.svg?branch=master)](https://travis-ci.org/daniwelter/human-ancestry-ontology)
-[![DOI](https://zenodo.org/badge/13996/daniwelter/human-ancestry-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/daniwelter/human-ancestry-ontology) -->
-
 # human-ancestry-ontology
 
 HANCESTRO
@@ -33,11 +30,11 @@ To reference a specific version of the ontology, please provide a link to this G
 
 ### Ancestry Ontology - Release Notes ###
 
-Date Released: 6th July 2018
+Date Released: 3rd July 2019
 
-Class Count: 556
+Class Count: 575
 
-Please note that in v2.0 of the ontology, all identifiers have changed for ANCESTRO to HANCESTRO.
+Please note that in v2.2 of the ontology, all identifiers have changed for ANCESTRO to HANCESTRO.
 
 
 ### Notice of release ###
@@ -53,7 +50,6 @@ The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/hancestro.owl
 
-(note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version
 
