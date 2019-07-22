@@ -12,7 +12,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hancestro">
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.3</owl:versionInfo>
         <dc:contributor>Joannella Morales</dc:contributor>
         <rdfs:label>Human Ancestry Ontology</rdfs:label>
         <rdfs:comment>Human ancestry ontology for the NHGRI GWAS Catalog</rdfs:comment>
@@ -8630,6 +8630,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000374">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000375"/>
+        <obo:IAO_0000115>One of the large, unbroken masses of land into which the Earth&apos;s surface is divided.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>major area</oboInOwl:hasExactSynonym>
         <rdfs:label>continent</rdfs:label>
         <rdfs:label xml:lang="en">continent</rdfs:label>
@@ -8680,6 +8681,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>geographical area</oboInOwl:hasExactSynonym>
         <rdfs:label>region</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region</rdfs:label>
@@ -8731,6 +8733,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>population category defined using ancestry informative markers (AIMs) based on genetic/genomic data</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ancestral group</oboInOwl:hasExactSynonym>
         <rdfs:label>ancestry category</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ancestry category</rdfs:label>
@@ -9027,7 +9030,6 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000457</oboInOwl:hasDbXref>
         <rdfs:label>Africa</rdfs:label>
     </owl:Class>
     
@@ -10048,9 +10050,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0328">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0100001>http://purl.obolibrary.org/obo/HANCESTRO_0048</obo:IAO_0100001>
-        <rdfs:label xml:lang="en">Caribbean</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_Caribbean</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -16799,10 +16799,9 @@ Australian Aboriginal. These are expected to be descendents of early human migra
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0553">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115>Includes native populations of Alaska, Siberia, and the Aleutian Archipelago. This
 category does not include all native populations within the Arctic circle for example the Finnish Saami who are descended from Europeans and are therefore included within the European ancestry category.</obo:IAO_0000115>
-        <rdfs:label>Circumpolar people</rdfs:label>
+        <rdfs:label>obsolete_Circumpolar people</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -17464,19 +17463,19 @@ for now.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GEO:000000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO:000000374">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00190836</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
     <!-- http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh -->
 
     <owl:Class rdf:about="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
         <rdfs:label>Punjabi Sikh</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
-
-    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
-        <rdfs:label xml:lang="en">obsolete class</rdfs:label>
     </owl:Class>
     
 

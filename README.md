@@ -30,11 +30,11 @@ To reference a specific version of the ontology, please provide a link to this G
 
 ### Ancestry Ontology - Release Notes ###
 
-Date Released: 3rd July 2019
+Date Released: 22nd July 2019
 
 Class Count: 575
 
-Please note that in v2.2 of the ontology, all identifiers have changed for ANCESTRO to HANCESTRO.
+Please note that in v2.3 of the ontology, all identifiers have changed for ANCESTRO to HANCESTRO.
 
 
 ### Notice of release ###
