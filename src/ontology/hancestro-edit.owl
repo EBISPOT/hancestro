@@ -1768,9 +1768,6 @@
         <Class IRI="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="oboInOwl:ObsoleteClass"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
     </Declaration>
     <Declaration>
@@ -7082,10 +7079,6 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:HANCESTRO_0328"/>
-        <Class abbreviatedIRI="oboInOwl:ObsoleteClass"/>
-    </SubClassOf>
-    <SubClassOf>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="patterns:createdBy"/>
             <Literal>http://e-lico.eu/populous#OPPL_pattern</Literal>
@@ -11069,10 +11062,6 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0004"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:HANCESTRO_0553"/>
-        <Class abbreviatedIRI="oboInOwl:ObsoleteClass"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0554"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0018"/>
     </SubClassOf>
@@ -13377,14 +13366,9 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal>Ashkenazi Jew</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0100001"/>
-        <AbbreviatedIRI>obo:HANCESTRO_0328</AbbreviatedIRI>
-        <Literal>http://purl.obolibrary.org/obo/HANCESTRO_0048</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0328</AbbreviatedIRI>
-        <Literal xml:lang="en">Caribbean</Literal>
+        <Literal xml:lang="en">obsolete_Caribbean</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
@@ -14551,7 +14535,7 @@ category does not include all native populations within the Arctic circle for ex
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0553</AbbreviatedIRI>
-        <Literal>Circumpolar people</Literal>
+        <Literal>obsolete_Circumpolar people</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
@@ -14797,11 +14781,6 @@ category does not include all native populations within the Arctic circle for ex
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh</IRI>
         <Literal>Punjabi Sikh</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>oboInOwl:ObsoleteClass</AbbreviatedIRI>
-        <Literal xml:lang="en">obsolete class</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
