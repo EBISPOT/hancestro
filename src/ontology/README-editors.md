@@ -67,8 +67,8 @@ Finally type
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
- * https://github.com/daniwelter/human-ancestry-ontology/releases
- * https://github.com/daniwelter/human-ancestry-ontology/releases/new
+ * https://github.com/EBISPOT/ancestro/releases
+ * https://github.com/EBISPOT/ancestro/releases/new
 
 The value of the "Tag version" field MUST be
 
@@ -91,9 +91,11 @@ correct ontologies. Try it!
 
 For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
+<!---
 # Travis Continuous Integration System
 
 Check the build status here: [![Build Status](https://travis-ci.org/daniwelter/human-ancestry-ontology.svg?branch=master)](https://travis-ci.org/daniwelter/human-ancestry-ontology)
 
 Note: if you have only just created this project you will need to authorize travis for this repo. Go to [https://travis-ci.org/profile/daniwelter](https://travis-ci.org/profile/daniwelter) for details
+--->
 
