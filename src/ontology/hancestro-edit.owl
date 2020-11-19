@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://purl.obolibrary.org/obo/hancestro.owl">
-    <Prefix name="" IRI="http://purl.obolibrary.org/obo/hancestro.owl/"/>
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/hancestro.owl"/>
     <Prefix name="ro" IRI="http://www.obofoundry.org/ro/ro.owl#"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -30,20 +30,20 @@
         <Literal>Joannella Morales</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/license"/>
-        <IRI>http://creativecommons.org/licenses/by/4.0/</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
         <Literal>Human ancestry ontology for the NHGRI GWAS Catalog</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
         <Literal>Human Ancestry Ontology</Literal>
     </Annotation>
     <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+        <IRI>http://creativecommons.org/licenses/by/4.0/</IRI>
+    </Annotation>
+    <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.4</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://dbpedia.org/page/Republic_of_the_Congo"/>
@@ -1765,6 +1765,24 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0588"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0589"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0590"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0591"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0592"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0593"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0594"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh"/>
     </Declaration>
     <Declaration>
@@ -1813,7 +1831,13 @@
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/license"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="patterns:createdBy"/>
@@ -9397,7 +9421,7 @@
             <Literal>http://e-lico.eu/populous#OPPL_pattern</Literal>
         </Annotation>
         <Class abbreviatedIRI="obo:HANCESTRO_0463"/>
-        <Class abbreviatedIRI="obo:HANCESTRO_0005"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0566"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -11347,8 +11371,28 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0018"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0589"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0590"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0591"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0592"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0593"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0594"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0011"/>
     </SubClassOf>
     <DisjointClasses>
         <Class abbreviatedIRI="obo:HANCESTRO_0029"/>
@@ -12843,7 +12887,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:HANCESTRO_0004</AbbreviatedIRI>
-        <Literal>population category defined using ancestry informative markers (AIMs) based on genetic/genomic data</Literal>
+        <Literal>Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
@@ -13023,7 +13067,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:HANCESTRO_0018</AbbreviatedIRI>
-        <Literal>a population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories</Literal>
+        <Literal>A population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13238,7 +13282,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:HANCESTRO_0290</AbbreviatedIRI>
-        <Literal>a population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation</Literal>
+        <Literal>A population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
@@ -13263,7 +13307,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:HANCESTRO_0304</AbbreviatedIRI>
-        <Literal>general characterisation of the ancestry of a population or individual</Literal>
+        <Literal>General characterisation of the ancestry of a population or individual</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -14071,11 +14115,6 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
         <Literal xml:lang="en">British</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:HANCESTRO_0463</AbbreviatedIRI>
-        <Literal>European American</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0463</AbbreviatedIRI>
         <Literal xml:lang="en">American</Literal>
@@ -14620,7 +14659,7 @@ category does not include all native populations within the Arctic circle for ex
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:HANCESTRO_0566</AbbreviatedIRI>
-        <Literal>population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American</Literal>
+        <Literal>Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -14754,6 +14793,61 @@ category does not include all native populations within the Arctic circle for ex
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0589</AbbreviatedIRI>
+        <Literal>Punjabi Sikh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0590</AbbreviatedIRI>
+        <Literal>American of European ancestry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0590</AbbreviatedIRI>
+        <Literal>European American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0591</AbbreviatedIRI>
+        <Literal>The Esan people are one of the major ethnic groups in Edo State, Nigeria who speak the Esan language. (PMID:10146569) Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Esan-in-Nigeria-ESN)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0591</AbbreviatedIRI>
+        <Literal xml:lang="en">Esan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0592</AbbreviatedIRI>
+        <Literal>The Luhya are the second-largest ethnic group in Kenya and are comprised of subgroups that speak a common Bantu language. (PMID: 27813082) The Luhya ancestry group was assembled as part of phase III of the HapMap project and used in a number of rare variant density studies (PMID:22373165, PMID:26673965)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0592</AbbreviatedIRI>
+        <Literal xml:lang="en">Luhya</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0593</AbbreviatedIRI>
+        <Literal>The Maasai are an indigenous African ethnic group of semi-nomadic people located in northern Tanzania and Kenya. (PMID:29868928) The Maasai ancestry group was assembled as part of phase III of the HapMap project and used as reference in a range of population genetic studies (PMID:28049708).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0593</AbbreviatedIRI>
+        <Literal xml:lang="en">Maasai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0594</AbbreviatedIRI>
+        <Literal>The Mende people are one of the largest ethnic groups in Sierra Leone who speak a language of the Mande branch of the Niger-Congo family. (PMID:15761855)  Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Mende-in-Sierra-Leone-MSL)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0594</AbbreviatedIRI>
+        <Literal xml:lang="en">Mende</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
         <Literal>definition</Literal>
     </AnnotationAssertion>
@@ -14795,7 +14889,12 @@ category does not include all native populations within the Arctic circle for ex
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh</IRI>
-        <Literal>Punjabi Sikh</Literal>
+        <Literal>obsolete_Punjabi Sikh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

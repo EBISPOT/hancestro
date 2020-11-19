@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/hancestro/hancestro.owl#"
      xml:base="http://purl.obolibrary.org/obo/hancestro/hancestro.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -10,12 +11,12 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hancestro/hancestro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2019-07-22/hancestro.owl"/>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.3</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2020-11-19/hancestro.owl"/>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.4</owl:versionInfo>
         <dc:contributor>Joannella Morales</dc:contributor>
-        <rdfs:label>Human Ancestry Ontology</rdfs:label>
-        <rdfs:comment>Human ancestry ontology for the NHGRI GWAS Catalog</rdfs:comment>
+        <dc:title>Human Ancestry Ontology</dc:title>
+        <dc:description>Human ancestry ontology for the NHGRI GWAS Catalog</dc:description>
         <dc:contributor>Jackie MacArthur</dc:contributor>
         <dc:contributor>Dani Welter</dc:contributor>
     </owl:Ontology>
@@ -2567,7 +2568,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0004">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000115>population category defined using ancestry informative markers (AIMs) based on genetic/genomic data</obo:IAO_0000115>
+        <obo:IAO_0000115>Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ancestral group</oboInOwl:hasExactSynonym>
         <rdfs:label>ancestry category</rdfs:label>
     </owl:Class>
@@ -2711,7 +2712,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
-        <obo:IAO_0000115>a population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories</obo:IAO_0000115>
+        <obo:IAO_0000115>A population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories</obo:IAO_0000115>
         <rdfs:label>uncategorised population</rdfs:label>
     </owl:Class>
     
@@ -3082,7 +3083,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
-        <obo:IAO_0000115>a population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation</obo:IAO_0000115>
+        <obo:IAO_0000115>A population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>founder population</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>population isolate</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">genetically isolated population</rdfs:label>
@@ -3094,7 +3095,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0304">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000115>general characterisation of the ancestry of a population or individual</obo:IAO_0000115>
+        <obo:IAO_0000115>General characterisation of the ancestry of a population or individual</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ancestry status</rdfs:label>
     </owl:Class>
     
@@ -4491,8 +4492,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0463">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <oboInOwl:hasExactSynonym>European American</oboInOwl:hasExactSynonym>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0566"/>
         <rdfs:label xml:lang="en">American</rdfs:label>
     </owl:Class>
     
@@ -5427,7 +5427,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0566">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
-        <obo:IAO_0000115>population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American</obo:IAO_0000115>
+        <obo:IAO_0000115>Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American</obo:IAO_0000115>
         <rdfs:label>undefined ancestry population</rdfs:label>
     </owl:Class>
     
@@ -5635,6 +5635,65 @@ category does not include all native populations within the Arctic circle for ex
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
+        <rdfs:label>Punjabi Sikh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
+        <oboInOwl:hasExactSynonym>American of European ancestry</oboInOwl:hasExactSynonym>
+        <rdfs:label>European American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0011"/>
+        <obo:IAO_0000115>The Esan people are one of the major ethnic groups in Edo State, Nigeria who speak the Esan language. (PMID:10146569) Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Esan-in-Nigeria-ESN)</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Esan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0592">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0011"/>
+        <obo:IAO_0000115>The Luhya are the second-largest ethnic group in Kenya and are comprised of subgroups that speak a common Bantu language. (PMID: 27813082) The Luhya ancestry group was assembled as part of phase III of the HapMap project and used in a number of rare variant density studies (PMID:22373165, PMID:26673965)</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Luhya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0011"/>
+        <obo:IAO_0000115>The Maasai are an indigenous African ethnic group of semi-nomadic people located in northern Tanzania and Kenya. (PMID:29868928) The Maasai ancestry group was assembled as part of phase III of the HapMap project and used as reference in a range of population genetic studies (PMID:28049708).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Maasai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0011"/>
+        <obo:IAO_0000115>The Mende people are one of the largest ethnic groups in Sierra Leone who speak a language of the Mande branch of the Niger-Congo family. (PMID:15761855)  Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Mende-in-Sierra-Leone-MSL)</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Mende</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GEO:000000374 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO:000000374">
@@ -5647,8 +5706,9 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh -->
 
     <owl:Class rdf:about="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:label>Punjabi Sikh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>obsolete_Punjabi Sikh</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
