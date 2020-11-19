@@ -9,11 +9,12 @@ The following HANCESTRO release files are provided
 
 * https://github.com/EBISPOT/ancestro/blob/master/hancestro.owl
 * https://github.com/EBISPOT/ancestro/blob/master/hancestro_inferred.owl - pre-inferred version of HANCESTRO
+* https://github.com/EBISPOT/ancestro/blob/master/hancestro_bfo.owl - version of HANCESTRO fitted into the BFO upper hierarchy for ease of integration with other ontologies
 
 
 ### Contact Details ###
 
-For questions and comments and to report any issues, please email Dani Welter at dwelter@ebi.ac.uk. To submit a feature request, submit a ticket via the [HANCESTRO Github issue tracker](https://github.com/EBISPOT/ancestro/issues).
+For questions and comments and to report any issues, please email Dani Welter at danielle.welter@uni.lu. To submit a feature request, submit a ticket via the [HANCESTRO Github issue tracker](https://github.com/EBISPOT/ancestro/issues).
 
 
 ### Licence ###
@@ -30,11 +31,16 @@ To reference a specific version of the ontology, please provide a link to this G
 
 ### Ancestry Ontology - Release Notes ###
 
-Date Released: 22nd July 2019
+#### Current release: 2.4
 
-Class Count: 575
+Date Released: 19 November 2020
 
-Please note that in v2.3 of the ontology, all identifiers have changed for ANCESTRO to HANCESTRO.
+Class Count: 599
+
+See the [release notes](https://github.com/EBISPOT/ancestro/releases) for details of most recent changes.
+
+
+Please note that as of v2.3 of the ontology, all identifiers have changed for ANCESTRO to HANCESTRO.
 
 
 ### Notice of release ###
