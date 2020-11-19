@@ -48,8 +48,7 @@ to release:
     cd src/ontology
     make
 
-If this looks goo
-d type:
+If this looks good type:
 
     make prepare_release
 
@@ -73,13 +72,11 @@ IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
 The value of the "Tag version" field MUST be
 
-    vYYYY-MM-DD
+    X.Y
 
-The initial lowercase "v" is REQUIRED. The YYYY-MM-DD *must* match
-what is in the versionIRI of the derived hancestro.owl (data-version in
-hancestro.obo).
+where X represents the major version number and Y the minor version number. For patch releases (eg non-label typo corrections or bug fixes), the version number should be X.Y.Z where Z represents the patch number.
 
-Release title should be YYYY-MM-DD, optionally followed by a title (e.g. "january release")
+Release title should be `HANCESTRO release X.Y`, optionally followed by a title (e.g. "january release")
 
 Then click "publish release"
 
