@@ -32,7 +32,7 @@ prepare_release: all
 	git add $(RELEASEDIR)/imports/*.obo &&\
 	git add $(RELEASEDIR)/imports/*.owl &&\
 	(test -f subsets/*owl && cp subsets/* $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
-	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
+	echo "Release files are now in $(RELEASEDIR) - now yo.json',u should commit, push and make a release on github"
 
 # ----------------------------------------
 # Main release targets
@@ -45,9 +45,9 @@ $(ONT).owl: $(SRCANOT)
 #$(ONT).obo: $(ONT).owl
 #	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 $(ONT_INF).owl: $(ONT).owl
-	$(ROBOT) -v reason -s true -m true -r hermit -i $< -o $@
+	$(ROBOT) -v reason -s true -m false -r hermit -i $< -o $@
 #$(ONT_BFO).owl: $(ONT).owl
-#	$(ROBOT) -v reason -s true -m true -r hermit -i $< -o $@
+#	$(ROBOT) -v reason -s true -m false -r hermit -i $< -o $@
 
 # ----------------------------------------
 # Import modules
