@@ -48,8 +48,7 @@ to release:
     cd src/ontology
     make
 
-If this looks goo
-d type:
+If this looks good type:
 
     make prepare_release
 
@@ -68,18 +67,16 @@ Finally type
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
- * https://github.com/daniwelter/human-ancestry-ontology/releases
- * https://github.com/daniwelter/human-ancestry-ontology/releases/new
+ * https://github.com/EBISPOT/ancestro/releases
+ * https://github.com/EBISPOT/ancestro/releases/new
 
 The value of the "Tag version" field MUST be
 
-    vYYYY-MM-DD
+    X.Y
 
-The initial lowercase "v" is REQUIRED. The YYYY-MM-DD *must* match
-what is in the versionIRI of the derived hancestro.owl (data-version in
-hancestro.obo).
+where X represents the major version number and Y the minor version number. For patch releases (eg non-label typo corrections or bug fixes), the version number should be X.Y.Z where Z represents the patch number.
 
-Release title should be YYYY-MM-DD, optionally followed by a title (e.g. "january release")
+Release title should be `HANCESTRO release X.Y`, optionally followed by a title (e.g. "january release")
 
 Then click "publish release"
 
@@ -94,9 +91,11 @@ correct ontologies. Try it!
 
 For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
+<!---
 # Travis Continuous Integration System
 
 Check the build status here: [![Build Status](https://travis-ci.org/daniwelter/human-ancestry-ontology.svg?branch=master)](https://travis-ci.org/daniwelter/human-ancestry-ontology)
 
 Note: if you have only just created this project you will need to authorize travis for this repo. Go to [https://travis-ci.org/profile/daniwelter](https://travis-ci.org/profile/daniwelter) for details
+--->
 
