@@ -40,10 +40,10 @@ For complex ancestral backgrounds that do not fit any individual ancestral group
 
 ## What's the difference between ancestry and ethnicity? ##
 
-The concepts of ancestry, ethnicity and race are often used interchangeably and there are sensitivities surrounding these topics. Here, we refer to ancestry for the purpose of describing the genetic background of individuals or populations, while ethnicity refers more to a socio-cultural context. As per Table 2 of Morales et al., ancestry of participants in genomic studies should ideally by confirmed using genomic methods such as principle component analysis to confirm self-reported ancestries.
+The concepts of ancestry, ethnicity and race are often used interchangeably and there are sensitivities surrounding these topics. Here, we refer to ancestry for the purpose of describing the genetic background of individuals or populations, while ethnicity refers more to a socio-cultural context. As per [Table 2 of Morales et al.](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1396-2/tables/2), ancestry of participants in genomic studies should ideally by confirmed using genomic methods such as principle component analysis to confirm self-reported ancestries.
 
 
-##Why should I use HANCESTRO rather than NCIt or another ontology? ##
+## Why should I use HANCESTRO rather than NCIt or another ontology? ##
 
 The ancestry groups in HANCESTRO have been carefully defined in a single hierarchy based on available population genomic information, to aid in the annotation and classification of ancestry information, particularly but not exclusively, in genomic studies. In NCIt, ancestry-related concepts are located under different parent terms, in the wider hierarchy of `Population Group` (NCIT:C17005), which can complicate querying and annotation restrictions. The majority of ancestry-related concepts are also grouped under the parent term `Race` (NCIT:C17049), which not only as a concept carries negative cultural associations but also in this particular case has a definition that is not exclusively limited to human subjects. It would therefore be preferable to annotated human data with clearly human-specific terminology.
 
