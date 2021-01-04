@@ -43,7 +43,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://dbpedia.org/page/Republic_of_the_Congo"/>
@@ -1781,6 +1781,12 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:HANCESTRO_0594"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0595"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0596"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh"/>
@@ -11394,6 +11400,14 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0594"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0011"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0595"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0596"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0015"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class abbreviatedIRI="obo:HANCESTRO_0029"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0030"/>
@@ -14845,6 +14859,46 @@ category does not include all native populations within the Arctic circle for ex
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0594</AbbreviatedIRI>
         <Literal xml:lang="en">Mende</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0595</AbbreviatedIRI>
+        <Literal>Native people residing in the Arctic of Alaska, northern Canada, Greenland, or eastern Siberia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0595</AbbreviatedIRI>
+        <Literal>PMID:25884279</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0595</AbbreviatedIRI>
+        <Literal>PMID:29220501</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0595</AbbreviatedIRI>
+        <Literal>Eskimo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0596</AbbreviatedIRI>
+        <Literal>Includes individuals with ethnic origins in the Semitic people populating the Arabian Peninsula and other countries in the Middle East and Northern Africa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0596</AbbreviatedIRI>
+        <Literal>PMID:27393651</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0596</AbbreviatedIRI>
+        <Literal>PMID:28106113</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0596</AbbreviatedIRI>
+        <Literal>Arab</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

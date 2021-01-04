@@ -12,9 +12,9 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hancestro/hancestro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2020-11-19/hancestro.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2020-12-18/hancestro.owl"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.4</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</owl:versionInfo>
         <dc:contributor>Joannella Morales</dc:contributor>
         <dc:title>Human Ancestry Ontology</dc:title>
         <dc:description>Human ancestry ontology for the NHGRI GWAS Catalog</dc:description>
@@ -16534,6 +16534,30 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0011"/>
         <obo:IAO_0000115>The Mende people are one of the largest ethnic groups in Sierra Leone who speak a language of the Mande branch of the Niger-Congo family. (PMID:15761855)  Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Mende-in-Sierra-Leone-MSL)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Mende</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0018"/>
+        <obo:IAO_0000115>Native people residing in the Arctic of Alaska, northern Canada, Greenland, or eastern Siberia</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:25884279</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:29220501</obo:IAO_0000119>
+        <rdfs:label>Eskimo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
+        <obo:IAO_0000115>Includes individuals with ethnic origins in the Semitic people populating the Arabian Peninsula and other countries in the Middle East and Northern Africa</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:27393651</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:28106113</obo:IAO_0000119>
+        <rdfs:label>Arab</rdfs:label>
     </owl:Class>
     
 

@@ -28,14 +28,20 @@ Please cite *Joannella Morales, Danielle Welter, Emily H. Bowler, Maria Cerezo, 
 
 To reference a specific version of the ontology, please provide a link to this GITHUB repo, including the tag for the version you downloaded and the date of the download.
 
+### FAQ ###
+
+Please see our [FAQ](/faq.md) for some more information.
+
 
 ### Ancestry Ontology - Release Notes ###
 
-#### Current release: 2.4
+#### Current release: 2.5
 
-Date Released: 19 November 2020
+Date Released: 4 January 2021
 
-Class Count: 599
+Class Count: 584 
+
+*(Please note that the class count published for release 2.4 was incorrect. No classes were deprecated between release 2.4 and 2.5)*
 
 See the [release notes](https://github.com/EBISPOT/ancestro/releases) for details of most recent changes.
 
