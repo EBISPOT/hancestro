@@ -18,6 +18,14 @@
     <Prefix name="patterns" IRI="http://www.co-ode.org/patterns#"/>
     <Prefix name="hancestro" IRI="http://purl.obolibrary.org/obo/HANCESTRO#"/>
     <Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000700"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0004</AbbreviatedIRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000700"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0304</AbbreviatedIRI>
+    </Annotation>
+    <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
         <Literal>Human ancestry ontology for the NHGRI GWAS Catalog</Literal>
     </Annotation>
@@ -31,7 +39,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.6</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://dbpedia.org/page/Republic_of_the_Congo"/>
@@ -1807,6 +1815,12 @@
         <ObjectProperty abbreviatedIRI="obo:RO_0001025"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
     </Declaration>
     <Declaration>
@@ -1817,6 +1831,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000700"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0100001"/>
@@ -14886,6 +14903,61 @@ category does not include all native populations within the Arctic circle for ex
         <Literal>Arab</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">editor preferred term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Daniel Schober</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">editor preferred term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">has curation status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Bill Bug</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Melanie Courtot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">has curation status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
         <Literal>definition</Literal>
@@ -14909,6 +14981,26 @@ category does not include all native populations within the Arctic circle for ex
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
         <Literal>definition_source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000700</AbbreviatedIRI>
+        <Literal xml:lang="en">has ontology root term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000700</AbbreviatedIRI>
+        <Literal xml:lang="en">Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000700</AbbreviatedIRI>
+        <Literal xml:lang="en">Nicolas Matentzoglu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000700</AbbreviatedIRI>
+        <Literal xml:lang="en">has ontology root term</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
