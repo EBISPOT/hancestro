@@ -58,7 +58,7 @@ $(ONT_INF).owl: $(ONT).owl
 
 IMPORTS = bfo geo obi
 # IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
-IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))  imports/obi_import.owl
+IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))  imports/geo_import.owl imports/obi_import.owl
 
 # Make this target to regenerate ALL
 all_imports: $(IMPORTS_OWL)
@@ -67,6 +67,10 @@ all_imports: $(IMPORTS_OWL)
 imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
+
+imports/geo_import.owl: mirror/geo.owl imports/geo_terms.txt
+	$(ROBOT) extract -i $< -T imports/geo_terms.txt --method BOT -O $(BASE)/$@ remove --term IAO:0000030 -o $@
+.PRECIOUS: imports/geo_import.owl
 
 imports/obi_import.owl: mirror/obi.owl imports/obi_terms.txt
 	$(ROBOT) extract -i mirror/obi.owl -T imports/obi_terms.txt --method MIREOT --upper-term "obo:BFO_0000040" --lower-term "obo:OBI_0000181" -O $(BASE)/$@ -o $@
