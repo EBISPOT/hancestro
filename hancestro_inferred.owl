@@ -7941,6 +7941,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000374">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>One of the large, unbroken masses of land into which the Earth&apos;s surface is divided.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00190836</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>major area</oboInOwl:hasExactSynonym>
         <rdfs:label>continent</rdfs:label>
     </owl:Class>
@@ -8303,6 +8304,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000457</oboInOwl:hasDbXref>
         <rdfs:label>Africa</rdfs:label>
     </owl:Class>
     
@@ -16616,15 +16618,6 @@ category does not include all native populations within the Arctic circle for ex
         <obo:IAO_0000119>PMID:27393651</obo:IAO_0000119>
         <obo:IAO_0000119>PMID:28106113</obo:IAO_0000119>
         <rdfs:label>Arab</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GEO:000000374 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO:000000374">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00190836</oboInOwl:hasDbXref>
     </owl:Class>
     
 
