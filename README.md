@@ -35,13 +35,15 @@ Please see our [FAQ](/faq.md) for some more information.
 
 ### Ancestry Ontology - Release Notes ###
 
-#### Current release: 2.5
+#### Current release: 2.6
 
-Date Released: 4 January 2021
+Date Released: 12 May 2022
 
-Class Count: 584 
+Class Count: 583 
 
-*(Please note that the class count published for release 2.4 was incorrect. No classes were deprecated between release 2.4 and 2.5)*
+- Removal of an extraneous import of `GEO:000000374`
+- Replacement of `createdBy` by `dcterms:creator`
+- Addition of `LICENSE` file
 
 See the [release notes](https://github.com/EBISPOT/ancestro/releases) for details of most recent changes.
 
