@@ -13648,7 +13648,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0368</AbbreviatedIRI>
-        <Literal xml:lang="en">Hungrian</Literal>
+        <Literal xml:lang="en">Hungarian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
