@@ -1785,6 +1785,12 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0596"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0597"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:HANCESTRO_0598"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh"/>
     </Declaration>
     <Declaration>
@@ -11410,6 +11416,14 @@
         <Class abbreviatedIRI="obo:HANCESTRO_0596"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0015"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0597"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:HANCESTRO_0598"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0487"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class abbreviatedIRI="obo:HANCESTRO_0029"/>
         <Class abbreviatedIRI="obo:HANCESTRO_0030"/>
@@ -13072,8 +13086,7 @@ from this region. This category includes individuals with known admixture of pri
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:HANCESTRO_0017</AbbreviatedIRI>
-        <Literal xml:lang="en">Includes individuals that either self-report or have been described by authors as
-Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</Literal>
+        <Literal xml:lang="en">Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -14588,8 +14601,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:HANCESTRO_0552</AbbreviatedIRI>
-        <Literal>Includes individuals who either self-report or have been described by authors as
-Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation.</Literal>
+        <Literal>Includes individuals who either self-report or have been described by authors as Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -14901,6 +14913,46 @@ category does not include all native populations within the Arctic circle for ex
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0596</AbbreviatedIRI>
         <Literal>Arab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0597</AbbreviatedIRI>
+        <Literal>Includes individuals who either self-report or have been described by authors as Singaporean Malay.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0597</AbbreviatedIRI>
+        <Literal>PMID:19700652</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0597</AbbreviatedIRI>
+        <Literal>PMID:31626772</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0597</AbbreviatedIRI>
+        <Literal>Singaporean Malay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0598</AbbreviatedIRI>
+        <Literal>Includes individuals who either self-report or have been described by authors as Singaporean Indian.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0598</AbbreviatedIRI>
+        <Literal>PMID:19700652</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0598</AbbreviatedIRI>
+        <Literal>PMID:31626772</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0598</AbbreviatedIRI>
+        <Literal>Singaporean Indian</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
