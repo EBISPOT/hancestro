@@ -11378,7 +11378,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0587"/>
-        <Class abbreviatedIRI="obo:HANCESTRO_0018"/>
+        <Class abbreviatedIRI="obo:HANCESTRO_0552"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:HANCESTRO_0588"/>
@@ -14808,6 +14808,31 @@ category does not include all native populations within the Arctic circle for ex
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:HANCESTRO_0586</AbbreviatedIRI>
         <Literal>Bashkir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0587</AbbreviatedIRI>
+        <Literal>Includes individuals who either self-report or have been described by authors as Aboriginal Australian of Martu ancestry. The Martu Australian Aboriginal people are from the Western Desert region located across the Pilbara in Western Australia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0587</AbbreviatedIRI>
+        <Literal>Mardu Aboriginal Australian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0587</AbbreviatedIRI>
+        <Literal>Mardu Australian Aboriginal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0587</AbbreviatedIRI>
+        <Literal>Martu Aboriginal Australian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:HANCESTRO_0587</AbbreviatedIRI>
+        <Literal>PMID:27070114</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
