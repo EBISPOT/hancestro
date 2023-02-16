@@ -93,7 +93,7 @@ mirror/%.owl: $(SRC)
 #
 
 hancestro_annotated: $(SRC)
-	$(ROBOT) template --input $<  --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "go: http://www.geneontology.org/formats/oboInOwl#" --prefix "obo http://purl.obolibrary.org/obo/" --template ../templates/gaz_xrefs.tsv merge --input $< --include-annotations true annotate --ontology-iri http://purl.obolibrary.org/obo/hancestro --output $(SRCANOT)
+	$(ROBOT) template --input $<  --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "go: http://www.geneontology.org/formats/oboInOwl#" --prefix "obo: http://purl.obolibrary.org/obo/" --template ../templates/gaz_xrefs.tsv merge --input $< --include-annotations true annotate --ontology-iri http://purl.obolibrary.org/obo/hancestro --output $(SRCANOT)
 
 
 # ----------------------------------------
