@@ -39,7 +39,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.7</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://dbpedia.org/page/Republic_of_the_Congo"/>
