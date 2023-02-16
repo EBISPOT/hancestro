@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/hancestro/hancestro.owl#"
      xml:base="http://purl.obolibrary.org/obo/hancestro/hancestro.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hancestro/hancestro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2022-05-12/hancestro.owl"/>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2023-02-16/hancestro.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
-        <dc:title>Human Ancestry Ontology</dc:title>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</owl:versionInfo>
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
         <dc:description>Human ancestry ontology for the NHGRI GWAS Catalog</dc:description>
+        <dc:title>Human Ancestry Ontology</dc:title>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -8151,8 +8151,7 @@ from this region. This category includes individuals with known admixture of pri
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
-        <obo:IAO_0000115 xml:lang="en">Includes individuals that either self-report or have been described by authors as
-Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</obo:IAO_0000115>
         <rdfs:label>Oceanian</rdfs:label>
     </owl:Class>
     
@@ -10373,7 +10372,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Hungary"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Hungrian</rdfs:label>
+        <rdfs:label xml:lang="en">Hungarian</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0368"/>
@@ -16061,8 +16060,7 @@ Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
-        <obo:IAO_0000115>Includes individuals who either self-report or have been described by authors as
-Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation.</obo:IAO_0000115>
+        <obo:IAO_0000115>Includes individuals who either self-report or have been described by authors as Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation.</obo:IAO_0000115>
         <rdfs:label>Aboriginal Australian</rdfs:label>
     </owl:Class>
     
@@ -16494,7 +16492,12 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0587">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0552"/>
+        <obo:IAO_0000115>Includes individuals who either self-report or have been described by authors as Aboriginal Australian of Martu ancestry. The Martu Australian Aboriginal people are from the Western Desert region located across the Pilbara in Western Australia</obo:IAO_0000115>
+        <obo:IAO_0000118>Mardu Aboriginal Australian</obo:IAO_0000118>
+        <obo:IAO_0000118>Mardu Australian Aboriginal</obo:IAO_0000118>
+        <obo:IAO_0000118>Martu Aboriginal Australian</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:27070114</obo:IAO_0000119>
         <rdfs:label>Martu Australian Aboriginal</rdfs:label>
     </owl:Class>
     
@@ -16592,6 +16595,30 @@ category does not include all native populations within the Arctic circle for ex
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0007"/>
+        <obo:IAO_0000115>Includes individuals who either self-report or have been described by authors as Singaporean Malay.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:19700652</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:31626772</obo:IAO_0000119>
+        <rdfs:label>Singaporean Malay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0487"/>
+        <obo:IAO_0000115>Includes individuals who either self-report or have been described by authors as Singaporean Indian.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:19700652</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:31626772</obo:IAO_0000119>
+        <rdfs:label>Singaporean Indian</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh -->
 
     <owl:Class rdf:about="http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh">
@@ -16650,5 +16677,5 @@ category does not include all native populations within the Arctic circle for ex
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 
