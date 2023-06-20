@@ -18,7 +18,7 @@
         <dc:description>Human ancestry ontology for the NHGRI GWAS Catalog</dc:description>
         <dc:title>Human Ancestry Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -488,6 +488,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0287">
         <rdfs:label xml:lang="en">hasEthnicPopulation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -8865,7 +8866,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <obo:BFO_0000179>material</obo:BFO_0000179>
         <obo:BFO_0000180>MaterialEntity</obo:BFO_0000180>
-        <obo:IAO_0000111>material entity</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">material entity</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">a flame</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">a forest fire</obo:IAO_0000112>
@@ -8893,7 +8893,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000602>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </obo:IAO_0000602>
         <obo:IAO_0000602>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </obo:IAO_0000602>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <rdfs:label>material entity</rdfs:label>
         <rdfs:label xml:lang="en">material entity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -17663,7 +17662,8 @@ category does not include all native populations within the Arctic circle for ex
         <obo:IAO_0000115>Native people residing in the Arctic of Alaska, northern Canada, Greenland, or eastern Siberia</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:25884279</obo:IAO_0000119>
         <obo:IAO_0000119>PMID:29220501</obo:IAO_0000119>
-        <rdfs:label>Eskimo</rdfs:label>
+        <rdfs:comment>Class previously labelled as &quot;Eskimo&quot;, which is outdated and culturally inappropriate. Outdated label may be added as an appropriately flagged synonym at a later stage.</rdfs:comment>
+        <rdfs:label>Inuit</rdfs:label>
     </owl:Class>
     
 

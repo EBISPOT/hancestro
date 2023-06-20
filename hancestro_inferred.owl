@@ -11,13 +11,13 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hancestro/hancestro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2023-02-16/hancestro.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2023-06-20/hancestro.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
         <dc:description>Human ancestry ontology for the NHGRI GWAS Catalog</dc:description>
         <dc:title>Human Ancestry Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -188,6 +188,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0287">
         <rdfs:label xml:lang="en">hasEthnicPopulation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -16608,7 +16609,8 @@ category does not include all native populations within the Arctic circle for ex
         <obo:IAO_0000115>Native people residing in the Arctic of Alaska, northern Canada, Greenland, or eastern Siberia</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:25884279</obo:IAO_0000119>
         <obo:IAO_0000119>PMID:29220501</obo:IAO_0000119>
-        <rdfs:label>Eskimo</rdfs:label>
+        <rdfs:comment>Class previously labelled as &quot;Eskimo&quot;, which is outdated and culturally inappropriate. Outdated label may be added as an appropriately flagged synonym at a later stage.</rdfs:comment>
+        <rdfs:label>Inuit</rdfs:label>
     </owl:Class>
     
 
