@@ -1,0 +1,35 @@
+id: hancestro
+title: "The Human Ancestry Ontology"
+github_org: ebispot
+git_main_branch: master
+repo: ancestro
+report_fail_on: ERROR
+export_formats:
+  - owl
+  - obo
+  - json
+namespaces:
+  - http://purl.obolibrary.org/obo/HANCESTRO_
+release_artefacts:
+  - base
+  - full
+edit_format: ofn
+import_group:
+  use_base_merging: TRUE
+  products:
+    - id: obi
+      make_base: TRUE
+    - id: geo
+      make_base: TRUE
+    - id: bfo
+      make_base: TRUE
+    - id: ro
+      use_base: TRUE
+robot_report:
+  release_reports: False
+  fail_on: ERROR
+  use_labels: False
+  custom_profile: True
+  report_on:
+    - edit
+

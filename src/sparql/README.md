@@ -6,7 +6,7 @@ for perfoming over the ontology.
 
 SPARQL can be executed on a triplestore or directly on any OWL
 file. The queries here are all executed on either hancestro-edit.obo or
-downstream products in the [ontology](../ontology/) folder. We use
+downstream products in the [ontology](../../setup_odk/target/hancestro/src/ontology) folder. We use
 `robot` as this allows easy execution over any Obo-format or OWL file.
 
 We break the queries into 3 categories:
