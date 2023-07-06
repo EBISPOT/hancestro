@@ -1,2 +1,2 @@
-http://purl.obolibrary.org/obo/BFO_0000019
-http://purl.obolibrary.org/obo/BFO_0000040
+BFO:0000019
+BFO:0000040
