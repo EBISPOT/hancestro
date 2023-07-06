@@ -4,6 +4,7 @@ github_org: ebispot
 git_main_branch: master
 repo: ancestro
 report_fail_on: ERROR
+reasoner: hermit
 export_formats:
   - owl
   - obo
@@ -13,18 +14,26 @@ namespaces:
 release_artefacts:
   - base
   - full
+  - custom-hancestro-bfo
 edit_format: ofn
 import_group:
   use_base_merging: TRUE
   products:
     - id: obi
-      make_base: TRUE
+      use_base: TRUE
     - id: geo
       make_base: TRUE
     - id: bfo
       make_base: TRUE
     - id: ro
       use_base: TRUE
+components:
+  products:
+    - filename: gaz_xrefs.owl
+      use_template: True
+      template_options: '--prefix "dbpedia: http://dbpedia.org/resource/" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
+      templates:
+        - gaz_xrefs.tsv
 robot_report:
   release_reports: False
   fail_on: ERROR
@@ -32,4 +41,17 @@ robot_report:
   custom_profile: True
   report_on:
     - edit
+  custom_sparql_checks:
+    - equivalent-classes
+    - trailing-whitespace
+    - owldef-self-reference
+    - xref-syntax
+    - nolabels
+  custom_sparql_exports:
+    - basic-report
+    - class-count-by-prefix
+    - edges
+    - xrefs
+    - obsoletes
+    - synonyms
 
