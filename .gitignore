@@ -5,3 +5,6 @@ src/ontology/hancestro.obo
 src/ontology/hancestro.owl
 src/ontology/hancestro_inferred.owl
 semantic.cache
+src/ontology/target/
+src/ontology/tmp/
+src/ontology/imports/*_import.owl
