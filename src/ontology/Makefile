@@ -42,7 +42,7 @@ REPORT_FAIL_ON =            ERROR
 REPORT_LABEL =              
 REPORT_PROFILE_OPTS =       --profile $(ROBOT_PROFILE)
 OBO_FORMAT_OPTIONS =        
-SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range label-with-iri multiple-replaced_by 
+SPARQL_VALIDATION_CHECKS =  equivalent-classes trailing-whitespace owldef-self-reference xref-syntax nolabels 
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms 
 ODK_VERSION_MAKEFILE =      v1.4
 
@@ -51,13 +51,13 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 
+OTHER_SRC =                 $(COMPONENTSDIR)/gaz_xrefs.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full hancestro-bfo )
 
 # ----------------------------------------
 # Top-level targets
@@ -80,7 +80,7 @@ release_diff: $(REPORTDIR)/release-diff.md
 
 .PHONY: reason_test
 reason_test: $(EDIT_PREPROCESSED)
-	$(ROBOT) reason --input $< --reasoner ELK --equivalent-classes-allowed asserted-only \
+	$(ROBOT) reason --input $< --reasoner hermit --equivalent-classes-allowed asserted-only \
 		--exclude-tautologies structural --output test.owl && rm test.owl
 
 .PHONY: odkversion
@@ -343,6 +343,45 @@ refresh-%:
 no-mirror-refresh-%:
 	$(MAKE) IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl -B
 
+
+# ----------------------------------------
+# Components
+# ----------------------------------------
+# Some ontologies contain external and internal components. A component is included in the ontology in its entirety.
+
+COMP=true # Global parameter to bypass component generation
+
+.PHONY: all_components
+all_components: $(OTHER_SRC)
+
+.PHONY: recreate-components
+recreate-components:
+	$(MAKE) COMP=true IMP=false MIR=true PAT=true IMP_LARGE=false all_components -B
+
+.PHONY: no-mirror-recreate-components
+no-mirror-recreate-components:
+	$(MAKE) COMP=true IMP=false MIR=false PAT=true IMP_LARGE=false all_components -B
+
+.PHONY: recreate-%
+recreate-%:
+	$(MAKE) COMP=true IMP=false IMP_LARGE=false MIR=true PAT=true $(COMPONENTSDIR)/$*.owl -B
+
+.PHONY: no-mirror-recreate-%
+no-mirror-recreate-%:
+	$(MAKE) COMP=true IMP=false IMP_LARGE=false MIR=false PAT=true $(COMPONENTSDIR)/$*.owl -B
+
+$(COMPONENTSDIR)/%: | $(COMPONENTSDIR)
+	touch $@
+.PRECIOUS: $(COMPONENTSDIR)/%
+
+
+
+$(COMPONENTSDIR)/gaz_xrefs.owl: $(TEMPLATEDIR)/gaz_xrefs.tsv
+	if [ $(COMP) = true ] ; then $(ROBOT) template --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" \
+		$(patsubst %, --template %, $^) \
+		$(ANNOTATE_CONVERT_FILE); fi
+
+.PRECIOUS: $(COMPONENTSDIR)/gaz_xrefs.owl
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
@@ -357,10 +396,8 @@ IMP_LARGE=true # Global parameter to bypass handling of large imports
 .PHONY: mirror-obi
 .PRECIOUS: $(MIRRORDIR)/obi.owl
 mirror-obi: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/obi.owl --create-dirs -o $(MIRRORDIR)/obi.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/obi.owl -o $@.tmp.owl && \
-		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/OBI --axioms external --preserve-structure false --trim false -o $@.tmp.owl &&\
-		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/obi/obi-base.owl --create-dirs -o $(MIRRORDIR)/obi.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/obi.owl -o $@.tmp.owl && mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
 ## ONTOLOGY: geo
@@ -456,6 +493,12 @@ $(ONT)-full.json: $(ONT)-full.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 		mv $@.tmp.json $@
+hancestro-bfo.obo: hancestro-bfo.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+hancestro-bfo.json: hancestro-bfo.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+		mv $@.tmp.json $@
 # ----------------------------------------
 # Release artefacts: main release artefacts
 # ----------------------------------------
@@ -494,10 +537,13 @@ $(ONT)-base.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC)
 # Full: The full artefacts with imports merged, reasoned.
 $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 	$(ROBOT_RELEASE_IMPORT_MODE) \
-		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+		reason --reasoner hermit --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
 		relax \
-		reduce -r ELK \
+		reduce -r hermit \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+hancestro-bfo.owl:
+	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in hancestro.Makefile!" && false
 # ----------------------------------------
 # Debugging Tools
 # ----------------------------------------
