@@ -57,7 +57,7 @@ EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full $(ONT)-simple )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full )
 
 # ----------------------------------------
 # Top-level targets
@@ -278,13 +278,6 @@ $(PRESEED): $(SRCMERGED)
 	$(ROBOT) query -f csv -i $< --query ../sparql/terms.sparql $@.tmp &&\
 	cat $@.tmp | sort | uniq >  $@
 
-SIMPLESEED=$(TMPDIR)/simple_seed.txt
-
-$(SIMPLESEED): $(SRCMERGED) $(ONTOLOGYTERMS)
-	$(ROBOT) query -f csv -i $< --query ../sparql/simple-seed.sparql $@.tmp &&\
-	cat $@.tmp $(ONTOLOGYTERMS) | sort | uniq >  $@ &&\
-	echo "http://www.geneontology.org/formats/oboInOwl#SubsetProperty" >> $@ &&\
-	echo "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty" >> $@
 
 
 ALLSEED = $(PRESEED) \
@@ -501,12 +494,6 @@ $(ONT)-full.json: $(ONT)-full.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 		mv $@.tmp.json $@
-$(ONT)-simple.obo: $(ONT)-simple.owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
-$(ONT)-simple.json: $(ONT)-simple.owl
-	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		convert --check false -f json -o $@.tmp.json &&\
-		mv $@.tmp.json $@
 # ----------------------------------------
 # Release artefacts: main release artefacts
 # ----------------------------------------
@@ -548,19 +535,6 @@ $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 		reason --reasoner hermit --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
 		relax \
 		reduce -r hermit \
-		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
-# foo-simple: (edit->reason,relax,reduce,drop imports, drop every axiom which contains an entity outside the "namespaces of interest")
-# drop every axiom: filter --term-file keep_terms.txt --trim true
-#	remove --select imports --trim false
-$(ONT)-simple.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(SIMPLESEED) $(IMPORT_FILES)
-	$(ROBOT_RELEASE_IMPORT_MODE) \
-		reason --reasoner hermit --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
-		relax \
-		remove --axioms equivalent \
-		relax \
-		filter --term-file $(SIMPLESEED) --select "annotations ontology anonymous self" --trim true --signature true \
-		reduce -r hermit \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 # ----------------------------------------
 # Debugging Tools

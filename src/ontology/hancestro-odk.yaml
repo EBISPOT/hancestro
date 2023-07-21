@@ -16,7 +16,6 @@ namespaces:
 release_artefacts:
   - base
   - full
-  - simple
 edit_format: ofn
 import_group:
   products:
