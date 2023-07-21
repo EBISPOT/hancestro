@@ -8,7 +8,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro.owl>
 Import(<http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl>)
-Import(<http://purl.obolibrary.org/obo/hancestro/imports/merged_import.owl>)
+Import(<http://purl.obolibrary.org/obo/hancestro/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/hancestro/imports/geo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/hancestro/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/hancestro/imports/obi_import.owl>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/HANCESTRO_0004>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/HANCESTRO_0304>)
 Annotation(<http://purl.org/dc/elements/1.1/description> "Human ancestry ontology for the NHGRI GWAS Catalog")

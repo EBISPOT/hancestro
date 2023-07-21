@@ -7,6 +7,5 @@ src/ontology/hancestro_inferred.owl
 semantic.cache
 src/ontology/target/
 src/ontology/tmp/
-src/ontology/imports/*_import.owl
 src/ontology/imports/*_terms_combined.txt
 src/ontology/hancestro-full.owl

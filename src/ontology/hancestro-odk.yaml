@@ -14,17 +14,21 @@ namespaces:
 release_artefacts:
   - base
   - full
-  - custom-hancestro-bfo
+  - simple
 edit_format: ofn
 import_group:
-  use_base_merging: TRUE
   products:
     - id: obi
       use_base: TRUE
+      module_type: custom
     - id: geo
       make_base: TRUE
+      module_type: slme
+      module_type_slme: BOT
     - id: bfo
       make_base: TRUE
+      module_type: slme
+      module_tyle_slme: BOT
     - id: ro
       use_base: TRUE
 components:
