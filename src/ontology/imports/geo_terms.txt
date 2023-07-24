@@ -1,4 +1,4 @@
-http://purl.obolibrary.org/obo/GEO_000000334
-http://purl.obolibrary.org/obo/GEO_000000375
-http://purl.obolibrary.org/obo/GEO_000000391
-http://purl.obolibrary.org/obo/GEO_000000374
+GEO:000000334
+GEO:000000375
+GEO:000000391
+GEO:000000374

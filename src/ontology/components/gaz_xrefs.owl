@@ -1,0 +1,1316 @@
+Prefix(:=<http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl>
+<http://purl.obolibrary.org/obo/hancestro/releases/2023-07-24/components/gaz_xrefs.owl>
+Annotation(owl:versionInfo "2023-07-24")
+
+Declaration(Class(<http://dbpedia.org/resource/Afghanistan>))
+Declaration(Class(<http://dbpedia.org/resource/Albania>))
+Declaration(Class(<http://dbpedia.org/resource/Algeria>))
+Declaration(Class(<http://dbpedia.org/resource/American_Samoa>))
+Declaration(Class(<http://dbpedia.org/resource/Andorra>))
+Declaration(Class(<http://dbpedia.org/resource/Angola>))
+Declaration(Class(<http://dbpedia.org/resource/Anguilla>))
+Declaration(Class(<http://dbpedia.org/resource/Antigua_and_Barbuda>))
+Declaration(Class(<http://dbpedia.org/resource/Argentina>))
+Declaration(Class(<http://dbpedia.org/resource/Armenia>))
+Declaration(Class(<http://dbpedia.org/resource/Aruba>))
+Declaration(Class(<http://dbpedia.org/resource/Australia>))
+Declaration(Class(<http://dbpedia.org/resource/Austria>))
+Declaration(Class(<http://dbpedia.org/resource/Azerbaijan>))
+Declaration(Class(<http://dbpedia.org/resource/Bahrain>))
+Declaration(Class(<http://dbpedia.org/resource/Bangladesh>))
+Declaration(Class(<http://dbpedia.org/resource/Barbados>))
+Declaration(Class(<http://dbpedia.org/resource/Belarus>))
+Declaration(Class(<http://dbpedia.org/resource/Belgium>))
+Declaration(Class(<http://dbpedia.org/resource/Belize>))
+Declaration(Class(<http://dbpedia.org/resource/Benin>))
+Declaration(Class(<http://dbpedia.org/resource/Bermuda>))
+Declaration(Class(<http://dbpedia.org/resource/Bhutan>))
+Declaration(Class(<http://dbpedia.org/resource/Bolivia>))
+Declaration(Class(<http://dbpedia.org/resource/Bosnia_and_Herzegovina>))
+Declaration(Class(<http://dbpedia.org/resource/Botswana>))
+Declaration(Class(<http://dbpedia.org/resource/Brazil>))
+Declaration(Class(<http://dbpedia.org/resource/British_Virgin_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Brunei>))
+Declaration(Class(<http://dbpedia.org/resource/Bulgaria>))
+Declaration(Class(<http://dbpedia.org/resource/Burkina_Faso>))
+Declaration(Class(<http://dbpedia.org/resource/Burundi>))
+Declaration(Class(<http://dbpedia.org/resource/Cambodia>))
+Declaration(Class(<http://dbpedia.org/resource/Cameroon>))
+Declaration(Class(<http://dbpedia.org/resource/Canada>))
+Declaration(Class(<http://dbpedia.org/resource/Cape_Verde>))
+Declaration(Class(<http://dbpedia.org/resource/Cayman_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Central_African_Republic>))
+Declaration(Class(<http://dbpedia.org/resource/Chad>))
+Declaration(Class(<http://dbpedia.org/resource/Channel_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Chile>))
+Declaration(Class(<http://dbpedia.org/resource/China>))
+Declaration(Class(<http://dbpedia.org/resource/Christmas_Island>))
+Declaration(Class(<http://dbpedia.org/resource/Colombia>))
+Declaration(Class(<http://dbpedia.org/resource/Comoros>))
+Declaration(Class(<http://dbpedia.org/resource/Cook_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Costa_Rica>))
+Declaration(Class(<http://dbpedia.org/resource/Croatia>))
+Declaration(Class(<http://dbpedia.org/resource/Cuba>))
+Declaration(Class(<http://dbpedia.org/resource/Curacao>))
+Declaration(Class(<http://dbpedia.org/resource/Cyprus>))
+Declaration(Class(<http://dbpedia.org/resource/Czech_Republic>))
+Declaration(Class(<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo>))
+Declaration(Class(<http://dbpedia.org/resource/Denmark>))
+Declaration(Class(<http://dbpedia.org/resource/Djibouti>))
+Declaration(Class(<http://dbpedia.org/resource/Dominica>))
+Declaration(Class(<http://dbpedia.org/resource/Dominican_Republic>))
+Declaration(Class(<http://dbpedia.org/resource/East_Timor>))
+Declaration(Class(<http://dbpedia.org/resource/Ecuador>))
+Declaration(Class(<http://dbpedia.org/resource/Egypt>))
+Declaration(Class(<http://dbpedia.org/resource/El_Salvador>))
+Declaration(Class(<http://dbpedia.org/resource/Equatorial_Guinea>))
+Declaration(Class(<http://dbpedia.org/resource/Eritrea>))
+Declaration(Class(<http://dbpedia.org/resource/Estonia>))
+Declaration(Class(<http://dbpedia.org/resource/Ethiopia>))
+Declaration(Class(<http://dbpedia.org/resource/Faeroe_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Falkland_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Federated_States_of_Micronesia>))
+Declaration(Class(<http://dbpedia.org/resource/Fiji>))
+Declaration(Class(<http://dbpedia.org/resource/Finland>))
+Declaration(Class(<http://dbpedia.org/resource/France>))
+Declaration(Class(<http://dbpedia.org/resource/French_Guiana>))
+Declaration(Class(<http://dbpedia.org/resource/French_Polynesia>))
+Declaration(Class(<http://dbpedia.org/resource/Gabon>))
+Declaration(Class(<http://dbpedia.org/resource/Germany>))
+Declaration(Class(<http://dbpedia.org/resource/Ghana>))
+Declaration(Class(<http://dbpedia.org/resource/Gibraltar>))
+Declaration(Class(<http://dbpedia.org/resource/Greece>))
+Declaration(Class(<http://dbpedia.org/resource/Greenland>))
+Declaration(Class(<http://dbpedia.org/resource/Grenada>))
+Declaration(Class(<http://dbpedia.org/resource/Guadeloupe>))
+Declaration(Class(<http://dbpedia.org/resource/Guam>))
+Declaration(Class(<http://dbpedia.org/resource/Guatemala>))
+Declaration(Class(<http://dbpedia.org/resource/Guinea>))
+Declaration(Class(<http://dbpedia.org/resource/Guinea_Bissau>))
+Declaration(Class(<http://dbpedia.org/resource/Guyana>))
+Declaration(Class(<http://dbpedia.org/resource/Haiti>))
+Declaration(Class(<http://dbpedia.org/resource/Holy_See>))
+Declaration(Class(<http://dbpedia.org/resource/Honduras>))
+Declaration(Class(<http://dbpedia.org/resource/Hong_Kong>))
+Declaration(Class(<http://dbpedia.org/resource/Hungary>))
+Declaration(Class(<http://dbpedia.org/resource/Iceland>))
+Declaration(Class(<http://dbpedia.org/resource/India>))
+Declaration(Class(<http://dbpedia.org/resource/Indonesia>))
+Declaration(Class(<http://dbpedia.org/resource/Iran>))
+Declaration(Class(<http://dbpedia.org/resource/Iraq>))
+Declaration(Class(<http://dbpedia.org/resource/Isle_of_Man>))
+Declaration(Class(<http://dbpedia.org/resource/Israel>))
+Declaration(Class(<http://dbpedia.org/resource/Italy>))
+Declaration(Class(<http://dbpedia.org/resource/Ivory_Coast>))
+Declaration(Class(<http://dbpedia.org/resource/Jamaica>))
+Declaration(Class(<http://dbpedia.org/resource/Japan>))
+Declaration(Class(<http://dbpedia.org/resource/Jordan>))
+Declaration(Class(<http://dbpedia.org/resource/Kazakhstan>))
+Declaration(Class(<http://dbpedia.org/resource/Kenya>))
+Declaration(Class(<http://dbpedia.org/resource/Kiribati>))
+Declaration(Class(<http://dbpedia.org/resource/Kosovo>))
+Declaration(Class(<http://dbpedia.org/resource/Kuwait>))
+Declaration(Class(<http://dbpedia.org/resource/Kyrgyzstan>))
+Declaration(Class(<http://dbpedia.org/resource/Laos>))
+Declaration(Class(<http://dbpedia.org/resource/Latvia>))
+Declaration(Class(<http://dbpedia.org/resource/Lebanon>))
+Declaration(Class(<http://dbpedia.org/resource/Lesotho>))
+Declaration(Class(<http://dbpedia.org/resource/Liberia>))
+Declaration(Class(<http://dbpedia.org/resource/Libya>))
+Declaration(Class(<http://dbpedia.org/resource/Liechtenstein>))
+Declaration(Class(<http://dbpedia.org/resource/Lithuania>))
+Declaration(Class(<http://dbpedia.org/resource/Luxembourg>))
+Declaration(Class(<http://dbpedia.org/resource/Macau>))
+Declaration(Class(<http://dbpedia.org/resource/Madagascar>))
+Declaration(Class(<http://dbpedia.org/resource/Malawi>))
+Declaration(Class(<http://dbpedia.org/resource/Malaysia>))
+Declaration(Class(<http://dbpedia.org/resource/Maldives>))
+Declaration(Class(<http://dbpedia.org/resource/Mali>))
+Declaration(Class(<http://dbpedia.org/resource/Malta>))
+Declaration(Class(<http://dbpedia.org/resource/Marshall_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Martinique>))
+Declaration(Class(<http://dbpedia.org/resource/Mauretania>))
+Declaration(Class(<http://dbpedia.org/resource/Mauritius>))
+Declaration(Class(<http://dbpedia.org/resource/Mayotte>))
+Declaration(Class(<http://dbpedia.org/resource/Mexico>))
+Declaration(Class(<http://dbpedia.org/resource/Moldova>))
+Declaration(Class(<http://dbpedia.org/resource/Monaco>))
+Declaration(Class(<http://dbpedia.org/resource/Mongolia>))
+Declaration(Class(<http://dbpedia.org/resource/Montenegro>))
+Declaration(Class(<http://dbpedia.org/resource/Montserrat>))
+Declaration(Class(<http://dbpedia.org/resource/Morocco>))
+Declaration(Class(<http://dbpedia.org/resource/Mozambique>))
+Declaration(Class(<http://dbpedia.org/resource/Myanmar>))
+Declaration(Class(<http://dbpedia.org/resource/Namibia>))
+Declaration(Class(<http://dbpedia.org/resource/Nauru>))
+Declaration(Class(<http://dbpedia.org/resource/Nepal>))
+Declaration(Class(<http://dbpedia.org/resource/Netherlands>))
+Declaration(Class(<http://dbpedia.org/resource/Netherlands_Antilles>))
+Declaration(Class(<http://dbpedia.org/resource/New_Caledonia>))
+Declaration(Class(<http://dbpedia.org/resource/New_Zealand>))
+Declaration(Class(<http://dbpedia.org/resource/Nicaragua>))
+Declaration(Class(<http://dbpedia.org/resource/Niger>))
+Declaration(Class(<http://dbpedia.org/resource/Nigeria>))
+Declaration(Class(<http://dbpedia.org/resource/Niue>))
+Declaration(Class(<http://dbpedia.org/resource/Norfolk_Island>))
+Declaration(Class(<http://dbpedia.org/resource/North_Korea>))
+Declaration(Class(<http://dbpedia.org/resource/Northern_Mariana_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Norway>))
+Declaration(Class(<http://dbpedia.org/resource/Oman>))
+Declaration(Class(<http://dbpedia.org/resource/Pakistan>))
+Declaration(Class(<http://dbpedia.org/resource/Palau>))
+Declaration(Class(<http://dbpedia.org/resource/Palestinian_territories>))
+Declaration(Class(<http://dbpedia.org/resource/Panama>))
+Declaration(Class(<http://dbpedia.org/resource/Papua_New_Guinea>))
+Declaration(Class(<http://dbpedia.org/resource/Paraguay>))
+Declaration(Class(<http://dbpedia.org/resource/Peru>))
+Declaration(Class(<http://dbpedia.org/resource/Philippines>))
+Declaration(Class(<http://dbpedia.org/resource/Pitcairn_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Poland>))
+Declaration(Class(<http://dbpedia.org/resource/Portugal>))
+Declaration(Class(<http://dbpedia.org/resource/Puerto_Rico>))
+Declaration(Class(<http://dbpedia.org/resource/Qatar>))
+Declaration(Class(<http://dbpedia.org/resource/Republic_of_Ireland>))
+Declaration(Class(<http://dbpedia.org/resource/Republic_of_Macedonia>))
+Declaration(Class(<http://dbpedia.org/resource/Republic_of_the_Congo>))
+Declaration(Class(<http://dbpedia.org/resource/Romania>))
+Declaration(Class(<http://dbpedia.org/resource/Russia>))
+Declaration(Class(<http://dbpedia.org/resource/Rwanda>))
+Declaration(Class(<http://dbpedia.org/resource/Réunion>))
+Declaration(Class(<http://dbpedia.org/resource/Saint_Helena>))
+Declaration(Class(<http://dbpedia.org/resource/Saint_Kitts_and_Nevis>))
+Declaration(Class(<http://dbpedia.org/resource/Saint_Lucia>))
+Declaration(Class(<http://dbpedia.org/resource/Saint_Martin>))
+Declaration(Class(<http://dbpedia.org/resource/Saint_Pierre_and_Miquelon>))
+Declaration(Class(<http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines>))
+Declaration(Class(<http://dbpedia.org/resource/Samoa>))
+Declaration(Class(<http://dbpedia.org/resource/San_Marino>))
+Declaration(Class(<http://dbpedia.org/resource/Saudi_Arabia>))
+Declaration(Class(<http://dbpedia.org/resource/Scotland>))
+Declaration(Class(<http://dbpedia.org/resource/Senegal>))
+Declaration(Class(<http://dbpedia.org/resource/Serbia>))
+Declaration(Class(<http://dbpedia.org/resource/Seychelles>))
+Declaration(Class(<http://dbpedia.org/resource/Sierra_Leone>))
+Declaration(Class(<http://dbpedia.org/resource/Singapore>))
+Declaration(Class(<http://dbpedia.org/resource/Sint_Maarten>))
+Declaration(Class(<http://dbpedia.org/resource/Slovakia>))
+Declaration(Class(<http://dbpedia.org/resource/Slovenia>))
+Declaration(Class(<http://dbpedia.org/resource/Solomon_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Somalia>))
+Declaration(Class(<http://dbpedia.org/resource/South_Africa>))
+Declaration(Class(<http://dbpedia.org/resource/South_Korea>))
+Declaration(Class(<http://dbpedia.org/resource/South_Sudan>))
+Declaration(Class(<http://dbpedia.org/resource/Spain>))
+Declaration(Class(<http://dbpedia.org/resource/Sri_Lanka>))
+Declaration(Class(<http://dbpedia.org/resource/Sudan>))
+Declaration(Class(<http://dbpedia.org/resource/Suriname>))
+Declaration(Class(<http://dbpedia.org/resource/Swaziland>))
+Declaration(Class(<http://dbpedia.org/resource/Sweden>))
+Declaration(Class(<http://dbpedia.org/resource/Switzerland>))
+Declaration(Class(<http://dbpedia.org/resource/Syria>))
+Declaration(Class(<http://dbpedia.org/resource/São_Tomé_and_Príncipe>))
+Declaration(Class(<http://dbpedia.org/resource/Taiwan>))
+Declaration(Class(<http://dbpedia.org/resource/Tajikistan>))
+Declaration(Class(<http://dbpedia.org/resource/Tanzania>))
+Declaration(Class(<http://dbpedia.org/resource/Thailand>))
+Declaration(Class(<http://dbpedia.org/resource/The_Bahamas>))
+Declaration(Class(<http://dbpedia.org/resource/The_Gambia>))
+Declaration(Class(<http://dbpedia.org/resource/Togo>))
+Declaration(Class(<http://dbpedia.org/resource/Tokelau>))
+Declaration(Class(<http://dbpedia.org/resource/Tonga>))
+Declaration(Class(<http://dbpedia.org/resource/Trinidad_and_Tobago>))
+Declaration(Class(<http://dbpedia.org/resource/Tunisia>))
+Declaration(Class(<http://dbpedia.org/resource/Turkey>))
+Declaration(Class(<http://dbpedia.org/resource/Turkmenistan>))
+Declaration(Class(<http://dbpedia.org/resource/Turks_and_Caicos_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Tuvalu>))
+Declaration(Class(<http://dbpedia.org/resource/Uganda>))
+Declaration(Class(<http://dbpedia.org/resource/Ukraine>))
+Declaration(Class(<http://dbpedia.org/resource/United_Arab_Emirates>))
+Declaration(Class(<http://dbpedia.org/resource/United_Kingdom>))
+Declaration(Class(<http://dbpedia.org/resource/United_States>))
+Declaration(Class(<http://dbpedia.org/resource/United_States_Virgin_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Uruguay>))
+Declaration(Class(<http://dbpedia.org/resource/Uzbekistan>))
+Declaration(Class(<http://dbpedia.org/resource/Vanuatu>))
+Declaration(Class(<http://dbpedia.org/resource/Venezuela>))
+Declaration(Class(<http://dbpedia.org/resource/Vietnam>))
+Declaration(Class(<http://dbpedia.org/resource/Wallis_and_Futuna>))
+Declaration(Class(<http://dbpedia.org/resource/Western_Sahara>))
+Declaration(Class(<http://dbpedia.org/resource/Yemen>))
+Declaration(Class(<http://dbpedia.org/resource/Zambia>))
+Declaration(Class(<http://dbpedia.org/resource/Zimbabwe>))
+Declaration(Class(<http://dbpedia.org/resource/Cocos_(Keeling)_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Georgia_(country)>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GEO_000000374>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0289>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://dbpedia.org/resource/Afghanistan> (<http://dbpedia.org/resource/Afghanistan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Afghanistan> "GAZ:00006882")
+
+# Class: <http://dbpedia.org/resource/Albania> (<http://dbpedia.org/resource/Albania>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Albania> "GAZ:00002953")
+
+# Class: <http://dbpedia.org/resource/Algeria> (<http://dbpedia.org/resource/Algeria>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Algeria> "GAZ:00000563")
+
+# Class: <http://dbpedia.org/resource/American_Samoa> (<http://dbpedia.org/resource/American_Samoa>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/American_Samoa> "GAZ:00003957")
+
+# Class: <http://dbpedia.org/resource/Andorra> (<http://dbpedia.org/resource/Andorra>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Andorra> "GAZ:00002948")
+
+# Class: <http://dbpedia.org/resource/Angola> (<http://dbpedia.org/resource/Angola>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Angola> "GAZ:00001095")
+
+# Class: <http://dbpedia.org/resource/Anguilla> (<http://dbpedia.org/resource/Anguilla>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Anguilla> "GAZ:00009159")
+
+# Class: <http://dbpedia.org/resource/Antigua_and_Barbuda> (<http://dbpedia.org/resource/Antigua_and_Barbuda>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Antigua_and_Barbuda> "GAZ:00006883")
+
+# Class: <http://dbpedia.org/resource/Argentina> (<http://dbpedia.org/resource/Argentina>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Argentina> "GAZ:00002928")
+
+# Class: <http://dbpedia.org/resource/Armenia> (<http://dbpedia.org/resource/Armenia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Armenia> "GAZ:00004094")
+
+# Class: <http://dbpedia.org/resource/Aruba> (<http://dbpedia.org/resource/Aruba>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Aruba> "GAZ:00004025")
+
+# Class: <http://dbpedia.org/resource/Australia> (<http://dbpedia.org/resource/Australia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Australia> "GAZ:00000463")
+
+# Class: <http://dbpedia.org/resource/Austria> (<http://dbpedia.org/resource/Austria>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Austria> "GAZ:00002942")
+
+# Class: <http://dbpedia.org/resource/Azerbaijan> (<http://dbpedia.org/resource/Azerbaijan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Azerbaijan> "GAZ:00004941")
+
+# Class: <http://dbpedia.org/resource/Bahrain> (<http://dbpedia.org/resource/Bahrain>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Bahrain> "GAZ:00005281")
+
+# Class: <http://dbpedia.org/resource/Bangladesh> (<http://dbpedia.org/resource/Bangladesh>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Bangladesh> "GAZ:00003750")
+
+# Class: <http://dbpedia.org/resource/Barbados> (<http://dbpedia.org/resource/Barbados>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Barbados> "GAZ:00001251")
+
+# Class: <http://dbpedia.org/resource/Belarus> (<http://dbpedia.org/resource/Belarus>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Belarus> "GAZ:00006886")
+
+# Class: <http://dbpedia.org/resource/Belgium> (<http://dbpedia.org/resource/Belgium>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Belgium> "GAZ:00002938")
+
+# Class: <http://dbpedia.org/resource/Belize> (<http://dbpedia.org/resource/Belize>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Belize> "GAZ:00002934")
+
+# Class: <http://dbpedia.org/resource/Benin> (<http://dbpedia.org/resource/Benin>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Benin> "GAZ:00000904")
+
+# Class: <http://dbpedia.org/resource/Bermuda> (<http://dbpedia.org/resource/Bermuda>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Bermuda> "GAZ:00001264")
+
+# Class: <http://dbpedia.org/resource/Bhutan> (<http://dbpedia.org/resource/Bhutan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Bhutan> "GAZ:00003920")
+
+# Class: <http://dbpedia.org/resource/Bolivia> (<http://dbpedia.org/resource/Bolivia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Bolivia> "GAZ:00002511")
+
+# Class: <http://dbpedia.org/resource/Bosnia_and_Herzegovina> (<http://dbpedia.org/resource/Bosnia_and_Herzegovina>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Bosnia_and_Herzegovina> "GAZ:00006887")
+
+# Class: <http://dbpedia.org/resource/Botswana> (<http://dbpedia.org/resource/Botswana>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Botswana> "GAZ:00001097")
+
+# Class: <http://dbpedia.org/resource/Brazil> (<http://dbpedia.org/resource/Brazil>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Brazil> "GAZ:00002828")
+
+# Class: <http://dbpedia.org/resource/British_Virgin_Islands> (<http://dbpedia.org/resource/British_Virgin_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/British_Virgin_Islands> "GAZ:00003961")
+
+# Class: <http://dbpedia.org/resource/Brunei> (<http://dbpedia.org/resource/Brunei>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Brunei> "GAZ:00003901")
+
+# Class: <http://dbpedia.org/resource/Bulgaria> (<http://dbpedia.org/resource/Bulgaria>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Bulgaria> "GAZ:00002950")
+
+# Class: <http://dbpedia.org/resource/Burkina_Faso> (<http://dbpedia.org/resource/Burkina_Faso>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Burkina_Faso> "GAZ:00000905")
+
+# Class: <http://dbpedia.org/resource/Burundi> (<http://dbpedia.org/resource/Burundi>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Burundi> "GAZ:00001090")
+
+# Class: <http://dbpedia.org/resource/Cambodia> (<http://dbpedia.org/resource/Cambodia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Cambodia> "GAZ:00006888")
+
+# Class: <http://dbpedia.org/resource/Cameroon> (<http://dbpedia.org/resource/Cameroon>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Cameroon> "GAZ:00001093")
+
+# Class: <http://dbpedia.org/resource/Canada> (<http://dbpedia.org/resource/Canada>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Canada> "GAZ:00002560")
+
+# Class: <http://dbpedia.org/resource/Cape_Verde> (<http://dbpedia.org/resource/Cape_Verde>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Cape_Verde> "GAZ:00001227")
+
+# Class: <http://dbpedia.org/resource/Cayman_Islands> (<http://dbpedia.org/resource/Cayman_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Cayman_Islands> "GAZ:00003986")
+
+# Class: <http://dbpedia.org/resource/Central_African_Republic> (<http://dbpedia.org/resource/Central_African_Republic>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Central_African_Republic> "GAZ:00001089")
+
+# Class: <http://dbpedia.org/resource/Chad> (<http://dbpedia.org/resource/Chad>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Chad> "GAZ:00000586")
+
+# Class: <http://dbpedia.org/resource/Channel_Islands> (<http://dbpedia.org/resource/Channel_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Channel_Islands> "GAZ:00001539")
+
+# Class: <http://dbpedia.org/resource/Chile> (<http://dbpedia.org/resource/Chile>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Chile> "GAZ:00002825")
+
+# Class: <http://dbpedia.org/resource/China> (<http://dbpedia.org/resource/China>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/China> "GAZ:00002845")
+
+# Class: <http://dbpedia.org/resource/Christmas_Island> (<http://dbpedia.org/resource/Christmas_Island>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Christmas_Island> "GAZ:00005915")
+
+# Class: <http://dbpedia.org/resource/Colombia> (<http://dbpedia.org/resource/Colombia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Colombia> "GAZ:00002929")
+
+# Class: <http://dbpedia.org/resource/Comoros> (<http://dbpedia.org/resource/Comoros>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Comoros> "GAZ:00005820")
+
+# Class: <http://dbpedia.org/resource/Cook_Islands> (<http://dbpedia.org/resource/Cook_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Cook_Islands> "GAZ:00053798")
+
+# Class: <http://dbpedia.org/resource/Costa_Rica> (<http://dbpedia.org/resource/Costa_Rica>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Costa_Rica> "GAZ:00002901")
+
+# Class: <http://dbpedia.org/resource/Croatia> (<http://dbpedia.org/resource/Croatia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Croatia> "GAZ:00002719")
+
+# Class: <http://dbpedia.org/resource/Cuba> (<http://dbpedia.org/resource/Cuba>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Cuba> "GAZ:00003762")
+
+# Class: <http://dbpedia.org/resource/Curacao> (<http://dbpedia.org/resource/Curacao>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Curacao> "GAZ:00012582")
+
+# Class: <http://dbpedia.org/resource/Cyprus> (<http://dbpedia.org/resource/Cyprus>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Cyprus> "GAZ:00453362")
+
+# Class: <http://dbpedia.org/resource/Czech_Republic> (<http://dbpedia.org/resource/Czech_Republic>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Czech_Republic> "GAZ:00002954")
+
+# Class: <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> (<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> "GAZ:00001086")
+
+# Class: <http://dbpedia.org/resource/Denmark> (<http://dbpedia.org/resource/Denmark>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Denmark> "GAZ:00002635")
+
+# Class: <http://dbpedia.org/resource/Djibouti> (<http://dbpedia.org/resource/Djibouti>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Djibouti> "GAZ:00000582")
+
+# Class: <http://dbpedia.org/resource/Dominica> (<http://dbpedia.org/resource/Dominica>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Dominica> "GAZ:00006890")
+
+# Class: <http://dbpedia.org/resource/Dominican_Republic> (<http://dbpedia.org/resource/Dominican_Republic>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Dominican_Republic> "GAZ:00003952")
+
+# Class: <http://dbpedia.org/resource/East_Timor> (<http://dbpedia.org/resource/East_Timor>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/East_Timor> "GAZ:00006913")
+
+# Class: <http://dbpedia.org/resource/Ecuador> (<http://dbpedia.org/resource/Ecuador>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Ecuador> "GAZ:00002912")
+
+# Class: <http://dbpedia.org/resource/Egypt> (<http://dbpedia.org/resource/Egypt>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Egypt> "GAZ:00003934")
+
+# Class: <http://dbpedia.org/resource/El_Salvador> (<http://dbpedia.org/resource/El_Salvador>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/El_Salvador> "GAZ:00002935")
+
+# Class: <http://dbpedia.org/resource/Equatorial_Guinea> (<http://dbpedia.org/resource/Equatorial_Guinea>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Equatorial_Guinea> "GAZ:00001091")
+
+# Class: <http://dbpedia.org/resource/Eritrea> (<http://dbpedia.org/resource/Eritrea>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Eritrea> "GAZ:00000581")
+
+# Class: <http://dbpedia.org/resource/Estonia> (<http://dbpedia.org/resource/Estonia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Estonia> "GAZ:00002959")
+
+# Class: <http://dbpedia.org/resource/Ethiopia> (<http://dbpedia.org/resource/Ethiopia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Ethiopia> "GAZ:00000567")
+
+# Class: <http://dbpedia.org/resource/Faeroe_Islands> (<http://dbpedia.org/resource/Faeroe_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Faeroe_Islands> "GAZ:00059206")
+
+# Class: <http://dbpedia.org/resource/Falkland_Islands> (<http://dbpedia.org/resource/Falkland_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Falkland_Islands> "GAZ:00001412")
+
+# Class: <http://dbpedia.org/resource/Federated_States_of_Micronesia> (<http://dbpedia.org/resource/Federated_States_of_Micronesia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Federated_States_of_Micronesia> "GAZ:00006897")
+
+# Class: <http://dbpedia.org/resource/Fiji> (<http://dbpedia.org/resource/Fiji>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Fiji> "GAZ:00006891")
+
+# Class: <http://dbpedia.org/resource/Finland> (<http://dbpedia.org/resource/Finland>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Finland> "GAZ:00002937")
+
+# Class: <http://dbpedia.org/resource/France> (<http://dbpedia.org/resource/France>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/France> "GAZ:00002940")
+
+# Class: <http://dbpedia.org/resource/French_Guiana> (<http://dbpedia.org/resource/French_Guiana>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/French_Guiana> "GAZ:00002516")
+
+# Class: <http://dbpedia.org/resource/French_Polynesia> (<http://dbpedia.org/resource/French_Polynesia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/French_Polynesia> "GAZ:00002918")
+
+# Class: <http://dbpedia.org/resource/Gabon> (<http://dbpedia.org/resource/Gabon>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Gabon> "GAZ:00001092")
+
+# Class: <http://dbpedia.org/resource/Germany> (<http://dbpedia.org/resource/Germany>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Germany> "GAZ:00002646")
+
+# Class: <http://dbpedia.org/resource/Ghana> (<http://dbpedia.org/resource/Ghana>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Ghana> "GAZ:00000908")
+
+# Class: <http://dbpedia.org/resource/Gibraltar> (<http://dbpedia.org/resource/Gibraltar>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Gibraltar> "GAZ:00003987")
+
+# Class: <http://dbpedia.org/resource/Greece> (<http://dbpedia.org/resource/Greece>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Greece> "GAZ:00002945")
+
+# Class: <http://dbpedia.org/resource/Greenland> (<http://dbpedia.org/resource/Greenland>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Greenland> "GAZ:00001507")
+
+# Class: <http://dbpedia.org/resource/Grenada> (<http://dbpedia.org/resource/Grenada>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Grenada> "GAZ:02000573")
+
+# Class: <http://dbpedia.org/resource/Guadeloupe> (<http://dbpedia.org/resource/Guadeloupe>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Guadeloupe> "GAZ:00067135")
+
+# Class: <http://dbpedia.org/resource/Guam> (<http://dbpedia.org/resource/Guam>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Guam> "GAZ:00006933")
+
+# Class: <http://dbpedia.org/resource/Guatemala> (<http://dbpedia.org/resource/Guatemala>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Guatemala> "GAZ:00002936")
+
+# Class: <http://dbpedia.org/resource/Guinea> (<http://dbpedia.org/resource/Guinea>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Guinea> "GAZ:00000909")
+
+# Class: <http://dbpedia.org/resource/Guinea_Bissau> (<http://dbpedia.org/resource/Guinea_Bissau>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Guinea_Bissau> "GAZ:00000910")
+
+# Class: <http://dbpedia.org/resource/Guyana> (<http://dbpedia.org/resource/Guyana>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Guyana> "GAZ:00002522")
+
+# Class: <http://dbpedia.org/resource/Haiti> (<http://dbpedia.org/resource/Haiti>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Haiti> "GAZ:00003953")
+
+# Class: <http://dbpedia.org/resource/Holy_See> (<http://dbpedia.org/resource/Holy_See>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Holy_See> "GAZ:00003103")
+
+# Class: <http://dbpedia.org/resource/Honduras> (<http://dbpedia.org/resource/Honduras>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Honduras> "GAZ:00002894")
+
+# Class: <http://dbpedia.org/resource/Hong_Kong> (<http://dbpedia.org/resource/Hong_Kong>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Hong_Kong> "GAZ:00003203")
+
+# Class: <http://dbpedia.org/resource/Hungary> (<http://dbpedia.org/resource/Hungary>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Hungary> "GAZ:00002952")
+
+# Class: <http://dbpedia.org/resource/Iceland> (<http://dbpedia.org/resource/Iceland>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Iceland> "GAZ:00000843")
+
+# Class: <http://dbpedia.org/resource/India> (<http://dbpedia.org/resource/India>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/India> "GAZ:00002839")
+
+# Class: <http://dbpedia.org/resource/Indonesia> (<http://dbpedia.org/resource/Indonesia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Indonesia> "GAZ:00003727")
+
+# Class: <http://dbpedia.org/resource/Iran> (<http://dbpedia.org/resource/Iran>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Iran> "GAZ:00004474")
+
+# Class: <http://dbpedia.org/resource/Iraq> (<http://dbpedia.org/resource/Iraq>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Iraq> "GAZ:00004483")
+
+# Class: <http://dbpedia.org/resource/Isle_of_Man> (<http://dbpedia.org/resource/Isle_of_Man>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Isle_of_Man> "GAZ:00052477")
+
+# Class: <http://dbpedia.org/resource/Israel> (<http://dbpedia.org/resource/Israel>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Israel> "GAZ:00002476")
+
+# Class: <http://dbpedia.org/resource/Italy> (<http://dbpedia.org/resource/Italy>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Italy> "GAZ:00002650")
+
+# Class: <http://dbpedia.org/resource/Ivory_Coast> (<http://dbpedia.org/resource/Ivory_Coast>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Ivory_Coast> "GAZ:00000906")
+
+# Class: <http://dbpedia.org/resource/Jamaica> (<http://dbpedia.org/resource/Jamaica>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Jamaica> "GAZ:00003781")
+
+# Class: <http://dbpedia.org/resource/Japan> (<http://dbpedia.org/resource/Japan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Japan> "GAZ:00002747")
+
+# Class: <http://dbpedia.org/resource/Jordan> (<http://dbpedia.org/resource/Jordan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Jordan> "GAZ:00002473")
+
+# Class: <http://dbpedia.org/resource/Kazakhstan> (<http://dbpedia.org/resource/Kazakhstan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Kazakhstan> "GAZ:00004999")
+
+# Class: <http://dbpedia.org/resource/Kenya> (<http://dbpedia.org/resource/Kenya>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Kenya> "GAZ:00001101")
+
+# Class: <http://dbpedia.org/resource/Kiribati> (<http://dbpedia.org/resource/Kiribati>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Kiribati> "GAZ:00006894")
+
+# Class: <http://dbpedia.org/resource/Kosovo> (<http://dbpedia.org/resource/Kosovo>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Kosovo> "GAZ:00011337")
+
+# Class: <http://dbpedia.org/resource/Kuwait> (<http://dbpedia.org/resource/Kuwait>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Kuwait> "GAZ:00005285")
+
+# Class: <http://dbpedia.org/resource/Kyrgyzstan> (<http://dbpedia.org/resource/Kyrgyzstan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Kyrgyzstan> "GAZ:00006893")
+
+# Class: <http://dbpedia.org/resource/Laos> (<http://dbpedia.org/resource/Laos>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Laos> "GAZ:00006889")
+
+# Class: <http://dbpedia.org/resource/Latvia> (<http://dbpedia.org/resource/Latvia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Latvia> "GAZ:00002958")
+
+# Class: <http://dbpedia.org/resource/Lebanon> (<http://dbpedia.org/resource/Lebanon>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Lebanon> "GAZ:00002478")
+
+# Class: <http://dbpedia.org/resource/Lesotho> (<http://dbpedia.org/resource/Lesotho>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Lesotho> "GAZ:00001098")
+
+# Class: <http://dbpedia.org/resource/Liberia> (<http://dbpedia.org/resource/Liberia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Liberia> "GAZ:00000911")
+
+# Class: <http://dbpedia.org/resource/Libya> (<http://dbpedia.org/resource/Libya>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Libya> "GAZ:00000566")
+
+# Class: <http://dbpedia.org/resource/Liechtenstein> (<http://dbpedia.org/resource/Liechtenstein>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Liechtenstein> "GAZ:00003858")
+
+# Class: <http://dbpedia.org/resource/Lithuania> (<http://dbpedia.org/resource/Lithuania>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Lithuania> "GAZ:00002960")
+
+# Class: <http://dbpedia.org/resource/Luxembourg> (<http://dbpedia.org/resource/Luxembourg>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Luxembourg> "GAZ:00002947")
+
+# Class: <http://dbpedia.org/resource/Macau> (<http://dbpedia.org/resource/Macau>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Macau> "GAZ:00003202")
+
+# Class: <http://dbpedia.org/resource/Madagascar> (<http://dbpedia.org/resource/Madagascar>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Madagascar> "GAZ:00001108")
+
+# Class: <http://dbpedia.org/resource/Malawi> (<http://dbpedia.org/resource/Malawi>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Malawi> "GAZ:00001105")
+
+# Class: <http://dbpedia.org/resource/Malaysia> (<http://dbpedia.org/resource/Malaysia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Malaysia> "GAZ:00003902")
+
+# Class: <http://dbpedia.org/resource/Maldives> (<http://dbpedia.org/resource/Maldives>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Maldives> "GAZ:00006896")
+
+# Class: <http://dbpedia.org/resource/Mali> (<http://dbpedia.org/resource/Mali>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Mali> "GAZ:00000584")
+
+# Class: <http://dbpedia.org/resource/Malta> (<http://dbpedia.org/resource/Malta>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Malta> "GAZ:00004017")
+
+# Class: <http://dbpedia.org/resource/Marshall_Islands> (<http://dbpedia.org/resource/Marshall_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Marshall_Islands> "GAZ:00007161")
+
+# Class: <http://dbpedia.org/resource/Martinique> (<http://dbpedia.org/resource/Martinique>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Martinique> "GAZ:00003947")
+
+# Class: <http://dbpedia.org/resource/Mauretania> (<http://dbpedia.org/resource/Mauretania>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Mauretania> "GAZ:00000583")
+
+# Class: <http://dbpedia.org/resource/Mauritius> (<http://dbpedia.org/resource/Mauritius>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Mauritius> "GAZ:00003745")
+
+# Class: <http://dbpedia.org/resource/Mayotte> (<http://dbpedia.org/resource/Mayotte>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Mayotte> "GAZ:00003943")
+
+# Class: <http://dbpedia.org/resource/Mexico> (<http://dbpedia.org/resource/Mexico>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Mexico> "GAZ:00002852")
+
+# Class: <http://dbpedia.org/resource/Moldova> (<http://dbpedia.org/resource/Moldova>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Moldova> "GAZ:00003897")
+
+# Class: <http://dbpedia.org/resource/Monaco> (<http://dbpedia.org/resource/Monaco>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Monaco> "GAZ:00003857")
+
+# Class: <http://dbpedia.org/resource/Mongolia> (<http://dbpedia.org/resource/Mongolia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Mongolia> "GAZ:00008744")
+
+# Class: <http://dbpedia.org/resource/Montenegro> (<http://dbpedia.org/resource/Montenegro>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Montenegro> "GAZ:00006898")
+
+# Class: <http://dbpedia.org/resource/Montserrat> (<http://dbpedia.org/resource/Montserrat>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Montserrat> "GAZ:00003988")
+
+# Class: <http://dbpedia.org/resource/Morocco> (<http://dbpedia.org/resource/Morocco>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Morocco> "GAZ:00000565")
+
+# Class: <http://dbpedia.org/resource/Mozambique> (<http://dbpedia.org/resource/Mozambique>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Mozambique> "GAZ:00001100")
+
+# Class: <http://dbpedia.org/resource/Myanmar> (<http://dbpedia.org/resource/Myanmar>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Myanmar> "GAZ:00006899")
+
+# Class: <http://dbpedia.org/resource/Namibia> (<http://dbpedia.org/resource/Namibia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Namibia> "GAZ:00001096")
+
+# Class: <http://dbpedia.org/resource/Nauru> (<http://dbpedia.org/resource/Nauru>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Nauru> "GAZ:00006900")
+
+# Class: <http://dbpedia.org/resource/Nepal> (<http://dbpedia.org/resource/Nepal>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Nepal> "GAZ:00004399")
+
+# Class: <http://dbpedia.org/resource/Netherlands> (<http://dbpedia.org/resource/Netherlands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Netherlands> "GAZ:00001549")
+
+# Class: <http://dbpedia.org/resource/Netherlands_Antilles> (<http://dbpedia.org/resource/Netherlands_Antilles>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Netherlands_Antilles> "GAZ:00004019")
+
+# Class: <http://dbpedia.org/resource/New_Caledonia> (<http://dbpedia.org/resource/New_Caledonia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/New_Caledonia> "GAZ:00005206")
+
+# Class: <http://dbpedia.org/resource/New_Zealand> (<http://dbpedia.org/resource/New_Zealand>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/New_Zealand> "GAZ:00000469")
+
+# Class: <http://dbpedia.org/resource/Nicaragua> (<http://dbpedia.org/resource/Nicaragua>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Nicaragua> "GAZ:00002978")
+
+# Class: <http://dbpedia.org/resource/Niger> (<http://dbpedia.org/resource/Niger>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Niger> "GAZ:00000585")
+
+# Class: <http://dbpedia.org/resource/Nigeria> (<http://dbpedia.org/resource/Nigeria>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Nigeria> "GAZ:00000912")
+
+# Class: <http://dbpedia.org/resource/Niue> (<http://dbpedia.org/resource/Niue>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Niue> "GAZ:00006902")
+
+# Class: <http://dbpedia.org/resource/Norfolk_Island> (<http://dbpedia.org/resource/Norfolk_Island>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Norfolk_Island> "GAZ:00005913")
+
+# Class: <http://dbpedia.org/resource/North_Korea> (<http://dbpedia.org/resource/North_Korea>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/North_Korea> "GAZ:00002801")
+
+# Class: <http://dbpedia.org/resource/Northern_Mariana_Islands> (<http://dbpedia.org/resource/Northern_Mariana_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Northern_Mariana_Islands> "GAZ:00003958")
+
+# Class: <http://dbpedia.org/resource/Norway> (<http://dbpedia.org/resource/Norway>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Norway> "GAZ:00002699")
+
+# Class: <http://dbpedia.org/resource/Oman> (<http://dbpedia.org/resource/Oman>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Oman> "GAZ:00005283")
+
+# Class: <http://dbpedia.org/resource/Pakistan> (<http://dbpedia.org/resource/Pakistan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Pakistan> "GAZ:00005246")
+
+# Class: <http://dbpedia.org/resource/Palau> (<http://dbpedia.org/resource/Palau>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Palau> "GAZ:00006905")
+
+# Class: <http://dbpedia.org/resource/Palestinian_territories> (<http://dbpedia.org/resource/Palestinian_territories>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Palestinian_territories> "GAZ:00002475")
+
+# Class: <http://dbpedia.org/resource/Panama> (<http://dbpedia.org/resource/Panama>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Panama> "GAZ:00002892")
+
+# Class: <http://dbpedia.org/resource/Papua_New_Guinea> (<http://dbpedia.org/resource/Papua_New_Guinea>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Papua_New_Guinea> "GAZ:00003922")
+
+# Class: <http://dbpedia.org/resource/Paraguay> (<http://dbpedia.org/resource/Paraguay>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Paraguay> "GAZ:00002933")
+
+# Class: <http://dbpedia.org/resource/Peru> (<http://dbpedia.org/resource/Peru>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Peru> "GAZ:00002932")
+
+# Class: <http://dbpedia.org/resource/Philippines> (<http://dbpedia.org/resource/Philippines>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Philippines> "GAZ:00004525")
+
+# Class: <http://dbpedia.org/resource/Pitcairn_Islands> (<http://dbpedia.org/resource/Pitcairn_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Pitcairn_Islands> "GAZ:00005867")
+
+# Class: <http://dbpedia.org/resource/Poland> (<http://dbpedia.org/resource/Poland>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Poland> "GAZ:00002939")
+
+# Class: <http://dbpedia.org/resource/Portugal> (<http://dbpedia.org/resource/Portugal>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Portugal> "GAZ:00002944")
+
+# Class: <http://dbpedia.org/resource/Puerto_Rico> (<http://dbpedia.org/resource/Puerto_Rico>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Puerto_Rico> "GAZ:00006935")
+
+# Class: <http://dbpedia.org/resource/Qatar> (<http://dbpedia.org/resource/Qatar>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Qatar> "GAZ:00005286")
+
+# Class: <http://dbpedia.org/resource/Republic_of_Ireland> (<http://dbpedia.org/resource/Republic_of_Ireland>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Republic_of_Ireland> "GAZ:00002943")
+
+# Class: <http://dbpedia.org/resource/Republic_of_Macedonia> (<http://dbpedia.org/resource/Republic_of_Macedonia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Republic_of_Macedonia> "GAZ:00006895")
+
+# Class: <http://dbpedia.org/resource/Republic_of_the_Congo> (<http://dbpedia.org/resource/Republic_of_the_Congo>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Republic_of_the_Congo> "GAZ:00001088")
+
+# Class: <http://dbpedia.org/resource/Romania> (<http://dbpedia.org/resource/Romania>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Romania> "GAZ:00002951")
+
+# Class: <http://dbpedia.org/resource/Russia> (<http://dbpedia.org/resource/Russia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Russia> "GAZ:00002721")
+
+# Class: <http://dbpedia.org/resource/Rwanda> (<http://dbpedia.org/resource/Rwanda>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Rwanda> "GAZ:00001087")
+
+# Class: <http://dbpedia.org/resource/Réunion> (<http://dbpedia.org/resource/Réunion>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Réunion> "GAZ:00053746")
+
+# Class: <http://dbpedia.org/resource/Saint_Helena> (<http://dbpedia.org/resource/Saint_Helena>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Saint_Helena> "GAZ:00000849")
+
+# Class: <http://dbpedia.org/resource/Saint_Kitts_and_Nevis> (<http://dbpedia.org/resource/Saint_Kitts_and_Nevis>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Saint_Kitts_and_Nevis> "GAZ:00006906")
+
+# Class: <http://dbpedia.org/resource/Saint_Lucia> (<http://dbpedia.org/resource/Saint_Lucia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Saint_Lucia> "GAZ:00006909")
+
+# Class: <http://dbpedia.org/resource/Saint_Martin> (<http://dbpedia.org/resource/Saint_Martin>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Saint_Martin> "GAZ:00005841")
+
+# Class: <http://dbpedia.org/resource/Saint_Pierre_and_Miquelon> (<http://dbpedia.org/resource/Saint_Pierre_and_Miquelon>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Saint_Pierre_and_Miquelon> "GAZ:00003942")
+
+# Class: <http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines> (<http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines> "GAZ:02000565")
+
+# Class: <http://dbpedia.org/resource/Samoa> (<http://dbpedia.org/resource/Samoa>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Samoa> "GAZ:00006910")
+
+# Class: <http://dbpedia.org/resource/San_Marino> (<http://dbpedia.org/resource/San_Marino>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/San_Marino> "GAZ:00003102")
+
+# Class: <http://dbpedia.org/resource/Saudi_Arabia> (<http://dbpedia.org/resource/Saudi_Arabia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Saudi_Arabia> "GAZ:00005279")
+
+# Class: <http://dbpedia.org/resource/Scotland> (<http://dbpedia.org/resource/Scotland>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Scotland> "GAZ:00002639")
+
+# Class: <http://dbpedia.org/resource/Senegal> (<http://dbpedia.org/resource/Senegal>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Senegal> "GAZ:00000913")
+
+# Class: <http://dbpedia.org/resource/Serbia> (<http://dbpedia.org/resource/Serbia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Serbia> "GAZ:00002957")
+
+# Class: <http://dbpedia.org/resource/Seychelles> (<http://dbpedia.org/resource/Seychelles>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Seychelles> "GAZ:00005821")
+
+# Class: <http://dbpedia.org/resource/Sierra_Leone> (<http://dbpedia.org/resource/Sierra_Leone>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Sierra_Leone> "GAZ:00000914")
+
+# Class: <http://dbpedia.org/resource/Singapore> (<http://dbpedia.org/resource/Singapore>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Singapore> "GAZ:00003923")
+
+# Class: <http://dbpedia.org/resource/Sint_Maarten> (<http://dbpedia.org/resource/Sint_Maarten>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Sint_Maarten> "GAZ:00012579")
+
+# Class: <http://dbpedia.org/resource/Slovakia> (<http://dbpedia.org/resource/Slovakia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Slovakia> "GAZ:00002956")
+
+# Class: <http://dbpedia.org/resource/Slovenia> (<http://dbpedia.org/resource/Slovenia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Slovenia> "GAZ:00002955")
+
+# Class: <http://dbpedia.org/resource/Solomon_Islands> (<http://dbpedia.org/resource/Solomon_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Solomon_Islands> "GAZ:00005275")
+
+# Class: <http://dbpedia.org/resource/Somalia> (<http://dbpedia.org/resource/Somalia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Somalia> "GAZ:00001104")
+
+# Class: <http://dbpedia.org/resource/South_Africa> (<http://dbpedia.org/resource/South_Africa>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/South_Africa> "GAZ:00000553")
+
+# Class: <http://dbpedia.org/resource/South_Korea> (<http://dbpedia.org/resource/South_Korea>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/South_Korea> "GAZ:00002802")
+
+# Class: <http://dbpedia.org/resource/South_Sudan> (<http://dbpedia.org/resource/South_Sudan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/South_Sudan> "GAZ:00233439")
+
+# Class: <http://dbpedia.org/resource/Spain> (<http://dbpedia.org/resource/Spain>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Spain> "GAZ:00000591")
+
+# Class: <http://dbpedia.org/resource/Sri_Lanka> (<http://dbpedia.org/resource/Sri_Lanka>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Sri_Lanka> "GAZ:00003924")
+
+# Class: <http://dbpedia.org/resource/Sudan> (<http://dbpedia.org/resource/Sudan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Sudan> "GAZ:00000560")
+
+# Class: <http://dbpedia.org/resource/Suriname> (<http://dbpedia.org/resource/Suriname>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Suriname> "GAZ:00002525")
+
+# Class: <http://dbpedia.org/resource/Swaziland> (<http://dbpedia.org/resource/Swaziland>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Swaziland> "GAZ:00001099")
+
+# Class: <http://dbpedia.org/resource/Sweden> (<http://dbpedia.org/resource/Sweden>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Sweden> "GAZ:00002729")
+
+# Class: <http://dbpedia.org/resource/Switzerland> (<http://dbpedia.org/resource/Switzerland>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Switzerland> "GAZ:00002941")
+
+# Class: <http://dbpedia.org/resource/Syria> (<http://dbpedia.org/resource/Syria>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Syria> "GAZ:00002474")
+
+# Class: <http://dbpedia.org/resource/São_Tomé_and_Príncipe> (<http://dbpedia.org/resource/São_Tomé_and_Príncipe>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/São_Tomé_and_Príncipe> "GAZ:00006927")
+
+# Class: <http://dbpedia.org/resource/Taiwan> (<http://dbpedia.org/resource/Taiwan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Taiwan> "GAZ:00005341")
+
+# Class: <http://dbpedia.org/resource/Tajikistan> (<http://dbpedia.org/resource/Tajikistan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Tajikistan> "GAZ:00006912")
+
+# Class: <http://dbpedia.org/resource/Tanzania> (<http://dbpedia.org/resource/Tanzania>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Tanzania> "GAZ:00001103")
+
+# Class: <http://dbpedia.org/resource/Thailand> (<http://dbpedia.org/resource/Thailand>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Thailand> "GAZ:00003744")
+
+# Class: <http://dbpedia.org/resource/The_Bahamas> (<http://dbpedia.org/resource/The_Bahamas>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/The_Bahamas> "GAZ:00002733")
+
+# Class: <http://dbpedia.org/resource/The_Gambia> (<http://dbpedia.org/resource/The_Gambia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/The_Gambia> "GAZ:00000907")
+
+# Class: <http://dbpedia.org/resource/Togo> (<http://dbpedia.org/resource/Togo>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Togo> "GAZ:00000915")
+
+# Class: <http://dbpedia.org/resource/Tokelau> (<http://dbpedia.org/resource/Tokelau>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Tokelau> "GAZ:00006914")
+
+# Class: <http://dbpedia.org/resource/Tonga> (<http://dbpedia.org/resource/Tonga>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Tonga> "GAZ:00006916")
+
+# Class: <http://dbpedia.org/resource/Trinidad_and_Tobago> (<http://dbpedia.org/resource/Trinidad_and_Tobago>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Trinidad_and_Tobago> "GAZ:00003767")
+
+# Class: <http://dbpedia.org/resource/Tunisia> (<http://dbpedia.org/resource/Tunisia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Tunisia> "GAZ:00000562")
+
+# Class: <http://dbpedia.org/resource/Turkey> (<http://dbpedia.org/resource/Turkey>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Turkey> "GAZ:00000558")
+
+# Class: <http://dbpedia.org/resource/Turkmenistan> (<http://dbpedia.org/resource/Turkmenistan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Turkmenistan> "GAZ:00005018")
+
+# Class: <http://dbpedia.org/resource/Turks_and_Caicos_Islands> (<http://dbpedia.org/resource/Turks_and_Caicos_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Turks_and_Caicos_Islands> "GAZ:00003955")
+
+# Class: <http://dbpedia.org/resource/Tuvalu> (<http://dbpedia.org/resource/Tuvalu>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Tuvalu> "GAZ:00009715")
+
+# Class: <http://dbpedia.org/resource/Uganda> (<http://dbpedia.org/resource/Uganda>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Uganda> "GAZ:00001102")
+
+# Class: <http://dbpedia.org/resource/Ukraine> (<http://dbpedia.org/resource/Ukraine>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Ukraine> "GAZ:00002724")
+
+# Class: <http://dbpedia.org/resource/United_Arab_Emirates> (<http://dbpedia.org/resource/United_Arab_Emirates>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/United_Arab_Emirates> "GAZ:00005282")
+
+# Class: <http://dbpedia.org/resource/United_Kingdom> (<http://dbpedia.org/resource/United_Kingdom>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/United_Kingdom> "GAZ:00002637")
+
+# Class: <http://dbpedia.org/resource/United_States> (<http://dbpedia.org/resource/United_States>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/United_States> "GAZ:00002459")
+
+# Class: <http://dbpedia.org/resource/United_States_Virgin_Islands> (<http://dbpedia.org/resource/United_States_Virgin_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/United_States_Virgin_Islands> "GAZ:00003959")
+
+# Class: <http://dbpedia.org/resource/Uruguay> (<http://dbpedia.org/resource/Uruguay>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Uruguay> "GAZ:00002930")
+
+# Class: <http://dbpedia.org/resource/Uzbekistan> (<http://dbpedia.org/resource/Uzbekistan>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Uzbekistan> "GAZ:00004979")
+
+# Class: <http://dbpedia.org/resource/Vanuatu> (<http://dbpedia.org/resource/Vanuatu>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Vanuatu> "GAZ:00006918")
+
+# Class: <http://dbpedia.org/resource/Venezuela> (<http://dbpedia.org/resource/Venezuela>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Venezuela> "GAZ:00002931")
+
+# Class: <http://dbpedia.org/resource/Vietnam> (<http://dbpedia.org/resource/Vietnam>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Vietnam> "GAZ:00003756")
+
+# Class: <http://dbpedia.org/resource/Wallis_and_Futuna> (<http://dbpedia.org/resource/Wallis_and_Futuna>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Wallis_and_Futuna> "GAZ:00007191")
+
+# Class: <http://dbpedia.org/resource/Western_Sahara> (<http://dbpedia.org/resource/Western_Sahara>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Western_Sahara> "GAZ:00000564")
+
+# Class: <http://dbpedia.org/resource/Yemen> (<http://dbpedia.org/resource/Yemen>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Yemen> "GAZ:00005284")
+
+# Class: <http://dbpedia.org/resource/Zambia> (<http://dbpedia.org/resource/Zambia>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Zambia> "GAZ:00001107")
+
+# Class: <http://dbpedia.org/resource/Zimbabwe> (<http://dbpedia.org/resource/Zimbabwe>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Zimbabwe> "GAZ:00001106")
+
+# Class: <http://dbpedia.org/resource/Cocos_(Keeling)_Islands> (<http://dbpedia.org/resource/Cocos_(Keeling)_Islands>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Cocos_(Keeling)_Islands> "GAZ:00009721")
+
+# Class: <http://dbpedia.org/resource/Georgia_(country)> (<http://dbpedia.org/resource/Georgia_(country)>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Georgia_(country)> "GAZ:00004942")
+
+# Class: <http://purl.obolibrary.org/obo/GEO_000000374> (<http://purl.obolibrary.org/obo/GEO_000000374>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GEO_000000374> "GAZ:00190836")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0029> (<http://purl.obolibrary.org/obo/HANCESTRO_0029>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0029> "GAZ:00000457")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0030> (<http://purl.obolibrary.org/obo/HANCESTRO_0030>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0030> "GAZ:00000465")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0031> (<http://purl.obolibrary.org/obo/HANCESTRO_0031>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0031> "GAZ:00000464")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0032> (<http://purl.obolibrary.org/obo/HANCESTRO_0032>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0032> "GAZ:00000468")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0033> (<http://purl.obolibrary.org/obo/HANCESTRO_0033>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0033> "GAZ:00000459")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0034> (<http://purl.obolibrary.org/obo/HANCESTRO_0034>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0034> "GAZ:00000458")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0035> (<http://purl.obolibrary.org/obo/HANCESTRO_0035>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0035> "GAZ:00000556")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0037> (<http://purl.obolibrary.org/obo/HANCESTRO_0037>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0037> "GAZ:00000555")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0038> (<http://purl.obolibrary.org/obo/HANCESTRO_0038>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0038> "GAZ:00000553")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0039> (<http://purl.obolibrary.org/obo/HANCESTRO_0039>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0039> "GAZ:00000554")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0042> (<http://purl.obolibrary.org/obo/HANCESTRO_0042>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0042> "GAZ:00000559")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0049> (<http://purl.obolibrary.org/obo/HANCESTRO_0049>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0049> "GAZ:00000459")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0050> (<http://purl.obolibrary.org/obo/HANCESTRO_0050>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0050> "GAZ:00002891")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0052> (<http://purl.obolibrary.org/obo/HANCESTRO_0052>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0052> "GAZ:00005860")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0053> (<http://purl.obolibrary.org/obo/HANCESTRO_0053>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0053> "GAZ:00005862")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0054> (<http://purl.obolibrary.org/obo/HANCESTRO_0054>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0054> "GAZ:00005861")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0055> (<http://purl.obolibrary.org/obo/HANCESTRO_0055>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0055> "GAZ:00002471")
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0289> (<http://purl.obolibrary.org/obo/HANCESTRO_0289>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HANCESTRO_0289> "GAZ:00002472")
+
+
+)

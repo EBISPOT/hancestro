@@ -1,0 +1,61 @@
+id: hancestro
+title: "The Human Ancestry Ontology"
+github_org: ebispot
+git_main_branch: master
+repo: ancestro
+report_fail_on: ERROR
+reasoner: hermit
+documentation: 
+  documentation_system: mkdocs
+export_formats:
+  - owl
+  - obo
+  - json
+namespaces:
+  - http://purl.obolibrary.org/obo/HANCESTRO_
+release_artefacts:
+  - base
+  - full
+edit_format: ofn
+import_group:
+  products:
+    - id: obi
+      use_base: TRUE
+      module_type: custom
+    - id: geo
+      make_base: TRUE
+      module_type: custom
+    - id: bfo
+      make_base: TRUE
+      module_type: slme
+      module_tyle_slme: BOT
+    - id: ro
+      use_base: TRUE
+components:
+  products:
+    - filename: gaz_xrefs.owl
+      use_template: True
+      template_options: '--prefix "dbpedia: http://dbpedia.org/resource/" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
+      templates:
+        - gaz_xrefs.tsv
+robot_report:
+  release_reports: False
+  fail_on: ERROR
+  use_labels: False
+  custom_profile: True
+  report_on:
+    - edit
+  custom_sparql_checks:
+    - equivalent-classes
+    - trailing-whitespace
+    - owldef-self-reference
+    - xref-syntax
+    - nolabels
+  custom_sparql_exports:
+    - basic-report
+    - class-count-by-prefix
+    - edges
+    - xrefs
+    - obsoletes
+    - synonyms
+
