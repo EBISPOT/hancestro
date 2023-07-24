@@ -7,9 +7,9 @@ The Human Ancestry Ontology (HAncestro) provides a systematic description of the
 
 The following HANCESTRO release files are provided 
 
-* https://github.com/EBISPOT/ancestro/blob/master/hancestro.owl
-* https://github.com/EBISPOT/ancestro/blob/master/hancestro_inferred.owl - pre-inferred version of HANCESTRO
-* https://github.com/EBISPOT/ancestro/blob/master/hancestro_bfo.owl - version of HANCESTRO fitted into the BFO upper hierarchy for ease of integration with other ontologies
+* https://github.com/EBISPOT/ancestro/blob/main/hancestro.owl
+* https://github.com/EBISPOT/ancestro/blob/main/hancestro_inferred.owl - pre-inferred version of HANCESTRO
+* https://github.com/EBISPOT/ancestro/blob/main/hancestro_bfo.owl - version of HANCESTRO fitted into the BFO upper hierarchy for ease of integration with other ontologies
 
 
 ### Contact Details ###

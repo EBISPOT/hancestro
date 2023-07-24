@@ -4,24 +4,16 @@ idspace: HANCESTRO
 base_url: /obo/hancestro
 
 products:
-- hancestro.owl: https://raw.githubusercontent.com/daniwelter/human-ancestry-ontology/master/hancestro.owl
-- hancestro.obo: https://raw.githubusercontent.com/daniwelter/human-ancestry-ontology/master/hancestro.obo
+- hancestro.owl: https://raw.githubusercontent.com/EBISPOT/ancestro/main/hancestro_inferred.owl
 
 term_browser: ontobee
 example_terms:
-- HANCESTRO_0000000
+- HANCESTRO_0004
 
 entries:
-
-- prefix: /releases/
-  replacement: https://raw.githubusercontent.com/daniwelter/human-ancestry-ontology/v
-
-- prefix: /tracker/
-  replacement: https://github.com/daniwelter/human-ancestry-ontology/issues
-
-- prefix: /about/
-  replacement: http://www.ontobee.org/ontology/HANCESTRO?iri=http://purl.obolibrary.org/obo/
-
-## generic fall-through, serve direct from github by default
-- prefix: /
-  replacement: https://raw.githubusercontent.com/daniwelter/human-ancestry-ontology/master/
+- exact: /hancestro.owl
+  replacement: https://raw.githubusercontent.com/EBISPOT/ancestro/main/hancestro.owl
+- exact: /hancestro_inferred.owl
+  replacement: https://raw.githubusercontent.com/EBISPOT/ancestro/main/hancestro_inferred.owl
+- exact: /hancestro_bfo.owl
+  replacement: https://raw.githubusercontent.com/EBISPOT/ancestro/main/hancestro_bfo.owl

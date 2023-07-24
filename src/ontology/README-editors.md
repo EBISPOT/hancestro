@@ -63,7 +63,7 @@ And type a brief description of the release in the editor window
 
 Finally type
 
-    git push origin master
+    git push origin main
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
@@ -91,11 +91,4 @@ correct ontologies. Try it!
 
 For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
-<!---
-# Travis Continuous Integration System
-
-Check the build status here: [![Build Status](https://travis-ci.org/daniwelter/human-ancestry-ontology.svg?branch=master)](https://travis-ci.org/daniwelter/human-ancestry-ontology)
-
-Note: if you have only just created this project you will need to authorize travis for this repo. Go to [https://travis-ci.org/profile/daniwelter](https://travis-ci.org/profile/daniwelter) for details
---->
 

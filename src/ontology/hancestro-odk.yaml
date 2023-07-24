@@ -1,7 +1,7 @@
 id: hancestro
 title: "The Human Ancestry Ontology"
 github_org: ebispot
-git_main_branch: master
+git_main_branch: main
 repo: ancestro
 report_fail_on: ERROR
 reasoner: hermit
