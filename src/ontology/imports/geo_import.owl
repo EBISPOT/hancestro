@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/imports/geo_import.owl>
-<http://purl.obolibrary.org/obo/hancestro/releases/2023-07-21/imports/geo_import.owl>
-Annotation(owl:versionInfo "2023-07-21")
+<http://purl.obolibrary.org/obo/hancestro/releases/2023-07-24/imports/geo_import.owl>
+Annotation(owl:versionInfo "2023-07-24")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -29,10 +29,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GEO_000000372>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GEO_000000374>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GEO_000000375>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GEO_000000391>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GEO_000000789>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000047>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000137>))
@@ -48,9 +45,6 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000092>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001015>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/GEO_000000790>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/GEO_000000791>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/GEO_000000796>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000179>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000180>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000111>))
@@ -587,42 +581,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/GEO_000000391> "Amanda Hicks"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GEO_000000391> "geopoli organization"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GEO_000000391> <http://purl.obolibrary.org/obo/OBI_0000245>)
-
-# Class: <http://purl.obolibrary.org/obo/GEO_000000789> (plane angle measurement unit label)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/GEO_000000789> "planar angular measurement unit label"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GEO_000000789> "plane angle measurement unit label"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GEO_000000789> <http://purl.obolibrary.org/obo/IAO_0000003>)
-
-
-############################
-#   Named Individuals
-############################
-
-# Individual: <http://purl.obolibrary.org/obo/GEO_000000790> (angular degree)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/GEO_000000790> "angular degree"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GEO_000000790> "angular degree"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GEO_000000790> "°"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/GEO_000000789> <http://purl.obolibrary.org/obo/GEO_000000790>)
-
-# Individual: <http://purl.obolibrary.org/obo/GEO_000000791> (rad)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/GEO_000000791> "radian"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GEO_000000791> "A unit of measurement of planar angles where a full circle is 2π.  Specifically the angle is the length of the arc subtended by the angle divided by the circumference of the circle."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/GEO_000000791> "Josh Hanna"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/GEO_000000791> "William R. Hogan"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GEO_000000791> "Technically in the S.I. system it is a derived unit m•m^-1."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GEO_000000791> "rad"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GEO_000000791> "radian"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/GEO_000000789> <http://purl.obolibrary.org/obo/GEO_000000791>)
-
-# Individual: <http://purl.obolibrary.org/obo/GEO_000000796> (square mile)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/GEO_000000796> "square mile"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GEO_000000796> "An area unit which is equal to the area enclosed by a square in a flat plane which is one mile on every side."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GEO_000000796> "square mile"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/UO_0000047> <http://purl.obolibrary.org/obo/GEO_000000796>)
 
 
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000031>)

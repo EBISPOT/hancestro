@@ -314,13 +314,12 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms_combined.txt
 
 $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl
 	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in hancestro.Makefile!" && false
+	
+	
 ## Module for ontology: geo
 
-$(IMPORTDIR)/geo_import.owl: $(MIRRORDIR)/geo.owl $(IMPORTDIR)/geo_terms_combined.txt
-	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-		extract -T $(IMPORTDIR)/geo_terms_combined.txt --copy-ontology-annotations true --force true --individuals include --method BOT \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
-		$(ANNOTATE_CONVERT_FILE); fi
+$(IMPORTDIR)/geo_import.owl: $(MIRRORDIR)/geo.owl 
+	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in hancestro.Makefile!" && false
 
 ## Module for ontology: bfo
 
@@ -536,6 +535,7 @@ $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 		relax \
 		reduce -r hermit \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
 # ----------------------------------------
 # Debugging Tools
 # ----------------------------------------
