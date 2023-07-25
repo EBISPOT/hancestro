@@ -1,7 +1,55 @@
 # HANCESTRO Ontology Documentation
 
-[//]: # "This file is meant to be edited by the ontology maintainer."
-
 Welcome to the HANCESTRO documentation!
 
+The Human Ancestry Ontology (HAncestro) provides a systematic description of the ancestry concepts used in the [NHGRI-EBI Catalog of published genome-wide association studies](http://www.ebi.ac.uk/gwas).  It includes a list of countries, regions and major areas (essentially continents), as well as a fairly exhaustive list of defined ancestral categories, uncategorised ancestral categories and population isolates.
+
+The following HANCESTRO release files are provided 
+
+* https://github.com/EBISPOT/ancestro/blob/main/hancestro.owl
+* https://github.com/EBISPOT/ancestro/blob/main/hancestro_inferred.owl - pre-inferred version of HANCESTRO
+* https://github.com/EBISPOT/ancestro/blob/main/hancestro_bfo.owl - version of HANCESTRO fitted into the BFO upper hierarchy for ease of integration with other ontologies
+
+Please see our [FAQ](/faq.md) for some more information.
+
 You can find descriptions of the standard ontology engineering workflows [here](odk-workflows/index.md).
+
+
+## What's the difference between ancestry and ethnicity?
+
+Ancestry generally refers to an individual's objectivily verifiable genetic background, which can be clustered with reference populations from a certain region. Ethnicity on the other hand refers to an individual's self-identified cultural background. Most individuals have a strong alignment between their ancestry and ethnicity but it is possible for an individual to associate with an ethnic background that is not aligned with their genetic ancestry, for example due to gaps or misrepresentations in their family history.
+
+For more information, see [Mersha & Abebe, 2015](https://humgenomics.biomedcentral.com/articles/10.1186/s40246-014-0023-x) or [https://health.clevelandclinic.org/how-your-ancestry-and-ethnicity-affect-your-health/](https://health.clevelandclinic.org/how-your-ancestry-and-ethnicity-affect-your-health/)
+
+Ancestry categories in the Human Ancestry Ontology refer to genetic ancestry and have been defined in this context. They may also be used to annotate self-reported ethnicity data but with the clear caveat that annotation does not guarantee the accuracy of related genetic information. 
+
+## HANCESTRO root level concepts
+
+### Ancestry category
+
+The key purpose of HANCESTRO is the capture of the primary ancestry categories defined in [Morales et al, 2018](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1396-2). Where additional genetic information for a smaller population category (eg by country) is available to assign it to one of the defined ancestry categories, this is also represented in the ontology hierarchy. However a lot of country-based categories are either uncategorised, ie the available ancestry information does not fall into one of the defined categories or they are undefined, ie insufficient information is available to allocate this population to a specific ancestral group.
+
+ The primary asserted relationship between ancestry categories and countries is via the `isDemonymOf` relationship, which identifies that individuals may be residents or natives of a particular place but makes no assertion regarding their genetic background.
+
+In exceptional cases, ancestry categories are associated with countries via the `hasCountryOfOrigin` relationship. This is much more formal definition generally reserved for genetically isolated populations where objectively verifiable information is available to relate individuals from this population to a small geographic area within a certain country.
+
+### Ancestry status
+
+This class represents the general characterisation of the ancestry of a population or individual. Ancestry status can either be admixed or genetically isolated.
+
+### Continent
+
+Formally defined major geographic area.
+
+
+### Country
+
+Defined geographic area, generally corresponding to an independent state or nation.
+
+### Region
+
+Convenience grouping of geographic areas larger than countries but smaller than continents. Regions may not have formal geographic definitions.
+
+
+
+
