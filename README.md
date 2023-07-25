@@ -75,4 +75,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/a
 
 ## Acknowledgements
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology repository was created using the [ODK - Ontology Development Kit](https://github.com/INCATools/ontology-development-kit)
