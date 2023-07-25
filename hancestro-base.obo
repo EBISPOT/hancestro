@@ -1,0 +1,3884 @@
+format-version: 1.2
+data-version: hancestro/releases/2023-07-25/hancestro-base.owl
+ontology: hancestro/hancestro-base
+property_value: http://purl.org/dc/elements/1.1/description "Human ancestry ontology for the NHGRI GWAS Catalog" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Human Ancestry Ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
+property_value: IAO:0000700 HANCESTRO:0004
+property_value: IAO:0000700 HANCESTRO:0304
+property_value: owl:versionInfo "2.8" xsd:decimal
+property_value: owl:versionInfo "2023-07-25" xsd:string
+
+[Term]
+id: American:Samoa
+name: American Samoa
+xref: GAZ:00003957
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+
+[Term]
+id: Burkina:Faso
+name: Burkina Faso
+xref: GAZ:00000905
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: Cape:Verde
+name: Cape Verde
+xref: GAZ:00001227
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: Cayman:Islands
+name: Cayman Islands
+xref: GAZ:00003986
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: Channel:Islands
+name: Channel Islands
+xref: GAZ:00001539
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: Christmas:Island
+name: Christmas Island
+xref: GAZ:00005915
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! located_in Australia/New Zealand
+
+[Term]
+id: Cook:Islands
+name: Cook Islands
+xref: GAZ:00053798
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+
+[Term]
+id: Costa:Rica
+name: Costa Rica
+xref: GAZ:00002901
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0050 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Central America
+
+[Term]
+id: Czech:Republic
+name: Czech Republic
+xref: GAZ:00002954
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Europe
+
+[Term]
+id: Dominican:Republic
+name: Dominican Republic
+xref: GAZ:00003952
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true"} ! located_in Caribbean
+
+[Term]
+id: East:Timor
+name: East Timor
+synonym: "Timor-Leste" EXACT []
+xref: GAZ:00006913
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: El:Salvador
+name: El Salvador
+xref: GAZ:00002935
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0050 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Central America
+
+[Term]
+id: Equatorial:Guinea
+name: Equatorial Guinea
+xref: GAZ:00001091
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0036 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Middle Africa
+
+[Term]
+id: Faeroe:Islands
+name: Faeroe Islands
+xref: GAZ:00059206
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+property_value: IAO:0000118 "Faroe Islands" xsd:string
+
+[Term]
+id: Falkland:Islands
+name: Falkland Islands
+synonym: "Falkland Islands (Malvinas)" EXACT []
+xref: GAZ:00001412
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: French:Guiana
+name: French Guiana
+xref: GAZ:00002516
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: French:Polynesia
+name: French Polynesia
+xref: GAZ:00002918
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+
+[Term]
+id: GEO:000000374
+name: continent
+def: "One of the large, unbroken masses of land into which the Earth's surface is divided." []
+synonym: "major area" EXACT []
+xref: GAZ:00190836
+
+[Term]
+id: Georgia:(country)
+name: Georgia
+xref: GAZ:00004942
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: Guinea:Bissau
+name: Guinea-Bissau
+xref: GAZ:00000910
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: HANCESTRO:0002
+name: region
+def: "Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable." []
+synonym: "geographical area" EXACT []
+relationship: BFO:0000050 GEO:000000374 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of continent
+
+[Term]
+id: HANCESTRO:0003
+name: country
+def: "A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states." []
+relationship: RO:0001025 HANCESTRO:0002 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in region
+property_value: IAO:0000119 "NCIT:C25464" xsd:string
+
+[Term]
+id: HANCESTRO:0004
+name: ancestry category
+def: "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data" []
+synonym: "ancestral group" EXACT []
+
+[Term]
+id: HANCESTRO:0005
+name: European
+def: "Includes individuals who either self-report or have been described by authors as\nEuropean, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations." []
+synonym: "Caucasian" EXACT []
+synonym: "white" EXACT []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0006
+name: South Asian
+def: "Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations." []
+is_a: HANCESTRO:0008 ! Asian
+
+[Term]
+id: HANCESTRO:0007
+name: South East Asian
+def: "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations." []
+is_a: HANCESTRO:0008 ! Asian
+
+[Term]
+id: HANCESTRO:0008
+name: Asian
+def: "Includes individuals that either self-report or have been described as Asian but there was not sufficient information to allow classification as East Asian, Central Asian, South Asian or South-East Asian." []
+synonym: "Asian unspecified" EXACT []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0009
+name: East Asian
+def: "Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations." []
+is_a: HANCESTRO:0008 ! Asian
+
+[Term]
+id: HANCESTRO:0010
+name: African
+def: "Includes individuals that either self-report or have been described as African, but there was not sufficient information to allow classification as African American, AfroCaribbean or Sub-Saharan African." []
+synonym: "African unspecified" EXACT []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0011
+name: Sub-Saharan African
+def: "Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban).\nThis category also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations." []
+is_a: HANCESTRO:0010 ! African
+
+[Term]
+id: HANCESTRO:0013
+name: Native American
+def: "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
+synonym: "American Indian" EXACT []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0014
+name: Hispanic or Latin American
+def: "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations\nfrom this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations" []
+is_a: HANCESTRO:0004 ! ancestry category
+relationship: HANCESTRO:0301 HANCESTRO:0306 ! hasAncestryStatus admixed ancestry
+property_value: IAO:0000117 "Jackie MacArthur" xsd:string
+property_value: IAO:0000117 "Joannella Morales" xsd:string
+
+[Term]
+id: HANCESTRO:0015
+name: Greater Middle Eastern  (Middle Eastern, North African or Persian)
+def: "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
+synonym: "Middle Eastern/North African" EXACT []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0016
+name: African American or Afro-Caribbean
+def: "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations." []
+is_a: HANCESTRO:0004 ! ancestry category
+relationship: HANCESTRO:0301 HANCESTRO:0306 ! hasAncestryStatus admixed ancestry
+
+[Term]
+id: HANCESTRO:0017
+name: Oceanian
+def: "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0018
+name: uncategorised population
+def: "A population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories" []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0019
+name: Japanese
+is_a: HANCESTRO:0009 ! East Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Japan ! isDemonymOf Japan
+
+[Term]
+id: HANCESTRO:0020
+name: Taiwanese
+synonym: "non-aboriginal Taiwanese" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Taiwan ! isDemonymOf Taiwan
+
+[Term]
+id: HANCESTRO:0021
+name: Chinese
+is_a: HANCESTRO:0009 ! East Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/China ! isDemonymOf China
+
+[Term]
+id: HANCESTRO:0022
+name: Korean
+is_a: HANCESTRO:0009 ! East Asian
+relationship: HANCESTRO:0330 South:Korea ! isDemonymOf South Korea
+
+[Term]
+id: HANCESTRO:0023
+name: Mongolian
+is_a: HANCESTRO:0009 ! East Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mongolia ! isDemonymOf Mongolia
+
+[Term]
+id: HANCESTRO:0024
+name: Macanese
+is_a: HANCESTRO:0021 ! Chinese
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Macau ! isDemonymOf Macau
+
+[Term]
+id: HANCESTRO:0025
+name: Singaporean Chinese
+is_a: HANCESTRO:0021 ! Chinese
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Singapore ! isDemonymOf Singapore
+
+[Term]
+id: HANCESTRO:0026
+name: Hong Kong Chinese
+is_a: HANCESTRO:0021 ! Chinese
+relationship: HANCESTRO:0330 Hong:Kong ! isDemonymOf Hong Kong
+
+[Term]
+id: HANCESTRO:0027
+name: Han Chinese
+is_a: HANCESTRO:0021 ! Chinese
+
+[Term]
+id: HANCESTRO:0029
+name: Africa
+xref: GAZ:00000457
+is_a: GEO:000000374 ! continent
+disjoint_from: HANCESTRO:0030 ! Asia
+
+[Term]
+id: HANCESTRO:0030
+name: Asia
+xref: GAZ:00000465
+is_a: GEO:000000374 ! continent
+
+[Term]
+id: HANCESTRO:0031
+name: Europe
+xref: GAZ:00000464
+is_a: GEO:000000374 ! continent
+
+[Term]
+id: HANCESTRO:0032
+name: Oceania
+xref: GAZ:00000468
+is_a: GEO:000000374 ! continent
+
+[Term]
+id: HANCESTRO:0033
+name: Latin America and the Caribbean
+xref: GAZ:00000459
+is_a: GEO:000000374 ! continent
+
+[Term]
+id: HANCESTRO:0034
+name: Northern America
+xref: GAZ:00000458
+is_a: GEO:000000374 ! continent
+
+[Term]
+id: HANCESTRO:0035
+name: Eastern Africa
+xref: GAZ:00000556
+is_a: HANCESTRO:0002 ! region
+disjoint_from: HANCESTRO:0036 ! Middle Africa
+relationship: BFO:0000050 HANCESTRO:0029 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Africa
+
+[Term]
+id: HANCESTRO:0036
+name: Middle Africa
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0029 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Africa
+
+[Term]
+id: HANCESTRO:0037
+name: Northern Africa
+xref: GAZ:00000555
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0029 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Africa
+
+[Term]
+id: HANCESTRO:0038
+name: Southern Africa
+xref: GAZ:00000553
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0029 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Africa
+
+[Term]
+id: HANCESTRO:0039
+name: Western Africa
+xref: GAZ:00000554
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0029 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Africa
+
+[Term]
+id: HANCESTRO:0041
+name: South-Central Asia
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0030 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Asia
+relationship: BFO:0000050 HANCESTRO:0289 {all_only="true"} ! part_of South Asia
+
+[Term]
+id: HANCESTRO:0042
+name: South-Eastern Asia
+xref: GAZ:00000559
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0030 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Asia
+relationship: BFO:0000050 HANCESTRO:0289 {all_only="true"} ! part_of South Asia
+
+[Term]
+id: HANCESTRO:0043
+name: Western Asia
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0030 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Asia
+
+[Term]
+id: HANCESTRO:0044
+name: Eastern Europe
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0031 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Europe
+
+[Term]
+id: HANCESTRO:0045
+name: Northern Europe
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0031 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Europe
+
+[Term]
+id: HANCESTRO:0046
+name: Southern Europe
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0031 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Europe
+
+[Term]
+id: HANCESTRO:0047
+name: Western Europe
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0031 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Europe
+
+[Term]
+id: HANCESTRO:0048
+name: Caribbean
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0033 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Latin America and the Caribbean
+
+[Term]
+id: HANCESTRO:0049
+name: South America
+xref: GAZ:00000459
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0033 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Latin America and the Caribbean
+
+[Term]
+id: HANCESTRO:0050
+name: Central America
+xref: GAZ:00002891
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0033 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Latin America and the Caribbean
+
+[Term]
+id: HANCESTRO:0051
+name: Australia/New Zealand
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0032 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Oceania
+
+[Term]
+id: HANCESTRO:0052
+name: Melanesia
+xref: GAZ:00005860
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0032 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Oceania
+
+[Term]
+id: HANCESTRO:0053
+name: Micronesia
+xref: GAZ:00005862
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0032 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Oceania
+
+[Term]
+id: HANCESTRO:0054
+name: Polynesia
+xref: GAZ:00005861
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0032 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Oceania
+
+[Term]
+id: HANCESTRO:0055
+name: Eastern Asia
+xref: GAZ:00002471
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0030 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! part_of Asia
+
+[Term]
+id: HANCESTRO:0286
+name: Central Asian
+def: "Includes individuals who either self-report or have been described by authors as Central Asian. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap." []
+is_a: HANCESTRO:0008 ! Asian
+
+[Term]
+id: HANCESTRO:0288
+name: Scandinavia
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 HANCESTRO:0045 {all_only="true"} ! part_of Northern Europe
+
+[Term]
+id: HANCESTRO:0289
+name: South Asia
+xref: GAZ:00002472
+is_a: HANCESTRO:0002 ! region
+
+[Term]
+id: HANCESTRO:0290
+name: genetically isolated population
+def: "A population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation" []
+synonym: "founder population" EXACT []
+synonym: "population isolate" EXACT []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0304
+name: ancestry status
+def: "General characterisation of the ancestry of a population or individual" []
+union_of: HANCESTRO:0305 ! genetically isolated ancestry
+union_of: HANCESTRO:0306 ! admixed ancestry
+
+[Term]
+id: HANCESTRO:0305
+name: genetically isolated ancestry
+def: "Ancestry that is the result of cultural or geographic isolation. Generally characterised by increased genetic homogeneity and reduced genetic variation" []
+is_a: HANCESTRO:0304 ! ancestry status
+
+[Term]
+id: HANCESTRO:0306
+name: admixed ancestry
+def: "Ancestry which is an admixture of more than one defined ancestral population. The degree and type of admixture may vary within a population and the accuracy of classification requires well-defined reference samples" []
+is_a: HANCESTRO:0304 ! ancestry status
+
+[Term]
+id: HANCESTRO:0307
+name: Italian
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Italy {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Italy
+
+[Term]
+id: HANCESTRO:0309
+name: Sardinian
+is_a: HANCESTRO:0307 ! Italian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+
+[Term]
+id: HANCESTRO:0310
+name: Val Borbera
+is_a: HANCESTRO:0307 ! Italian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+
+[Term]
+id: HANCESTRO:0311
+name: Friuli Venezia Giulia
+is_a: HANCESTRO:0307 ! Italian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+
+[Term]
+id: HANCESTRO:0312
+name: Carlantino
+is_a: HANCESTRO:0307 ! Italian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+
+[Term]
+id: HANCESTRO:0313
+name: Old Order Amish
+is_a: HANCESTRO:0005 ! European
+disjoint_from: HANCESTRO:0316 ! Amish
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0314
+name: Sorbian
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0315
+name: Hutterite
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0316
+name: Amish
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0317
+name: Erasmus Rucphen
+is_a: HANCESTRO:0005 ! European
+disjoint_from: HANCESTRO:0323 ! Dutch founder
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Netherlands {all_only="true"} ! hasCountryOfOrigin Netherlands
+
+[Term]
+id: HANCESTRO:0318
+name: Orcadian
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Scotland {all_only="true"} ! hasCountryOfOrigin Scotland
+
+[Term]
+id: HANCESTRO:0319
+name: Korculan
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Croatia {all_only="true"} ! hasCountryOfOrigin Croatia
+
+[Term]
+id: HANCESTRO:0320
+name: Dutch
+is_a: HANCESTRO:0005 ! European
+
+[Term]
+id: HANCESTRO:0321
+name: Finnish
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Finland {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Finland
+
+[Term]
+id: HANCESTRO:0322
+name: Finnish founder
+is_a: HANCESTRO:0321 ! Finnish
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Finland {all_only="true"} ! hasCountryOfOrigin Finland
+
+[Term]
+id: HANCESTRO:0323
+name: Dutch founder
+is_a: HANCESTRO:0320 ! Dutch
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Netherlands {all_only="true"} ! hasCountryOfOrigin Netherlands
+
+[Term]
+id: HANCESTRO:0324
+name: Ashkenazi Jew
+is_a: HANCESTRO:0018 ! uncategorised population
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0328
+name: obsolete_Caribbean
+is_obsolete: true
+
+[Term]
+id: HANCESTRO:0331
+name: Sudanese
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Sudan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Sudan
+
+[Term]
+id: HANCESTRO:0332
+name: Sahrawi
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 Western:Sahara {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Western Sahara
+
+[Term]
+id: HANCESTRO:0333
+name: Anguillan
+is_a: HANCESTRO:0016 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! African American or Afro-Caribbean
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Anguilla {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Anguilla
+
+[Term]
+id: HANCESTRO:0334
+name: Antiguan or Barbudan
+is_a: HANCESTRO:0016 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! African American or Afro-Caribbean
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Antigua_and_Barbuda {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Antigua and Barbuda
+
+[Term]
+id: HANCESTRO:0335
+name: Barbadian
+is_a: HANCESTRO:0016 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! African American or Afro-Caribbean
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Barbados {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Barbados
+
+[Term]
+id: HANCESTRO:0336
+name: Haitian
+is_a: HANCESTRO:0016 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! African American or Afro-Caribbean
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Haiti {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Haiti
+
+[Term]
+id: HANCESTRO:0337
+name: Jamaican
+is_a: HANCESTRO:0016 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! African American or Afro-Caribbean
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Jamaica {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Jamaica
+
+[Term]
+id: HANCESTRO:0338
+name: Tajikistani
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tajikistan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Tajikistan
+
+[Term]
+id: HANCESTRO:0339
+name: Turkmen
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turkmenistan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Turkmenistan
+
+[Term]
+id: HANCESTRO:0340
+name: Uzbekistani
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uzbekistan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Uzbekistan
+
+[Term]
+id: HANCESTRO:0341
+name: Afghan
+is_a: HANCESTRO:0018 ! uncategorised population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Afghanistan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Afghanistan
+
+[Term]
+id: HANCESTRO:0342
+name: Kazakhstani
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kazakhstan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Kazakhstan
+
+[Term]
+id: HANCESTRO:0343
+name: Kyrgyzstani
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kyrgyzstan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Kyrgyzstan
+
+[Term]
+id: HANCESTRO:0344
+name: Albanian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Albania {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Albania
+
+[Term]
+id: HANCESTRO:0345
+name: Andorran
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Andorra {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Andorra
+
+[Term]
+id: HANCESTRO:0346
+name: Australian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Australia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Australia
+
+[Term]
+id: HANCESTRO:0347
+name: Austrian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Austria {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Austria
+
+[Term]
+id: HANCESTRO:0348
+name: Belarusian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Belarus {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Belarus
+
+[Term]
+id: HANCESTRO:0349
+name: Belgian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Belgium {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Belgium
+
+[Term]
+id: HANCESTRO:0350
+name: Bermudian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bermuda {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Bermuda
+
+[Term]
+id: HANCESTRO:0351
+name: Bosnian or Herzegovinian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bosnia_and_Herzegovina {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Bosnia and Herzegovina
+
+[Term]
+id: HANCESTRO:0352
+name: Brazilian
+is_a: HANCESTRO:0014 ! Hispanic or Latin American
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Brazil {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Brazil
+
+[Term]
+id: HANCESTRO:0353
+name: Bulgarian
+is_a: HANCESTRO:0018 ! uncategorised population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bulgaria {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Bulgaria
+
+[Term]
+id: HANCESTRO:0354
+name: Canadian
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Canada {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Canada
+
+[Term]
+id: HANCESTRO:0355
+name: Channel Islander
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 Channel:Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Channel Islands
+
+[Term]
+id: HANCESTRO:0356
+name: Chilean
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Chile {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Chile
+
+[Term]
+id: HANCESTRO:0357
+name: Croatian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Croatia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Croatia
+
+[Term]
+id: HANCESTRO:0358
+name: Czech
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 Czech:Republic {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Czech Republic
+
+[Term]
+id: HANCESTRO:0359
+name: Danish
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Denmark {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Denmark
+
+[Term]
+id: HANCESTRO:0360
+name: Estonian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Estonia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Estonia
+
+[Term]
+id: HANCESTRO:0361
+name: Faroese
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 Faeroe:Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Faeroe Islands
+
+[Term]
+id: HANCESTRO:0362
+name: Falkland Islander
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 Falkland:Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Falkland Islands
+
+[Term]
+id: HANCESTRO:0363
+name: French
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/France {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf France
+
+[Term]
+id: HANCESTRO:0364
+name: German
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Germany {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Germany
+
+[Term]
+id: HANCESTRO:0365
+name: Gibraltarian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Gibraltar {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Gibraltar
+
+[Term]
+id: HANCESTRO:0366
+name: Greek
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Greece {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Greece
+
+[Term]
+id: HANCESTRO:0367
+name: Greenlander
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Greenland {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Greenland
+
+[Term]
+id: HANCESTRO:0368
+name: Hungarian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Hungary {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Hungary
+
+[Term]
+id: HANCESTRO:0369
+name: Icelandic
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iceland {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Iceland
+
+[Term]
+id: HANCESTRO:0370
+name: Manx
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Isle_of_Man {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Isle of Man
+
+[Term]
+id: HANCESTRO:0371
+name: Latvian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Latvia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Latvia
+
+[Term]
+id: HANCESTRO:0372
+name: Liechtensteiner
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Liechtenstein {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Liechtenstein
+
+[Term]
+id: HANCESTRO:0373
+name: Lithuanian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lithuania {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Lithuania
+
+[Term]
+id: HANCESTRO:0374
+name: Luxembourgish
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Luxembourg {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Luxembourg
+
+[Term]
+id: HANCESTRO:0375
+name: Maltese
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malta {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Malta
+
+[Term]
+id: HANCESTRO:0376
+name: Monegasque
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Monaco {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Monaco
+
+[Term]
+id: HANCESTRO:0377
+name: Montenegrin
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Montenegro {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Montenegro
+
+[Term]
+id: HANCESTRO:0378
+name: New Zealandish
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 New:Zealand {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf New Zealand
+
+[Term]
+id: HANCESTRO:0379
+name: Norfolk Islander
+is_a: HANCESTRO:0018 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! uncategorised population
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0330 Norfolk:Island {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Norfolk Island
+
+[Term]
+id: HANCESTRO:0380
+name: Norwegian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Norway {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Norway
+
+[Term]
+id: HANCESTRO:0381
+name: Polish
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Poland {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Poland
+
+[Term]
+id: HANCESTRO:0382
+name: Portugese
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Portugal {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Portugal
+
+[Term]
+id: HANCESTRO:0383
+name: Irish
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_Ireland {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Republic of Ireland
+
+[Term]
+id: HANCESTRO:0384
+name: Moldovan
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Moldova {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Moldova
+
+[Term]
+id: HANCESTRO:0385
+name: Romanian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Romania {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Romania
+
+[Term]
+id: HANCESTRO:0386
+name: Russian
+is_a: HANCESTRO:0018 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! uncategorised population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Russia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Russia
+
+[Term]
+id: HANCESTRO:0387
+name: Saint-Pierrais or Miquelonnais
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Saint_Pierre_and_Miquelon {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Saint Pierre and Miquelon
+
+[Term]
+id: HANCESTRO:0388
+name: Sammarinese
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 San:Marino {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf San Marino
+
+[Term]
+id: HANCESTRO:0389
+name: Serb
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Serbia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Serbia
+
+[Term]
+id: HANCESTRO:0390
+name: Slovak
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Slovakia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Slovakia
+
+[Term]
+id: HANCESTRO:0391
+name: Slovene
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Slovenia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Slovenia
+
+[Term]
+id: HANCESTRO:0392
+name: Spanish
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Spain {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Spain
+
+[Term]
+id: HANCESTRO:0393
+name: Swedish
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Sweden {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Sweden
+
+[Term]
+id: HANCESTRO:0394
+name: Swiss
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Switzerland {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Switzerland
+
+[Term]
+id: HANCESTRO:0395
+name: Macedonian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_Macedonia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Republic of Macedonia
+
+[Term]
+id: HANCESTRO:0396
+name: Ukrainian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ukraine {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Ukraine
+
+[Term]
+id: HANCESTRO:0397
+name: Argentine
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Argentina {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Argentina
+
+[Term]
+id: HANCESTRO:0398
+name: Bahamian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 The:Bahamas {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf The Bahamas
+
+[Term]
+id: HANCESTRO:0399
+name: Belizean
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Belize {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Belize
+
+[Term]
+id: HANCESTRO:0400
+name: Bolivian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bolivia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Bolivia
+
+[Term]
+id: HANCESTRO:0401
+name: British Virgin Islander
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/British_Virgin_Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf British Virgin Islands
+
+[Term]
+id: HANCESTRO:0402
+name: Caymanian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Cayman:Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Cayman Islands
+
+[Term]
+id: HANCESTRO:0403
+name: Colombian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Colombia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Colombia
+
+[Term]
+id: HANCESTRO:0404
+name: Costa Rican
+is_a: HANCESTRO:0014 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Hispanic or Latin American
+relationship: HANCESTRO:0330 Costa:Rica {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Costa Rica
+
+[Term]
+id: HANCESTRO:0405
+name: Cuban
+is_a: HANCESTRO:0014 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Hispanic or Latin American
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cuba {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Cuba
+
+[Term]
+id: HANCESTRO:0406
+name: Dominican
+is_a: HANCESTRO:0014 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Hispanic or Latin American
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Dominica {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Dominica
+
+[Term]
+id: HANCESTRO:0407
+name: Ecuadorian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ecuador {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Ecuador
+
+[Term]
+id: HANCESTRO:0408
+name: Salvadoran
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 El:Salvador {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf El Salvador
+
+[Term]
+id: HANCESTRO:0409
+name: French Guianese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 French:Guiana {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf French Guiana
+
+[Term]
+id: HANCESTRO:0410
+name: Grenadian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Grenada {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Grenada
+
+[Term]
+id: HANCESTRO:0411
+name: Guatemalan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guatemala {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Guatemala
+
+[Term]
+id: HANCESTRO:0412
+name: Guyanese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guyana {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Guyana
+
+[Term]
+id: HANCESTRO:0413
+name: Honduran
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Honduras {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Honduras
+
+[Term]
+id: HANCESTRO:0414
+name: Martinican
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Martinique {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Martinique
+
+[Term]
+id: HANCESTRO:0415
+name: Mexican
+is_a: HANCESTRO:0014 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Hispanic or Latin American
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mexico {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Mexico
+
+[Term]
+id: HANCESTRO:0416
+name: Montserratian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Montserrat {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Montserrat
+
+[Term]
+id: HANCESTRO:0417
+name: Nicaraguan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nicaragua {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Nicaragua
+
+[Term]
+id: HANCESTRO:0418
+name: Panamanian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Panama {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Panama
+
+[Term]
+id: HANCESTRO:0419
+name: Paraguayan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Paraguay {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Paraguay
+
+[Term]
+id: HANCESTRO:0420
+name: Peruvian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Peru {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Peru
+
+[Term]
+id: HANCESTRO:0421
+name: Puerto Rican
+is_a: HANCESTRO:0014 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Hispanic or Latin American
+relationship: HANCESTRO:0330 Puerto:Rico {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Puerto Rico
+
+[Term]
+id: HANCESTRO:0422
+name: Kittitian or Nevisian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Saint_Kitts_and_Nevis {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Saint Kitts and Nevis
+
+[Term]
+id: HANCESTRO:0423
+name: Saint Lucian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Saint:Lucia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Saint Lucia
+
+[Term]
+id: HANCESTRO:0424
+name: Saint Vincentian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Saint Vincent and the Grenadines
+
+[Term]
+id: HANCESTRO:0425
+name: Surinamese
+synonym: "Surinamer" EXACT []
+is_a: HANCESTRO:0018 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! uncategorised population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Suriname {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Suriname
+
+[Term]
+id: HANCESTRO:0426
+name: Trinidadian or Tobagonian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Trinidad_and_Tobago {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Trinidad and Tobago
+
+[Term]
+id: HANCESTRO:0427
+name: Turks and Caicos Islander
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turks_and_Caicos_Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Turks and Caicos Islands
+
+[Term]
+id: HANCESTRO:0428
+name: Virgin Islander
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/United_States_Virgin_Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf United States Virgin Islands
+
+[Term]
+id: HANCESTRO:0429
+name: Uruguayan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uruguay {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Uruguay
+
+[Term]
+id: HANCESTRO:0430
+name: Venezuelan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Venezuela {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Venezuela
+
+[Term]
+id: HANCESTRO:0431
+name: Algerian
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Algeria {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Algeria
+
+[Term]
+id: HANCESTRO:0432
+name: Armenian
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Armenia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Armenia
+
+[Term]
+id: HANCESTRO:0433
+name: Azerbaijani
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Azerbaijan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Azerbaijan
+
+[Term]
+id: HANCESTRO:0434
+name: Bahraini
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bahrain {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Bahrain
+
+[Term]
+id: HANCESTRO:0435
+name: Cypriote
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cyprus {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Cyprus
+
+[Term]
+id: HANCESTRO:0436
+name: Egyptian
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Egypt {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Egypt
+
+[Term]
+id: HANCESTRO:0437
+name: Georgian
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 Georgia:(country) {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Georgia
+
+[Term]
+id: HANCESTRO:0438
+name: Iranian
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iran {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Iran
+
+[Term]
+id: HANCESTRO:0439
+name: Iraqi
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iraq {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Iraq
+
+[Term]
+id: HANCESTRO:0440
+name: Israeli
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Israel {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Israel
+
+[Term]
+id: HANCESTRO:0441
+name: Jordanian
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Jordan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Jordan
+
+[Term]
+id: HANCESTRO:0442
+name: Kuwaiti
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kuwait {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Kuwait
+
+[Term]
+id: HANCESTRO:0443
+name: Lebanese
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lebanon {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Lebanon
+
+[Term]
+id: HANCESTRO:0444
+name: Libyan
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Libya {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Libya
+
+[Term]
+id: HANCESTRO:0445
+name: Moroccan
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Morocco {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Morocco
+
+[Term]
+id: HANCESTRO:0446
+name: Palestinian
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 Palestinian:territories {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Palestinian Territories
+
+[Term]
+id: HANCESTRO:0447
+name: Omani
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Oman {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Oman
+
+[Term]
+id: HANCESTRO:0448
+name: Qatari
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Qatar {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Qatar
+
+[Term]
+id: HANCESTRO:0449
+name: Saudi
+synonym: "Saudi Arab" EXACT []
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 Saudi:Arabia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Saudi Arabia
+
+[Term]
+id: HANCESTRO:0450
+name: Tunisian
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tunisia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Tunisia
+
+[Term]
+id: HANCESTRO:0451
+name: Turkish
+is_a: HANCESTRO:0018 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! uncategorised population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turkey {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Turkey
+
+[Term]
+id: HANCESTRO:0452
+name: Emirati
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/United_Arab_Emirates {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf United Arab Emirates
+
+[Term]
+id: HANCESTRO:0453
+name: Yemeni
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Yemen {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Yemen
+
+[Term]
+id: HANCESTRO:0454
+name: Aruban
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Aruba {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Aruba
+
+[Term]
+id: HANCESTRO:0455
+name: Christmas Islander
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Christmas:Island {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Christmas Island
+
+[Term]
+id: HANCESTRO:0456
+name: Cocos Islander
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cocos_(Keeling)_Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Cocos (Keeling) Islands
+
+[Term]
+id: HANCESTRO:0457
+name: Curacaoan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Curacao {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Curacao
+
+[Term]
+id: HANCESTRO:0458
+name: Kosovar
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kosovo {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Kosovo
+
+[Term]
+id: HANCESTRO:0459
+name: Northern Mariana Islander
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Northern_Mariana_Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Northern Mariana Islands
+
+[Term]
+id: HANCESTRO:0460
+name: South Sudanese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 South:Sudan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf South Sudan
+
+[Term]
+id: HANCESTRO:0461
+name: Syrian
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Syria {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Syria
+
+[Term]
+id: HANCESTRO:0462
+name: British
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0330 United:Kingdom {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf United Kingdom
+
+[Term]
+id: HANCESTRO:0463
+name: American
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 United:States {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf United States
+
+[Term]
+id: HANCESTRO:0464
+name: American Samoan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 American:Samoa {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf American Samoa
+
+[Term]
+id: HANCESTRO:0465
+name: Cook Islander
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Cook:Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Cook Islands
+
+[Term]
+id: HANCESTRO:0466
+name: Fijian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Fiji {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Fiji
+
+[Term]
+id: HANCESTRO:0467
+name: French Polynesian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 French:Polynesia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf French Polynesia
+
+[Term]
+id: HANCESTRO:0468
+name: Guamanian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guam {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Guam
+
+[Term]
+id: HANCESTRO:0469
+name: I-Kiribati
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kiribati {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Kiribati
+
+[Term]
+id: HANCESTRO:0470
+name: Marshallese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Marshall:Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Marshall Islands
+
+[Term]
+id: HANCESTRO:0471
+name: Micronesian
+is_a: HANCESTRO:0017 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Oceanian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Federated_States_of_Micronesia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Micronesia (Federated States of)
+
+[Term]
+id: HANCESTRO:0472
+name: Nauruan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nauru {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Nauru
+
+[Term]
+id: HANCESTRO:0473
+name: New Caledonian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 New:Caledonia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf New Caledonia
+
+[Term]
+id: HANCESTRO:0474
+name: Niuean
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Niue {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Niue
+
+[Term]
+id: HANCESTRO:0475
+name: Palauan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Palau {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Palau
+
+[Term]
+id: HANCESTRO:0476
+name: Papua New Guinean
+is_a: HANCESTRO:0017 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Oceanian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Papua_New_Guinea {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Papua New Guinea
+
+[Term]
+id: HANCESTRO:0477
+name: Pitcairn Islander
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Pitcairn:Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Pitcairn Islands
+
+[Term]
+id: HANCESTRO:0478
+name: Samoan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Samoa {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Samoa
+
+[Term]
+id: HANCESTRO:0479
+name: Solomon Islander
+is_a: HANCESTRO:0017 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Oceanian
+relationship: HANCESTRO:0330 Solomon:Islands {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Solomon Islands
+
+[Term]
+id: HANCESTRO:0480
+name: Tokelauan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tokelau {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Tokelau
+
+[Term]
+id: HANCESTRO:0481
+name: Tongan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tonga {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Tonga
+
+[Term]
+id: HANCESTRO:0482
+name: Tuvaluan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tuvalu {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Tuvalu
+
+[Term]
+id: HANCESTRO:0483
+name: Ni-Vanuato
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Vanuatu {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Vanuatu
+
+[Term]
+id: HANCESTRO:0484
+name: Wallis and Futuna Islander
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Wallis_and_Futuna {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Wallis and Futuna
+
+[Term]
+id: HANCESTRO:0485
+name: Bangladeshi
+is_a: HANCESTRO:0006 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! South Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bangladesh {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Bangladesh
+
+[Term]
+id: HANCESTRO:0486
+name: Bhutanese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bhutan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Bhutan
+
+[Term]
+id: HANCESTRO:0487
+name: Indian
+synonym: "Asian Indian" EXACT []
+synonym: "Indian Asian" EXACT []
+is_a: HANCESTRO:0006 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! South Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/India {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf India
+
+[Term]
+id: HANCESTRO:0488
+name: Maldivian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Maldives {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Maldives
+
+[Term]
+id: HANCESTRO:0489
+name: Nepalese
+is_a: HANCESTRO:0008 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nepal {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Nepal
+
+[Term]
+id: HANCESTRO:0490
+name: Pakistani
+is_a: HANCESTRO:0006 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! South Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Pakistan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Pakistan
+
+[Term]
+id: HANCESTRO:0491
+name: Sri Lankan
+is_a: HANCESTRO:0006 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! South Asian
+relationship: HANCESTRO:0330 Sri:Lanka {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Sri Lanka
+
+[Term]
+id: HANCESTRO:0492
+name: Bruneian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Brunei {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Brunei
+
+[Term]
+id: HANCESTRO:0493
+name: Cambodian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cambodia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Cambodia
+
+[Term]
+id: HANCESTRO:0494
+name: Indonesian
+is_a: HANCESTRO:0007 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! South East Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Indonesia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Indonesia
+
+[Term]
+id: HANCESTRO:0495
+name: Lao
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Laos {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Laos
+
+[Term]
+id: HANCESTRO:0496
+name: Malaysian
+is_a: HANCESTRO:0007 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! South East Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malaysia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Malaysia
+
+[Term]
+id: HANCESTRO:0497
+name: Burmese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Myanmar {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Myanmar
+
+[Term]
+id: HANCESTRO:0498
+name: Filipino
+is_a: HANCESTRO:0008 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Philippines {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Philippines
+
+[Term]
+id: HANCESTRO:0500
+name: Thai
+is_a: HANCESTRO:0007 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! South East Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Thailand {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Thailand
+
+[Term]
+id: HANCESTRO:0501
+name: Timorese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 East:Timor {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf East Timor
+
+[Term]
+id: HANCESTRO:0502
+name: Vietnamese
+is_a: HANCESTRO:0007 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! South East Asian
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Vietnam {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Vietnam
+
+[Term]
+id: HANCESTRO:0503
+name: Cameroonian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cameroon {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Cameroon
+
+[Term]
+id: HANCESTRO:0504
+name: Cape Verdean
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 Cape:Verde {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Cape Verde
+
+[Term]
+id: HANCESTRO:0505
+name: Chadian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Chad {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Chad
+
+[Term]
+id: HANCESTRO:0506
+name: Ethiopian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ethiopia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Ethiopia
+
+[Term]
+id: HANCESTRO:0507
+name: Kenyan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kenya {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Kenya
+
+[Term]
+id: HANCESTRO:0508
+name: Liberian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Liberia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Liberia
+
+[Term]
+id: HANCESTRO:0509
+name: Malagasy
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Madagascar {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Madagascar
+
+[Term]
+id: HANCESTRO:0510
+name: Mauritanian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mauretania {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Mauritania
+
+[Term]
+id: HANCESTRO:0511
+name: Mauritian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mauritius {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Mauritius
+
+[Term]
+id: HANCESTRO:0512
+name: Mahoran
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mayotte {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Mayotte
+
+[Term]
+id: HANCESTRO:0513
+name: Namibian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Namibia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Namibia
+
+[Term]
+id: HANCESTRO:0514
+name: Sao Tomean
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/São_Tomé_and_Príncipe {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf São Tomé and Príncipe
+
+[Term]
+id: HANCESTRO:0515
+name: Senegalese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Senegal {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Senegal
+
+[Term]
+id: HANCESTRO:0516
+name: Seychellois
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Seychelles {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Seychelles
+
+[Term]
+id: HANCESTRO:0517
+name: Sierra Leonean
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Sierra:Leone {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Sierra Leone
+
+[Term]
+id: HANCESTRO:0518
+name: Somali
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Somalia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Somalia
+
+[Term]
+id: HANCESTRO:0519
+name: South African
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 South:Africa {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf South Africa
+
+[Term]
+id: HANCESTRO:0520
+name: St. Helenian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Saint:Helena {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Saint Helena
+
+[Term]
+id: HANCESTRO:0521
+name: Ugandan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uganda {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Uganda
+
+[Term]
+id: HANCESTRO:0522
+name: Angolan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Angola {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Angola
+
+[Term]
+id: HANCESTRO:0523
+name: Beninese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Benin {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Benin
+
+[Term]
+id: HANCESTRO:0524
+name: Motswana
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Botswana {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Botswana
+
+[Term]
+id: HANCESTRO:0525
+name: Burkinabe
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Burkina:Faso {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Burkina Faso
+
+[Term]
+id: HANCESTRO:0526
+name: Burundian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Burundi {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Burundi
+
+[Term]
+id: HANCESTRO:0527
+name: Central African
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Central_African_Republic {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Central African Republic
+
+[Term]
+id: HANCESTRO:0528
+name: Comoran
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Comoros {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Comoros
+
+[Term]
+id: HANCESTRO:0529
+name: Congolese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Democratic_Republic_of_the_Congo {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Democratic Republic of the Congo
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_the_Congo {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Republic of the Congo
+
+[Term]
+id: HANCESTRO:0530
+name: Ivoirian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Ivory:Coast {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Côte d'Ivoire
+
+[Term]
+id: HANCESTRO:0531
+name: Djiboutian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Djibouti {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Djibouti
+
+[Term]
+id: HANCESTRO:0532
+name: Equatorial Guinean
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Equatorial:Guinea {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Equatorial Guinea
+
+[Term]
+id: HANCESTRO:0533
+name: Eritrean
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Eritrea {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Eritrea
+
+[Term]
+id: HANCESTRO:0534
+name: Gabonese
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Gabon {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Gabon
+
+[Term]
+id: HANCESTRO:0535
+name: Gambian
+is_a: HANCESTRO:0011 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Sub-Saharan African
+relationship: HANCESTRO:0330 The:Gambia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf The Gambia
+
+[Term]
+id: HANCESTRO:0536
+name: Ghanaian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ghana {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Ghana
+
+[Term]
+id: HANCESTRO:0537
+name: Guinean
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guinea {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Guinea
+
+[Term]
+id: HANCESTRO:0538
+name: Bissau-Guinean
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 Guinea:Bissau {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Guinea-Bissau
+
+[Term]
+id: HANCESTRO:0539
+name: Mosotho
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lesotho {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Lesotho
+
+[Term]
+id: HANCESTRO:0540
+name: Malawian
+is_a: HANCESTRO:0011 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Sub-Saharan African
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malawi {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Malawi
+
+[Term]
+id: HANCESTRO:0541
+name: Malian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mali {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Mali
+
+[Term]
+id: HANCESTRO:0542
+name: Mozambican
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mozambique {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Mozambique
+
+[Term]
+id: HANCESTRO:0543
+name: Nigerien
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Niger {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Niger
+
+[Term]
+id: HANCESTRO:0544
+name: Nigerian
+is_a: HANCESTRO:0011 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Sub-Saharan African
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nigeria {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Nigeria
+
+[Term]
+id: HANCESTRO:0545
+name: Rwandan
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Rwanda {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Rwanda
+
+[Term]
+id: HANCESTRO:0546
+name: Swazi
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Swaziland {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Swaziland
+
+[Term]
+id: HANCESTRO:0547
+name: Togolese
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Togo {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Togo
+
+[Term]
+id: HANCESTRO:0548
+name: Tanzanian
+is_a: HANCESTRO:0011 ! Sub-Saharan African
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tanzania {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Tanzania
+
+[Term]
+id: HANCESTRO:0549
+name: Zambian
+is_a: HANCESTRO:0566 ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Zambia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Zambia
+
+[Term]
+id: HANCESTRO:0550
+name: Zimbabweian
+is_a: HANCESTRO:0566 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! undefined ancestry population
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Zimbabwe {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Zimbabwe
+
+[Term]
+id: HANCESTRO:0551
+name: genetically homogenous Irish
+synonym: "Irish founder" EXACT []
+is_a: HANCESTRO:0383 ! Irish
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Republic_of_Ireland {all_only="true"} ! hasCountryOfOrigin Republic of Ireland
+
+[Term]
+id: HANCESTRO:0552
+name: Aboriginal Australian
+def: "Includes individuals who either self-report or have been described by authors as Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation." []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0553
+name: obsolete_Circumpolar people
+def: "Includes native populations of Alaska, Siberia, and the Aleutian Archipelago. This\ncategory does not include all native populations within the Arctic circle for example the Finnish Saami who are descended from Europeans and are therefore included within the European ancestry category." []
+is_obsolete: true
+
+[Term]
+id: HANCESTRO:0554
+name: Silk Road founder
+is_a: HANCESTRO:0018 ! uncategorised population
+is_a: HANCESTRO:0286 ! Central Asian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0555
+name: Arab Israeli founder
+synonym: "Israeli Arab" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0556
+name: Cilento
+is_a: HANCESTRO:0307 ! Italian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+
+[Term]
+id: HANCESTRO:0557
+name: Costa Rican founder
+is_a: HANCESTRO:0404 ! Costa Rican
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 Costa:Rica {all_only="true"} ! hasCountryOfOrigin Costa Rica
+
+[Term]
+id: HANCESTRO:0558
+name: French Canadian founder
+is_a: HANCESTRO:0354 ! Canadian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Canada {all_only="true"} ! hasCountryOfOrigin Canada
+
+[Term]
+id: HANCESTRO:0559
+name: Italian founder
+is_a: HANCESTRO:0307 ! Italian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+
+[Term]
+id: HANCESTRO:0560
+name: Northern Finnish founder
+is_a: HANCESTRO:0321 ! Finnish
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Finland {all_only="true"} ! hasCountryOfOrigin Finland
+
+[Term]
+id: HANCESTRO:0561
+name: Romanian founder
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0385 ! Romanian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Romania {all_only="true"} ! hasCountryOfOrigin Romania
+
+[Term]
+id: HANCESTRO:0563
+name: South Tyrolean
+is_a: HANCESTRO:0005 ! European
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0564
+name: Vis founder
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0357 ! Croatian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0565
+name: Split founder
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0357 ! Croatian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+
+[Term]
+id: HANCESTRO:0566
+name: undefined ancestry population
+def: "Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American" []
+is_a: HANCESTRO:0004 ! ancestry category
+
+[Term]
+id: HANCESTRO:0567
+name: Afro-Caribbean
+synonym: "African Caribbean" EXACT []
+is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+
+[Term]
+id: HANCESTRO:0568
+name: African American
+is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+
+[Term]
+id: HANCESTRO:0569
+name: Talana
+is_a: HANCESTRO:0307 ! Italian
+relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+
+[Term]
+id: HANCESTRO:0570
+name: Pima Indian
+is_a: HANCESTRO:0013 ! Native American
+
+[Term]
+id: HANCESTRO:0571
+name: Plains American Indian
+is_a: HANCESTRO:0013 ! Native American
+
+[Term]
+id: HANCESTRO:0572
+name: Kosraen
+is_a: HANCESTRO:0017 ! Oceanian
+
+[Term]
+id: HANCESTRO:0573
+name: Native Hawaiian
+is_a: HANCESTRO:0017 ! Oceanian
+
+[Term]
+id: HANCESTRO:0574
+name: Pacific Islander
+is_a: HANCESTRO:0017 ! Oceanian
+
+[Term]
+id: HANCESTRO:0575
+name: Yoruban
+is_a: HANCESTRO:0011 ! Sub-Saharan African
+
+[Term]
+id: HANCESTRO:0576
+name: West African
+is_a: HANCESTRO:0011 ! Sub-Saharan African
+
+[Term]
+id: HANCESTRO:0577
+name: Dai Chinese
+is_a: HANCESTRO:0021 ! Chinese
+
+[Term]
+id: HANCESTRO:0578
+name: Hui Chinese
+is_a: HANCESTRO:0021 ! Chinese
+
+[Term]
+id: HANCESTRO:0579
+name: Jingpo Chinese
+is_a: HANCESTRO:0021 ! Chinese
+
+[Term]
+id: HANCESTRO:0580
+name: Malaysian Chinese
+is_a: HANCESTRO:0021 ! Chinese
+
+[Term]
+id: HANCESTRO:0581
+name: Uygur Chinese
+synonym: "Uigur Chinese" EXACT []
+is_a: HANCESTRO:0021 ! Chinese
+
+[Term]
+id: HANCESTRO:0582
+name: Tibetan
+is_a: HANCESTRO:0009 ! East Asian
+
+[Term]
+id: HANCESTRO:0583
+name: Taiwanese Han
+synonym: "Han Taiwanese" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+
+[Term]
+id: HANCESTRO:0584
+name: Sri Lankan Sinhalese
+is_a: HANCESTRO:0006 ! South Asian
+
+[Term]
+id: HANCESTRO:0585
+name: Tatar
+is_a: HANCESTRO:0018 ! uncategorised population
+
+[Term]
+id: HANCESTRO:0586
+name: Bashkir
+is_a: HANCESTRO:0018 ! uncategorised population
+
+[Term]
+id: HANCESTRO:0587
+name: Martu Australian Aboriginal
+def: "Includes individuals who either self-report or have been described by authors as Aboriginal Australian of Martu ancestry. The Martu Australian Aboriginal people are from the Western Desert region located across the Pilbara in Western Australia" []
+is_a: HANCESTRO:0552 ! Aboriginal Australian
+property_value: IAO:0000118 "Mardu Aboriginal Australian" xsd:string
+property_value: IAO:0000118 "Mardu Australian Aboriginal" xsd:string
+property_value: IAO:0000118 "Martu Aboriginal Australian" xsd:string
+property_value: IAO:0000119 "PMID:27070114" xsd:string
+
+[Term]
+id: HANCESTRO:0588
+name: Jewish Israeli
+is_a: HANCESTRO:0018 ! uncategorised population
+
+[Term]
+id: HANCESTRO:0589
+name: Punjabi Sikh
+is_a: HANCESTRO:0006 ! South Asian
+
+[Term]
+id: HANCESTRO:0590
+name: European American
+synonym: "American of European ancestry" EXACT []
+is_a: HANCESTRO:0005 ! European
+
+[Term]
+id: HANCESTRO:0591
+name: Esan
+def: "The Esan people are one of the major ethnic groups in Edo State, Nigeria who speak the Esan language. (PMID:10146569) Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Esan-in-Nigeria-ESN)" []
+is_a: HANCESTRO:0011 ! Sub-Saharan African
+
+[Term]
+id: HANCESTRO:0592
+name: Luhya
+def: "The Luhya are the second-largest ethnic group in Kenya and are comprised of subgroups that speak a common Bantu language. (PMID: 27813082) The Luhya ancestry group was assembled as part of phase III of the HapMap project and used in a number of rare variant density studies (PMID:22373165, PMID:26673965)" []
+is_a: HANCESTRO:0011 ! Sub-Saharan African
+
+[Term]
+id: HANCESTRO:0593
+name: Maasai
+def: "The Maasai are an indigenous African ethnic group of semi-nomadic people located in northern Tanzania and Kenya. (PMID:29868928) The Maasai ancestry group was assembled as part of phase III of the HapMap project and used as reference in a range of population genetic studies (PMID:28049708)." []
+is_a: HANCESTRO:0011 ! Sub-Saharan African
+
+[Term]
+id: HANCESTRO:0594
+name: Mende
+def: "The Mende people are one of the largest ethnic groups in Sierra Leone who speak a language of the Mande branch of the Niger-Congo family. (PMID:15761855)  Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Mende-in-Sierra-Leone-MSL)" []
+is_a: HANCESTRO:0011 ! Sub-Saharan African
+
+[Term]
+id: HANCESTRO:0595
+name: Inuit
+def: "Native people residing in the Arctic of Alaska, northern Canada, Greenland, or eastern Siberia" []
+comment: Class previously labelled as "Eskimo", which is outdated and culturally inappropriate. Outdated label may be added as an appropriately flagged synonym at a later stage.
+is_a: HANCESTRO:0018 ! uncategorised population
+property_value: IAO:0000119 "PMID:25884279" xsd:string
+property_value: IAO:0000119 "PMID:29220501" xsd:string
+
+[Term]
+id: HANCESTRO:0596
+name: Arab
+def: "Includes individuals with ethnic origins in the Semitic people populating the Arabian Peninsula and other countries in the Middle East and Northern Africa" []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+property_value: IAO:0000119 "PMID:27393651" xsd:string
+property_value: IAO:0000119 "PMID:28106113" xsd:string
+
+[Term]
+id: HANCESTRO:0597
+name: Singaporean Malay
+def: "Includes individuals who either self-report or have been described by authors as Singaporean Malay." []
+is_a: HANCESTRO:0007 ! South East Asian
+property_value: IAO:0000119 "PMID:19700652" xsd:string
+property_value: IAO:0000119 "PMID:31626772" xsd:string
+
+[Term]
+id: HANCESTRO:0598
+name: Singaporean Indian
+def: "Includes individuals who either self-report or have been described by authors as Singaporean Indian." []
+is_a: HANCESTRO:0487 ! Indian
+property_value: IAO:0000119 "PMID:19700652" xsd:string
+property_value: IAO:0000119 "PMID:31626772" xsd:string
+
+[Term]
+id: Holy:See
+name: Holy See
+xref: GAZ:00003103
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: Hong:Kong
+name: Hong Kong
+synonym: "China, Hong Kong SAR" EXACT []
+xref: GAZ:00003203
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0055 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Asia
+
+[Term]
+id: Ivory:Coast
+name: Côte d'Ivoire
+synonym: "Ivory Coast" EXACT []
+xref: GAZ:00000906
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: Marshall:Islands
+name: Marshall Islands
+xref: GAZ:00007161
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0053 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Micronesia
+
+[Term]
+id: Netherlands:Antilles
+name: Netherlands Antilles
+xref: GAZ:00004019
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: New:Caledonia
+name: New Caledonia
+xref: GAZ:00005206
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0052 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Melanesia
+
+[Term]
+id: New:Zealand
+name: New Zealand
+xref: GAZ:00000469
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Australia/New Zealand
+
+[Term]
+id: Norfolk:Island
+name: Norfolk Island
+xref: GAZ:00005913
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Australia/New Zealand
+
+[Term]
+id: North:Korea
+name: North Korea
+synonym: "Democratic People's Republic of Korea" EXACT []
+xref: GAZ:00002801
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0055 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Asia
+
+[Term]
+id: Palestinian:territories
+name: Palestinian Territories
+synonym: "Occupied Palestinian Territory" EXACT []
+xref: GAZ:00002475
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: Pitcairn:Islands
+name: Pitcairn Islands
+synonym: "Pitcairn, Henderson, Ducie and Oeno Islands" EXACT []
+xref: GAZ:00005867
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+property_value: IAO:0000118 "Pitcairn" xsd:string
+
+[Term]
+id: Puerto:Rico
+name: Puerto Rico
+xref: GAZ:00006935
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+property_value: IAO:0000118 "Commonwealth of Puerto Rico" xsd:string
+
+[Term]
+id: Punjabi:Sikh
+name: obsolete_Punjabi Sikh
+is_obsolete: true
+
+[Term]
+id: Saint:Helena
+name: Saint Helena
+synonym: "St. Helena" EXACT []
+xref: GAZ:00000849
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: Saint:Lucia
+name: Saint Lucia
+xref: GAZ:00006909
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: Saint:Martin
+name: Saint Martin
+xref: GAZ:00005841
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true"} ! located_in Caribbean
+
+[Term]
+id: San:Marino
+name: San Marino
+xref: GAZ:00003102
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: Saudi:Arabia
+name: Saudi Arabia
+xref: GAZ:00005279
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: Sierra:Leone
+name: Sierra Leone
+xref: GAZ:00000914
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: Sint:Maarten
+name: Sint Maarten
+xref: GAZ:00012579
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true"} ! located_in Caribbean
+
+[Term]
+id: Solomon:Islands
+name: Solomon Islands
+xref: GAZ:00005275
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0052 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Melanesia
+
+[Term]
+id: South:Africa
+name: South Africa
+xref: GAZ:00000553
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0038 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Africa
+
+[Term]
+id: South:Korea
+name: South Korea
+synonym: "Republic of Korea" EXACT []
+xref: GAZ:00002802
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0055 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Asia
+
+[Term]
+id: South:Sudan
+name: South Sudan
+xref: GAZ:00233439
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0037 {all_only="true"} ! located_in Northern Africa
+
+[Term]
+id: Sri:Lanka
+name: Sri Lanka
+xref: GAZ:00003924
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: The:Bahamas
+name: The Bahamas
+synonym: "Bahamas" EXACT []
+xref: GAZ:00002733
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: The:Gambia
+name: The Gambia
+synonym: "Gambia" EXACT []
+xref: GAZ:00000907
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: United:Kingdom
+name: United Kingdom
+synonym: "U.K." EXACT []
+xref: GAZ:00002637
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: United:States
+name: United States
+synonym: "United States of America" EXACT []
+xref: GAZ:00002459
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+property_value: IAO:0000118 "U.S." xsd:string
+
+[Term]
+id: Western:Sahara
+name: Western Sahara
+xref: GAZ:00000564
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0037 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Afghanistan
+name: Afghanistan
+xref: GAZ:00006882
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Albania
+name: Albania
+xref: GAZ:00002953
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Algeria
+name: Algeria
+xref: GAZ:00000563
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0037 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Andorra
+name: Andorra
+xref: GAZ:00002948
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Angola
+name: Angola
+xref: GAZ:00001095
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0036 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Middle Africa
+
+[Term]
+id: http://dbpedia.org/resource/Anguilla
+name: Anguilla
+xref: GAZ:00009159
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Antigua_and_Barbuda
+name: Antigua and Barbuda
+xref: GAZ:00006883
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Argentina
+name: Argentina
+xref: GAZ:00002928
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Armenia
+name: Armenia
+xref: GAZ:00004094
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Aruba
+name: Aruba
+xref: GAZ:00004025
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Australia
+name: Australia
+xref: GAZ:00000463
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Australia/New Zealand
+
+[Term]
+id: http://dbpedia.org/resource/Austria
+name: Austria
+xref: GAZ:00002942
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0047 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Europe
+
+[Term]
+id: http://dbpedia.org/resource/Azerbaijan
+name: Azerbaijan
+xref: GAZ:00004941
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Bahrain
+name: Bahrain
+xref: GAZ:00005281
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Bangladesh
+name: Bangladesh
+xref: GAZ:00003750
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Barbados
+name: Barbados
+xref: GAZ:00001251
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Belarus
+name: Belarus
+xref: GAZ:00006886
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Belgium
+name: Belgium
+xref: GAZ:00002938
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0047 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Europe
+
+[Term]
+id: http://dbpedia.org/resource/Belize
+name: Belize
+xref: GAZ:00002934
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0050 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Central America
+
+[Term]
+id: http://dbpedia.org/resource/Benin
+name: Benin
+xref: GAZ:00000904
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Bermuda
+name: Bermuda
+xref: GAZ:00001264
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+
+[Term]
+id: http://dbpedia.org/resource/Bhutan
+name: Bhutan
+xref: GAZ:00003920
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Bolivia
+name: Bolivia
+xref: GAZ:00002511
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Bosnia_and_Herzegovina
+name: Bosnia and Herzegovina
+xref: GAZ:00006887
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Botswana
+name: Botswana
+xref: GAZ:00001097
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0038 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Brazil
+name: Brazil
+xref: GAZ:00002828
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/British_Virgin_Islands
+name: British Virgin Islands
+xref: GAZ:00003961
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Brunei
+name: Brunei
+synonym: "Brunei Darussalam" EXACT []
+xref: GAZ:00003901
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Bulgaria
+name: Bulgaria
+xref: GAZ:00002950
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Burundi
+name: Burundi
+xref: GAZ:00001090
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Cambodia
+name: Cambodia
+xref: GAZ:00006888
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Cameroon
+name: Cameroon
+xref: GAZ:00001093
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0036 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Middle Africa
+
+[Term]
+id: http://dbpedia.org/resource/Canada
+name: Canada
+xref: GAZ:00002560
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+
+[Term]
+id: http://dbpedia.org/resource/Central_African_Republic
+name: Central African Republic
+xref: GAZ:00001089
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0036 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Middle Africa
+
+[Term]
+id: http://dbpedia.org/resource/Chad
+name: Chad
+xref: GAZ:00000586
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0036 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Middle Africa
+
+[Term]
+id: http://dbpedia.org/resource/Chile
+name: Chile
+xref: GAZ:00002825
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/China
+name: China
+xref: GAZ:00002845
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0055 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Cocos_(Keeling)_Islands
+name: Cocos (Keeling) Islands
+xref: GAZ:00009721
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! located_in Australia/New Zealand
+
+[Term]
+id: http://dbpedia.org/resource/Colombia
+name: Colombia
+xref: GAZ:00002929
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Comoros
+name: Comoros
+xref: GAZ:00005820
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Croatia
+name: Croatia
+xref: GAZ:00002719
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Cuba
+name: Cuba
+xref: GAZ:00003762
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Curacao
+name: Curacao
+xref: GAZ:00012582
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Cyprus
+name: Cyprus
+xref: GAZ:00453362
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Democratic_Republic_of_the_Congo
+name: Democratic Republic of the Congo
+xref: GAZ:00001086
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0036 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Middle Africa
+
+[Term]
+id: http://dbpedia.org/resource/Denmark
+name: Denmark
+xref: GAZ:00002635
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: BFO:0000050 HANCESTRO:0288 {all_only="true"} ! part_of Scandinavia
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Djibouti
+name: Djibouti
+xref: GAZ:00000582
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Dominica
+name: Dominica
+xref: GAZ:00006890
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Ecuador
+name: Ecuador
+xref: GAZ:00002912
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Egypt
+name: Egypt
+xref: GAZ:00003934
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0037 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Eritrea
+name: Eritrea
+xref: GAZ:00000581
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Estonia
+name: Estonia
+xref: GAZ:00002959
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Ethiopia
+name: Ethiopia
+xref: GAZ:00000567
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Federated_States_of_Micronesia
+name: Micronesia (Federated States of)
+xref: GAZ:00006897
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0053 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Micronesia
+
+[Term]
+id: http://dbpedia.org/resource/Fiji
+name: Fiji
+xref: GAZ:00006891
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0052 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Melanesia
+
+[Term]
+id: http://dbpedia.org/resource/Finland
+name: Finland
+xref: GAZ:00002937
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/France
+name: France
+xref: GAZ:00002940
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0047 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Europe
+
+[Term]
+id: http://dbpedia.org/resource/Gabon
+name: Gabon
+xref: GAZ:00001092
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0036 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Middle Africa
+
+[Term]
+id: http://dbpedia.org/resource/Germany
+name: Germany
+xref: GAZ:00002646
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0047 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Europe
+
+[Term]
+id: http://dbpedia.org/resource/Ghana
+name: Ghana
+xref: GAZ:00000908
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Gibraltar
+name: Gibraltar
+xref: GAZ:00003987
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Greece
+name: Greece
+xref: GAZ:00002945
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Greenland
+name: Greenland
+xref: GAZ:00001507
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+
+[Term]
+id: http://dbpedia.org/resource/Grenada
+name: Grenada
+xref: GAZ:02000573
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Guadeloupe
+name: Guadeloupe
+xref: GAZ:00067135
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Guam
+name: Guam
+xref: GAZ:00006933
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0053 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Micronesia
+
+[Term]
+id: http://dbpedia.org/resource/Guatemala
+name: Guatemala
+xref: GAZ:00002936
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0050 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Central America
+
+[Term]
+id: http://dbpedia.org/resource/Guinea
+name: Guinea
+xref: GAZ:00000909
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Guyana
+name: Guyana
+xref: GAZ:00002522
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Haiti
+name: Haiti
+xref: GAZ:00003953
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Honduras
+name: Honduras
+xref: GAZ:00002894
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0050 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Central America
+
+[Term]
+id: http://dbpedia.org/resource/Hungary
+name: Hungary
+xref: GAZ:00002952
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Iceland
+name: Iceland
+xref: GAZ:00000843
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/India
+name: India
+xref: GAZ:00002839
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Indonesia
+name: Indonesia
+xref: GAZ:00003727
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Iran
+name: Iran
+synonym: "Iran (Islamic Republic of)" EXACT []
+xref: GAZ:00004474
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Iraq
+name: Iraq
+xref: GAZ:00004483
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Isle_of_Man
+name: Isle of Man
+xref: GAZ:00052477
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Israel
+name: Israel
+xref: GAZ:00002476
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Italy
+name: Italy
+xref: GAZ:00002650
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Jamaica
+name: Jamaica
+xref: GAZ:00003781
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Japan
+name: Japan
+xref: GAZ:00002747
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0055 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Jordan
+name: Jordan
+xref: GAZ:00002473
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Kazakhstan
+name: Kazakhstan
+xref: GAZ:00004999
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Kenya
+name: Kenya
+xref: GAZ:00001101
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Kiribati
+name: Kiribati
+xref: GAZ:00006894
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0053 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Micronesia
+
+[Term]
+id: http://dbpedia.org/resource/Kosovo
+name: Kosovo
+xref: GAZ:00011337
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true"} ! located_in Eastern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Kuwait
+name: Kuwait
+xref: GAZ:00005285
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Kyrgyzstan
+name: Kyrgyzstan
+xref: GAZ:00006893
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Laos
+name: Laos
+synonym: "Lao People's Democratic Republic" EXACT []
+xref: GAZ:00006889
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Latvia
+name: Latvia
+xref: GAZ:00002958
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Lebanon
+name: Lebanon
+xref: GAZ:00002478
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Lesotho
+name: Lesotho
+xref: GAZ:00001098
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0038 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Liberia
+name: Liberia
+xref: GAZ:00000911
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Libya
+name: Libya
+synonym: "Libyan Arab Jamahiriya" EXACT []
+xref: GAZ:00000566
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0037 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Liechtenstein
+name: Liechtenstein
+xref: GAZ:00003858
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0047 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Europe
+
+[Term]
+id: http://dbpedia.org/resource/Lithuania
+name: Lithuania
+xref: GAZ:00002960
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Luxembourg
+name: Luxembourg
+xref: GAZ:00002947
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0047 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Europe
+
+[Term]
+id: http://dbpedia.org/resource/Macau
+name: Macau
+synonym: "China, Macao SAR" EXACT []
+xref: GAZ:00003202
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0055 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Madagascar
+name: Madagascar
+xref: GAZ:00001108
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Malawi
+name: Malawi
+xref: GAZ:00001105
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Malaysia
+name: Malaysia
+xref: GAZ:00003902
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Maldives
+name: Maldives
+xref: GAZ:00006896
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Mali
+name: Mali
+xref: GAZ:00000584
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Malta
+name: Malta
+xref: GAZ:00004017
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Martinique
+name: Martinique
+xref: GAZ:00003947
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Mauretania
+name: Mauritania
+synonym: "Mauretania" EXACT []
+xref: GAZ:00000583
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Mauritius
+name: Mauritius
+xref: GAZ:00003745
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Mayotte
+name: Mayotte
+xref: GAZ:00003943
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Mexico
+name: Mexico
+xref: GAZ:00002852
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0050 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Central America
+
+[Term]
+id: http://dbpedia.org/resource/Moldova
+name: Moldova
+synonym: "Republic of Moldova" EXACT []
+xref: GAZ:00003897
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Monaco
+name: Monaco
+xref: GAZ:00003857
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0047 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Europe
+
+[Term]
+id: http://dbpedia.org/resource/Mongolia
+name: Mongolia
+xref: GAZ:00008744
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0055 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Montenegro
+name: Montenegro
+xref: GAZ:00006898
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Montserrat
+name: Montserrat
+xref: GAZ:00003988
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Morocco
+name: Morocco
+xref: GAZ:00000565
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0037 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Mozambique
+name: Mozambique
+xref: GAZ:00001100
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Myanmar
+name: Myanmar
+synonym: "Burma" EXACT []
+xref: GAZ:00006899
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Namibia
+name: Namibia
+xref: GAZ:00001096
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0038 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Nauru
+name: Nauru
+xref: GAZ:00006900
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0053 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Micronesia
+
+[Term]
+id: http://dbpedia.org/resource/Nepal
+name: Nepal
+xref: GAZ:00004399
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Netherlands
+name: Netherlands
+xref: GAZ:00001549
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0047 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Europe
+
+[Term]
+id: http://dbpedia.org/resource/Nicaragua
+name: Nicaragua
+xref: GAZ:00002978
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0050 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Central America
+
+[Term]
+id: http://dbpedia.org/resource/Niger
+name: Niger
+xref: GAZ:00000585
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Nigeria
+name: Nigeria
+xref: GAZ:00000912
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Niue
+name: Niue
+xref: GAZ:00006902
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+property_value: IAO:0000118 "Niue Fekai" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Northern_Mariana_Islands
+name: Northern Mariana Islands
+xref: GAZ:00003958
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0053 {all_only="true"} ! located_in Micronesia
+
+[Term]
+id: http://dbpedia.org/resource/Norway
+name: Norway
+xref: GAZ:00002699
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: BFO:0000050 HANCESTRO:0288 {all_only="true"} ! part_of Scandinavia
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+property_value: IAO:0000118 "Kingdom of Norway" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Oman
+name: Oman
+xref: GAZ:00005283
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Pakistan
+name: Pakistan
+xref: GAZ:00005246
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Palau
+name: Palau
+xref: GAZ:00006905
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0053 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Micronesia
+
+[Term]
+id: http://dbpedia.org/resource/Panama
+name: Panama
+xref: GAZ:00002892
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0050 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Central America
+
+[Term]
+id: http://dbpedia.org/resource/Papua_New_Guinea
+name: Papua New Guinea
+xref: GAZ:00003922
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0052 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Melanesia
+
+[Term]
+id: http://dbpedia.org/resource/Paraguay
+name: Paraguay
+xref: GAZ:00002933
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Peru
+name: Peru
+xref: GAZ:00002932
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Philippines
+name: Philippines
+xref: GAZ:00004525
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+property_value: IAO:0000118 "The Philippines" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Poland
+name: Poland
+xref: GAZ:00002939
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Portugal
+name: Portugal
+xref: GAZ:00002944
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+property_value: IAO:0000118 "Portugese Republic" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Qatar
+name: Qatar
+xref: GAZ:00005286
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Republic_of_Ireland
+name: Republic of Ireland
+synonym: "Ireland" EXACT []
+xref: GAZ:00002943
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Republic_of_Macedonia
+name: Republic of Macedonia
+synonym: "The former Yugoslav Republic of Macedonia" EXACT []
+xref: GAZ:00006895
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Republic_of_the_Congo
+name: Republic of the Congo
+synonym: "Congo" EXACT []
+xref: GAZ:00001088
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0036 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Middle Africa
+
+[Term]
+id: http://dbpedia.org/resource/Romania
+name: Romania
+xref: GAZ:00002951
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Russia
+name: Russia
+synonym: "Russian Federation" EXACT []
+xref: GAZ:00002721
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+
+[Term]
+id: http://dbpedia.org/resource/Rwanda
+name: Rwanda
+xref: GAZ:00001087
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Réunion
+name: Réunion
+xref: GAZ:00053746
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Saint_Kitts_and_Nevis
+name: Saint Kitts and Nevis
+xref: GAZ:00006906
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Saint_Pierre_and_Miquelon
+name: Saint Pierre and Miquelon
+synonym: "Saint-Pierre-et-Miquelon" EXACT []
+xref: GAZ:00003942
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+
+[Term]
+id: http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines
+name: Saint Vincent and the Grenadines
+xref: GAZ:02000565
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Samoa
+name: Samoa
+xref: GAZ:00006910
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+
+[Term]
+id: http://dbpedia.org/resource/Scotland
+name: Scotland
+xref: GAZ:00002639
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Senegal
+name: Senegal
+xref: GAZ:00000913
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Serbia
+name: Serbia
+xref: GAZ:00002957
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Seychelles
+name: Seychelles
+xref: GAZ:00005821
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Singapore
+name: Singapore
+xref: GAZ:00003923
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Slovakia
+name: Slovakia
+xref: GAZ:00002956
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Slovenia
+name: Slovenia
+xref: GAZ:00002955
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Somalia
+name: Somalia
+xref: GAZ:00001104
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Spain
+name: Spain
+xref: GAZ:00000591
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0046 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Sudan
+name: Sudan
+xref: GAZ:00000560
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0037 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Suriname
+name: Suriname
+xref: GAZ:00002525
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Swaziland
+name: Swaziland
+xref: GAZ:00001099
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0038 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Southern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Sweden
+name: Sweden
+xref: GAZ:00002729
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: BFO:0000050 HANCESTRO:0288 {all_only="true"} ! part_of Scandinavia
+relationship: RO:0001025 HANCESTRO:0045 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Europe
+
+[Term]
+id: http://dbpedia.org/resource/Switzerland
+name: Switzerland
+xref: GAZ:00002941
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0047 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Europe
+
+[Term]
+id: http://dbpedia.org/resource/Syria
+name: Syria
+xref: GAZ:00002474
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/São_Tomé_and_Príncipe
+name: São Tomé and Príncipe
+xref: GAZ:00006927
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0036 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Middle Africa
+
+[Term]
+id: http://dbpedia.org/resource/Taiwan
+name: Taiwan
+xref: GAZ:00005341
+is_a: HANCESTRO:0003 ! country
+relationship: RO:0001025 HANCESTRO:0055 {all_only="true"} ! located_in Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Tajikistan
+name: Tajikistan
+xref: GAZ:00006912
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Tanzania
+name: Tanzania
+synonym: "United Republic of Tanzania" EXACT []
+xref: GAZ:00001103
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Thailand
+name: Thailand
+xref: GAZ:00003744
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Togo
+name: Togo
+xref: GAZ:00000915
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0039 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Tokelau
+name: Tokelau
+xref: GAZ:00006914
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+
+[Term]
+id: http://dbpedia.org/resource/Tonga
+name: Tonga
+xref: GAZ:00006916
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+
+[Term]
+id: http://dbpedia.org/resource/Trinidad_and_Tobago
+name: Trinidad and Tobago
+xref: GAZ:00003767
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Tunisia
+name: Tunisia
+xref: GAZ:00000562
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0037 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Northern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Turkey
+name: Turkey
+xref: GAZ:00000558
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Turkmenistan
+name: Turkmenistan
+xref: GAZ:00005018
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Turks_and_Caicos_Islands
+name: Turks and Caicos Islands
+xref: GAZ:00003955
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Tuvalu
+name: Tuvalu
+xref: GAZ:00009715
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+
+[Term]
+id: http://dbpedia.org/resource/Uganda
+name: Uganda
+xref: GAZ:00001102
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Ukraine
+name: Ukraine
+xref: GAZ:00002724
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0044 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Europe
+
+[Term]
+id: http://dbpedia.org/resource/United_Arab_Emirates
+name: United Arab Emirates
+xref: GAZ:00005282
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/United_States_Virgin_Islands
+name: United States Virgin Islands
+synonym: "U.S. Virgin Islands" EXACT []
+xref: GAZ:00003959
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0048 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Caribbean
+
+[Term]
+id: http://dbpedia.org/resource/Uruguay
+name: Uruguay
+xref: GAZ:00002930
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Uzbekistan
+name: Uzbekistan
+xref: GAZ:00004979
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0041 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Central Asia
+
+[Term]
+id: http://dbpedia.org/resource/Vanuatu
+name: Vanuatu
+xref: GAZ:00006918
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0052 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Melanesia
+
+[Term]
+id: http://dbpedia.org/resource/Venezuela
+name: Venezuela
+xref: GAZ:00002931
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0049 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South America
+
+[Term]
+id: http://dbpedia.org/resource/Vietnam
+name: Vietnam
+xref: GAZ:00003756
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0042 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Wallis_and_Futuna
+name: Wallis and Futuna
+synonym: "Wallis and Futuna Islands" EXACT []
+xref: GAZ:00007191
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0054 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Polynesia
+
+[Term]
+id: http://dbpedia.org/resource/Yemen
+name: Yemen
+xref: GAZ:00005284
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0043 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Western Asia
+
+[Term]
+id: http://dbpedia.org/resource/Zambia
+name: Zambia
+xref: GAZ:00001107
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Zimbabwe
+name: Zimbabwe
+xref: GAZ:00001106
+is_a: HANCESTRO:0003 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! country
+relationship: RO:0001025 HANCESTRO:0035 {all_only="true", http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! located_in Eastern Africa
+
+[Typedef]
+id: BFO:0000050
+name: part_of
+inverse_of: BFO:0000051 ! has_part
+
+[Typedef]
+id: BFO:0000051
+name: has_part
+
+[Typedef]
+id: HANCESTRO:0287
+name: hasEthnicPopulation
+is_obsolete: true
+
+[Typedef]
+id: HANCESTRO:0301
+name: hasAncestryStatus
+
+[Typedef]
+id: HANCESTRO:0308
+name: hasCountryOfOrigin
+
+[Typedef]
+id: HANCESTRO:0329
+name: hasDemonym
+inverse_of: HANCESTRO:0330 ! isDemonymOf
+
+[Typedef]
+id: HANCESTRO:0330
+name: isDemonymOf
+
+[Typedef]
+id: RO:0001015
+name: location_of
+inverse_of: RO:0001025 ! located_in
+
+[Typedef]
+id: RO:0001025
+name: located_in
+
