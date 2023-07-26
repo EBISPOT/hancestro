@@ -10,8 +10,8 @@ Ontology(<http://purl.obolibrary.org/obo/hancestro.owl>
 Import(<http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl>)
 Import(<http://purl.obolibrary.org/obo/hancestro/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/hancestro/imports/geo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/hancestro/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/hancestro/imports/obi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/hancestro/imports/ro_import.owl>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/HANCESTRO_0004>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/HANCESTRO_0304>)
 Annotation(<http://purl.org/dc/elements/1.1/description> "Human ancestry ontology for the NHGRI GWAS Catalog")
@@ -19,7 +19,6 @@ Annotation(<http://purl.org/dc/elements/1.1/title> "Human Ancestry Ontology")
 Annotation(<http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/>)
 Annotation(owl:versionInfo "2.8"^^xsd:decimal)
 
-Declaration(Class(<http://dbpedia.org/resource/Republic_of_the_Congo>))
 Declaration(Class(<http://dbpedia.org/resource/Afghanistan>))
 Declaration(Class(<http://dbpedia.org/resource/Albania>))
 Declaration(Class(<http://dbpedia.org/resource/Algeria>))
@@ -190,6 +189,7 @@ Declaration(Class(<http://dbpedia.org/resource/Puerto_Rico>))
 Declaration(Class(<http://dbpedia.org/resource/Qatar>))
 Declaration(Class(<http://dbpedia.org/resource/Republic_of_Ireland>))
 Declaration(Class(<http://dbpedia.org/resource/Republic_of_Macedonia>))
+Declaration(Class(<http://dbpedia.org/resource/Republic_of_the_Congo>))
 Declaration(Class(<http://dbpedia.org/resource/Romania>))
 Declaration(Class(<http://dbpedia.org/resource/Russia>))
 Declaration(Class(<http://dbpedia.org/resource/Rwanda>))
@@ -639,7 +639,7 @@ Declaration(Datatype(xsd:decimal))
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000111> (editor preferred label)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000111> (editor preferred term)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000122>)
@@ -656,7 +656,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000114> "PERSON:Melanie Courtot"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000114> "has curation status"@en)
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (textual definition)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
@@ -669,7 +669,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "ter
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative_term")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000119> (definition source)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000119> (definition_source)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "definition_source")
 
@@ -742,13 +742,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001025> "loca
 ############################
 #   Classes
 ############################
-
-# Class: <http://dbpedia.org/resource/Republic_of_the_Congo> (Republic of the Congo)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://dbpedia.org/resource/Republic_of_the_Congo> "Congo"@en)
-AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Republic_of_the_Congo> "Republic of the Congo")
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Republic_of_the_Congo> <http://purl.obolibrary.org/obo/HANCESTRO_0003>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Republic_of_the_Congo> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0036>))
 
 # Class: <http://dbpedia.org/resource/Afghanistan> (Afghanistan)
 
@@ -1793,6 +1786,13 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Republic_of_Macedoni
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Republic_of_Macedonia> <http://purl.obolibrary.org/obo/HANCESTRO_0003>)
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Republic_of_Macedonia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0046>))
 
+# Class: <http://dbpedia.org/resource/Republic_of_the_Congo> (Republic of the Congo)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://dbpedia.org/resource/Republic_of_the_Congo> "Congo"@en)
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Republic_of_the_Congo> "Republic of the Congo")
+SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Republic_of_the_Congo> <http://purl.obolibrary.org/obo/HANCESTRO_0003>)
+SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Republic_of_the_Congo> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0036>))
+
 # Class: <http://dbpedia.org/resource/Romania> (Romania)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Romania> "Romania"@en)
@@ -2313,11 +2313,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0014> "
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0014> <http://purl.obolibrary.org/obo/HANCESTRO_0004>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0306>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0015> (Greater Middle Eastern  (Middle Eastern, North African or Persian))
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0015> (Greater Middle Eastern  (Middle Eastern or North African or Persian))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0015> "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0015> "Middle Eastern/North African")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0015> "Greater Middle Eastern  (Middle Eastern, North African or Persian)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0015> "Greater Middle Eastern  (Middle Eastern or North African or Persian)"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0015> <http://purl.obolibrary.org/obo/HANCESTRO_0004>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0016> (African American or Afro-Caribbean)
@@ -3898,8 +3898,8 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0529> "Congolese"@en)
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0529> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Republic_of_the_Congo>))
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo>))
+SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Republic_of_the_Congo>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0530> (Ivoirian)
 
