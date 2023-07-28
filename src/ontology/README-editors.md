@@ -67,8 +67,8 @@ Finally type
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
- * https://github.com/EBISPOT/ancestro/releases
- * https://github.com/EBISPOT/ancestro/releases/new
+ * https://github.com/EBISPOT/hancestro/releases
+ * https://github.com/EBISPOT/hancestro/releases/new
 
 The value of the "Tag version" field MUST be
 

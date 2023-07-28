@@ -22,7 +22,7 @@ HANCESTRO is released whenever new terms have been added, although generally no 
 
 ## How can I request new terms? ##
 
-Please use our [Github tracker](https://github.com/EBISPOT/ancestro/issues) to request new terms. Please provide as much information as possible, including
+Please use our [Github tracker](https://github.com/EBISPOT/hancestro/issues) to request new terms. Please provide as much information as possible, including
 - label (name) of the new term
 - definition
 - for new ancestry groups, please provide links to at least 2 scientific publications referencing and describing the ancestry group in question

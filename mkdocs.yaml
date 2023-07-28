@@ -17,12 +17,13 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
-site_url: https://ebispot.github.io/ancestro/
-repo_url: https://github.com/ebispot/ancestro/
+site_url: https://ebispot.github.io/hancestro/
+repo_url: https://github.com/ebispot/hancestro/
 
 nav:
   - Getting started: index.md
   - Cite: cite.md
+  - Frequent asked questions: faq.md
   - How-to guides:
       - Standard ODK workflows:
           - Overview: odk-workflows/index.md
@@ -36,5 +37,5 @@ nav:
           - Managing your automated testing: odk-workflows/ManageAutomatedTest.md
           - Continuous Integration: odk-workflows/ContinuousIntegration.md
           - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md 
-      - Contributing: contributing.md
+  - Contributing: contributing.md
 

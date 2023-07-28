@@ -7,14 +7,14 @@ The Human Ancestry Ontology (HAncestro) provides a systematic description of the
 
 The following HANCESTRO release files are provided 
 
-* https://github.com/EBISPOT/ancestro/blob/main/hancestro.owl
-* https://github.com/EBISPOT/ancestro/blob/main/hancestro_inferred.owl - pre-inferred version of HANCESTRO
-* https://github.com/EBISPOT/ancestro/blob/main/hancestro_bfo.owl - version of HANCESTRO fitted into the BFO upper hierarchy for ease of integration with other ontologies
+* https://github.com/EBISPOT/hancestro/blob/main/hancestro.owl
+* https://github.com/EBISPOT/hancestro/blob/main/hancestro_inferred.owl - pre-inferred version of HANCESTRO
+* https://github.com/EBISPOT/hancestro/blob/main/hancestro_bfo.owl - version of HANCESTRO fitted into the BFO upper hierarchy for ease of integration with other ontologies
 
 
 ### Contact Details ###
 
-For questions and comments and to report any issues, please email Dani Welter at danielle.welter@uni.lu. To submit a feature request, submit a ticket via the [HANCESTRO Github issue tracker](https://github.com/EBISPOT/ancestro/issues).
+For questions and comments and to report any issues, please email Dani Welter at danielle.welter@uni.lu. To submit a feature request, submit a ticket via the [HANCESTRO Github issue tracker](https://github.com/EBISPOT/hancestro/issues).
 
 
 ### Licence ###
@@ -41,11 +41,11 @@ Date Released: 16 February 2023
 
 Class Count: 585 
 
-- Addition of new terms for `Singaporean Malay (HANCESTRO:0597)` and `Singaporean Indian (HANCESTRO:0598)` (as per [request #26](https://github.com/EBISPOT/ancestro/issues/26))
-- Reclassification of `Martu Australian Aboriginal` from `uncategorised population` to `Aboriginal Australian` and addition of definition and synonyms (as per [request #25](https://github.com/EBISPOT/ancestro/issues/25)
-- Corrected typo in label for `Hungarian` (as per [request #21](https://github.com/EBISPOT/ancestro/issues/21))
+- Addition of new terms for `Singaporean Malay (HANCESTRO:0597)` and `Singaporean Indian (HANCESTRO:0598)` (as per [request #26](https://github.com/EBISPOT/hancestro/issues/26))
+- Reclassification of `Martu Australian Aboriginal` from `uncategorised population` to `Aboriginal Australian` and addition of definition and synonyms (as per [request #25](https://github.com/EBISPOT/hancestro/issues/25)
+- Corrected typo in label for `Hungarian` (as per [request #21](https://github.com/EBISPOT/hancestro/issues/21))
 
-See the [release notes](https://github.com/EBISPOT/ancestro/releases) for details of most recent changes.
+See the [release notes](https://github.com/EBISPOT/hancestro/releases) for details of most recent changes.
 
 
 Please note that as of v2.3 of the ontology, all identifiers have changed for ANCESTRO to HANCESTRO.
@@ -71,7 +71,7 @@ Editors of this ontology should use the edit version, [src/ontology/hancestro-ed
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/ancestro/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/hancestro/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
