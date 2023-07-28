@@ -6,9 +6,9 @@ The Human Ancestry Ontology (HAncestro) provides a systematic description of the
 
 The following HANCESTRO release files are provided 
 
-* https://github.com/EBISPOT/ancestro/blob/main/hancestro.owl
-* https://github.com/EBISPOT/ancestro/blob/main/hancestro_inferred.owl - pre-inferred version of HANCESTRO
-* https://github.com/EBISPOT/ancestro/blob/main/hancestro_bfo.owl - version of HANCESTRO fitted into the BFO upper hierarchy for ease of integration with other ontologies
+* https://github.com/EBISPOT/hancestro/blob/main/hancestro.owl
+* https://github.com/EBISPOT/hancestro/blob/main/hancestro_inferred.owl - pre-inferred version of HANCESTRO
+* https://github.com/EBISPOT/hancestro/blob/main/hancestro_bfo.owl - version of HANCESTRO fitted into the BFO upper hierarchy for ease of integration with other ontologies
 
 Please see our [FAQ](/faq.md) for some more information.
 
@@ -53,3 +53,4 @@ Convenience grouping of geographic areas larger than countries but smaller than 
 
 
 
+/hancestro
