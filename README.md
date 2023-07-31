@@ -44,8 +44,8 @@ Class Count: 612
 - Updated the HANCESTRO repo to the latest version of the [ODK](https://github.com/INCATools/ontology-development-kit)
 - Changed release artefacts:
 	- `hancestro.owl` > `hancestro-base.owl`
-	- `hancestro_bfo.owl` > `hancestro.owl` (and `hancestro-full.owl`
-	- `hancestr_inferred.owl` > retired
+	- `hancestro_bfo.owl` > `hancestro.owl` (and `hancestro-full.owl`)
+	- `hancestro_inferred.owl` > retired
 - Changed ontology repo name from `ancestro` to `hancestro`
 - Changed primary branch name from `master` to `main` 
 - Changed label for `HANCESTRO:0015` from `Greater Middle Eastern (Middle Eastern, North African or Persian)` to `Greater Middle Eastern (Middle Eastern or North African or Persian)`(as per [request #36](https://github.com/EBISPOT/hancestro/issues/36))
