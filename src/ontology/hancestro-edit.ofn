@@ -17,7 +17,7 @@ Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.
 Annotation(<http://purl.org/dc/elements/1.1/description> "Human ancestry ontology for the NHGRI GWAS Catalog")
 Annotation(<http://purl.org/dc/elements/1.1/title> "Human Ancestry Ontology")
 Annotation(<http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/>)
-Annotation(owl:versionInfo "2.8"^^xsd:decimal)
+Annotation(owl:versionInfo "3.0"^^xsd:decimal)
 
 Declaration(Class(<http://dbpedia.org/resource/Afghanistan>))
 Declaration(Class(<http://dbpedia.org/resource/Albania>))
