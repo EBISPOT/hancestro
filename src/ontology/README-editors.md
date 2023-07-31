@@ -1,8 +1,8 @@
 These notes are for the EDITORS of hancestro
 
-This project was created using the [ontology starter kit](https://github.com/cmungall/ontology-starter-kit). See the site for details.
+This project was created using the [ODK - Ontology Development Kit](https://github.com/INCATools/ontology-development-kit). See the site for details.
 
-For more details on ontology management, please see the [OBO tutorial](https://github.com/jamesaoverton/obo-tutorial) or the [Gene Ontology Editors Tutorial](go-protege-tutorial.readthedocs.io)
+For more details on ontology management, please see the [HOW-TO guides on our website](https://ebispot.github.io/hancestro/odk-workflows/), as well as the [OBO tutorial](https://github.com/jamesaoverton/obo-tutorial) or the [Gene Ontology Editors Tutorial](go-protege-tutorial.readthedocs.io)
 
 ## Editors Version
 
@@ -10,13 +10,13 @@ Make sure you have an ID range in the [idranges file](hancestro-idranges.owl)
 
 If you do not have one, get one from the head curator.
 
-The editors version is [hancestro-edit.owl](hancestro-edit.owl)
+The editors version is [hancestro-edit.ofn](hancestro-edit.ofn)
 
 ** DO NOT EDIT hancestro.obo OR hancestro.owl in the top level directory **
 
 [../../hancestro.owl](../../hancestro.owl) is the release version
 
-To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/daniwelter/human-ancestry-ontology) for details.
+To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/EBISPOT/hancestro) for details.
 
 ## ID Ranges
 
@@ -41,16 +41,17 @@ For now, consult the [GO Tutorial on configuring Protege](http://go-protege-tuto
 ## Release Manager notes
 
 You should only attempt to make a release AFTER the edit version is
-committed and pushed, and the travis build passes.
+committed and pushed, and the travis build passes. A full description of the release workflow is available [here](https://ebispot.github.io/hancestro/odk-workflows/ReleaseWorkflow/)
 
-to release:
+To release:
 
+    git checkout -b <release-branch>
     cd src/ontology
-    make
+    sh run.sh make 
 
 If this looks good type:
 
-    make prepare_release
+    sh run.sh make prepare_release -B
 
 This generates derived files such as hancestro.owl and hancestro.obo and places
 them in the top level (../..). The versionIRI will be added.
@@ -63,7 +64,9 @@ And type a brief description of the release in the editor window
 
 Finally type
 
-    git push origin main
+    git push --set-upstream origin <release-branch>
+
+Got to [the Github repo](https://github.com/EBISPOT/hancestro/) and create a pull request. Provided all builds pass, merge the PR.
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 

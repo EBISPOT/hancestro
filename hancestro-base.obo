@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hancestro/releases/2023-07-25/hancestro-base.owl
+data-version: hancestro/releases/2023-07-31/hancestro-base.owl
 ontology: hancestro/hancestro-base
 property_value: http://purl.org/dc/elements/1.1/description "Human ancestry ontology for the NHGRI GWAS Catalog" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Human Ancestry Ontology" xsd:string
@@ -7,8 +7,8 @@ property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: IAO:0000700 HANCESTRO:0004
 property_value: IAO:0000700 HANCESTRO:0304
-property_value: owl:versionInfo "2.8" xsd:decimal
-property_value: owl:versionInfo "2023-07-25" xsd:string
+property_value: owl:versionInfo "2023-07-31" xsd:string
+property_value: owl:versionInfo "3.0" xsd:decimal
 
 [Term]
 id: American:Samoa
@@ -237,7 +237,7 @@ property_value: IAO:0000117 "Joannella Morales" xsd:string
 
 [Term]
 id: HANCESTRO:0015
-name: Greater Middle Eastern  (Middle Eastern, North African or Persian)
+name: Greater Middle Eastern  (Middle Eastern or North African or Persian)
 def: "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
 synonym: "Middle Eastern/North African" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
@@ -651,13 +651,13 @@ is_obsolete: true
 [Term]
 id: HANCESTRO:0331
 name: Sudanese
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Sudan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Sudan
 
 [Term]
 id: HANCESTRO:0332
 name: Sahrawi
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 Western:Sahara {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Western Sahara
 
 [Term]
@@ -1253,122 +1253,122 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Venezuela {http://purl.
 [Term]
 id: HANCESTRO:0431
 name: Algerian
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Algeria {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Algeria
 
 [Term]
 id: HANCESTRO:0432
 name: Armenian
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Armenia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Armenia
 
 [Term]
 id: HANCESTRO:0433
 name: Azerbaijani
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Azerbaijan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Azerbaijan
 
 [Term]
 id: HANCESTRO:0434
 name: Bahraini
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bahrain {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Bahrain
 
 [Term]
 id: HANCESTRO:0435
 name: Cypriote
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cyprus {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Cyprus
 
 [Term]
 id: HANCESTRO:0436
 name: Egyptian
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Egypt {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Egypt
 
 [Term]
 id: HANCESTRO:0437
 name: Georgian
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 Georgia:(country) {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Georgia
 
 [Term]
 id: HANCESTRO:0438
 name: Iranian
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iran {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Iran
 
 [Term]
 id: HANCESTRO:0439
 name: Iraqi
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iraq {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Iraq
 
 [Term]
 id: HANCESTRO:0440
 name: Israeli
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Israel {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Israel
 
 [Term]
 id: HANCESTRO:0441
 name: Jordanian
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Jordan {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Jordan
 
 [Term]
 id: HANCESTRO:0442
 name: Kuwaiti
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kuwait {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Kuwait
 
 [Term]
 id: HANCESTRO:0443
 name: Lebanese
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lebanon {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Lebanon
 
 [Term]
 id: HANCESTRO:0444
 name: Libyan
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Libya {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Libya
 
 [Term]
 id: HANCESTRO:0445
 name: Moroccan
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Morocco {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Morocco
 
 [Term]
 id: HANCESTRO:0446
 name: Palestinian
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 Palestinian:territories {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Palestinian Territories
 
 [Term]
 id: HANCESTRO:0447
 name: Omani
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Oman {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Oman
 
 [Term]
 id: HANCESTRO:0448
 name: Qatari
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Qatar {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Qatar
 
 [Term]
 id: HANCESTRO:0449
 name: Saudi
 synonym: "Saudi Arab" EXACT []
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 Saudi:Arabia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Saudi Arabia
 
 [Term]
 id: HANCESTRO:0450
 name: Tunisian
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tunisia {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Tunisia
 
 [Term]
@@ -1380,13 +1380,13 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turkey {http://purl.org
 [Term]
 id: HANCESTRO:0452
 name: Emirati
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/United_Arab_Emirates {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf United Arab Emirates
 
 [Term]
 id: HANCESTRO:0453
 name: Yemeni
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Yemen {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Yemen
 
 [Term]
@@ -1434,7 +1434,7 @@ relationship: HANCESTRO:0330 South:Sudan {http://purl.org/dc/terms/contributor="
 [Term]
 id: HANCESTRO:0461
 name: Syrian
-is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Syria {http://purl.org/dc/terms/contributor="http://e-lico.eu/populous#OPPL_pattern"} ! isDemonymOf Syria
 
 [Term]
@@ -1999,7 +1999,7 @@ relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatu
 id: HANCESTRO:0555
 name: Arab Israeli founder
 synonym: "Israeli Arab" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 
 [Term]
@@ -2239,7 +2239,7 @@ property_value: IAO:0000119 "PMID:29220501" xsd:string
 id: HANCESTRO:0596
 name: Arab
 def: "Includes individuals with ethnic origins in the Semitic people populating the Arabian Peninsula and other countries in the Middle East and Northern Africa" []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern, North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 property_value: IAO:0000119 "PMID:27393651" xsd:string
 property_value: IAO:0000119 "PMID:28106113" xsd:string
 
