@@ -6,11 +6,11 @@ The Human Ancestry Ontology (HAncestro) provides a systematic description of the
 
 The following HANCESTRO release files are provided 
 
-* https://github.com/EBISPOT/hancestro/blob/main/hancestro.owl
-* https://github.com/EBISPOT/hancestro/blob/main/hancestro_inferred.owl - pre-inferred version of HANCESTRO
-* https://github.com/EBISPOT/hancestro/blob/main/hancestro_bfo.owl - version of HANCESTRO fitted into the BFO upper hierarchy for ease of integration with other ontologies
+* [hancestro.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro.owl) - full pre-reasoned version of HANCESTRO wtih all imports fitted into the BFO upper hierarchy
+* [hancestro_full.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro_full.owl) - same as `hancestro.owl`
+* [hancestro_base.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro_base.owl) - base version of HANCESTRO with only native axioms and no imports
 
-Please see our [FAQ](/faq.md) for some more information.
+Please see our [FAQ](https://ebispot.github.io/hancestro/faq/). for some more information.
 
 You can find descriptions of the standard ontology engineering workflows [here](odk-workflows/index.md).
 
