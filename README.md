@@ -8,8 +8,8 @@ The Human Ancestry Ontology (HAncestro) provides a systematic description of the
 The following HANCESTRO release files are provided 
 
 * [hancestro.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro.owl) - full pre-reasoned version of HANCESTRO wtih all imports fitted into the BFO upper hierarchy
-* [hancestro_full.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro_full.owl) - same as `hancestro.owl`
-* [hancestro_base.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro_base.owl) - base version of HANCESTRO with only native axioms and no imports
+* [hancestro-full.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro-full.owl) - same as `hancestro.owl`
+* [hancestro-base.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro-base.owl) - base version of HANCESTRO with only native axioms and no imports
 
 
 ## Contact Details ##
