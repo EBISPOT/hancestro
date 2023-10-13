@@ -8,8 +8,8 @@ The Human Ancestry Ontology (HAncestro) provides a systematic description of the
 The following HANCESTRO release files are provided 
 
 * [hancestro.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro.owl) - full pre-reasoned version of HANCESTRO wtih all imports fitted into the BFO upper hierarchy
-* [hancestro_full.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro_full.owl) - same as `hancestro.owl`
-* [hancestro_base.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro_base.owl) - base version of HANCESTRO with only native axioms and no imports
+* [hancestro-full.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro-full.owl) - same as `hancestro.owl`
+* [hancestro-base.owl](https://github.com/EBISPOT/hancestro/blob/main/hancestro-base.owl) - base version of HANCESTRO with only native axioms and no imports
 
 
 ## Contact Details ##
@@ -35,26 +35,17 @@ For more information, take a look at [our website](https://ebispot.github.io/han
 
 ##Ancestry Ontology - Release Notes ##
 
-### Current release: 3.0
+### Current release: v2023-10-13
 
-Date Released: 31 July 2023
+Date Released: 13 October 2023
 
 Class Count: 612 
 
-- Updated the HANCESTRO repo to the latest version of the [ODK](https://github.com/INCATools/ontology-development-kit)
-- Changed release artefacts:
-	- `hancestro.owl` > `hancestro-base.owl`
-	- `hancestro_bfo.owl` > `hancestro.owl` (and `hancestro-full.owl`)
-	- `hancestro_inferred.owl` > retired
-- Changed ontology repo name from `ancestro` to `hancestro`
-- Changed primary branch name from `master` to `main` 
-- Changed label for `HANCESTRO:0015` from `Greater Middle Eastern (Middle Eastern, North African or Persian)` to `Greater Middle Eastern (Middle Eastern or North African or Persian)`(as per [request #36](https://github.com/EBISPOT/hancestro/issues/36))
+- Updated the HANCESTRO versioning strategy to bring it in line with ODK best practice (as per [request #44](https://github.com/EBISPOT/hancestro/issues/44)). HANCESTRO versions are now date-based rather than using semantic versioning.
+
+- Repo clean-up, including fixing of broken links
 
 See the [release notes](https://github.com/EBISPOT/hancestro/releases) for details of most recent changes.
-
-
-*Please note that as of v2.3 of the ontology, all identifiers have changed for ANCESTRO to HANCESTRO.*
-
 
 
 

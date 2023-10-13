@@ -22,12 +22,9 @@
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-07-31"
-      }, {
-        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "3.0"
+        "val" : "2023-10-13"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2023-07-31/hancestro-base.json"
+      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2023-10-13/hancestro-base.json"
     },
     "nodes" : [ {
       "id" : "http://dbpedia.org/resource/Afghanistan",
