@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hancestro/releases/2023-07-31/hancestro-base.owl
+data-version: hancestro/releases/2023-10-13/hancestro-base.owl
 ontology: hancestro/hancestro-base
 property_value: http://purl.org/dc/elements/1.1/description "Human ancestry ontology for the NHGRI GWAS Catalog" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Human Ancestry Ontology" xsd:string
@@ -7,8 +7,7 @@ property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: IAO:0000700 HANCESTRO:0004
 property_value: IAO:0000700 HANCESTRO:0304
-property_value: owl:versionInfo "2023-07-31" xsd:string
-property_value: owl:versionInfo "3.0" xsd:decimal
+property_value: owl:versionInfo "2023-10-13" xsd:string
 
 [Term]
 id: American:Samoa

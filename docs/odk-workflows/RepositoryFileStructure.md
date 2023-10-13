@@ -17,7 +17,7 @@ These are the current imports in HANCESTRO
 | Import | URL | Type |
 | ------ | --- | ---- |
 | obi | http://purl.obolibrary.org/obo/obi.owl | custom |
-| geo | http://purl.obolibrary.org/obo/geo.owl | slme |
+| geo | http://purl.obolibrary.org/obo/geo.owl | custom |
 | bfo | http://purl.obolibrary.org/obo/bfo.owl | slme |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
 
