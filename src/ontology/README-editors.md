@@ -75,11 +75,11 @@ IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
 The value of the "Tag version" field MUST be
 
-    X.Y
+    vYYYY-MM-DD
 
-where X represents the major version number and Y the minor version number. For patch releases (eg non-label typo corrections or bug fixes), the version number should be X.Y.Z where Z represents the patch number.
+where YYYY-MM-DD is the date of the release day
 
-Release title should be `HANCESTRO release X.Y`, optionally followed by a title (e.g. "january release")
+Release title should be `HANCESTRO release vYYYY-MM-DD`, optionally followed by a title indicating the main change in the release (e.g. "Hierarchy refactoring")
 
 Then click "publish release"
 
@@ -88,10 +88,5 @@ __IMPORTANT__: NO MORE THAN ONE RELEASE PER DAY.
 The PURLs are already configured to pull from github. This means that
 BOTH ontology purls and versioned ontology purls will resolve to the
 correct ontologies. Try it!
-
- * http://purl.obolibrary.org/obo/hancestro.owl <-- current ontology PURL
- * http://purl.obolibrary.org/obo/hancestro/releases/YYYY-MM-DD.owl <-- change to the release you just made
-
-For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
 
