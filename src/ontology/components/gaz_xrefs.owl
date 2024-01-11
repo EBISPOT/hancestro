@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl>
-<http://purl.obolibrary.org/obo/hancestro/releases/2023-10-13/components/gaz_xrefs.owl>
-Annotation(owl:versionInfo "2023-10-13")
+<http://purl.obolibrary.org/obo/hancestro/releases/2024-01-10/components/gaz_xrefs.owl>
+Annotation(owl:versionInfo "2024-01-10")
 
 Declaration(Class(<http://dbpedia.org/resource/Afghanistan>))
 Declaration(Class(<http://dbpedia.org/resource/Albania>))
@@ -250,7 +250,6 @@ Declaration(Class(<http://dbpedia.org/resource/Zambia>))
 Declaration(Class(<http://dbpedia.org/resource/Zimbabwe>))
 Declaration(Class(<http://dbpedia.org/resource/Cocos_(Keeling)_Islands>))
 Declaration(Class(<http://dbpedia.org/resource/Georgia_(country)>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GEO_000000374>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0031>))
@@ -1235,10 +1234,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 # Class: <http://dbpedia.org/resource/Georgia_(country)> (<http://dbpedia.org/resource/Georgia_(country)>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Georgia_(country)> "GAZ:00004942")
-
-# Class: <http://purl.obolibrary.org/obo/GEO_000000374> (<http://purl.obolibrary.org/obo/GEO_000000374>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GEO_000000374> "GAZ:00190836")
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0029> (<http://purl.obolibrary.org/obo/HANCESTRO_0029>)
 

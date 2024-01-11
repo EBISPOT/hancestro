@@ -22,14 +22,16 @@ import_group:
     - id: obi
       use_base: TRUE
       module_type: custom
-    - id: geo
-      make_base: TRUE
-      module_type: custom
+#     - id: geo
+#       make_base: TRUE
+#       module_type: custom
     - id: bfo
       make_base: TRUE
       module_type: slme
       module_tyle_slme: BOT
     - id: ro
+      use_base: TRUE
+    - id: foodon
       use_base: TRUE
 components:
   products:
