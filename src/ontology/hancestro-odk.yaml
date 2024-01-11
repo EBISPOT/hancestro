@@ -22,9 +22,6 @@ import_group:
     - id: obi
       use_base: TRUE
       module_type: custom
-#     - id: geo
-#       make_base: TRUE
-#       module_type: custom
     - id: bfo
       make_base: TRUE
       module_type: slme
@@ -32,7 +29,7 @@ import_group:
     - id: ro
       use_base: TRUE
     - id: foodon
-      use_base: TRUE
+      module_type: custom
 components:
   products:
     - filename: gaz_xrefs.owl

@@ -109,9 +109,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-# IMPORTS =  obi geo bfo ro foodon
 IMPORTS =  obi bfo ro foodon
-
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -316,11 +314,7 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms_combined.txt
 
 $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl
 	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in hancestro.Makefile!" && false
-## Module for ontology: geo
-
-# $(IMPORTDIR)/geo_import.owl: $(MIRRORDIR)/geo.owl
-# 	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in hancestro.Makefile!" && false
-# ## Module for ontology: bfo
+## Module for ontology: bfo
 
 $(IMPORTDIR)/bfo_import.owl: $(MIRRORDIR)/bfo.owl $(IMPORTDIR)/bfo_terms_combined.txt
 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
@@ -328,6 +322,10 @@ $(IMPORTDIR)/bfo_import.owl: $(MIRRORDIR)/bfo.owl $(IMPORTDIR)/bfo_terms_combine
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
 		$(ANNOTATE_CONVERT_FILE); fi
 
+## Module for ontology: foodon
+
+$(IMPORTDIR)/foodon_import.owl: $(MIRRORDIR)/foodon.owl
+	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in hancestro.Makefile!" && false
 
 .PHONY: refresh-imports
 refresh-imports:
@@ -406,16 +404,6 @@ mirror-obi: | $(TMPDIR)
 		$(ROBOT) convert -i $(MIRRORDIR)/obi.owl -o $@.tmp.owl && mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
-## ONTOLOGY: geo
-# .PHONY: mirror-geo
-# .PRECIOUS: $(MIRRORDIR)/geo.owl
-# mirror-geo: | $(TMPDIR)
-# 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/geo.owl --create-dirs -o $(MIRRORDIR)/geo.owl --retry 4 --max-time 200 &&\
-# 		$(ROBOT) convert -i $(MIRRORDIR)/geo.owl -o $@.tmp.owl && \
-# 		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/GEO --axioms external --preserve-structure false --trim false -o $@.tmp.owl &&\
-# 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
-
-
 ## ONTOLOGY: bfo
 .PHONY: mirror-bfo
 .PRECIOUS: $(MIRRORDIR)/bfo.owl
@@ -434,11 +422,6 @@ mirror-ro: | $(TMPDIR)
 		$(ROBOT) convert -i $(MIRRORDIR)/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
-$(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
-	if [ $(IMP) = true ] && [ $(MIR) = true ] && [ -f $(TMPDIR)/mirror-$*.owl ]; then if cmp -s $(TMPDIR)/mirror-$*.owl $@ ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." &&\
-		cp $(TMPDIR)/mirror-$*.owl $@; fi; fi
-
-
 ## ONTOLOGY: foodon
 .PHONY: mirror-foodon
 .PRECIOUS: $(MIRRORDIR)/foodon.owl
@@ -446,7 +429,13 @@ mirror-foodon: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/foodon.owl --create-dirs -o $(MIRRORDIR)/foodon.owl --retry 4 --max-time 200 &&\
 		$(ROBOT) convert -i $(MIRRORDIR)/foodon.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
-		
+
+
+$(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
+	if [ $(IMP) = true ] && [ $(MIR) = true ] && [ -f $(TMPDIR)/mirror-$*.owl ]; then if cmp -s $(TMPDIR)/mirror-$*.owl $@ ; then echo "Mirror identical, ignoring."; else echo "Mirrors different, updating." &&\
+		cp $(TMPDIR)/mirror-$*.owl $@; fi; fi
+
+
 
 
 # ----------------------------------------

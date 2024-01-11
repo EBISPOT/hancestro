@@ -31,3 +31,11 @@ $(IMPORTDIR)/geo_import.owl: $(MIRRORDIR)/geo.owl $(IMPORTDIR)/geo_terms_combine
 		extract -T $(IMPORTDIR)/geo_terms_combined.txt --copy-ontology-annotations true --force true --individuals exclude --method BOT \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
 		$(ANNOTATE_CONVERT_FILE); fi
+
+$(IMPORTDIR)/foodon_import.owl: $(MIRRORDIR)/foodon.owl $(IMPORTDIR)/foodon_terms.txt
+	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+		extract -T $(IMPORTDIR)/foodon_terms.txt --force true --copy-ontology-annotations true --individuals include --method BOT \
+		filter $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/foodon_terms.txt --select "self descendants" \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+		$(ANNOTATE_CONVERT_FILE); fi
+

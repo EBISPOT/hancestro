@@ -1,2 +1,3 @@
-http://purl.obolibrary.org/obo/NCIT_C25464
-http://purl.obolibrary.org/obo/GAZ_00000013
+NCIT:C25464
+GAZ:00000013
+COB:0000032
