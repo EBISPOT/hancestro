@@ -51,7 +51,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/gaz_xrefs.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/gaz_xrefs.owl $(COMPONENTSDIR)/dbpedia_geography.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -386,6 +386,14 @@ $(COMPONENTSDIR)/gaz_xrefs.owl: $(TEMPLATEDIR)/gaz_xrefs.tsv
 		$(ANNOTATE_CONVERT_FILE); fi
 
 .PRECIOUS: $(COMPONENTSDIR)/gaz_xrefs.owl
+
+
+$(COMPONENTSDIR)/dbpedia_geography.owl: $(TEMPLATEDIR)/dbpedia_geography.csv
+	if [ $(COMP) = true ] ; then $(ROBOT) template --prefix "dbpedia: http://dbpedia.org/resource/" \
+		$(patsubst %, --template %, $^) \
+		$(ANNOTATE_CONVERT_FILE); fi
+
+.PRECIOUS: $(COMPONENTSDIR)/dbpedia_geography.owl
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------

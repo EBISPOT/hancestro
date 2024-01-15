@@ -37,6 +37,11 @@ components:
       template_options: '--prefix "dbpedia: http://dbpedia.org/resource/" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
       templates:
         - gaz_xrefs.tsv
+    - filename: dbpedia_geography.owl
+      use_template: TRUE
+      template_options: '--prefix "dbpedia: http://dbpedia.org/resource/"'
+      templates:
+        - dbpedia_geography.csv
 robot_report:
   release_reports: False
   fail_on: ERROR

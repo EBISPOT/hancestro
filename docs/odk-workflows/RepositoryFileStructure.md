@@ -33,3 +33,4 @@ These are the components in HANCESTRO
 | Filename | URL |
 | -------- | --- |
 | gaz_xrefs.owl | None |
+| dbpedia_geography.owl | None |

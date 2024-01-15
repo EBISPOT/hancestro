@@ -1,29 +1,29 @@
 ﻿ID,Label,Parent
 ID,A rdfs:label,C %
-http://dbpedia.org/resource/Africa,Africa,GAZ:00000013
-http://dbpedia.org/resource/Asia,Asia,GAZ:00000013
-http://dbpedia.org/resource/Caribbean,Caribbean,HANCESTRO:0002
-http://dbpedia.org/resource/Europe,Europe,GAZ:00000013
-http://dbpedia.org/resource/Melanesia,Melanesia,HANCESTRO:0002
-http://dbpedia.org/resource/Micronesia,Micronesia,HANCESTRO:0002
-http://dbpedia.org/resource/Oceania,Oceania,GAZ:00000013
-http://dbpedia.org/resource/Polynesia,Polynesia,HANCESTRO:0002
-http://dbpedia.org/resource/Scandinavia,Scandinavia,HANCESTRO:0002
-http://dbpedia.org/resource/SouthAmerica,South America,HANCESTRO:0002
-http://dbpedia.org/resource/Eastern_Africa,Eastern Africa,HANCESTRO:0002
-http://dbpedia.org/resource/Middle_Africa,Middle Africa,HANCESTRO:0002
-http://dbpedia.org/resource/Northern_Africa,Northern Africa,HANCESTRO:0002
-http://dbpedia.org/resource/Southern_Africa,Southern Africa,HANCESTRO:0002
-http://dbpedia.org/resource/Western_Africa,Western Africa,HANCESTRO:0002
-http://dbpedia.org/resource/Western_Asia,Western Asia,HANCESTRO:0002
-http://dbpedia.org/resource/Eastern_Europe,Eastern Europe,HANCESTRO:0002
-http://dbpedia.org/resource/Northern_Europe,Northern Europe,HANCESTRO:0002
-http://dbpedia.org/resource/Southern_Europe,Southern Europe,HANCESTRO:0002
-http://dbpedia.org/resource/Western_Europe,Western Europe,HANCESTRO:0002
-http://dbpedia.org/resource/Central_America,Central America,HANCESTRO:0002
-http://dbpedia.org/resource/Eastern_Asia,Eastern Asia,HANCESTRO:0002
-http://dbpedia.org/resource/South_Asia,South Asia,HANCESTRO:0002
-http://dbpedia.org/resource/Latin_America_and_the_Caribbean,Latin America and the Caribbean,GAZ:00000013
-http://dbpedia.org/resource/Northern_America,Northern America,GAZ:00000013
-http://dbpedia.org/resource/South-central_Asia,South-Central Asia,HANCESTRO:0002
-http://dbpedia.org/resource/South-Eastern_Asia,South-Eastern Asia,HANCESTRO:0002
+dbpedia:Africa,Africa,GAZ:00000013
+dbpedia:Asia,Asia,GAZ:00000013
+dbpedia:Caribbean,Caribbean,HANCESTRO:0002
+dbpedia:Europe,Europe,GAZ:00000013
+dbpedia:Melanesia,Melanesia,HANCESTRO:0002
+dbpedia:Micronesia,Micronesia,HANCESTRO:0002
+dbpedia:Oceania,Oceania,GAZ:00000013
+dbpedia:Polynesia,Polynesia,HANCESTRO:0002
+dbpedia:Scandinavia,Scandinavia,HANCESTRO:0002
+dbpedia:SouthAmerica,South America,HANCESTRO:0002
+dbpedia:Eastern_Africa,Eastern Africa,HANCESTRO:0002
+dbpedia:Middle_Africa,Middle Africa,HANCESTRO:0002
+dbpedia:Northern_Africa,Northern Africa,HANCESTRO:0002
+dbpedia:Southern_Africa,Southern Africa,HANCESTRO:0002
+dbpedia:Western_Africa,Western Africa,HANCESTRO:0002
+dbpedia:Western_Asia,Western Asia,HANCESTRO:0002
+dbpedia:Eastern_Europe,Eastern Europe,HANCESTRO:0002
+dbpedia:Northern_Europe,Northern Europe,HANCESTRO:0002
+dbpedia:Southern_Europe,Southern Europe,HANCESTRO:0002
+dbpedia:Western_Europe,Western Europe,HANCESTRO:0002
+dbpedia:Central_America,Central America,HANCESTRO:0002
+dbpedia:Eastern_Asia,Eastern Asia,HANCESTRO:0002
+dbpedia:South_Asia,South Asia,HANCESTRO:0002
+dbpedia:Latin_America_and_the_Caribbean,Latin America and the Caribbean,GAZ:00000013
+dbpedia:Northern_America,Northern America,GAZ:00000013
+dbpedia:South-central_Asia,South-Central Asia,HANCESTRO:0002
+dbpedia:South-Eastern_Asia,South-Eastern Asia,HANCESTRO:0002
