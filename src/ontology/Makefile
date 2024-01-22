@@ -389,7 +389,7 @@ $(COMPONENTSDIR)/gaz_xrefs.owl: $(TEMPLATEDIR)/gaz_xrefs.tsv
 
 
 $(COMPONENTSDIR)/dbpedia_geography.owl: $(TEMPLATEDIR)/dbpedia_geography.csv
-	if [ $(COMP) = true ] ; then $(ROBOT) template --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "bfo: http://purl.obolibrary.org/obo/BFO_" --prefix "ro: http://purl.obolibrary.org/obo/RO_" \
+	if [ $(COMP) = true ] ; then $(ROBOT) template --input hancestro-edit.ofn --prefix "dbpedia: http://dbpedia.org/resource/" \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
