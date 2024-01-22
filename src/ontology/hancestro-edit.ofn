@@ -698,12 +698,12 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part_of)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part_of")
 InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has part)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has_part)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has_part")
 
@@ -729,12 +729,12 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/HANCESTRO_0329> <http://
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0330> "isDemonymOf"@en)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0001015> (location of)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0001015> (location_of)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001015> "location_of")
 InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0001015> <http://purl.obolibrary.org/obo/RO_0001025>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located in)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located_in)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001025> "located_in")
 
@@ -812,7 +812,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Aruba> "Aruba"@en)
 SubClassOf(<http://dbpedia.org/resource/Aruba> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Aruba> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Caribbean>))
-SubClassOf(<http://dbpedia.org/resource/Aruba> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0048>))
 
 # Class: <http://dbpedia.org/resource/Asia> (Asia)
 
@@ -1054,7 +1053,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Curacao> "Curacao"@en)
 SubClassOf(<http://dbpedia.org/resource/Curacao> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Curacao> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Caribbean>))
-SubClassOf(<http://dbpedia.org/resource/Curacao> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0048>))
 
 # Class: <http://dbpedia.org/resource/Cyprus> (Cyprus)
 
@@ -1079,7 +1077,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Denmark> "Denmark"@en)
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Denmark> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Denmark> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Scandinavia>))
-SubClassOf(<http://dbpedia.org/resource/Denmark> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0288>))
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Denmark> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Europe>))
 
 # Class: <http://dbpedia.org/resource/Djibouti> (Djibouti)
@@ -1099,7 +1096,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Dominican_Republic> "Dominican Republic"@en)
 SubClassOf(<http://dbpedia.org/resource/Dominican_Republic> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Dominican_Republic> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Caribbean>))
-SubClassOf(<http://dbpedia.org/resource/Dominican_Republic> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0048>))
 
 # Class: <http://dbpedia.org/resource/East_Timor> (East Timor)
 
@@ -1417,7 +1413,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Kosovo> "Kosovo")
 SubClassOf(<http://dbpedia.org/resource/Kosovo> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Kosovo> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Europe>))
-SubClassOf(<http://dbpedia.org/resource/Kosovo> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0044>))
 
 # Class: <http://dbpedia.org/resource/Kuwait> (Kuwait)
 
@@ -1721,7 +1716,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Northern_Mariana_Islands> "Northern Mariana Islands")
 SubClassOf(<http://dbpedia.org/resource/Northern_Mariana_Islands> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Northern_Mariana_Islands> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Micronesia>))
-SubClassOf(<http://dbpedia.org/resource/Northern_Mariana_Islands> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0053>))
 
 # Class: <http://dbpedia.org/resource/Norway> (Norway)
 
@@ -1729,7 +1723,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://dbpedia
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Norway> "Norway"@en)
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Norway> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Norway> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Scandinavia>))
-SubClassOf(<http://dbpedia.org/resource/Norway> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0288>))
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Norway> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Europe>))
 
 # Class: <http://dbpedia.org/resource/Oceania> (Oceania)
@@ -1861,7 +1854,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Russia> "Russia")
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Russia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Russia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> ObjectIntersectionOf(<http://dbpedia.org/resource/Asia> <http://dbpedia.org/resource/Eastern_Europe>)))
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Russia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HANCESTRO_0030> <http://purl.obolibrary.org/obo/HANCESTRO_0044>)))
 
 # Class: <http://dbpedia.org/resource/Rwanda> (Rwanda)
 
@@ -1899,7 +1891,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Saint_Martin> "Saint Martin"@en)
 SubClassOf(<http://dbpedia.org/resource/Saint_Martin> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Saint_Martin> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Caribbean>))
-SubClassOf(<http://dbpedia.org/resource/Saint_Martin> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0048>))
 
 # Class: <http://dbpedia.org/resource/Saint_Pierre_and_Miquelon> (Saint Pierre and Miquelon)
 
@@ -1939,7 +1930,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Scotland> "Scotland"@en)
 SubClassOf(<http://dbpedia.org/resource/Scotland> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Scotland> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Europe>))
-SubClassOf(<http://dbpedia.org/resource/Scotland> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0045>))
 
 # Class: <http://dbpedia.org/resource/Senegal> (Senegal)
 
@@ -1976,7 +1966,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Sint_Maarten> "Sint Maarten"@en)
 SubClassOf(<http://dbpedia.org/resource/Sint_Maarten> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Sint_Maarten> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Caribbean>))
-SubClassOf(<http://dbpedia.org/resource/Sint_Maarten> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0048>))
 
 # Class: <http://dbpedia.org/resource/Slovakia> (Slovakia)
 
@@ -2032,7 +2021,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/South_Sudan> "South Sudan"@en)
 SubClassOf(<http://dbpedia.org/resource/South_Sudan> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/South_Sudan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
-SubClassOf(<http://dbpedia.org/resource/South_Sudan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0037>))
 
 # Class: <http://dbpedia.org/resource/Southern_Africa> (Southern Africa)
 
@@ -2075,7 +2063,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Sweden> "Sweden"@en)
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Sweden> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Sweden> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Scandinavia>))
-SubClassOf(<http://dbpedia.org/resource/Sweden> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0288>))
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://dbpedia.org/resource/Sweden> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Europe>))
 
 # Class: <http://dbpedia.org/resource/Switzerland> (Switzerland)
@@ -2089,7 +2076,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Syria> "Syria"@en)
 SubClassOf(<http://dbpedia.org/resource/Syria> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Syria> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Asia>))
-SubClassOf(<http://dbpedia.org/resource/Syria> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0043>))
 
 # Class: <http://dbpedia.org/resource/São_Tomé_and_Príncipe> (São Tomé and Príncipe)
 
@@ -2102,7 +2088,6 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Taiwan> "Taiwan"@en)
 SubClassOf(<http://dbpedia.org/resource/Taiwan> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Taiwan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Asia>))
-SubClassOf(<http://dbpedia.org/resource/Taiwan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0055>))
 
 # Class: <http://dbpedia.org/resource/Tajikistan> (Tajikistan)
 
@@ -2490,66 +2475,54 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0027> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0029> <http://dbpedia.org/resource/Africa>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0029> "obsolete Africa")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0029> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0029> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0030> (obsolete Asia)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0030> <http://dbpedia.org/resource/Asia>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0030> "obsolete Asia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0030> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0030> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0031> (obsolete Europe)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0031> <http://dbpedia.org/resource/Europe>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0031> "obsolete Europe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0031> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0031> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0032> (obsolete Oceania)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0032> <http://dbpedia.org/resource/Oceania>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0032> "obsolete Oceania")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0032> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0032> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0033> (obsolete Latin America and the Caribbean)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0033> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0033> "obsolete Latin America and the Caribbean")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0033> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0033> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0034> (obsolete Northern America)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0034> <http://dbpedia.org/resource/Northern_America>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0034> "obsolete Northern America")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0034> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0034> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0035> (obsolete Eastern Africa)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0035> <http://dbpedia.org/resource/Eastern_Africa>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0035> "obsolete Eastern Africa")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0035> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0035> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0035> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0029>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0036> (obsolete Middle Africa)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0036> <http://dbpedia.org/resource/Middle_Africa>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0036> "obsolete Middle Africa")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0036> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0036> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0036> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0029>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0037> (obsolete Northern Africa)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0037> <http://dbpedia.org/resource/Northern_Africa>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0037> "obsolete Northern Africa")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0037> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0037> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0037> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Africa>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0038> (obsolete Southern Africa)
 
@@ -2557,8 +2530,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0038> "Southern Africa")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0038> "obsolete Southern Africa")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0038> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0038> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0038> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0029>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0039> (obsolete Western Africa)
 
@@ -2566,26 +2537,18 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0039> "Western Africa")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0039> "obsolete Western Africa")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0039> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0039> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0039> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0029>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0041> (obsolete South Central Asia)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0041> <http://dbpedia.org/resource/South-central_Asia>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0041> "obsolete South Central Asia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0041> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0041> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0041> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0030>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0041> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0289>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0042> (obsolete South-Eastern Asia)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0042> <http://dbpedia.org/resource/South-Eastern_Asia>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0042> "obsolete South-Eastern Asia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0042> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0042> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0042> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0030>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0042> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0289>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0043> (obsolete Western Asia)
 
@@ -2593,16 +2556,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0043> "Western Asia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0043> "obsolete Western Asia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0043> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0043> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0043> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0030>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0044> (obsolete Eastern Europe)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0044> <http://dbpedia.org/resource/Eastern_Europe>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0044> "obsolete Eastern Europe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0044> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0044> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0044> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0031>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0045> (obsolete Northern Europe)
 
@@ -2610,48 +2569,36 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0045> "Northern Europe")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0045> "obsolete Northern Europe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0045> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0045> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0045> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0031>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0046> (obsolete Southern Europe)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0046> <http://dbpedia.org/resource/Southern_Europe>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0046> "obsolete Southern Europe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0046> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0046> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0046> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0031>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0047> (obsolete Western Europe)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0047> <http://dbpedia.org/resource/Western_Europe>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0047> "obsolete Western Europe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0047> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0047> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0047> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0031>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0048> (obsolete Caribbean)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0048> <http://dbpedia.org/resource/Caribbean>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0048> "obsolete Caribbean")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0048> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0048> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0048> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0033>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0049> (obsolete South America)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0049> <http://dbpedia.org/resource/SouthAmerica>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0049> "obsolete South America")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0049> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0049> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0049> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0033>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0050> (obsolete Central America)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0050> <http://dbpedia.org/resource/Central_America>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0050> "obsolete Central America")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0050> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0050> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0050> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0033>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0051> (Australia/New Zealand)
 
@@ -2663,16 +2610,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0051> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0052> <http://dbpedia.org/resource/Melanesia>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0052> "obsolete Melanesia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0052> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0052> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0052> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0032>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0053> (obsolete Micronesia)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0053> <http://dbpedia.org/resource/Micronesia>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0053> "obsolete Micronesia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0053> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0053> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0053> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0032>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0054> (obsolete Polynesia)
 
@@ -2680,16 +2623,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0054> "Polynesia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0054> "obsolete Polynesia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0054> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0054> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0054> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0032>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0055> (obsolete Eastern Asia)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0055> <http://dbpedia.org/resource/Eastern_Asia>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0055> "obsolete Eastern Asia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0055> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0055> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/HANCESTRO_0055> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0030>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0286> (Central Asian)
 
@@ -2702,15 +2641,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0286> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0288> <http://dbpedia.org/resource/Scandinavia>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0288> "obsolete Scandinavia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0288> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0288> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0288> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HANCESTRO_0045>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0289> (obsolete South Asia)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0289> <http://dbpedia.org/resource/South_Asia>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0289> "obsolete South Asia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0289> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0289> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0290> (genetically isolated population)
 
