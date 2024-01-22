@@ -1,79 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	deprecated_class_reference	HANCESTRO:0029	rdfs:subClassOf	GAZ:00000013
-ERROR	deprecated_class_reference	HANCESTRO:0030	rdfs:subClassOf	GAZ:00000013
-ERROR	deprecated_class_reference	HANCESTRO:0031	rdfs:subClassOf	GAZ:00000013
-ERROR	deprecated_class_reference	HANCESTRO:0032	rdfs:subClassOf	GAZ:00000013
-ERROR	deprecated_class_reference	HANCESTRO:0033	rdfs:subClassOf	GAZ:00000013
-ERROR	deprecated_class_reference	HANCESTRO:0034	rdfs:subClassOf	GAZ:00000013
-ERROR	deprecated_class_reference	HANCESTRO:0035	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid740
-ERROR	deprecated_class_reference	HANCESTRO:0035	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0036	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid742
-ERROR	deprecated_class_reference	HANCESTRO:0036	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0037	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid744
-ERROR	deprecated_class_reference	HANCESTRO:0037	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0038	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid746
-ERROR	deprecated_class_reference	HANCESTRO:0038	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0039	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid748
-ERROR	deprecated_class_reference	HANCESTRO:0039	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0041	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid750
-ERROR	deprecated_class_reference	HANCESTRO:0041	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid752
-ERROR	deprecated_class_reference	HANCESTRO:0041	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0042	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid753
-ERROR	deprecated_class_reference	HANCESTRO:0042	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid755
-ERROR	deprecated_class_reference	HANCESTRO:0042	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0043	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid756
-ERROR	deprecated_class_reference	HANCESTRO:0043	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0044	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid758
-ERROR	deprecated_class_reference	HANCESTRO:0044	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0045	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid760
-ERROR	deprecated_class_reference	HANCESTRO:0045	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0046	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid762
-ERROR	deprecated_class_reference	HANCESTRO:0046	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0047	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid764
-ERROR	deprecated_class_reference	HANCESTRO:0047	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0048	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid766
-ERROR	deprecated_class_reference	HANCESTRO:0048	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0049	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid768
-ERROR	deprecated_class_reference	HANCESTRO:0049	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0050	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid770
-ERROR	deprecated_class_reference	HANCESTRO:0050	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0052	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid773
-ERROR	deprecated_class_reference	HANCESTRO:0052	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0053	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid775
-ERROR	deprecated_class_reference	HANCESTRO:0053	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0054	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid777
-ERROR	deprecated_class_reference	HANCESTRO:0054	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0055	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid779
-ERROR	deprecated_class_reference	HANCESTRO:0055	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0288	rdfs:subClassOf	ee210b34-520f-4cca-bef3-cfaccc995c28genid781
-ERROR	deprecated_class_reference	HANCESTRO:0288	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	HANCESTRO:0289	rdfs:subClassOf	HANCESTRO:0002
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0029
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0030
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0031
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0032
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0033
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0037
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0043
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0044
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0045
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0048
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0053
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0055
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0288
-ERROR	deprecated_class_reference	blank node	owl:allValuesFrom	HANCESTRO:0289
-ERROR	duplicate_label	http://dbpedia.org/resource/Western_Asia	rdfs:label	Western Asia
-ERROR	duplicate_label	HANCESTRO:0043	rdfs:label	Western Asia
-ERROR	duplicate_label	http://dbpedia.org/resource/Western_Africa	rdfs:label	Western Africa
-ERROR	duplicate_label	HANCESTRO:0039	rdfs:label	Western Africa
-ERROR	duplicate_label	http://dbpedia.org/resource/Southern_Africa	rdfs:label	Southern Africa
-ERROR	duplicate_label	HANCESTRO:0038	rdfs:label	Southern Africa
-ERROR	duplicate_label	http://dbpedia.org/resource/Polynesia	rdfs:label	Polynesia
-ERROR	duplicate_label	HANCESTRO:0054	rdfs:label	Polynesia
-ERROR	duplicate_label	http://dbpedia.org/resource/Northern_Europe	rdfs:label	Northern Europe
-ERROR	duplicate_label	HANCESTRO:0045	rdfs:label	Northern Europe
-ERROR	missing_label	GAZ:00000013	rdfs:label	
-ERROR	missing_label	NCIT:C25464	rdfs:label	
 WARN	missing_definition	http://dbpedia.org/resource/Afghanistan	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Africa	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Albania	IAO:0000115	
@@ -640,10 +565,5 @@ WARN	missing_definition	RO:0001015	IAO:0000115
 WARN	missing_definition	RO:0001025	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasExactSynonym	IAO:0000115	
-WARN	missing_obsolete_label	HANCESTRO:0038	rdfs:label	Southern Africa
-WARN	missing_obsolete_label	HANCESTRO:0039	rdfs:label	Western Africa
-WARN	missing_obsolete_label	HANCESTRO:0043	rdfs:label	Western Asia
-WARN	missing_obsolete_label	HANCESTRO:0045	rdfs:label	Northern Europe
-WARN	missing_obsolete_label	HANCESTRO:0054	rdfs:label	Polynesia
 WARN	missing_obsolete_label	HANCESTRO:0287	rdfs:label	hasEthnicPopulation@en
 INFO	missing_superclass	GAZ:00000013	rdfs:subClassOf	
