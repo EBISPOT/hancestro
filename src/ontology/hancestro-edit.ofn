@@ -2527,14 +2527,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_003
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0038> (obsolete Southern Africa)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0038> <http://dbpedia.org/resource/Southern_Africa>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0038> "Southern Africa")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0038> "obsolete Southern Africa")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0038> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0039> (obsolete Western Africa)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0039> <http://dbpedia.org/resource/Western_Africa>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0039> "Western Africa")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0039> "obsolete Western Africa")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0039> "true"^^xsd:boolean)
 
@@ -2553,7 +2551,6 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_004
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0043> (obsolete Western Asia)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0043> <http://dbpedia.org/resource/Western_Asia>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0043> "Western Asia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0043> "obsolete Western Asia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0043> "true"^^xsd:boolean)
 
@@ -2566,7 +2563,6 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_004
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0045> (obsolete Northern Europe)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0045> <http://dbpedia.org/resource/Northern_Europe>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0045> "Northern Europe")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0045> "obsolete Northern Europe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0045> "true"^^xsd:boolean)
 
@@ -2620,7 +2616,6 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_005
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0054> (obsolete Polynesia)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0054> <http://dbpedia.org/resource/Polynesia>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0054> "Polynesia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0054> "obsolete Polynesia")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0054> "true"^^xsd:boolean)
 
