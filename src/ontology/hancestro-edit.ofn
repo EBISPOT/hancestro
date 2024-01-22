@@ -2300,6 +2300,7 @@ SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/p
 # Class: <http://purl.obolibrary.org/obo/GAZ_00000013> (continent)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GAZ_00000013> "major area")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GAZ_00000013> "continent")
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0002> (region)
 
@@ -4403,6 +4404,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0598> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/NCIT_C25464> (Country)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25464> "Country")
 SubClassOf(Annotation(<http://purl.org/dc/terms/contributor> "http://e-lico.eu/populous#OPPL_pattern") <http://purl.obolibrary.org/obo/NCIT_C25464> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0002>))
 
 # Class: <http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh> (obsolete_Punjabi Sikh)
