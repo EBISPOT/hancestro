@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/imports/foodon_import.owl>
-<http://purl.obolibrary.org/obo/hancestro/releases/2024-01-11/imports/foodon_import.owl>
-Annotation(owl:versionInfo "2024-01-11")
+<http://purl.obolibrary.org/obo/hancestro/releases/2024-01-22/imports/foodon_import.owl>
+Annotation(owl:versionInfo "2024-01-22")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GAZ_00000013>))

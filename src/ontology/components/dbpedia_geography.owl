@@ -7,11 +7,12 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/components/dbpedia_geography.owl>
-<http://purl.obolibrary.org/obo/hancestro/releases/2024-01-15/components/dbpedia_geography.owl>
-Annotation(owl:versionInfo "2024-01-15")
+<http://purl.obolibrary.org/obo/hancestro/releases/2024-01-22/components/dbpedia_geography.owl>
+Annotation(owl:versionInfo "2024-01-22")
 
 Declaration(Class(<http://dbpedia.org/resource/Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Asia>))
+Declaration(Class(<http://dbpedia.org/resource/Australia>))
 Declaration(Class(<http://dbpedia.org/resource/Caribbean>))
 Declaration(Class(<http://dbpedia.org/resource/Central_America>))
 Declaration(Class(<http://dbpedia.org/resource/Eastern_Africa>))
@@ -22,6 +23,8 @@ Declaration(Class(<http://dbpedia.org/resource/Latin_America_and_the_Caribbean>)
 Declaration(Class(<http://dbpedia.org/resource/Melanesia>))
 Declaration(Class(<http://dbpedia.org/resource/Micronesia>))
 Declaration(Class(<http://dbpedia.org/resource/Middle_Africa>))
+Declaration(Class(<http://dbpedia.org/resource/New_Zealand>))
+Declaration(Class(<http://dbpedia.org/resource/Norfolk_Island>))
 Declaration(Class(<http://dbpedia.org/resource/Northern_Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Northern_America>))
 Declaration(Class(<http://dbpedia.org/resource/Northern_Europe>))
@@ -39,6 +42,34 @@ Declaration(Class(<http://dbpedia.org/resource/Western_Asia>))
 Declaration(Class(<http://dbpedia.org/resource/Western_Europe>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GAZ_00000013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0051>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
+
+
+############################
+#   Datatypes
+############################
+
+# Datatype: <http://dbpedia.org/resource/Africa> (Africa)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Africa> "Africa")
+
+# Datatype: <http://dbpedia.org/resource/Asia> (Asia)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Asia> "Asia")
+
+# Datatype: <http://dbpedia.org/resource/Europe> (Europe)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Europe> "Europe")
+
+# Datatype: <http://dbpedia.org/resource/Latin_America_and_the_Caribbean> (Latin America and the Caribbean)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Latin_America_and_the_Caribbean> "Latin America and the Caribbean")
+
+# Datatype: <http://dbpedia.org/resource/Oceania> (Oceania)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Oceania> "Oceania")
 
 
 ############################
@@ -47,68 +78,85 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0002>))
 
 # Class: <http://dbpedia.org/resource/Africa> (Africa)
 
-AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Africa> "Africa")
 SubClassOf(<http://dbpedia.org/resource/Africa> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://dbpedia.org/resource/Asia> (Asia)
 
-AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Asia> "Asia")
 SubClassOf(<http://dbpedia.org/resource/Asia> <http://purl.obolibrary.org/obo/GAZ_00000013>)
+
+# Class: <http://dbpedia.org/resource/Australia> (<http://dbpedia.org/resource/Australia>)
+
+SubClassOf(<http://dbpedia.org/resource/Australia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0051>))
 
 # Class: <http://dbpedia.org/resource/Caribbean> (Caribbean)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Caribbean> "Caribbean")
 SubClassOf(<http://dbpedia.org/resource/Caribbean> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Caribbean> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>))
 
 # Class: <http://dbpedia.org/resource/Central_America> (Central America)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Central_America> "Central America")
 SubClassOf(<http://dbpedia.org/resource/Central_America> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Central_America> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>))
 
 # Class: <http://dbpedia.org/resource/Eastern_Africa> (Eastern Africa)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Eastern_Africa> "Eastern Africa")
 SubClassOf(<http://dbpedia.org/resource/Eastern_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Eastern_Africa> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Africa>))
 
 # Class: <http://dbpedia.org/resource/Eastern_Asia> (Eastern Asia)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Eastern_Asia> "Eastern Asia")
 SubClassOf(<http://dbpedia.org/resource/Eastern_Asia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Eastern_Asia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Asia>))
 
 # Class: <http://dbpedia.org/resource/Eastern_Europe> (Eastern Europe)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Eastern_Europe> "Eastern Europe")
 SubClassOf(<http://dbpedia.org/resource/Eastern_Europe> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Eastern_Europe> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Europe>))
 
 # Class: <http://dbpedia.org/resource/Europe> (Europe)
 
-AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Europe> "Europe")
 SubClassOf(<http://dbpedia.org/resource/Europe> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://dbpedia.org/resource/Latin_America_and_the_Caribbean> (Latin America and the Caribbean)
 
-AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Latin_America_and_the_Caribbean> "Latin America and the Caribbean")
 SubClassOf(<http://dbpedia.org/resource/Latin_America_and_the_Caribbean> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://dbpedia.org/resource/Melanesia> (Melanesia)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Melanesia> "Melanesia")
 SubClassOf(<http://dbpedia.org/resource/Melanesia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Melanesia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Oceania>))
 
 # Class: <http://dbpedia.org/resource/Micronesia> (Micronesia)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Micronesia> "Micronesia")
 SubClassOf(<http://dbpedia.org/resource/Micronesia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Micronesia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Oceania>))
 
 # Class: <http://dbpedia.org/resource/Middle_Africa> (Middle Africa)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Middle_Africa> "Middle Africa")
 SubClassOf(<http://dbpedia.org/resource/Middle_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Middle_Africa> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Africa>))
+
+# Class: <http://dbpedia.org/resource/New_Zealand> (<http://dbpedia.org/resource/New_Zealand>)
+
+SubClassOf(<http://dbpedia.org/resource/New_Zealand> DataAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0051>))
+
+# Class: <http://dbpedia.org/resource/Norfolk_Island> (<http://dbpedia.org/resource/Norfolk_Island>)
+
+SubClassOf(<http://dbpedia.org/resource/Norfolk_Island> DataAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0051>))
 
 # Class: <http://dbpedia.org/resource/Northern_Africa> (Northern Africa)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Northern_Africa> "Northern Africa")
 SubClassOf(<http://dbpedia.org/resource/Northern_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Northern_Africa> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Africa>))
 
 # Class: <http://dbpedia.org/resource/Northern_America> (Northern America)
 
@@ -119,66 +167,81 @@ SubClassOf(<http://dbpedia.org/resource/Northern_America> <http://purl.obolibrar
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Northern_Europe> "Northern Europe")
 SubClassOf(<http://dbpedia.org/resource/Northern_Europe> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Northern_Europe> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Europe>))
 
 # Class: <http://dbpedia.org/resource/Oceania> (Oceania)
 
-AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Oceania> "Oceania")
 SubClassOf(<http://dbpedia.org/resource/Oceania> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://dbpedia.org/resource/Polynesia> (Polynesia)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Polynesia> "Polynesia")
 SubClassOf(<http://dbpedia.org/resource/Polynesia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Polynesia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Oceania>))
 
 # Class: <http://dbpedia.org/resource/Scandinavia> (Scandinavia)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Scandinavia> "Scandinavia")
 SubClassOf(<http://dbpedia.org/resource/Scandinavia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Scandinavia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Europe>))
 
 # Class: <http://dbpedia.org/resource/South-Eastern_Asia> (South-Eastern Asia)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/South-Eastern_Asia> "South-Eastern Asia")
 SubClassOf(<http://dbpedia.org/resource/South-Eastern_Asia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/South-Eastern_Asia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Asia>))
 
 # Class: <http://dbpedia.org/resource/South-central_Asia> (South-Central Asia)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/South-central_Asia> "South-Central Asia")
 SubClassOf(<http://dbpedia.org/resource/South-central_Asia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/South-central_Asia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Asia>))
 
 # Class: <http://dbpedia.org/resource/SouthAmerica> (South America)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/SouthAmerica> "South America")
 SubClassOf(<http://dbpedia.org/resource/SouthAmerica> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/SouthAmerica> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>))
 
 # Class: <http://dbpedia.org/resource/South_Asia> (South Asia)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/South_Asia> "South Asia")
 SubClassOf(<http://dbpedia.org/resource/South_Asia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/South_Asia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Asia>))
 
 # Class: <http://dbpedia.org/resource/Southern_Africa> (Southern Africa)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Southern_Africa> "Southern Africa")
 SubClassOf(<http://dbpedia.org/resource/Southern_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Southern_Africa> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Africa>))
 
 # Class: <http://dbpedia.org/resource/Southern_Europe> (Southern Europe)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Southern_Europe> "Southern Europe")
 SubClassOf(<http://dbpedia.org/resource/Southern_Europe> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Southern_Europe> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Europe>))
 
 # Class: <http://dbpedia.org/resource/Western_Africa> (Western Africa)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Western_Africa> "Western Africa")
 SubClassOf(<http://dbpedia.org/resource/Western_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Western_Africa> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Africa>))
 
 # Class: <http://dbpedia.org/resource/Western_Asia> (Western Asia)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Western_Asia> "Western Asia")
 SubClassOf(<http://dbpedia.org/resource/Western_Asia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Western_Asia> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Asia>))
 
 # Class: <http://dbpedia.org/resource/Western_Europe> (Western Europe)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Western_Europe> "Western Europe")
 SubClassOf(<http://dbpedia.org/resource/Western_Europe> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Western_Europe> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Europe>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0051> (<http://purl.obolibrary.org/obo/HANCESTRO_0051>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0051> DataAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Oceania>))
 
 
 )

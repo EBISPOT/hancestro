@@ -17,6 +17,7 @@ $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 		reason --reasoner HERMIT --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
 		relax \
 		reduce --reasoner ELK \
+		repair \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 		
 
@@ -26,11 +27,6 @@ imports/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms_combined.txt
         query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
         $(ANNOTATE_CONVERT_FILE); fi
         
-$(IMPORTDIR)/geo_import.owl: $(MIRRORDIR)/geo.owl $(IMPORTDIR)/geo_terms_combined.txt
-	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-		extract -T $(IMPORTDIR)/geo_terms_combined.txt --copy-ontology-annotations true --force true --individuals exclude --method BOT \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
-		$(ANNOTATE_CONVERT_FILE); fi
 
 $(IMPORTDIR)/foodon_import.owl: $(MIRRORDIR)/foodon.owl $(IMPORTDIR)/foodon_terms.txt
 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \

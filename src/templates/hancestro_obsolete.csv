@@ -1,30 +1,30 @@
-﻿ID,LABEL,OBSOLETE,REPLACED BY
-ID,LABEL,AT owl:deprecated^^xsd:boolean,AI IAO:0100001
-HANCESTRO:0003,obsolete country,true,NCIT:C25464
-HANCESTRO:0029,obsolete Africa,true,dbpedia:Africa
-HANCESTRO:0030,obsolete Asia,true,dbpedia:Asia
-HANCESTRO:0048,obsolete Caribbean,true,dbpedia:Caribbean
-HANCESTRO:0031,obsolete Europe,true,dbpedia:Europe
-HANCESTRO:0052,obsolete Melanesia,true,dbpedia:Melanesia
-HANCESTRO:0053,obsolete Micronesia,true,dbpedia:Micronesia
-HANCESTRO:0032,obsolete Micronesia,true,dbpedia:Oceania
-HANCESTRO:0054,obsolete Polynesia,true,dbpedia:Polynesia
-HANCESTRO:0288,obsolete Scandinavia,true,dbpedia:Scandinavia
-HANCESTRO:0049,obsolete South America,true,dbpedia:SouthAmerica
-HANCESTRO:0035,obsolete Eastern Africa,true,dbpedia:Eastern_Africa
-HANCESTRO:0036,obsolete Middle Africa,true,dbpedia:Middle_Africa
-HANCESTRO:0037,obsolete Northern Africa,true,dbpedia:Northern_Africa
-HANCESTRO:0038,obsolete Southern Africa,true,dbpedia:Southern_Africa
-HANCESTRO:0039,obsolete Western Africa,true,dbpedia:Western_Africa
-HANCESTRO:0043,obsolete Western Asia,true,dbpedia:Western_Asia
-HANCESTRO:0044,obsolete Eastern Europe,true,dbpedia:Eastern_Europe
-HANCESTRO:0045,obsolete Northern Europe,true,dbpedia:Northern_Europe
-HANCESTRO:0046,obsolete Southern Europe,true,dbpedia:Southern_Europe
-HANCESTRO:0047,obsolete Western Europe,true,dbpedia:Western_Europe
-HANCESTRO:0050,obsolete Central America,true,dbpedia:Central_America
-HANCESTRO:0055,obsolete Eastern Asia,true,dbpedia:Eastern_Asia
-HANCESTRO:0289,obsolete South Asia,true,dbpedia:South_Asia
-HANCESTRO:0033,obsolete Latin America and the Caribbean,true,dbpedia:Latin_America_and_the_Caribbean
-HANCESTRO:0034,obsolete Northern America,true,dbpedia:Northern_America
-HANCESTRO:0041,obsolete South Central Asia,true,dbpedia:South-central_Asia
-HANCESTRO:0042,obsolete South Eastern Asia,true,dbpedia:South-Eastern_Asia
+﻿ID,Type (is-a),LABEL,OBSOLETE,REPLACED BY
+ID,C %,LABEL,AT owl:deprecated^^xsd:boolean,AI IAO:0100001
+HANCESTRO:0003,owl:Thing,obsolete country,TRUE,NCIT:C25464
+HANCESTRO:0029,owl:Thing,obsolete Africa,TRUE,dbpedia:Africa
+HANCESTRO:0030,owl:Thing,obsolete Asia,TRUE,dbpedia:Asia
+HANCESTRO:0048,owl:Thing,obsolete Caribbean,TRUE,dbpedia:Caribbean
+HANCESTRO:0031,owl:Thing,obsolete Europe,TRUE,dbpedia:Europe
+HANCESTRO:0052,owl:Thing,obsolete Melanesia,TRUE,dbpedia:Melanesia
+HANCESTRO:0053,owl:Thing,obsolete Micronesia,TRUE,dbpedia:Micronesia
+HANCESTRO:0032,owl:Thing,obsolete Micronesia,TRUE,dbpedia:Oceania
+HANCESTRO:0054,owl:Thing,obsolete Polynesia,TRUE,dbpedia:Polynesia
+HANCESTRO:0288,owl:Thing,obsolete Scandinavia,TRUE,dbpedia:Scandinavia
+HANCESTRO:0049,owl:Thing,obsolete South America,TRUE,dbpedia:SouthAmerica
+HANCESTRO:0035,owl:Thing,obsolete Eastern Africa,TRUE,dbpedia:Eastern_Africa
+HANCESTRO:0036,owl:Thing,obsolete Middle Africa,TRUE,dbpedia:Middle_Africa
+HANCESTRO:0037,owl:Thing,obsolete Northern Africa,TRUE,dbpedia:Northern_Africa
+HANCESTRO:0038,owl:Thing,obsolete Southern Africa,TRUE,dbpedia:Southern_Africa
+HANCESTRO:0039,owl:Thing,obsolete Western Africa,TRUE,dbpedia:Western_Africa
+HANCESTRO:0043,owl:Thing,obsolete Western Asia,TRUE,dbpedia:Western_Asia
+HANCESTRO:0044,owl:Thing,obsolete Eastern Europe,TRUE,dbpedia:Eastern_Europe
+HANCESTRO:0045,owl:Thing,obsolete Northern Europe,TRUE,dbpedia:Northern_Europe
+HANCESTRO:0046,owl:Thing,obsolete Southern Europe,TRUE,dbpedia:Southern_Europe
+HANCESTRO:0047,owl:Thing,obsolete Western Europe,TRUE,dbpedia:Western_Europe
+HANCESTRO:0050,owl:Thing,obsolete Central America,TRUE,dbpedia:Central_America
+HANCESTRO:0055,owl:Thing,obsolete Eastern Asia,TRUE,dbpedia:Eastern_Asia
+HANCESTRO:0289,owl:Thing,obsolete South Asia,TRUE,dbpedia:South_Asia
+HANCESTRO:0033,owl:Thing,obsolete Latin America and the Caribbean,TRUE,dbpedia:Latin_America_and_the_Caribbean
+HANCESTRO:0034,owl:Thing,obsolete Northern America,TRUE,dbpedia:Northern_America
+HANCESTRO:0041,owl:Thing,obsolete South Central Asia,TRUE,dbpedia:South-central_Asia
+HANCESTRO:0042,owl:Thing,obsolete South Eastern Asia,TRUE,dbpedia:South-Eastern_Asia

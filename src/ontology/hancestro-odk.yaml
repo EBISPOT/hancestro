@@ -39,7 +39,7 @@ components:
         - gaz_xrefs.tsv
     - filename: dbpedia_geography.owl
       use_template: TRUE
-      template_options: '--prefix "dbpedia: http://dbpedia.org/resource/"'
+      template_options: '--prefix "dbpedia: http://dbpedia.org/resource/" --prefix "bfo: http://purl.obolibrary.org/obo/BFO_" --prefix "ro: http://purl.obolibrary.org/obo/RO_"'
       templates:
         - dbpedia_geography.csv
 robot_report:
