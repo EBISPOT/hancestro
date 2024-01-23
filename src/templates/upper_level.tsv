@@ -1,12 +1,6 @@
 ID	Label	Type (is-a)
 ID	A rdfs:label	C %
-GEO:000000334	subcontinental land mass	owl:Thing
 BFO:0000019	quality	owl:Thing
-GEO:000000375	land mass	owl:Thing
 OBI:0000181	population	owl:Thing
-GEO:000000391	geopolitical organization	owl:Thing
-GEO:000000374	continent	land mass
-HANCESTRO:0003	country	geopolitical organization
 HANCESTRO:0304	ancestry status	quality
-HANCESTRO:0002	region	subcontinental land mass
 HANCESTRO:0004	ancestry category	population
