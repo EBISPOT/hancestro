@@ -2,10 +2,12 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
   <uri name="http://purl.obolibrary.org/obo/hancestro/imports/obi_import.owl" uri="imports/obi_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/hancestro/imports/geo_import.owl" uri="imports/geo_import.owl"/>
+<!--   <uri name="http://purl.obolibrary.org/obo/hancestro/imports/geo_import.owl" uri="imports/geo_import.owl"/> -->
   <uri name="http://purl.obolibrary.org/obo/hancestro/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/hancestro/imports/ro_import.owl" uri="imports/ro_import.owl"/>
   <!-- <uri name="http://purl.obolibrary.org/obo/hancestro/imports/merged_import.owl" uri="imports/merged_import.owl"/> -->
   <uri name="http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl" uri="components/gaz_xrefs.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/hancestro/imports/foodon_import.owl" uri="imports/foodon_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/hancestro/components/dbpedia_geography.owl" uri="components/dbpedia_geography.owl"/>   
 </group>
 </catalog>

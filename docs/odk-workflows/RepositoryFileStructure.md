@@ -17,9 +17,9 @@ These are the current imports in HANCESTRO
 | Import | URL | Type |
 | ------ | --- | ---- |
 | obi | http://purl.obolibrary.org/obo/obi.owl | custom |
-| geo | http://purl.obolibrary.org/obo/geo.owl | custom |
 | bfo | http://purl.obolibrary.org/obo/bfo.owl | slme |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
+| foodon | http://purl.obolibrary.org/obo/foodon.owl | custom |
 
 ## Components
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:
@@ -33,3 +33,4 @@ These are the components in HANCESTRO
 | Filename | URL |
 | -------- | --- |
 | gaz_xrefs.owl | None |
+| dbpedia_geography.owl | None |

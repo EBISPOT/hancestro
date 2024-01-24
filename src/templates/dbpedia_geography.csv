@@ -1,0 +1,33 @@
+﻿ID,Type,Label,Parent,Part of,Located In
+ID,TYPE,A rdfs:label,SC %,SC 'part of' only %,SC 'located in' only %
+dbpedia:Africa,class,Africa,GAZ:00000013,,
+dbpedia:Asia,class,Asia,GAZ:00000013,,
+dbpedia:Latin_America_and_the_Caribbean,class,Latin America and the Caribbean,GAZ:00000013,,
+dbpedia:Europe,class,Europe,GAZ:00000013,,
+dbpedia:Oceania,class,Oceania,GAZ:00000013,,
+dbpedia:Northern_America,class,Northern America,GAZ:00000013,,
+dbpedia:Melanesia,class,Melanesia,HANCESTRO:0002,dbpedia:Oceania,
+dbpedia:Micronesia,class,Micronesia,HANCESTRO:0002,dbpedia:Oceania,
+dbpedia:Polynesia,class,Polynesia,HANCESTRO:0002,dbpedia:Oceania,
+dbpedia:Scandinavia,class,Scandinavia,HANCESTRO:0002,dbpedia:Europe,
+dbpedia:SouthAmerica,class,South America,HANCESTRO:0002,dbpedia:Latin_America_and_the_Caribbean,
+dbpedia:Eastern_Africa,class,Eastern Africa,HANCESTRO:0002,dbpedia:Africa,
+dbpedia:Middle_Africa,class,Middle Africa,HANCESTRO:0002,dbpedia:Africa,
+dbpedia:Northern_Africa,class,Northern Africa,HANCESTRO:0002,dbpedia:Africa,
+dbpedia:Southern_Africa,class,Southern Africa,HANCESTRO:0002,dbpedia:Africa,
+dbpedia:Western_Africa,class,Western Africa,HANCESTRO:0002,dbpedia:Africa,
+dbpedia:Western_Asia,class,Western Asia,HANCESTRO:0002,dbpedia:Asia,
+dbpedia:Eastern_Europe,class,Eastern Europe,HANCESTRO:0002,dbpedia:Europe,
+dbpedia:Northern_Europe,class,Northern Europe,HANCESTRO:0002,dbpedia:Europe,
+dbpedia:Southern_Europe,class,Southern Europe,HANCESTRO:0002,dbpedia:Europe,
+dbpedia:Western_Europe,class,Western Europe,HANCESTRO:0002,dbpedia:Europe,
+dbpedia:Central_America,class,Central America,HANCESTRO:0002,dbpedia:Latin_America_and_the_Caribbean,
+dbpedia:Eastern_Asia,class,Eastern Asia,HANCESTRO:0002,dbpedia:Asia,
+dbpedia:South_Asia,class,South Asia,HANCESTRO:0002,dbpedia:Asia,
+dbpedia:Caribbean,class,Caribbean,HANCESTRO:0002,dbpedia:Latin_America_and_the_Caribbean,
+dbpedia:South-central_Asia,class,South-Central Asia,HANCESTRO:0002,dbpedia:Asia,
+dbpedia:South-Eastern_Asia,class,South-Eastern Asia,HANCESTRO:0002,dbpedia:Asia,
+HANCESTRO:0051,,,,dbpedia:Oceania,
+dbpedia:Australia,,,,,HANCESTRO:0051
+dbpedia:New_Zealand,,,,,HANCESTRO:0051
+dbpedia:Norfolk_Island,,,,,HANCESTRO:0051
