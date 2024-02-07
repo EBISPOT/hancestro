@@ -7,13 +7,14 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/components/dbpedia_geography.owl>
-<http://purl.obolibrary.org/obo/hancestro/releases/2024-01-24/components/dbpedia_geography.owl>
-Annotation(owl:versionInfo "2024-01-24")
+<http://purl.obolibrary.org/obo/hancestro/releases/2024-02-07/components/dbpedia_geography.owl>
+Annotation(owl:versionInfo "2024-02-07")
 
 Declaration(Class(<http://dbpedia.org/resource/Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Asia>))
 Declaration(Class(<http://dbpedia.org/resource/Australia>))
 Declaration(Class(<http://dbpedia.org/resource/Caribbean>))
+Declaration(Class(<http://dbpedia.org/resource/Central_Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Central_America>))
 Declaration(Class(<http://dbpedia.org/resource/Eastern_Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Eastern_Asia>))
@@ -22,7 +23,6 @@ Declaration(Class(<http://dbpedia.org/resource/Europe>))
 Declaration(Class(<http://dbpedia.org/resource/Latin_America_and_the_Caribbean>))
 Declaration(Class(<http://dbpedia.org/resource/Melanesia>))
 Declaration(Class(<http://dbpedia.org/resource/Micronesia>))
-Declaration(Class(<http://dbpedia.org/resource/Middle_Africa>))
 Declaration(Class(<http://dbpedia.org/resource/New_Zealand>))
 Declaration(Class(<http://dbpedia.org/resource/Norfolk_Island>))
 Declaration(Class(<http://dbpedia.org/resource/Northern_Africa>))
@@ -72,6 +72,12 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Caribbean> "Caribbea
 SubClassOf(<http://dbpedia.org/resource/Caribbean> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
 SubClassOf(<http://dbpedia.org/resource/Caribbean> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>))
 
+# Class: <http://dbpedia.org/resource/Central_Africa> (Central Africa)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Central_Africa> "Central Africa")
+SubClassOf(<http://dbpedia.org/resource/Central_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+SubClassOf(<http://dbpedia.org/resource/Central_Africa> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Africa>))
+
 # Class: <http://dbpedia.org/resource/Central_America> (Central America)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Central_America> "Central America")
@@ -117,12 +123,6 @@ SubClassOf(<http://dbpedia.org/resource/Melanesia> ObjectAllValuesFrom(<http://p
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Micronesia> "Micronesia")
 SubClassOf(<http://dbpedia.org/resource/Micronesia> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
 SubClassOf(<http://dbpedia.org/resource/Micronesia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Oceania>))
-
-# Class: <http://dbpedia.org/resource/Middle_Africa> (Middle Africa)
-
-AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Middle_Africa> "Middle Africa")
-SubClassOf(<http://dbpedia.org/resource/Middle_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
-SubClassOf(<http://dbpedia.org/resource/Middle_Africa> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://dbpedia.org/resource/Africa>))
 
 # Class: <http://dbpedia.org/resource/New_Zealand> (<http://dbpedia.org/resource/New_Zealand>)
 

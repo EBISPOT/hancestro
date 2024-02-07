@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hancestro/releases/2024-01-24/hancestro-base.owl
+data-version: hancestro/releases/2024-02-07/hancestro-base.owl
 ontology: hancestro/hancestro-base
 property_value: http://purl.org/dc/elements/1.1/description "Human ancestry ontology for the NHGRI GWAS Catalog" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Human Ancestry Ontology" xsd:string
@@ -7,7 +7,7 @@ property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: IAO:0000700 HANCESTRO:0004
 property_value: IAO:0000700 HANCESTRO:0304
-property_value: owl:versionInfo "2024-01-24" xsd:string
+property_value: owl:versionInfo "2024-02-07" xsd:string
 
 [Term]
 id: American:Samoa
@@ -36,6 +36,14 @@ name: Cayman Islands
 xref: GAZ:00003986
 is_a: NCIT:C25464 ! Country
 relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+
+[Term]
+id: Central:Africa
+name: Central Africa
+xref: GAZ:00000588
+is_a: HANCESTRO:0002 ! region
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+property_value: IAO:0000118 "Middle Africa" xsd:string
 
 [Term]
 id: Central:America
@@ -126,7 +134,7 @@ id: Equatorial:Guinea
 name: Equatorial Guinea
 xref: GAZ:00001091
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Middle:Africa {all_only="true"} ! located_in Middle Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: Faeroe:Islands
@@ -1955,7 +1963,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Rwanda ! isDemonymOf Rw
 id: HANCESTRO:0546
 name: Swazi
 is_a: HANCESTRO:0566 ! undefined ancestry population
-relationship: HANCESTRO:0330 http://dbpedia.org/resource/Swaziland ! isDemonymOf Swaziland
+relationship: HANCESTRO:0330 http://dbpedia.org/resource/Eswatini ! isDemonymOf Eswatini
 
 [Term]
 id: HANCESTRO:0547
@@ -2304,9 +2312,8 @@ relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"
 
 [Term]
 id: Middle:Africa
-name: Middle Africa
-is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+is_obsolete: true
+replaced_by: http://dbpedia.org/resource/Central_Africa
 
 [Term]
 id: NCIT:C25464
@@ -2495,7 +2502,7 @@ id: South:Sudan
 name: South Sudan
 xref: GAZ:00233439
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
 
 [Term]
 id: Southern:Africa
@@ -2615,7 +2622,7 @@ id: http://dbpedia.org/resource/Angola
 name: Angola
 xref: GAZ:00001095
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Middle:Africa {all_only="true"} ! located_in Middle Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Anguilla
@@ -2810,7 +2817,7 @@ id: http://dbpedia.org/resource/Cameroon
 name: Cameroon
 xref: GAZ:00001093
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Middle:Africa {all_only="true"} ! located_in Middle Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Canada
@@ -2830,14 +2837,14 @@ id: http://dbpedia.org/resource/Central_African_Republic
 name: Central African Republic
 xref: GAZ:00001089
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Middle:Africa {all_only="true"} ! located_in Middle Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Chad
 name: Chad
 xref: GAZ:00000586
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Middle:Africa {all_only="true"} ! located_in Middle Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Chile
@@ -2907,7 +2914,7 @@ id: http://dbpedia.org/resource/Democratic_Republic_of_the_Congo
 name: Democratic Republic of the Congo
 xref: GAZ:00001086
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Middle:Africa {all_only="true"} ! located_in Middle Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Denmark
@@ -2960,6 +2967,13 @@ is_a: NCIT:C25464 ! Country
 relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
 
 [Term]
+id: http://dbpedia.org/resource/Eswatini
+name: Eswatini
+xref: GAZ:00001099
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Southern:Africa {all_only="true"} ! located_in Southern Africa
+
+[Term]
 id: http://dbpedia.org/resource/Ethiopia
 name: Ethiopia
 xref: GAZ:00000567
@@ -3005,7 +3019,7 @@ id: http://dbpedia.org/resource/Gabon
 name: Gabon
 xref: GAZ:00001092
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Middle:Africa {all_only="true"} ! located_in Middle Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Germany
@@ -3358,7 +3372,7 @@ name: Mauritania
 synonym: "Mauretania" EXACT []
 xref: GAZ:00000583
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Mauritius
@@ -3640,7 +3654,7 @@ name: Republic of the Congo
 synonym: "Congo" EXACT []
 xref: GAZ:00001088
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Middle:Africa {all_only="true"} ! located_in Middle Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Romania
@@ -3779,7 +3793,7 @@ id: http://dbpedia.org/resource/Sudan
 name: Sudan
 xref: GAZ:00000560
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Suriname
@@ -3790,10 +3804,9 @@ relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="tru
 
 [Term]
 id: http://dbpedia.org/resource/Swaziland
-name: Swaziland
-xref: GAZ:00001099
-is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Africa {all_only="true"} ! located_in Southern Africa
+name: obsolete Swaziland
+is_obsolete: true
+replaced_by: http://dbpedia.org/resource/Eswatini
 
 [Term]
 id: http://dbpedia.org/resource/Sweden
@@ -3822,7 +3835,7 @@ id: http://dbpedia.org/resource/São_Tomé_and_Príncipe
 name: São Tomé and Príncipe
 xref: GAZ:00006927
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Middle:Africa {all_only="true"} ! located_in Middle Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Taiwan
@@ -4000,7 +4013,7 @@ id: http://dbpedia.org/resource/Zambia
 name: Zambia
 xref: GAZ:00001107
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Zimbabwe

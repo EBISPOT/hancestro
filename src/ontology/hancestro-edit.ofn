@@ -56,6 +56,7 @@ Declaration(Class(<http://dbpedia.org/resource/Cameroon>))
 Declaration(Class(<http://dbpedia.org/resource/Canada>))
 Declaration(Class(<http://dbpedia.org/resource/Cape_Verde>))
 Declaration(Class(<http://dbpedia.org/resource/Cayman_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Central_Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Central_African_Republic>))
 Declaration(Class(<http://dbpedia.org/resource/Chad>))
 Declaration(Class(<http://dbpedia.org/resource/Channel_Islands>))
@@ -83,6 +84,7 @@ Declaration(Class(<http://dbpedia.org/resource/El_Salvador>))
 Declaration(Class(<http://dbpedia.org/resource/Equatorial_Guinea>))
 Declaration(Class(<http://dbpedia.org/resource/Eritrea>))
 Declaration(Class(<http://dbpedia.org/resource/Estonia>))
+Declaration(Class(<http://dbpedia.org/resource/Eswatini>))
 Declaration(Class(<http://dbpedia.org/resource/Ethiopia>))
 Declaration(Class(<http://dbpedia.org/resource/Faeroe_Islands>))
 Declaration(Class(<http://dbpedia.org/resource/Falkland_Islands>))
@@ -150,6 +152,7 @@ Declaration(Class(<http://dbpedia.org/resource/Mauretania>))
 Declaration(Class(<http://dbpedia.org/resource/Mauritius>))
 Declaration(Class(<http://dbpedia.org/resource/Mayotte>))
 Declaration(Class(<http://dbpedia.org/resource/Mexico>))
+Declaration(Class(<http://dbpedia.org/resource/Middle_Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Moldova>))
 Declaration(Class(<http://dbpedia.org/resource/Monaco>))
 Declaration(Class(<http://dbpedia.org/resource/Mongolia>))
@@ -781,7 +784,7 @@ SubClassOf(<http://dbpedia.org/resource/Andorra> ObjectAllValuesFrom(<http://pur
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Angola> "Angola"@en)
 SubClassOf(<http://dbpedia.org/resource/Angola> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Angola> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Middle_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Angola> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Anguilla> (Anguilla)
 
@@ -951,7 +954,7 @@ SubClassOf(<http://dbpedia.org/resource/Cambodia> ObjectAllValuesFrom(<http://pu
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Cameroon> "Cameroon"@en)
 SubClassOf(<http://dbpedia.org/resource/Cameroon> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Middle_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Canada> (Canada)
 
@@ -973,11 +976,17 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Cayman_Islands> "Cay
 SubClassOf(<http://dbpedia.org/resource/Cayman_Islands> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Cayman_Islands> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Caribbean>))
 
+# Class: <http://dbpedia.org/resource/Central_Africa> (Central Africa)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://dbpedia.org/resource/Central_Africa> "Middle Africa")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Central_Africa> "Central Africa")
+SubClassOf(<http://dbpedia.org/resource/Central_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+
 # Class: <http://dbpedia.org/resource/Central_African_Republic> (Central African Republic)
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Central_African_Republic> "Central African Republic"@en)
 SubClassOf(<http://dbpedia.org/resource/Central_African_Republic> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Central_African_Republic> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Middle_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Central_African_Republic> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Central_America> (Central America)
 
@@ -986,7 +995,7 @@ SubClassOf(<http://dbpedia.org/resource/Central_African_Republic> ObjectAllValue
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Chad> "Chad"@en)
 SubClassOf(<http://dbpedia.org/resource/Chad> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Chad> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Middle_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Chad> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Channel_Islands> (Channel Islands)
 
@@ -1070,7 +1079,7 @@ SubClassOf(<http://dbpedia.org/resource/Czech_Republic> ObjectAllValuesFrom(<htt
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> "Democratic Republic of the Congo"@en)
 SubClassOf(<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Middle_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Denmark> (Denmark)
 
@@ -1135,7 +1144,7 @@ SubClassOf(<http://dbpedia.org/resource/El_Salvador> ObjectAllValuesFrom(<http:/
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Equatorial_Guinea> "Equatorial Guinea"@en)
 SubClassOf(<http://dbpedia.org/resource/Equatorial_Guinea> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Equatorial_Guinea> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Middle_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Equatorial_Guinea> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Eritrea> (Eritrea)
 
@@ -1148,6 +1157,12 @@ SubClassOf(<http://dbpedia.org/resource/Eritrea> ObjectAllValuesFrom(<http://pur
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Estonia> "Estonia"@en)
 SubClassOf(<http://dbpedia.org/resource/Estonia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Estonia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Europe>))
+
+# Class: <http://dbpedia.org/resource/Eswatini> (Eswatini)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Eswatini> "Eswatini"@en)
+SubClassOf(<http://dbpedia.org/resource/Eswatini> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Eswatini> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Southern_Africa>))
 
 # Class: <http://dbpedia.org/resource/Ethiopia> (Ethiopia)
 
@@ -1212,7 +1227,7 @@ SubClassOf(<http://dbpedia.org/resource/French_Polynesia> ObjectAllValuesFrom(<h
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Gabon> "Gabon"@en)
 SubClassOf(<http://dbpedia.org/resource/Gabon> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Gabon> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Middle_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Gabon> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Germany> (Germany)
 
@@ -1545,7 +1560,7 @@ SubClassOf(<http://dbpedia.org/resource/Martinique> ObjectAllValuesFrom(<http://
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://dbpedia.org/resource/Mauretania> "Mauretania"@en)
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Mauretania> "Mauritania")
 SubClassOf(<http://dbpedia.org/resource/Mauretania> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Mauretania> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Mauretania> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
 
 # Class: <http://dbpedia.org/resource/Mauritius> (Mauritius)
 
@@ -1571,8 +1586,10 @@ SubClassOf(<http://dbpedia.org/resource/Mexico> ObjectAllValuesFrom(<http://purl
 # Class: <http://dbpedia.org/resource/Micronesia> (Micronesia)
 
 
-# Class: <http://dbpedia.org/resource/Middle_Africa> (Middle Africa)
+# Class: <http://dbpedia.org/resource/Middle_Africa> (<http://dbpedia.org/resource/Middle_Africa>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://dbpedia.org/resource/Middle_Africa> "http://dbpedia.org/resource/Central_Africa")
+AnnotationAssertion(owl:deprecated <http://dbpedia.org/resource/Middle_Africa> "true"^^xsd:boolean)
 
 # Class: <http://dbpedia.org/resource/Moldova> (Moldova)
 
@@ -1840,7 +1857,7 @@ SubClassOf(<http://dbpedia.org/resource/Republic_of_Macedonia> ObjectAllValuesFr
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://dbpedia.org/resource/Republic_of_the_Congo> "Congo"@en)
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Republic_of_the_Congo> "Republic of the Congo")
 SubClassOf(<http://dbpedia.org/resource/Republic_of_the_Congo> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Republic_of_the_Congo> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Middle_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Republic_of_the_Congo> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Romania> (Romania)
 
@@ -2020,7 +2037,7 @@ SubClassOf(<http://dbpedia.org/resource/South_Korea> ObjectAllValuesFrom(<http:/
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/South_Sudan> "South Sudan"@en)
 SubClassOf(<http://dbpedia.org/resource/South_Sudan> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/South_Sudan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+SubClassOf(<http://dbpedia.org/resource/South_Sudan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
 
 # Class: <http://dbpedia.org/resource/Southern_Africa> (Southern Africa)
 
@@ -2044,7 +2061,7 @@ SubClassOf(<http://dbpedia.org/resource/Sri_Lanka> ObjectAllValuesFrom(<http://p
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Sudan> "Sudan"@en)
 SubClassOf(<http://dbpedia.org/resource/Sudan> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
 
 # Class: <http://dbpedia.org/resource/Suriname> (Suriname)
 
@@ -2052,11 +2069,12 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Suriname> "Suriname"
 SubClassOf(<http://dbpedia.org/resource/Suriname> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Suriname> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/SouthAmerica>))
 
-# Class: <http://dbpedia.org/resource/Swaziland> (Swaziland)
+# Class: <http://dbpedia.org/resource/Swaziland> (obsolete Swaziland)
 
-AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Swaziland> "Swaziland"@en)
-SubClassOf(<http://dbpedia.org/resource/Swaziland> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Swaziland> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Southern_Africa>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://dbpedia.org/resource/Swaziland> "http://dbpedia.org/resource/Eswatini")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Swaziland> "obsolete Swaziland"@en)
+AnnotationAssertion(owl:deprecated <http://dbpedia.org/resource/Swaziland> "true"^^xsd:boolean)
+SubClassOf(<http://dbpedia.org/resource/Swaziland> owl:Thing)
 
 # Class: <http://dbpedia.org/resource/Sweden> (Sweden)
 
@@ -2081,7 +2099,7 @@ SubClassOf(<http://dbpedia.org/resource/Syria> ObjectAllValuesFrom(<http://purl.
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/São_Tomé_and_Príncipe> "São Tomé and Príncipe"@en)
 SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Middle_Africa>))
+SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Taiwan> (Taiwan)
 
@@ -2277,7 +2295,7 @@ SubClassOf(<http://dbpedia.org/resource/Yemen> ObjectAllValuesFrom(<http://purl.
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Zambia> "Zambia"@en)
 SubClassOf(<http://dbpedia.org/resource/Zambia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Zambia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Zambia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Zimbabwe> (Zimbabwe)
 
@@ -4084,7 +4102,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0545> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0546> "Swazi"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0546> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0546> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Swaziland>))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0546> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Eswatini>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0547> (Togolese)
 

@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl>
-<http://purl.obolibrary.org/obo/hancestro/releases/2024-01-24/components/gaz_xrefs.owl>
-Annotation(owl:versionInfo "2024-01-24")
+<http://purl.obolibrary.org/obo/hancestro/releases/2024-02-07/components/gaz_xrefs.owl>
+Annotation(owl:versionInfo "2024-02-07")
 
 Declaration(Class(<http://dbpedia.org/resource/Afghanistan>))
 Declaration(Class(<http://dbpedia.org/resource/Africa>))
@@ -49,6 +49,7 @@ Declaration(Class(<http://dbpedia.org/resource/Cameroon>))
 Declaration(Class(<http://dbpedia.org/resource/Canada>))
 Declaration(Class(<http://dbpedia.org/resource/Cape_Verde>))
 Declaration(Class(<http://dbpedia.org/resource/Cayman_Islands>))
+Declaration(Class(<http://dbpedia.org/resource/Central_Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Central_African_Republic>))
 Declaration(Class(<http://dbpedia.org/resource/Central_America>))
 Declaration(Class(<http://dbpedia.org/resource/Chad>))
@@ -79,6 +80,7 @@ Declaration(Class(<http://dbpedia.org/resource/El_Salvador>))
 Declaration(Class(<http://dbpedia.org/resource/Equatorial_Guinea>))
 Declaration(Class(<http://dbpedia.org/resource/Eritrea>))
 Declaration(Class(<http://dbpedia.org/resource/Estonia>))
+Declaration(Class(<http://dbpedia.org/resource/Eswatini>))
 Declaration(Class(<http://dbpedia.org/resource/Ethiopia>))
 Declaration(Class(<http://dbpedia.org/resource/Europe>))
 Declaration(Class(<http://dbpedia.org/resource/Faeroe_Islands>))
@@ -229,7 +231,6 @@ Declaration(Class(<http://dbpedia.org/resource/Spain>))
 Declaration(Class(<http://dbpedia.org/resource/Sri_Lanka>))
 Declaration(Class(<http://dbpedia.org/resource/Sudan>))
 Declaration(Class(<http://dbpedia.org/resource/Suriname>))
-Declaration(Class(<http://dbpedia.org/resource/Swaziland>))
 Declaration(Class(<http://dbpedia.org/resource/Sweden>))
 Declaration(Class(<http://dbpedia.org/resource/Switzerland>))
 Declaration(Class(<http://dbpedia.org/resource/Syria>))
@@ -431,6 +432,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Cayman_Islands> "GAZ:00003986")
 
+# Class: <http://dbpedia.org/resource/Central_Africa> (<http://dbpedia.org/resource/Central_Africa>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Central_Africa> "GAZ:00000588")
+
 # Class: <http://dbpedia.org/resource/Central_African_Republic> (<http://dbpedia.org/resource/Central_African_Republic>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Central_African_Republic> "GAZ:00001089")
@@ -550,6 +555,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 # Class: <http://dbpedia.org/resource/Estonia> (<http://dbpedia.org/resource/Estonia>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Estonia> "GAZ:00002959")
+
+# Class: <http://dbpedia.org/resource/Eswatini> (<http://dbpedia.org/resource/Eswatini>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Eswatini> "GAZ:00001099")
 
 # Class: <http://dbpedia.org/resource/Ethiopia> (<http://dbpedia.org/resource/Ethiopia>)
 
@@ -1150,10 +1159,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 # Class: <http://dbpedia.org/resource/Suriname> (<http://dbpedia.org/resource/Suriname>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Suriname> "GAZ:00002525")
-
-# Class: <http://dbpedia.org/resource/Swaziland> (<http://dbpedia.org/resource/Swaziland>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Swaziland> "GAZ:00001099")
 
 # Class: <http://dbpedia.org/resource/Sweden> (<http://dbpedia.org/resource/Sweden>)
 
