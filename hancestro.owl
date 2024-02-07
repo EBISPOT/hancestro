@@ -18,13 +18,13 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hancestro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2024-01-24/hancestro.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2024-02-07/hancestro.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
         <dc:description>Human ancestry ontology for the NHGRI GWAS Catalog</dc:description>
         <dc:title>Human Ancestry Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-01-24</owl:versionInfo>
+        <owl:versionInfo>2024-02-07</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2634,7 +2634,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Middle_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00001095</oboInOwl:hasDbXref>
@@ -3087,7 +3087,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Middle_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00001093</oboInOwl:hasDbXref>
@@ -3153,6 +3153,23 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://dbpedia.org/resource/Central_Africa -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Central_Africa">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Africa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Middle Africa</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>GAZ:00000588</oboInOwl:hasDbXref>
+        <rdfs:label>Central Africa</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://dbpedia.org/resource/Central_African_Republic -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Central_African_Republic">
@@ -3160,7 +3177,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Middle_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00001089</oboInOwl:hasDbXref>
@@ -3192,7 +3209,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Middle_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00000586</oboInOwl:hasDbXref>
@@ -3416,7 +3433,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Middle_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00001086</oboInOwl:hasDbXref>
@@ -3614,7 +3631,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Middle_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Western_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00001091</oboInOwl:hasDbXref>
@@ -3651,6 +3668,22 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00002959</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">Estonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eswatini -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Eswatini">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Southern_Africa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasDbXref>GAZ:00001099</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Eswatini</rdfs:label>
     </owl:Class>
     
 
@@ -3818,7 +3851,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Middle_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00001092</oboInOwl:hasDbXref>
@@ -4692,7 +4725,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Western_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Northern_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00000583</oboInOwl:hasDbXref>
@@ -4785,14 +4818,8 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://dbpedia.org/resource/Middle_Africa -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Middle_Africa">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Africa"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Middle Africa</rdfs:label>
+        <obo:IAO_0100001>http://dbpedia.org/resource/Central_Africa</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5514,7 +5541,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Middle_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00001088</oboInOwl:hasDbXref>
@@ -6030,7 +6057,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Northern_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Eastern_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00233439</oboInOwl:hasDbXref>
@@ -6109,7 +6136,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Northern_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Eastern_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00000560</oboInOwl:hasDbXref>
@@ -6137,15 +6164,10 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://dbpedia.org/resource/Swaziland -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Swaziland">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Southern_Africa"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasDbXref>GAZ:00001099</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">Swaziland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0100001>http://dbpedia.org/resource/Eswatini</obo:IAO_0100001>
+        <rdfs:label xml:lang="en">obsolete Swaziland</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6211,7 +6233,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Middle_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Western_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00006927</oboInOwl:hasDbXref>
@@ -6739,7 +6761,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Eastern_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00001107</oboInOwl:hasDbXref>
@@ -11570,7 +11592,7 @@ from this region. This category includes individuals with known admixture of pri
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0330"/>
-                <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Swaziland"/>
+                <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Eswatini"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Swazi</rdfs:label>

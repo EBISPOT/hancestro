@@ -22,9 +22,9 @@
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-01-24"
+        "val" : "2024-02-07"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2024-01-24/hancestro-base.json"
+      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2024-02-07/hancestro-base.json"
     },
     "nodes" : [ {
       "id" : "http://dbpedia.org/resource/Afghanistan",
@@ -386,6 +386,19 @@
         } ]
       }
     }, {
+      "id" : "http://dbpedia.org/resource/Central_Africa",
+      "lbl" : "Central Africa",
+      "type" : "CLASS",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GAZ:00000588"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Middle Africa"
+        } ]
+      }
+    }, {
       "id" : "http://dbpedia.org/resource/Central_African_Republic",
       "lbl" : "Central African Republic",
       "type" : "CLASS",
@@ -661,6 +674,15 @@
       "meta" : {
         "xrefs" : [ {
           "val" : "GAZ:00002959"
+        } ]
+      }
+    }, {
+      "id" : "http://dbpedia.org/resource/Eswatini",
+      "lbl" : "Eswatini",
+      "type" : "CLASS",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GAZ:00001099"
         } ]
       }
     }, {
@@ -1340,8 +1362,14 @@
       }
     }, {
       "id" : "http://dbpedia.org/resource/Middle_Africa",
-      "lbl" : "Middle Africa",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "http://dbpedia.org/resource/Central_Africa"
+        } ],
+        "deprecated" : true
+      }
     }, {
       "id" : "http://dbpedia.org/resource/Moldova",
       "lbl" : "Moldova",
@@ -2143,12 +2171,14 @@
       }
     }, {
       "id" : "http://dbpedia.org/resource/Swaziland",
-      "lbl" : "Swaziland",
+      "lbl" : "obsolete Swaziland",
       "type" : "CLASS",
       "meta" : {
-        "xrefs" : [ {
-          "val" : "GAZ:00001099"
-        } ]
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "http://dbpedia.org/resource/Eswatini"
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://dbpedia.org/resource/Sweden",
@@ -4729,6 +4759,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C25464"
     }, {
+      "sub" : "http://dbpedia.org/resource/Central_Africa",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0002"
+    }, {
       "sub" : "http://dbpedia.org/resource/Central_African_Republic",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C25464"
@@ -4850,6 +4884,10 @@
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C25464"
     }, {
       "sub" : "http://dbpedia.org/resource/Estonia",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C25464"
+    }, {
+      "sub" : "http://dbpedia.org/resource/Eswatini",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C25464"
     }, {
@@ -5134,10 +5172,6 @@
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C25464"
     }, {
       "sub" : "http://dbpedia.org/resource/Micronesia",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0002"
-    }, {
-      "sub" : "http://dbpedia.org/resource/Middle_Africa",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0002"
     }, {
@@ -5475,7 +5509,7 @@
     }, {
       "sub" : "http://dbpedia.org/resource/Swaziland",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCIT_C25464"
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://dbpedia.org/resource/Sweden",
       "pred" : "is_a",
@@ -7595,7 +7629,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0546",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
-      "obj" : "http://dbpedia.org/resource/Swaziland"
+      "obj" : "http://dbpedia.org/resource/Eswatini"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0547",
       "pred" : "is_a",
@@ -7866,7 +7900,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Angola",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Middle_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Anguilla",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -7974,7 +8008,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Cameroon",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Middle_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Cape_Verde",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -7986,11 +8020,11 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Central_African_Republic",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Middle_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Chad",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Middle_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Channel_Islands",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8046,7 +8080,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Middle_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Denmark",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8082,7 +8116,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Equatorial_Guinea",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Middle_Africa"
+        "obj" : "http://dbpedia.org/resource/Western_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Eritrea",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8091,6 +8125,10 @@
         "sub" : "http://dbpedia.org/resource/Estonia",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
         "obj" : "http://dbpedia.org/resource/Northern_Europe"
+      }, {
+        "sub" : "http://dbpedia.org/resource/Eswatini",
+        "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
+        "obj" : "http://dbpedia.org/resource/Southern_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Ethiopia",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8130,7 +8168,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Gabon",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Middle_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Germany",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8342,7 +8380,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Mauretania",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Western_Africa"
+        "obj" : "http://dbpedia.org/resource/Northern_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Mauritius",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8514,7 +8552,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Republic_of_the_Congo",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Middle_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Romania",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8614,7 +8652,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/South_Sudan",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Northern_Africa"
+        "obj" : "http://dbpedia.org/resource/Eastern_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Spain",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8626,15 +8664,11 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Sudan",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Northern_Africa"
+        "obj" : "http://dbpedia.org/resource/Eastern_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Suriname",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
         "obj" : "http://dbpedia.org/resource/SouthAmerica"
-      }, {
-        "sub" : "http://dbpedia.org/resource/Swaziland",
-        "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Southern_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Sweden",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8650,7 +8684,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/São_Tomé_and_Príncipe",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Middle_Africa"
+        "obj" : "http://dbpedia.org/resource/Western_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Taiwan",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8766,7 +8800,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Zambia",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Eastern_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Zimbabwe",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -8790,6 +8824,10 @@
         "sub" : "http://dbpedia.org/resource/Caribbean",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "obj" : "http://dbpedia.org/resource/Latin_America_and_the_Caribbean"
+      }, {
+        "sub" : "http://dbpedia.org/resource/Central_Africa",
+        "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "obj" : "http://dbpedia.org/resource/Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Central_America",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -8818,10 +8856,6 @@
         "sub" : "http://dbpedia.org/resource/Micronesia",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "obj" : "http://dbpedia.org/resource/Oceania"
-      }, {
-        "sub" : "http://dbpedia.org/resource/Middle_Africa",
-        "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "obj" : "http://dbpedia.org/resource/Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Northern_Africa",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",

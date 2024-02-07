@@ -39,6 +39,7 @@ WARN	missing_definition	http://dbpedia.org/resource/Canada	IAO:0000115
 WARN	missing_definition	http://dbpedia.org/resource/Cape_Verde	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Caribbean	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Cayman_Islands	IAO:0000115	
+WARN	missing_definition	http://dbpedia.org/resource/Central_Africa	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Central_African_Republic	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Central_America	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Chad	IAO:0000115	
@@ -71,6 +72,7 @@ WARN	missing_definition	http://dbpedia.org/resource/El_Salvador	IAO:0000115
 WARN	missing_definition	http://dbpedia.org/resource/Equatorial_Guinea	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Eritrea	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Estonia	IAO:0000115	
+WARN	missing_definition	http://dbpedia.org/resource/Eswatini	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Ethiopia	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Europe	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Faeroe_Islands	IAO:0000115	
@@ -143,7 +145,6 @@ WARN	missing_definition	http://dbpedia.org/resource/Mayotte	IAO:0000115
 WARN	missing_definition	http://dbpedia.org/resource/Melanesia	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Mexico	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Micronesia	IAO:0000115	
-WARN	missing_definition	http://dbpedia.org/resource/Middle_Africa	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Moldova	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Monaco	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Mongolia	IAO:0000115	
@@ -227,7 +228,6 @@ WARN	missing_definition	http://dbpedia.org/resource/Spain	IAO:0000115
 WARN	missing_definition	http://dbpedia.org/resource/Sri_Lanka	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Sudan	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Suriname	IAO:0000115	
-WARN	missing_definition	http://dbpedia.org/resource/Swaziland	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Sweden	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Switzerland	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Syria	IAO:0000115	
