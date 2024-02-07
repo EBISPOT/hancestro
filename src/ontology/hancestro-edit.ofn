@@ -1144,7 +1144,7 @@ SubClassOf(<http://dbpedia.org/resource/El_Salvador> ObjectAllValuesFrom(<http:/
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Equatorial_Guinea> "Equatorial Guinea"@en)
 SubClassOf(<http://dbpedia.org/resource/Equatorial_Guinea> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/Equatorial_Guinea> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+SubClassOf(<http://dbpedia.org/resource/Equatorial_Guinea> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Eritrea> (Eritrea)
 
@@ -2099,7 +2099,7 @@ SubClassOf(<http://dbpedia.org/resource/Syria> ObjectAllValuesFrom(<http://purl.
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/São_Tomé_and_Príncipe> "São Tomé and Príncipe"@en)
 SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> <http://purl.obolibrary.org/obo/NCIT_C25464>)
-SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Taiwan> (Taiwan)
 

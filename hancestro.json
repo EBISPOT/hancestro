@@ -11497,7 +11497,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/Equatorial_Guinea",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Western_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Eritrea",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -12065,7 +12065,7 @@
       }, {
         "sub" : "http://dbpedia.org/resource/São_Tomé_and_Príncipe",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
-        "obj" : "http://dbpedia.org/resource/Western_Africa"
+        "obj" : "http://dbpedia.org/resource/Central_Africa"
       }, {
         "sub" : "http://dbpedia.org/resource/Taiwan",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",

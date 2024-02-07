@@ -134,7 +134,7 @@ id: Equatorial:Guinea
 name: Equatorial Guinea
 xref: GAZ:00001091
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: Faeroe:Islands
@@ -3835,7 +3835,7 @@ id: http://dbpedia.org/resource/São_Tomé_and_Príncipe
 name: São Tomé and Príncipe
 xref: GAZ:00006927
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Taiwan

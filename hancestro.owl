@@ -3631,7 +3631,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Western_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00001091</oboInOwl:hasDbXref>
@@ -6233,7 +6233,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Western_Africa"/>
+                <owl:allValuesFrom rdf:resource="http://dbpedia.org/resource/Central_Africa"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GAZ:00006927</oboInOwl:hasDbXref>
