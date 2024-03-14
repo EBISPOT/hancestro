@@ -705,15 +705,6 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part_of)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part_of")
-InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has_part)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has_part")
-
 # Object Property: <http://purl.obolibrary.org/obo/HANCESTRO_0287> (hasEthnicPopulation)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0287> "hasEthnicPopulation"@en)
@@ -736,15 +727,6 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/HANCESTRO_0329> <http://
 # Object Property: <http://purl.obolibrary.org/obo/HANCESTRO_0330> (isDemonymOf)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0330> "isDemonymOf"@en)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0001015> (location_of)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001015> "location_of")
-InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0001015> <http://purl.obolibrary.org/obo/RO_0001025>)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located_in)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001025> "located_in")
 
 
 
