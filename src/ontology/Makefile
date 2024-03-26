@@ -109,7 +109,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  obi bfo ro foodon
+IMPORTS =  obi bfo ro foodon afpo
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -326,6 +326,14 @@ $(IMPORTDIR)/bfo_import.owl: $(MIRRORDIR)/bfo.owl $(IMPORTDIR)/bfo_terms_combine
 
 $(IMPORTDIR)/foodon_import.owl: $(MIRRORDIR)/foodon.owl
 	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in hancestro.Makefile!" && false
+## Module for ontology: afpo
+
+$(IMPORTDIR)/afpo_import.owl: $(MIRRORDIR)/afpo.owl $(IMPORTDIR)/afpo_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+		extract -T $(IMPORTDIR)/afpo_terms_combined.txt --copy-ontology-annotations true --force true --individuals include --method STAR \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+		$(ANNOTATE_CONVERT_FILE); fi
+
 
 .PHONY: refresh-imports
 refresh-imports:
@@ -436,6 +444,15 @@ mirror-ro: | $(TMPDIR)
 mirror-foodon: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/foodon.owl --create-dirs -o $(MIRRORDIR)/foodon.owl --retry 4 --max-time 200 &&\
 		$(ROBOT) convert -i $(MIRRORDIR)/foodon.owl -o $@.tmp.owl &&\
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
+
+## ONTOLOGY: afpo
+.PHONY: mirror-afpo
+.PRECIOUS: $(MIRRORDIR)/afpo.owl
+mirror-afpo: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/afpo.owl --create-dirs -o $(MIRRORDIR)/afpo.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/afpo.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
