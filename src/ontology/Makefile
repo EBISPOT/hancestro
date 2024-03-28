@@ -328,12 +328,8 @@ $(IMPORTDIR)/foodon_import.owl: $(MIRRORDIR)/foodon.owl
 	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in hancestro.Makefile!" && false
 ## Module for ontology: afpo
 
-$(IMPORTDIR)/afpo_import.owl: $(MIRRORDIR)/afpo.owl $(IMPORTDIR)/afpo_terms_combined.txt
-	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-		extract -T $(IMPORTDIR)/afpo_terms_combined.txt --copy-ontology-annotations true --force true --individuals include --method STAR \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
-		$(ANNOTATE_CONVERT_FILE); fi
-
+$(IMPORTDIR)/afpo_import.owl: $(MIRRORDIR)/afpo.owl
+	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in hancestro.Makefile!" && false
 
 .PHONY: refresh-imports
 refresh-imports:
