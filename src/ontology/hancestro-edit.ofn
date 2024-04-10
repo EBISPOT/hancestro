@@ -15,6 +15,8 @@ Import(<http://purl.obolibrary.org/obo/hancestro/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/hancestro/imports/ro_import.owl>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/HANCESTRO_0004>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/HANCESTRO_0304>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> "'ethnicity category'")
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> "'geographic category'")
 Annotation(<http://purl.org/dc/elements/1.1/description> "Human ancestry ontology for the NHGRI GWAS Catalog")
 Annotation(<http://purl.org/dc/elements/1.1/title> "Human Ancestry Ontology")
 Annotation(<http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/>)
@@ -2718,10 +2720,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0313> <http://purl.obolibra
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0313> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 DisjointClasses(<http://purl.obolibrary.org/obo/HANCESTRO_0313> <http://purl.obolibrary.org/obo/HANCESTRO_0316>)
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0314> (Sorbian)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0314> (Sorb)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0314> "Sorbian"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0314> "Sorb"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0314> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0314> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0315> (Hutterite)
