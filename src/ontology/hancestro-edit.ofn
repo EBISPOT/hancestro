@@ -3514,6 +3514,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0445> ObjectSomeValuesFrom(
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0446> "Palestinian"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0446> <http://purl.obolibrary.org/obo/HANCESTRO_0015>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Palestinian_territories>))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0447> (Omani)
 
