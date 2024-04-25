@@ -9,6 +9,12 @@
         "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
         "val" : "http://purl.obolibrary.org/obo/HANCESTRO_0304"
       }, {
+        "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
+        "val" : "'ethnicity category'"
+      }, {
+        "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
+        "val" : "'geographic category'"
+      }, {
         "pred" : "http://purl.org/dc/elements/1.1/description",
         "val" : "Human ancestry ontology for the NHGRI GWAS Catalog"
       }, {
@@ -22,9 +28,9 @@
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-02-07"
+        "val" : "2024-04-25"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2024-02-07/hancestro-base.json"
+      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2024-04-25/hancestro-base.json"
     },
     "nodes" : [ {
       "id" : "http://dbpedia.org/resource/Afghanistan",
@@ -2563,14 +2569,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "lbl" : "part_of",
-      "type" : "PROPERTY"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "lbl" : "has_part",
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/GAZ_00000013",
       "lbl" : "continent",
       "type" : "CLASS",
@@ -3206,7 +3204,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0314",
-      "lbl" : "Sorbian",
+      "lbl" : "Sorb",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0315",
@@ -4488,6 +4486,46 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0599",
+      "lbl" : "ethnicity descriptor",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ethnicity descriptor is descriptor that qualifies a population term as relating to a social, cultural, reglious or tribal group"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0600",
+      "lbl" : "geographic descriptor",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A geographic descriptor is descriptor that qualifies a population term as relating to a geographic location"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0601",
+      "lbl" : "ethnicity category",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Population category defined in terms of cultural, religious, tribal or other social similarities"
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ethnic group"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0602",
+      "lbl" : "geographic category",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Population category defined in relation to a geographic location"
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000111",
       "lbl" : "editor preferred term",
       "type" : "PROPERTY",
@@ -4574,14 +4612,6 @@
       "id" : "http://purl.obolibrary.org/obo/NCIT_C25464",
       "lbl" : "Country",
       "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0001015",
-      "lbl" : "location_of",
-      "type" : "PROPERTY"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0001025",
-      "lbl" : "located_in",
-      "type" : "PROPERTY"
     }, {
       "id" : "http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh",
       "lbl" : "obsolete_Punjabi Sikh",
@@ -5781,30 +5811,58 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0024",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0024",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Macau"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0024",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0025",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0025",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Singapore"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0025",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0025",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0026",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0026",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Hong_Kong"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0026",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0026",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0027",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0027",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0027",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0051",
@@ -5841,35 +5899,67 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0309",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0309",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0310",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0310",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0311",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0311",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0312",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0312",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0313",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0313",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0314",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0314",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0315",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0315",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0316",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0316",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0317",
       "pred" : "is_a",
@@ -5878,6 +5968,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0318",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0318",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0319",
       "pred" : "is_a",
@@ -5897,15 +5991,27 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0322",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0322",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0321"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0323",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0323",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0320"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0324",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0324",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0331",
       "pred" : "is_a",
@@ -6835,6 +6941,10 @@
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Palestinian_territories"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0446",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0447",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
@@ -7665,6 +7775,10 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0551",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0551",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0383"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0552",
@@ -7685,50 +7799,74 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0556",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0556",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0557",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0557",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0404"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0558",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0558",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0354"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0559",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0559",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0560",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0560",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0321"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0561",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0561",
-      "pred" : "is_a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0385"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0563",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0564",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0563",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0564",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0564",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0357"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0565",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0565",
-      "pred" : "is_a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0357"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0566",
@@ -7743,8 +7881,16 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0016"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0568",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0569",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0569",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0570",
@@ -7763,6 +7909,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0017"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0573",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0574",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0017"
@@ -7771,28 +7921,76 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0575",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0576",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0576",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0600"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0577",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0577",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0577",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0578",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0578",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0578",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0579",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0579",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0579",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0580",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0580",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0580",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0581",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0581",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0581",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0582",
@@ -7803,13 +8001,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0583",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0584",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0584",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0585",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0585",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0586",
       "pred" : "is_a",
@@ -7823,29 +8033,57 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0588",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0589",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0589",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0590",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0590",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0591",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0591",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0592",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0592",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0593",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0593",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0594",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0594",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0595",
       "pred" : "is_a",
@@ -7859,21 +8097,45 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0007"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0597",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0598",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0598",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0598",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0487"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "pred" : "inverseOf",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0599",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0600",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0601",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0602",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0301",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000086"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0329",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0330"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0001015",
-      "pred" : "inverseOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0001025"
     } ],
     "domainRangeAxioms" : [ {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0001025",

@@ -266,8 +266,6 @@ WARN	missing_definition	http://dbpedia.org/resource/Western_Sahara	IAO:0000115
 WARN	missing_definition	http://dbpedia.org/resource/Yemen	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Zambia	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Zimbabwe	IAO:0000115	
-WARN	missing_definition	BFO:0000050	IAO:0000115	
-WARN	missing_definition	BFO:0000051	IAO:0000115	
 WARN	missing_definition	GAZ:00000013	IAO:0000115	
 WARN	missing_definition	HANCESTRO:0019	IAO:0000115	
 WARN	missing_definition	HANCESTRO:0020	IAO:0000115	
@@ -561,8 +559,6 @@ WARN	missing_definition	IAO:0000118	IAO:0000115
 WARN	missing_definition	IAO:0000119	IAO:0000115	
 WARN	missing_definition	IAO:0100001	IAO:0000115	
 WARN	missing_definition	NCIT:C25464	IAO:0000115	
-WARN	missing_definition	RO:0001015	IAO:0000115	
-WARN	missing_definition	RO:0001025	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasExactSynonym	IAO:0000115	
 WARN	missing_obsolete_label	HANCESTRO:0287	rdfs:label	hasEthnicPopulation@en
