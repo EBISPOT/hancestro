@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hancestro/releases/2024-02-07/hancestro-full.owl
+data-version: hancestro/releases/2024-04-25/hancestro-full.owl
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -10,9 +10,11 @@ ontology: hancestro/hancestro-full
 property_value: http://purl.org/dc/elements/1.1/description "Human ancestry ontology for the NHGRI GWAS Catalog" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Human Ancestry Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
+property_value: IAO:0000700 "'ethnicity category'" xsd:string
+property_value: IAO:0000700 "'geographic category'" xsd:string
 property_value: IAO:0000700 HANCESTRO:0004
 property_value: IAO:0000700 HANCESTRO:0304
-property_value: owl:versionInfo "2024-02-07" xsd:string
+property_value: owl:versionInfo "2024-04-25" xsd:string
 
 [Term]
 id: American:Samoa
@@ -41,7 +43,7 @@ name: continuant
 def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
 is_a: BFO:0000001 ! entity
 disjoint_from: BFO:0000003 ! occurrent
-relationship: BFO:0000050 BFO:0000002 {all_only="true"} ! part_of continuant
+relationship: BFO:0000050 BFO:0000002 {all_only="true"} ! part of continuant
 property_value: BFO:0000179 "continuant" xsd:string
 property_value: BFO:0000180 "Continuant" xsd:string
 property_value: IAO:0000116 "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240" xsd:string
@@ -60,7 +62,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 id: BFO:0000003
 name: occurrent
 def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
-relationship: BFO:0000050 BFO:0000003 {all_only="true"} ! part_of occurrent
+relationship: BFO:0000050 BFO:0000003 {all_only="true"} ! part of occurrent
 
 [Term]
 id: BFO:0000004
@@ -69,7 +71,7 @@ def: "b is an independent continuant = Def. b is a continuant which is such that
 comment: A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
-relationship: BFO:0000050 BFO:0000004 {all_only="true"} ! part_of independent continuant
+relationship: BFO:0000050 BFO:0000004 {all_only="true"} ! part of independent continuant
 property_value: BFO:0000179 "ic" xsd:string
 property_value: BFO:0000180 "IndependentContinuant" xsd:string
 property_value: IAO:0000112 "a chair" xsd:string
@@ -113,13 +115,13 @@ name: realizable entity
 def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
 is_a: BFO:0000020 ! specifically dependent continuant
 disjoint_from: BFO:0000019 ! quality
-relationship: BFO:0000050 BFO:0000017 {all_only="true"} ! part_of realizable entity
+relationship: BFO:0000050 BFO:0000017 {all_only="true"} ! part of realizable entity
 
 [Term]
 id: BFO:0000019
 name: quality
 is_a: BFO:0000020 ! specifically dependent continuant
-relationship: BFO:0000050 BFO:0000019 {all_only="true"} ! part_of quality
+relationship: BFO:0000050 BFO:0000019 {all_only="true"} ! part of quality
 property_value: BFO:0000179 "quality" xsd:string
 property_value: BFO:0000180 "Quality" xsd:string
 property_value: IAO:0000112 "the ambient temperature of this portion of air" xsd:string
@@ -140,7 +142,7 @@ name: specifically dependent continuant
 def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" [] {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/050-003"}
 comment: A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.
 is_a: BFO:0000002 ! continuant
-relationship: BFO:0000050 BFO:0000020 {all_only="true"} ! part_of specifically dependent continuant
+relationship: BFO:0000050 BFO:0000020 {all_only="true"} ! part of specifically dependent continuant
 property_value: BFO:0000179 "sdc" xsd:string
 property_value: BFO:0000180 "SpecificallyDependentContinuant" xsd:string
 property_value: IAO:0000112 "of one-sided specifically dependent continuants: the mass of this tomato" xsd:string
@@ -236,7 +238,7 @@ id: Central:Africa
 name: Central Africa
 xref: GAZ:00000588
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part of Africa
 property_value: IAO:0000118 "Middle Africa" xsd:string
 
 [Term]
@@ -244,7 +246,7 @@ id: Central:America
 name: Central America
 xref: GAZ:00002891
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! part_of Latin America and the Caribbean
+relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! part of Latin America and the Caribbean
 
 [Term]
 id: Channel:Islands
@@ -301,20 +303,20 @@ id: Eastern:Africa
 name: Eastern Africa
 xref: GAZ:00000556
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part of Africa
 
 [Term]
 id: Eastern:Asia
 name: Eastern Asia
 xref: GAZ:00002471
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part of Asia
 
 [Term]
 id: Eastern:Europe
 name: Eastern Europe
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part of Europe
 
 [Term]
 id: El:Salvador
@@ -390,7 +392,7 @@ name: region
 def: "Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable." []
 synonym: "geographical area" EXACT []
 is_a: COB:0000032 ! geographical location
-relationship: BFO:0000050 GAZ:00000013 {all_only="true"} ! part_of continent
+relationship: BFO:0000050 GAZ:00000013 {all_only="true"} ! part of continent
 
 [Term]
 id: HANCESTRO:0003
@@ -499,6 +501,7 @@ is_a: HANCESTRO:0004 ! ancestry category
 id: HANCESTRO:0019
 name: Japanese
 is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Japan ! isDemonymOf Japan
 
 [Term]
@@ -506,48 +509,62 @@ id: HANCESTRO:0020
 name: Taiwanese
 synonym: "non-aboriginal Taiwanese" EXACT []
 is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Taiwan ! isDemonymOf Taiwan
 
 [Term]
 id: HANCESTRO:0021
 name: Chinese
 is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/China ! isDemonymOf China
 
 [Term]
 id: HANCESTRO:0022
 name: Korean
 is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 South:Korea ! isDemonymOf South Korea
 
 [Term]
 id: HANCESTRO:0023
 name: Mongolian
 is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mongolia ! isDemonymOf Mongolia
 
 [Term]
 id: HANCESTRO:0024
 name: Macanese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Macau ! isDemonymOf Macau
+relationship: RO:0002151 HANCESTRO:0021 ! partially overlaps Chinese
 
 [Term]
 id: HANCESTRO:0025
 name: Singaporean Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Singapore ! isDemonymOf Singapore
+relationship: RO:0002151 HANCESTRO:0021 ! partially overlaps Chinese
 
 [Term]
 id: HANCESTRO:0026
 name: Hong Kong Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Hong:Kong ! isDemonymOf Hong Kong
+relationship: RO:0002151 HANCESTRO:0021 ! partially overlaps Chinese
 
 [Term]
 id: HANCESTRO:0027
 name: Han Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
+relationship: RO:0002151 HANCESTRO:0021 ! partially overlaps Chinese
 
 [Term]
 id: HANCESTRO:0029
@@ -679,7 +696,7 @@ replaced_by: Central:America
 id: HANCESTRO:0051
 name: Australia/New Zealand
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part_of Oceania
+relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part of Oceania
 
 [Term]
 id: HANCESTRO:0052
@@ -755,53 +772,60 @@ is_a: HANCESTRO:0304 ! ancestry status
 id: HANCESTRO:0307
 name: Italian
 is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Italy ! isDemonymOf Italy
 
 [Term]
 id: HANCESTRO:0309
 name: Sardinian
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0307 ! Italian
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! partially overlaps Italian
 
 [Term]
 id: HANCESTRO:0310
 name: Val Borbera
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0307 ! Italian
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! partially overlaps Italian
 
 [Term]
 id: HANCESTRO:0311
 name: Friuli Venezia Giulia
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0307 ! Italian
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! partially overlaps Italian
 
 [Term]
 id: HANCESTRO:0312
 name: Carlantino
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0307 ! Italian
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! partially overlaps Italian
 
 [Term]
 id: HANCESTRO:0313
 name: Old Order Amish
 is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
+is_a: HANCESTRO:0601 ! ethnicity category
 disjoint_from: HANCESTRO:0316 ! Amish
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 
 [Term]
 id: HANCESTRO:0314
-name: Sorbian
+name: Sorb
 is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
+is_a: HANCESTRO:0601 ! ethnicity category
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 
 [Term]
@@ -809,6 +833,7 @@ id: HANCESTRO:0315
 name: Hutterite
 is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
+is_a: HANCESTRO:0601 ! ethnicity category
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 
 [Term]
@@ -816,6 +841,7 @@ id: HANCESTRO:0316
 name: Amish
 is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
+is_a: HANCESTRO:0601 ! ethnicity category
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 
 [Term]
@@ -832,6 +858,7 @@ id: HANCESTRO:0318
 name: Orcadian
 is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
+is_a: HANCESTRO:0601 ! ethnicity category
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Scotland {all_only="true"} ! hasCountryOfOrigin Scotland
 
@@ -852,29 +879,33 @@ is_a: HANCESTRO:0005 ! European
 id: HANCESTRO:0321
 name: Finnish
 is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Finland ! isDemonymOf Finland
 
 [Term]
 id: HANCESTRO:0322
 name: Finnish founder
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0321 ! Finnish
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Finland {all_only="true"} ! hasCountryOfOrigin Finland
+relationship: RO:0002151 HANCESTRO:0321 ! partially overlaps Finnish
 
 [Term]
 id: HANCESTRO:0323
 name: Dutch founder
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0320 ! Dutch
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Netherlands {all_only="true"} ! hasCountryOfOrigin Netherlands
+relationship: RO:0002151 HANCESTRO:0320 ! partially overlaps Dutch
 
 [Term]
 id: HANCESTRO:0324
 name: Ashkenazi Jew
 is_a: HANCESTRO:0018 ! uncategorised population
 is_a: HANCESTRO:0290 ! genetically isolated population
+is_a: HANCESTRO:0601 ! ethnicity category
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 
 [Term]
@@ -886,288 +917,336 @@ is_obsolete: true
 id: HANCESTRO:0331
 name: Sudanese
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Sudan ! isDemonymOf Sudan
 
 [Term]
 id: HANCESTRO:0332
 name: Sahrawi
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Western:Sahara ! isDemonymOf Western Sahara
 
 [Term]
 id: HANCESTRO:0333
 name: Anguillan
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Anguilla ! isDemonymOf Anguilla
 
 [Term]
 id: HANCESTRO:0334
 name: Antiguan or Barbudan
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Antigua_and_Barbuda ! isDemonymOf Antigua and Barbuda
 
 [Term]
 id: HANCESTRO:0335
 name: Barbadian
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Barbados ! isDemonymOf Barbados
 
 [Term]
 id: HANCESTRO:0336
 name: Haitian
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Haiti ! isDemonymOf Haiti
 
 [Term]
 id: HANCESTRO:0337
 name: Jamaican
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Jamaica ! isDemonymOf Jamaica
 
 [Term]
 id: HANCESTRO:0338
 name: Tajikistani
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tajikistan ! isDemonymOf Tajikistan
 
 [Term]
 id: HANCESTRO:0339
 name: Turkmen
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turkmenistan ! isDemonymOf Turkmenistan
 
 [Term]
 id: HANCESTRO:0340
 name: Uzbekistani
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uzbekistan ! isDemonymOf Uzbekistan
 
 [Term]
 id: HANCESTRO:0341
 name: Afghan
 is_a: HANCESTRO:0018 ! uncategorised population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Afghanistan ! isDemonymOf Afghanistan
 
 [Term]
 id: HANCESTRO:0342
 name: Kazakhstani
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kazakhstan ! isDemonymOf Kazakhstan
 
 [Term]
 id: HANCESTRO:0343
 name: Kyrgyzstani
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kyrgyzstan ! isDemonymOf Kyrgyzstan
 
 [Term]
 id: HANCESTRO:0344
 name: Albanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Albania ! isDemonymOf Albania
 
 [Term]
 id: HANCESTRO:0345
 name: Andorran
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Andorra ! isDemonymOf Andorra
 
 [Term]
 id: HANCESTRO:0346
 name: Australian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Australia ! isDemonymOf Australia
 
 [Term]
 id: HANCESTRO:0347
 name: Austrian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Austria ! isDemonymOf Austria
 
 [Term]
 id: HANCESTRO:0348
 name: Belarusian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Belarus ! isDemonymOf Belarus
 
 [Term]
 id: HANCESTRO:0349
 name: Belgian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Belgium ! isDemonymOf Belgium
 
 [Term]
 id: HANCESTRO:0350
 name: Bermudian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bermuda ! isDemonymOf Bermuda
 
 [Term]
 id: HANCESTRO:0351
 name: Bosnian or Herzegovinian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bosnia_and_Herzegovina ! isDemonymOf Bosnia and Herzegovina
 
 [Term]
 id: HANCESTRO:0352
 name: Brazilian
 is_a: HANCESTRO:0014 ! Hispanic or Latin American
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Brazil ! isDemonymOf Brazil
 
 [Term]
 id: HANCESTRO:0353
 name: Bulgarian
 is_a: HANCESTRO:0018 ! uncategorised population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bulgaria ! isDemonymOf Bulgaria
 
 [Term]
 id: HANCESTRO:0354
 name: Canadian
 is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Canada ! isDemonymOf Canada
 
 [Term]
 id: HANCESTRO:0355
 name: Channel Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Channel:Islands ! isDemonymOf Channel Islands
 
 [Term]
 id: HANCESTRO:0356
 name: Chilean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Chile ! isDemonymOf Chile
 
 [Term]
 id: HANCESTRO:0357
 name: Croatian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Croatia ! isDemonymOf Croatia
 
 [Term]
 id: HANCESTRO:0358
 name: Czech
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Czech:Republic ! isDemonymOf Czech Republic
 
 [Term]
 id: HANCESTRO:0359
 name: Danish
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Denmark ! isDemonymOf Denmark
 
 [Term]
 id: HANCESTRO:0360
 name: Estonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Estonia ! isDemonymOf Estonia
 
 [Term]
 id: HANCESTRO:0361
 name: Faroese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Faeroe:Islands ! isDemonymOf Faeroe Islands
 
 [Term]
 id: HANCESTRO:0362
 name: Falkland Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Falkland:Islands ! isDemonymOf Falkland Islands
 
 [Term]
 id: HANCESTRO:0363
 name: French
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/France ! isDemonymOf France
 
 [Term]
 id: HANCESTRO:0364
 name: German
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Germany ! isDemonymOf Germany
 
 [Term]
 id: HANCESTRO:0365
 name: Gibraltarian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Gibraltar ! isDemonymOf Gibraltar
 
 [Term]
 id: HANCESTRO:0366
 name: Greek
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Greece ! isDemonymOf Greece
 
 [Term]
 id: HANCESTRO:0367
 name: Greenlander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Greenland ! isDemonymOf Greenland
 
 [Term]
 id: HANCESTRO:0368
 name: Hungarian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Hungary ! isDemonymOf Hungary
 
 [Term]
 id: HANCESTRO:0369
 name: Icelandic
 is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iceland ! isDemonymOf Iceland
 
 [Term]
 id: HANCESTRO:0370
 name: Manx
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Isle_of_Man ! isDemonymOf Isle of Man
 
 [Term]
 id: HANCESTRO:0371
 name: Latvian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Latvia ! isDemonymOf Latvia
 
 [Term]
 id: HANCESTRO:0372
 name: Liechtensteiner
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Liechtenstein ! isDemonymOf Liechtenstein
 
 [Term]
 id: HANCESTRO:0373
 name: Lithuanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lithuania ! isDemonymOf Lithuania
 
 [Term]
 id: HANCESTRO:0374
 name: Luxembourgish
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Luxembourg ! isDemonymOf Luxembourg
 
 [Term]
 id: HANCESTRO:0375
 name: Maltese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malta ! isDemonymOf Malta
 
 [Term]
 id: HANCESTRO:0376
 name: Monegasque
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Monaco ! isDemonymOf Monaco
 
 [Term]
 id: HANCESTRO:0377
 name: Montenegrin
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Montenegro ! isDemonymOf Montenegro
 
 [Term]
 id: HANCESTRO:0378
 name: New Zealandish
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 New:Zealand ! isDemonymOf New Zealand
 
 [Term]
@@ -1175,6 +1254,7 @@ id: HANCESTRO:0379
 name: Norfolk Islander
 is_a: HANCESTRO:0018 ! uncategorised population
 is_a: HANCESTRO:0290 ! genetically isolated population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0330 Norfolk:Island ! isDemonymOf Norfolk Island
 
@@ -1182,270 +1262,315 @@ relationship: HANCESTRO:0330 Norfolk:Island ! isDemonymOf Norfolk Island
 id: HANCESTRO:0380
 name: Norwegian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Norway ! isDemonymOf Norway
 
 [Term]
 id: HANCESTRO:0381
 name: Polish
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Poland ! isDemonymOf Poland
 
 [Term]
 id: HANCESTRO:0382
 name: Portugese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Portugal ! isDemonymOf Portugal
 
 [Term]
 id: HANCESTRO:0383
 name: Irish
 is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_Ireland ! isDemonymOf Republic of Ireland
 
 [Term]
 id: HANCESTRO:0384
 name: Moldovan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Moldova ! isDemonymOf Moldova
 
 [Term]
 id: HANCESTRO:0385
 name: Romanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Romania ! isDemonymOf Romania
 
 [Term]
 id: HANCESTRO:0386
 name: Russian
 is_a: HANCESTRO:0018 ! uncategorised population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Russia ! isDemonymOf Russia
 
 [Term]
 id: HANCESTRO:0387
 name: Saint-Pierrais or Miquelonnais
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Saint_Pierre_and_Miquelon ! isDemonymOf Saint Pierre and Miquelon
 
 [Term]
 id: HANCESTRO:0388
 name: Sammarinese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 San:Marino ! isDemonymOf San Marino
 
 [Term]
 id: HANCESTRO:0389
 name: Serb
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Serbia ! isDemonymOf Serbia
 
 [Term]
 id: HANCESTRO:0390
 name: Slovak
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Slovakia ! isDemonymOf Slovakia
 
 [Term]
 id: HANCESTRO:0391
 name: Slovene
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Slovenia ! isDemonymOf Slovenia
 
 [Term]
 id: HANCESTRO:0392
 name: Spanish
 is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Spain ! isDemonymOf Spain
 
 [Term]
 id: HANCESTRO:0393
 name: Swedish
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Sweden ! isDemonymOf Sweden
 
 [Term]
 id: HANCESTRO:0394
 name: Swiss
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Switzerland ! isDemonymOf Switzerland
 
 [Term]
 id: HANCESTRO:0395
 name: Macedonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_Macedonia ! isDemonymOf Republic of Macedonia
 
 [Term]
 id: HANCESTRO:0396
 name: Ukrainian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ukraine ! isDemonymOf Ukraine
 
 [Term]
 id: HANCESTRO:0397
 name: Argentine
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Argentina ! isDemonymOf Argentina
 
 [Term]
 id: HANCESTRO:0398
 name: Bahamian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 The:Bahamas ! isDemonymOf The Bahamas
 
 [Term]
 id: HANCESTRO:0399
 name: Belizean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Belize ! isDemonymOf Belize
 
 [Term]
 id: HANCESTRO:0400
 name: Bolivian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bolivia ! isDemonymOf Bolivia
 
 [Term]
 id: HANCESTRO:0401
 name: British Virgin Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/British_Virgin_Islands ! isDemonymOf British Virgin Islands
 
 [Term]
 id: HANCESTRO:0402
 name: Caymanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Cayman:Islands ! isDemonymOf Cayman Islands
 
 [Term]
 id: HANCESTRO:0403
 name: Colombian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Colombia ! isDemonymOf Colombia
 
 [Term]
 id: HANCESTRO:0404
 name: Costa Rican
 is_a: HANCESTRO:0014 ! Hispanic or Latin American
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Costa:Rica ! isDemonymOf Costa Rica
 
 [Term]
 id: HANCESTRO:0405
 name: Cuban
 is_a: HANCESTRO:0014 ! Hispanic or Latin American
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cuba ! isDemonymOf Cuba
 
 [Term]
 id: HANCESTRO:0406
 name: Dominican
 is_a: HANCESTRO:0014 ! Hispanic or Latin American
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Dominica ! isDemonymOf Dominica
 
 [Term]
 id: HANCESTRO:0407
 name: Ecuadorian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ecuador ! isDemonymOf Ecuador
 
 [Term]
 id: HANCESTRO:0408
 name: Salvadoran
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 El:Salvador ! isDemonymOf El Salvador
 
 [Term]
 id: HANCESTRO:0409
 name: French Guianese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 French:Guiana ! isDemonymOf French Guiana
 
 [Term]
 id: HANCESTRO:0410
 name: Grenadian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Grenada ! isDemonymOf Grenada
 
 [Term]
 id: HANCESTRO:0411
 name: Guatemalan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guatemala ! isDemonymOf Guatemala
 
 [Term]
 id: HANCESTRO:0412
 name: Guyanese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guyana ! isDemonymOf Guyana
 
 [Term]
 id: HANCESTRO:0413
 name: Honduran
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Honduras ! isDemonymOf Honduras
 
 [Term]
 id: HANCESTRO:0414
 name: Martinican
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Martinique ! isDemonymOf Martinique
 
 [Term]
 id: HANCESTRO:0415
 name: Mexican
 is_a: HANCESTRO:0014 ! Hispanic or Latin American
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mexico ! isDemonymOf Mexico
 
 [Term]
 id: HANCESTRO:0416
 name: Montserratian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Montserrat ! isDemonymOf Montserrat
 
 [Term]
 id: HANCESTRO:0417
 name: Nicaraguan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nicaragua ! isDemonymOf Nicaragua
 
 [Term]
 id: HANCESTRO:0418
 name: Panamanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Panama ! isDemonymOf Panama
 
 [Term]
 id: HANCESTRO:0419
 name: Paraguayan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Paraguay ! isDemonymOf Paraguay
 
 [Term]
 id: HANCESTRO:0420
 name: Peruvian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Peru ! isDemonymOf Peru
 
 [Term]
 id: HANCESTRO:0421
 name: Puerto Rican
 is_a: HANCESTRO:0014 ! Hispanic or Latin American
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Puerto:Rico ! isDemonymOf Puerto Rico
 
 [Term]
 id: HANCESTRO:0422
 name: Kittitian or Nevisian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Saint_Kitts_and_Nevis ! isDemonymOf Saint Kitts and Nevis
 
 [Term]
 id: HANCESTRO:0423
 name: Saint Lucian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Saint:Lucia ! isDemonymOf Saint Lucia
 
 [Term]
 id: HANCESTRO:0424
 name: Saint Vincentian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines ! isDemonymOf Saint Vincent and the Grenadines
 
 [Term]
@@ -1453,144 +1578,169 @@ id: HANCESTRO:0425
 name: Surinamese
 synonym: "Surinamer" EXACT []
 is_a: HANCESTRO:0018 ! uncategorised population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Suriname ! isDemonymOf Suriname
 
 [Term]
 id: HANCESTRO:0426
 name: Trinidadian or Tobagonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Trinidad_and_Tobago ! isDemonymOf Trinidad and Tobago
 
 [Term]
 id: HANCESTRO:0427
 name: Turks and Caicos Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turks_and_Caicos_Islands ! isDemonymOf Turks and Caicos Islands
 
 [Term]
 id: HANCESTRO:0428
 name: Virgin Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/United_States_Virgin_Islands ! isDemonymOf United States Virgin Islands
 
 [Term]
 id: HANCESTRO:0429
 name: Uruguayan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uruguay ! isDemonymOf Uruguay
 
 [Term]
 id: HANCESTRO:0430
 name: Venezuelan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Venezuela ! isDemonymOf Venezuela
 
 [Term]
 id: HANCESTRO:0431
 name: Algerian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Algeria ! isDemonymOf Algeria
 
 [Term]
 id: HANCESTRO:0432
 name: Armenian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Armenia ! isDemonymOf Armenia
 
 [Term]
 id: HANCESTRO:0433
 name: Azerbaijani
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Azerbaijan ! isDemonymOf Azerbaijan
 
 [Term]
 id: HANCESTRO:0434
 name: Bahraini
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bahrain ! isDemonymOf Bahrain
 
 [Term]
 id: HANCESTRO:0435
 name: Cypriote
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cyprus ! isDemonymOf Cyprus
 
 [Term]
 id: HANCESTRO:0436
 name: Egyptian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Egypt ! isDemonymOf Egypt
 
 [Term]
 id: HANCESTRO:0437
 name: Georgian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Georgia:(country) ! isDemonymOf Georgia
 
 [Term]
 id: HANCESTRO:0438
 name: Iranian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iran ! isDemonymOf Iran
 
 [Term]
 id: HANCESTRO:0439
 name: Iraqi
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iraq ! isDemonymOf Iraq
 
 [Term]
 id: HANCESTRO:0440
 name: Israeli
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Israel ! isDemonymOf Israel
 
 [Term]
 id: HANCESTRO:0441
 name: Jordanian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Jordan ! isDemonymOf Jordan
 
 [Term]
 id: HANCESTRO:0442
 name: Kuwaiti
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kuwait ! isDemonymOf Kuwait
 
 [Term]
 id: HANCESTRO:0443
 name: Lebanese
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lebanon ! isDemonymOf Lebanon
 
 [Term]
 id: HANCESTRO:0444
 name: Libyan
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Libya ! isDemonymOf Libya
 
 [Term]
 id: HANCESTRO:0445
 name: Moroccan
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Morocco ! isDemonymOf Morocco
 
 [Term]
 id: HANCESTRO:0446
 name: Palestinian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Palestinian:territories ! isDemonymOf Palestinian Territories
 
 [Term]
 id: HANCESTRO:0447
 name: Omani
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Oman ! isDemonymOf Oman
 
 [Term]
 id: HANCESTRO:0448
 name: Qatari
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Qatar ! isDemonymOf Qatar
 
 [Term]
@@ -1598,228 +1748,266 @@ id: HANCESTRO:0449
 name: Saudi
 synonym: "Saudi Arab" EXACT []
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Saudi:Arabia ! isDemonymOf Saudi Arabia
 
 [Term]
 id: HANCESTRO:0450
 name: Tunisian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tunisia ! isDemonymOf Tunisia
 
 [Term]
 id: HANCESTRO:0451
 name: Turkish
 is_a: HANCESTRO:0018 ! uncategorised population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turkey ! isDemonymOf Turkey
 
 [Term]
 id: HANCESTRO:0452
 name: Emirati
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/United_Arab_Emirates ! isDemonymOf United Arab Emirates
 
 [Term]
 id: HANCESTRO:0453
 name: Yemeni
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Yemen ! isDemonymOf Yemen
 
 [Term]
 id: HANCESTRO:0454
 name: Aruban
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Aruba ! isDemonymOf Aruba
 
 [Term]
 id: HANCESTRO:0455
 name: Christmas Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Christmas:Island ! isDemonymOf Christmas Island
 
 [Term]
 id: HANCESTRO:0456
 name: Cocos Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cocos_(Keeling)_Islands ! isDemonymOf Cocos (Keeling) Islands
 
 [Term]
 id: HANCESTRO:0457
 name: Curacaoan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Curacao ! isDemonymOf Curacao
 
 [Term]
 id: HANCESTRO:0458
 name: Kosovar
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kosovo ! isDemonymOf Kosovo
 
 [Term]
 id: HANCESTRO:0459
 name: Northern Mariana Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Northern_Mariana_Islands ! isDemonymOf Northern Mariana Islands
 
 [Term]
 id: HANCESTRO:0460
 name: South Sudanese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 South:Sudan ! isDemonymOf South Sudan
 
 [Term]
 id: HANCESTRO:0461
 name: Syrian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Syria ! isDemonymOf Syria
 
 [Term]
 id: HANCESTRO:0462
 name: British
 is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 United:Kingdom ! isDemonymOf United Kingdom
 
 [Term]
 id: HANCESTRO:0463
 name: American
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 United:States ! isDemonymOf United States
 
 [Term]
 id: HANCESTRO:0464
 name: American Samoan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 American:Samoa ! isDemonymOf American Samoa
 
 [Term]
 id: HANCESTRO:0465
 name: Cook Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Cook:Islands ! isDemonymOf Cook Islands
 
 [Term]
 id: HANCESTRO:0466
 name: Fijian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Fiji ! isDemonymOf Fiji
 
 [Term]
 id: HANCESTRO:0467
 name: French Polynesian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 French:Polynesia ! isDemonymOf French Polynesia
 
 [Term]
 id: HANCESTRO:0468
 name: Guamanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guam ! isDemonymOf Guam
 
 [Term]
 id: HANCESTRO:0469
 name: I-Kiribati
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kiribati ! isDemonymOf Kiribati
 
 [Term]
 id: HANCESTRO:0470
 name: Marshallese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Marshall:Islands ! isDemonymOf Marshall Islands
 
 [Term]
 id: HANCESTRO:0471
 name: Micronesian
 is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Federated_States_of_Micronesia ! isDemonymOf Micronesia (Federated States of)
 
 [Term]
 id: HANCESTRO:0472
 name: Nauruan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nauru ! isDemonymOf Nauru
 
 [Term]
 id: HANCESTRO:0473
 name: New Caledonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 New:Caledonia ! isDemonymOf New Caledonia
 
 [Term]
 id: HANCESTRO:0474
 name: Niuean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Niue ! isDemonymOf Niue
 
 [Term]
 id: HANCESTRO:0475
 name: Palauan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Palau ! isDemonymOf Palau
 
 [Term]
 id: HANCESTRO:0476
 name: Papua New Guinean
 is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Papua_New_Guinea ! isDemonymOf Papua New Guinea
 
 [Term]
 id: HANCESTRO:0477
 name: Pitcairn Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Pitcairn:Islands ! isDemonymOf Pitcairn Islands
 
 [Term]
 id: HANCESTRO:0478
 name: Samoan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Samoa ! isDemonymOf Samoa
 
 [Term]
 id: HANCESTRO:0479
 name: Solomon Islander
 is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Solomon:Islands ! isDemonymOf Solomon Islands
 
 [Term]
 id: HANCESTRO:0480
 name: Tokelauan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tokelau ! isDemonymOf Tokelau
 
 [Term]
 id: HANCESTRO:0481
 name: Tongan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tonga ! isDemonymOf Tonga
 
 [Term]
 id: HANCESTRO:0482
 name: Tuvaluan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tuvalu ! isDemonymOf Tuvalu
 
 [Term]
 id: HANCESTRO:0483
 name: Ni-Vanuato
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Vanuatu ! isDemonymOf Vanuatu
 
 [Term]
 id: HANCESTRO:0484
 name: Wallis and Futuna Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Wallis_and_Futuna ! isDemonymOf Wallis and Futuna
 
 [Term]
 id: HANCESTRO:0485
 name: Bangladeshi
 is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bangladesh ! isDemonymOf Bangladesh
 
 [Term]
 id: HANCESTRO:0486
 name: Bhutanese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bhutan ! isDemonymOf Bhutan
 
 [Term]
@@ -1828,252 +2016,294 @@ name: Indian
 synonym: "Asian Indian" EXACT []
 synonym: "Indian Asian" EXACT []
 is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/India ! isDemonymOf India
 
 [Term]
 id: HANCESTRO:0488
 name: Maldivian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Maldives ! isDemonymOf Maldives
 
 [Term]
 id: HANCESTRO:0489
 name: Nepalese
 is_a: HANCESTRO:0008 ! Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nepal ! isDemonymOf Nepal
 
 [Term]
 id: HANCESTRO:0490
 name: Pakistani
 is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Pakistan ! isDemonymOf Pakistan
 
 [Term]
 id: HANCESTRO:0491
 name: Sri Lankan
 is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Sri:Lanka ! isDemonymOf Sri Lanka
 
 [Term]
 id: HANCESTRO:0492
 name: Bruneian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Brunei ! isDemonymOf Brunei
 
 [Term]
 id: HANCESTRO:0493
 name: Cambodian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cambodia ! isDemonymOf Cambodia
 
 [Term]
 id: HANCESTRO:0494
 name: Indonesian
 is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Indonesia ! isDemonymOf Indonesia
 
 [Term]
 id: HANCESTRO:0495
 name: Lao
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Laos ! isDemonymOf Laos
 
 [Term]
 id: HANCESTRO:0496
 name: Malaysian
 is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malaysia ! isDemonymOf Malaysia
 
 [Term]
 id: HANCESTRO:0497
 name: Burmese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Myanmar ! isDemonymOf Myanmar
 
 [Term]
 id: HANCESTRO:0498
 name: Filipino
 is_a: HANCESTRO:0008 ! Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Philippines ! isDemonymOf Philippines
 
 [Term]
 id: HANCESTRO:0500
 name: Thai
 is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Thailand ! isDemonymOf Thailand
 
 [Term]
 id: HANCESTRO:0501
 name: Timorese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 East:Timor ! isDemonymOf East Timor
 
 [Term]
 id: HANCESTRO:0502
 name: Vietnamese
 is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Vietnam ! isDemonymOf Vietnam
 
 [Term]
 id: HANCESTRO:0503
 name: Cameroonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cameroon ! isDemonymOf Cameroon
 
 [Term]
 id: HANCESTRO:0504
 name: Cape Verdean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Cape:Verde ! isDemonymOf Cape Verde
 
 [Term]
 id: HANCESTRO:0505
 name: Chadian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Chad ! isDemonymOf Chad
 
 [Term]
 id: HANCESTRO:0506
 name: Ethiopian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ethiopia ! isDemonymOf Ethiopia
 
 [Term]
 id: HANCESTRO:0507
 name: Kenyan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kenya ! isDemonymOf Kenya
 
 [Term]
 id: HANCESTRO:0508
 name: Liberian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Liberia ! isDemonymOf Liberia
 
 [Term]
 id: HANCESTRO:0509
 name: Malagasy
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Madagascar ! isDemonymOf Madagascar
 
 [Term]
 id: HANCESTRO:0510
 name: Mauritanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mauretania ! isDemonymOf Mauritania
 
 [Term]
 id: HANCESTRO:0511
 name: Mauritian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mauritius ! isDemonymOf Mauritius
 
 [Term]
 id: HANCESTRO:0512
 name: Mahoran
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mayotte ! isDemonymOf Mayotte
 
 [Term]
 id: HANCESTRO:0513
 name: Namibian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Namibia ! isDemonymOf Namibia
 
 [Term]
 id: HANCESTRO:0514
 name: Sao Tomean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/São_Tomé_and_Príncipe ! isDemonymOf São Tomé and Príncipe
 
 [Term]
 id: HANCESTRO:0515
 name: Senegalese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Senegal ! isDemonymOf Senegal
 
 [Term]
 id: HANCESTRO:0516
 name: Seychellois
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Seychelles ! isDemonymOf Seychelles
 
 [Term]
 id: HANCESTRO:0517
 name: Sierra Leonean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Sierra:Leone ! isDemonymOf Sierra Leone
 
 [Term]
 id: HANCESTRO:0518
 name: Somali
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Somalia ! isDemonymOf Somalia
 
 [Term]
 id: HANCESTRO:0519
 name: South African
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 South:Africa ! isDemonymOf South Africa
 
 [Term]
 id: HANCESTRO:0520
 name: St. Helenian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Saint:Helena ! isDemonymOf Saint Helena
 
 [Term]
 id: HANCESTRO:0521
 name: Ugandan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uganda ! isDemonymOf Uganda
 
 [Term]
 id: HANCESTRO:0522
 name: Angolan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Angola ! isDemonymOf Angola
 
 [Term]
 id: HANCESTRO:0523
 name: Beninese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Benin ! isDemonymOf Benin
 
 [Term]
 id: HANCESTRO:0524
 name: Motswana
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Botswana ! isDemonymOf Botswana
 
 [Term]
 id: HANCESTRO:0525
 name: Burkinabe
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Burkina:Faso ! isDemonymOf Burkina Faso
 
 [Term]
 id: HANCESTRO:0526
 name: Burundian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Burundi ! isDemonymOf Burundi
 
 [Term]
 id: HANCESTRO:0527
 name: Central African
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Central_African_Republic ! isDemonymOf Central African Republic
 
 [Term]
 id: HANCESTRO:0528
 name: Comoran
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Comoros ! isDemonymOf Comoros
 
 [Term]
 id: HANCESTRO:0529
 name: Congolese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Democratic_Republic_of_the_Congo ! isDemonymOf Democratic Republic of the Congo
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_the_Congo ! isDemonymOf Republic of the Congo
 
@@ -2081,136 +2311,158 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_the_Congo !
 id: HANCESTRO:0530
 name: Ivoirian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Ivory:Coast ! isDemonymOf Côte d'Ivoire
 
 [Term]
 id: HANCESTRO:0531
 name: Djiboutian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Djibouti ! isDemonymOf Djibouti
 
 [Term]
 id: HANCESTRO:0532
 name: Equatorial Guinean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Equatorial:Guinea ! isDemonymOf Equatorial Guinea
 
 [Term]
 id: HANCESTRO:0533
 name: Eritrean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Eritrea ! isDemonymOf Eritrea
 
 [Term]
 id: HANCESTRO:0534
 name: Gabonese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Gabon ! isDemonymOf Gabon
 
 [Term]
 id: HANCESTRO:0535
 name: Gambian
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 The:Gambia ! isDemonymOf The Gambia
 
 [Term]
 id: HANCESTRO:0536
 name: Ghanaian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ghana ! isDemonymOf Ghana
 
 [Term]
 id: HANCESTRO:0537
 name: Guinean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guinea ! isDemonymOf Guinea
 
 [Term]
 id: HANCESTRO:0538
 name: Bissau-Guinean
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 Guinea:Bissau ! isDemonymOf Guinea-Bissau
 
 [Term]
 id: HANCESTRO:0539
 name: Mosotho
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lesotho ! isDemonymOf Lesotho
 
 [Term]
 id: HANCESTRO:0540
 name: Malawian
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malawi ! isDemonymOf Malawi
 
 [Term]
 id: HANCESTRO:0541
 name: Malian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mali ! isDemonymOf Mali
 
 [Term]
 id: HANCESTRO:0542
 name: Mozambican
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mozambique ! isDemonymOf Mozambique
 
 [Term]
 id: HANCESTRO:0543
 name: Nigerien
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Niger ! isDemonymOf Niger
 
 [Term]
 id: HANCESTRO:0544
 name: Nigerian
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nigeria ! isDemonymOf Nigeria
 
 [Term]
 id: HANCESTRO:0545
 name: Rwandan
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Rwanda ! isDemonymOf Rwanda
 
 [Term]
 id: HANCESTRO:0546
 name: Swazi
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Eswatini ! isDemonymOf Eswatini
 
 [Term]
 id: HANCESTRO:0547
 name: Togolese
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Togo ! isDemonymOf Togo
 
 [Term]
 id: HANCESTRO:0548
 name: Tanzanian
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tanzania ! isDemonymOf Tanzania
 
 [Term]
 id: HANCESTRO:0549
 name: Zambian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Zambia ! isDemonymOf Zambia
 
 [Term]
 id: HANCESTRO:0550
 name: Zimbabweian
 is_a: HANCESTRO:0566 ! undefined ancestry population
+is_a: HANCESTRO:0602 ! geographic category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Zimbabwe ! isDemonymOf Zimbabwe
 
 [Term]
 id: HANCESTRO:0551
 name: genetically homogenous Irish
 synonym: "Irish founder" EXACT []
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0383 ! Irish
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Republic_of_Ireland {all_only="true"} ! hasCountryOfOrigin Republic of Ireland
+relationship: RO:0002151 HANCESTRO:0383 ! partially overlaps Irish
 
 [Term]
 id: HANCESTRO:0552
@@ -2243,74 +2495,80 @@ relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatu
 [Term]
 id: HANCESTRO:0556
 name: Cilento
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0307 ! Italian
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! partially overlaps Italian
 
 [Term]
 id: HANCESTRO:0557
 name: Costa Rican founder
+is_a: HANCESTRO:0014 ! Hispanic or Latin American
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0404 ! Costa Rican
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 Costa:Rica {all_only="true"} ! hasCountryOfOrigin Costa Rica
+relationship: RO:0002151 HANCESTRO:0404 ! partially overlaps Costa Rican
 
 [Term]
 id: HANCESTRO:0558
 name: French Canadian founder
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0354 ! Canadian
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Canada {all_only="true"} ! hasCountryOfOrigin Canada
+relationship: RO:0002151 HANCESTRO:0354 ! partially overlaps Canadian
 
 [Term]
 id: HANCESTRO:0559
 name: Italian founder
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0307 ! Italian
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! partially overlaps Italian
 
 [Term]
 id: HANCESTRO:0560
 name: Northern Finnish founder
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0321 ! Finnish
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Finland {all_only="true"} ! hasCountryOfOrigin Finland
+relationship: RO:0002151 HANCESTRO:0321 ! partially overlaps Finnish
 
 [Term]
 id: HANCESTRO:0561
 name: Romanian founder
-is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0385 ! Romanian
+is_a: HANCESTRO:0566 ! undefined ancestry population
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Romania {all_only="true"} ! hasCountryOfOrigin Romania
+relationship: RO:0002151 HANCESTRO:0385 ! partially overlaps Romanian
 
 [Term]
 id: HANCESTRO:0563
 name: South Tyrolean
 is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
+is_a: HANCESTRO:0601 ! ethnicity category
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 
 [Term]
 id: HANCESTRO:0564
 name: Vis founder
-is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0357 ! Croatian
+is_a: HANCESTRO:0566 ! undefined ancestry population
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0002151 HANCESTRO:0357 ! partially overlaps Croatian
 
 [Term]
 id: HANCESTRO:0565
 name: Split founder
-is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0357 ! Croatian
+is_a: HANCESTRO:0566 ! undefined ancestry population
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0002151 HANCESTRO:0357 ! partially overlaps Croatian
 
 [Term]
 id: HANCESTRO:0566
@@ -2328,14 +2586,16 @@ is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
 id: HANCESTRO:0568
 name: African American
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0569
 name: Talana
+is_a: HANCESTRO:0005 ! European
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0307 ! Italian
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! partially overlaps Italian
 
 [Term]
 id: HANCESTRO:0570
@@ -2356,6 +2616,7 @@ is_a: HANCESTRO:0017 ! Oceanian
 id: HANCESTRO:0573
 name: Native Hawaiian
 is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0574
@@ -2366,37 +2627,50 @@ is_a: HANCESTRO:0017 ! Oceanian
 id: HANCESTRO:0575
 name: Yoruban
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0576
 name: West African
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0602 ! geographic category
+relationship: RO:0000086 HANCESTRO:0600 ! has quality geographic descriptor
 
 [Term]
 id: HANCESTRO:0577
 name: Dai Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
+relationship: RO:0002151 HANCESTRO:0021 ! partially overlaps Chinese
 
 [Term]
 id: HANCESTRO:0578
 name: Hui Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
+relationship: RO:0002151 HANCESTRO:0021 ! partially overlaps Chinese
 
 [Term]
 id: HANCESTRO:0579
 name: Jingpo Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
+relationship: RO:0002151 HANCESTRO:0021 ! partially overlaps Chinese
 
 [Term]
 id: HANCESTRO:0580
 name: Malaysian Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
+relationship: RO:0002151 HANCESTRO:0021 ! partially overlaps Chinese
 
 [Term]
 id: HANCESTRO:0581
 name: Uygur Chinese
 synonym: "Uigur Chinese" EXACT []
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
+relationship: RO:0002151 HANCESTRO:0021 ! partially overlaps Chinese
 
 [Term]
 id: HANCESTRO:0582
@@ -2408,16 +2682,19 @@ id: HANCESTRO:0583
 name: Taiwanese Han
 synonym: "Han Taiwanese" EXACT []
 is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0584
 name: Sri Lankan Sinhalese
 is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0585
 name: Tatar
 is_a: HANCESTRO:0018 ! uncategorised population
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0586
@@ -2438,41 +2715,48 @@ property_value: IAO:0000119 "PMID:27070114" xsd:string
 id: HANCESTRO:0588
 name: Jewish Israeli
 is_a: HANCESTRO:0018 ! uncategorised population
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0589
 name: Punjabi Sikh
 is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0590
 name: European American
 synonym: "American of European ancestry" EXACT []
 is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0591
 name: Esan
 def: "The Esan people are one of the major ethnic groups in Edo State, Nigeria who speak the Esan language. (PMID:10146569) Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Esan-in-Nigeria-ESN)" []
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0592
 name: Luhya
 def: "The Luhya are the second-largest ethnic group in Kenya and are comprised of subgroups that speak a common Bantu language. (PMID: 27813082) The Luhya ancestry group was assembled as part of phase III of the HapMap project and used in a number of rare variant density studies (PMID:22373165, PMID:26673965)" []
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0593
 name: Maasai
 def: "The Maasai are an indigenous African ethnic group of semi-nomadic people located in northern Tanzania and Kenya. (PMID:29868928) The Maasai ancestry group was assembled as part of phase III of the HapMap project and used as reference in a range of population genetic studies (PMID:28049708)." []
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0594
 name: Mende
 def: "The Mende people are one of the largest ethnic groups in Sierra Leone who speak a language of the Mande branch of the Niger-Congo family. (PMID:15761855)  Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Mende-in-Sierra-Leone-MSL)" []
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0595
@@ -2496,6 +2780,7 @@ id: HANCESTRO:0597
 name: Singaporean Malay
 def: "Includes individuals who either self-report or have been described by authors as Singaporean Malay." []
 is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0601 ! ethnicity category
 property_value: IAO:0000119 "PMID:19700652" xsd:string
 property_value: IAO:0000119 "PMID:31626772" xsd:string
 
@@ -2503,9 +2788,37 @@ property_value: IAO:0000119 "PMID:31626772" xsd:string
 id: HANCESTRO:0598
 name: Singaporean Indian
 def: "Includes individuals who either self-report or have been described by authors as Singaporean Indian." []
-is_a: HANCESTRO:0487 ! Indian
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0601 ! ethnicity category
+relationship: RO:0002151 HANCESTRO:0487 ! partially overlaps Indian
 property_value: IAO:0000119 "PMID:19700652" xsd:string
 property_value: IAO:0000119 "PMID:31626772" xsd:string
+
+[Term]
+id: HANCESTRO:0599
+name: ethnicity descriptor
+def: "An ethnicity descriptor is descriptor that qualifies a population term as relating to a social, cultural, reglious or tribal group" []
+is_a: BFO:0000019 ! quality
+
+[Term]
+id: HANCESTRO:0600
+name: geographic descriptor
+def: "A geographic descriptor is descriptor that qualifies a population term as relating to a geographic location" []
+is_a: BFO:0000019 ! quality
+
+[Term]
+id: HANCESTRO:0601
+name: ethnicity category
+def: "Population category defined in terms of cultural, religious, tribal or other social similarities" []
+synonym: "ethnic group" EXACT []
+is_a: OBI:0000181 ! population
+relationship: RO:0000086 HANCESTRO:0599 ! has quality ethnicity descriptor
+
+[Term]
+id: HANCESTRO:0602
+name: geographic category
+def: "Population category defined in relation to a geographic location" []
+is_a: OBI:0000181 ! population
 
 [Term]
 id: Holy:See
@@ -2590,7 +2903,7 @@ id: Northern:Africa
 name: Northern Africa
 xref: GAZ:00000555
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part of Africa
 
 [Term]
 id: Northern:America
@@ -2602,7 +2915,7 @@ is_a: GAZ:00000013 ! continent
 id: Northern:Europe
 name: Northern Europe
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part of Europe
 
 [Term]
 id: OBI:0000181
@@ -2724,13 +3037,13 @@ id: South-Eastern:Asia
 name: South-Eastern Asia
 xref: GAZ:00000559
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part of Asia
 
 [Term]
 id: South-central:Asia
 name: South-Central Asia
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part of Asia
 
 [Term]
 id: South:Africa
@@ -2744,7 +3057,7 @@ id: South:Asia
 name: South Asia
 xref: GAZ:00002472
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part of Asia
 
 [Term]
 id: South:Korea
@@ -2766,13 +3079,13 @@ id: Southern:Africa
 name: Southern Africa
 xref: GAZ:00000553
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part of Africa
 
 [Term]
 id: Southern:Europe
 name: Southern Europe
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part of Europe
 
 [Term]
 id: Sri:Lanka
@@ -2818,19 +3131,19 @@ id: Western:Africa
 name: Western Africa
 xref: GAZ:00000554
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part of Africa
 
 [Term]
 id: Western:Asia
 name: Western Asia
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part of Asia
 
 [Term]
 id: Western:Europe
 name: Western Europe
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part of Europe
 
 [Term]
 id: Western:Sahara
@@ -3086,8 +3399,8 @@ is_a: NCIT:C25464 ! Country
 id: http://dbpedia.org/resource/Caribbean
 name: Caribbean
 is_a: HANCESTRO:0002 ! region
-disjoint_from: Central:America ! Central America
-relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! part_of Latin America and the Caribbean
+disjoint_from: Central:Africa ! Central Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! part of Latin America and the Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Central_African_Republic
@@ -3178,7 +3491,7 @@ id: http://dbpedia.org/resource/Denmark
 name: Denmark
 xref: GAZ:00002635
 is_a: NCIT:C25464 ! Country
-relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! part_of Scandinavia
+relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! part of Scandinavia
 relationship: RO:0001025 Northern:Europe {all_only="true"} ! located in Northern Europe
 
 [Term]
@@ -3650,7 +3963,7 @@ id: http://dbpedia.org/resource/Melanesia
 name: Melanesia
 xref: GAZ:00005860
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part_of Oceania
+relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part of Oceania
 
 [Term]
 id: http://dbpedia.org/resource/Mexico
@@ -3664,7 +3977,7 @@ id: http://dbpedia.org/resource/Micronesia
 name: Micronesia
 xref: GAZ:00005862
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part_of Oceania
+relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part of Oceania
 
 [Term]
 id: http://dbpedia.org/resource/Moldova
@@ -3793,7 +4106,7 @@ id: http://dbpedia.org/resource/Norway
 name: Norway
 xref: GAZ:00002699
 is_a: NCIT:C25464 ! Country
-relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! part_of Scandinavia
+relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! part of Scandinavia
 relationship: RO:0001025 Northern:Europe {all_only="true"} ! located in Northern Europe
 property_value: IAO:0000118 "Kingdom of Norway" xsd:string
 
@@ -3872,7 +4185,7 @@ id: http://dbpedia.org/resource/Polynesia
 name: Polynesia
 xref: GAZ:00005861
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part_of Oceania
+relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part of Oceania
 
 [Term]
 id: http://dbpedia.org/resource/Portugal
@@ -3973,7 +4286,7 @@ relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"}
 id: http://dbpedia.org/resource/Scandinavia
 name: Scandinavia
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part of Europe
 
 [Term]
 id: http://dbpedia.org/resource/Scotland
@@ -4036,7 +4349,7 @@ id: http://dbpedia.org/resource/SouthAmerica
 name: South America
 xref: GAZ:00000459
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! part_of Latin America and the Caribbean
+relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! part of Latin America and the Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Spain
@@ -4070,7 +4383,7 @@ id: http://dbpedia.org/resource/Sweden
 name: Sweden
 xref: GAZ:00002729
 is_a: NCIT:C25464 ! Country
-relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! part_of Scandinavia
+relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! part of Scandinavia
 relationship: RO:0001025 Northern:Europe {all_only="true"} ! located in Northern Europe
 
 [Term]
@@ -4282,7 +4595,6 @@ relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located in Eastern A
 [Typedef]
 id: BFO:0000050
 name: part of
-name: part_of
 def: "a core relation that holds between a part and its whole" []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
@@ -4315,7 +4627,6 @@ inverse_of: BFO:0000051 ! has part
 [Typedef]
 id: BFO:0000051
 name: has part
-name: has_part
 def: "a core relation that holds between a whole and its part" []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
@@ -4369,10 +4680,12 @@ is_obsolete: true
 [Typedef]
 id: HANCESTRO:0301
 name: hasAncestryStatus
+is_a: RO:0000086 ! has quality
 
 [Typedef]
 id: HANCESTRO:0308
 name: hasCountryOfOrigin
+disjoint_from: HANCESTRO:0330 ! isDemonymOf
 
 [Typedef]
 id: HANCESTRO:0329
@@ -4528,7 +4841,6 @@ is_a: RO:0000052 ! characteristic of
 [Typedef]
 id: RO:0001015
 name: location of
-name: location_of
 def: "a relation between two independent continuants, the location and the target, in which the target is entirely within the location" []
 property_value: IAO:0000111 "is location of" xsd:string
 property_value: IAO:0000112 "my head is the location of my brain" xsd:string
@@ -4542,7 +4854,6 @@ inverse_of: RO:0001025 ! located in
 [Typedef]
 id: RO:0001025
 name: located in
-name: located_in
 def: "a relation between two independent continuants, the target and the location, in which the target is entirely within the location" []
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: http://purl.org/dc/terms/source "http://www.obofoundry.org/ro/#OBO_REL:located_in" xsd:string
@@ -4557,7 +4868,7 @@ property_value: seeAlso "https://wiki.geneontology.org/Located_in" xsd:anyURI
 domain: BFO:0000004 {IAO:0000116="This is redundant with the more specific 'independent and not spatial region' constraint. We leave in the redundant axiom for use with reasoners that do not use negation."} ! independent continuant
 range: BFO:0000004 {IAO:0000116="This is redundant with the more specific 'independent and not spatial region' constraint. We leave in the redundant axiom for use with reasoners that do not use negation."} ! independent continuant
 is_transitive: true
-transitive_over: BFO:0000050 ! part_of
+transitive_over: BFO:0000050 ! part of
 
 [Typedef]
 id: RO:0002013
@@ -4687,8 +4998,20 @@ holds_over_chain: BFO:0000051 BFO:0000050 {RO:0002582="true"}
 holds_over_chain: BFO:0000051 RO:0002131
 is_symmetric: true
 is_a: RO:0002323 ! mereotopologically related to
-transitive_over: BFO:0000050 ! part_of
+transitive_over: BFO:0000050 ! part of
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: RO:0002151
+name: partially overlaps
+def: "x partially overlaps y iff there exists some z such that z is part of x and z is part of y, and it is also the case that neither x is part of y or y is part of x" []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "We would like to include disjointness axioms with part_of and has_part, however this is not possible in OWL2 as these are non-simple properties and hence cannot appear in a disjointness axiom" xsd:string
+property_value: IAO:0000118 "proper overlaps" xsd:string
+property_value: IAO:0000426 "(forall (?x ?y) \n	(iff \n		(proper_overlaps ?x ?y)\n		(and \n			(overlaps ?x ?y)\n			(not (part_of ?x ?y)) \n			(not (part_of ?y ?x)))))" xsd:string
+property_value: RO:0001900 RO:0001901
+is_a: RO:0002131 ! overlaps
 
 [Typedef]
 id: RO:0002180
@@ -4871,7 +5194,7 @@ property_value: RO:0001900 RO:0001901
 property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
 holds_over_chain: RO:0000052 BFO:0000050 {RO:0002582="true"}
 is_a: RO:0002502 ! depends on
-transitive_over: BFO:0000050 ! part_of
+transitive_over: BFO:0000050 ! part of
 
 [Typedef]
 id: RO:0002323
@@ -4927,7 +5250,7 @@ property_value: seeAlso "https://wiki.geneontology.org/Involved_in" xsd:anyURI
 holds_over_chain: RO:0002327 BFO:0000050
 is_a: RO:0000056 ! participates in
 is_a: RO:0002431 ! involved in or involved in regulation of
-transitive_over: BFO:0000050 ! part_of
+transitive_over: BFO:0000050 ! part of
 
 [Typedef]
 id: RO:0002333

@@ -1,48 +1,50 @@
 format-version: 1.2
-data-version: hancestro/releases/2024-02-07/hancestro-base.owl
+data-version: hancestro/releases/2024-04-25/hancestro-base.owl
 ontology: hancestro/hancestro-base
 property_value: http://purl.org/dc/elements/1.1/description "Human ancestry ontology for the NHGRI GWAS Catalog" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Human Ancestry Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
+property_value: IAO:0000700 "'ethnicity category'" xsd:string
+property_value: IAO:0000700 "'geographic category'" xsd:string
 property_value: IAO:0000700 HANCESTRO:0004
 property_value: IAO:0000700 HANCESTRO:0304
-property_value: owl:versionInfo "2024-02-07" xsd:string
+property_value: owl:versionInfo "2024-04-25" xsd:string
 
 [Term]
 id: American:Samoa
 name: American Samoa
 xref: GAZ:00003957
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 
 [Term]
 id: Burkina:Faso
 name: Burkina Faso
 xref: GAZ:00000905
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: Cape:Verde
 name: Cape Verde
 xref: GAZ:00001227
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: Cayman:Islands
 name: Cayman Islands
 xref: GAZ:00003986
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: Central:Africa
 name: Central Africa
 xref: GAZ:00000588
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! Africa
 property_value: IAO:0000118 "Middle Africa" xsd:string
 
 [Term]
@@ -50,49 +52,49 @@ id: Central:America
 name: Central America
 xref: GAZ:00002891
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! part_of Latin America and the Caribbean
+relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! Latin America and the Caribbean
 
 [Term]
 id: Channel:Islands
 name: Channel Islands
 xref: GAZ:00001539
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: Christmas:Island
 name: Christmas Island
 xref: GAZ:00005915
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! located_in Australia/New Zealand
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! Australia/New Zealand
 
 [Term]
 id: Cook:Islands
 name: Cook Islands
 xref: GAZ:00053798
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 
 [Term]
 id: Costa:Rica
 name: Costa Rica
 xref: GAZ:00002901
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:America {all_only="true"} ! located_in Central America
+relationship: RO:0001025 Central:America {all_only="true"} ! Central America
 
 [Term]
 id: Czech:Republic
 name: Czech Republic
 xref: GAZ:00002954
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: Dominican:Republic
 name: Dominican Republic
 xref: GAZ:00003952
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: East:Timor
@@ -100,48 +102,48 @@ name: East Timor
 synonym: "Timor-Leste" EXACT []
 xref: GAZ:00006913
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: Eastern:Africa
 name: Eastern Africa
 xref: GAZ:00000556
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! Africa
 
 [Term]
 id: Eastern:Asia
 name: Eastern Asia
 xref: GAZ:00002471
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! Asia
 
 [Term]
 id: Eastern:Europe
 name: Eastern Europe
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! Europe
 
 [Term]
 id: El:Salvador
 name: El Salvador
 xref: GAZ:00002935
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:America {all_only="true"} ! located_in Central America
+relationship: RO:0001025 Central:America {all_only="true"} ! Central America
 
 [Term]
 id: Equatorial:Guinea
 name: Equatorial Guinea
 xref: GAZ:00001091
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: Faeroe:Islands
 name: Faeroe Islands
 xref: GAZ:00059206
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 property_value: IAO:0000118 "Faroe Islands" xsd:string
 
 [Term]
@@ -150,21 +152,21 @@ name: Falkland Islands
 synonym: "Falkland Islands (Malvinas)" EXACT []
 xref: GAZ:00001412
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: French:Guiana
 name: French Guiana
 xref: GAZ:00002516
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: French:Polynesia
 name: French Polynesia
 xref: GAZ:00002918
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 
 [Term]
 id: GAZ:00000013
@@ -176,14 +178,14 @@ id: Georgia:(country)
 name: Georgia
 xref: GAZ:00004942
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: Guinea:Bissau
 name: Guinea-Bissau
 xref: GAZ:00000910
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: HANCESTRO:0002
@@ -191,7 +193,7 @@ name: region
 def: "Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable." []
 synonym: "geographical area" EXACT []
 is_a: COB:0000032
-relationship: BFO:0000050 GAZ:00000013 {all_only="true"} ! part_of continent
+relationship: BFO:0000050 GAZ:00000013 {all_only="true"} ! continent
 
 [Term]
 id: HANCESTRO:0003
@@ -330,25 +332,32 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mongolia ! isDemonymOf 
 [Term]
 id: HANCESTRO:0024
 name: Macanese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Macau ! isDemonymOf Macau
+relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0025
 name: Singaporean Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Singapore ! isDemonymOf Singapore
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
+relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0026
 name: Hong Kong Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
 relationship: HANCESTRO:0330 Hong:Kong ! isDemonymOf Hong Kong
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
+relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0027
 name: Han Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
+relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0029
@@ -480,7 +489,7 @@ replaced_by: Central:America
 id: HANCESTRO:0051
 name: Australia/New Zealand
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part_of Oceania
+relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! Oceania
 
 [Term]
 id: HANCESTRO:0052
@@ -561,30 +570,34 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Italy ! isDemonymOf Ita
 [Term]
 id: HANCESTRO:0309
 name: Sardinian
-is_a: HANCESTRO:0307 ! Italian
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! Italian
 
 [Term]
 id: HANCESTRO:0310
 name: Val Borbera
-is_a: HANCESTRO:0307 ! Italian
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! Italian
 
 [Term]
 id: HANCESTRO:0311
 name: Friuli Venezia Giulia
-is_a: HANCESTRO:0307 ! Italian
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! Italian
 
 [Term]
 id: HANCESTRO:0312
 name: Carlantino
-is_a: HANCESTRO:0307 ! Italian
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! Italian
 
 [Term]
 id: HANCESTRO:0313
@@ -592,24 +605,28 @@ name: Old Order Amish
 is_a: HANCESTRO:0005 ! European
 disjoint_from: HANCESTRO:0316 ! Amish
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0314
-name: Sorbian
+name: Sorb
 is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0315
 name: Hutterite
 is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0316
 name: Amish
 is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0317
@@ -625,6 +642,7 @@ name: Orcadian
 is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Scotland {all_only="true"} ! hasCountryOfOrigin Scotland
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0319
@@ -647,22 +665,25 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Finland ! isDemonymOf F
 [Term]
 id: HANCESTRO:0322
 name: Finnish founder
-is_a: HANCESTRO:0321 ! Finnish
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Finland {all_only="true"} ! hasCountryOfOrigin Finland
+relationship: RO:0002151 HANCESTRO:0321 ! Finnish
 
 [Term]
 id: HANCESTRO:0323
 name: Dutch founder
-is_a: HANCESTRO:0320 ! Dutch
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Netherlands {all_only="true"} ! hasCountryOfOrigin Netherlands
+relationship: RO:0002151 HANCESTRO:0320 ! Dutch
 
 [Term]
 id: HANCESTRO:0324
 name: Ashkenazi Jew
 is_a: HANCESTRO:0018 ! uncategorised population
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0328
@@ -1366,6 +1387,7 @@ id: HANCESTRO:0446
 name: Palestinian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
 relationship: HANCESTRO:0330 Palestinian:territories ! isDemonymOf Palestinian Territories
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0447
@@ -1993,9 +2015,10 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Zimbabwe ! isDemonymOf 
 id: HANCESTRO:0551
 name: genetically homogenous Irish
 synonym: "Irish founder" EXACT []
-is_a: HANCESTRO:0383 ! Irish
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Republic_of_Ireland {all_only="true"} ! hasCountryOfOrigin Republic of Ireland
+relationship: RO:0002151 HANCESTRO:0383 ! Irish
 
 [Term]
 id: HANCESTRO:0552
@@ -2026,65 +2049,71 @@ relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatu
 [Term]
 id: HANCESTRO:0556
 name: Cilento
-is_a: HANCESTRO:0307 ! Italian
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! Italian
 
 [Term]
 id: HANCESTRO:0557
 name: Costa Rican founder
-is_a: HANCESTRO:0404 ! Costa Rican
+is_a: HANCESTRO:0014 ! Hispanic or Latin American
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 Costa:Rica {all_only="true"} ! hasCountryOfOrigin Costa Rica
+relationship: RO:0002151 HANCESTRO:0404 ! Costa Rican
 
 [Term]
 id: HANCESTRO:0558
 name: French Canadian founder
-is_a: HANCESTRO:0354 ! Canadian
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Canada {all_only="true"} ! hasCountryOfOrigin Canada
+relationship: RO:0002151 HANCESTRO:0354 ! Canadian
 
 [Term]
 id: HANCESTRO:0559
 name: Italian founder
-is_a: HANCESTRO:0307 ! Italian
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! Italian
 
 [Term]
 id: HANCESTRO:0560
 name: Northern Finnish founder
-is_a: HANCESTRO:0321 ! Finnish
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Finland {all_only="true"} ! hasCountryOfOrigin Finland
+relationship: RO:0002151 HANCESTRO:0321 ! Finnish
 
 [Term]
 id: HANCESTRO:0561
 name: Romanian founder
-is_a: HANCESTRO:0005 ! European
-is_a: HANCESTRO:0385 ! Romanian
+is_a: HANCESTRO:0566 ! undefined ancestry population
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Romania {all_only="true"} ! hasCountryOfOrigin Romania
+relationship: RO:0002151 HANCESTRO:0385 ! Romanian
 
 [Term]
 id: HANCESTRO:0563
 name: South Tyrolean
 is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0564
 name: Vis founder
-is_a: HANCESTRO:0005 ! European
-is_a: HANCESTRO:0357 ! Croatian
+is_a: HANCESTRO:0566 ! undefined ancestry population
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0002151 HANCESTRO:0357 ! Croatian
 
 [Term]
 id: HANCESTRO:0565
 name: Split founder
-is_a: HANCESTRO:0005 ! European
-is_a: HANCESTRO:0357 ! Croatian
+is_a: HANCESTRO:0566 ! undefined ancestry population
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
+relationship: RO:0002151 HANCESTRO:0357 ! Croatian
 
 [Term]
 id: HANCESTRO:0566
@@ -2102,13 +2131,15 @@ is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
 id: HANCESTRO:0568
 name: African American
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0569
 name: Talana
-is_a: HANCESTRO:0307 ! Italian
+is_a: HANCESTRO:0005 ! European
 relationship: HANCESTRO:0301 HANCESTRO:0305 {all_only="true"} ! hasAncestryStatus genetically isolated ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy {all_only="true"} ! hasCountryOfOrigin Italy
+relationship: RO:0002151 HANCESTRO:0307 ! Italian
 
 [Term]
 id: HANCESTRO:0570
@@ -2129,6 +2160,7 @@ is_a: HANCESTRO:0017 ! Oceanian
 id: HANCESTRO:0573
 name: Native Hawaiian
 is_a: HANCESTRO:0017 ! Oceanian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0574
@@ -2139,37 +2171,49 @@ is_a: HANCESTRO:0017 ! Oceanian
 id: HANCESTRO:0575
 name: Yoruban
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0576
 name: West African
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+relationship: RO:0000086 HANCESTRO:0600 ! geographic descriptor
 
 [Term]
 id: HANCESTRO:0577
 name: Dai Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
+relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0578
 name: Hui Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
+relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0579
 name: Jingpo Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
+relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0580
 name: Malaysian Chinese
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
+relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0581
 name: Uygur Chinese
 synonym: "Uigur Chinese" EXACT []
-is_a: HANCESTRO:0021 ! Chinese
+is_a: HANCESTRO:0009 ! East Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
+relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0582
@@ -2181,16 +2225,19 @@ id: HANCESTRO:0583
 name: Taiwanese Han
 synonym: "Han Taiwanese" EXACT []
 is_a: HANCESTRO:0009 ! East Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0584
 name: Sri Lankan Sinhalese
 is_a: HANCESTRO:0006 ! South Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0585
 name: Tatar
 is_a: HANCESTRO:0018 ! uncategorised population
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0586
@@ -2211,41 +2258,48 @@ property_value: IAO:0000119 "PMID:27070114" xsd:string
 id: HANCESTRO:0588
 name: Jewish Israeli
 is_a: HANCESTRO:0018 ! uncategorised population
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0589
 name: Punjabi Sikh
 is_a: HANCESTRO:0006 ! South Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0590
 name: European American
 synonym: "American of European ancestry" EXACT []
 is_a: HANCESTRO:0005 ! European
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0591
 name: Esan
 def: "The Esan people are one of the major ethnic groups in Edo State, Nigeria who speak the Esan language. (PMID:10146569) Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Esan-in-Nigeria-ESN)" []
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0592
 name: Luhya
 def: "The Luhya are the second-largest ethnic group in Kenya and are comprised of subgroups that speak a common Bantu language. (PMID: 27813082) The Luhya ancestry group was assembled as part of phase III of the HapMap project and used in a number of rare variant density studies (PMID:22373165, PMID:26673965)" []
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0593
 name: Maasai
 def: "The Maasai are an indigenous African ethnic group of semi-nomadic people located in northern Tanzania and Kenya. (PMID:29868928) The Maasai ancestry group was assembled as part of phase III of the HapMap project and used as reference in a range of population genetic studies (PMID:28049708)." []
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0594
 name: Mende
 def: "The Mende people are one of the largest ethnic groups in Sierra Leone who speak a language of the Mande branch of the Niger-Congo family. (PMID:15761855)  Samples from this population were studied as part of the full 1000 Genomes project (https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Collections/Mende-in-Sierra-Leone-MSL)" []
 is_a: HANCESTRO:0011 ! Sub-Saharan African
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0595
@@ -2269,6 +2323,7 @@ id: HANCESTRO:0597
 name: Singaporean Malay
 def: "Includes individuals who either self-report or have been described by authors as Singaporean Malay." []
 is_a: HANCESTRO:0007 ! South East Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 property_value: IAO:0000119 "PMID:19700652" xsd:string
 property_value: IAO:0000119 "PMID:31626772" xsd:string
 
@@ -2276,16 +2331,43 @@ property_value: IAO:0000119 "PMID:31626772" xsd:string
 id: HANCESTRO:0598
 name: Singaporean Indian
 def: "Includes individuals who either self-report or have been described by authors as Singaporean Indian." []
-is_a: HANCESTRO:0487 ! Indian
+is_a: HANCESTRO:0006 ! South Asian
+relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
+relationship: RO:0002151 HANCESTRO:0487 ! Indian
 property_value: IAO:0000119 "PMID:19700652" xsd:string
 property_value: IAO:0000119 "PMID:31626772" xsd:string
+
+[Term]
+id: HANCESTRO:0599
+name: ethnicity descriptor
+def: "An ethnicity descriptor is descriptor that qualifies a population term as relating to a social, cultural, reglious or tribal group" []
+is_a: BFO:0000019
+
+[Term]
+id: HANCESTRO:0600
+name: geographic descriptor
+def: "A geographic descriptor is descriptor that qualifies a population term as relating to a geographic location" []
+is_a: BFO:0000019
+
+[Term]
+id: HANCESTRO:0601
+name: ethnicity category
+def: "Population category defined in terms of cultural, religious, tribal or other social similarities" []
+synonym: "ethnic group" EXACT []
+is_a: OBI:0000181
+
+[Term]
+id: HANCESTRO:0602
+name: geographic category
+def: "Population category defined in relation to a geographic location" []
+is_a: OBI:0000181
 
 [Term]
 id: Holy:See
 name: Holy See
 xref: GAZ:00003103
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: Hong:Kong
@@ -2293,7 +2375,7 @@ name: Hong Kong
 synonym: "China, Hong Kong SAR" EXACT []
 xref: GAZ:00003203
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Asia {all_only="true"} ! located_in Eastern Asia
+relationship: RO:0001025 Eastern:Asia {all_only="true"} ! Eastern Asia
 
 [Term]
 id: Ivory:Coast
@@ -2301,14 +2383,14 @@ name: Côte d'Ivoire
 synonym: "Ivory Coast" EXACT []
 xref: GAZ:00000906
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: Marshall:Islands
 name: Marshall Islands
 xref: GAZ:00007161
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! located_in Micronesia
+relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! Micronesia
 
 [Term]
 id: Middle:Africa
@@ -2318,35 +2400,35 @@ replaced_by: http://dbpedia.org/resource/Central_Africa
 [Term]
 id: NCIT:C25464
 name: Country
-relationship: RO:0001025 HANCESTRO:0002 {all_only="true"} ! located_in region
+relationship: RO:0001025 HANCESTRO:0002 {all_only="true"} ! region
 
 [Term]
 id: Netherlands:Antilles
 name: Netherlands Antilles
 xref: GAZ:00004019
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: New:Caledonia
 name: New Caledonia
 xref: GAZ:00005206
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! located_in Melanesia
+relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! Melanesia
 
 [Term]
 id: New:Zealand
 name: New Zealand
 xref: GAZ:00000469
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! located_in Australia/New Zealand
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! Australia/New Zealand
 
 [Term]
 id: Norfolk:Island
 name: Norfolk Island
 xref: GAZ:00005913
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! located_in Australia/New Zealand
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! Australia/New Zealand
 
 [Term]
 id: North:Korea
@@ -2354,14 +2436,14 @@ name: North Korea
 synonym: "Democratic People's Republic of Korea" EXACT []
 xref: GAZ:00002801
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Asia {all_only="true"} ! located_in Eastern Asia
+relationship: RO:0001025 Eastern:Asia {all_only="true"} ! Eastern Asia
 
 [Term]
 id: Northern:Africa
 name: Northern Africa
 xref: GAZ:00000555
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! Africa
 
 [Term]
 id: Northern:America
@@ -2373,7 +2455,7 @@ is_a: GAZ:00000013 ! continent
 id: Northern:Europe
 name: Northern Europe
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! Europe
 
 [Term]
 id: Palestinian:territories
@@ -2381,7 +2463,7 @@ name: Palestinian Territories
 synonym: "Occupied Palestinian Territory" EXACT []
 xref: GAZ:00002475
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: Pitcairn:Islands
@@ -2389,7 +2471,7 @@ name: Pitcairn Islands
 synonym: "Pitcairn, Henderson, Ducie and Oeno Islands" EXACT []
 xref: GAZ:00005867
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 property_value: IAO:0000118 "Pitcairn" xsd:string
 
 [Term]
@@ -2397,7 +2479,7 @@ id: Puerto:Rico
 name: Puerto Rico
 xref: GAZ:00006935
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 property_value: IAO:0000118 "Commonwealth of Puerto Rico" xsd:string
 
 [Term]
@@ -2411,83 +2493,83 @@ name: Saint Helena
 synonym: "St. Helena" EXACT []
 xref: GAZ:00000849
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: Saint:Lucia
 name: Saint Lucia
 xref: GAZ:00006909
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: Saint:Martin
 name: Saint Martin
 xref: GAZ:00005841
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: San:Marino
 name: San Marino
 xref: GAZ:00003102
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: Saudi:Arabia
 name: Saudi Arabia
 xref: GAZ:00005279
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: Sierra:Leone
 name: Sierra Leone
 xref: GAZ:00000914
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: Sint:Maarten
 name: Sint Maarten
 xref: GAZ:00012579
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: Solomon:Islands
 name: Solomon Islands
 xref: GAZ:00005275
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! located_in Melanesia
+relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! Melanesia
 
 [Term]
 id: South-Eastern:Asia
 name: South-Eastern Asia
 xref: GAZ:00000559
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! Asia
 
 [Term]
 id: South-central:Asia
 name: South-Central Asia
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! Asia
 
 [Term]
 id: South:Africa
 name: South Africa
 xref: GAZ:00000553
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Africa {all_only="true"} ! located_in Southern Africa
+relationship: RO:0001025 Southern:Africa {all_only="true"} ! Southern Africa
 
 [Term]
 id: South:Asia
 name: South Asia
 xref: GAZ:00002472
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! Asia
 
 [Term]
 id: South:Korea
@@ -2495,34 +2577,34 @@ name: South Korea
 synonym: "Republic of Korea" EXACT []
 xref: GAZ:00002802
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Asia {all_only="true"} ! located_in Eastern Asia
+relationship: RO:0001025 Eastern:Asia {all_only="true"} ! Eastern Asia
 
 [Term]
 id: South:Sudan
 name: South Sudan
 xref: GAZ:00233439
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: Southern:Africa
 name: Southern Africa
 xref: GAZ:00000553
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! Africa
 
 [Term]
 id: Southern:Europe
 name: Southern Europe
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! Europe
 
 [Term]
 id: Sri:Lanka
 name: Sri Lanka
 xref: GAZ:00003924
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: The:Bahamas
@@ -2530,7 +2612,7 @@ name: The Bahamas
 synonym: "Bahamas" EXACT []
 xref: GAZ:00002733
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: The:Gambia
@@ -2538,7 +2620,7 @@ name: The Gambia
 synonym: "Gambia" EXACT []
 xref: GAZ:00000907
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: United:Kingdom
@@ -2546,7 +2628,7 @@ name: United Kingdom
 synonym: "U.K." EXACT []
 xref: GAZ:00002637
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: United:States
@@ -2561,33 +2643,33 @@ id: Western:Africa
 name: Western Africa
 xref: GAZ:00000554
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! part_of Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Africa {all_only="true"} ! Africa
 
 [Term]
 id: Western:Asia
 name: Western Asia
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! part_of Asia
+relationship: BFO:0000050 http://dbpedia.org/resource/Asia {all_only="true"} ! Asia
 
 [Term]
 id: Western:Europe
 name: Western Europe
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! Europe
 
 [Term]
 id: Western:Sahara
 name: Western Sahara
 xref: GAZ:00000564
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
+relationship: RO:0001025 Northern:Africa {all_only="true"} ! Northern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Afghanistan
 name: Afghanistan
 xref: GAZ:00006882
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Africa
@@ -2601,63 +2683,63 @@ id: http://dbpedia.org/resource/Albania
 name: Albania
 xref: GAZ:00002953
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Algeria
 name: Algeria
 xref: GAZ:00000563
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
+relationship: RO:0001025 Northern:Africa {all_only="true"} ! Northern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Andorra
 name: Andorra
 xref: GAZ:00002948
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Angola
 name: Angola
 xref: GAZ:00001095
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Anguilla
 name: Anguilla
 xref: GAZ:00009159
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Antigua_and_Barbuda
 name: Antigua and Barbuda
 xref: GAZ:00006883
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Argentina
 name: Argentina
 xref: GAZ:00002928
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Armenia
 name: Armenia
 xref: GAZ:00004094
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Aruba
 name: Aruba
 xref: GAZ:00004025
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Asia
@@ -2670,70 +2752,70 @@ id: http://dbpedia.org/resource/Australia
 name: Australia
 xref: GAZ:00000463
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! located_in Australia/New Zealand
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! Australia/New Zealand
 
 [Term]
 id: http://dbpedia.org/resource/Austria
 name: Austria
 xref: GAZ:00002942
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Europe {all_only="true"} ! located_in Western Europe
+relationship: RO:0001025 Western:Europe {all_only="true"} ! Western Europe
 
 [Term]
 id: http://dbpedia.org/resource/Azerbaijan
 name: Azerbaijan
 xref: GAZ:00004941
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Bahrain
 name: Bahrain
 xref: GAZ:00005281
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Bangladesh
 name: Bangladesh
 xref: GAZ:00003750
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Barbados
 name: Barbados
 xref: GAZ:00001251
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Belarus
 name: Belarus
 xref: GAZ:00006886
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Belgium
 name: Belgium
 xref: GAZ:00002938
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Europe {all_only="true"} ! located_in Western Europe
+relationship: RO:0001025 Western:Europe {all_only="true"} ! Western Europe
 
 [Term]
 id: http://dbpedia.org/resource/Belize
 name: Belize
 xref: GAZ:00002934
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:America {all_only="true"} ! located_in Central America
+relationship: RO:0001025 Central:America {all_only="true"} ! Central America
 
 [Term]
 id: http://dbpedia.org/resource/Benin
 name: Benin
 xref: GAZ:00000904
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: http://dbpedia.org/resource/Bermuda
@@ -2746,42 +2828,42 @@ id: http://dbpedia.org/resource/Bhutan
 name: Bhutan
 xref: GAZ:00003920
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Bolivia
 name: Bolivia
 xref: GAZ:00002511
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Bosnia_and_Herzegovina
 name: Bosnia and Herzegovina
 xref: GAZ:00006887
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Botswana
 name: Botswana
 xref: GAZ:00001097
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Africa {all_only="true"} ! located_in Southern Africa
+relationship: RO:0001025 Southern:Africa {all_only="true"} ! Southern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Brazil
 name: Brazil
 xref: GAZ:00002828
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/British_Virgin_Islands
 name: British Virgin Islands
 xref: GAZ:00003961
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Brunei
@@ -2789,35 +2871,35 @@ name: Brunei
 synonym: "Brunei Darussalam" EXACT []
 xref: GAZ:00003901
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Bulgaria
 name: Bulgaria
 xref: GAZ:00002950
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Burundi
 name: Burundi
 xref: GAZ:00001090
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Cambodia
 name: Cambodia
 xref: GAZ:00006888
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Cameroon
 name: Cameroon
 xref: GAZ:00001093
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Canada
@@ -2829,156 +2911,156 @@ is_a: NCIT:C25464 ! Country
 id: http://dbpedia.org/resource/Caribbean
 name: Caribbean
 is_a: HANCESTRO:0002 ! region
-disjoint_from: Central:America ! Central America
-relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! part_of Latin America and the Caribbean
+disjoint_from: Central:Africa ! Central Africa
+relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! Latin America and the Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Central_African_Republic
 name: Central African Republic
 xref: GAZ:00001089
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Chad
 name: Chad
 xref: GAZ:00000586
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Chile
 name: Chile
 xref: GAZ:00002825
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/China
 name: China
 xref: GAZ:00002845
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Asia {all_only="true"} ! located_in Eastern Asia
+relationship: RO:0001025 Eastern:Asia {all_only="true"} ! Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Cocos_(Keeling)_Islands
 name: Cocos (Keeling) Islands
 xref: GAZ:00009721
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! located_in Australia/New Zealand
+relationship: RO:0001025 HANCESTRO:0051 {all_only="true"} ! Australia/New Zealand
 
 [Term]
 id: http://dbpedia.org/resource/Colombia
 name: Colombia
 xref: GAZ:00002929
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Comoros
 name: Comoros
 xref: GAZ:00005820
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Croatia
 name: Croatia
 xref: GAZ:00002719
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Cuba
 name: Cuba
 xref: GAZ:00003762
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Curacao
 name: Curacao
 xref: GAZ:00012582
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Cyprus
 name: Cyprus
 xref: GAZ:00453362
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Democratic_Republic_of_the_Congo
 name: Democratic Republic of the Congo
 xref: GAZ:00001086
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Denmark
 name: Denmark
 xref: GAZ:00002635
 is_a: NCIT:C25464 ! Country
-relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! part_of Scandinavia
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! Scandinavia
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Djibouti
 name: Djibouti
 xref: GAZ:00000582
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Dominica
 name: Dominica
 xref: GAZ:00006890
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Ecuador
 name: Ecuador
 xref: GAZ:00002912
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Egypt
 name: Egypt
 xref: GAZ:00003934
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
+relationship: RO:0001025 Northern:Africa {all_only="true"} ! Northern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Eritrea
 name: Eritrea
 xref: GAZ:00000581
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Estonia
 name: Estonia
 xref: GAZ:00002959
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Eswatini
 name: Eswatini
 xref: GAZ:00001099
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Africa {all_only="true"} ! located_in Southern Africa
+relationship: RO:0001025 Southern:Africa {all_only="true"} ! Southern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Ethiopia
 name: Ethiopia
 xref: GAZ:00000567
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Europe
@@ -2991,63 +3073,63 @@ id: http://dbpedia.org/resource/Federated_States_of_Micronesia
 name: Micronesia (Federated States of)
 xref: GAZ:00006897
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! located_in Micronesia
+relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! Micronesia
 
 [Term]
 id: http://dbpedia.org/resource/Fiji
 name: Fiji
 xref: GAZ:00006891
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! located_in Melanesia
+relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! Melanesia
 
 [Term]
 id: http://dbpedia.org/resource/Finland
 name: Finland
 xref: GAZ:00002937
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/France
 name: France
 xref: GAZ:00002940
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Europe {all_only="true"} ! located_in Western Europe
+relationship: RO:0001025 Western:Europe {all_only="true"} ! Western Europe
 
 [Term]
 id: http://dbpedia.org/resource/Gabon
 name: Gabon
 xref: GAZ:00001092
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Germany
 name: Germany
 xref: GAZ:00002646
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Europe {all_only="true"} ! located_in Western Europe
+relationship: RO:0001025 Western:Europe {all_only="true"} ! Western Europe
 
 [Term]
 id: http://dbpedia.org/resource/Ghana
 name: Ghana
 xref: GAZ:00000908
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: http://dbpedia.org/resource/Gibraltar
 name: Gibraltar
 xref: GAZ:00003987
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Greece
 name: Greece
 xref: GAZ:00002945
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Greenland
@@ -3060,84 +3142,84 @@ id: http://dbpedia.org/resource/Grenada
 name: Grenada
 xref: GAZ:02000573
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Guadeloupe
 name: Guadeloupe
 xref: GAZ:00067135
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Guam
 name: Guam
 xref: GAZ:00006933
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! located_in Micronesia
+relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! Micronesia
 
 [Term]
 id: http://dbpedia.org/resource/Guatemala
 name: Guatemala
 xref: GAZ:00002936
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:America {all_only="true"} ! located_in Central America
+relationship: RO:0001025 Central:America {all_only="true"} ! Central America
 
 [Term]
 id: http://dbpedia.org/resource/Guinea
 name: Guinea
 xref: GAZ:00000909
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: http://dbpedia.org/resource/Guyana
 name: Guyana
 xref: GAZ:00002522
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Haiti
 name: Haiti
 xref: GAZ:00003953
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Honduras
 name: Honduras
 xref: GAZ:00002894
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:America {all_only="true"} ! located_in Central America
+relationship: RO:0001025 Central:America {all_only="true"} ! Central America
 
 [Term]
 id: http://dbpedia.org/resource/Hungary
 name: Hungary
 xref: GAZ:00002952
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Iceland
 name: Iceland
 xref: GAZ:00000843
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/India
 name: India
 xref: GAZ:00002839
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Indonesia
 name: Indonesia
 xref: GAZ:00003727
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Iran
@@ -3145,98 +3227,98 @@ name: Iran
 synonym: "Iran (Islamic Republic of)" EXACT []
 xref: GAZ:00004474
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Iraq
 name: Iraq
 xref: GAZ:00004483
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Isle_of_Man
 name: Isle of Man
 xref: GAZ:00052477
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Israel
 name: Israel
 xref: GAZ:00002476
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Italy
 name: Italy
 xref: GAZ:00002650
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Jamaica
 name: Jamaica
 xref: GAZ:00003781
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Japan
 name: Japan
 xref: GAZ:00002747
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Asia {all_only="true"} ! located_in Eastern Asia
+relationship: RO:0001025 Eastern:Asia {all_only="true"} ! Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Jordan
 name: Jordan
 xref: GAZ:00002473
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Kazakhstan
 name: Kazakhstan
 xref: GAZ:00004999
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Kenya
 name: Kenya
 xref: GAZ:00001101
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Kiribati
 name: Kiribati
 xref: GAZ:00006894
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! located_in Micronesia
+relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! Micronesia
 
 [Term]
 id: http://dbpedia.org/resource/Kosovo
 name: Kosovo
 xref: GAZ:00011337
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Kuwait
 name: Kuwait
 xref: GAZ:00005285
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Kyrgyzstan
 name: Kyrgyzstan
 xref: GAZ:00006893
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Laos
@@ -3244,7 +3326,7 @@ name: Laos
 synonym: "Lao People's Democratic Republic" EXACT []
 xref: GAZ:00006889
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Latin_America_and_the_Caribbean
@@ -3257,28 +3339,28 @@ id: http://dbpedia.org/resource/Latvia
 name: Latvia
 xref: GAZ:00002958
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Lebanon
 name: Lebanon
 xref: GAZ:00002478
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Lesotho
 name: Lesotho
 xref: GAZ:00001098
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Africa {all_only="true"} ! located_in Southern Africa
+relationship: RO:0001025 Southern:Africa {all_only="true"} ! Southern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Liberia
 name: Liberia
 xref: GAZ:00000911
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: http://dbpedia.org/resource/Libya
@@ -3286,28 +3368,28 @@ name: Libya
 synonym: "Libyan Arab Jamahiriya" EXACT []
 xref: GAZ:00000566
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
+relationship: RO:0001025 Northern:Africa {all_only="true"} ! Northern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Liechtenstein
 name: Liechtenstein
 xref: GAZ:00003858
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Europe {all_only="true"} ! located_in Western Europe
+relationship: RO:0001025 Western:Europe {all_only="true"} ! Western Europe
 
 [Term]
 id: http://dbpedia.org/resource/Lithuania
 name: Lithuania
 xref: GAZ:00002960
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Luxembourg
 name: Luxembourg
 xref: GAZ:00002947
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Europe {all_only="true"} ! located_in Western Europe
+relationship: RO:0001025 Western:Europe {all_only="true"} ! Western Europe
 
 [Term]
 id: http://dbpedia.org/resource/Macau
@@ -3315,56 +3397,56 @@ name: Macau
 synonym: "China, Macao SAR" EXACT []
 xref: GAZ:00003202
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Asia {all_only="true"} ! located_in Eastern Asia
+relationship: RO:0001025 Eastern:Asia {all_only="true"} ! Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Madagascar
 name: Madagascar
 xref: GAZ:00001108
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Malawi
 name: Malawi
 xref: GAZ:00001105
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Malaysia
 name: Malaysia
 xref: GAZ:00003902
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Maldives
 name: Maldives
 xref: GAZ:00006896
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Mali
 name: Mali
 xref: GAZ:00000584
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: http://dbpedia.org/resource/Malta
 name: Malta
 xref: GAZ:00004017
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Martinique
 name: Martinique
 xref: GAZ:00003947
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Mauretania
@@ -3372,42 +3454,42 @@ name: Mauritania
 synonym: "Mauretania" EXACT []
 xref: GAZ:00000583
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
+relationship: RO:0001025 Northern:Africa {all_only="true"} ! Northern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Mauritius
 name: Mauritius
 xref: GAZ:00003745
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Mayotte
 name: Mayotte
 xref: GAZ:00003943
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Melanesia
 name: Melanesia
 xref: GAZ:00005860
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part_of Oceania
+relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! Oceania
 
 [Term]
 id: http://dbpedia.org/resource/Mexico
 name: Mexico
 xref: GAZ:00002852
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:America {all_only="true"} ! located_in Central America
+relationship: RO:0001025 Central:America {all_only="true"} ! Central America
 
 [Term]
 id: http://dbpedia.org/resource/Micronesia
 name: Micronesia
 xref: GAZ:00005862
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part_of Oceania
+relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! Oceania
 
 [Term]
 id: http://dbpedia.org/resource/Moldova
@@ -3415,49 +3497,49 @@ name: Moldova
 synonym: "Republic of Moldova" EXACT []
 xref: GAZ:00003897
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Monaco
 name: Monaco
 xref: GAZ:00003857
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Europe {all_only="true"} ! located_in Western Europe
+relationship: RO:0001025 Western:Europe {all_only="true"} ! Western Europe
 
 [Term]
 id: http://dbpedia.org/resource/Mongolia
 name: Mongolia
 xref: GAZ:00008744
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Asia {all_only="true"} ! located_in Eastern Asia
+relationship: RO:0001025 Eastern:Asia {all_only="true"} ! Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Montenegro
 name: Montenegro
 xref: GAZ:00006898
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Montserrat
 name: Montserrat
 xref: GAZ:00003988
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Morocco
 name: Morocco
 xref: GAZ:00000565
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
+relationship: RO:0001025 Northern:Africa {all_only="true"} ! Northern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Mozambique
 name: Mozambique
 xref: GAZ:00001100
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Myanmar
@@ -3465,63 +3547,63 @@ name: Myanmar
 synonym: "Burma" EXACT []
 xref: GAZ:00006899
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Namibia
 name: Namibia
 xref: GAZ:00001096
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Africa {all_only="true"} ! located_in Southern Africa
+relationship: RO:0001025 Southern:Africa {all_only="true"} ! Southern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Nauru
 name: Nauru
 xref: GAZ:00006900
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! located_in Micronesia
+relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! Micronesia
 
 [Term]
 id: http://dbpedia.org/resource/Nepal
 name: Nepal
 xref: GAZ:00004399
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Netherlands
 name: Netherlands
 xref: GAZ:00001549
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Europe {all_only="true"} ! located_in Western Europe
+relationship: RO:0001025 Western:Europe {all_only="true"} ! Western Europe
 
 [Term]
 id: http://dbpedia.org/resource/Nicaragua
 name: Nicaragua
 xref: GAZ:00002978
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:America {all_only="true"} ! located_in Central America
+relationship: RO:0001025 Central:America {all_only="true"} ! Central America
 
 [Term]
 id: http://dbpedia.org/resource/Niger
 name: Niger
 xref: GAZ:00000585
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: http://dbpedia.org/resource/Nigeria
 name: Nigeria
 xref: GAZ:00000912
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: http://dbpedia.org/resource/Niue
 name: Niue
 xref: GAZ:00006902
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 property_value: IAO:0000118 "Niue Fekai" xsd:string
 
 [Term]
@@ -3529,15 +3611,15 @@ id: http://dbpedia.org/resource/Northern_Mariana_Islands
 name: Northern Mariana Islands
 xref: GAZ:00003958
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! located_in Micronesia
+relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! Micronesia
 
 [Term]
 id: http://dbpedia.org/resource/Norway
 name: Norway
 xref: GAZ:00002699
 is_a: NCIT:C25464 ! Country
-relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! part_of Scandinavia
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! Scandinavia
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 property_value: IAO:0000118 "Kingdom of Norway" xsd:string
 
 [Term]
@@ -3551,56 +3633,56 @@ id: http://dbpedia.org/resource/Oman
 name: Oman
 xref: GAZ:00005283
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Pakistan
 name: Pakistan
 xref: GAZ:00005246
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Palau
 name: Palau
 xref: GAZ:00006905
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! located_in Micronesia
+relationship: RO:0001025 http://dbpedia.org/resource/Micronesia {all_only="true"} ! Micronesia
 
 [Term]
 id: http://dbpedia.org/resource/Panama
 name: Panama
 xref: GAZ:00002892
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:America {all_only="true"} ! located_in Central America
+relationship: RO:0001025 Central:America {all_only="true"} ! Central America
 
 [Term]
 id: http://dbpedia.org/resource/Papua_New_Guinea
 name: Papua New Guinea
 xref: GAZ:00003922
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! located_in Melanesia
+relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! Melanesia
 
 [Term]
 id: http://dbpedia.org/resource/Paraguay
 name: Paraguay
 xref: GAZ:00002933
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Peru
 name: Peru
 xref: GAZ:00002932
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Philippines
 name: Philippines
 xref: GAZ:00004525
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 property_value: IAO:0000118 "The Philippines" xsd:string
 
 [Term]
@@ -3608,21 +3690,21 @@ id: http://dbpedia.org/resource/Poland
 name: Poland
 xref: GAZ:00002939
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Polynesia
 name: Polynesia
 xref: GAZ:00005861
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! part_of Oceania
+relationship: BFO:0000050 http://dbpedia.org/resource/Oceania {all_only="true"} ! Oceania
 
 [Term]
 id: http://dbpedia.org/resource/Portugal
 name: Portugal
 xref: GAZ:00002944
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 property_value: IAO:0000118 "Portugese Republic" xsd:string
 
 [Term]
@@ -3630,7 +3712,7 @@ id: http://dbpedia.org/resource/Qatar
 name: Qatar
 xref: GAZ:00005286
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Republic_of_Ireland
@@ -3638,7 +3720,7 @@ name: Republic of Ireland
 synonym: "Ireland" EXACT []
 xref: GAZ:00002943
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Republic_of_Macedonia
@@ -3646,7 +3728,7 @@ name: Republic of Macedonia
 synonym: "The former Yugoslav Republic of Macedonia" EXACT []
 xref: GAZ:00006895
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Republic_of_the_Congo
@@ -3654,14 +3736,14 @@ name: Republic of the Congo
 synonym: "Congo" EXACT []
 xref: GAZ:00001088
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Romania
 name: Romania
 xref: GAZ:00002951
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Russia
@@ -3675,21 +3757,21 @@ id: http://dbpedia.org/resource/Rwanda
 name: Rwanda
 xref: GAZ:00001087
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Réunion
 name: Réunion
 xref: GAZ:00053746
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Saint_Kitts_and_Nevis
 name: Saint Kitts and Nevis
 xref: GAZ:00006906
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Saint_Pierre_and_Miquelon
@@ -3703,104 +3785,104 @@ id: http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines
 name: Saint Vincent and the Grenadines
 xref: GAZ:02000565
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Samoa
 name: Samoa
 xref: GAZ:00006910
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 
 [Term]
 id: http://dbpedia.org/resource/Scandinavia
 name: Scandinavia
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! part_of Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Europe {all_only="true"} ! Europe
 
 [Term]
 id: http://dbpedia.org/resource/Scotland
 name: Scotland
 xref: GAZ:00002639
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Senegal
 name: Senegal
 xref: GAZ:00000913
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: http://dbpedia.org/resource/Serbia
 name: Serbia
 xref: GAZ:00002957
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Seychelles
 name: Seychelles
 xref: GAZ:00005821
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Singapore
 name: Singapore
 xref: GAZ:00003923
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Slovakia
 name: Slovakia
 xref: GAZ:00002956
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Slovenia
 name: Slovenia
 xref: GAZ:00002955
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Somalia
 name: Somalia
 xref: GAZ:00001104
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/SouthAmerica
 name: South America
 xref: GAZ:00000459
 is_a: HANCESTRO:0002 ! region
-relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! part_of Latin America and the Caribbean
+relationship: BFO:0000050 http://dbpedia.org/resource/Latin_America_and_the_Caribbean {all_only="true"} ! Latin America and the Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Spain
 name: Spain
 xref: GAZ:00000591
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Southern:Europe {all_only="true"} ! located_in Southern Europe
+relationship: RO:0001025 Southern:Europe {all_only="true"} ! Southern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Sudan
 name: Sudan
 xref: GAZ:00000560
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Suriname
 name: Suriname
 xref: GAZ:00002525
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Swaziland
@@ -3813,43 +3895,43 @@ id: http://dbpedia.org/resource/Sweden
 name: Sweden
 xref: GAZ:00002729
 is_a: NCIT:C25464 ! Country
-relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! part_of Scandinavia
-relationship: RO:0001025 Northern:Europe {all_only="true"} ! located_in Northern Europe
+relationship: BFO:0000050 http://dbpedia.org/resource/Scandinavia {all_only="true"} ! Scandinavia
+relationship: RO:0001025 Northern:Europe {all_only="true"} ! Northern Europe
 
 [Term]
 id: http://dbpedia.org/resource/Switzerland
 name: Switzerland
 xref: GAZ:00002941
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Europe {all_only="true"} ! located_in Western Europe
+relationship: RO:0001025 Western:Europe {all_only="true"} ! Western Europe
 
 [Term]
 id: http://dbpedia.org/resource/Syria
 name: Syria
 xref: GAZ:00002474
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/São_Tomé_and_Príncipe
 name: São Tomé and Príncipe
 xref: GAZ:00006927
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Taiwan
 name: Taiwan
 xref: GAZ:00005341
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Asia {all_only="true"} ! located_in Eastern Asia
+relationship: RO:0001025 Eastern:Asia {all_only="true"} ! Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Tajikistan
 name: Tajikistan
 xref: GAZ:00006912
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Tanzania
@@ -3857,98 +3939,98 @@ name: Tanzania
 synonym: "United Republic of Tanzania" EXACT []
 xref: GAZ:00001103
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Thailand
 name: Thailand
 xref: GAZ:00003744
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Togo
 name: Togo
 xref: GAZ:00000915
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Africa {all_only="true"} ! located_in Western Africa
+relationship: RO:0001025 Western:Africa {all_only="true"} ! Western Africa
 
 [Term]
 id: http://dbpedia.org/resource/Tokelau
 name: Tokelau
 xref: GAZ:00006914
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 
 [Term]
 id: http://dbpedia.org/resource/Tonga
 name: Tonga
 xref: GAZ:00006916
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 
 [Term]
 id: http://dbpedia.org/resource/Trinidad_and_Tobago
 name: Trinidad and Tobago
 xref: GAZ:00003767
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Tunisia
 name: Tunisia
 xref: GAZ:00000562
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Northern:Africa {all_only="true"} ! located_in Northern Africa
+relationship: RO:0001025 Northern:Africa {all_only="true"} ! Northern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Turkey
 name: Turkey
 xref: GAZ:00000558
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Turkmenistan
 name: Turkmenistan
 xref: GAZ:00005018
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Turks_and_Caicos_Islands
 name: Turks and Caicos Islands
 xref: GAZ:00003955
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Tuvalu
 name: Tuvalu
 xref: GAZ:00009715
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 
 [Term]
 id: http://dbpedia.org/resource/Uganda
 name: Uganda
 xref: GAZ:00001102
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Term]
 id: http://dbpedia.org/resource/Ukraine
 name: Ukraine
 xref: GAZ:00002724
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Europe {all_only="true"} ! located_in Eastern Europe
+relationship: RO:0001025 Eastern:Europe {all_only="true"} ! Eastern Europe
 
 [Term]
 id: http://dbpedia.org/resource/United_Arab_Emirates
 name: United Arab Emirates
 xref: GAZ:00005282
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/United_States_Virgin_Islands
@@ -3956,42 +4038,42 @@ name: United States Virgin Islands
 synonym: "U.S. Virgin Islands" EXACT []
 xref: GAZ:00003959
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! located_in Caribbean
+relationship: RO:0001025 http://dbpedia.org/resource/Caribbean {all_only="true"} ! Caribbean
 
 [Term]
 id: http://dbpedia.org/resource/Uruguay
 name: Uruguay
 xref: GAZ:00002930
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Uzbekistan
 name: Uzbekistan
 xref: GAZ:00004979
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-central:Asia {all_only="true"} ! located_in South-Central Asia
+relationship: RO:0001025 South-central:Asia {all_only="true"} ! South-Central Asia
 
 [Term]
 id: http://dbpedia.org/resource/Vanuatu
 name: Vanuatu
 xref: GAZ:00006918
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! located_in Melanesia
+relationship: RO:0001025 http://dbpedia.org/resource/Melanesia {all_only="true"} ! Melanesia
 
 [Term]
 id: http://dbpedia.org/resource/Venezuela
 name: Venezuela
 xref: GAZ:00002931
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! located_in South America
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica {all_only="true"} ! South America
 
 [Term]
 id: http://dbpedia.org/resource/Vietnam
 name: Vietnam
 xref: GAZ:00003756
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! located_in South-Eastern Asia
+relationship: RO:0001025 South-Eastern:Asia {all_only="true"} ! South-Eastern Asia
 
 [Term]
 id: http://dbpedia.org/resource/Wallis_and_Futuna
@@ -3999,37 +4081,28 @@ name: Wallis and Futuna
 synonym: "Wallis and Futuna Islands" EXACT []
 xref: GAZ:00007191
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! located_in Polynesia
+relationship: RO:0001025 http://dbpedia.org/resource/Polynesia {all_only="true"} ! Polynesia
 
 [Term]
 id: http://dbpedia.org/resource/Yemen
 name: Yemen
 xref: GAZ:00005284
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Western:Asia {all_only="true"} ! located_in Western Asia
+relationship: RO:0001025 Western:Asia {all_only="true"} ! Western Asia
 
 [Term]
 id: http://dbpedia.org/resource/Zambia
 name: Zambia
 xref: GAZ:00001107
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Central:Africa {all_only="true"} ! located_in Central Africa
+relationship: RO:0001025 Central:Africa {all_only="true"} ! Central Africa
 
 [Term]
 id: http://dbpedia.org/resource/Zimbabwe
 name: Zimbabwe
 xref: GAZ:00001106
 is_a: NCIT:C25464 ! Country
-relationship: RO:0001025 Eastern:Africa {all_only="true"} ! located_in Eastern Africa
-
-[Typedef]
-id: BFO:0000050
-name: part_of
-inverse_of: BFO:0000051 ! has_part
-
-[Typedef]
-id: BFO:0000051
-name: has_part
+relationship: RO:0001025 Eastern:Africa {all_only="true"} ! Eastern Africa
 
 [Typedef]
 id: HANCESTRO:0287
@@ -4039,10 +4112,12 @@ is_obsolete: true
 [Typedef]
 id: HANCESTRO:0301
 name: hasAncestryStatus
+is_a: RO:0000086
 
 [Typedef]
 id: HANCESTRO:0308
 name: hasCountryOfOrigin
+disjoint_from: HANCESTRO:0330 ! isDemonymOf
 
 [Typedef]
 id: HANCESTRO:0329
@@ -4052,13 +4127,4 @@ inverse_of: HANCESTRO:0330 ! isDemonymOf
 [Typedef]
 id: HANCESTRO:0330
 name: isDemonymOf
-
-[Typedef]
-id: RO:0001015
-name: location_of
-inverse_of: RO:0001025 ! located_in
-
-[Typedef]
-id: RO:0001025
-name: located_in
 

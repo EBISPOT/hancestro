@@ -24,6 +24,7 @@ nav:
   - Getting started: index.md
   - Cite: cite.md
   - Frequent asked questions: faq.md
+  - Ontology design pattners: ontology_patterns.md
   - How-to guides:
       - Standard ODK workflows:
           - Overview: odk-workflows/index.md
