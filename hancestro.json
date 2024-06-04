@@ -9,6 +9,12 @@
         "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
         "val" : "http://purl.obolibrary.org/obo/HANCESTRO_0304"
       }, {
+        "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
+        "val" : "'ethnicity category'"
+      }, {
+        "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
+        "val" : "'geographic category'"
+      }, {
         "pred" : "http://purl.org/dc/elements/1.1/description",
         "val" : "Human ancestry ontology for the NHGRI GWAS Catalog"
       }, {
@@ -19,9 +25,9 @@
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-02-07"
+        "val" : "2024-04-25"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2024-02-07/hancestro.json"
+      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2024-04-25/hancestro.json"
     },
     "nodes" : [ {
       "id" : "http://dbpedia.org/resource/Afghanistan",
@@ -2948,7 +2954,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "lbl" : "part_of",
+      "lbl" : "part of",
       "type" : "PROPERTY",
       "meta" : {
         "definition" : {
@@ -3019,7 +3025,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "lbl" : "has_part",
+      "lbl" : "has part",
       "type" : "PROPERTY",
       "meta" : {
         "definition" : {
@@ -3742,7 +3748,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0314",
-      "lbl" : "Sorbian",
+      "lbl" : "Sorb",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0315",
@@ -5024,6 +5030,46 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0599",
+      "lbl" : "ethnicity descriptor",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ethnicity descriptor is descriptor that qualifies a population term as relating to a social, cultural, reglious or tribal group"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0600",
+      "lbl" : "geographic descriptor",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A geographic descriptor is descriptor that qualifies a population term as relating to a geographic location"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0601",
+      "lbl" : "ethnicity category",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Population category defined in terms of cultural, religious, tribal or other social similarities"
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ethnic group"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0602",
+      "lbl" : "geographic category",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Population category defined in relation to a geographic location"
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000111",
       "lbl" : "editor preferred term",
       "type" : "PROPERTY",
@@ -5444,7 +5490,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0001015",
-      "lbl" : "location_of",
+      "lbl" : "location of",
       "type" : "PROPERTY",
       "meta" : {
         "definition" : {
@@ -5472,7 +5518,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0001025",
-      "lbl" : "located_in",
+      "lbl" : "located in",
       "type" : "PROPERTY",
       "meta" : {
         "definition" : {
@@ -5719,6 +5765,32 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000424",
           "val" : "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
+          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "lbl" : "partially overlaps",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "x partially overlaps y iff there exists some z such that z is part of x and z is part of y, and it is also the case that neither x is part of y or y is part of x"
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "We would like to include disjointness axioms with part_of and has_part, however this is not possible in OWL2 as these are non-simple properties and hence cannot appear in a disjointness axiom"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "proper overlaps"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000426",
+          "val" : "(forall (?x ?y) \n\t(iff \n\t\t(proper_overlaps ?x ?y)\n\t\t(and \n\t\t\t(overlaps ?x ?y)\n\t\t\t(not (part_of ?x ?y)) \n\t\t\t(not (part_of ?y ?x)))))"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
           "val" : "http://purl.obolibrary.org/obo/RO_0001901"
@@ -8427,12 +8499,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0019",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Japan"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0020",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0020",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8443,12 +8523,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0021",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/China"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0022",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0022",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0022",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8459,35 +8547,79 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0023",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0023",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Mongolia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0024",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0024",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Macau"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0024",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0025",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0025",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Singapore"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0025",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0026",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0026",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Hong_Kong"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0026",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0027",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0027",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0051",
@@ -8519,39 +8651,59 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0307",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0307",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Italy"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0309",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0309",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0309",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0310",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0310",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0310",
-      "pred" : "is_a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0311",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0311",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0311",
-      "pred" : "is_a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0312",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0312",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0312",
-      "pred" : "is_a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0313",
@@ -8562,6 +8714,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0313",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0314",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
@@ -8569,6 +8725,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0314",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0314",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0315",
       "pred" : "is_a",
@@ -8578,6 +8738,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0315",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0316",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
@@ -8585,6 +8749,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0316",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0316",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0317",
       "pred" : "is_a",
@@ -8601,6 +8769,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0318",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0318",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0319",
       "pred" : "is_a",
@@ -8619,23 +8791,35 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0321",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0321",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Finland"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0322",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0322",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0322",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0321"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0323",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0323",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0323",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0320"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0324",
@@ -8646,9 +8830,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0324",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0331",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0331",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0331",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8659,12 +8851,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0332",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0332",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Western_Sahara"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0333",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0333",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0333",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8675,12 +8875,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0016"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0334",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0334",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Antigua_and_Barbuda"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0335",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0335",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0335",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8691,12 +8899,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0016"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0336",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0336",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Haiti"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0337",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0337",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0337",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8707,12 +8923,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0338",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0338",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Tajikistan"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0339",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0339",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0339",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8723,12 +8947,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0340",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0340",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Uzbekistan"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0341",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0341",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0341",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8739,12 +8971,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0342",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0342",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Kazakhstan"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0343",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0343",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0343",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8755,12 +8995,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0344",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0344",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Albania"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0345",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0345",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0345",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8771,12 +9019,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0346",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0346",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Australia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0347",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0347",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0347",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8787,12 +9043,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0348",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0348",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Belarus"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0349",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0349",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0349",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8803,12 +9067,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0350",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0350",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Bermuda"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0351",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0351",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0351",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8819,12 +9091,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0352",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Brazil"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0353",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0353",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0353",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8835,12 +9115,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0354",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0354",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Canada"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0355",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0355",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0355",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8851,12 +9139,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0356",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0356",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Chile"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0357",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0357",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0357",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8867,12 +9163,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0358",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0358",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Czech_Republic"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0359",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0359",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0359",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8883,12 +9187,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0360",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0360",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Estonia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0361",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0361",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0361",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8899,12 +9211,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0362",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0362",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Falkland_Islands"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0363",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0363",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0363",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8915,12 +9235,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0364",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0364",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Germany"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0365",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0365",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0365",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8931,12 +9259,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0366",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0366",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Greece"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0367",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0367",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0367",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8947,12 +9283,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0368",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0368",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Hungary"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0369",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0369",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0369",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8963,12 +9307,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0370",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0370",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Isle_of_Man"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0371",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0371",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0371",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8979,12 +9331,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0372",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0372",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Liechtenstein"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0373",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0373",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0373",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -8995,12 +9355,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0374",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0374",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Luxembourg"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0375",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0375",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0375",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9011,6 +9379,10 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0376",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0376",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Monaco"
     }, {
@@ -9019,12 +9391,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0377",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0377",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Montenegro"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0378",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0378",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0378",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9039,12 +9419,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0379",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0379",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Norfolk_Island"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0380",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0380",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0380",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9055,12 +9443,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0381",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0381",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Poland"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0382",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0382",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0382",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9071,12 +9467,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0383",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0383",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Republic_of_Ireland"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0384",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0384",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0384",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9087,12 +9491,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0385",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0385",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Romania"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0386",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0386",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0386",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9103,12 +9515,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0387",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0387",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Saint_Pierre_and_Miquelon"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0388",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0388",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0388",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9119,12 +9539,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0389",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0389",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Serbia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0390",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0390",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0390",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9135,12 +9563,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0391",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0391",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Slovenia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0392",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0392",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0392",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9151,12 +9587,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0393",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0393",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Sweden"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0394",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0394",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0394",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9167,12 +9611,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0395",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0395",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Republic_of_Macedonia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0396",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0396",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0396",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9183,12 +9635,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0397",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0397",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Argentina"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0398",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0398",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0398",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9199,12 +9659,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0399",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0399",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Belize"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0400",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0400",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0400",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9215,12 +9683,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0401",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0401",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/British_Virgin_Islands"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0402",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0402",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0402",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9231,12 +9707,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0403",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0403",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Colombia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0404",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0404",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0404",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9247,12 +9731,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0405",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0405",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Cuba"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0406",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0406",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0406",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9263,12 +9755,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0407",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0407",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Ecuador"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0408",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0408",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0408",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9279,12 +9779,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0409",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0409",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/French_Guiana"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0410",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0410",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0410",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9295,12 +9803,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0411",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0411",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Guatemala"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0412",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0412",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0412",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9311,12 +9827,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0413",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0413",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Honduras"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0414",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0414",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0414",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9327,12 +9851,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0415",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0415",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Mexico"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0416",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0416",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0416",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9343,12 +9875,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0417",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0417",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Nicaragua"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0418",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0418",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0418",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9359,12 +9899,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0419",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0419",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Paraguay"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0420",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0420",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0420",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9375,12 +9923,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0421",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0421",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Puerto_Rico"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0422",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0422",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0422",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9391,12 +9947,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0423",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0423",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Saint_Lucia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0424",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0424",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0424",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9407,12 +9971,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0425",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0425",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Suriname"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0426",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0426",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0426",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9423,12 +9995,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0427",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0427",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Turks_and_Caicos_Islands"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0428",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0428",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0428",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9439,12 +10019,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0429",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0429",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Uruguay"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0430",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0430",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0430",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9455,12 +10043,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0431",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0431",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Algeria"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0432",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0432",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0432",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9471,12 +10067,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0433",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0433",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Azerbaijan"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0434",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0434",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0434",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9487,12 +10091,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0435",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0435",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Cyprus"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0436",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0436",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0436",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9503,12 +10115,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0437",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0437",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Georgia_(country)"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0438",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0438",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0438",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9519,12 +10139,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0439",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0439",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Iraq"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0440",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0440",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0440",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9535,12 +10163,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0441",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0441",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Jordan"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0442",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0442",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0442",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9551,12 +10187,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0443",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0443",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Lebanon"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0444",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0444",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0444",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9567,12 +10211,24 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0445",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0445",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Morocco"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0446",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0446",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0446",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0446",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9583,12 +10239,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0447",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0447",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Oman"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0448",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0448",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0448",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9599,12 +10263,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0449",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0449",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Saudi_Arabia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0450",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0450",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0450",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9615,12 +10287,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0451",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0451",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Turkey"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0452",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0452",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0452",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9631,12 +10311,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0453",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0453",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Yemen"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0454",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0454",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0454",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9647,12 +10335,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0455",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0455",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Christmas_Island"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0456",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0456",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0456",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9663,12 +10359,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0457",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0457",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Curacao"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0458",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0458",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0458",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9679,12 +10383,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0459",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0459",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Northern_Mariana_Islands"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0460",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0460",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0460",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9695,12 +10407,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0461",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0461",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Syria"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0462",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0462",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0462",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9711,12 +10431,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0463",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0463",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/United_States"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0464",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0464",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0464",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9727,12 +10455,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0465",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0465",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Cook_Islands"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0466",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0466",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0466",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9743,12 +10479,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0467",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0467",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/French_Polynesia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0468",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0468",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0468",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9759,12 +10503,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0469",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0469",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Kiribati"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0470",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0470",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0470",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9775,12 +10527,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0017"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0471",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0471",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Federated_States_of_Micronesia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0472",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0472",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0472",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9791,12 +10551,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0473",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0473",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/New_Caledonia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0474",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0474",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0474",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9807,12 +10575,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0475",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0475",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Palau"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0476",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0476",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0476",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9823,12 +10599,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0477",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0477",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Pitcairn_Islands"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0478",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0478",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0478",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9839,12 +10623,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0017"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0479",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0479",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Solomon_Islands"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0480",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0480",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0480",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9855,12 +10647,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0481",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0481",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Tonga"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0482",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0482",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0482",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9871,12 +10671,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0483",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0483",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Vanuatu"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0484",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0484",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0484",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9887,12 +10695,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0485",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0485",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Bangladesh"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0486",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0486",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0486",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9903,12 +10719,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0487",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0487",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/India"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0488",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0488",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0488",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9919,12 +10743,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0008"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0489",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0489",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Nepal"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0490",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0490",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0490",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9935,12 +10767,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0491",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0491",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Sri_Lanka"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0492",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0492",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0492",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9951,12 +10791,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0493",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0493",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Cambodia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0494",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0494",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0494",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9967,12 +10815,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0495",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0495",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Laos"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0496",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0496",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0496",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9983,12 +10839,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0497",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0497",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Myanmar"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0498",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0498",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0498",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -9999,12 +10863,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0007"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0500",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0500",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Thailand"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0501",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0501",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0501",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10015,12 +10887,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0007"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0502",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0502",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Vietnam"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0503",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0503",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0503",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10031,12 +10911,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0504",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0504",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Cape_Verde"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0505",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0505",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0505",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10047,12 +10935,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0506",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0506",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Ethiopia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0507",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0507",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0507",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10063,12 +10959,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0508",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0508",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Liberia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0509",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0509",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0509",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10079,12 +10983,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0510",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0510",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Mauretania"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0511",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0511",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0511",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10095,12 +11007,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0512",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0512",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Mayotte"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0513",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0513",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0513",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10111,12 +11031,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0514",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0514",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/São_Tomé_and_Príncipe"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0515",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0515",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0515",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10127,12 +11055,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0516",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0516",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Seychelles"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0517",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0517",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0517",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10143,12 +11079,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0518",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0518",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Somalia"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0519",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0519",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0519",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10159,12 +11103,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0520",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0520",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Saint_Helena"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0521",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0521",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0521",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10175,12 +11127,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0522",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0522",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Angola"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0523",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0523",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0523",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10191,12 +11151,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0524",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0524",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Botswana"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0525",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0525",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0525",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10207,12 +11175,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0526",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0526",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Burundi"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0527",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0527",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0527",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10223,12 +11199,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0528",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0528",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Comoros"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0529",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0529",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0529",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10243,12 +11227,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0530",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0530",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Ivory_Coast"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0531",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0531",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0531",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10259,12 +11251,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0532",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0532",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Equatorial_Guinea"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0533",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0533",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0533",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10275,12 +11275,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0534",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0534",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Gabon"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0535",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0535",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0535",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10291,12 +11299,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0536",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0536",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Ghana"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0537",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0537",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0537",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10307,12 +11323,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0538",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0538",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Guinea_Bissau"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0539",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0539",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0539",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10323,12 +11347,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0540",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0540",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Malawi"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0541",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0541",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0541",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10339,12 +11371,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0542",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0542",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Mozambique"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0543",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0543",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0543",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10355,12 +11395,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0544",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0544",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Nigeria"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0545",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0545",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0545",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10371,12 +11419,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0546",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0546",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Eswatini"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0547",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0547",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0547",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10387,12 +11443,20 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0548",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0548",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Tanzania"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0549",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0549",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0549",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
@@ -10403,15 +11467,23 @@
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0550",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0550",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0330",
       "obj" : "http://dbpedia.org/resource/Zimbabwe"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0551",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0551",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0551",
-      "pred" : "is_a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0383"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0552",
@@ -10440,54 +11512,74 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0556",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0556",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0556",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0557",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0557",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0557",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0404"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0558",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0558",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0558",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0354"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0559",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0559",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0559",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0560",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0560",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0560",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0321"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0561",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0561",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0561",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0561",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0385"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0563",
@@ -10498,9 +11590,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0564",
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0563",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0564",
       "pred" : "is_a",
@@ -10508,18 +11600,22 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0564",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0564",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0357"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0565",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0565",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0565",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0565",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0357"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0566",
@@ -10534,12 +11630,20 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0016"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0568",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0569",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0569",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0290"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0569",
-      "pred" : "is_a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0570",
@@ -10558,6 +11662,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0017"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0573",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0574",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0017"
@@ -10566,28 +11674,80 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0575",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0576",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0576",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0576",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0600"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0577",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0577",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0577",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0578",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0578",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0578",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0579",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0579",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0579",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0580",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0580",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0580",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0581",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0581",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0581",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0582",
@@ -10598,13 +11758,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0009"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0583",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0584",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0584",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0585",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0585",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0586",
       "pred" : "is_a",
@@ -10618,29 +11790,57 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0018"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0588",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0589",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0589",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0590",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0590",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0591",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0591",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0592",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0592",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0593",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0593",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0594",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0594",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0011"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0595",
       "pred" : "is_a",
@@ -10654,9 +11854,41 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0007"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0597",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0598",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0598",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0598",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0487"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0599",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0600",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0601",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0601",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0599"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0602",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000181"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C25464",
       "pred" : "is_a",
@@ -10685,6 +11917,10 @@
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000063",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002222"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0301",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000086"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
       "pred" : "subPropertyOf",
@@ -10785,6 +12021,10 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0002131",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002323"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002131"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002180",
       "pred" : "subPropertyOf",

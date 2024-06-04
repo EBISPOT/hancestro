@@ -18,7 +18,7 @@ Ontology: <http://purl.obolibrary.org/obo/hancestro/hancestro-idranges.owl>
 Annotations: 
     idsfor: "HANCESTRO",
     idprefix: "http://purl.obolibrary.org/obo/HANCESTRO_",
-    iddigits: 7
+    iddigits: 4
 
 AnnotationProperty: idprefix:
 
@@ -37,7 +37,7 @@ Datatype: idrange:1
         allocatedto: "Danielle Welter"
     
     EquivalentTo: 
-        xsd:integer[>= 0 , <= 999999]
+        xsd:integer[>= 0 , <= 9999]
 
     
 Datatype: idrange:2

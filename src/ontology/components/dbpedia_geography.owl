@@ -7,8 +7,13 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/components/dbpedia_geography.owl>
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/hancestro/releases/2024-03-26/components/dbpedia_geography.owl>
 Annotation(owl:versionInfo "2024-03-26")
+=======
+<http://purl.obolibrary.org/obo/hancestro/releases/2024-04-19/components/dbpedia_geography.owl>
+Annotation(owl:versionInfo "2024-04-19")
+>>>>>>> main
 
 Declaration(Class(<http://dbpedia.org/resource/Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Asia>))
