@@ -1,5 +1,5 @@
 ﻿ID,Type,Label,Parent,Part of,Located In
-ID,TYPE,A rdfs:label,SC %,SC 'part of' only %,SC 'located in' only %
+ID,TYPE,A rdfs:label,SC %,SC BFO:0000050 only %,SC RO:0001025 only %
 dbpedia:Africa,class,Africa,GAZ:00000013,,
 dbpedia:Asia,class,Asia,GAZ:00000013,,
 dbpedia:Latin_America_and_the_Caribbean,class,Latin America and the Caribbean,GAZ:00000013,,
