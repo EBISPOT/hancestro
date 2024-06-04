@@ -28,3 +28,7 @@ HANCESTRO:0033,owl:Thing,obsolete Latin America and the Caribbean,TRUE,dbpedia:L
 HANCESTRO:0034,owl:Thing,obsolete Northern America,TRUE,dbpedia:Northern_America
 HANCESTRO:0041,owl:Thing,obsolete South Central Asia,TRUE,dbpedia:South-central_Asia
 HANCESTRO:0042,owl:Thing,obsolete South Eastern Asia,TRUE,dbpedia:South-Eastern_Asia
+HANCESTRO:0591,owl:Thing,obsolete South Eastern Asia,TRUE,AfPO:0000420
+HANCESTRO:0592,owl:Thing,obsolete South Eastern Asia,TRUE,AfPO:0000405
+HANCESTRO:0593,owl:Thing,obsolete South Eastern Asia,TRUE,AfPO:0000056
+HANCESTRO:0594,owl:Thing,obsolete South Eastern Asia,TRUE,AfPO:0000432

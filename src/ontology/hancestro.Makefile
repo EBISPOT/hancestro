@@ -36,10 +36,23 @@ $(IMPORTDIR)/foodon_import.owl: $(MIRRORDIR)/foodon.owl $(IMPORTDIR)/foodon_term
 		$(ANNOTATE_CONVERT_FILE); fi
 
 
-$(IMPORTDIR)/afpo_import.owl: $(MIRRORDIR)/afpo.owl $(IMPORTDIR)/afpo_terms.txt
-	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-		extract -T $(IMPORTDIR)/afpo_terms.txt --force true --copy-ontology-annotations true --individuals include --method STAR \
-		filter $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/afpo_terms.txt --select "self descendants" \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
-		$(ANNOTATE_CONVERT_FILE); fi
+# $(IMPORTDIR)/afpo_import.owl: $(MIRRORDIR)/afpo.owl $(IMPORTDIR)/afpo_terms.txt $(TEMPLATEDIR)/afpo_hierarchy.csv
+# 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+# 		extract -T $(IMPORTDIR)/afpo_terms.txt --force true --copy-ontology-annotations true --individuals include --method TOP \
+# 		filter $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/afpo_terms.txt --select "self descendants" \
+# 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru template --merge-after --template $(TEMPLATEDIR)/afpo_hierarchy.csv \
+# 		$(ANNOTATE_CONVERT_FILE); fi
 		
+# $(IMPORTDIR)/afpo_import.owl: $(MIRRORDIR)/afpo.owl $(IMPORTDIR)/afpo_terms.txt 
+# 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+# 		extract -T $(IMPORTDIR)/afpo_terms.txt --force true --copy-ontology-annotations true --individuals include --method TOP \
+# 		filter $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/afpo_terms.txt --select "self descendants" \
+# 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
+# 		$(ANNOTATE_CONVERT_FILE); fi
+
+$(IMPORTDIR)/afpo_import.owl: $(MIRRORDIR)/afpo.owl $(IMPORTDIR)/afpo_terms.txt 
+	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+		extract -T $(IMPORTDIR)/afpo_terms.txt --force true --copy-ontology-annotations true --individuals exclude --method TOP \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru  \
+		$(ANNOTATE_CONVERT_FILE); fi
+
