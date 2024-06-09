@@ -28,7 +28,14 @@ HANCESTRO:0033,owl:Thing,obsolete Latin America and the Caribbean,TRUE,dbpedia:L
 HANCESTRO:0034,owl:Thing,obsolete Northern America,TRUE,dbpedia:Northern_America
 HANCESTRO:0041,owl:Thing,obsolete South Central Asia,TRUE,dbpedia:South-central_Asia
 HANCESTRO:0042,owl:Thing,obsolete South Eastern Asia,TRUE,dbpedia:South-Eastern_Asia
-HANCESTRO:0591,owl:Thing,obsolete South Eastern Asia,TRUE,AfPO:0000420
-HANCESTRO:0592,owl:Thing,obsolete South Eastern Asia,TRUE,AfPO:0000405
-HANCESTRO:0593,owl:Thing,obsolete South Eastern Asia,TRUE,AfPO:0000056
-HANCESTRO:0594,owl:Thing,obsolete South Eastern Asia,TRUE,AfPO:0000432
+HANCESTRO:0591,owl:Thing,obsolete Esan,TRUE,AfPO:0000420
+HANCESTRO:0592,owl:Thing,obsolete Luhya,TRUE,AfPO:0000405
+HANCESTRO:0593,owl:Thing,obsolete Maasai,TRUE,AfPO:0000056
+HANCESTRO:0594,owl:Thing,obsolete Mende,TRUE,AfPO:0000432
+HANCESTRO:0527,owl:Thing,obsolete Central African,TRUE,AfPO:0000274
+HANCESTRO:0509,owl:Thing,obsolete Malagasy,TRUE,AfPO:0000370
+HANCESTRO:0516,owl:Thing,obsolete Seychellois,TRUE,AfPO:0000180
+HANCESTRO:0518,owl:Thing,obsolete Somali,TRUE,AfPO:0000389
+HANCESTRO:0546,owl:Thing,obsolete Swazi,TRUE,AfPO:0000351
+HANCESTRO:0332,owl:Thing,obsolete Sahrawi,TRUE,AfPO:0000220
+HANCESTRO:0436,owl:Thing,obsolete Egyptian,TRUE,AfPO:0000365

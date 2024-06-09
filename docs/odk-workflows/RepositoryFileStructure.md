@@ -35,3 +35,4 @@ These are the components in HANCESTRO
 | -------- | --- |
 | gaz_xrefs.owl | None |
 | dbpedia_geography.owl | None |
+| afpo_hierarchy.owl | None |

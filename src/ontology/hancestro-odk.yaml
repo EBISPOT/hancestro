@@ -4,7 +4,7 @@ github_org: ebispot
 git_main_branch: main
 repo: hancestro
 report_fail_on: ERROR
-reasoner: hermit
+reasoner: ELK
 documentation: 
   documentation_system: mkdocs
 export_formats:
@@ -25,7 +25,7 @@ import_group:
     - id: bfo
       make_base: TRUE
       module_type: slme
-      module_tyle_slme: BOT
+      module_type_slme: BOT
     - id: ro
       use_base: TRUE
     - id: foodon
@@ -44,6 +44,12 @@ components:
       template_options: '--input hancestro-edit.ofn --prefix "dbpedia: http://dbpedia.org/resource/"'
       templates:
         - dbpedia_geography.csv
+    - filename: afpo_hierarchy.owl
+      use_template: TRUE
+      template_options: '--input hancestro-edit.ofn'
+      templates:
+        - afpo_hierarchy.csv
+
 robot_report:
   release_reports: False
   fail_on: ERROR

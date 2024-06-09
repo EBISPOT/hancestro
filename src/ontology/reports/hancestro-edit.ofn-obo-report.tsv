@@ -266,6 +266,11 @@ WARN	missing_definition	http://dbpedia.org/resource/Western_Sahara	IAO:0000115
 WARN	missing_definition	http://dbpedia.org/resource/Yemen	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Zambia	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Zimbabwe	IAO:0000115	
+WARN	missing_definition	AfPO:0000188	IAO:0000115	
+WARN	missing_definition	AfPO:0000274	IAO:0000115	
+WARN	missing_definition	AfPO:0000275	IAO:0000115	
+WARN	missing_definition	AfPO:0000276	IAO:0000115	
+WARN	missing_definition	AfPO:0000277	IAO:0000115	
 WARN	missing_definition	GAZ:00000013	IAO:0000115	
 WARN	missing_definition	HANCESTRO:0019	IAO:0000115	
 WARN	missing_definition	HANCESTRO:0020	IAO:0000115	

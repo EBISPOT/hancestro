@@ -10,5 +10,6 @@
   <uri name="http://purl.obolibrary.org/obo/hancestro/imports/foodon_import.owl" uri="imports/foodon_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/hancestro/imports/afpo_import.owl" uri="imports/afpo_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/hancestro/components/dbpedia_geography.owl" uri="components/dbpedia_geography.owl"/>   
+  <uri name="http://purl.obolibrary.org/obo/hancestro/components/afpo_hierarchy.owl" uri="components/afpo_hierarchy.owl"/>   
 </group>
 </catalog>
