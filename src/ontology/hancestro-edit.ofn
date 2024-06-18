@@ -4516,10 +4516,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0601> "
 EquivalentClasses(<http://purl.obolibrary.org/obo/HANCESTRO_0601> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0601> <http://purl.obolibrary.org/obo/OBI_0000181>)
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0602> (geographic category)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0602> (geography-based population category)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0602> "Population category defined in relation to a geographic location")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0602> "geographic category"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0602> "Population category defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0602> "geography-based population category"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HANCESTRO_0602> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://purl.obolibrary.org/obo/NCIT_C25464>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0600>)))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0602> <http://purl.obolibrary.org/obo/OBI_0000181>)
 
