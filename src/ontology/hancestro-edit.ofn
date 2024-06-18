@@ -7,7 +7,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro.owl>
-Import(<http://purl.obolibrary.org/obo/hancestro/components/afpo_hierarchy.owl>)
+Import(<http://purl.obolibrary.org/obo/hancestro/components/afpo_annotations.owl>)
 Import(<http://purl.obolibrary.org/obo/hancestro/components/dbpedia_geography.owl>)
 Import(<http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl>)
 Import(<http://purl.obolibrary.org/obo/hancestro/imports/afpo_import.owl>)
@@ -2478,6 +2478,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0021> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0022> "Korean")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0022> <http://purl.obolibrary.org/obo/HANCESTRO_0009>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/North_Korea>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/South_Korea>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0023> (Mongolian)
@@ -2497,7 +2498,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0024> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0025> "Singaporean Chinese")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0025> <http://purl.obolibrary.org/obo/HANCESTRO_0009>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Singapore>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0021>))
 
@@ -2505,7 +2505,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0025> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0026> "Hong Kong Chinese")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0026> <http://purl.obolibrary.org/obo/HANCESTRO_0009>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Hong_Kong>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0021>))
 
@@ -3303,6 +3302,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0405> ObjectSomeValuesFrom(
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0406> "Dominican"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0406> <http://purl.obolibrary.org/obo/HANCESTRO_0014>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Dominica>))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Dominican_Republic>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0407> (Ecuadorian)
 

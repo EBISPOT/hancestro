@@ -44,12 +44,11 @@ components:
       template_options: '--input hancestro-edit.ofn --prefix "dbpedia: http://dbpedia.org/resource/"'
       templates:
         - dbpedia_geography.csv
-    - filename: afpo_hierarchy.owl
+    - filename: afpo_annotations.owl
       use_template: TRUE
-      template_options: '--input hancestro-edit.ofn'
+      template_options: '--prefix "HANCESTRO: http://purl.obolibrary.org/obo/HANCESTRO_" --prefix "RO: http://purl.obolibrary.org/obo/RO_"'
       templates:
-        - afpo_hierarchy.csv
-
+        - afpo_annotations.csv
 robot_report:
   release_reports: False
   fail_on: ERROR

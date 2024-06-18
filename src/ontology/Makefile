@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                9f00151376ec4ed3cdfa7912b65a63e0c0860a5494bcac9edba97bed9d586894
+CONFIG_HASH=                683364d8a27c3adc81b590eeef487b7574a5a09bfbb390776ad25158eaeca464
 
 
 # ----------------------------------------
@@ -54,7 +54,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/gaz_xrefs.owl $(COMPONENTSDIR)/dbpedia_geography.owl $(COMPONENTSDIR)/afpo_hierarchy.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/gaz_xrefs.owl $(COMPONENTSDIR)/dbpedia_geography.owl $(COMPONENTSDIR)/afpo_annotations.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -459,12 +459,12 @@ $(COMPONENTSDIR)/dbpedia_geography.owl: $(TEMPLATEDIR)/dbpedia_geography.csv
 .PRECIOUS: $(COMPONENTSDIR)/dbpedia_geography.owl
 
 
-$(COMPONENTSDIR)/afpo_hierarchy.owl: $(TEMPLATEDIR)/afpo_hierarchy.csv
-	if [ $(COMP) = true ] ; then $(ROBOT) template --input hancestro-edit.ofn \
+$(COMPONENTSDIR)/afpo_annotations.owl: $(TEMPLATEDIR)/afpo_annotations.csv
+	if [ $(COMP) = true ] ; then $(ROBOT) template --prefix "HANCESTRO: http://purl.obolibrary.org/obo/HANCESTRO_" --prefix "RO: http://purl.obolibrary.org/obo/RO_" \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
-.PRECIOUS: $(COMPONENTSDIR)/afpo_hierarchy.owl
+.PRECIOUS: $(COMPONENTSDIR)/afpo_annotations.owl
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
