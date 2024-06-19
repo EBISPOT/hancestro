@@ -613,6 +613,28 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0600>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0601>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0602>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0610>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0611>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0612>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0613>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0614>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0615>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0616>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0617>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0618>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0619>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0620>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0621>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0622>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0623>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0624>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0625>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0626>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0627>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0628>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0629>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0630>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0631>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25464>))
 Declaration(Class(<http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh>))
 Declaration(Class(owl:Thing))
@@ -2311,14 +2333,6 @@ SubClassOf(<http://dbpedia.org/resource/Georgia_(country)> ObjectAllValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000180> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Seychelles>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000220> (Sahrawi)
-
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Western_Sahara>))
-
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000274> (Central African)
-
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000274> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Central_African_Republic>))
-
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000351> (Swazi)
 
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000351> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Eswatini>))
@@ -2326,10 +2340,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000351> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000365> (Egyptian)
 
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000365> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Egypt>))
-
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000370> (Malagasy)
-
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000370> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Madagascar>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000389> (Somali)
 
@@ -2412,20 +2422,20 @@ This category also includes individuals who genetically cluster with reference p
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0011> "Sub-Saharan African")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0011> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0013> (Native American)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0013> (Indigenous American)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0013> "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0013> "American Indian")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0013> "Native American"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/HANCESTRO_0013> "Class previously labelled as \"Native American\". Use of this term, alongside other terms such as \"First Nations\", should be discontinued in favour of the more appropriate \"Indigenous American\", which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0013> "Indigenous American"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0013> <http://purl.obolibrary.org/obo/HANCESTRO_0004>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0014> (Hispanic or Latin American)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0014> (Latin or Admixed American)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0014> "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations
-from this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0014> "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/HANCESTRO_0014> "Jackie MacArthur")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/HANCESTRO_0014> "Joannella Morales")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0014> "Hispanic or Latin American")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0014> "Latin or Admixed American")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0014> <http://purl.obolibrary.org/obo/HANCESTRO_0004>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0306>))
 
@@ -2694,7 +2704,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0290> "founder population")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0290> "population isolate")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0290> "genetically isolated population"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/HANCESTRO_0290> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/HANCESTRO_0290> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0290> <http://purl.obolibrary.org/obo/HANCESTRO_0004>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0304> (ancestry status)
@@ -2726,68 +2736,68 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0307> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0309> "Sardinian"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0309> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0307>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0309> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0309> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Italy>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0310> (Val Borbera)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0310> "Val Borbera"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0310> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0307>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0310> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0310> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Italy>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0311> (Friuli Venezia Giulia)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0311> "Friuli Venezia Giulia"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0311> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0307>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0311> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0311> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Italy>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0312> (Carlantino)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0312> "Carlantino"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0312> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0307>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0312> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0312> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Italy>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0313> (Old Order Amish)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0313> "Old Order Amish"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0313> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0313> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 DisjointClasses(<http://purl.obolibrary.org/obo/HANCESTRO_0313> <http://purl.obolibrary.org/obo/HANCESTRO_0316>)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0314> (Sorb)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0314> "Sorb"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0314> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0314> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0315> (Hutterite)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0315> "Hutterite"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0315> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0315> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0316> (Amish)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0316> "Amish"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0316> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0316> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0317> (Erasmus Rucphen)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0317> "Erasmus Rucphen"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0317> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0317> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0317> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Netherlands>))
 DisjointClasses(<http://purl.obolibrary.org/obo/HANCESTRO_0317> <http://purl.obolibrary.org/obo/HANCESTRO_0323>)
 
@@ -2795,21 +2805,22 @@ DisjointClasses(<http://purl.obolibrary.org/obo/HANCESTRO_0317> <http://purl.obo
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0318> "Orcadian"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0318> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0318> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0318> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Scotland>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0319> (Korculan)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0319> (Korčulan)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0319> "Korculan"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0319> "Korčulan"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0319> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0319> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0319> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Croatia>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0320> (Dutch)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0320> "Dutch"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0320> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Netherlands>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0321> (Finnish)
 
@@ -2821,24 +2832,24 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0321> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0322> "Finnish founder"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0322> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0321>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0322> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0322> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Finland>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0323> (Dutch founder)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0323> "Dutch founder"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0323> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0320>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0323> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0323> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Netherlands>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0324> (Ashkenazi Jew)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0324> "Ashkenazi Jew")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0324> <http://purl.obolibrary.org/obo/HANCESTRO_0018>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0324> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0328> (obsolete_Caribbean)
 
@@ -2998,7 +3009,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0355> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0356> (Chilean)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0356> "Chilean"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0356> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0356> <http://purl.obolibrary.org/obo/HANCESTRO_0014>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0356> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Chile>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0357> (Croatian)
@@ -3127,9 +3138,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0377> "
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0377> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0377> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Montenegro>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0378> (New Zealandish)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0378> (New Zealander)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0378> "New Zealandish"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0378> "New Zealander"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0378> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0378> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/New_Zealand>))
 
@@ -3137,8 +3148,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0378> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0379> "Norfolk Islander"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0379> <http://purl.obolibrary.org/obo/HANCESTRO_0018>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0379> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0379> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Norfolk_Island>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0379> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0379> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> ObjectIntersectionOf(<http://dbpedia.org/resource/Polynesia> <http://dbpedia.org/resource/United_Kingdom>)))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0380> (Norwegian)
@@ -3282,7 +3293,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0402> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0403> (Colombian)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0403> "Colombian"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0403> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0403> <http://purl.obolibrary.org/obo/HANCESTRO_0014>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Colombia>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0404> (Costa Rican)
@@ -3385,7 +3396,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0419> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0420> (Peruvian)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0420> "Peruvian"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0420> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0420> <http://purl.obolibrary.org/obo/HANCESTRO_0014>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0420> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Peru>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0421> (Puerto Rican)
@@ -3440,7 +3451,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0428> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0429> (Uruguayan)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0429> "Uruguayan"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0429> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0429> <http://purl.obolibrary.org/obo/HANCESTRO_0014>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0429> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Uruguay>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0430> (Venezuelan)
@@ -3544,7 +3555,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0445> ObjectSomeValuesFrom(
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0446> "Palestinian"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0446> <http://purl.obolibrary.org/obo/HANCESTRO_0015>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Palestinian_territories>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0447> (Omani)
 
@@ -4173,8 +4183,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0550> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0551> "Irish founder")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0551> "genetically homogenous Irish"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0551> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0551> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0551> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0383>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0551> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0551> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Republic_of_Ireland>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0552> (Aboriginal Australian)
@@ -4182,6 +4192,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0551> ObjectAllValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0552> "Includes individuals who either self-report or have been described by authors as Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0552> "Aboriginal Australian")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0552> <http://purl.obolibrary.org/obo/HANCESTRO_0004>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0552> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0553> (obsolete_Circumpolar people)
 
@@ -4195,84 +4206,85 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_055
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0554> "Silk Road founder")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0554> <http://purl.obolibrary.org/obo/HANCESTRO_0018>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0554> <http://purl.obolibrary.org/obo/HANCESTRO_0286>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0554> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0554> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0555> (Arab Israeli founder)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0555> "Israeli Arab")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0555> "Arab Israeli founder")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0555> <http://purl.obolibrary.org/obo/HANCESTRO_0015>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0555> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0555> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0556> (Cilento)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0556> "Cilento")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0556> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0556> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0556> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0307>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0556> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0556> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Italy>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0557> (Costa Rican founder)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0557> "Individuals who have at least six great-grandparents born in the Central Valley of Costa Rica, to ensure descent from the founder population, composed primarily of Europeans and Native Americans")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/HANCESTRO_0557> "PMID:25584925")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0557> "Costa Rican founder")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0557> <http://purl.obolibrary.org/obo/HANCESTRO_0014>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0557> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0557> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0404>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0557> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0557> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Costa_Rica>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0558> (French Canadian founder)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0558> "French Canadian founder")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0558> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0558> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0600>)))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0558> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0558> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0354>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0558> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0558> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Canada>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0559> (Italian founder)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0559> "Italian founder")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0559> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0559> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0559> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0307>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0559> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0559> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Italy>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0560> (Northern Finnish founder)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0560> "Northern Finnish founder")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0560> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0560> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0560> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0321>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0560> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0560> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Finland>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0561> (Romanian founder)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0561> "Romanian founder")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0561> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0561> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0561> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0385>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0561> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0561> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Romania>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0563> (South Tyrolean)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0563> "South Tyrolean")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0563> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0563> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0563> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0563> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0564> (Vis founder)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0564> "Vis founder")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0564> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0564> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0564> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0357>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0564> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0565> (Split founder)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0565> "Split founder")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0565> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0565> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0565> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0357>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0565> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0566> (undefined ancestry population)
 
@@ -4285,6 +4297,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0566> <http://purl.obolibra
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0567> "African Caribbean")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0567> "Afro-Caribbean")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0567> <http://purl.obolibrary.org/obo/HANCESTRO_0016>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0567> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0568> (African American)
 
@@ -4296,24 +4309,29 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0568> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0569> "Talana")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0569> <http://purl.obolibrary.org/obo/HANCESTRO_0005>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0569> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0569> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0307>))
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0569> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0301> <http://purl.obolibrary.org/obo/HANCESTRO_0305>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0569> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Italy>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0570> (Pima Indian)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0570> "Individuals who self-identify or are reported by authors as belonging to")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0570> "Pima Indian")
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0570> <http://purl.obolibrary.org/obo/HANCESTRO_0013>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0570> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0570> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0571> (Plains American Indian)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0571> "Individuals who self-identify or are reported by authors as belonging to")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0571> "Plains American Indian")
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0571> <http://purl.obolibrary.org/obo/HANCESTRO_0013>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0571> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0572> (Kosraen)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0572> (Kosraean)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0572> "Kosraen")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0572> "Kosraean")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0572> <http://purl.obolibrary.org/obo/HANCESTRO_0017>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0572> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0573> (Native Hawaiian)
 
@@ -4325,6 +4343,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0573> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0574> "Pacific Islander")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0574> <http://purl.obolibrary.org/obo/HANCESTRO_0017>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0574> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0575> (Yoruban)
 
@@ -4378,6 +4397,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0581> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0582> "Tibetan")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0582> <http://purl.obolibrary.org/obo/HANCESTRO_0009>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0582> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0583> (Taiwanese Han)
 
@@ -4402,6 +4422,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0585> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0586> "Bashkir")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0586> <http://purl.obolibrary.org/obo/HANCESTRO_0018>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0586> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0587> (Martu Australian Aboriginal)
 
@@ -4412,6 +4433,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/HANCESTRO_0587> "PMID:27070114")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0587> "Martu Australian Aboriginal")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0587> <http://purl.obolibrary.org/obo/HANCESTRO_0552>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0588> (Jewish Israeli)
 
@@ -4468,6 +4490,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/HANCESTRO_0595> "Class previously labelled as \"Eskimo\", which is outdated and culturally inappropriate. Outdated label may be added as an appropriately flagged synonym at a later stage.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0595> "Inuit")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0595> <http://purl.obolibrary.org/obo/HANCESTRO_0018>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0596> (Arab)
 
@@ -4476,6 +4499,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/HANCESTRO_0596> "PMID:28106113")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0596> "Arab")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0596> <http://purl.obolibrary.org/obo/HANCESTRO_0015>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0596> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0597> (Singaporean Malay)
 
@@ -4522,6 +4546,159 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0602> "geography-based population category"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HANCESTRO_0602> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://purl.obolibrary.org/obo/NCIT_C25464>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0600>)))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0602> <http://purl.obolibrary.org/obo/OBI_0000181>)
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0610> (Indigenous in North America)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0610> "Includes indigenous individuals of North and Central America, descended from the original human migration into the Americas from Siberia."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0610> "American Indian")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0610> "Indigenous in North America"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0610> <http://purl.obolibrary.org/obo/HANCESTRO_0013>)
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0611> (Indigenous in South America)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0611> "Includes indigenous individuals of Central and South America, descended from the original human migration into the Americas from Siberia."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0611> "Indigenous in South America"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0611> <http://purl.obolibrary.org/obo/HANCESTRO_0013>)
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0612> (Hispanic)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0612> "Hispanic"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0612> <http://purl.obolibrary.org/obo/HANCESTRO_0014>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0612> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0613> (Otomi)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0613> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0613> "Otomi"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0613> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0613> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0614> (Maya)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0614> "Individuals who self-identify or are reported by authors as belonging to the Mayan ethnolinguistic group of indigenous peoples of Mesoamerica.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0614> "Maya"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0614> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0614> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0615> (Zapoteco)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0615> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0615> "Zapoteco"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0615> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0615> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0616> (Mazateco)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0616> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0616> "Mazateco"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0616> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0616> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0617> (Raramuri)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0617> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0617> "Raramuri"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0617> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0617> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0618> (Nahua)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0618> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0618> "Nahua"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0618> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0618> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0619> (Mixteco)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0619> "Individuals who self-identify or are reported by authors as belonging to indigenous Mesoamerican peoples of Mexico inhabiting the region known as La Mixteca of Oaxaca and Puebla as well as La Montaña Region and Costa Chica Regions of the state of Guerrero")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0619> "Mixtec")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0619> "Mixteco"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0619> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0619> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0620> (Wayúu)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0620> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0620> "Wayúu"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0620> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0621> (Piapoco)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0621> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0621> "Piapoco"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0621> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0622> (Pastos)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0622> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0622> "Pastos"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0622> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0623> (Quechua)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0623> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0623> "Quechua"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0623> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0624> (Aymara)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0624> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0624> "Aymara"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0624> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0624> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0625> (Diaguita)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0625> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0625> "Diaguita"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0625> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0625> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0626> (Mapuche)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0626> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0626> "Mapuche"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0626> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0626> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0627> (Guaraní-Mbyá)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0627> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0627> "Guaraní-Mbyá"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0627> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0627> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0628> (Tupinquim)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Tupinquim"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0628> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0628> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0629> (Moche-Chimu)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0629> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0629> "Moche-Chimu"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0629> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0629> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0630> (Ica)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0630> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0630> "Ica"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0630> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0630> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0631> (Asháninka)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0631> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0631> "Asháninka"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0631> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0631> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/NCIT_C25464> (Country)
 

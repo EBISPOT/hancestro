@@ -403,7 +403,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000579>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000580>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0599>))
-Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0600>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
 
 ############################
@@ -734,7 +733,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000187> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000188> "Eastern African")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000188> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000188> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0600>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000189> (Berber Western)
 
@@ -1055,25 +1053,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000273> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000274> "Central African")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000274> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000274> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0600>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000275> (Northern African)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000275> "Northern African")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000275> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000275> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0600>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000276> (Southern African)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000276> "Southern African")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000276> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000276> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0600>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000277> (Western African)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000277> "Western African")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000277> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000277> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0600>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000278> (Kanuri)
 
@@ -1428,7 +1422,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000364> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000365> (Egyptian)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000365> "Egyptian")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000365> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000366> (Haratin)
 
@@ -2387,10 +2380,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0010> "
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0599> (ethnicity descriptor)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0599> "ethnicity descriptor")
-
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0600> (geographic descriptor)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0600> "geographic descriptor")
 
 
 )
