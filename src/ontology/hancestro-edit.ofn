@@ -730,9 +730,9 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/HANCESTRO_0287> (hasEthnicPopulation)
+# Object Property: <http://purl.obolibrary.org/obo/HANCESTRO_0287> (obsolete hasEthnicPopulation)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0287> "hasEthnicPopulation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0287> "obsolete hasEthnicPopulation"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0287> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/HANCESTRO_0301> (hasAncestryStatus)
