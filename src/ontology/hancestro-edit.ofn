@@ -632,7 +632,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0625>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0626>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0627>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0628>))
-Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0629>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0630>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0631>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25464>))
@@ -4313,17 +4312,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0569> ObjectSomeValuesFrom(
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0569> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0307>))
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0569> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Italy>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0570> (Pima Indian)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0570> (Akimel O'odham)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0570> "Individuals who self-identify or are reported by authors as belonging to")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0570> "Pima Indian")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0570> "Individuals who self-identify or are reported by authors as belonging to a group of indigenous Americans living in an area consisting of what is now central and southern Arizona, as well as northwestern Mexico in the states of Sonora and Chihuahua. The majority population of the two current bands of the Akimel O'odham in the United States are based in two reservations: the Keli Akimel Oʼodham on the Gila River Indian Community (GRIC) and the On'k Akimel O'odham on the Salt River Pima-Maricopa Indian Community (SRPMIC).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0570> "Akimel O'otham")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0570> "Pima")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0570> "Pima Indian")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0570> "Akimel O'odham")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0570> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0570> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0571> (Plains American Indian)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0571> (Plains Indians)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0571> "Individuals who self-identify or are reported by authors as belonging to")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0571> "Plains American Indian")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0571> "Individuals who self-identify or are reported by authors as belonging to the indigenous peoples who have historically lived on the Interior Plains (the Great Plains and Canadian Prairies) of North America")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0571> "Plains American Indian")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0571> "Plains Indians")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0571> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
@@ -4568,7 +4571,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0612> ObjectSomeValuesFrom(
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0613> (Otomi)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0613> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0613> "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of Mexico inhabiting the central Mexican Plateau (Altiplano) region.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0613> "Otomi"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0613> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0613> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
@@ -4582,28 +4585,29 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0614> ObjectSomeValuesFrom(
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0615> (Zapoteco)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0615> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0615> "Individuals who self-identify or are reported by authors as belonging to the Zapotec ethnolinguistic group of indigenous people of Mexico. The Zapotec population is concentrated in the southern state of Oaxaca, but Zapotec communities also exist in neighboring states")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0615> "Zapoteco"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0615> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0615> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0616> (Mazateco)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0616> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0616> "Individuals who self-identify or are reported by authors as belonging to the Mazatecan ethnolinguistic group of indigenous peoples in the area known as the Sierra Mazateca, which is in the northern part of the state of Oaxaca in southern Mexico, as well as in adjacent areas of the states of Puebla and Veracruz")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0616> "Mazateco"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0616> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0616> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0617> (Raramuri)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0617> (Rarámuri)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0617> "Individuals who self-identify or are reported by authors as belonging to")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0617> "Raramuri"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0617> "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of the Americas living in the state of Chihuahua in Mexico")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0617> "Tarahumara")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0617> "Rarámuri"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0617> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0617> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0618> (Nahua)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0618> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0618> "Individuals who self-identify or are reported by authors as belonging to a group of the indigenous people of Mexico, El Salvador, Guatemala, Honduras, and Nicaragua")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0618> "Nahua"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0618> <http://purl.obolibrary.org/obo/HANCESTRO_0610>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0618> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
@@ -4618,84 +4622,92 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0619> ObjectSomeValuesFrom(
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0620> (Wayúu)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0620> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0620> "Individuals who self-identify or are reported by authors as belonging to the Wayúu indigenous people of the Guajira Peninsula in northernmost part of Colombia and northwest Venezuela.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0620> "Guajiro")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0620> "Wahiro")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0620> "Wayu")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0620> "Wayuu")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0620> "Wayúu"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0620> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0621> (Piapoco)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0621> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0621> "Individuals who self-identify or are reported by authors as belonging to an Arawakan ethnolinguistic group in Colombia and Venezuela")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0621> "Piapoco"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0621> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0622> (Pastos)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0622> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0622> "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people native to the Nariño region of southern Colombia and neighbouring Equador")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0622> "Pastos"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0622> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0623> (Quechua)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0623> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0623> "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of South America who speak the Quechua languages. Although most Quechua speakers are native to Peru, there are some significant populations in Ecuador, Bolivia, Chile, Colombia, and Argentina")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0623> "Quichua")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0623> "Quechua"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0623> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0624> (Aymara)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0624> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0624> "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people in the Andes and Altiplano regions of South America; about 2.3 million live in northwest Argentina, Bolivia, Chile and Peru.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0624> "Aimara")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0624> "Aymara"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0624> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0624> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0625> (Diaguita)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0625> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0625> "Individuals who self-identify or are reported by authors as belonging to a group of South American indigenous people native to the Chilean Norte Chico and the Argentine Northwest.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0625> "Diaguita"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0625> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0625> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0626> (Mapuche)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0626> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0626> "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of present-day south-central Chile and southwestern Argentina, including parts of present-day Patagonia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0626> "Mapuche"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0626> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0626> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0627> (Guaraní-Mbyá)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0627> (Guaraní)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0627> "Individuals who self-identify or are reported by authors as belonging to")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0627> "Guaraní-Mbyá"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0627> "Individuals who self-identify or are reported by authors as belonging to a group of culturally-related indigenous peoples of South America, living primarily in present-day Paraguay between the Paraná River and lower Paraguay River, the Misiones Province of Argentina, southern Brazil as far east as Rio de Janeiro, and parts of Uruguay and Bolivia.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0627> "Guaraní-Mbyá")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0627> "Guaraní"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0627> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0627> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0628> (Tupinquim)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0628> (Tupiniquim)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Individuals who self-identify or are reported by authors as belonging to")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Tupinquim"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Individuals who self-identify or are reported by authors as belonging to an indigenous people of Brazil, who now live in three indigenous territories (Terras Indígenas in Portuguese), Caieiras Velhas, Pau-Brasil and Comboiosare, located near the cities of Santa Cruz and Vila do Riacho in the municipality of Aracruz in northern Espírito Santo state, southeastern Brazil.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Topinaquis")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Tupinanquins")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Tupinaquis")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Tupiniquins")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Tupinã-ki")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0628> "Tupiniquim"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0628> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0628> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0629> (Moche-Chimu)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0630> (Arhuaco)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0629> "Individuals who self-identify or are reported by authors as belonging to")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0629> "Moche-Chimu"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0629> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0629> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
-
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0630> (Ica)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0630> "Individuals who self-identify or are reported by authors as belonging to")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0630> "Ica"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0630> "Individuals who self-identify or are reported by authors as belonging to an Chibchan-speaking indigenous people of Colombia, descended from the Tairona culture, concentrated in northern Colombia in the Sierra Nevada de Santa Marta.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0630> "Ica"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0630> "Ika")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0630> "Arhuaco")
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0630> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0630> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0631> (Asháninka)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0631> "Individuals who self-identify or are reported by authors as belonging to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0631> "Individuals who self-identify or are reported by authors as belonging to an indigenous people living in the rainforests of Peru and in the State of Acre, Brazil. Their ancestral lands are in the forests of Junín, Pasco, Huánuco and part of Ucayali in Peru.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0631> "Asháninca")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0631> "Asháninka"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0631> <http://purl.obolibrary.org/obo/HANCESTRO_0611>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0631> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
