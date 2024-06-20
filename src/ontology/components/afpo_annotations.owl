@@ -409,1532 +409,1914 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000086> "has 
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000056> (<http://purl.obolibrary.org/obo/AfPO_0000056>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000056> (Maasai)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000056> "Maasai")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000057> (<http://purl.obolibrary.org/obo/AfPO_0000057>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000057> (Samburu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000057> "Samburu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000057> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000058> (<http://purl.obolibrary.org/obo/AfPO_0000058>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000058> (Tiv)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000058> "Tiv")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000060> (<http://purl.obolibrary.org/obo/AfPO_0000060>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000060> (Nama)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000060> "Nama")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000064> (<http://purl.obolibrary.org/obo/AfPO_0000064>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000064> (Susu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000064> "Susu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000066> (<http://purl.obolibrary.org/obo/AfPO_0000066>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000066> (Taveta)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000066> "Taveta")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000067> (<http://purl.obolibrary.org/obo/AfPO_0000067>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000067> (Bassa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000067> "Bassa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000069> (<http://purl.obolibrary.org/obo/AfPO_0000069>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000069> (Zulu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000069> "Zulu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000071> (<http://purl.obolibrary.org/obo/AfPO_0000071>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000071> (Dinka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000071> "Dinka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000074> (<http://purl.obolibrary.org/obo/AfPO_0000074>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000074> (Bambara)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000074> "Bambara")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000075> (<http://purl.obolibrary.org/obo/AfPO_0000075>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000075> (Sebei)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000075> "Sebei")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000080> (<http://purl.obolibrary.org/obo/AfPO_0000080>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000080> (Masalit)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000080> "Masalit")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000084> (<http://purl.obolibrary.org/obo/AfPO_0000084>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000084> (Bulu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000084> "Bulu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000085> (<http://purl.obolibrary.org/obo/AfPO_0000085>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000085> (Taita)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000085> "Taita")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000087> (<http://purl.obolibrary.org/obo/AfPO_0000087>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000087> (Igbo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000087> "Igbo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000088> (<http://purl.obolibrary.org/obo/AfPO_0000088>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000088> (Kikuyu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000088> "Kikuyu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000091> (<http://purl.obolibrary.org/obo/AfPO_0000091>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000091> (Terik)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000091> "Terik")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000095> (<http://purl.obolibrary.org/obo/AfPO_0000095>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000095> (Anuak)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000095> "Anuak")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000098> (<http://purl.obolibrary.org/obo/AfPO_0000098>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000098> (Nandi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000098> "Nandi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000098> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000102> (<http://purl.obolibrary.org/obo/AfPO_0000102>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000102> (Lunda)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000102> "Lunda")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000103> (<http://purl.obolibrary.org/obo/AfPO_0000103>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000103> (Tsonga)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000103> "Tsonga")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000103> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000104> (<http://purl.obolibrary.org/obo/AfPO_0000104>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000104> (Fulani)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000104> "Fulani")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000105> (<http://purl.obolibrary.org/obo/AfPO_0000105>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000105> (Yoruba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000105> "Yoruba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000105> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000107> (<http://purl.obolibrary.org/obo/AfPO_0000107>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000107> (Zaghawa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000107> "Zaghawa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000109> (<http://purl.obolibrary.org/obo/AfPO_0000109>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000109> (Tugen)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000109> "Tugen")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000112> (<http://purl.obolibrary.org/obo/AfPO_0000112>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000112> (Meru)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000112> "Meru")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000113> (<http://purl.obolibrary.org/obo/AfPO_0000113>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000113> (Oromo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000113> "Oromo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000113> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000115> (<http://purl.obolibrary.org/obo/AfPO_0000115>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000115> (Fur)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000115> "Fur")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000115> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000116> (<http://purl.obolibrary.org/obo/AfPO_0000116>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000116> (Xhosa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000116> "Xhosa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000116> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000121> (<http://purl.obolibrary.org/obo/AfPO_0000121>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000121> (Minianka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000121> "Minianka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000121> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000123> (<http://purl.obolibrary.org/obo/AfPO_0000123>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000123> (Herero)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000123> "Herero")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000123> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000125> (<http://purl.obolibrary.org/obo/AfPO_0000125>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000125> (Hausa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000125> "Hausa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000126> (<http://purl.obolibrary.org/obo/AfPO_0000126>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000126> (Nuer)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000126> "Nuer")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000126> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000127> (<http://purl.obolibrary.org/obo/AfPO_0000127>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000127> (Mijikenda)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000127> "Mijikenda")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000127> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000128> (<http://purl.obolibrary.org/obo/AfPO_0000128>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000128> (Fang)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000128> "Fang")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000131> (<http://purl.obolibrary.org/obo/AfPO_0000131>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000131> (Mossi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000131> "Mossi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000132> (<http://purl.obolibrary.org/obo/AfPO_0000132>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000132> (Bemba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000132> "Bemba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000134> (<http://purl.obolibrary.org/obo/AfPO_0000134>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000134> (Kamba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000134> "Kamba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000134> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000135> (<http://purl.obolibrary.org/obo/AfPO_0000135>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000135> (Rendille)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000135> "Rendille")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000135> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000136> (<http://purl.obolibrary.org/obo/AfPO_0000136>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000136> (Ga-Adangbe)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000136> "Ga-Adangbe")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000136> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000139> (<http://purl.obolibrary.org/obo/AfPO_0000139>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000139> (Bulsa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000139> "Bulsa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000139> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000140> (<http://purl.obolibrary.org/obo/AfPO_0000140>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000140> (Chewa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000140> "Chewa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000140> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000141> (<http://purl.obolibrary.org/obo/AfPO_0000141>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000141> (Soninke)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000141> "Soninke")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000142> (<http://purl.obolibrary.org/obo/AfPO_0000142>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000142> (Tswana)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000142> "Tswana")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000142> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000145> (<http://purl.obolibrary.org/obo/AfPO_0000145>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000145> (Tuareg)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000145> "Tuareg")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000147> (<http://purl.obolibrary.org/obo/AfPO_0000147>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000147> (Dagomba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000147> "Dagomba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000147> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000148> (<http://purl.obolibrary.org/obo/AfPO_0000148>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000148> (Kusasi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000148> "Kusasi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000148> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000149> (<http://purl.obolibrary.org/obo/AfPO_0000149>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000149> (Frafra)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000149> "Frafra")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000149> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000150> (<http://purl.obolibrary.org/obo/AfPO_0000150>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000150> (Gurunsi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000150> "Gurunsi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000151> (<http://purl.obolibrary.org/obo/AfPO_0000151>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000151> (Gurma)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000151> "Gurma")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000151> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000153> (<http://purl.obolibrary.org/obo/AfPO_0000153>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000153> (Dagaaba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000153> "Dagaaba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000153> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000161> (<http://purl.obolibrary.org/obo/AfPO_0000161>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000161> (Dyula)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000161> "Dyula")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000161> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000168> (<http://purl.obolibrary.org/obo/AfPO_0000168>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000168> (Bihari Mauritian)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000168> "Bihari Mauritian")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000168> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000170> (<http://purl.obolibrary.org/obo/AfPO_0000170>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000170> (Mauritian Creole)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000170> "Mauritian Creole")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000171> (<http://purl.obolibrary.org/obo/AfPO_0000171>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000171> (Tamil)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000171> "Tamil")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000171> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000179> (<http://purl.obolibrary.org/obo/AfPO_0000179>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000179> (Nankani)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000179> "Nankani")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000179> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000183> (<http://purl.obolibrary.org/obo/AfPO_0000183>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000183> (Khoisan Eastern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000183> "Khoisan Eastern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000183> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000184> (<http://purl.obolibrary.org/obo/AfPO_0000184>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000184> (Semitic Eastern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000184> "Semitic Eastern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000184> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000185> (<http://purl.obolibrary.org/obo/AfPO_0000185>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000185> (Semite Northern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000185> "Semite Northern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000185> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000186> (<http://purl.obolibrary.org/obo/AfPO_0000186>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000186> (Semite Central)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000186> "Semite Central")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000186> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000187> (<http://purl.obolibrary.org/obo/AfPO_0000187>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000187> (Pygmy Eastern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000187> "Pygmy Eastern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000189> (<http://purl.obolibrary.org/obo/AfPO_0000189>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000189> (Berber Western)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000189> "Berber Western")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000189> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000190> (<http://purl.obolibrary.org/obo/AfPO_0000190>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000190> (Nubian Eastern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000190> "Nubian Eastern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000191> (<http://purl.obolibrary.org/obo/AfPO_0000191>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000191> (Mattokki)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000191> "Mattokki")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000191> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000194> (<http://purl.obolibrary.org/obo/AfPO_0000194>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000194> (Banda)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000194> "Banda")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000194> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000195> (<http://purl.obolibrary.org/obo/AfPO_0000195>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000195> (Mahas)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000195> "Mahas")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000195> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000198> (<http://purl.obolibrary.org/obo/AfPO_0000198>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000198> (Luo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000198> "Luo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000198> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000199> (<http://purl.obolibrary.org/obo/AfPO_0000199>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000199> (Kalenjin)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000199> "Kalenjin")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000199> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000200> (<http://purl.obolibrary.org/obo/AfPO_0000200>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000200> (Pygmy Southern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000200> "Pygmy Southern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000201> (<http://purl.obolibrary.org/obo/AfPO_0000201>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000201> (Senufo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000201> "Senufo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000203> (<http://purl.obolibrary.org/obo/AfPO_0000203>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000203> (Akan)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000203> "Akan")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000203> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000204> (<http://purl.obolibrary.org/obo/AfPO_0000204>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000204> (Daza)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000204> "Daza")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000205> (<http://purl.obolibrary.org/obo/AfPO_0000205>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000205> (Jola)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000205> "Jola")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000205> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000206> (<http://purl.obolibrary.org/obo/AfPO_0000206>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000206> (Songhai)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000206> "Songhai")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000207> (<http://purl.obolibrary.org/obo/AfPO_0000207>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000207> (Banyarwanda)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000207> "Banyarwanda")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000207> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000209> (<http://purl.obolibrary.org/obo/AfPO_0000209>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000209> (Ari)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000209> "Ari")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000209> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000211> (<http://purl.obolibrary.org/obo/AfPO_0000211>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000211> (Gaaliin)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000211> "Gaaliin")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000211> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000212> (<http://purl.obolibrary.org/obo/AfPO_0000212>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000212> (Shaigiya)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000212> "Shaigiya")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000212> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000213> (<http://purl.obolibrary.org/obo/AfPO_0000213>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000213> (Messiria)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000213> "Messiria")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000213> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000214> (<http://purl.obolibrary.org/obo/AfPO_0000214>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000214> (Hadendoa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000214> "Hadendoa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000214> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000215> (<http://purl.obolibrary.org/obo/AfPO_0000215>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000215> (Halfawieen)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000215> "Halfawieen")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000216> (<http://purl.obolibrary.org/obo/AfPO_0000216>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000216> (Nuba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000216> "Nuba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000216> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000220> (<http://purl.obolibrary.org/obo/AfPO_0000220>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000220> (Sahrawi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000220> "Sahrawi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000224> (<http://purl.obolibrary.org/obo/AfPO_0000224>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000224> (Jarawa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000224> "Jarawa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000224> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000225> (<http://purl.obolibrary.org/obo/AfPO_0000225>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000225> (Hadza)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000225> "Hadza")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000225> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000227> (<http://purl.obolibrary.org/obo/AfPO_0000227>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000227> (Serer)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000227> "Serer")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000227> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000228> (<http://purl.obolibrary.org/obo/AfPO_0000228>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000228> (Manjak)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000228> "Manjak")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000228> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000229> (<http://purl.obolibrary.org/obo/AfPO_0000229>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000229> (Balanta)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000229> "Balanta")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000229> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000231> (<http://purl.obolibrary.org/obo/AfPO_0000231>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000231> (Mozabite)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000231> "Mozabite")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000236> (<http://purl.obolibrary.org/obo/AfPO_0000236>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000236> (Ngoni)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000236> "Ngoni")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000237> (<http://purl.obolibrary.org/obo/AfPO_0000237>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000237> (Lomwe)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000237> "Lomwe")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000237> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000238> (<http://purl.obolibrary.org/obo/AfPO_0000238>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000238> (Yao)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000238> "Yao")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000238> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000239> (<http://purl.obolibrary.org/obo/AfPO_0000239>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000239> (Mang'anja)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000239> "Mang'anja")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000239> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000240> (<http://purl.obolibrary.org/obo/AfPO_0000240>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000240> (Sena)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000240> "Sena")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000240> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000241> (<http://purl.obolibrary.org/obo/AfPO_0000241>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000241> (Bongo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000241> "Bongo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000241> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000242> (<http://purl.obolibrary.org/obo/AfPO_0000242>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000242> (Chipeta)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000242> "Chipeta")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000242> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000243> (<http://purl.obolibrary.org/obo/AfPO_0000243>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000243> (Nyakyusa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000243> "Nyakyusa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000243> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000244> (<http://purl.obolibrary.org/obo/AfPO_0000244>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000244> (Burunge)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000244> "Burunge")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000244> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000245> (<http://purl.obolibrary.org/obo/AfPO_0000245>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000245> (Antankarana)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000245> "Antankarana")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000245> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000247> (<http://purl.obolibrary.org/obo/AfPO_0000247>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000247> (Tsimihety)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000247> "Tsimihety")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000248> (<http://purl.obolibrary.org/obo/AfPO_0000248>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000248> (Sakalava)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000248> "Sakalava")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000248> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000249> (<http://purl.obolibrary.org/obo/AfPO_0000249>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000249> (Betsimisaraka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000249> "Betsimisaraka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000250> (<http://purl.obolibrary.org/obo/AfPO_0000250>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000250> (Antemoro)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000250> "Antemoro")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000250> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000251> (<http://purl.obolibrary.org/obo/AfPO_0000251>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000251> (Betsileo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000251> "Betsileo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000252> (<http://purl.obolibrary.org/obo/AfPO_0000252>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000252> (Zafimaniry)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000252> "Zafimaniry")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000252> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000253> (<http://purl.obolibrary.org/obo/AfPO_0000253>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000253> (Merina)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000253> "Merina")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000253> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000254> (<http://purl.obolibrary.org/obo/AfPO_0000254>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000254> (Bara)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000254> "Bara")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000254> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000255> (<http://purl.obolibrary.org/obo/AfPO_0000255>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000255> (Vezo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000255> "Vezo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000255> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000256> (<http://purl.obolibrary.org/obo/AfPO_0000256>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000256> (Antandroy)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000256> "Antandroy")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000256> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000257> (<http://purl.obolibrary.org/obo/AfPO_0000257>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000257> (Mahafaly)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000257> "Mahafaly")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000257> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000258> (<http://purl.obolibrary.org/obo/AfPO_0000258>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000258> (Cafre)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000258> "Cafre")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000258> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000259> (<http://purl.obolibrary.org/obo/AfPO_0000259>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000259> (Malbar)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000259> "Malbar")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000259> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000260> (<http://purl.obolibrary.org/obo/AfPO_0000260>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000260> (Zarabe)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000260> "Zarabe")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000260> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000261> (<http://purl.obolibrary.org/obo/AfPO_0000261>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000261> (Zoreille)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000261> "Zoreille")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000261> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000262> (<http://purl.obolibrary.org/obo/AfPO_0000262>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000262> (Sinwa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000262> "Sinwa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000262> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000263> (<http://purl.obolibrary.org/obo/AfPO_0000263>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000263> (!Kung)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000263> "!Kung")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000264> (<http://purl.obolibrary.org/obo/AfPO_0000264>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000264> (Ubangi Central)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000264> "Ubangi Central")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000264> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000265> (<http://purl.obolibrary.org/obo/AfPO_0000265>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000265> (Nilotic Central)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000265> "Nilotic Central")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000265> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000266> (<http://purl.obolibrary.org/obo/AfPO_0000266>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000266> (Bangba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000266> "Bangba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000266> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000268> (<http://purl.obolibrary.org/obo/AfPO_0000268>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000268> (Mayogo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000268> "Mayogo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000268> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000269> (<http://purl.obolibrary.org/obo/AfPO_0000269>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000269> (Cushitic Eastern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000269> "Cushitic Eastern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000269> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000270> (<http://purl.obolibrary.org/obo/AfPO_0000270>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000270> (Nilotic Western)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000270> "Nilotic Western")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000270> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000271> (<http://purl.obolibrary.org/obo/AfPO_0000271>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000271> (Sudanic)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000271> "Sudanic")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000271> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000273> (<http://purl.obolibrary.org/obo/AfPO_0000273>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000273> (Bantu Central)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000273> "Bantu Central")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000273> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000278> (<http://purl.obolibrary.org/obo/AfPO_0000278>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000278> (Kanuri)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000278> "Kanuri")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000278> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000279> (<http://purl.obolibrary.org/obo/AfPO_0000279>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000279> (Kotoko)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000279> "Kotoko")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000279> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000280> (<http://purl.obolibrary.org/obo/AfPO_0000280>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000280> (Masa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000280> "Masa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000280> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000281> (<http://purl.obolibrary.org/obo/AfPO_0000281>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000281> (Pygmy Central)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000281> "Pygmy Central")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000281> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000282> (<http://purl.obolibrary.org/obo/AfPO_0000282>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000282> (Aka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000282> "Aka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000282> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000283> (<http://purl.obolibrary.org/obo/AfPO_0000283>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000283> (Baka_Cameroon)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000283> "Baka_Cameroon")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000283> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000284> (<http://purl.obolibrary.org/obo/AfPO_0000284>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000284> (Mbuti)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000284> "Mbuti")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000284> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000285> (<http://purl.obolibrary.org/obo/AfPO_0000285>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000285> (Efé)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000285> "Efé")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000285> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000286> (<http://purl.obolibrary.org/obo/AfPO_0000286>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000286> (Sua)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000286> "Sua")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000286> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000287> (<http://purl.obolibrary.org/obo/AfPO_0000287>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000287> (Twa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000287> "Twa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000287> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000288> (<http://purl.obolibrary.org/obo/AfPO_0000288>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000288> (Kwatay)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000288> "Kwatay")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000288> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000289> (<http://purl.obolibrary.org/obo/AfPO_0000289>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000289> (Kanembu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000289> "Kanembu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000289> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000290> (<http://purl.obolibrary.org/obo/AfPO_0000290>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000290> (Beti-Pahuin)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000290> "Beti-Pahuin")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000290> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000291> (<http://purl.obolibrary.org/obo/AfPO_0000291>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000291> (Chokwe)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000291> "Chokwe")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000292> (<http://purl.obolibrary.org/obo/AfPO_0000292>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000292> (Kongo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000292> "Kongo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000292> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000293> (<http://purl.obolibrary.org/obo/AfPO_0000293>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000293> (Luba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000293> "Luba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000293> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000294> (<http://purl.obolibrary.org/obo/AfPO_0000294>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000294> (Mbundu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000294> "Mbundu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000294> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000295> (<http://purl.obolibrary.org/obo/AfPO_0000295>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000295> (Moghamo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000295> "Moghamo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000295> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000296> (<http://purl.obolibrary.org/obo/AfPO_0000296>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000296> (Mongo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000296> "Mongo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000296> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000297> (<http://purl.obolibrary.org/obo/AfPO_0000297>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000297> (Ngala)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000297> "Ngala")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000297> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000298> (<http://purl.obolibrary.org/obo/AfPO_0000298>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000298> (Ngamambo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000298> "Ngamambo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000298> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000299> (<http://purl.obolibrary.org/obo/AfPO_0000299>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000299> (Tikar)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000299> "Tikar")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000299> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000300> (<http://purl.obolibrary.org/obo/AfPO_0000300>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000300> (Ovimbundu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000300> "Ovimbundu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000301> (<http://purl.obolibrary.org/obo/AfPO_0000301>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000301> (Mbunda)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000301> "Mbunda")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000301> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000302> (<http://purl.obolibrary.org/obo/AfPO_0000302>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000302> (Gbaya)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000302> "Gbaya")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000303> (<http://purl.obolibrary.org/obo/AfPO_0000303>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000303> (Ngbandi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000303> "Ngbandi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000303> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000304> (<http://purl.obolibrary.org/obo/AfPO_0000304>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000304> (Zande)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000304> "Zande")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000304> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000305> (<http://purl.obolibrary.org/obo/AfPO_0000305>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000305> (Baggara)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000305> "Baggara")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000305> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000306> (<http://purl.obolibrary.org/obo/AfPO_0000306>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000306> (Sara)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000306> "Sara")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000306> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000307> (<http://purl.obolibrary.org/obo/AfPO_0000307>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000307> (Toubou)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000307> "Toubou")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000325> (<http://purl.obolibrary.org/obo/AfPO_0000325>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000325> (Afrikaner)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000325> "Afrikaner")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000325> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000326> (<http://purl.obolibrary.org/obo/AfPO_0000326>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000326> (Bantu Southern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000326> "Bantu Southern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000326> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000327> (<http://purl.obolibrary.org/obo/AfPO_0000327>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000327> (British diaspora)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000327> "British diaspora")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000327> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000328> (<http://purl.obolibrary.org/obo/AfPO_0000328>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000328> (Coloured)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000328> "Coloured")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000328> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000329> (<http://purl.obolibrary.org/obo/AfPO_0000329>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000329> (Goffel)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000329> "Goffel")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000329> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000330> (<http://purl.obolibrary.org/obo/AfPO_0000330>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000330> (French diaspora)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000330> "French diaspora")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000330> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000331> (<http://purl.obolibrary.org/obo/AfPO_0000331>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000331> (Khoekhoe)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000331> "Khoekhoe")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000331> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000332> (<http://purl.obolibrary.org/obo/AfPO_0000332>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000332> (San)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000332> "San")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000332> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000333> (<http://purl.obolibrary.org/obo/AfPO_0000333>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000333> (Khoisan South)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000333> "Khoisan South")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000333> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000334> (<http://purl.obolibrary.org/obo/AfPO_0000334>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000334> (Taa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000334> "Taa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000334> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000335> (<http://purl.obolibrary.org/obo/AfPO_0000335>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000335> (Banareng)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000335> "Banareng")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000335> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000336> (<http://purl.obolibrary.org/obo/AfPO_0000336>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000336> (Himba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000336> "Himba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000337> (<http://purl.obolibrary.org/obo/AfPO_0000337>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000337> (Kwangali)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000337> "Kwangali")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000337> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000338> (<http://purl.obolibrary.org/obo/AfPO_0000338>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000338> (Lemba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000338> "Lemba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000339> (<http://purl.obolibrary.org/obo/AfPO_0000339>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000339> (Makua)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000339> "Makua")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000339> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000340> (<http://purl.obolibrary.org/obo/AfPO_0000340>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000340> (Nguni)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000340> "Nguni")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000340> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000341> (<http://purl.obolibrary.org/obo/AfPO_0000341>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000341> (Ovambo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000341> "Ovambo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000341> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000342> (<http://purl.obolibrary.org/obo/AfPO_0000342>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000342> (Shona)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000342> "Shona")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000343> (<http://purl.obolibrary.org/obo/AfPO_0000343>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000343> (Sotho)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000343> "Sotho")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000343> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000344> (<http://purl.obolibrary.org/obo/AfPO_0000344>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000344> (Tonga)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000344> "Tonga")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000344> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000345> (<http://purl.obolibrary.org/obo/AfPO_0000345>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000345> (Venda)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000345> "Venda")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000345> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000346> (<http://purl.obolibrary.org/obo/AfPO_0000346>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000346> (Yeyi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000346> "Yeyi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000346> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000347> (<http://purl.obolibrary.org/obo/AfPO_0000347>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000347> (Pedi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000347> "Pedi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000347> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000348> (<http://purl.obolibrary.org/obo/AfPO_0000348>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000348> (Kalanga)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000348> "Kalanga")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000349> (<http://purl.obolibrary.org/obo/AfPO_0000349>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000349> (Nambya)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000349> "Nambya")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000350> (<http://purl.obolibrary.org/obo/AfPO_0000350>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000350> (Ndebele)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000350> "Ndebele")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000350> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000352> (<http://purl.obolibrary.org/obo/AfPO_0000352>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000352> (North Ndebele)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000352> "North Ndebele")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000353> (<http://purl.obolibrary.org/obo/AfPO_0000353>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000353> (South Ndebele)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000353> "South Ndebele")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000353> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000354> (<http://purl.obolibrary.org/obo/AfPO_0000354>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000354> (Kgatla)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000354> "Kgatla")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000354> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000355> (<http://purl.obolibrary.org/obo/AfPO_0000355>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000355> (Andalusian)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000355> "Andalusian")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000355> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000356> (<http://purl.obolibrary.org/obo/AfPO_0000356>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000356> (Berber Northern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000356> "Berber Northern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000356> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000357> (<http://purl.obolibrary.org/obo/AfPO_0000357>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000357> (Copt)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000357> "Copt")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000357> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000358> (<http://purl.obolibrary.org/obo/AfPO_0000358>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000358> (Nubian Northern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000358> "Nubian Northern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000358> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000359> (<http://purl.obolibrary.org/obo/AfPO_0000359>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000359> (Algerian Berber)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000359> "Algerian Berber")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000359> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000360> (<http://purl.obolibrary.org/obo/AfPO_0000360>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000360> (Lybian Berber)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000360> "Lybian Berber")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000360> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000361> (<http://purl.obolibrary.org/obo/AfPO_0000361>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000361> (Moroccan Berber)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000361> "Moroccan Berber")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000361> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000362> (<http://purl.obolibrary.org/obo/AfPO_0000362>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000362> (Shilha)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000362> "Shilha")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000362> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000363> (<http://purl.obolibrary.org/obo/AfPO_0000363>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000363> (Tunisian Andalusian)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000363> "Tunisian Andalusian")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000363> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000364> (<http://purl.obolibrary.org/obo/AfPO_0000364>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000364> (Tunisian Berber)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000364> "Tunisian Berber")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000364> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000366> (<http://purl.obolibrary.org/obo/AfPO_0000366>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000366> (Haratin)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000366> "Haratin")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000366> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000367> (<http://purl.obolibrary.org/obo/AfPO_0000367>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000367> (Maghrebi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000367> "Maghrebi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000367> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_00003674> (<http://purl.obolibrary.org/obo/AfPO_00003674>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_00003674> (Gumuz)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_00003674> "Gumuz")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_00003674> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000368> (<http://purl.obolibrary.org/obo/AfPO_0000368>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000368> (Moor)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000368> "Moor")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000368> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000369> (<http://purl.obolibrary.org/obo/AfPO_0000369>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000369> (Bantu Eastern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000369> "Bantu Eastern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000369> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000370> (<http://purl.obolibrary.org/obo/AfPO_0000370>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000370> (Malagasy)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000370> "Malagasy")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000370> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000371> (<http://purl.obolibrary.org/obo/AfPO_0000371>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000371> (Nilotic Eastern)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000371> "Nilotic Eastern")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000371> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000372> (<http://purl.obolibrary.org/obo/AfPO_0000372>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000372> (Wolaita)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000372> "Wolaita")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000372> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000373> (<http://purl.obolibrary.org/obo/AfPO_0000373>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000373> (Bari)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000373> "Bari")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000373> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000374> (<http://purl.obolibrary.org/obo/AfPO_0000374>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000374> (Acholi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000374> "Acholi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000374> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000375> (<http://purl.obolibrary.org/obo/AfPO_0000375>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000375> (Kwama)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000375> "Kwama")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000375> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000376> (<http://purl.obolibrary.org/obo/AfPO_0000376>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000376> (Turkana)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000376> "Turkana")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000376> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000377> (<http://purl.obolibrary.org/obo/AfPO_0000377>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000377> (Alur)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000377> "Alur")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000377> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000378> (<http://purl.obolibrary.org/obo/AfPO_0000378>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000378> (Lango)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000378> "Lango")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000378> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000379> (<http://purl.obolibrary.org/obo/AfPO_0000379>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000379> (Shilluk)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000379> "Shilluk")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000379> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000380> (<http://purl.obolibrary.org/obo/AfPO_0000380>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000380> (Birged)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000380> "Birged")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000380> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000381> (<http://purl.obolibrary.org/obo/AfPO_0000381>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000381> (Dongolese)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000381> "Dongolese")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000381> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000382> (<http://purl.obolibrary.org/obo/AfPO_0000382>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000382> (Hill Nubian)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000382> "Hill Nubian")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000382> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000383> (<http://purl.obolibrary.org/obo/AfPO_0000383>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000383> (Afar)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000383> "Afar")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000384> (<http://purl.obolibrary.org/obo/AfPO_0000384>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000384> (Agaw)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000384> "Agaw")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000384> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000385> (<http://purl.obolibrary.org/obo/AfPO_0000385>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000385> (Beja)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000385> "Beja")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000385> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000386> (<http://purl.obolibrary.org/obo/AfPO_0000386>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000386> (Bilen)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000386> "Bilen")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000386> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000387> (<http://purl.obolibrary.org/obo/AfPO_0000387>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000387> (Saho)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000387> "Saho")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000387> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000388> (<http://purl.obolibrary.org/obo/AfPO_0000388>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000388> (Sidama)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000388> "Sidama")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000388> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000390> (<http://purl.obolibrary.org/obo/AfPO_0000390>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000390> (Lugbara)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000390> "Lugbara")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000390> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000391> (<http://purl.obolibrary.org/obo/AfPO_0000391>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000391> (Amhara)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000391> "Amhara")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000391> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000392> (<http://purl.obolibrary.org/obo/AfPO_0000392>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000392> (Gurage)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000392> "Gurage")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000392> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000393> (<http://purl.obolibrary.org/obo/AfPO_0000393>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000393> (Habesha)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000393> "Habesha")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000393> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000394> (<http://purl.obolibrary.org/obo/AfPO_0000394>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000394> (Rashaida)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000394> "Rashaida")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000394> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000395> (<http://purl.obolibrary.org/obo/AfPO_0000395>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000395> (Sudanese Arab)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000395> "Sudanese Arab")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000395> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000396> (<http://purl.obolibrary.org/obo/AfPO_0000396>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000396> (Tigrinya)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000396> "Tigrinya")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000396> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000397> (<http://purl.obolibrary.org/obo/AfPO_0000397>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000397> (Tigré)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000397> "Tigré")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000397> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000398> (<http://purl.obolibrary.org/obo/AfPO_0000398>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000398> (Baka_South_Sudan)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000398> "Baka_South_Sudan")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000398> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000399> (<http://purl.obolibrary.org/obo/AfPO_0000399>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000399> (Sandawe)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000399> "Sandawe")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000399> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000400> (<http://purl.obolibrary.org/obo/AfPO_0000400>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000400> (Basoga)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000400> "Basoga")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000400> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000401> (<http://purl.obolibrary.org/obo/AfPO_0000401>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000401> (Chaga)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000401> "Chaga")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000402> (<http://purl.obolibrary.org/obo/AfPO_0000402>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000402> (Embu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000402> "Embu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000402> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000403> (<http://purl.obolibrary.org/obo/AfPO_0000403>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000403> (Ganda)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000403> "Ganda")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000404> (<http://purl.obolibrary.org/obo/AfPO_0000404>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000404> (Kisii)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000404> "Kisii")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000405> (<http://purl.obolibrary.org/obo/AfPO_0000405>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000405> (Luhya)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000405> "Luhya")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000406> (<http://purl.obolibrary.org/obo/AfPO_0000406>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000406> (Makonde)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000406> "Makonde")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000407> (<http://purl.obolibrary.org/obo/AfPO_0000407>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000407> (Nyoro)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000407> "Nyoro")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000408> (<http://purl.obolibrary.org/obo/AfPO_0000408>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000408> (Swahili)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000408> "Swahili")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000409> (<http://purl.obolibrary.org/obo/AfPO_0000409>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000409> (Tumbuka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000409> "Tumbuka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000410> (<http://purl.obolibrary.org/obo/AfPO_0000410>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000410> (Adele)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000410> "Adele")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000411> (<http://purl.obolibrary.org/obo/AfPO_0000411>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000411> (Aku)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000411> "Aku")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000412> (<http://purl.obolibrary.org/obo/AfPO_0000412>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000412> (Bantu Western)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000412> "Bantu Western")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000412> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000413> (<http://purl.obolibrary.org/obo/AfPO_0000413>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000413> (Biafada)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000413> "Biafada")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000414> (<http://purl.obolibrary.org/obo/AfPO_0000414>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000414> (Bubi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000414> "Bubi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000414> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000415> (<http://purl.obolibrary.org/obo/AfPO_0000415>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000415> (Buduma)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000415> "Buduma")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000415> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000416> (<http://purl.obolibrary.org/obo/AfPO_0000416>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000416> (Dogon)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000416> "Dogon")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000417> (<http://purl.obolibrary.org/obo/AfPO_0000417>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000417> (Edo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000417> "Edo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000417> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000418> (<http://purl.obolibrary.org/obo/AfPO_0000418>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000418> (Efik)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000418> "Efik")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000418> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000419> (<http://purl.obolibrary.org/obo/AfPO_0000419>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000419> (Eket)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000419> "Eket")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000420> (<http://purl.obolibrary.org/obo/AfPO_0000420>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000420> (Esan)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000420> "Esan")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000420> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000421> (<http://purl.obolibrary.org/obo/AfPO_0000421>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000421> (Ewe)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000421> "Ewe")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000421> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000422> (<http://purl.obolibrary.org/obo/AfPO_0000422>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000422> (Fon)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000422> "Fon")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000423> (<http://purl.obolibrary.org/obo/AfPO_0000423>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000423> (Ibibio)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000423> "Ibibio")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000423> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000424> (<http://purl.obolibrary.org/obo/AfPO_0000424>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000424> (Ijaw)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000424> "Ijaw")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000424> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000425> (<http://purl.obolibrary.org/obo/AfPO_0000425>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000425> (Mande Western)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000425> "Mande Western")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000425> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000426> (<http://purl.obolibrary.org/obo/AfPO_0000426>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000426> (Mole-Dagbani)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000426> "Mole-Dagbani")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000426> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000427> (<http://purl.obolibrary.org/obo/AfPO_0000427>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000427> (Urhobo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000427> "Urhobo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000427> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000428> (<http://purl.obolibrary.org/obo/AfPO_0000428>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000428> (Wolof)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000428> "Wolof")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000428> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000429> (<http://purl.obolibrary.org/obo/AfPO_0000429>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000429> (Bissa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000429> "Bissa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000429> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000430> (<http://purl.obolibrary.org/obo/AfPO_0000430>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000430> (Mandinka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000430> "Mandinka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000430> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000431> (<http://purl.obolibrary.org/obo/AfPO_0000431>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000431> (Marka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000431> "Marka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000432> (<http://purl.obolibrary.org/obo/AfPO_0000432>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000432> (Mende)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000432> "Mende")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000433> (<http://purl.obolibrary.org/obo/AfPO_0000433>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000433> (Kassena)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000433> "Kassena")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000433> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000434> (<http://purl.obolibrary.org/obo/AfPO_0000434>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000434> (Zarma)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000434> "Zarma")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000434> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000435> (<http://purl.obolibrary.org/obo/AfPO_0000435>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000435> (Dendi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000435> "Dendi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000435> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000436> (<http://purl.obolibrary.org/obo/AfPO_0000436>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000436> (Okiek)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000436> "Okiek")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000436> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000437> (<http://purl.obolibrary.org/obo/AfPO_0000437>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000437> (Hutu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000437> "Hutu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000437> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000438> (<http://purl.obolibrary.org/obo/AfPO_0000438>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000438> (Tutsi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000438> "Tutsi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000438> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000440> (<http://purl.obolibrary.org/obo/AfPO_0000440>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000440> (Bamileke)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000440> "Bamileke")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000440> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000442> (<http://purl.obolibrary.org/obo/AfPO_0000442>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000442> (Isoko)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000442> "Isoko")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000442> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000443> (<http://purl.obolibrary.org/obo/AfPO_0000443>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000443> (Kru)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000443> "Kru")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000443> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000461> (<http://purl.obolibrary.org/obo/AfPO_0000461>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000461> (Duala)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000461> "Duala")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000461> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000462> (<http://purl.obolibrary.org/obo/AfPO_0000462>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000462> (Eshira)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000462> "Eshira")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000463> (<http://purl.obolibrary.org/obo/AfPO_0000463>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000463> (Hema)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000463> "Hema")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000463> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000464> (<http://purl.obolibrary.org/obo/AfPO_0000464>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000464> (Kota)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000464> "Kota")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000464> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000465> (<http://purl.obolibrary.org/obo/AfPO_0000465>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000465> (Makaa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000465> "Makaa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000465> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000466> (<http://purl.obolibrary.org/obo/AfPO_0000466>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000466> (Myene)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000466> "Myene")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000466> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000467> (<http://purl.obolibrary.org/obo/AfPO_0000467>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000467> (Nande)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000467> "Nande")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000467> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000468> (<http://purl.obolibrary.org/obo/AfPO_0000468>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000468> (Ngumba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000468> "Ngumba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000469> (<http://purl.obolibrary.org/obo/AfPO_0000469>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000469> (Obamba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000469> "Obamba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000469> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000470> (<http://purl.obolibrary.org/obo/AfPO_0000470>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000470> (Pende)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000470> "Pende")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000471> (<http://purl.obolibrary.org/obo/AfPO_0000471>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000471> (Punu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000471> "Punu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000471> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000472> (<http://purl.obolibrary.org/obo/AfPO_0000472>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000472> (Teke)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000472> "Teke")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000472> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000473> (<http://purl.obolibrary.org/obo/AfPO_0000473>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000473> (Vili)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000473> "Vili")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000473> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000474> (<http://purl.obolibrary.org/obo/AfPO_0000474>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000474> (Mandar)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000474> "Mandar")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000474> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000475> (<http://purl.obolibrary.org/obo/AfPO_0000475>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000475> (Mangbetu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000475> "Mangbetu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000476> (<http://purl.obolibrary.org/obo/AfPO_0000476>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000476> (Manja)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000476> "Manja")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000477> (<http://purl.obolibrary.org/obo/AfPO_0000477>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000477> (Marba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000477> "Marba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000477> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000478> (<http://purl.obolibrary.org/obo/AfPO_0000478>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000478> (Mbum)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000478> "Mbum")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000478> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000479> (<http://purl.obolibrary.org/obo/AfPO_0000479>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000479> (Nzebi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000479> "Nzebi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000479> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000480> (<http://purl.obolibrary.org/obo/AfPO_0000480>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000480> (Podoko)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000480> "Podoko")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000480> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000481> (<http://purl.obolibrary.org/obo/AfPO_0000481>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000481> (Gyele)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000481> "Gyele")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000482> (<http://purl.obolibrary.org/obo/AfPO_0000482>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000482> (Yaka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000482> "Yaka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000482> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000483> (<http://purl.obolibrary.org/obo/AfPO_0000483>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000483> (Tupuri)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000483> "Tupuri")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000484> (<http://purl.obolibrary.org/obo/AfPO_0000484>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000484> (Wuzlam)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000484> "Wuzlam")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000484> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000485> (<http://purl.obolibrary.org/obo/AfPO_0000485>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000485> (Yakoma)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000485> "Yakoma")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000485> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000486> (<http://purl.obolibrary.org/obo/AfPO_0000486>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000486> (Chopi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000486> "Chopi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000486> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000487> (<http://purl.obolibrary.org/obo/AfPO_0000487>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000487> (Mbeere)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000487> "Mbeere")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000487> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000488> (<http://purl.obolibrary.org/obo/AfPO_0000488>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000488> (Kiga)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000488> "Kiga")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000489> (<http://purl.obolibrary.org/obo/AfPO_0000489>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000489> (Lambya)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000489> "Lambya")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000489> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000490> (<http://purl.obolibrary.org/obo/AfPO_0000490>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000490> (Masaba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000490> "Masaba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000490> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000491> (<http://purl.obolibrary.org/obo/AfPO_0000491>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000491> (Segeju)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000491> "Segeju")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000491> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000492> (<http://purl.obolibrary.org/obo/AfPO_0000492>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000492> (Nkole)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000492> "Nkole")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000492> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000493> (<http://purl.obolibrary.org/obo/AfPO_0000493>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000493> (Nyamwezi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000493> "Nyamwezi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000493> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000494> (<http://purl.obolibrary.org/obo/AfPO_0000494>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000494> (Pokomo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000494> "Pokomo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000494> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000495> (<http://purl.obolibrary.org/obo/AfPO_0000495>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000495> (Ndau)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000495> "Ndau")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000495> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000496> (<http://purl.obolibrary.org/obo/AfPO_0000496>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000496> (Sukuma)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000496> "Sukuma")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000496> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000497> (<http://purl.obolibrary.org/obo/AfPO_0000497>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000497> (Tharaka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000497> "Tharaka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000497> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000498> (<http://purl.obolibrary.org/obo/AfPO_0000498>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000498> (Aweer)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000498> "Aweer")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000498> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000499> (<http://purl.obolibrary.org/obo/AfPO_0000499>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000499> (Elmolo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000499> "Elmolo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000499> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000500> (<http://purl.obolibrary.org/obo/AfPO_0000500>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000500> (Hadiya)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000500> "Hadiya")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000500> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000501> (<http://purl.obolibrary.org/obo/AfPO_0000501>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000501> (Borana)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000501> "Borana")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000501> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000502> (<http://purl.obolibrary.org/obo/AfPO_0000502>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000502> (Gabra)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000502> "Gabra")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000502> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000503> (<http://purl.obolibrary.org/obo/AfPO_0000503>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000503> (Antambahoaka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000503> "Antambahoaka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000503> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000504> (<http://purl.obolibrary.org/obo/AfPO_0000504>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000504> (Antanosy)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000504> "Antanosy")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000504> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000505> (<http://purl.obolibrary.org/obo/AfPO_0000505>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000505> (Bezanozano)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000505> "Bezanozano")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000505> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000506> (<http://purl.obolibrary.org/obo/AfPO_0000506>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000506> (Mikea)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000506> "Mikea")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000506> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000507> (<http://purl.obolibrary.org/obo/AfPO_0000507>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000507> (Sihanaka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000507> "Sihanaka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000507> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000508> (<http://purl.obolibrary.org/obo/AfPO_0000508>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000508> (Tanala)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000508> "Tanala")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000508> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000509> (<http://purl.obolibrary.org/obo/AfPO_0000509>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000509> (Marakwet)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000509> "Marakwet")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000510> (<http://purl.obolibrary.org/obo/AfPO_0000510>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000510> (Pokot)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000510> "Pokot")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000510> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000511> (<http://purl.obolibrary.org/obo/AfPO_0000511>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000511> (Kunama)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000511> "Kunama")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000511> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000513> (<http://purl.obolibrary.org/obo/AfPO_0000513>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000513> (Nara)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000513> "Nara")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000513> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000514> (<http://purl.obolibrary.org/obo/AfPO_0000514>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000514> (Teso)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000514> "Teso")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000514> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000515> (<http://purl.obolibrary.org/obo/AfPO_0000515>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000515> (Jeberti)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000515> "Jeberti")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000516> (<http://purl.obolibrary.org/obo/AfPO_0000516>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000516> (Aushi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000516> "Aushi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000516> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000517> (<http://purl.obolibrary.org/obo/AfPO_0000517>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000517> (Okavango)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000517> "Okavango")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000517> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000518> (<http://purl.obolibrary.org/obo/AfPO_0000518>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000518> (Lozi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000518> "Lozi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000518> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000519> (<http://purl.obolibrary.org/obo/AfPO_0000519>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000519> (Damara)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000519> "Damara")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000519> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000520> (<http://purl.obolibrary.org/obo/AfPO_0000520>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000520> (Aghem)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000520> "Aghem")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000520> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000521> (<http://purl.obolibrary.org/obo/AfPO_0000521>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000521> (Aja)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000521> "Aja")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000521> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000522> (<http://purl.obolibrary.org/obo/AfPO_0000522>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000522> (Fante)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000522> "Fante")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000522> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000523> (<http://purl.obolibrary.org/obo/AfPO_0000523>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000523> (Anaang)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000523> "Anaang")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000523> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000524> (<http://purl.obolibrary.org/obo/AfPO_0000524>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000524> (Baule)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000524> "Baule")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000524> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000525> (<http://purl.obolibrary.org/obo/AfPO_0000525>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000525> (Bamum)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000525> "Bamum")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000525> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000526> (<http://purl.obolibrary.org/obo/AfPO_0000526>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000526> (Kombe)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000526> "Kombe")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000526> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000527> (<http://purl.obolibrary.org/obo/AfPO_0000527>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000527> (Luvale)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000527> "Luvale")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000527> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000528> (<http://purl.obolibrary.org/obo/AfPO_0000528>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000528> (Bedik)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000528> "Bedik")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000528> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000529> (<http://purl.obolibrary.org/obo/AfPO_0000529>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000529> (Bassari)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000529> "Bassari")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000530> (<http://purl.obolibrary.org/obo/AfPO_0000530>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000530> (Diffa Arabs)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000530> "Diffa Arabs")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000530> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000531> (<http://purl.obolibrary.org/obo/AfPO_0000531>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000531> (Ditammari)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000531> "Ditammari")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000531> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000532> (<http://purl.obolibrary.org/obo/AfPO_0000532>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000532> (Ekoi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000532> "Ekoi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000532> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000533> (<http://purl.obolibrary.org/obo/AfPO_0000533>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000533> (Gola)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000533> "Gola")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000533> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000534> (<http://purl.obolibrary.org/obo/AfPO_0000534>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000534> (Guan)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000534> "Guan")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000534> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000535> (<http://purl.obolibrary.org/obo/AfPO_0000535>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000535> (Bariba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000535> "Bariba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000535> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000536> (<http://purl.obolibrary.org/obo/AfPO_0000536>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000536> (Konkomba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000536> "Konkomba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000536> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000537> (<http://purl.obolibrary.org/obo/AfPO_0000537>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000537> (Lilse)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000537> "Lilse")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000537> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000538> (<http://purl.obolibrary.org/obo/AfPO_0000538>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000538> (Lobi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000538> "Lobi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000538> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000539> (<http://purl.obolibrary.org/obo/AfPO_0000539>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000539> (Pana)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000539> "Pana")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000539> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000540> (<http://purl.obolibrary.org/obo/AfPO_0000540>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000540> (Samoya)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000540> "Samoya")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000541> (<http://purl.obolibrary.org/obo/AfPO_0000541>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000541> (Itsekiri)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000541> "Itsekiri")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000541> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000542> (<http://purl.obolibrary.org/obo/AfPO_0000542>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000542> (Bandial)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000542> "Bandial")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000542> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000543> (<http://purl.obolibrary.org/obo/AfPO_0000543>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000543> (Dan)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000543> "Dan")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000544> (<http://purl.obolibrary.org/obo/AfPO_0000544>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000544> (Kabye)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000544> "Kabye")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000544> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000545> (<http://purl.obolibrary.org/obo/AfPO_0000545>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000545> (Krio)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000545> "Krio")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000546> (<http://purl.obolibrary.org/obo/AfPO_0000546>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000546> (Krahn)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000546> "Krahn")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000546> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000547> (<http://purl.obolibrary.org/obo/AfPO_0000547>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000547> (Grebo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000547> "Grebo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000547> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000548> (<http://purl.obolibrary.org/obo/AfPO_0000548>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000548> (Kulango)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000548> "Kulango")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000548> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000549> (<http://purl.obolibrary.org/obo/AfPO_0000549>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000549> (Limba)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000549> "Limba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000549> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000550> (<http://purl.obolibrary.org/obo/AfPO_0000550>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000550> (Jakhanke)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000550> "Jakhanke")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000550> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000551> (<http://purl.obolibrary.org/obo/AfPO_0000551>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000551> (Kono)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000551> "Kono")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000551> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000552> (<http://purl.obolibrary.org/obo/AfPO_0000552>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000552> (Kpelle)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000552> "Kpelle")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000552> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000553> (<http://purl.obolibrary.org/obo/AfPO_0000553>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000553> (Kuranko)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000553> "Kuranko")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000553> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000554> (<http://purl.obolibrary.org/obo/AfPO_0000554>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000554> (Loko)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000554> "Loko")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000554> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000555> (<http://purl.obolibrary.org/obo/AfPO_0000555>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000555> (Mano)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000555> "Mano")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000555> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000556> (<http://purl.obolibrary.org/obo/AfPO_0000556>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000556> (Vai)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000556> "Vai")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000556> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000557> (<http://purl.obolibrary.org/obo/AfPO_0000557>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000557> (Yalunka)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000557> "Yalunka")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000557> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000558> (<http://purl.obolibrary.org/obo/AfPO_0000558>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000558> (Mankanya)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000558> "Mankanya")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000558> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000559> (<http://purl.obolibrary.org/obo/AfPO_0000559>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000559> (Oron)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000559> "Oron")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000559> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000560> (<http://purl.obolibrary.org/obo/AfPO_0000560>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000560> (Papel)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000560> "Papel")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000560> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000561> (<http://purl.obolibrary.org/obo/AfPO_0000561>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000561> (Sherbro)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000561> "Sherbro")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000561> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000562> (<http://purl.obolibrary.org/obo/AfPO_0000562>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000562> (Temne)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000562> "Temne")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000562> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000563> (<http://purl.obolibrary.org/obo/AfPO_0000563>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000563> (Lebu)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000563> "Lebu")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000563> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000564> (<http://purl.obolibrary.org/obo/AfPO_0000564>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000564> (Nuna)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000564> "Nuna")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000564> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000571> (<http://purl.obolibrary.org/obo/AfPO_0000571>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000571> (Kango)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000571> "Kango")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000572> (<http://purl.obolibrary.org/obo/AfPO_0000572>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000572> (Ewondo)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000572> "Ewondo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000572> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000573> (<http://purl.obolibrary.org/obo/AfPO_0000573>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000573> (Birwa)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000573> "Birwa")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000573> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000574> (<http://purl.obolibrary.org/obo/AfPO_0000574>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000574> (Kissi)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000574> "Kissi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000574> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000575> (<http://purl.obolibrary.org/obo/AfPO_0000575>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000575> (Ngazidja)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000575> "Ngazidja")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000576> (<http://purl.obolibrary.org/obo/AfPO_0000576>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000576> (Maore)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000576> "Maore")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000577> (<http://purl.obolibrary.org/obo/AfPO_0000577>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000577> (Mwali)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000577> "Mwali")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000577> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000578> (<http://purl.obolibrary.org/obo/AfPO_0000578>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000578> (Ndzwani)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000578> "Ndzwani")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000578> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000579> (<http://purl.obolibrary.org/obo/AfPO_0000579>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000579> (Kuria)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000579> "Kuria")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000579> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000580> (<http://purl.obolibrary.org/obo/AfPO_0000580>)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000580> (Karonica)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000580> "Karonica")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
 
