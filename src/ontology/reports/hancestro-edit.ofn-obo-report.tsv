@@ -1,8 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	missing_label	AfPO:0000180	rdfs:label	
-ERROR	missing_label	AfPO:0000351	rdfs:label	
-ERROR	missing_label	AfPO:0000365	rdfs:label	
-ERROR	missing_label	AfPO:0000389	rdfs:label	
 WARN	missing_definition	http://dbpedia.org/resource/Afghanistan	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Africa	IAO:0000115	
 WARN	missing_definition	http://dbpedia.org/resource/Albania	IAO:0000115	

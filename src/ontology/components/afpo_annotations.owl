@@ -66,6 +66,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000170>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000171>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000179>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000183>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000184>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000185>))
@@ -190,6 +191,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000347>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000348>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000349>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000350>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000351>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000352>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000354>))
@@ -203,6 +205,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000361>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000362>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000363>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000364>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000365>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000366>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000367>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_00003674>))
@@ -227,6 +230,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000385>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000386>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000387>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000388>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000389>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000390>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000391>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000392>))
@@ -688,6 +692,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000171> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000179> "Nankani")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000179> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000180> (Seychellois)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000180> "Seychellois")
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000183> (Khoisan Eastern)
 
@@ -1309,6 +1317,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000349> ObjectSomeValuesFrom(<h
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000350> "Ndebele")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000350> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000351> (Swazi)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000351> "Swazi")
+
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000352> (North Ndebele)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000352> "North Ndebele")
@@ -1373,6 +1385,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000363> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000364> "Tunisian Berber")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000364> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000365> (Egyptian)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000365> "Egyptian")
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000366> (Haratin)
 
@@ -1493,6 +1509,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000387> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000388> "Sidama")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000388> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000389> (Somali)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000389> "Somali")
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000390> (Lugbara)
 
