@@ -2,6 +2,10 @@
 ID,TYPE,A rdfs:label,SC %
 RO:0000086,object property,has quality,
 HANCESTRO:0599,class,,
+AfPO:0000180,class,Seychellois,
+AfPO:0000351,class,Swazi,
+AfPO:0000365,class,Egyptian,
+AfPO:0000389,class,Somali,
 AfPO:0000056,class,Maasai,('has quality' some HANCESTRO:0599)
 AfPO:0000057,class,Samburu,('has quality' some HANCESTRO:0599)
 AfPO:0000058,class,Tiv,('has quality' some HANCESTRO:0599)
