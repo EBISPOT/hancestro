@@ -14,7 +14,7 @@
 $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 	$(ROBOT_RELEASE_IMPORT_MODE) \
         template --merge-after --template ../templates/upper_level.tsv --include-annotations true \
-		reason --reasoner HERMIT --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
 		relax \
 		reduce --reasoner ELK \
 		repair \
