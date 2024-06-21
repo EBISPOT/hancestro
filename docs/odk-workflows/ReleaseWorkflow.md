@@ -32,8 +32,9 @@ This will create all the specified release targets (OBO, OWL, JSON, and the vari
 1. (Optional) Rough check. This step is frequently skipped, but for the more paranoid among us (like the author of this doc), this is a 3 minute additional effort for some peace of mind. Open the main release (hancestro.owl) in you favourite development environment (i.e. Protégé) and eyeball the hierarchy. We recommend two simple checks: 
     1. Does the very top level of the hierarchy look ok? This means that all new terms have been imported/updated correctly.
     2. Does at least one change that you know should be in this release appear? For example, a new class. This means that the release was actually based on the recent edit file. 
-2. Commit your changes to the branch and make a pull request
-3. In your GitHub pull request, review the following three files in detail (based on our experience):
+2. Build a diff report with the previous release by running `sh run.sh make release_diff`
+3. Commit your changes to the branch and make a pull request
+4. In your GitHub pull request, review the following three files in detail (based on our experience):
     1. `hancestro.obo` - this reflects a useful subset of the whole ontology (everything that can be covered by OBO format). OBO format has that speaking for it: it is very easy to review!
     2. `hancestro-base.owl` - this reflects the asserted axioms in your ontology that you have actually edited.
     3. Ideally also take a look at `hancestro-full.owl`, which may reveal interesting new inferences you did not know about. Note that the diff of this file is sometimes quite large.

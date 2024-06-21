@@ -49,7 +49,7 @@ Class Count: 1045
 - Moved from HERMIT to ELK as our ontology reasoner
 	- Adjusted some axiomatisations to conform to OWL2-EL to maintain reasoned hierarchy with ELK.
 
-See the [release notes](https://github.com/EBISPOT/hancestro/releases) for further details of most recent changes.
+See the [release notes](https://github.com/EBISPOT/hancestro/releases) for further details of most recent changes or check out our new [automatically generated ontology diff report](https://github.com/EBISPOT/hancestro/blob/main/src/ontology/reports/release-diff.md).
 
 
 
