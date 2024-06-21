@@ -23,6 +23,9 @@ For more information, see [Mersha & Abebe, 2015](https://humgenomics.biomedcentr
 
 Ancestry categories in the Human Ancestry Ontology refer to genetic ancestry and have been defined in this context. They may also be used to annotate self-reported ethnicity data but with the clear caveat that annotation does not guarantee the accuracy of related genetic information. 
 
+As of release v2024-04-25, we provide a new `ethnicity category (HANCESTRO:0601)` classification that groups together all terms that can be used to describe self-reported ethnicities. We also have a grouping called `geography-based population category (HANCESTRO:0602)`, for all population descriptors related to geography.
+
+
 ## HANCESTRO root level concepts
 
 ### Ancestry category
@@ -40,11 +43,16 @@ Many population descriptors do not fully match defined ancestry populations alth
 In order to make HANCESTRO more broadly useful for the annotation of both self-reported information, usually referred to as `self-reported ethnicity` as well as genetic ancestry inferred from the similarity of individuals' sequence data to reference populations, we created a new `ethicity category (HANCESTRO:0601)`. This is a grouping class for all terms in HANCESTRO used to describe populations for which no genetic reference population is available and that are also not geographic descriptors. 
 
 
-### Geographic category
+### Geography-based population category
 
 One common way to describing individuals is by reference to the location where they were born, where they live or where their family origniated, such as [national or regional demonyms](https://en.wikipedia.org/wiki/Demonym). Demonyms are used to designate all people in relation to a particular place, regardless of ethnic, linguistic, religious or other cultural considerations.
 
-In order to make it easier for HANCESTRO users to identify all geographical descriptors, we implemented a new `geographic category (HANCESTRO:0602)` that groups all country and regional demonyms.   
+In order to make it easier for HANCESTRO users to identify all geographical descriptors, we implemented a new `geography-based population category (HANCESTRO:0602)` that groups all country and regional demonyms.   
+
+
+**NOTE**
+
+Please note that we make every effort to ensure that our ethnicity and geograph-based population descriptors groupings are non-overlapping, i.e. each term should only appear in one list. For this reason, you may sometimes find a geographic descriptor in the ethnicities list, in particular if that descriptor has child terms that are themselves not geographic descriptors. 
 
 
 ### Ancestry status
@@ -64,6 +72,10 @@ Defined geographic area, generally corresponding to an independent state or nati
 ### Region
 
 Convenience grouping of geographic areas larger than countries but smaller than continents. Regions may not have formal geographic definitions.
+
+## African populations in HANCESTRO
+
+As of release v2023-06-21, HANCESTRO defers to the [African Population Ontology (AfPO)](https://github.com/h3abionet/afpo), produced as part of the [H3ABioNet project](https://www.h3abionet.org/), on all terminology relating to African populations. We import all population terms created by AfPO and include them in our hierarchy underneath our continental ancestry term `African (HANCESTRO:0010)`. Existing HANCESTRO terms such as `Masaai (HANCESTRO:0593)` or `Somali (HANCESTRO:0518)` have been deprecated in favour of their AfPO equivalents. AfPO terms can easily be identified by their AfPO identifiers (`AfPO:0000000` or `http://purl.obolibrary.org/obo/AfPO_0000000`). For any queries, concerns, bug reports, change or new term requests about African populations, please raise an issue on the AfPO [Github Tracker](https://github.com/h3abionet/afpo/issues) directly.
 
 
 

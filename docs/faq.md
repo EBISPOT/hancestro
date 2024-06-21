@@ -42,6 +42,8 @@ For complex ancestral backgrounds that do not fit any individual ancestral group
 
 The concepts of ancestry, ethnicity and race are often used interchangeably and there are sensitivities surrounding these topics. Here, we refer to ancestry for the purpose of describing the genetic background of individuals or populations, while ethnicity refers more to a socio-cultural context. As per [Table 2 of Morales et al.](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1396-2/tables/2), ancestry of participants in genomic studies should ideally by confirmed using genomic methods such as principle component analysis to confirm self-reported ancestries.
 
+As of release v2024-04-25, we provide a new `ethnicity category (HANCESTRO:0601)` classification that groups together all terms that can be used to describe self-reported ethnicities. We also have a grouping called `geography-based population category (HANCESTRO:0602)`, for all population descriptors related to geography.
+
 
 ## Why should I use HANCESTRO rather than NCIt or another ontology? ##
 

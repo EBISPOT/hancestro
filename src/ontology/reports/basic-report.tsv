@@ -372,6 +372,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0619>	"Individuals who self-identify or are reported by authors as belonging to indigenous Mesoamerican peoples of Mexico inhabiting the region known as La Mixteca of Oaxaca and Puebla as well as La Montaña Region and Costa Chica Regions of the state of Guerrero"	
 <http://purl.obolibrary.org/obo/AfPO_0000251>	"A Malagasy population with a population size of 4.359 millions"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0519>		
+<http://purl.obolibrary.org/obo/HANCESTRO_0612>	"Individuals who self-identify or are reported by authors as being of of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin. It should be noted that \"Hispanic\" is considered entirely as an ethnicity or cultural descriptor and is not associated with any specific genetic reference population."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0005>	"Includes individuals who either self-report or have been described by authors as\nEuropean, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations."@en	
 <http://dbpedia.org/resource/Guyana>		"GAZ:00002522"
 <http://dbpedia.org/resource/Chile>		"GAZ:00002825"
@@ -859,7 +860,6 @@
 <http://purl.obolibrary.org/obo/AfPO_0000131>	"A Gurma population with a population size of 7.6 millions"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0527>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0011>	"Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban).\nThis category also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations."@en	
-<http://purl.obolibrary.org/obo/HANCESTRO_0612>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0503>		
 <http://purl.obolibrary.org/obo/AfPO_0000304>	"A Ubangi Central, Eastern African population with a population size of 1-4 millions"	
 <http://purl.obolibrary.org/obo/AfPO_0000132>	"A Bantu Southern population with a population size of 5 millions"	
