@@ -1,0 +1,8 @@
+OBI:0000181
+dbpedia:Africa
+dbpedia:Asia
+dbpedia:Europe
+dbpedia:Latin_America_and_the_Caribbean
+dbpedia:Europe
+dbpedia:Oceania
+dbpedia:Northern_America

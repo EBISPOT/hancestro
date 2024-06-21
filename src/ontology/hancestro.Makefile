@@ -14,7 +14,7 @@
 $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 	$(ROBOT_RELEASE_IMPORT_MODE) \
         template --merge-after --template ../templates/upper_level.tsv --include-annotations true \
-		reason --reasoner HERMIT --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
 		relax \
 		reduce --reasoner ELK \
 		repair \
@@ -33,5 +33,14 @@ $(IMPORTDIR)/foodon_import.owl: $(MIRRORDIR)/foodon.owl $(IMPORTDIR)/foodon_term
 		extract -T $(IMPORTDIR)/foodon_terms.txt --force true --copy-ontology-annotations true --individuals include --method BOT \
 		filter $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/foodon_terms.txt --select "self descendants" \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+		$(ANNOTATE_CONVERT_FILE); fi
+
+
+		
+$(IMPORTDIR)/afpo_import.owl: $(MIRRORDIR)/afpo.owl $(IMPORTDIR)/afpo_terms.txt $(TEMPLATEDIR)/afpo_hierarchy.csv
+	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+		extract -T $(IMPORTDIR)/afpo_terms.txt --force true --copy-ontology-annotations true --individuals include --method TOP \
+		remove -T $(IMPORTDIR)/afpo_strip.txt --prefix "dbpedia: http://dbpedia.org/resource/" --select "self parents" --trim true --signature true\
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru template --merge-after --template $(TEMPLATEDIR)/afpo_hierarchy.csv \
 		$(ANNOTATE_CONVERT_FILE); fi
 

@@ -1,0 +1,1239 @@
+?cls	?pred	?val	?synType
+<http://purl.obolibrary.org/obo/BFO_0000141>	<http://www.w3.org/2000/01/rdf-schema#label>	"immaterial entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"material entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"specifically dependent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"@en	
+<http://purl.obolibrary.org/obo/BFO_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"independent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"entity"@en	
+<http://purl.obolibrary.org/obo/OBI_0000245>	<http://www.w3.org/2000/01/rdf-schema#label>	"organization"@en	
+<http://purl.obolibrary.org/obo/OBI_0000181>	<http://www.w3.org/2000/01/rdf-schema#label>	"population"@en	
+<http://dbpedia.org/resource/Malta>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malta"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0017>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oceanian"	
+<http://dbpedia.org/resource/Kosovo>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kosovo"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0342>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kazakhstani"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0542>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mozambican"@en	
+<http://dbpedia.org/resource/Tonga>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tonga"@en	
+<http://dbpedia.org/resource/Ghana>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ghana"@en	
+<http://dbpedia.org/resource/Channel_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Channel Islands"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0306>	<http://www.w3.org/2000/01/rdf-schema#label>	"admixed ancestry"@en	
+<http://dbpedia.org/resource/Namibia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Namibia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0371>	<http://www.w3.org/2000/01/rdf-schema#label>	"Latvian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0055>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Eastern Asia"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0380>	<http://www.w3.org/2000/01/rdf-schema#label>	"Norwegian"@en	
+<http://dbpedia.org/resource/Bulgaria>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bulgaria"@en	
+<http://dbpedia.org/resource/Greece>	<http://www.w3.org/2000/01/rdf-schema#label>	"Greece"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0621>	<http://www.w3.org/2000/01/rdf-schema#label>	"Piapoco"@en	
+<http://dbpedia.org/resource/Guadeloupe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guadeloupe"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0019>	<http://www.w3.org/2000/01/rdf-schema#label>	"Japanese"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0585>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tatar"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0414>	<http://www.w3.org/2000/01/rdf-schema#label>	"Martinican"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0315>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hutterite"@en	
+<http://dbpedia.org/resource/Malaysia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malaysia"@en	
+<http://dbpedia.org/resource/Pakistan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pakistan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0474>	<http://www.w3.org/2000/01/rdf-schema#label>	"Niuean"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0575>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yoruban"	
+<http://dbpedia.org/resource/Guinea_Bissau>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guinea-Bissau"@en	
+<http://dbpedia.org/resource/Venezuela>	<http://www.w3.org/2000/01/rdf-schema#label>	"Venezuela"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0549>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zambian"@en	
+<http://dbpedia.org/resource/Saudi_Arabia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saudi Arabia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0011>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sub-Saharan African"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0363>	<http://www.w3.org/2000/01/rdf-schema#label>	"French"@en	
+<http://dbpedia.org/resource/Georgia_(country)>	<http://www.w3.org/2000/01/rdf-schema#label>	"Georgia"@en	
+<http://dbpedia.org/resource/Mauritius>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mauritius"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0613>	<http://www.w3.org/2000/01/rdf-schema#label>	"Otomi"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0409>	<http://www.w3.org/2000/01/rdf-schema#label>	"French Guianese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0529>	<http://www.w3.org/2000/01/rdf-schema#label>	"Congolese"@en	
+<http://dbpedia.org/resource/Bolivia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bolivia"@en	
+<http://dbpedia.org/resource/Japan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Japan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0541>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0006>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Asian"	
+<http://dbpedia.org/resource/Solomon_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Solomon Islands"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0430>	<http://www.w3.org/2000/01/rdf-schema#label>	"Venezuelan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0457>	<http://www.w3.org/2000/01/rdf-schema#label>	"Curacaoan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0358>	<http://www.w3.org/2000/01/rdf-schema#label>	"Czech"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0558>	<http://www.w3.org/2000/01/rdf-schema#label>	"French Canadian founder"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0401>	<http://www.w3.org/2000/01/rdf-schema#label>	"British Virgin Islander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0447>	<http://www.w3.org/2000/01/rdf-schema#label>	"Omani"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0521>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ugandan"@en	
+<http://dbpedia.org/resource/Czech_Republic>	<http://www.w3.org/2000/01/rdf-schema#label>	"Czech Republic"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0495>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lao"@en	
+<http://dbpedia.org/resource/Curacao>	<http://www.w3.org/2000/01/rdf-schema#label>	"Curacao"@en	
+<http://dbpedia.org/resource/Laos>	<http://www.w3.org/2000/01/rdf-schema#label>	"Laos"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0550>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zimbabweian"@en	
+<http://dbpedia.org/resource/Cyprus>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cyprus"@en	
+<http://dbpedia.org/resource/Montenegro>	<http://www.w3.org/2000/01/rdf-schema#label>	"Montenegro"@en	
+<http://dbpedia.org/resource/American_Samoa>	<http://www.w3.org/2000/01/rdf-schema#label>	"American Samoa"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0514>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sao Tomean"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0403>	<http://www.w3.org/2000/01/rdf-schema#label>	"Colombian"@en	
+<http://dbpedia.org/resource/Falkland_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Falkland Islands"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0360>	<http://www.w3.org/2000/01/rdf-schema#label>	"Estonian"@en	
+<http://dbpedia.org/resource/Norfolk_Island>	<http://www.w3.org/2000/01/rdf-schema#label>	"Norfolk Island"@en	
+<http://dbpedia.org/resource/São_Tomé_and_Príncipe>	<http://www.w3.org/2000/01/rdf-schema#label>	"São Tomé and Príncipe"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0610>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indigenous in North America"@en	
+<http://dbpedia.org/resource/Eswatini>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eswatini"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0025>	<http://www.w3.org/2000/01/rdf-schema#label>	"Singaporean Chinese"	
+<http://dbpedia.org/resource/Costa_Rica>	<http://www.w3.org/2000/01/rdf-schema#label>	"Costa Rica"@en	
+<http://purl.obolibrary.org/obo/GAZ_00000013>	<http://www.w3.org/2000/01/rdf-schema#label>	"continent"	
+<http://dbpedia.org/resource/Iceland>	<http://www.w3.org/2000/01/rdf-schema#label>	"Iceland"@en	
+<http://dbpedia.org/resource/Togo>	<http://www.w3.org/2000/01/rdf-schema#label>	"Togo"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0377>	<http://www.w3.org/2000/01/rdf-schema#label>	"Montenegrin"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0627>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guaraní"@en	
+<http://dbpedia.org/resource/Kiribati>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kiribati"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0422>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kittitian or Nevisian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0039>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Western Africa"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0304>	<http://www.w3.org/2000/01/rdf-schema#label>	"ancestry status"@en	
+<http://dbpedia.org/resource/Gibraltar>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gibraltar"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0555>	<http://www.w3.org/2000/01/rdf-schema#label>	"Arab Israeli founder"	
+<http://dbpedia.org/resource/Serbia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Serbia"@en	
+<http://dbpedia.org/resource/Albania>	<http://www.w3.org/2000/01/rdf-schema#label>	"Albania"@en	
+<http://dbpedia.org/resource/Paraguay>	<http://www.w3.org/2000/01/rdf-schema#label>	"Paraguay"@en	
+<http://dbpedia.org/resource/Austria>	<http://www.w3.org/2000/01/rdf-schema#label>	"Austria"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0564>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vis founder"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0041>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete South Central Asia"	
+<http://dbpedia.org/resource/Seychelles>	<http://www.w3.org/2000/01/rdf-schema#label>	"Seychelles"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bruneian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0393>	<http://www.w3.org/2000/01/rdf-schema#label>	"Swedish"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0333>	<http://www.w3.org/2000/01/rdf-schema#label>	"Anguillan"@en	
+<http://dbpedia.org/resource/Tuvalu>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tuvalu"@en	
+<http://dbpedia.org/resource/Estonia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Estonia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0593>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Maasai"@en	
+<http://dbpedia.org/resource/Dominica>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dominica"@en	
+<http://dbpedia.org/resource/Barbados>	<http://www.w3.org/2000/01/rdf-schema#label>	"Barbados"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0511>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mauritian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0347>	<http://www.w3.org/2000/01/rdf-schema#label>	"Austrian"@en	
+<http://dbpedia.org/resource/Myanmar>	<http://www.w3.org/2000/01/rdf-schema#label>	"Myanmar"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0547>	<http://www.w3.org/2000/01/rdf-schema#label>	"Togolese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0436>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Egyptian"@en	
+<http://dbpedia.org/resource/Saint_Pierre_and_Miquelon>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saint Pierre and Miquelon"	
+<http://dbpedia.org/resource/Guam>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guam"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0024>	<http://www.w3.org/2000/01/rdf-schema#label>	"Macanese"	
+<http://dbpedia.org/resource/Eritrea>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eritrea"@en	
+<http://dbpedia.org/resource/Egypt>	<http://www.w3.org/2000/01/rdf-schema#label>	"Egypt"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0376>	<http://www.w3.org/2000/01/rdf-schema#label>	"Monegasque"@en	
+<http://dbpedia.org/resource/Fiji>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fiji"@en	
+<http://dbpedia.org/resource/Greenland>	<http://www.w3.org/2000/01/rdf-schema#label>	"Greenland"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0626>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mapuche"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0385>	<http://www.w3.org/2000/01/rdf-schema#label>	"Romanian"@en	
+<http://dbpedia.org/resource/Morocco>	<http://www.w3.org/2000/01/rdf-schema#label>	"Morocco"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0004>	<http://www.w3.org/2000/01/rdf-schema#label>	"ancestry category"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0356>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chilean"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0503>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cameroonian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0563>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Tyrolean"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0419>	<http://www.w3.org/2000/01/rdf-schema#label>	"Paraguayan"@en	
+<http://dbpedia.org/resource/Liberia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Liberia"@en	
+<http://dbpedia.org/resource/Ivory_Coast>	<http://www.w3.org/2000/01/rdf-schema#label>	"Côte d'Ivoire"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0479>	<http://www.w3.org/2000/01/rdf-schema#label>	"Solomon Islander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0534>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gabonese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0014>	<http://www.w3.org/2000/01/rdf-schema#label>	"Latin or Admixed American"	
+<http://dbpedia.org/resource/Saint_Helena>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saint Helena"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0366>	<http://www.w3.org/2000/01/rdf-schema#label>	"Greek"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0592>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Luhya"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0616>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mazateco"@en	
+<http://dbpedia.org/resource/Palau>	<http://www.w3.org/2000/01/rdf-schema#label>	"Palau"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0411>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guatemalan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0312>	<http://www.w3.org/2000/01/rdf-schema#label>	"Carlantino"@en	
+<http://dbpedia.org/resource/Republic_of_Ireland>	<http://www.w3.org/2000/01/rdf-schema#label>	"Republic of Ireland"@en	
+<http://dbpedia.org/resource/Burkina_Faso>	<http://www.w3.org/2000/01/rdf-schema#label>	"Burkina Faso"@en	
+<http://dbpedia.org/resource/Israel>	<http://www.w3.org/2000/01/rdf-schema#label>	"Israel"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0572>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kosraean"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0544>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nigerian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0488>	<http://www.w3.org/2000/01/rdf-schema#label>	"Maldivian"@en	
+<http://dbpedia.org/resource/Saint_Martin>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saint Martin"@en	
+<http://dbpedia.org/resource/Syria>	<http://www.w3.org/2000/01/rdf-schema#label>	"Syria"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0030>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Asia"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0536>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ghanaian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0382>	<http://www.w3.org/2000/01/rdf-schema#label>	"Portugese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0322>	<http://www.w3.org/2000/01/rdf-schema#label>	"Finnish founder"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0582>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tibetan"	
+<http://dbpedia.org/resource/Cameroon>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cameroon"@en	
+<http://dbpedia.org/resource/Mali>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mali"@en	
+<http://dbpedia.org/resource/Suriname>	<http://www.w3.org/2000/01/rdf-schema#label>	"Suriname"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0047>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Western Europe"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0498>	<http://www.w3.org/2000/01/rdf-schema#label>	"Filipino"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0399>	<http://www.w3.org/2000/01/rdf-schema#label>	"Belizean"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0618>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nahua"@en	
+<http://dbpedia.org/resource/Rwanda>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rwanda"@en	
+<http://dbpedia.org/resource/Tokelau>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tokelau"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0500>	<http://www.w3.org/2000/01/rdf-schema#label>	"Thai"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0317>	<http://www.w3.org/2000/01/rdf-schema#label>	"Erasmus Rucphen"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0444>	<http://www.w3.org/2000/01/rdf-schema#label>	"Libyan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0601>	<http://www.w3.org/2000/01/rdf-schema#label>	"ethnicity category"@en	
+<http://dbpedia.org/resource/Armenia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Armenia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0577>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dai Chinese"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0517>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sierra Leonean"@en	
+<http://dbpedia.org/resource/Monaco>	<http://www.w3.org/2000/01/rdf-schema#label>	"Monaco"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0013>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indigenous American"@en	
+<http://dbpedia.org/resource/Belarus>	<http://www.w3.org/2000/01/rdf-schema#label>	"Belarus"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0365>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gibraltarian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0615>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zapoteco"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0454>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aruban"@en	
+<http://dbpedia.org/resource/Haiti>	<http://www.w3.org/2000/01/rdf-schema#label>	"Haiti"@en	
+<http://dbpedia.org/resource/Trinidad_and_Tobago>	<http://www.w3.org/2000/01/rdf-schema#label>	"Trinidad and Tobago"@en	
+<http://dbpedia.org/resource/Christmas_Island>	<http://www.w3.org/2000/01/rdf-schema#label>	"Christmas Island"	
+<http://dbpedia.org/resource/Botswana>	<http://www.w3.org/2000/01/rdf-schema#label>	"Botswana"@en	
+<http://dbpedia.org/resource/Bermuda>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bermuda"@en	
+<http://dbpedia.org/resource/Peru>	<http://www.w3.org/2000/01/rdf-schema#label>	"Peru"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0051>	<http://www.w3.org/2000/01/rdf-schema#label>	"Australia/New Zealand"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0309>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sardinian"@en	
+<http://dbpedia.org/resource/El_Salvador>	<http://www.w3.org/2000/01/rdf-schema#label>	"El Salvador"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0449>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saudi"@en	
+<http://dbpedia.org/resource/Russia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Russia"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0569>	<http://www.w3.org/2000/01/rdf-schema#label>	"Talana"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0321>	<http://www.w3.org/2000/01/rdf-schema#label>	"Finnish"@en	
+<http://dbpedia.org/resource/Gabon>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gabon"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0581>	<http://www.w3.org/2000/01/rdf-schema#label>	"Uygur Chinese"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0497>	<http://www.w3.org/2000/01/rdf-schema#label>	"Burmese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0046>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Southern Europe"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0470>	<http://www.w3.org/2000/01/rdf-schema#label>	"Marshallese"@en	
+<http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saint Vincent and the Grenadines"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0338>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tajikistani"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0398>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bahamian"@en	
+<http://dbpedia.org/resource/Mongolia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mongolia"@en	
+<http://dbpedia.org/resource/Comoros>	<http://www.w3.org/2000/01/rdf-schema#label>	"Comoros"@en	
+<http://dbpedia.org/resource/Uzbekistan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Uzbekistan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0441>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jordanian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0561>	<http://www.w3.org/2000/01/rdf-schema#label>	"Romanian founder"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0477>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pitcairn Islander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0516>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Seychellois"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0405>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cuban"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0525>	<http://www.w3.org/2000/01/rdf-schema#label>	"Burkinabe"@en	
+<http://dbpedia.org/resource/South_Sudan>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Sudan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.w3.org/2000/01/rdf-schema#label>	"European American"	
+<http://dbpedia.org/resource/France>	<http://www.w3.org/2000/01/rdf-schema#label>	"France"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0027>	<http://www.w3.org/2000/01/rdf-schema#label>	"Han Chinese"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0379>	<http://www.w3.org/2000/01/rdf-schema#label>	"Norfolk Islander"@en	
+<http://dbpedia.org/resource/Tanzania>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tanzania"	
+<http://dbpedia.org/resource/Iran>	<http://www.w3.org/2000/01/rdf-schema#label>	"Iran"	
+<http://dbpedia.org/resource/Ethiopia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ethiopia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0036>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Middle Africa"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0388>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sammarinese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0424>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saint Vincentian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0433>	<http://www.w3.org/2000/01/rdf-schema#label>	"Azerbaijani"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0506>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ethiopian"@en	
+<http://dbpedia.org/resource/French_Polynesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"French Polynesia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0566>	<http://www.w3.org/2000/01/rdf-schema#label>	"undefined ancestry population"	
+<http://dbpedia.org/resource/Cook_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cook Islands"@en	
+<http://dbpedia.org/resource/Sudan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sudan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0462>	<http://www.w3.org/2000/01/rdf-schema#label>	"British"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0335>	<http://www.w3.org/2000/01/rdf-schema#label>	"Barbadian"@en	
+<http://dbpedia.org/resource/Maldives>	<http://www.w3.org/2000/01/rdf-schema#label>	"Maldives"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0595>	<http://www.w3.org/2000/01/rdf-schema#label>	"Inuit"	
+<http://dbpedia.org/resource/Malawi>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malawi"@en	
+<http://dbpedia.org/resource/Wallis_and_Futuna>	<http://www.w3.org/2000/01/rdf-schema#label>	"Wallis and Futuna"@en	
+<http://dbpedia.org/resource/China>	<http://www.w3.org/2000/01/rdf-schema#label>	"China"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0438>	<http://www.w3.org/2000/01/rdf-schema#label>	"Iranian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0373>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lithuanian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0623>	<http://www.w3.org/2000/01/rdf-schema#label>	"Quechua"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0289>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete South Asia"	
+<http://dbpedia.org/resource/Republic_of_the_Congo>	<http://www.w3.org/2000/01/rdf-schema#label>	"Republic of the Congo"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0508>	<http://www.w3.org/2000/01/rdf-schema#label>	"Liberian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0539>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mosotho"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0035>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Eastern Africa"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0551>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetically homogenous Irish"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0387>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saint-Pierrais or Miquelonnais"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0467>	<http://www.w3.org/2000/01/rdf-schema#label>	"French Polynesian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0587>	<http://www.w3.org/2000/01/rdf-schema#label>	"Martu Australian Aboriginal"	
+<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo>	<http://www.w3.org/2000/01/rdf-schema#label>	"Democratic Republic of the Congo"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0531>	<http://www.w3.org/2000/01/rdf-schema#label>	"Djiboutian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0505>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chadian"@en	
+<http://dbpedia.org/resource/Cape_Verde>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cape Verde"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0044>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Eastern Europe"	
+<http://dbpedia.org/resource/Afghanistan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Afghanistan"@en	
+<http://dbpedia.org/resource/Sweden>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sweden"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0016>	<http://www.w3.org/2000/01/rdf-schema#label>	"African American or Afro-Caribbean"	
+<http://dbpedia.org/resource/Vanuatu>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vanuatu"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0396>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ukrainian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0368>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hungarian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0008>	<http://www.w3.org/2000/01/rdf-schema#label>	"Asian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0459>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern Mariana Islander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0413>	<http://www.w3.org/2000/01/rdf-schema#label>	"Honduran"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0314>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sorb"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0574>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pacific Islander"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0054>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Polynesia"	
+<http://dbpedia.org/resource/Mayotte>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mayotte"@en	
+<http://dbpedia.org/resource/South_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Africa"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0288>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Scandinavia"	
+<http://dbpedia.org/resource/Holy_See>	<http://www.w3.org/2000/01/rdf-schema#label>	"Holy See"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0538>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bissau-Guinean"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0451>	<http://www.w3.org/2000/01/rdf-schema#label>	"Turkish"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0352>	<http://www.w3.org/2000/01/rdf-schema#label>	"Brazilian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0324>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ashkenazi Jew"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0584>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sri Lankan Sinhalese"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0049>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete South America"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0415>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mexican"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0548>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tanzanian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0530>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ivoirian"@en	
+<http://dbpedia.org/resource/Slovenia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Slovenia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0010>	<http://www.w3.org/2000/01/rdf-schema#label>	"African"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0446>	<http://www.w3.org/2000/01/rdf-schema#label>	"Palestinian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0362>	<http://www.w3.org/2000/01/rdf-schema#label>	"Falkland Islander"@en	
+<http://dbpedia.org/resource/Saint_Lucia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saint Lucia"@en	
+<http://dbpedia.org/resource/Luxembourg>	<http://www.w3.org/2000/01/rdf-schema#label>	"Luxembourg"@en	
+<http://dbpedia.org/resource/Australia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Australia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0519>	<http://www.w3.org/2000/01/rdf-schema#label>	"South African"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hispanic"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0528>	<http://www.w3.org/2000/01/rdf-schema#label>	"Comoran"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0540>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malawian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0484>	<http://www.w3.org/2000/01/rdf-schema#label>	"Wallis and Futuna Islander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0456>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cocos Islander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0357>	<http://www.w3.org/2000/01/rdf-schema#label>	"Croatian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0631>	<http://www.w3.org/2000/01/rdf-schema#label>	"Asháninka"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0557>	<http://www.w3.org/2000/01/rdf-schema#label>	"Costa Rican founder"	
+<http://dbpedia.org/resource/Central_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Central Africa"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0053>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Micronesia"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0520>	<http://www.w3.org/2000/01/rdf-schema#label>	"St. Helenian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0402>	<http://www.w3.org/2000/01/rdf-schema#label>	"Caymanian"@en	
+<http://dbpedia.org/resource/Angola>	<http://www.w3.org/2000/01/rdf-schema#label>	"Angola"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0033>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Latin America and the Caribbean"	
+<http://dbpedia.org/resource/Cambodia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cambodia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0494>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indonesian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0465>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cook Islander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0513>	<http://www.w3.org/2000/01/rdf-schema#label>	"Namibian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0349>	<http://www.w3.org/2000/01/rdf-schema#label>	"Belgian"@en	
+<http://dbpedia.org/resource/Dominican_Republic>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dominican Republic"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0429>	<http://www.w3.org/2000/01/rdf-schema#label>	"Uruguayan"@en	
+<http://dbpedia.org/resource/Bahrain>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bahrain"@en	
+<http://dbpedia.org/resource/Jordan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jordan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0361>	<http://www.w3.org/2000/01/rdf-schema#label>	"Faroese"@en	
+<http://dbpedia.org/resource/Colombia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Colombia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0527>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Central African"@en	
+<http://dbpedia.org/resource/Scotland>	<http://www.w3.org/2000/01/rdf-schema#label>	"Scotland"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0332>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Sahrawi"@en	
+<http://dbpedia.org/resource/Lebanon>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lebanon"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0341>	<http://www.w3.org/2000/01/rdf-schema#label>	"Afghan"@en	
+<http://dbpedia.org/resource/Algeria>	<http://www.w3.org/2000/01/rdf-schema#label>	"Algeria"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0481>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tongan"@en	
+<http://dbpedia.org/resource/Saint_Kitts_and_Nevis>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saint Kitts and Nevis"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0421>	<http://www.w3.org/2000/01/rdf-schema#label>	"Puerto Rican"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0038>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Southern Africa"	
+<http://dbpedia.org/resource/Guatemala>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guatemala"@en	
+<http://dbpedia.org/resource/Turks_and_Caicos_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Turks and Caicos Islands"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0370>	<http://www.w3.org/2000/01/rdf-schema#label>	"Manx"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0435>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cypriote"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0286>	<http://www.w3.org/2000/01/rdf-schema#label>	"Central Asian"@en	
+<http://dbpedia.org/resource/Senegal>	<http://www.w3.org/2000/01/rdf-schema#label>	"Senegal"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0620>	<http://www.w3.org/2000/01/rdf-schema#label>	"Wayúu"@en	
+<http://dbpedia.org/resource/New_Zealand>	<http://www.w3.org/2000/01/rdf-schema#label>	"New Zealand"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0464>	<http://www.w3.org/2000/01/rdf-schema#label>	"American Samoan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0473>	<http://www.w3.org/2000/01/rdf-schema#label>	"New Caledonian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0346>	<http://www.w3.org/2000/01/rdf-schema#label>	"Australian"@en	
+<http://dbpedia.org/resource/Niger>	<http://www.w3.org/2000/01/rdf-schema#label>	"Niger"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0546>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Swazi"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0428>	<http://www.w3.org/2000/01/rdf-schema#label>	"Virgin Islander"@en	
+<http://dbpedia.org/resource/Puerto_Rico>	<http://www.w3.org/2000/01/rdf-schema#label>	"Puerto Rico"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0023>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mongolian"	
+<http://dbpedia.org/resource/United_States_Virgin_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"United States Virgin Islands"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0375>	<http://www.w3.org/2000/01/rdf-schema#label>	"Maltese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0408>	<http://www.w3.org/2000/01/rdf-schema#label>	"Salvadoran"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0625>	<http://www.w3.org/2000/01/rdf-schema#label>	"Diaguita"@en	
+<http://dbpedia.org/resource/Bosnia_and_Herzegovina>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bosnia and Herzegovina"@en	
+<http://dbpedia.org/resource/Papua_New_Guinea>	<http://www.w3.org/2000/01/rdf-schema#label>	"Papua New Guinea"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0420>	<http://www.w3.org/2000/01/rdf-schema#label>	"Peruvian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0003>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete country"	
+<http://dbpedia.org/resource/Isle_of_Man>	<http://www.w3.org/2000/01/rdf-schema#label>	"Isle of Man"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0355>	<http://www.w3.org/2000/01/rdf-schema#label>	"Channel Islander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0502>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vietnamese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0589>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punjabi Sikh"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0418>	<http://www.w3.org/2000/01/rdf-schema#label>	"Panamanian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0400>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bolivian"@en	
+<http://dbpedia.org/resource/Honduras>	<http://www.w3.org/2000/01/rdf-schema#label>	"Honduras"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0319>	<http://www.w3.org/2000/01/rdf-schema#label>	"Korčulan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0478>	<http://www.w3.org/2000/01/rdf-schema#label>	"Samoan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0533>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eritrean"@en	
+<http://dbpedia.org/resource/Italy>	<http://www.w3.org/2000/01/rdf-schema#label>	"Italy"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0579>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jingpo Chinese"	
+<http://dbpedia.org/resource/India>	<http://www.w3.org/2000/01/rdf-schema#label>	"India"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0591>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Esan"@en	
+<http://dbpedia.org/resource/Slovakia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Slovakia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0290>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetically isolated population"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0410>	<http://www.w3.org/2000/01/rdf-schema#label>	"Grenadian"@en	
+<http://dbpedia.org/resource/Mozambique>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mozambique"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0311>	<http://www.w3.org/2000/01/rdf-schema#label>	"Friuli Venezia Giulia"@en	
+<http://dbpedia.org/resource/Yemen>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yemen"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0571>	<http://www.w3.org/2000/01/rdf-schema#label>	"Plains Indians"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0598>	<http://www.w3.org/2000/01/rdf-schema#label>	"Singaporean Indian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0487>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0600>	<http://www.w3.org/2000/01/rdf-schema#label>	"geographic descriptor"@en	
+<http://dbpedia.org/resource/Finland>	<http://www.w3.org/2000/01/rdf-schema#label>	"Finland"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0002>	<http://www.w3.org/2000/01/rdf-schema#label>	"region"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0453>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yemeni"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0354>	<http://www.w3.org/2000/01/rdf-schema#label>	"Canadian"@en	
+<http://dbpedia.org/resource/Indonesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indonesia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0554>	<http://www.w3.org/2000/01/rdf-schema#label>	"Silk Road founder"	
+<http://dbpedia.org/resource/Taiwan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Taiwan"@en	
+<http://dbpedia.org/resource/Nauru>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nauru"@en	
+<http://dbpedia.org/resource/Tunisia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tunisia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0443>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lebanese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0417>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nicaraguan"@en	
+<http://dbpedia.org/resource/Réunion>	<http://www.w3.org/2000/01/rdf-schema#label>	"Réunion"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0318>	<http://www.w3.org/2000/01/rdf-schema#label>	"Orcadian"@en	
+<http://dbpedia.org/resource/Moldova>	<http://www.w3.org/2000/01/rdf-schema#label>	"Moldova"	
+<http://dbpedia.org/resource/Ukraine>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ukraine"@en	
+<http://dbpedia.org/resource/Bangladesh>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bangladesh"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0614>	<http://www.w3.org/2000/01/rdf-schema#label>	"Maya"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0491>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sri Lankan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0392>	<http://www.w3.org/2000/01/rdf-schema#label>	"Spanish"@en	
+<http://dbpedia.org/resource/Argentina>	<http://www.w3.org/2000/01/rdf-schema#label>	"Argentina"@en	
+<http://dbpedia.org/resource/United_Arab_Emirates>	<http://www.w3.org/2000/01/rdf-schema#label>	"United Arab Emirates"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0364>	<http://www.w3.org/2000/01/rdf-schema#label>	"German"@en	
+<http://dbpedia.org/resource/Guyana>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guyana"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0029>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Africa"	
+<http://dbpedia.org/resource/Singapore>	<http://www.w3.org/2000/01/rdf-schema#label>	"Singapore"@en	
+<http://dbpedia.org/resource/Netherlands_Antilles>	<http://www.w3.org/2000/01/rdf-schema#label>	"Netherlands Antilles"@en	
+<http://dbpedia.org/resource/Poland>	<http://www.w3.org/2000/01/rdf-schema#label>	"Poland"@en	
+<http://dbpedia.org/resource/Northern_Mariana_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern Mariana Islands"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0310>	<http://www.w3.org/2000/01/rdf-schema#label>	"Val Borbera"@en	
+<http://dbpedia.org/resource/Liechtenstein>	<http://www.w3.org/2000/01/rdf-schema#label>	"Liechtenstein"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0570>	<http://www.w3.org/2000/01/rdf-schema#label>	"Akimel O'odham"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0344>	<http://www.w3.org/2000/01/rdf-schema#label>	"Albanian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0426>	<http://www.w3.org/2000/01/rdf-schema#label>	"Trinidadian or Tobagonian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0050>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Central America"	
+<http://dbpedia.org/resource/Tajikistan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tajikistan"@en	
+<http://dbpedia.org/resource/Kyrgyzstan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kyrgyzstan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0486>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bhutanese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0559>	<http://www.w3.org/2000/01/rdf-schema#label>	"Italian founder"	
+<http://dbpedia.org/resource/Spain>	<http://www.w3.org/2000/01/rdf-schema#label>	"Spain"@en	
+<http://dbpedia.org/resource/Ecuador>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ecuador"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0021>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chinese"	
+<http://dbpedia.org/resource/Chad>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chad"@en	
+<http://dbpedia.org/resource/Qatar>	<http://www.w3.org/2000/01/rdf-schema#label>	"Qatar"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0522>	<http://www.w3.org/2000/01/rdf-schema#label>	"Angolan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0568>	<http://www.w3.org/2000/01/rdf-schema#label>	"African American"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0580>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malaysian Chinese"	
+<http://dbpedia.org/resource/Antigua_and_Barbuda>	<http://www.w3.org/2000/01/rdf-schema#label>	"Antigua and Barbuda"@en	
+<http://dbpedia.org/resource/The_Gambia>	<http://www.w3.org/2000/01/rdf-schema#label>	"The Gambia"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0337>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jamaican"@en	
+<http://dbpedia.org/resource/Romania>	<http://www.w3.org/2000/01/rdf-schema#label>	"Romania"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0496>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malaysian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0397>	<http://www.w3.org/2000/01/rdf-schema#label>	"Argentine"@en	
+<http://dbpedia.org/resource/Anguilla>	<http://www.w3.org/2000/01/rdf-schema#label>	"Anguilla"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0560>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern Finnish founder"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0442>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kuwaiti"@en	
+<http://dbpedia.org/resource/British_Virgin_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"British Virgin Islands"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0476>	<http://www.w3.org/2000/01/rdf-schema#label>	"Papua New Guinean"@en	
+<http://dbpedia.org/resource/Nigeria>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nigeria"@en	
+<http://dbpedia.org/resource/Kazakhstan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kazakhstan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0515>	<http://www.w3.org/2000/01/rdf-schema#label>	"Senegalese"@en	
+<http://dbpedia.org/resource/Kuwait>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kuwait"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0524>	<http://www.w3.org/2000/01/rdf-schema#label>	"Motswana"@en	
+<http://dbpedia.org/resource/East_Timor>	<http://www.w3.org/2000/01/rdf-schema#label>	"East Timor"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0343>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kyrgyzstani"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0469>	<http://www.w3.org/2000/01/rdf-schema#label>	"I-Kiribati"@en	
+<http://dbpedia.org/resource/Bhutan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bhutan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0423>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saint Lucian"@en	
+<http://dbpedia.org/resource/Western_Sahara>	<http://www.w3.org/2000/01/rdf-schema#label>	"Western Sahara"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0543>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nigerien"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0432>	<http://www.w3.org/2000/01/rdf-schema#label>	"Armenian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0307>	<http://www.w3.org/2000/01/rdf-schema#label>	"Italian"@en	
+<http://dbpedia.org/resource/Kenya>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenya"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0020>	<http://www.w3.org/2000/01/rdf-schema#label>	"Taiwanese"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0372>	<http://www.w3.org/2000/01/rdf-schema#label>	"Liechtensteiner"@en	
+<http://dbpedia.org/resource/Federated_States_of_Micronesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Micronesia (Federated States of)"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0622>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pastos"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0381>	<http://www.w3.org/2000/01/rdf-schema#label>	"Polish"@en	
+<http://dbpedia.org/resource/Switzerland>	<http://www.w3.org/2000/01/rdf-schema#label>	"Switzerland"@en	
+<http://dbpedia.org/resource/Equatorial_Guinea>	<http://www.w3.org/2000/01/rdf-schema#label>	"Equatorial Guinea"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0461>	<http://www.w3.org/2000/01/rdf-schema#label>	"Syrian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0018>	<http://www.w3.org/2000/01/rdf-schema#label>	"uncategorised population"	
+<http://dbpedia.org/resource/Libya>	<http://www.w3.org/2000/01/rdf-schema#label>	"Libya"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0617>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rarámuri"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0316>	<http://www.w3.org/2000/01/rdf-schema#label>	"Amish"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0475>	<http://www.w3.org/2000/01/rdf-schema#label>	"Palauan"@en	
+<http://dbpedia.org/resource/Faeroe_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Faeroe Islands"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0576>	<http://www.w3.org/2000/01/rdf-schema#label>	"West African"	
+<http://dbpedia.org/resource/Portugal>	<http://www.w3.org/2000/01/rdf-schema#label>	"Portugal"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0439>	<http://www.w3.org/2000/01/rdf-schema#label>	"Iraqi"@en	
+<http://dbpedia.org/resource/Macau>	<http://www.w3.org/2000/01/rdf-schema#label>	"Macau"	
+<http://dbpedia.org/resource/Chile>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chile"@en	
+<http://dbpedia.org/resource/Swaziland>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Swaziland"@en	
+<http://dbpedia.org/resource/Sint_Maarten>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sint Maarten"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0034>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Northern America"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0386>	<http://www.w3.org/2000/01/rdf-schema#label>	"Russian"@en	
+<http://purl.obolibrary.org/obo/NCIT_C25464>	<http://www.w3.org/2000/01/rdf-schema#label>	"Country"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0005>	<http://www.w3.org/2000/01/rdf-schema#label>	"European"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0431>	<http://www.w3.org/2000/01/rdf-schema#label>	"Algerian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0504>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cape Verdean"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0448>	<http://www.w3.org/2000/01/rdf-schema#label>	"Qatari"@en	
+<http://dbpedia.org/resource/United_Kingdom>	<http://www.w3.org/2000/01/rdf-schema#label>	"United Kingdom"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0460>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Sudanese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0043>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Western Asia"	
+<http://dbpedia.org/resource/Brazil>	<http://www.w3.org/2000/01/rdf-schema#label>	"Brazil"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0395>	<http://www.w3.org/2000/01/rdf-schema#label>	"Macedonian"@en	
+<http://dbpedia.org/resource/Vietnam>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vietnam"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0369>	<http://www.w3.org/2000/01/rdf-schema#label>	"Icelandic"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0458>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kosovar"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0007>	<http://www.w3.org/2000/01/rdf-schema#label>	"South East Asian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0440>	<http://www.w3.org/2000/01/rdf-schema#label>	"Israeli"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0412>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guyanese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0313>	<http://www.w3.org/2000/01/rdf-schema#label>	"Old Order Amish"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0359>	<http://www.w3.org/2000/01/rdf-schema#label>	"Danish"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0573>	<http://www.w3.org/2000/01/rdf-schema#label>	"Native Hawaiian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0404>	<http://www.w3.org/2000/01/rdf-schema#label>	"Costa Rican"@en	
+<http://dbpedia.org/resource/Lesotho>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lesotho"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0489>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nepalese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0611>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indigenous in South America"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0537>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guinean"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0450>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tunisian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0026>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hong Kong Chinese"	
+<http://dbpedia.org/resource/Lithuania>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lithuania"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0378>	<http://www.w3.org/2000/01/rdf-schema#label>	"New Zealander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0351>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bosnian or Herzegovinian"@en	
+<http://dbpedia.org/resource/Netherlands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Netherlands"@en	
+<http://dbpedia.org/resource/Norway>	<http://www.w3.org/2000/01/rdf-schema#label>	"Norway"@en	
+<http://dbpedia.org/resource/Samoa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Samoa"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0628>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tupiniquim"@en	
+<http://dbpedia.org/resource/Central_African_Republic>	<http://www.w3.org/2000/01/rdf-schema#label>	"Central African Republic"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0305>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetically isolated ancestry"@en	
+<http://dbpedia.org/resource/Thailand>	<http://www.w3.org/2000/01/rdf-schema#label>	"Thailand"@en	
+<http://dbpedia.org/resource/Cuba>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cuba"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0556>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cilento"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0445>	<http://www.w3.org/2000/01/rdf-schema#label>	"Moroccan"@en	
+<http://dbpedia.org/resource/United_States>	<http://www.w3.org/2000/01/rdf-schema#label>	"United States"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0565>	<http://www.w3.org/2000/01/rdf-schema#label>	"Split founder"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0042>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete South-Eastern Asia"	
+<http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete_Punjabi Sikh"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0493>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cambodian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0394>	<http://www.w3.org/2000/01/rdf-schema#label>	"Swiss"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0334>	<http://www.w3.org/2000/01/rdf-schema#label>	"Antiguan or Barbudan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0594>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Mende"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0483>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ni-Vanuato"@en	
+<http://dbpedia.org/resource/Niue>	<http://www.w3.org/2000/01/rdf-schema#label>	"Niue"@en	
+<http://dbpedia.org/resource/Benin>	<http://www.w3.org/2000/01/rdf-schema#label>	"Benin"@en	
+<http://dbpedia.org/resource/Germany>	<http://www.w3.org/2000/01/rdf-schema#label>	"Germany"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0630>	<http://www.w3.org/2000/01/rdf-schema#label>	"Arhuaco"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0512>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mahoran"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0052>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Melanesia"	
+<http://dbpedia.org/resource/Pitcairn_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pitcairn Islands"	
+<http://dbpedia.org/resource/North_Korea>	<http://www.w3.org/2000/01/rdf-schema#label>	"North Korea"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0437>	<http://www.w3.org/2000/01/rdf-schema#label>	"Georgian"@en	
+<http://dbpedia.org/resource/Uruguay>	<http://www.w3.org/2000/01/rdf-schema#label>	"Uruguay"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0032>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Oceania"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0350>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bermudian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0384>	<http://www.w3.org/2000/01/rdf-schema#label>	"Moldovan"@en	
+<http://dbpedia.org/resource/Panama>	<http://www.w3.org/2000/01/rdf-schema#label>	"Panama"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0466>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fijian"@en	
+<http://dbpedia.org/resource/San_Marino>	<http://www.w3.org/2000/01/rdf-schema#label>	"San Marino"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0339>	<http://www.w3.org/2000/01/rdf-schema#label>	"Turkmen"@en	
+<http://dbpedia.org/resource/Philippines>	<http://www.w3.org/2000/01/rdf-schema#label>	"Philippines"@en	
+<http://dbpedia.org/resource/Oman>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oman"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0348>	<http://www.w3.org/2000/01/rdf-schema#label>	"Belarusian"@en	
+<http://dbpedia.org/resource/Latvia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Latvia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0599>	<http://www.w3.org/2000/01/rdf-schema#label>	"ethnicity descriptor"@en	
+<http://dbpedia.org/resource/Belize>	<http://www.w3.org/2000/01/rdf-schema#label>	"Belize"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0526>	<http://www.w3.org/2000/01/rdf-schema#label>	"Burundian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0331>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sudanese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0015>	<http://www.w3.org/2000/01/rdf-schema#label>	"Greater Middle Eastern  (Middle Eastern or North African or Persian)"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0340>	<http://www.w3.org/2000/01/rdf-schema#label>	"Uzbekistani"@en	
+<http://dbpedia.org/resource/Cocos_(Keeling)_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cocos (Keeling) Islands"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0367>	<http://www.w3.org/2000/01/rdf-schema#label>	"Greenlander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0482>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tuvaluan"@en	
+<http://dbpedia.org/resource/Iraq>	<http://www.w3.org/2000/01/rdf-schema#label>	"Iraq"@en	
+<http://dbpedia.org/resource/Zambia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zambia"@en	
+<http://dbpedia.org/resource/The_Bahamas>	<http://www.w3.org/2000/01/rdf-schema#label>	"The Bahamas"	
+<http://dbpedia.org/resource/Nicaragua>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nicaragua"@en	
+<http://dbpedia.org/resource/Zimbabwe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zimbabwe"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0545>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rwandan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0434>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bahraini"@en	
+<http://dbpedia.org/resource/Canada>	<http://www.w3.org/2000/01/rdf-schema#label>	"Canada"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0535>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gambian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0031>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Europe"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0383>	<http://www.w3.org/2000/01/rdf-schema#label>	"Irish"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0323>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dutch founder"@en	
+<http://dbpedia.org/resource/Martinique>	<http://www.w3.org/2000/01/rdf-schema#label>	"Martinique"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0463>	<http://www.w3.org/2000/01/rdf-schema#label>	"American"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0583>	<http://www.w3.org/2000/01/rdf-schema#label>	"Taiwanese Han"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0048>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Caribbean"	
+<http://dbpedia.org/resource/Grenada>	<http://www.w3.org/2000/01/rdf-schema#label>	"Grenada"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0472>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nauruan"@en	
+<http://dbpedia.org/resource/Belgium>	<http://www.w3.org/2000/01/rdf-schema#label>	"Belgium"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0619>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mixteco"@en	
+<http://dbpedia.org/resource/Burundi>	<http://www.w3.org/2000/01/rdf-schema#label>	"Burundi"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0427>	<http://www.w3.org/2000/01/rdf-schema#label>	"Turks and Caicos Islander"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0501>	<http://www.w3.org/2000/01/rdf-schema#label>	"Timorese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0602>	<http://www.w3.org/2000/01/rdf-schema#label>	"geography-based population category"@en	
+<http://dbpedia.org/resource/Somalia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Somalia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0578>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hui Chinese"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0518>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Somali"@en	
+<http://dbpedia.org/resource/Brunei>	<http://www.w3.org/2000/01/rdf-schema#label>	"Brunei"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0407>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ecuadorian"@en	
+<http://dbpedia.org/resource/Denmark>	<http://www.w3.org/2000/01/rdf-schema#label>	"Denmark"@en	
+<http://dbpedia.org/resource/Guinea>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guinea"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0328>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete_Caribbean"@en	
+<http://dbpedia.org/resource/Andorra>	<http://www.w3.org/2000/01/rdf-schema#label>	"Andorra"@en	
+<http://dbpedia.org/resource/Croatia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Croatia"@en	
+<http://dbpedia.org/resource/Montserrat>	<http://www.w3.org/2000/01/rdf-schema#label>	"Montserrat"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0455>	<http://www.w3.org/2000/01/rdf-schema#label>	"Christmas Islander"@en	
+<http://dbpedia.org/resource/Uganda>	<http://www.w3.org/2000/01/rdf-schema#label>	"Uganda"@en	
+<http://dbpedia.org/resource/Nepal>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nepal"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0510>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mauritanian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0588>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jewish Israeli"	
+<http://dbpedia.org/resource/Turkmenistan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Turkmenistan"@en	
+<http://dbpedia.org/resource/Palestinian_territories>	<http://www.w3.org/2000/01/rdf-schema#label>	"Palestinian Territories"	
+<http://dbpedia.org/resource/Aruba>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aruba"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0320>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dutch"@en	
+<http://dbpedia.org/resource/New_Caledonia>	<http://www.w3.org/2000/01/rdf-schema#label>	"New Caledonia"@en	
+<http://dbpedia.org/resource/Jamaica>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jamaica"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0045>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Northern Europe"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0471>	<http://www.w3.org/2000/01/rdf-schema#label>	"Micronesian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0009>	<http://www.w3.org/2000/01/rdf-schema#label>	"East Asian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0597>	<http://www.w3.org/2000/01/rdf-schema#label>	"Singaporean Malay"	
+<http://dbpedia.org/resource/Marshall_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Marshall Islands"@en	
+<http://dbpedia.org/resource/Madagascar>	<http://www.w3.org/2000/01/rdf-schema#label>	"Madagascar"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0406>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dominican"@en	
+<http://dbpedia.org/resource/Cayman_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cayman Islands"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0480>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tokelauan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0452>	<http://www.w3.org/2000/01/rdf-schema#label>	"Emirati"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0353>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bulgarian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0037>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Northern Africa"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0553>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete_Circumpolar people"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0389>	<http://www.w3.org/2000/01/rdf-schema#label>	"Serb"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0416>	<http://www.w3.org/2000/01/rdf-schema#label>	"Montserratian"@en	
+<http://dbpedia.org/resource/Mauretania>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mauritania"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0507>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenyan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0490>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pakistani"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0391>	<http://www.w3.org/2000/01/rdf-schema#label>	"Slovene"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.w3.org/2000/01/rdf-schema#label>	"Afro-Caribbean"	
+<http://dbpedia.org/resource/Sri_Lanka>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sri Lanka"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0336>	<http://www.w3.org/2000/01/rdf-schema#label>	"Haitian"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0596>	<http://www.w3.org/2000/01/rdf-schema#label>	"Arab"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0345>	<http://www.w3.org/2000/01/rdf-schema#label>	"Andorran"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0425>	<http://www.w3.org/2000/01/rdf-schema#label>	"Surinamese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0485>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bangladeshi"@en	
+<http://dbpedia.org/resource/Hungary>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hungary"@en	
+<http://dbpedia.org/resource/Republic_of_Macedonia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Republic of Macedonia"	
+<http://dbpedia.org/resource/Turkey>	<http://www.w3.org/2000/01/rdf-schema#label>	"Turkey"@en	
+<http://dbpedia.org/resource/South_Korea>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Korea"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0022>	<http://www.w3.org/2000/01/rdf-schema#label>	"Korean"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0523>	<http://www.w3.org/2000/01/rdf-schema#label>	"Beninese"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0374>	<http://www.w3.org/2000/01/rdf-schema#label>	"Luxembourgish"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0624>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aymara"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0509>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Malagasy"@en	
+<http://dbpedia.org/resource/Sierra_Leone>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sierra Leone"@en	
+<http://dbpedia.org/resource/French_Guiana>	<http://www.w3.org/2000/01/rdf-schema#label>	"French Guiana"@en	
+<http://dbpedia.org/resource/Hong_Kong>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hong Kong"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0552>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aboriginal Australian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0586>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bashkir"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0468>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guamanian"@en	
+<http://dbpedia.org/resource/Azerbaijan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Azerbaijan"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0532>	<http://www.w3.org/2000/01/rdf-schema#label>	"Equatorial Guinean"@en	
+<http://dbpedia.org/resource/Djibouti>	<http://www.w3.org/2000/01/rdf-schema#label>	"Djibouti"@en	
+<http://dbpedia.org/resource/Mexico>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mexico"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0390>	<http://www.w3.org/2000/01/rdf-schema#label>	"Slovak"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000056>	<http://www.w3.org/2000/01/rdf-schema#label>	"Maasai"	
+<http://purl.obolibrary.org/obo/AfPO_0000400>	<http://www.w3.org/2000/01/rdf-schema#label>	"Basoga"	
+<http://purl.obolibrary.org/obo/AfPO_0000507>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sihanaka"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000507>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sihanaka"	
+<http://purl.obolibrary.org/obo/AfPO_0000288>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kwatay"	
+<http://purl.obolibrary.org/obo/AfPO_0000374>	<http://www.w3.org/2000/01/rdf-schema#label>	"Acholi"	
+<http://purl.obolibrary.org/obo/AfPO_0000571>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kango"	
+<http://purl.obolibrary.org/obo/AfPO_0000494>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pokomo"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000494>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pokomo"	
+<http://purl.obolibrary.org/obo/AfPO_0000066>	<http://www.w3.org/2000/01/rdf-schema#label>	"Taveta"	
+<http://purl.obolibrary.org/obo/AfPO_0000128>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fang"	
+<http://purl.obolibrary.org/obo/AfPO_0000472>	<http://www.w3.org/2000/01/rdf-schema#label>	"Teke"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000472>	<http://www.w3.org/2000/01/rdf-schema#label>	"Teke"	
+<http://purl.obolibrary.org/obo/AfPO_0000388>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sidama"	
+<http://purl.obolibrary.org/obo/AfPO_0000171>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tamil"	
+<http://purl.obolibrary.org/obo/AfPO_0000523>	<http://www.w3.org/2000/01/rdf-schema#label>	"Anaang"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000523>	<http://www.w3.org/2000/01/rdf-schema#label>	"Anaang"	
+<http://purl.obolibrary.org/obo/AfPO_0000241>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bongo"	
+<http://purl.obolibrary.org/obo/AfPO_0000371>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nilotic Eastern"	
+<http://purl.obolibrary.org/obo/AfPO_0000188>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern African"	
+<http://purl.obolibrary.org/obo/AfPO_0000109>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tugen"	
+<http://purl.obolibrary.org/obo/AfPO_0000561>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sherbro"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000561>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sherbro"	
+<http://purl.obolibrary.org/obo/AfPO_0000369>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bantu Eastern"	
+<http://purl.obolibrary.org/obo/AfPO_0000282>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aka"	
+<http://purl.obolibrary.org/obo/AfPO_0000180>	<http://www.w3.org/2000/01/rdf-schema#label>	"Seychellois"	
+<http://purl.obolibrary.org/obo/AfPO_0000198>	<http://www.w3.org/2000/01/rdf-schema#label>	"Luo"	
+<http://purl.obolibrary.org/obo/AfPO_0000506>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mikea"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000506>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mikea"	
+<http://purl.obolibrary.org/obo/AfPO_0000231>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mozabite"	
+<http://purl.obolibrary.org/obo/AfPO_0000147>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dagomba"	
+<http://purl.obolibrary.org/obo/AfPO_0000190>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nubian Eastern"	
+<http://purl.obolibrary.org/obo/AfPO_0000091>	<http://www.w3.org/2000/01/rdf-schema#label>	"Terik"	
+<http://purl.obolibrary.org/obo/AfPO_0000544>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kabye"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000544>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kabye"	
+<http://purl.obolibrary.org/obo/AfPO_0000325>	<http://www.w3.org/2000/01/rdf-schema#label>	"Afrikaner"	
+<http://purl.obolibrary.org/obo/AfPO_0000353>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Ndebele"	
+<http://purl.obolibrary.org/obo/AfPO_0000486>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chopi"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000486>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chopi"	
+<http://purl.obolibrary.org/obo/AfPO_0000305>	<http://www.w3.org/2000/01/rdf-schema#label>	"Baggara"	
+<http://purl.obolibrary.org/obo/AfPO_0000539>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pana"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000539>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pana"	
+<http://purl.obolibrary.org/obo/AfPO_0000385>	<http://www.w3.org/2000/01/rdf-schema#label>	"Beja"	
+<http://purl.obolibrary.org/obo/AfPO_0000363>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tunisian Andalusian"	
+<http://purl.obolibrary.org/obo/AfPO_0000074>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bambara"	
+<http://purl.obolibrary.org/obo/AfPO_0000560>	<http://www.w3.org/2000/01/rdf-schema#label>	"Papel"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000560>	<http://www.w3.org/2000/01/rdf-schema#label>	"Papel"	
+<http://purl.obolibrary.org/obo/AfPO_0000500>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hadiya"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000500>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hadiya"	
+<http://purl.obolibrary.org/obo/AfPO_0000209>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ari"	
+<http://purl.obolibrary.org/obo/AfPO_0000577>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mwali"	
+<http://purl.obolibrary.org/obo/AfPO_0000549>	<http://www.w3.org/2000/01/rdf-schema#label>	"Limba"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000549>	<http://www.w3.org/2000/01/rdf-schema#label>	"Limba"	
+<http://purl.obolibrary.org/obo/AfPO_0000469>	<http://www.w3.org/2000/01/rdf-schema#label>	"Obamba"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000469>	<http://www.w3.org/2000/01/rdf-schema#label>	"Obamba"	
+<http://purl.obolibrary.org/obo/AfPO_0000141>	<http://www.w3.org/2000/01/rdf-schema#label>	"Soninke"	
+<http://purl.obolibrary.org/obo/AfPO_0000252>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zafimaniry"	
+<http://purl.obolibrary.org/obo/AfPO_0000358>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nubian Northern"	
+<http://purl.obolibrary.org/obo/AfPO_0000261>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zoreille"	
+<http://purl.obolibrary.org/obo/AfPO_0000529>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bassari"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000529>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bassari"	
+<http://purl.obolibrary.org/obo/AfPO_0000126>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nuer"	
+<http://purl.obolibrary.org/obo/AfPO_0000259>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malbar"	
+<http://purl.obolibrary.org/obo/AfPO_0000558>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mankanya"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000558>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mankanya"	
+<http://purl.obolibrary.org/obo/AfPO_0000088>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kikuyu"	
+<http://purl.obolibrary.org/obo/AfPO_0000304>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zande"	
+<http://purl.obolibrary.org/obo/AfPO_0000384>	<http://www.w3.org/2000/01/rdf-schema#label>	"Agaw"	
+<http://purl.obolibrary.org/obo/AfPO_0000405>	<http://www.w3.org/2000/01/rdf-schema#label>	"Luhya"	
+<http://purl.obolibrary.org/obo/AfPO_0000362>	<http://www.w3.org/2000/01/rdf-schema#label>	"Shilha"	
+<http://purl.obolibrary.org/obo/AfPO_0000393>	<http://www.w3.org/2000/01/rdf-schema#label>	"Habesha"	
+<http://purl.obolibrary.org/obo/AfPO_0000071>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dinka"	
+<http://purl.obolibrary.org/obo/AfPO_0000080>	<http://www.w3.org/2000/01/rdf-schema#label>	"Masalit"	
+<http://purl.obolibrary.org/obo/AfPO_0000333>	<http://www.w3.org/2000/01/rdf-schema#label>	"Khoisan South"	
+<http://purl.obolibrary.org/obo/AfPO_0000342>	<http://www.w3.org/2000/01/rdf-schema#label>	"Shona"	
+<http://purl.obolibrary.org/obo/AfPO_0000215>	<http://www.w3.org/2000/01/rdf-schema#label>	"Halfawieen"	
+<http://purl.obolibrary.org/obo/AfPO_0000574>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kissi"	
+<http://purl.obolibrary.org/obo/AfPO_0000514>	<http://www.w3.org/2000/01/rdf-schema#label>	"Teso"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000514>	<http://www.w3.org/2000/01/rdf-schema#label>	"Teso"	
+<http://purl.obolibrary.org/obo/AfPO_0000475>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mangbetu"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000475>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mangbetu"	
+<http://purl.obolibrary.org/obo/AfPO_0000295>	<http://www.w3.org/2000/01/rdf-schema#label>	"Moghamo"	
+<http://purl.obolibrary.org/obo/AfPO_0000415>	<http://www.w3.org/2000/01/rdf-schema#label>	"Buduma"	
+<http://purl.obolibrary.org/obo/AfPO_0000244>	<http://www.w3.org/2000/01/rdf-schema#label>	"Burunge"	
+<http://purl.obolibrary.org/obo/AfPO_0000528>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bedik"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000528>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bedik"	
+<http://purl.obolibrary.org/obo/AfPO_0000275>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern African"	
+<http://purl.obolibrary.org/obo/AfPO_0000253>	<http://www.w3.org/2000/01/rdf-schema#label>	"Merina"	
+<http://purl.obolibrary.org/obo/AfPO_0000224>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jarawa"	
+<http://purl.obolibrary.org/obo/AfPO_0000557>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yalunka"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000557>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yalunka"	
+<http://purl.obolibrary.org/obo/AfPO_0000530>	<http://www.w3.org/2000/01/rdf-schema#label>	"Diffa Arabs"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000530>	<http://www.w3.org/2000/01/rdf-schema#label>	"Diffa Arabs"	
+<http://purl.obolibrary.org/obo/AfPO_0000087>	<http://www.w3.org/2000/01/rdf-schema#label>	"Igbo"	
+<http://purl.obolibrary.org/obo/AfPO_0000431>	<http://www.w3.org/2000/01/rdf-schema#label>	"Marka"	
+<http://purl.obolibrary.org/obo/AfPO_0000347>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pedi"	
+<http://purl.obolibrary.org/obo/AfPO_0000058>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tiv"	
+<http://purl.obolibrary.org/obo/AfPO_0000402>	<http://www.w3.org/2000/01/rdf-schema#label>	"Embu"	
+<http://purl.obolibrary.org/obo/AfPO_0000390>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lugbara"	
+<http://purl.obolibrary.org/obo/AfPO_0000116>	<http://www.w3.org/2000/01/rdf-schema#label>	"Xhosa"	
+<http://purl.obolibrary.org/obo/AfPO_0000438>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tutsi"	
+<http://purl.obolibrary.org/obo/AfPO_0000491>	<http://www.w3.org/2000/01/rdf-schema#label>	"Segeju"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000491>	<http://www.w3.org/2000/01/rdf-schema#label>	"Segeju"	
+<http://purl.obolibrary.org/obo/AfPO_0000376>	<http://www.w3.org/2000/01/rdf-schema#label>	"Turkana"	
+<http://purl.obolibrary.org/obo/AfPO_0000496>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sukuma"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000496>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sukuma"	
+<http://purl.obolibrary.org/obo/AfPO_0000207>	<http://www.w3.org/2000/01/rdf-schema#label>	"Banyarwanda"	
+<http://purl.obolibrary.org/obo/AfPO_0000513>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nara"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000513>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nara"	
+<http://purl.obolibrary.org/obo/AfPO_0000195>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mahas"	
+<http://purl.obolibrary.org/obo/AfPO_0000440>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bamileke"	
+<http://purl.obolibrary.org/obo/AfPO_0000547>	<http://www.w3.org/2000/01/rdf-schema#label>	"Grebo"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000547>	<http://www.w3.org/2000/01/rdf-schema#label>	"Grebo"	
+<http://purl.obolibrary.org/obo/AfPO_0000356>	<http://www.w3.org/2000/01/rdf-schema#label>	"Berber Northern"	
+<http://purl.obolibrary.org/obo/AfPO_0000373>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bari"	
+<http://purl.obolibrary.org/obo/AfPO_0000274>	<http://www.w3.org/2000/01/rdf-schema#label>	"Central African"	
+<http://purl.obolibrary.org/obo/AfPO_0000060>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nama"	
+<http://purl.obolibrary.org/obo/AfPO_0000168>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bihari Mauritian"	
+<http://purl.obolibrary.org/obo/AfPO_0000151>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gurma"	
+<http://purl.obolibrary.org/obo/AfPO_0000139>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bulsa"	
+<http://purl.obolibrary.org/obo/AfPO_0000563>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lebu"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000563>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lebu"	
+<http://purl.obolibrary.org/obo/AfPO_0000503>	<http://www.w3.org/2000/01/rdf-schema#label>	"Antambahoaka"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000503>	<http://www.w3.org/2000/01/rdf-schema#label>	"Antambahoaka"	
+<http://purl.obolibrary.org/obo/AfPO_0000423>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ibibio"	
+<http://purl.obolibrary.org/obo/AfPO_0000284>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mbuti"	
+<http://purl.obolibrary.org/obo/AfPO_0000339>	<http://www.w3.org/2000/01/rdf-schema#label>	"Makua"	
+<http://purl.obolibrary.org/obo/AfPO_0000264>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ubangi Central"	
+<http://purl.obolibrary.org/obo/AfPO_0000149>	<http://www.w3.org/2000/01/rdf-schema#label>	"Frafra"	
+<http://purl.obolibrary.org/obo/AfPO_0000546>	<http://www.w3.org/2000/01/rdf-schema#label>	"Krahn"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000546>	<http://www.w3.org/2000/01/rdf-schema#label>	"Krahn"	
+<http://purl.obolibrary.org/obo/AfPO_0000355>	<http://www.w3.org/2000/01/rdf-schema#label>	"Andalusian"	
+<http://purl.obolibrary.org/obo/AfPO_0000184>	<http://www.w3.org/2000/01/rdf-schema#label>	"Semitic Eastern"	
+<http://purl.obolibrary.org/obo/AfPO_0000536>	<http://www.w3.org/2000/01/rdf-schema#label>	"Konkomba"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000536>	<http://www.w3.org/2000/01/rdf-schema#label>	"Konkomba"	
+<http://purl.obolibrary.org/obo/AfPO_0000428>	<http://www.w3.org/2000/01/rdf-schema#label>	"Wolof"	
+<http://purl.obolibrary.org/obo/AfPO_0000105>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yoruba"	
+<http://purl.obolibrary.org/obo/AfPO_0000480>	<http://www.w3.org/2000/01/rdf-schema#label>	"Podoko"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000480>	<http://www.w3.org/2000/01/rdf-schema#label>	"Podoko"	
+<http://purl.obolibrary.org/obo/AfPO_0000365>	<http://www.w3.org/2000/01/rdf-schema#label>	"Egyptian"	
+<http://purl.obolibrary.org/obo/AfPO_0000408>	<http://www.w3.org/2000/01/rdf-schema#label>	"Swahili"	
+<http://purl.obolibrary.org/obo/AfPO_0000266>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bangba"	
+<http://purl.obolibrary.org/obo/AfPO_0000396>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tigrinya"	
+<http://purl.obolibrary.org/obo/AfPO_0000502>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gabra"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000502>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gabra"	
+<http://purl.obolibrary.org/obo/AfPO_0000085>	<http://www.w3.org/2000/01/rdf-schema#label>	"Taita"	
+<http://purl.obolibrary.org/obo/AfPO_0000345>	<http://www.w3.org/2000/01/rdf-schema#label>	"Venda"	
+<http://purl.obolibrary.org/obo/AfPO_0000579>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kuria"	
+<http://purl.obolibrary.org/obo/AfPO_0000263>	<http://www.w3.org/2000/01/rdf-schema#label>	"!Kung"	
+<http://purl.obolibrary.org/obo/AfPO_0000179>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nankani"	
+<http://purl.obolibrary.org/obo/AfPO_0000540>	<http://www.w3.org/2000/01/rdf-schema#label>	"Samoya"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000540>	<http://www.w3.org/2000/01/rdf-schema#label>	"Samoya"	
+<http://purl.obolibrary.org/obo/AfPO_0000249>	<http://www.w3.org/2000/01/rdf-schema#label>	"Betsimisaraka"	
+<http://purl.obolibrary.org/obo/AfPO_0000212>	<http://www.w3.org/2000/01/rdf-schema#label>	"Shaigiya"	
+<http://purl.obolibrary.org/obo/AfPO_0000511>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kunama"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000511>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kunama"	
+<http://purl.obolibrary.org/obo/AfPO_0000412>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bantu Western"	
+<http://purl.obolibrary.org/obo/AfPO_0000398>	<http://www.w3.org/2000/01/rdf-schema#label>	"Baka_South_Sudan"	
+<http://purl.obolibrary.org/obo/AfPO_0000292>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kongo"	
+<http://purl.obolibrary.org/obo/AfPO_0000301>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mbunda"	
+<http://purl.obolibrary.org/obo/AfPO_0000328>	<http://www.w3.org/2000/01/rdf-schema#label>	"Coloured"	
+<http://purl.obolibrary.org/obo/AfPO_0000229>	<http://www.w3.org/2000/01/rdf-schema#label>	"Balanta"	
+<http://purl.obolibrary.org/obo/AfPO_0000381>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dongolese"	
+<http://purl.obolibrary.org/obo/AfPO_0000489>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lambya"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000489>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lambya"	
+<http://purl.obolibrary.org/obo/AfPO_0000330>	<http://www.w3.org/2000/01/rdf-schema#label>	"French diaspora"	
+<http://purl.obolibrary.org/obo/AfPO_0000407>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nyoro"	
+<http://purl.obolibrary.org/obo/AfPO_0000395>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sudanese Arab"	
+<http://purl.obolibrary.org/obo/AfPO_0000239>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mang'anja"	
+<http://purl.obolibrary.org/obo/AfPO_0000499>	<http://www.w3.org/2000/01/rdf-schema#label>	"Elmolo"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000499>	<http://www.w3.org/2000/01/rdf-schema#label>	"Elmolo"	
+<http://purl.obolibrary.org/obo/AfPO_0000344>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tonga"	
+<http://purl.obolibrary.org/obo/AfPO_0000516>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aushi"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000516>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aushi"	
+<http://purl.obolibrary.org/obo/AfPO_0000525>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bamum"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000525>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bamum"	
+<http://purl.obolibrary.org/obo/AfPO_0000417>	<http://www.w3.org/2000/01/rdf-schema#label>	"Edo"	
+<http://purl.obolibrary.org/obo/AfPO_0000113>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oromo"	
+<http://purl.obolibrary.org/obo/AfPO_0000075>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sebei"	
+<http://purl.obolibrary.org/obo/AfPO_0000255>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vezo"	
+<http://purl.obolibrary.org/obo/AfPO_0000554>	<http://www.w3.org/2000/01/rdf-schema#label>	"Loko"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000554>	<http://www.w3.org/2000/01/rdf-schema#label>	"Loko"	
+<http://purl.obolibrary.org/obo/AfPO_0000300>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ovimbundu"	
+<http://purl.obolibrary.org/obo/AfPO_0000426>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mole-Dagbani"	
+<http://purl.obolibrary.org/obo/AfPO_0000508>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tanala"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000508>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tanala"	
+<http://purl.obolibrary.org/obo/AfPO_0000103>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tsonga"	
+<http://purl.obolibrary.org/obo/AfPO_0000360>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lybian Berber"	
+<http://purl.obolibrary.org/obo/AfPO_0000238>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yao"	
+<http://purl.obolibrary.org/obo/AfPO_0000493>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nyamwezi"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000493>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nyamwezi"	
+<http://purl.obolibrary.org/obo/AfPO_0000471>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punu"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000471>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punu"	
+<http://purl.obolibrary.org/obo/AfPO_0000498>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aweer"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000498>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aweer"	
+<http://purl.obolibrary.org/obo/AfPO_0000387>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saho"	
+<http://purl.obolibrary.org/obo/AfPO_0000281>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pygmy Central"	
+<http://purl.obolibrary.org/obo/AfPO_0000098>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nandi"	
+<http://purl.obolibrary.org/obo/AfPO_0000442>	<http://www.w3.org/2000/01/rdf-schema#label>	"Isoko"	
+<http://purl.obolibrary.org/obo/AfPO_0000524>	<http://www.w3.org/2000/01/rdf-schema#label>	"Baule"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000524>	<http://www.w3.org/2000/01/rdf-schema#label>	"Baule"	
+<http://purl.obolibrary.org/obo/AfPO_0000370>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malagasy"	
+<http://purl.obolibrary.org/obo/AfPO_0000271>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sudanic"	
+<http://purl.obolibrary.org/obo/AfPO_0000298>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ngamambo"	
+<http://purl.obolibrary.org/obo/AfPO_0000478>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mbum"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000478>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mbum"	
+<http://purl.obolibrary.org/obo/AfPO_0000187>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pygmy Eastern"	
+<http://purl.obolibrary.org/obo/AfPO_0000220>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sahrawi"	
+<http://purl.obolibrary.org/obo/AfPO_0000247>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tsimihety"	
+<http://purl.obolibrary.org/obo/AfPO_0000553>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kuranko"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000553>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kuranko"	
+<http://purl.obolibrary.org/obo/AfPO_0000136>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ga-Adangbe"	
+<http://purl.obolibrary.org/obo/AfPO_0000290>	<http://www.w3.org/2000/01/rdf-schema#label>	"Beti-Pahuin"	
+<http://purl.obolibrary.org/obo/AfPO_0000153>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dagaaba"	
+<http://purl.obolibrary.org/obo/AfPO_0000533>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gola"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000533>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gola"	
+<http://purl.obolibrary.org/obo/AfPO_0000505>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bezanozano"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000505>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bezanozano"	
+<http://purl.obolibrary.org/obo/AfPO_0000425>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mande Western"	
+<http://purl.obolibrary.org/obo/AfPO_0000434>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zarma"	
+<http://purl.obolibrary.org/obo/AfPO_0000102>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lunda"	
+<http://purl.obolibrary.org/obo/AfPO_0000203>	<http://www.w3.org/2000/01/rdf-schema#label>	"Akan"	
+<http://purl.obolibrary.org/obo/AfPO_0000064>	<http://www.w3.org/2000/01/rdf-schema#label>	"Susu"	
+<http://purl.obolibrary.org/obo/AfPO_0000543>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dan"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000543>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dan"	
+<http://purl.obolibrary.org/obo/AfPO_0000463>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hema"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000463>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hema"	
+<http://purl.obolibrary.org/obo/AfPO_0000352>	<http://www.w3.org/2000/01/rdf-schema#label>	"North Ndebele"	
+<http://purl.obolibrary.org/obo/AfPO_0000379>	<http://www.w3.org/2000/01/rdf-schema#label>	"Shilluk"	
+<http://purl.obolibrary.org/obo/AfPO_0000186>	<http://www.w3.org/2000/01/rdf-schema#label>	"Semite Central"	
+<http://purl.obolibrary.org/obo/AfPO_0000306>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sara"	
+<http://purl.obolibrary.org/obo/AfPO_0000538>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lobi"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000538>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lobi"	
+<http://purl.obolibrary.org/obo/AfPO_0000135>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rendille"	
+<http://purl.obolibrary.org/obo/AfPO_0000482>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yaka"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000482>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yaka"	
+<http://purl.obolibrary.org/obo/AfPO_0000335>	<http://www.w3.org/2000/01/rdf-schema#label>	"Banareng"	
+<http://purl.obolibrary.org/obo/AfPO_0000576>	<http://www.w3.org/2000/01/rdf-schema#label>	"Maore"	
+<http://purl.obolibrary.org/obo/AfPO_0000468>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ngumba"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000468>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ngumba"	
+<http://purl.obolibrary.org/obo/AfPO_0000251>	<http://www.w3.org/2000/01/rdf-schema#label>	"Betsileo"	
+<http://purl.obolibrary.org/obo/AfPO_0000260>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zarabe"	
+<http://purl.obolibrary.org/obo/AfPO_0000287>	<http://www.w3.org/2000/01/rdf-schema#label>	"Twa"	
+<http://purl.obolibrary.org/obo/AfPO_0000145>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tuareg"	
+<http://purl.obolibrary.org/obo/AfPO_0000200>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pygmy Southern"	
+<http://purl.obolibrary.org/obo/AfPO_0000236>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ngoni"	
+<http://purl.obolibrary.org/obo/AfPO_0000542>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bandial"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000542>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bandial"	
+<http://purl.obolibrary.org/obo/AfPO_0000125>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hausa"	
+<http://purl.obolibrary.org/obo/AfPO_0000351>	<http://www.w3.org/2000/01/rdf-schema#label>	"Swazi"	
+<http://purl.obolibrary.org/obo/AfPO_0000522>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fante"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000522>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fante"	
+<http://purl.obolibrary.org/obo/AfPO_0000414>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bubi"	
+<http://purl.obolibrary.org/obo/AfPO_0000303>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ngbandi"	
+<http://purl.obolibrary.org/obo/AfPO_0000383>	<http://www.w3.org/2000/01/rdf-schema#label>	"Afar"	
+<http://purl.obolibrary.org/obo/AfPO_0000580>	<http://www.w3.org/2000/01/rdf-schema#label>	"Karonica"	
+<http://purl.obolibrary.org/obo/AfPO_0000404>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kisii"	
+<http://purl.obolibrary.org/obo/AfPO_0000392>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gurage"	
+<http://purl.obolibrary.org/obo/AfPO_0000289>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kanembu"	
+<http://purl.obolibrary.org/obo/AfPO_0000551>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kono"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000551>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kono"	
+<http://purl.obolibrary.org/obo/AfPO_0000332>	<http://www.w3.org/2000/01/rdf-schema#label>	"San"	
+<http://purl.obolibrary.org/obo/AfPO_0000161>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dyula"	
+<http://purl.obolibrary.org/obo/AfPO_0000341>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ovambo"	
+<http://purl.obolibrary.org/obo/AfPO_0000368>	<http://www.w3.org/2000/01/rdf-schema#label>	"Moor"	
+<http://purl.obolibrary.org/obo/AfPO_0000269>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cushitic Eastern"	
+<http://purl.obolibrary.org/obo/AfPO_0000527>	<http://www.w3.org/2000/01/rdf-schema#label>	"Luvale"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000527>	<http://www.w3.org/2000/01/rdf-schema#label>	"Luvale"	
+<http://purl.obolibrary.org/obo/AfPO_0000279>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kotoko"	
+<http://purl.obolibrary.org/obo/AfPO_0000490>	<http://www.w3.org/2000/01/rdf-schema#label>	"Masaba"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000490>	<http://www.w3.org/2000/01/rdf-schema#label>	"Masaba"	
+<http://purl.obolibrary.org/obo/AfPO_0000225>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hadza"	
+<http://purl.obolibrary.org/obo/AfPO_0000556>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vai"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000556>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vai"	
+<http://purl.obolibrary.org/obo/AfPO_0000485>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yakoma"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000485>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yakoma"	
+<http://purl.obolibrary.org/obo/AfPO_0000240>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sena"	
+<http://purl.obolibrary.org/obo/AfPO_0000057>	<http://www.w3.org/2000/01/rdf-schema#label>	"Samburu"	
+<http://purl.obolibrary.org/obo/AfPO_0000403>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ganda"	
+<http://purl.obolibrary.org/obo/AfPO_0000437>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hutu"	
+<http://purl.obolibrary.org/obo/AfPO_0000495>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ndau"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000495>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ndau"	
+<http://purl.obolibrary.org/obo/AfPO_0000340>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nguni"	
+<http://purl.obolibrary.org/obo/AfPO_0000206>	<http://www.w3.org/2000/01/rdf-schema#label>	"Songhai"	
+<http://purl.obolibrary.org/obo/AfPO_0000194>	<http://www.w3.org/2000/01/rdf-schema#label>	"Banda"	
+<http://purl.obolibrary.org/obo/AfPO_0000095>	<http://www.w3.org/2000/01/rdf-schema#label>	"Anuak"	
+<http://purl.obolibrary.org/obo/AfPO_0000466>	<http://www.w3.org/2000/01/rdf-schema#label>	"Myene"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000466>	<http://www.w3.org/2000/01/rdf-schema#label>	"Myene"	
+<http://purl.obolibrary.org/obo/AfPO_0000548>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kulango"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000548>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kulango"	
+<http://purl.obolibrary.org/obo/AfPO_0000140>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chewa"	
+<http://purl.obolibrary.org/obo/AfPO_0000519>	<http://www.w3.org/2000/01/rdf-schema#label>	"Damara"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000519>	<http://www.w3.org/2000/01/rdf-schema#label>	"Damara"	
+<http://purl.obolibrary.org/obo/AfPO_0000372>	<http://www.w3.org/2000/01/rdf-schema#label>	"Wolaita"	
+<http://purl.obolibrary.org/obo/AfPO_0000273>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bantu Central"	
+<http://purl.obolibrary.org/obo/AfPO_0000189>	<http://www.w3.org/2000/01/rdf-schema#label>	"Berber Western"	
+<http://purl.obolibrary.org/obo/AfPO_0000278>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kanuri"	
+<http://purl.obolibrary.org/obo/AfPO_0000150>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gurunsi"	
+<http://purl.obolibrary.org/obo/AfPO_0000422>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fon"	
+<http://purl.obolibrary.org/obo/AfPO_0000258>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cafre"	
+<http://purl.obolibrary.org/obo/AfPO_0000564>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nuna"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000564>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nuna"	
+<http://purl.obolibrary.org/obo/AfPO_0000338>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lemba"	
+<http://purl.obolibrary.org/obo/AfPO_0000535>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bariba"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000535>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bariba"	
+<http://purl.obolibrary.org/obo/AfPO_0000436>	<http://www.w3.org/2000/01/rdf-schema#label>	"Okiek"	
+<http://purl.obolibrary.org/obo/AfPO_0000205>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jola"	
+<http://purl.obolibrary.org/obo/AfPO_0000573>	<http://www.w3.org/2000/01/rdf-schema#label>	"Birwa"	
+<http://purl.obolibrary.org/obo/AfPO_0000545>	<http://www.w3.org/2000/01/rdf-schema#label>	"Krio"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000545>	<http://www.w3.org/2000/01/rdf-schema#label>	"Krio"	
+<http://purl.obolibrary.org/obo/AfPO_0000214>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hadendoa"	
+<http://purl.obolibrary.org/obo/AfPO_0000465>	<http://www.w3.org/2000/01/rdf-schema#label>	"Makaa"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000465>	<http://www.w3.org/2000/01/rdf-schema#label>	"Makaa"	
+<http://purl.obolibrary.org/obo/AfPO_0000354>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kgatla"	
+<http://purl.obolibrary.org/obo/AfPO_0000294>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mbundu"	
+<http://purl.obolibrary.org/obo/AfPO_0000474>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mandar"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000474>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mandar"	
+<http://purl.obolibrary.org/obo/AfPO_0000243>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nyakyusa"	
+<http://purl.obolibrary.org/obo/AfPO_0000132>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bemba"	
+<http://purl.obolibrary.org/obo/AfPO_0000501>	<http://www.w3.org/2000/01/rdf-schema#label>	"Borana"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000501>	<http://www.w3.org/2000/01/rdf-schema#label>	"Borana"	
+<http://purl.obolibrary.org/obo/AfPO_0000421>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ewe"	
+<http://purl.obolibrary.org/obo/AfPO_0000084>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bulu"	
+<http://purl.obolibrary.org/obo/AfPO_0000337>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kwangali"	
+<http://purl.obolibrary.org/obo/AfPO_0000346>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yeyi"	
+<http://purl.obolibrary.org/obo/AfPO_0000578>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ndzwani"	
+<http://purl.obolibrary.org/obo/AfPO_0000401>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chaga"	
+<http://purl.obolibrary.org/obo/AfPO_0000380>	<http://www.w3.org/2000/01/rdf-schema#label>	"Birged"	
+<http://purl.obolibrary.org/obo/AfPO_0000479>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nzebi"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000479>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nzebi"	
+<http://purl.obolibrary.org/obo/AfPO_0000262>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sinwa"	
+<http://purl.obolibrary.org/obo/AfPO_0000375>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kwama"	
+<http://purl.obolibrary.org/obo/AfPO_0000211>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gaaliin"	
+<http://purl.obolibrary.org/obo/AfPO_0000510>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pokot"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000510>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pokot"	
+<http://purl.obolibrary.org/obo/AfPO_0000127>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mijikenda"	
+<http://purl.obolibrary.org/obo/AfPO_0000067>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bassa"	
+<http://purl.obolibrary.org/obo/AfPO_0000411>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aku"	
+<http://purl.obolibrary.org/obo/AfPO_0000327>	<http://www.w3.org/2000/01/rdf-schema#label>	"British diaspora"	
+<http://purl.obolibrary.org/obo/AfPO_0000228>	<http://www.w3.org/2000/01/rdf-schema#label>	"Manjak"	
+<http://purl.obolibrary.org/obo/AfPO_0000170>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mauritian Creole"	
+<http://purl.obolibrary.org/obo/AfPO_0000488>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kiga"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000488>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kiga"	
+<http://purl.obolibrary.org/obo/AfPO_0000406>	<http://www.w3.org/2000/01/rdf-schema#label>	"Makonde"	
+<http://purl.obolibrary.org/obo/AfPO_0000394>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rashaida"	
+<http://purl.obolibrary.org/obo/AfPO_0000562>	<http://www.w3.org/2000/01/rdf-schema#label>	"Temne"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000562>	<http://www.w3.org/2000/01/rdf-schema#label>	"Temne"	
+<http://purl.obolibrary.org/obo/AfPO_0000343>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sotho"	
+<http://purl.obolibrary.org/obo/AfPO_0000283>	<http://www.w3.org/2000/01/rdf-schema#label>	"Baka_Cameroon"	
+<http://purl.obolibrary.org/obo/AfPO_0000199>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kalenjin"	
+<http://purl.obolibrary.org/obo/AfPO_0000112>	<http://www.w3.org/2000/01/rdf-schema#label>	"Meru"	
+<http://purl.obolibrary.org/obo/AfPO_0000121>	<http://www.w3.org/2000/01/rdf-schema#label>	"Minianka"	
+<http://purl.obolibrary.org/obo/AfPO_0000148>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kusasi"	
+<http://purl.obolibrary.org/obo/AfPO_00003674>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gumuz"	
+<http://purl.obolibrary.org/obo/AfPO_0000191>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mattokki"	
+<http://purl.obolibrary.org/obo/AfPO_0000410>	<http://www.w3.org/2000/01/rdf-schema#label>	"Adele"	
+<http://purl.obolibrary.org/obo/AfPO_0000326>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bantu Southern"	
+<http://purl.obolibrary.org/obo/AfPO_0000227>	<http://www.w3.org/2000/01/rdf-schema#label>	"Serer"	
+<http://purl.obolibrary.org/obo/IAO_0000225>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolescence reason specification"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000487>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mbeere"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000487>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mbeere"	
+<http://purl.obolibrary.org/obo/AfPO_0000427>	<http://www.w3.org/2000/01/rdf-schema#label>	"Urhobo"	
+<http://purl.obolibrary.org/obo/AfPO_0000270>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nilotic Western"	
+<http://purl.obolibrary.org/obo/AfPO_0000470>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pende"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000470>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pende"	
+<http://purl.obolibrary.org/obo/AfPO_0000104>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fulani"	
+<http://purl.obolibrary.org/obo/AfPO_0000237>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lomwe"	
+<http://purl.obolibrary.org/obo/AfPO_0000364>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tunisian Berber"	
+<http://purl.obolibrary.org/obo/AfPO_0000265>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nilotic Central"	
+<http://purl.obolibrary.org/obo/AfPO_0000497>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tharaka"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000497>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tharaka"	
+<http://purl.obolibrary.org/obo/AfPO_0000280>	<http://www.w3.org/2000/01/rdf-schema#label>	"Masa"	
+<http://purl.obolibrary.org/obo/AfPO_0000443>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kru"	
+<http://purl.obolibrary.org/obo/AfPO_0000477>	<http://www.w3.org/2000/01/rdf-schema#label>	"Marba"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000477>	<http://www.w3.org/2000/01/rdf-schema#label>	"Marba"	
+<http://purl.obolibrary.org/obo/AfPO_0000359>	<http://www.w3.org/2000/01/rdf-schema#label>	"Algerian Berber"	
+<http://purl.obolibrary.org/obo/AfPO_0000297>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ngala"	
+<http://purl.obolibrary.org/obo/AfPO_0000142>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tswana"	
+<http://purl.obolibrary.org/obo/AfPO_0000552>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kpelle"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000552>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kpelle"	
+<http://purl.obolibrary.org/obo/AfPO_0000532>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ekoi"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000532>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ekoi"	
+<http://purl.obolibrary.org/obo/AfPO_0000424>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ijaw"	
+<http://purl.obolibrary.org/obo/AfPO_0000559>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oron"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000559>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oron"	
+<http://purl.obolibrary.org/obo/AfPO_0000433>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kassena"	
+<http://purl.obolibrary.org/obo/IAO_0000078>	<http://www.w3.org/2000/01/rdf-schema#label>	"curation status specification"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000349>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nambya"	
+<http://purl.obolibrary.org/obo/AfPO_0000462>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eshira"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000462>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eshira"	
+<http://purl.obolibrary.org/obo/AfPO_0000378>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lango"	
+<http://purl.obolibrary.org/obo/AfPO_0000216>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nuba"	
+<http://purl.obolibrary.org/obo/AfPO_0000575>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ngazidja"	
+<http://purl.obolibrary.org/obo/AfPO_0000515>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jeberti"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000515>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jeberti"	
+<http://purl.obolibrary.org/obo/AfPO_0000476>	<http://www.w3.org/2000/01/rdf-schema#label>	"Manja"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000476>	<http://www.w3.org/2000/01/rdf-schema#label>	"Manja"	
+<http://purl.obolibrary.org/obo/AfPO_0000296>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mongo"	
+<http://purl.obolibrary.org/obo/AfPO_0000416>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dogon"	
+<http://purl.obolibrary.org/obo/AfPO_0000185>	<http://www.w3.org/2000/01/rdf-schema#label>	"Semite Northern"	
+<http://purl.obolibrary.org/obo/AfPO_0000245>	<http://www.w3.org/2000/01/rdf-schema#label>	"Antankarana"	
+<http://purl.obolibrary.org/obo/AfPO_0000276>	<http://www.w3.org/2000/01/rdf-schema#label>	"Southern African"	
+<http://purl.obolibrary.org/obo/AfPO_0000134>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kamba"	
+<http://purl.obolibrary.org/obo/AfPO_0000254>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bara"	
+<http://purl.obolibrary.org/obo/AfPO_0000334>	<http://www.w3.org/2000/01/rdf-schema#label>	"Taa"	
+<http://purl.obolibrary.org/obo/AfPO_0000531>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ditammari"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000531>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ditammari"	
+<http://purl.obolibrary.org/obo/IAO_0000409>	<http://www.w3.org/2000/01/rdf-schema#label>	"denotator type"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000432>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mende"	
+<http://purl.obolibrary.org/obo/AfPO_0000348>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kalanga"	
+<http://purl.obolibrary.org/obo/AfPO_0000286>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sua"	
+<http://purl.obolibrary.org/obo/AfPO_0000131>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mossi"	
+<http://purl.obolibrary.org/obo/AfPO_0000201>	<http://www.w3.org/2000/01/rdf-schema#label>	"Senufo"	
+<http://purl.obolibrary.org/obo/AfPO_0000391>	<http://www.w3.org/2000/01/rdf-schema#label>	"Amhara"	
+<http://purl.obolibrary.org/obo/AfPO_0000541>	<http://www.w3.org/2000/01/rdf-schema#label>	"Itsekiri"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000541>	<http://www.w3.org/2000/01/rdf-schema#label>	"Itsekiri"	
+<http://purl.obolibrary.org/obo/AfPO_0000492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nkole"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nkole"	
+<http://purl.obolibrary.org/obo/AfPO_0000461>	<http://www.w3.org/2000/01/rdf-schema#label>	"Duala"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000461>	<http://www.w3.org/2000/01/rdf-schema#label>	"Duala"	
+<http://purl.obolibrary.org/obo/AfPO_0000350>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ndebele"	
+<http://purl.obolibrary.org/obo/AfPO_0000377>	<http://www.w3.org/2000/01/rdf-schema#label>	"Alur"	
+<http://purl.obolibrary.org/obo/AfPO_0000386>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bilen"	
+<http://purl.obolibrary.org/obo/AfPO_0000521>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aja"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000521>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aja"	
+<http://purl.obolibrary.org/obo/AfPO_0000069>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zulu"	
+<http://purl.obolibrary.org/obo/AfPO_0000413>	<http://www.w3.org/2000/01/rdf-schema#label>	"Biafada"	
+<http://purl.obolibrary.org/obo/AfPO_0000329>	<http://www.w3.org/2000/01/rdf-schema#label>	"Goffel"	
+<http://purl.obolibrary.org/obo/AfPO_0000357>	<http://www.w3.org/2000/01/rdf-schema#label>	"Copt"	
+<http://purl.obolibrary.org/obo/AfPO_0000550>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jakhanke"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000550>	<http://www.w3.org/2000/01/rdf-schema#label>	"Jakhanke"	
+<http://purl.obolibrary.org/obo/AfPO_0000107>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zaghawa"	
+<http://purl.obolibrary.org/obo/AfPO_0000367>	<http://www.w3.org/2000/01/rdf-schema#label>	"Maghrebi"	
+<http://purl.obolibrary.org/obo/AfPO_0000268>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mayogo"	
+<http://purl.obolibrary.org/obo/AfPO_0000504>	<http://www.w3.org/2000/01/rdf-schema#label>	"Antanosy"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000504>	<http://www.w3.org/2000/01/rdf-schema#label>	"Antanosy"	
+<http://purl.obolibrary.org/obo/AfPO_0000285>	<http://www.w3.org/2000/01/rdf-schema#label>	"Efé"	
+<http://purl.obolibrary.org/obo/AfPO_0000123>	<http://www.w3.org/2000/01/rdf-schema#label>	"Herero"	
+<http://purl.obolibrary.org/obo/AfPO_0000520>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aghem"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000520>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aghem"	
+<http://purl.obolibrary.org/obo/AfPO_0000484>	<http://www.w3.org/2000/01/rdf-schema#label>	"Wuzlam"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000484>	<http://www.w3.org/2000/01/rdf-schema#label>	"Wuzlam"	
+<http://purl.obolibrary.org/obo/AfPO_0000183>	<http://www.w3.org/2000/01/rdf-schema#label>	"Khoisan Eastern"	
+<http://purl.obolibrary.org/obo/AfPO_0000537>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lilse"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000537>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lilse"	
+<http://purl.obolibrary.org/obo/AfPO_0000509>	<http://www.w3.org/2000/01/rdf-schema#label>	"Marakwet"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000509>	<http://www.w3.org/2000/01/rdf-schema#label>	"Marakwet"	
+<http://purl.obolibrary.org/obo/AfPO_0000429>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bissa"	
+<http://purl.obolibrary.org/obo/AfPO_0000361>	<http://www.w3.org/2000/01/rdf-schema#label>	"Moroccan Berber"	
+<http://purl.obolibrary.org/obo/AfPO_0000481>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gyele"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000481>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gyele"	
+<http://purl.obolibrary.org/obo/AfPO_0000366>	<http://www.w3.org/2000/01/rdf-schema#label>	"Haratin"	
+<http://purl.obolibrary.org/obo/AfPO_0000409>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tumbuka"	
+<http://purl.obolibrary.org/obo/AfPO_0000397>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tigré"	
+<http://purl.obolibrary.org/obo/AfPO_0000467>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nande"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000467>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nande"	
+<http://purl.obolibrary.org/obo/AfPO_0000250>	<http://www.w3.org/2000/01/rdf-schema#label>	"Antemoro"	
+<http://purl.obolibrary.org/obo/AfPO_0000430>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mandinka"	
+<http://purl.obolibrary.org/obo/AfPO_0000518>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lozi"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000518>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lozi"	
+<http://purl.obolibrary.org/obo/AfPO_0000299>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tikar"	
+<http://purl.obolibrary.org/obo/AfPO_0000419>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eket"	
+<http://purl.obolibrary.org/obo/AfPO_0000277>	<http://www.w3.org/2000/01/rdf-schema#label>	"Western African"	
+<http://purl.obolibrary.org/obo/AfPO_0000115>	<http://www.w3.org/2000/01/rdf-schema#label>	"Fur"	
+<http://purl.obolibrary.org/obo/AfPO_0000248>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sakalava"	
+<http://purl.obolibrary.org/obo/AfPO_0000257>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mahafaly"	
+<http://purl.obolibrary.org/obo/AfPO_0000483>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tupuri"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000483>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tupuri"	
+<http://purl.obolibrary.org/obo/AfPO_0000291>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chokwe"	
+<http://purl.obolibrary.org/obo/AfPO_0000399>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sandawe"	
+<http://purl.obolibrary.org/obo/AfPO_0000302>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gbaya"	
+<http://purl.obolibrary.org/obo/AfPO_0000534>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guan"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000534>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guan"	
+<http://purl.obolibrary.org/obo/AfPO_0000382>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hill Nubian"	
+<http://purl.obolibrary.org/obo/AfPO_0000435>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dendi"	
+<http://purl.obolibrary.org/obo/AfPO_0000331>	<http://www.w3.org/2000/01/rdf-schema#label>	"Khoekhoe"	
+<http://purl.obolibrary.org/obo/AfPO_0000204>	<http://www.w3.org/2000/01/rdf-schema#label>	"Daza"	
+<http://purl.obolibrary.org/obo/AfPO_0000572>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ewondo"	
+<http://purl.obolibrary.org/obo/AfPO_0000213>	<http://www.w3.org/2000/01/rdf-schema#label>	"Messiria"	
+<http://purl.obolibrary.org/obo/AfPO_0000464>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kota"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000464>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kota"	
+<http://purl.obolibrary.org/obo/AfPO_0000293>	<http://www.w3.org/2000/01/rdf-schema#label>	"Luba"	
+<http://purl.obolibrary.org/obo/AfPO_0000473>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vili"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000473>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vili"	
+<http://purl.obolibrary.org/obo/AfPO_0000389>	<http://www.w3.org/2000/01/rdf-schema#label>	"Somali"	
+<http://purl.obolibrary.org/obo/AfPO_0000517>	<http://www.w3.org/2000/01/rdf-schema#label>	"Okavango"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000517>	<http://www.w3.org/2000/01/rdf-schema#label>	"Okavango"	
+<http://purl.obolibrary.org/obo/AfPO_0000526>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kombe"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000526>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kombe"	
+<http://purl.obolibrary.org/obo/AfPO_0000242>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chipeta"	
+<http://purl.obolibrary.org/obo/AfPO_0000418>	<http://www.w3.org/2000/01/rdf-schema#label>	"Efik"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.w3.org/2000/01/rdf-schema#label>	"Toubou"	
+<http://purl.obolibrary.org/obo/AfPO_0000420>	<http://www.w3.org/2000/01/rdf-schema#label>	"Esan"	
+<http://purl.obolibrary.org/obo/AfPO_0000256>	<http://www.w3.org/2000/01/rdf-schema#label>	"Antandroy"	
+<http://purl.obolibrary.org/obo/AfPO_0000555>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mano"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000555>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mano"	
+<http://purl.obolibrary.org/obo/AfPO_0000336>	<http://www.w3.org/2000/01/rdf-schema#label>	"Himba"	
+<http://purl.obolibrary.org/obo/COB_0000032>	<http://www.w3.org/2000/01/rdf-schema#label>	"geographical location"@en	
+<http://dbpedia.org/resource/Oceania>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oceania"	
+<http://dbpedia.org/resource/Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Asia"	
+<http://dbpedia.org/resource/Micronesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Micronesia"	
+<http://dbpedia.org/resource/Northern_America>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern America"	
+<http://dbpedia.org/resource/SouthAmerica>	<http://www.w3.org/2000/01/rdf-schema#label>	"South America"	
+<http://dbpedia.org/resource/Eastern_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern Asia"	
+<http://dbpedia.org/resource/Latin_America_and_the_Caribbean>	<http://www.w3.org/2000/01/rdf-schema#label>	"Latin America and the Caribbean"	
+<http://dbpedia.org/resource/South_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Asia"	
+<http://dbpedia.org/resource/Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Europe"	
+<http://dbpedia.org/resource/Eastern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern Africa"	
+<http://dbpedia.org/resource/Central_America>	<http://www.w3.org/2000/01/rdf-schema#label>	"Central America"	
+<http://dbpedia.org/resource/Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Africa"	
+<http://dbpedia.org/resource/Northern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern Africa"	
+<http://dbpedia.org/resource/Polynesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Polynesia"	
+<http://dbpedia.org/resource/Melanesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Melanesia"	
+<http://dbpedia.org/resource/Western_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Western Africa"	
+<http://dbpedia.org/resource/Southern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Southern Africa"	
+<http://dbpedia.org/resource/South-Eastern_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"South-Eastern Asia"	
+<http://dbpedia.org/resource/Southern_Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Southern Europe"	
+<http://dbpedia.org/resource/Western_Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Western Europe"	
+<http://dbpedia.org/resource/Caribbean>	<http://www.w3.org/2000/01/rdf-schema#label>	"Caribbean"	
+<http://dbpedia.org/resource/Scandinavia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Scandinavia"	
+<http://dbpedia.org/resource/Western_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Western Asia"	
+<http://dbpedia.org/resource/South-central_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"South-Central Asia"	
+<http://dbpedia.org/resource/Northern_Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern Europe"	
+<http://dbpedia.org/resource/Eastern_Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern Europe"	
+<http://dbpedia.org/resource/Laos>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Lao People's Democratic Republic"@en	
+<http://dbpedia.org/resource/Falkland_Islands>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Falkland Islands (Malvinas)"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0610>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"American Indian"	
+<http://purl.obolibrary.org/obo/GAZ_00000013>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"major area"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0627>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Guaraní-Mbyá"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0555>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Israeli Arab"	
+<http://dbpedia.org/resource/Myanmar>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Burma"	
+<http://dbpedia.org/resource/Saint_Pierre_and_Miquelon>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Saint-Pierre-et-Miquelon"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0004>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ancestral group"	
+<http://dbpedia.org/resource/Ivory_Coast>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Ivory Coast"	
+<http://dbpedia.org/resource/Saint_Helena>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"St. Helena"@en	
+<http://dbpedia.org/resource/Republic_of_Ireland>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Ireland"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0601>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ethnic group"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0449>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Saudi Arab"	
+<http://dbpedia.org/resource/Russia>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Russian Federation"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0581>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Uigur Chinese"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"American of European ancestry"	
+<http://dbpedia.org/resource/Tanzania>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"United Republic of Tanzania"@en	
+<http://dbpedia.org/resource/Iran>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Iran (Islamic Republic of)"@en	
+<http://dbpedia.org/resource/Wallis_and_Futuna>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Wallis and Futuna Islands"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0623>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Quichua"	
+<http://dbpedia.org/resource/Republic_of_the_Congo>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Congo"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0551>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Irish founder"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0008>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Asian unspecified"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0010>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"African unspecified"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0631>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Asháninca"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0620>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Wayuu"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0620>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Wayu"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0620>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Wahiro"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0620>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Guajiro"	
+<http://dbpedia.org/resource/United_States_Virgin_Islands>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"U.S. Virgin Islands"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0290>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"population isolate"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0290>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"founder population"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0571>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Plains American Indian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0487>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Indian Asian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0487>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Asian Indian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0002>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"geographical area"	
+<http://dbpedia.org/resource/Moldova>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Republic of Moldova"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0570>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Pima Indian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0570>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Pima"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0570>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Akimel O'otham"	
+<http://dbpedia.org/resource/The_Gambia>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Gambia"@en	
+<http://dbpedia.org/resource/East_Timor>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Timor-Leste"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0020>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"non-aboriginal Taiwanese"	
+<http://dbpedia.org/resource/Libya>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Libyan Arab Jamahiriya"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0617>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tarahumara"	
+<http://dbpedia.org/resource/Macau>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"China, Macao SAR"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"white"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Caucasian"	
+<http://dbpedia.org/resource/United_Kingdom>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"U.K."@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0628>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tupinã-ki"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0628>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Topinaquis"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0628>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tupiniquins"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0628>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tupinanquins"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0628>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tupinaquis"	
+<http://dbpedia.org/resource/United_States>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"United States of America"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0630>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Ika"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0630>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Ica"@en	
+<http://dbpedia.org/resource/Pitcairn_Islands>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Pitcairn, Henderson, Ducie and Oeno Islands"	
+<http://dbpedia.org/resource/North_Korea>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Democratic People's Republic of Korea"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0015>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Middle Eastern/North African"	
+<http://dbpedia.org/resource/The_Bahamas>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Bahamas"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0583>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Han Taiwanese"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0619>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mixtec"	
+<http://dbpedia.org/resource/Brunei>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Brunei Darussalam"@en	
+<http://dbpedia.org/resource/Palestinian_territories>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Occupied Palestinian Territory"@en	
+<http://dbpedia.org/resource/Mauretania>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mauretania"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"African Caribbean"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0425>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Surinamer"	
+<http://dbpedia.org/resource/Republic_of_Macedonia>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"The former Yugoslav Republic of Macedonia"@en	
+<http://dbpedia.org/resource/South_Korea>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Republic of Korea"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0624>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Aimara"	
+<http://dbpedia.org/resource/Hong_Kong>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"China, Hong Kong SAR"@en	
+<http://purl.obolibrary.org/obo/AfPO_0000131>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Moshi"	
+<http://purl.obolibrary.org/obo/AfPO_0000131>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Moré"	
+<http://purl.obolibrary.org/obo/AfPO_0000131>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mooré"	
+<http://purl.obolibrary.org/obo/AfPO_0000131>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mòoré"	
+<http://purl.obolibrary.org/obo/AfPO_0000131>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mõõré"	
+<http://purl.obolibrary.org/obo/AfPO_0000131>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"More"	
+<http://purl.obolibrary.org/obo/AfPO_0000131>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Moore"	
+<http://purl.obolibrary.org/obo/AfPO_0000419>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Ekid"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Toda"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tubu"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tibbu"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Umbararo"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tabu"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tebu"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Todga"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tuda"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tebou"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Todaga"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tibu"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tudaga"	

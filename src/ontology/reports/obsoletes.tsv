@@ -1,0 +1,45 @@
+?cls	?replCls	?consCls
+<http://dbpedia.org/resource/Middle_Africa>	"http://dbpedia.org/resource/Central_Africa"	
+<http://dbpedia.org/resource/Swaziland>	"http://dbpedia.org/resource/Eswatini"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0003>	"http://purl.obolibrary.org/obo/NCIT_C25464"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0029>	<http://dbpedia.org/resource/Africa>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0030>	<http://dbpedia.org/resource/Asia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0031>	<http://dbpedia.org/resource/Europe>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0032>	<http://dbpedia.org/resource/Oceania>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0033>	<http://dbpedia.org/resource/Latin_America_and_the_Caribbean>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0034>	<http://dbpedia.org/resource/Northern_America>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0035>	<http://dbpedia.org/resource/Eastern_Africa>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0036>	<http://dbpedia.org/resource/Middle_Africa>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0037>	<http://dbpedia.org/resource/Northern_Africa>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0038>	<http://dbpedia.org/resource/Southern_Africa>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0039>	<http://dbpedia.org/resource/Western_Africa>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0041>	<http://dbpedia.org/resource/South-central_Asia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0042>	<http://dbpedia.org/resource/South-Eastern_Asia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0043>	<http://dbpedia.org/resource/Western_Asia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0044>	<http://dbpedia.org/resource/Eastern_Europe>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0045>	<http://dbpedia.org/resource/Northern_Europe>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0046>	<http://dbpedia.org/resource/Southern_Europe>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0047>	<http://dbpedia.org/resource/Western_Europe>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0048>	<http://dbpedia.org/resource/Caribbean>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0049>	<http://dbpedia.org/resource/SouthAmerica>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0050>	<http://dbpedia.org/resource/Central_America>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0052>	<http://dbpedia.org/resource/Melanesia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0053>	<http://dbpedia.org/resource/Micronesia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0054>	<http://dbpedia.org/resource/Polynesia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0055>	<http://dbpedia.org/resource/Eastern_Asia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0288>	<http://dbpedia.org/resource/Scandinavia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0289>	<http://dbpedia.org/resource/South_Asia>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0328>		
+<http://purl.obolibrary.org/obo/HANCESTRO_0332>	<http://purl.obolibrary.org/obo/AfPO_0000220>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0436>	<http://purl.obolibrary.org/obo/AfPO_0000365>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0509>	<http://purl.obolibrary.org/obo/AfPO_0000370>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0516>	<http://purl.obolibrary.org/obo/AfPO_0000180>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0518>	<http://purl.obolibrary.org/obo/AfPO_0000389>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0527>	<http://purl.obolibrary.org/obo/AfPO_0000274>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0546>	<http://purl.obolibrary.org/obo/AfPO_0000351>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0553>		
+<http://purl.obolibrary.org/obo/HANCESTRO_0591>	<http://purl.obolibrary.org/obo/AfPO_0000420>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0592>	<http://purl.obolibrary.org/obo/AfPO_0000405>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0593>	<http://purl.obolibrary.org/obo/AfPO_0000056>	
+<http://purl.obolibrary.org/obo/HANCESTRO_0594>	<http://purl.obolibrary.org/obo/AfPO_0000432>	
+<http://urigen_local_uri/ae920f6d-eda5-40ab-8ec9-c5c08b7649af/Punjabi_Sikh>		
