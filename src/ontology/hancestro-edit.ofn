@@ -4565,9 +4565,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0611> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0612> (Hispanic)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0612> "Individuals who self-identify or are reported by authors as being of of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin. It should be noted that \"Hispanic\" is considered entirely as an ethnicity or cultural descriptor and is not associated with any specific genetic reference population.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0612> "Hispanic"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0612> <http://purl.obolibrary.org/obo/HANCESTRO_0014>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0612> <http://purl.obolibrary.org/obo/HANCESTRO_0601>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0612> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0612> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002151> <http://purl.obolibrary.org/obo/HANCESTRO_0014>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0613> (Otomi)
 
