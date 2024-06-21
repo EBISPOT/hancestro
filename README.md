@@ -30,22 +30,26 @@ To reference a specific version of the ontology, please provide a link to this G
 
 ## Documentation & FAQ ##
 
-For more information, take a look at [our website](https://ebispot.github.io/hancestro/), which includes an [FAQ](https://ebispot.github.io/hancestro/faq/).
+For more information, take a look at [our website](https://ebispot.github.io/hancestro/), which includes an [FAQ](https://ebispot.github.io/hancestro/faq/) and a detailed explanation of our [ontology design patterns](https://ebispot.github.io/hancestro/ontology_patterns/)
 
 
 ##Ancestry Ontology - Release Notes ##
 
-### Current release: v2023-10-13
+### Current release: v2024-06-21
 
-Date Released: 13 October 2023
+Date Released: 21 June 2024
 
-Class Count: 612 
+Class Count: 1045 
 
-- Updated the HANCESTRO versioning strategy to bring it in line with ODK best practice (as per [request #44](https://github.com/EBISPOT/hancestro/issues/44)). HANCESTRO versions are now date-based rather than using semantic versioning.
+- **AfPO import**: As of release v2023-06-21, HANCESTRO defers to the [African Population Ontology (AfPO)](https://github.com/h3abionet/afpo) on all terminology relating to African populations. 
+- Renamed `geographic category (HANCESTRO:0602)` to `geography-based population category`
+- Renamed `Hispanic or Latin American (HANCESTRO:0014)` to `Latin or Admixed American` and reclassified several population descriptors from `undefined ancestry population (HANCESTRO:0566)` to `Latin or Admixed American`
+- Renamed `Native American (HANCESTRO:0013)` to `Indigenous American`, and added separate sub-classes for `Indigenous in North America (HANCESTRO:0610)` and `Indigenous in South America (HANCESTRO:0611)` with a number of indigenous populations in each category
+- Added `Hispanic (HANCESTRO:0612)`
+- Moved from HERMIT to ELK as our ontology reasoner
+	- Adjusted some axiomatisations to conform to OWL2-EL to maintain reasoned hierarchy with ELK.
 
-- Repo clean-up, including fixing of broken links
-
-See the [release notes](https://github.com/EBISPOT/hancestro/releases) for details of most recent changes.
+See the [release notes](https://github.com/EBISPOT/hancestro/releases) for further details of most recent changes.
 
 
 
