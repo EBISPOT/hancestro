@@ -6,8 +6,6 @@
 <http://purl.obolibrary.org/obo/BFO_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"independent continuant"@en	
 <http://purl.obolibrary.org/obo/BFO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant"@en	
 <http://purl.obolibrary.org/obo/BFO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"entity"@en	
-<http://purl.obolibrary.org/obo/OBI_0000245>	<http://www.w3.org/2000/01/rdf-schema#label>	"organization"@en	
-<http://purl.obolibrary.org/obo/OBI_0000181>	<http://www.w3.org/2000/01/rdf-schema#label>	"population"@en	
 <http://dbpedia.org/resource/Malta>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malta"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0017>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oceanian"	
 <http://dbpedia.org/resource/Kosovo>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kosovo"	
@@ -462,8 +460,8 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0395>	<http://www.w3.org/2000/01/rdf-schema#label>	"Macedonian"@en	
 <http://dbpedia.org/resource/Vietnam>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vietnam"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0369>	<http://www.w3.org/2000/01/rdf-schema#label>	"Icelandic"@en	
-<http://purl.obolibrary.org/obo/HANCESTRO_0458>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kosovar"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0007>	<http://www.w3.org/2000/01/rdf-schema#label>	"South East Asian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0458>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kosovar"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0440>	<http://www.w3.org/2000/01/rdf-schema#label>	"Israeli"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0412>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guyanese"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0313>	<http://www.w3.org/2000/01/rdf-schema#label>	"Old Order Amish"@en	
@@ -620,6 +618,8 @@
 <http://dbpedia.org/resource/Djibouti>	<http://www.w3.org/2000/01/rdf-schema#label>	"Djibouti"@en	
 <http://dbpedia.org/resource/Mexico>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mexico"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0390>	<http://www.w3.org/2000/01/rdf-schema#label>	"Slovak"@en	
+<http://purl.obolibrary.org/obo/OBI_0000245>	<http://www.w3.org/2000/01/rdf-schema#label>	"organization"@en	
+<http://purl.obolibrary.org/obo/OBI_0000181>	<http://www.w3.org/2000/01/rdf-schema#label>	"population"@en	
 <http://purl.obolibrary.org/obo/AfPO_0000056>	<http://www.w3.org/2000/01/rdf-schema#label>	"Maasai"	
 <http://purl.obolibrary.org/obo/AfPO_0000400>	<http://www.w3.org/2000/01/rdf-schema#label>	"Basoga"	
 <http://purl.obolibrary.org/obo/AfPO_0000507>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sihanaka"@en	
@@ -1118,32 +1118,32 @@
 <http://purl.obolibrary.org/obo/AfPO_0000555>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mano"	
 <http://purl.obolibrary.org/obo/AfPO_0000336>	<http://www.w3.org/2000/01/rdf-schema#label>	"Himba"	
 <http://purl.obolibrary.org/obo/COB_0000032>	<http://www.w3.org/2000/01/rdf-schema#label>	"geographical location"@en	
-<http://dbpedia.org/resource/Oceania>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oceania"	
-<http://dbpedia.org/resource/Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Asia"	
-<http://dbpedia.org/resource/Micronesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Micronesia"	
-<http://dbpedia.org/resource/Northern_America>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern America"	
-<http://dbpedia.org/resource/SouthAmerica>	<http://www.w3.org/2000/01/rdf-schema#label>	"South America"	
-<http://dbpedia.org/resource/Eastern_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern Asia"	
-<http://dbpedia.org/resource/Latin_America_and_the_Caribbean>	<http://www.w3.org/2000/01/rdf-schema#label>	"Latin America and the Caribbean"	
-<http://dbpedia.org/resource/South_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Asia"	
-<http://dbpedia.org/resource/Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Europe"	
-<http://dbpedia.org/resource/Eastern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern Africa"	
-<http://dbpedia.org/resource/Central_America>	<http://www.w3.org/2000/01/rdf-schema#label>	"Central America"	
-<http://dbpedia.org/resource/Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Africa"	
-<http://dbpedia.org/resource/Northern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern Africa"	
-<http://dbpedia.org/resource/Polynesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Polynesia"	
-<http://dbpedia.org/resource/Melanesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Melanesia"	
-<http://dbpedia.org/resource/Western_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Western Africa"	
-<http://dbpedia.org/resource/Southern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Southern Africa"	
-<http://dbpedia.org/resource/South-Eastern_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"South-Eastern Asia"	
 <http://dbpedia.org/resource/Southern_Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Southern Europe"	
 <http://dbpedia.org/resource/Western_Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Western Europe"	
+<http://dbpedia.org/resource/Micronesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Micronesia"	
+<http://dbpedia.org/resource/South_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"South Asia"	
+<http://dbpedia.org/resource/Northern_America>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern America"	
+<http://dbpedia.org/resource/Latin_America_and_the_Caribbean>	<http://www.w3.org/2000/01/rdf-schema#label>	"Latin America and the Caribbean"	
 <http://dbpedia.org/resource/Caribbean>	<http://www.w3.org/2000/01/rdf-schema#label>	"Caribbean"	
+<http://dbpedia.org/resource/Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Africa"	
 <http://dbpedia.org/resource/Scandinavia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Scandinavia"	
+<http://dbpedia.org/resource/Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Asia"	
+<http://dbpedia.org/resource/South-Eastern_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"South-Eastern Asia"	
+<http://dbpedia.org/resource/Polynesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Polynesia"	
+<http://dbpedia.org/resource/Eastern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern Africa"	
+<http://dbpedia.org/resource/Northern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern Africa"	
 <http://dbpedia.org/resource/Western_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Western Asia"	
+<http://dbpedia.org/resource/Oceania>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oceania"	
+<http://dbpedia.org/resource/Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Europe"	
+<http://dbpedia.org/resource/Eastern_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern Asia"	
+<http://dbpedia.org/resource/SouthAmerica>	<http://www.w3.org/2000/01/rdf-schema#label>	"South America"	
+<http://dbpedia.org/resource/Western_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Western Africa"	
 <http://dbpedia.org/resource/South-central_Asia>	<http://www.w3.org/2000/01/rdf-schema#label>	"South-Central Asia"	
 <http://dbpedia.org/resource/Northern_Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Northern Europe"	
 <http://dbpedia.org/resource/Eastern_Europe>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern Europe"	
+<http://dbpedia.org/resource/Central_America>	<http://www.w3.org/2000/01/rdf-schema#label>	"Central America"	
+<http://dbpedia.org/resource/Southern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Southern Africa"	
+<http://dbpedia.org/resource/Melanesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Melanesia"	
 <http://dbpedia.org/resource/Laos>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Lao People's Democratic Republic"@en	
 <http://dbpedia.org/resource/Falkland_Islands>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Falkland Islands (Malvinas)"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0610>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"American Indian"	
