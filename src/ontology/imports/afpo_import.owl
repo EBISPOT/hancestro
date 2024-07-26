@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/imports/afpo_import.owl>
-<http://purl.obolibrary.org/obo/hancestro/releases/2024-06-21/imports/afpo_import.owl>
+<http://purl.obolibrary.org/obo/hancestro/releases/2024-07-26/imports/afpo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/afpo/releases/2024-03-21/afpo.owl>)
-Annotation(owl:versionInfo "2024-06-21")
+Annotation(owl:versionInfo "2024-07-26")
 
 Declaration(Class(<http://dbpedia.org/resource/Algeria>))
 Declaration(Class(<http://dbpedia.org/resource/Angola>))
@@ -461,6 +461,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000579>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000580>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000225>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000409>))
@@ -4526,7 +4527,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000188> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000188> "2020-05-25T14:14:55.213279Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000188> "Eastern African")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000188> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000188> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000189> (Berber Western)
 
@@ -6182,7 +6183,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000273> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000274> "38 populations")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000274> "People living in: Angola OR Cameroon OR Central African Republic OR Chad OR Congo OR Democratic Republic of the Congo OR Gabon OR Zambia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000274> "Central African")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000274> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000274> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000275> (Northern African)
 
@@ -6196,14 +6197,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000275> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000276> "40 populations")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000276> "People living in: Botswana OR Eswatini OR Lesotho OR Namibia OR South Africa")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000276> "Southern African")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000276> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000276> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000277> (Western African)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000277> "61 populations")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000277> "People living in: Benin OR Burkina Faso OR Cabo Verde OR Cote d'Ivoire OR Equatorial Guinea OR Gambia OR Ghana OR Guinea OR Guinea-Bissau OR Liberia OR Mali OR Niger OR Nigeria OR Saint Helena OR Sao Tome and Principe OR Senegal OR Sierra Leone OR Togo")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000277> "Western African")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000277> <http://purl.obolibrary.org/obo/HANCESTRO_0010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000277> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000278> (Kanuri)
 

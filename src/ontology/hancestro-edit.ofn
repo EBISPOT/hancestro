@@ -2087,7 +2087,6 @@ SubClassOf(<http://dbpedia.org/resource/Suriname> ObjectAllValuesFrom(<http://pu
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://dbpedia.org/resource/Swaziland> "http://dbpedia.org/resource/Eswatini")
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Swaziland> "obsolete Swaziland"@en)
 AnnotationAssertion(owl:deprecated <http://dbpedia.org/resource/Swaziland> "true"^^xsd:boolean)
-SubClassOf(<http://dbpedia.org/resource/Swaziland> owl:Thing)
 
 # Class: <http://dbpedia.org/resource/Sweden> (Sweden)
 
@@ -2165,9 +2164,10 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Tokelau> "Tokelau"@e
 SubClassOf(<http://dbpedia.org/resource/Tokelau> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Tokelau> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Polynesia>))
 
-# Class: <http://dbpedia.org/resource/Tonga> (Tonga)
+# Class: <http://dbpedia.org/resource/Tonga> (Kingdom of Tonga)
 
-AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Tonga> "Tonga"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://dbpedia.org/resource/Tonga> "Tonga"@en)
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Tonga> "Kingdom of Tonga")
 SubClassOf(<http://dbpedia.org/resource/Tonga> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://dbpedia.org/resource/Tonga> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Polynesia>))
 
@@ -4084,7 +4084,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0534> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0535> (Gambian)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0535> "Gambian"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0535> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0535> <http://purl.obolibrary.org/obo/AfPO_0000277>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0535> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/The_Gambia>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0536> (Ghanaian)
@@ -4114,7 +4114,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0539> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0540> (Malawian)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0540> "Malawian"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0540> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0540> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Malawi>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0541> (Malian)
@@ -4138,7 +4138,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0543> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0544> (Nigerian)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0544> "Nigerian"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0544> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0544> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0544> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Nigeria>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0545> (Rwandan)
@@ -4162,7 +4162,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0547> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0548> (Tanzanian)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0548> "Tanzanian"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0548> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0548> <http://purl.obolibrary.org/obo/HANCESTRO_0566>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0548> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0330> <http://dbpedia.org/resource/Tanzania>))
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0549> (Zambian)
@@ -4348,17 +4348,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0574> "
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0574> <http://purl.obolibrary.org/obo/HANCESTRO_0017>)
 SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0574> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0575> (Yoruban)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0575> (obsolete Yoruban)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0575> "Yoruban")
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0575> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0599>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0575> <http://purl.obolibrary.org/obo/AfPO_0000105>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0575> "obsolete Yoruban")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0575> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0576> (West African)
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0576> (obsolete West African)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0576> "West African")
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0576> <http://purl.obolibrary.org/obo/HANCESTRO_0011>)
-SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/HANCESTRO_0600>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/HANCESTRO_0576> <http://purl.obolibrary.org/obo/AfPO_0000277>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0576> "obsolete West African")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/HANCESTRO_0576> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/HANCESTRO_0577> (Dai Chinese)
 
