@@ -55,6 +55,14 @@ In order to make it easier for HANCESTRO users to identify all geographical desc
 Please note that we make every effort to ensure that our ethnicity and geograph-based population descriptors groupings are non-overlapping, i.e. each term should only appear in one list. For this reason, you may sometimes find a geographic descriptor in the ethnicities list, in particular if that descriptor has child terms that are themselves not geographic descriptors. 
 
 
+### Reference population
+
+Reference populations consist of groups of individuals from a common geographic area and tribal or ethnolinguistic group whose DNA was sampled and sequenced as part of a large-scale genomic diversity project such as the [1000 Genomes Project](https://www.internationalgenome.org/1000-genomes-summary), the [Human Genome Diversity Project (HGDP)](https://www.internationalgenome.org/data-portal/data-collection/hgdp) or [Simons Genome Diversity Project (SGDP)](https://www.internationalgenome.org/data-portal/data-collection/sgdp). All populations listed in HANCESTRO were identified from the [International Genome Sample Resource (IGSR)](https://www.internationalgenome.org/about).
+
+
+## Other core concepts in HANCESTRO
+
+
 ### Ancestry status
 
 This class represents the general characterisation of the ancestry of a population or individual. Ancestry status can either be admixed or genetically isolated.

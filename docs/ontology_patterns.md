@@ -1,7 +1,5 @@
-# human-ancestry-ontology-design-patterns
+# HANCESTRO design patterns
 
-HANCESTRO design patterns
-========
 
 ## HANCESTRO native object properties
 
