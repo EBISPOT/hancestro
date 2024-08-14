@@ -9699,6 +9699,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 10 samples from Bantu individuals recruited in Kenya as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bantu Kenya</oboInOwl:hasExactSynonym>
         <rdfs:label>Bantu in Kenya (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -9722,6 +9723,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 4 samples from Bantu individuals recruited in South Africa as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bantu South Africa</oboInOwl:hasExactSynonym>
         <rdfs:label>Bantu in South Africa (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -9745,6 +9747,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 24 samples from Biaka individuals recruited in Central African Republic as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Biaka</oboInOwl:hasExactSynonym>
         <rdfs:label>Biaka in Central African Republic (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -9768,6 +9771,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 20 samples from Mandenka individuals recruited in Senegal as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mandenka</oboInOwl:hasExactSynonym>
         <rdfs:label>Mandenka in Senegal (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -9791,6 +9795,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 13 samples from Mbuti individuals recruited in Democratic Republic of Congo as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African. Samples from this population were used in data collections  for HGDP Transcriptome.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mbuti</oboInOwl:hasExactSynonym>
         <rdfs:label>Mbuti in Democratic Republic of Congo (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -9814,6 +9819,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 4 samples from San individuals recruited in Namibia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>San</oboInOwl:hasExactSynonym>
         <rdfs:label>San in Namibia (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -9837,6 +9843,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 18 samples from Yoruba individuals recruited in Nigeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Yoruba</oboInOwl:hasExactSynonym>
         <rdfs:label>Yoruba in Nigeria (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -9866,6 +9873,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Bantu Herero individuals recruited in Botswana Or Namibia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bantu Herero</oboInOwl:hasExactSynonym>
         <rdfs:label>Bantu Herero in Botswana Or Namibia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -9889,6 +9897,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Bantu Kenya individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bantu Kenya</oboInOwl:hasExactSynonym>
         <rdfs:label>Bantu Kenya in Kenya (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -9918,6 +9927,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Bantu Tswana individuals recruited in Botswana Or Namibia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bantu Tswana</oboInOwl:hasExactSynonym>
         <rdfs:label>Bantu Tswana in Botswana Or Namibia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -9941,6 +9951,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Biaka individuals recruited in Central African Republic as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Biaka</oboInOwl:hasExactSynonym>
         <rdfs:label>Biaka in Central African Republic (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -9964,6 +9975,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Dinka individuals recruited in Sudan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Dinka</oboInOwl:hasExactSynonym>
         <rdfs:label>Dinka in Sudan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -9987,6 +9999,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Esan individuals recruited in Nigeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Esan</oboInOwl:hasExactSynonym>
         <rdfs:label>Esan in Nigeria (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10010,6 +10023,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Gambian individuals recruited in Gambia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Gambian</oboInOwl:hasExactSynonym>
         <rdfs:label>Gambian in Gambia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10033,6 +10047,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 4 samples from Ju|&apos;hoan North individuals recruited in Namibia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Ju|&apos;hoan North</oboInOwl:hasExactSynonym>
         <rdfs:label>Ju|&apos;hoan North in Namibia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10056,6 +10071,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Khomani San individuals recruited in South Africa as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Khomani San</oboInOwl:hasExactSynonym>
         <rdfs:label>Khomani San in South Africa (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10079,6 +10095,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Luhya individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Luhya</oboInOwl:hasExactSynonym>
         <rdfs:label>Luhya in Kenya (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10102,6 +10119,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Luo individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Luo</oboInOwl:hasExactSynonym>
         <rdfs:label>Luo in Kenya (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10125,6 +10143,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Mandenka individuals recruited in Senegal as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mandenka</oboInOwl:hasExactSynonym>
         <rdfs:label>Mandenka in Senegal (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10149,6 +10168,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Masai individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MKK</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Masai</oboInOwl:hasExactSynonym>
         <rdfs:label>Masai in Kenya</rdfs:label>
     </owl:Class>
     
@@ -10172,6 +10192,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 4 samples from Mbuti individuals recruited in Congo as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mbuti</oboInOwl:hasExactSynonym>
         <rdfs:label>Mbuti in Congo (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10195,6 +10216,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Mende individuals recruited in Sierra Leone as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mende</oboInOwl:hasExactSynonym>
         <rdfs:label>Mende in Sierra Leone (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10219,6 +10241,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Mozabite individuals recruited in Algeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mozabite</oboInOwl:hasExactSynonym>
         <rdfs:label>Mozabite in Algeria (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10243,6 +10266,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Saharawi individuals recruited in Western Sahara (Morocco) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Saharawi</oboInOwl:hasExactSynonym>
         <rdfs:label>Saharawi in Western Sahara (Morocco) (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10266,6 +10290,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Somali individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Somali</oboInOwl:hasExactSynonym>
         <rdfs:label>Somali in Kenya (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10289,6 +10314,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Yoruba individuals recruited in Nigeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Yoruba</oboInOwl:hasExactSynonym>
         <rdfs:label>Yoruba in Nigeria (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10308,6 +10334,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 113 samples from African Ancestry individuals recruited in Southwest US as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ASW</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>African Ancestry SW</oboInOwl:hasExactSynonym>
         <rdfs:label>African Ancestry in Southwest US</rdfs:label>
     </owl:Class>
     
@@ -10333,6 +10360,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 123 samples from African Caribbean individuals recruited in Barbados as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ACB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>African Caribbean</oboInOwl:hasExactSynonym>
         <rdfs:label>African Caribbean in Barbados</rdfs:label>
     </owl:Class>
     
@@ -10357,6 +10385,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 173 samples from Esan individuals recruited in Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ESN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Esan</oboInOwl:hasExactSynonym>
         <rdfs:label>Esan in Nigeria</rdfs:label>
     </owl:Class>
     
@@ -10381,6 +10410,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 100 samples from Fula individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GWF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gambian Fula</oboInOwl:hasExactSynonym>
         <rdfs:label>Gambian in Western Division, The Gambia - Fula</rdfs:label>
     </owl:Class>
     
@@ -10405,6 +10435,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 100 samples from Jola individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GWJ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gambian Jola</oboInOwl:hasExactSynonym>
         <rdfs:label>Gambian in Western Division, The Gambia - Jola</rdfs:label>
     </owl:Class>
     
@@ -10429,6 +10460,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 280 samples from Mandinka individuals recruited in Western Division, The Gambia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GWD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gambian Mandinka</oboInOwl:hasExactSynonym>
         <rdfs:label>Gambian in Western Division, The Gambia - Mandinka</rdfs:label>
     </owl:Class>
     
@@ -10453,6 +10485,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 100 samples from Wolof individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GWW</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gambian Wolof</oboInOwl:hasExactSynonym>
         <rdfs:label>Gambian in Western Division, The Gambia - Wolof</rdfs:label>
     </owl:Class>
     
@@ -10477,6 +10510,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 117 samples from Luhya individuals recruited in Webuye, Kenya as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>LWK</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Luhya</oboInOwl:hasExactSynonym>
         <rdfs:label>Luhya in Webuye, Kenya</rdfs:label>
     </owl:Class>
     
@@ -10501,6 +10535,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 129 samples from Mende individuals recruited in Sierra Leone as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MSL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mende</oboInOwl:hasExactSynonym>
         <rdfs:label>Mende in Sierra Leone</rdfs:label>
     </owl:Class>
     
@@ -10525,6 +10560,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 187 samples from Yoruba individuals recruited in Ibadan, Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>YRI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Yoruba</oboInOwl:hasExactSynonym>
         <rdfs:label>Yoruba in Ibadan, Nigeria</rdfs:label>
     </owl:Class>
     
@@ -10548,6 +10584,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 5 samples from Colombian individuals recruited in Colombia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Colombian</oboInOwl:hasExactSynonym>
         <rdfs:label>Colombian in Colombia (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -10556,8 +10593,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0670 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0670">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10566,6 +10603,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 9 samples from Karitiana individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Karitiana</oboInOwl:hasExactSynonym>
         <rdfs:label>Karitiana in Brazil (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -10574,8 +10612,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0671 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0671">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10590,6 +10628,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 21 samples from Maya individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Maya</oboInOwl:hasExactSynonym>
         <rdfs:label>Maya in Mexico (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -10598,8 +10637,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0672 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0672">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10614,6 +10653,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 12 samples from Pima individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Pima</oboInOwl:hasExactSynonym>
         <rdfs:label>Pima in Mexico (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -10622,8 +10662,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0673">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10632,6 +10672,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 6 samples from Surui individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Surui</oboInOwl:hasExactSynonym>
         <rdfs:label>Surui in Brazil (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -10640,8 +10681,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10650,6 +10691,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Chane individuals recruited in Argentina as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Chane</oboInOwl:hasExactSynonym>
         <rdfs:label>Chane in Argentina (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10658,8 +10700,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0675 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0675">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10668,6 +10710,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Karitiana individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Karitiana</oboInOwl:hasExactSynonym>
         <rdfs:label>Karitiana in Brazil (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10676,8 +10719,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0676 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0676">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10692,6 +10735,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Mayan individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mayan</oboInOwl:hasExactSynonym>
         <rdfs:label>Mayan in Mexico (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10700,8 +10744,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0677 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0677">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10710,6 +10754,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Mixe individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mixe</oboInOwl:hasExactSynonym>
         <rdfs:label>Mixe in Mexico (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10718,8 +10763,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0678 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0678">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10734,6 +10779,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Mixtec individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mixtec</oboInOwl:hasExactSynonym>
         <rdfs:label>Mixtec in Mexico (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10742,8 +10788,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0679">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10758,6 +10804,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Piapoco individuals recruited in Colombia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Piapoco</oboInOwl:hasExactSynonym>
         <rdfs:label>Piapoco in Colombia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10766,8 +10813,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0680 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0680">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10782,6 +10829,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Pima individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Pima</oboInOwl:hasExactSynonym>
         <rdfs:label>Pima in Mexico (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10790,8 +10838,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0681 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0681">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10806,6 +10854,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Quechua individuals recruited in Peru as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Quechua</oboInOwl:hasExactSynonym>
         <rdfs:label>Quechua in Peru (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10814,8 +10863,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0682 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0682">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10824,6 +10873,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Surui individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Surui</oboInOwl:hasExactSynonym>
         <rdfs:label>Surui in Brazil (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10832,8 +10882,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0683 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0683">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10848,6 +10898,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Zapotec individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Zapotec</oboInOwl:hasExactSynonym>
         <rdfs:label>Zapotec in Mexico (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10872,6 +10923,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 148 samples from Colombian individuals recruited in Medellin, Colombia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CLM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Colombian</oboInOwl:hasExactSynonym>
         <rdfs:label>Colombian in Medellin, Colombia</rdfs:label>
     </owl:Class>
     
@@ -10896,6 +10948,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 107 samples from Mexican Ancestry individuals recruited in Los Angeles, California as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MXL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mexican Ancestry</oboInOwl:hasExactSynonym>
         <rdfs:label>Mexican Ancestry in Los Angeles, California</rdfs:label>
     </owl:Class>
     
@@ -10920,6 +10973,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 130 samples from Peruvian individuals recruited in Lima, Peru as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PEL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Peruvian</oboInOwl:hasExactSynonym>
         <rdfs:label>Peruvian in Lima, Peru</rdfs:label>
     </owl:Class>
     
@@ -10944,6 +10998,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 150 samples from Puerto Rican individuals recruited in Puerto Rico as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PUR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Puerto Rican</oboInOwl:hasExactSynonym>
         <rdfs:label>Puerto Rican in Puerto Rico</rdfs:label>
     </owl:Class>
     
@@ -10953,6 +11008,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0688">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10960,6 +11016,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Aleut individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Aleut</oboInOwl:hasExactSynonym>
         <rdfs:label>Aleut in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10969,6 +11026,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0689">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10976,6 +11034,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Altaian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Altaian</oboInOwl:hasExactSynonym>
         <rdfs:label>Altaian in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -10985,6 +11044,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0690">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10992,6 +11052,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Chukchi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Chukchi</oboInOwl:hasExactSynonym>
         <rdfs:label>Chukchi in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11001,6 +11062,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0691">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11008,6 +11070,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Eskimo Chaplin individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Eskimo Chaplin</oboInOwl:hasExactSynonym>
         <rdfs:label>Eskimo Chaplin in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11017,6 +11080,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0692">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11024,6 +11088,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Eskimo Naukan individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Eskimo Naukan</oboInOwl:hasExactSynonym>
         <rdfs:label>Eskimo Naukan in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11033,6 +11098,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0693">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11040,6 +11106,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Eskimo Sireniki individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Eskimo Sireniki</oboInOwl:hasExactSynonym>
         <rdfs:label>Eskimo Sireniki in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11049,6 +11116,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0694">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11056,6 +11124,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Even individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Even</oboInOwl:hasExactSynonym>
         <rdfs:label>Even in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11065,6 +11134,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0695">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11072,6 +11142,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Itelman individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Itelman</oboInOwl:hasExactSynonym>
         <rdfs:label>Itelman in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11081,6 +11152,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0696">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11088,6 +11160,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Kyrgyz individuals recruited in Kyrgyzystan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Kyrgyz</oboInOwl:hasExactSynonym>
         <rdfs:label>Kyrgyz in Kyrgyzystan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11097,6 +11170,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0697">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11104,6 +11178,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Mansi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mansi</oboInOwl:hasExactSynonym>
         <rdfs:label>Mansi in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11112,14 +11187,23 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0698 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/China"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Mongola individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mongola</oboInOwl:hasExactSynonym>
         <rdfs:label>Mongola in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11129,6 +11213,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0699">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11136,6 +11221,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Tlingit individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tlingit</oboInOwl:hasExactSynonym>
         <rdfs:label>Tlingit in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11145,6 +11231,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0700">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11152,6 +11239,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Tubalar individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tubalar</oboInOwl:hasExactSynonym>
         <rdfs:label>Tubalar in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11161,6 +11249,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0701">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11168,6 +11257,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Ulchi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Ulchi</oboInOwl:hasExactSynonym>
         <rdfs:label>Ulchi in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11177,6 +11267,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0702">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11184,6 +11275,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Yakut individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Yakut</oboInOwl:hasExactSynonym>
         <rdfs:label>Yakut in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11201,6 +11293,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 22 samples from Balochi individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Balochi</oboInOwl:hasExactSynonym>
         <rdfs:label>Balochi in Pakistan (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11218,6 +11311,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 23 samples from Brahui individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Brahui</oboInOwl:hasExactSynonym>
         <rdfs:label>Brahui in Pakistan (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11235,6 +11329,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 22 samples from Burusho individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Burusho</oboInOwl:hasExactSynonym>
         <rdfs:label>Burusho in Pakistan (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11252,6 +11347,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 18 samples from Hazara individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Hazara</oboInOwl:hasExactSynonym>
         <rdfs:label>Hazara in Pakistan (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11269,6 +11365,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 21 samples from Kalash individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Kalash</oboInOwl:hasExactSynonym>
         <rdfs:label>Kalash in Pakistan (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11286,6 +11383,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 23 samples from Makrani individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Makrani</oboInOwl:hasExactSynonym>
         <rdfs:label>Makrani in Pakistan (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11303,6 +11401,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 23 samples from Pathan individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Pathan</oboInOwl:hasExactSynonym>
         <rdfs:label>Pathan in Pakistan (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11320,6 +11419,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 22 samples from Sindhi individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Sindhi</oboInOwl:hasExactSynonym>
         <rdfs:label>Sindhi in Pakistan (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11344,6 +11444,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 8 samples from Uygur individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Uygur</oboInOwl:hasExactSynonym>
         <rdfs:label>Uygur in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11368,6 +11469,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 9 samples from Cambodian individuals recruited in Cambodia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Cambodian</oboInOwl:hasExactSynonym>
         <rdfs:label>Cambodian in Cambodia (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11391,6 +11493,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 5 samples from Dai individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Dai</oboInOwl:hasExactSynonym>
         <rdfs:label>Dai in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11408,6 +11511,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 9 samples from Daur individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Daur</oboInOwl:hasExactSynonym>
         <rdfs:label>Daur in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11431,6 +11535,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 30 samples from Han individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Han</oboInOwl:hasExactSynonym>
         <rdfs:label>Han in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11448,6 +11553,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 7 samples from Hezhen individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Hezhen</oboInOwl:hasExactSynonym>
         <rdfs:label>Hezhen in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11471,6 +11577,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 27 samples from Japanese individuals recruited in Japan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Japanese</oboInOwl:hasExactSynonym>
         <rdfs:label>Japanese in Japan (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11488,6 +11595,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 6 samples from Lahu individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Lahu</oboInOwl:hasExactSynonym>
         <rdfs:label>Lahu in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11505,6 +11613,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 8 samples from Miao individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Miao</oboInOwl:hasExactSynonym>
         <rdfs:label>Miao in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11528,6 +11637,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 8 samples from Mongolian individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mongolian</oboInOwl:hasExactSynonym>
         <rdfs:label>Mongolian in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11545,6 +11655,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 6 samples from Naxi individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Naxi</oboInOwl:hasExactSynonym>
         <rdfs:label>Naxi in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11568,6 +11679,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 10 samples from Northern Han individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Northern Han</oboInOwl:hasExactSynonym>
         <rdfs:label>Northern Han in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11585,6 +11697,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 7 samples from Oroqen individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Oroqen</oboInOwl:hasExactSynonym>
         <rdfs:label>Oroqen in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11602,6 +11715,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 8 samples from She individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>She</oboInOwl:hasExactSynonym>
         <rdfs:label>She in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11619,6 +11733,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 8 samples from Tu individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tu</oboInOwl:hasExactSynonym>
         <rdfs:label>Tu in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11636,6 +11751,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 8 samples from Tujia individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tujia</oboInOwl:hasExactSynonym>
         <rdfs:label>Tujia in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11653,6 +11769,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 7 samples from Xibo individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Xibo</oboInOwl:hasExactSynonym>
         <rdfs:label>Xibo in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11670,6 +11787,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 23 samples from Yakut individuals recruited in Siberia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Yakut</oboInOwl:hasExactSynonym>
         <rdfs:label>Yakut in Siberia (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11687,6 +11805,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 8 samples from Yi individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Yi</oboInOwl:hasExactSynonym>
         <rdfs:label>Yi in China (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -11704,6 +11823,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Ami individuals recruited in Taiwan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Ami</oboInOwl:hasExactSynonym>
         <rdfs:label>Ami in Taiwan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11721,6 +11841,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Atayal individuals recruited in Taiwan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Atayal</oboInOwl:hasExactSynonym>
         <rdfs:label>Atayal in Taiwan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11745,6 +11866,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Burmese individuals recruited in Myanmar as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Burmese</oboInOwl:hasExactSynonym>
         <rdfs:label>Burmese in Myanmar (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11769,6 +11891,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Cambodian individuals recruited in Cambodia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Cambodian</oboInOwl:hasExactSynonym>
         <rdfs:label>Cambodian in Cambodia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11792,6 +11915,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 4 samples from Dai individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Dai</oboInOwl:hasExactSynonym>
         <rdfs:label>Dai in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11809,6 +11933,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Daur individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Daur</oboInOwl:hasExactSynonym>
         <rdfs:label>Daur in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11832,6 +11957,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Han individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Han</oboInOwl:hasExactSynonym>
         <rdfs:label>Han in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11849,6 +11975,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Hezhen individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Hezhen</oboInOwl:hasExactSynonym>
         <rdfs:label>Hezhen in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11872,6 +11999,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Japanese individuals recruited in Japan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Japanese</oboInOwl:hasExactSynonym>
         <rdfs:label>Japanese in Japan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11890,6 +12018,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Kinh individuals recruited in Vietnam as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Kinh</oboInOwl:hasExactSynonym>
         <rdfs:label>Kinh in Vietnam (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11913,6 +12042,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Korean individuals recruited in Korea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Korean</oboInOwl:hasExactSynonym>
         <rdfs:label>Korean in Korea (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11930,6 +12060,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Lahu individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Lahu</oboInOwl:hasExactSynonym>
         <rdfs:label>Lahu in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11947,6 +12078,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Miao individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Miao</oboInOwl:hasExactSynonym>
         <rdfs:label>Miao in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11964,6 +12096,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Naxi individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Naxi</oboInOwl:hasExactSynonym>
         <rdfs:label>Naxi in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11981,6 +12114,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Oroqen individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Oroqen</oboInOwl:hasExactSynonym>
         <rdfs:label>Oroqen in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -11998,6 +12132,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from She individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>She</oboInOwl:hasExactSynonym>
         <rdfs:label>She in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12022,6 +12157,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Thai individuals recruited in Thailand as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Thai</oboInOwl:hasExactSynonym>
         <rdfs:label>Thai in Thailand (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12039,6 +12175,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Tu individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tu</oboInOwl:hasExactSynonym>
         <rdfs:label>Tu in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12056,6 +12193,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Tujia individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tujia</oboInOwl:hasExactSynonym>
         <rdfs:label>Tujia in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12079,6 +12217,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Uygur individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Uygur</oboInOwl:hasExactSynonym>
         <rdfs:label>Uygur in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12096,6 +12235,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Xibo individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Xibo</oboInOwl:hasExactSynonym>
         <rdfs:label>Xibo in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12113,6 +12253,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Yi individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Yi</oboInOwl:hasExactSynonym>
         <rdfs:label>Yi in China (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12137,6 +12278,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 109 samples from Chinese Dai individuals recruited in Xishuangbanna, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CDX</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dai Chinese</oboInOwl:hasExactSynonym>
         <rdfs:label>Chinese Dai in Xishuangbanna, China</rdfs:label>
     </owl:Class>
     
@@ -12161,6 +12303,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 112 samples from Han Chinese individuals recruited in Beijing, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CHB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Han Chinese</oboInOwl:hasExactSynonym>
         <rdfs:label>Han Chinese in Beijing, China</rdfs:label>
     </owl:Class>
     
@@ -12185,6 +12328,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 105 samples from Japanese individuals recruited in Tokyo, Japan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>JPT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Japanese</oboInOwl:hasExactSynonym>
         <rdfs:label>Japanese in Tokyo, Japan</rdfs:label>
     </owl:Class>
     
@@ -12204,6 +12348,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 124 samples from Kinh individuals recruited in Ho Chi Minh City, Vietnam as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>KHV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Kinh Vietnamese</oboInOwl:hasExactSynonym>
         <rdfs:label>Kinh in Ho Chi Minh City, Vietnam</rdfs:label>
     </owl:Class>
     
@@ -12228,6 +12373,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 171 samples from Han Chinese South individuals recruited in China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CHS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Southern Han Chinese</oboInOwl:hasExactSynonym>
         <rdfs:label>Han Chinese South</rdfs:label>
     </owl:Class>
     
@@ -12245,6 +12391,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 15 samples from Adygei individuals recruited in Caucasus, Russia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Adygei</oboInOwl:hasExactSynonym>
         <rdfs:label>Adygei in Caucasus, Russia (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12262,6 +12409,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 22 samples from Basque individuals recruited in France as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Basque</oboInOwl:hasExactSynonym>
         <rdfs:label>Basque in France (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12279,6 +12427,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 10 samples from Bergamo Italian individuals recruited in Bergamo, Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bergamo Italian</oboInOwl:hasExactSynonym>
         <rdfs:label>Bergamo Italian in Bergamo, Italy (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12302,6 +12451,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 24 samples from French individuals recruited in France as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>French</oboInOwl:hasExactSynonym>
         <rdfs:label>French in France (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12319,6 +12469,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 13 samples from Orcadian individuals recruited in Orkney as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Orcadian</oboInOwl:hasExactSynonym>
         <rdfs:label>Orcadian in Orkney (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12342,6 +12493,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 23 samples from Russian individuals recruited in Russia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Russian</oboInOwl:hasExactSynonym>
         <rdfs:label>Russian in Russia (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12359,6 +12511,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 24 samples from Sardinian individuals recruited in Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Sardinian</oboInOwl:hasExactSynonym>
         <rdfs:label>Sardinian in Italy (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12376,6 +12529,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 6 samples from Tuscan individuals recruited in Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tuscan</oboInOwl:hasExactSynonym>
         <rdfs:label>Tuscan in Italy (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12393,6 +12547,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 107 samples from British individuals recruited in England and Scotland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>British</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GBR</oboInOwl:hasExactSynonym>
         <rdfs:label>British in England and Scotland</rdfs:label>
     </owl:Class>
@@ -12417,6 +12572,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 184 samples from individuals resident in Utah (CEPH) with Northern and Western European ancestry recruited in Utah, USA as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CEPH</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CEU</oboInOwl:hasExactSynonym>
         <rdfs:label>Utah residents (CEPH) with Northern and Western European ancestry</rdfs:label>
     </owl:Class>
@@ -12442,6 +12598,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 105 samples from Finnish individuals recruited in Finland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>FIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Finnish</oboInOwl:hasExactSynonym>
         <rdfs:label>Finnish in Finland</rdfs:label>
     </owl:Class>
     
@@ -12460,6 +12617,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 162 samples from Iberian populations individuals recruited in Spain as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>IBS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Iberian</oboInOwl:hasExactSynonym>
         <rdfs:label>Iberian populations in Spain</rdfs:label>
     </owl:Class>
     
@@ -12478,6 +12636,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 112 samples from Toscani individuals recruited in Italy as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>TSI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Toscani</oboInOwl:hasExactSynonym>
         <rdfs:label>Toscani in Italy</rdfs:label>
     </owl:Class>
     
@@ -12495,6 +12654,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 44 samples from Bedouin individuals recruited in Negev, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bedouin</oboInOwl:hasExactSynonym>
         <rdfs:label>Bedouin in Negev, Israel (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12512,6 +12672,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 40 samples from Druze individuals recruited in Carmel, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Druze</oboInOwl:hasExactSynonym>
         <rdfs:label>Druze in Carmel, Israel (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12535,6 +12696,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 27 samples from Mozabite individuals recruited in Mzab, Algeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian). </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Mozabite</oboInOwl:hasExactSynonym>
         <rdfs:label>Mozabite in Mzab, Algeria (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12558,6 +12720,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 43 samples from Palestinian individuals recruited in Central, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Palestinian</oboInOwl:hasExactSynonym>
         <rdfs:label>Palestinian in Central, Israel (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12575,6 +12738,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 11 samples from Bougainville individuals recruited in Bougainville as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bougainville</oboInOwl:hasExactSynonym>
         <rdfs:label>Bougainville in Bougainville (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12592,6 +12756,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 6 samples from Papuan Highlands individuals recruited in New Guinea as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Papuan Highlands</oboInOwl:hasExactSynonym>
         <rdfs:label>Papuan Highlands in New Guinea (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12609,6 +12774,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 8 samples from Papuan Sepik individuals recruited in New Guinea as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Papuan Sepik</oboInOwl:hasExactSynonym>
         <rdfs:label>Papuan Sepik in New Guinea (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -12627,6 +12793,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Australian individuals recruited in Australia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Australian</oboInOwl:hasExactSynonym>
         <rdfs:label>Australian in Australia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12644,6 +12811,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Bougainville individuals recruited in Papua New Guinea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bougainville</oboInOwl:hasExactSynonym>
         <rdfs:label>Bougainville in Papua New Guinea (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12661,6 +12829,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Dusun individuals recruited in Brunei as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Dusun</oboInOwl:hasExactSynonym>
         <rdfs:label>Dusun in Brunei (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12684,6 +12853,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Hawaiian individuals recruited in USA as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Hawaiian</oboInOwl:hasExactSynonym>
         <rdfs:label>Hawaiian in USA (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12701,6 +12871,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Igorot individuals recruited in Philippines as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Igorot</oboInOwl:hasExactSynonym>
         <rdfs:label>Igorot in Philippines (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12718,6 +12889,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Maori individuals recruited in New Zealand as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Maori</oboInOwl:hasExactSynonym>
         <rdfs:label>Maori in New Zealand (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12741,6 +12913,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 15 samples from Papuan individuals recruited in Papua New Guinea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Papuan</oboInOwl:hasExactSynonym>
         <rdfs:label>Papuan in Papua New Guinea (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12758,6 +12931,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Balochi individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Balochi</oboInOwl:hasExactSynonym>
         <rdfs:label>Balochi in Pakistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12775,6 +12949,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Bengali individuals recruited in Bangladesh as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bengali</oboInOwl:hasExactSynonym>
         <rdfs:label>Bengali in Bangladesh (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12792,6 +12967,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Brahmin individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Brahmin</oboInOwl:hasExactSynonym>
         <rdfs:label>Brahmin in India (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12809,6 +12985,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Brahui individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Brahui</oboInOwl:hasExactSynonym>
         <rdfs:label>Brahui in Pakistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12826,6 +13003,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Burusho individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Burusho</oboInOwl:hasExactSynonym>
         <rdfs:label>Burusho in Pakistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12843,6 +13021,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Hazara individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Hazara</oboInOwl:hasExactSynonym>
         <rdfs:label>Hazara in Pakistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12860,6 +13039,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Irula individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Irula</oboInOwl:hasExactSynonym>
         <rdfs:label>Irula in India (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12877,6 +13057,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Kalash individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Kalash</oboInOwl:hasExactSynonym>
         <rdfs:label>Kalash in Pakistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12894,6 +13075,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Kapu individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Kapu</oboInOwl:hasExactSynonym>
         <rdfs:label>Kapu in India (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12911,6 +13093,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Khonda Dora individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Khonda Dora</oboInOwl:hasExactSynonym>
         <rdfs:label>Khonda Dora in India (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12928,6 +13111,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Kusunda individuals recruited in Nepal as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Kusunda</oboInOwl:hasExactSynonym>
         <rdfs:label>Kusunda in Nepal (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12945,6 +13129,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Madiga individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Madiga</oboInOwl:hasExactSynonym>
         <rdfs:label>Madiga in India (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12962,6 +13147,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Makrani individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Makrani</oboInOwl:hasExactSynonym>
         <rdfs:label>Makrani in Pakistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12979,6 +13165,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Pathan individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Pathan</oboInOwl:hasExactSynonym>
         <rdfs:label>Pathan in Pakistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -12996,6 +13183,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 4 samples from Punjabi individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Punjabi</oboInOwl:hasExactSynonym>
         <rdfs:label>Punjabi in Pakistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13013,6 +13201,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Relli individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Relli</oboInOwl:hasExactSynonym>
         <rdfs:label>Relli in India (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13030,6 +13219,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Sindhi individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Sindhi</oboInOwl:hasExactSynonym>
         <rdfs:label>Sindhi in Pakistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13047,6 +13237,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Yadava individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Yadava</oboInOwl:hasExactSynonym>
         <rdfs:label>Yadava in India (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13065,6 +13256,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 144 samples from Bengali individuals recruited in Bangladesh as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>BEB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bengali</oboInOwl:hasExactSynonym>
         <rdfs:label>Bengali in Bangladesh</rdfs:label>
     </owl:Class>
     
@@ -13077,6 +13269,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A population made up of 113 samples from Gujarati Indians individuals recruited in Houston, TX as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GIH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gujarati</oboInOwl:hasExactSynonym>
         <rdfs:label>Gujarati Indians in Houston, TX</rdfs:label>
     </owl:Class>
     
@@ -13095,6 +13288,7 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 158 samples from Punjabi individuals recruited in Lahore, Pakistan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PJL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Punjabi</oboInOwl:hasExactSynonym>
         <rdfs:label>Punjabi in Lahore, Pakistan</rdfs:label>
     </owl:Class>
     
@@ -13107,6 +13301,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A population made up of 128 samples from Sri Lankan Tamil individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>STU</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tamil</oboInOwl:hasExactSynonym>
         <rdfs:label>Sri Lankan Tamil in the UK</rdfs:label>
     </owl:Class>
     
@@ -13119,6 +13314,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A population made up of 118 samples from Indian Telugu individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ITU</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Telugu</oboInOwl:hasExactSynonym>
         <rdfs:label>Indian Telugu in the UK</rdfs:label>
     </owl:Class>
     
@@ -13136,6 +13332,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Abkhasian individuals recruited in Abkhazia or Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Abkhasian</oboInOwl:hasExactSynonym>
         <rdfs:label>Abkhasian in Abkhazia or Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13144,6 +13341,9 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0808 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0808">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13152,6 +13352,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Adygei individuals recruited in Russia(Caucasus) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Adygei</oboInOwl:hasExactSynonym>
         <rdfs:label>Adygei in Russia(Caucasus) (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13175,6 +13376,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Albanian individuals recruited in Albania as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Albanian</oboInOwl:hasExactSynonym>
         <rdfs:label>Albanian in Albania (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13198,6 +13400,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Armenian individuals recruited in Armenia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Armenian</oboInOwl:hasExactSynonym>
         <rdfs:label>Armenian in Armenia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13215,6 +13418,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Basque individuals recruited in France as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Basque</oboInOwl:hasExactSynonym>
         <rdfs:label>Basque in France (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13232,6 +13436,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Bedouin B individuals recruited in Israel(Negev) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bedouin B</oboInOwl:hasExactSynonym>
         <rdfs:label>Bedouin B in Israel(Negev) (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13249,6 +13454,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Bergamo individuals recruited in Italy(Bergamo) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bergamo</oboInOwl:hasExactSynonym>
         <rdfs:label>Bergamo in Italy(Bergamo) (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13272,6 +13478,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Bulgarian individuals recruited in Bulgaria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Bulgarian</oboInOwl:hasExactSynonym>
         <rdfs:label>Bulgarian in Bulgaria (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13280,6 +13487,9 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0815 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0815">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13288,6 +13498,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Chechen individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Chechen</oboInOwl:hasExactSynonym>
         <rdfs:label>Chechen in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13305,6 +13516,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Crete individuals recruited in Greece as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Crete</oboInOwl:hasExactSynonym>
         <rdfs:label>Crete in Greece (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13322,6 +13534,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Czech individuals recruited in Czechoslovakia(pre1989) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Czech</oboInOwl:hasExactSynonym>
         <rdfs:label>Czech in Czechoslovakia(pre1989) (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13339,6 +13552,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Druze individuals recruited in Israel(Carmel) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Druze</oboInOwl:hasExactSynonym>
         <rdfs:label>Druze in Israel(Carmel) (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13350,6 +13564,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A population made up of 2 samples from English individuals recruited in England as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>English</oboInOwl:hasExactSynonym>
         <rdfs:label>English in England (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13373,6 +13588,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Estonian individuals recruited in Estonia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Estonian</oboInOwl:hasExactSynonym>
         <rdfs:label>Estonian in Estonia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13396,6 +13612,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Finnish individuals recruited in Finland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Finnish</oboInOwl:hasExactSynonym>
         <rdfs:label>Finnish in Finland (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13419,6 +13636,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from French individuals recruited in France as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>French</oboInOwl:hasExactSynonym>
         <rdfs:label>French in France (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13442,6 +13660,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Georgian individuals recruited in Georgia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Georgian</oboInOwl:hasExactSynonym>
         <rdfs:label>Georgian in Georgia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13465,6 +13684,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Greek individuals recruited in Greece as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Greek</oboInOwl:hasExactSynonym>
         <rdfs:label>Greek in Greece (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13488,6 +13708,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Hungarian individuals recruited in Hungary as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Hungarian</oboInOwl:hasExactSynonym>
         <rdfs:label>Hungarian in Hungary (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13511,6 +13732,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Icelandic individuals recruited in Iceland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Icelandic</oboInOwl:hasExactSynonym>
         <rdfs:label>Icelandic in Iceland (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13534,6 +13756,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Iranian individuals recruited in Iran as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Iranian</oboInOwl:hasExactSynonym>
         <rdfs:label>Iranian in Iran (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13551,6 +13774,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Iraqi Jew individuals recruited in Iraq as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Iraqi Jew</oboInOwl:hasExactSynonym>
         <rdfs:label>Iraqi Jew in Iraq (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13574,6 +13798,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Jordanian individuals recruited in Jordan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Jordanian</oboInOwl:hasExactSynonym>
         <rdfs:label>Jordanian in Jordan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13582,6 +13807,9 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0830 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0830">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13590,6 +13818,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Lezgin individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Lezgin</oboInOwl:hasExactSynonym>
         <rdfs:label>Lezgin in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13598,6 +13827,9 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0831 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0831">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13606,6 +13838,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from North Ossetian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>North Ossetian</oboInOwl:hasExactSynonym>
         <rdfs:label>North Ossetian in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13629,6 +13862,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Norwegian individuals recruited in Norway as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Norwegian</oboInOwl:hasExactSynonym>
         <rdfs:label>Norwegian in Norway (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13646,6 +13880,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Orcadian individuals recruited in Orkney Islands as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Orcadian</oboInOwl:hasExactSynonym>
         <rdfs:label>Orcadian in Orkney Islands (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13669,6 +13904,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Palestinian individuals recruited in Israel(Central) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Palestinian</oboInOwl:hasExactSynonym>
         <rdfs:label>Palestinian in Israel(Central) (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13692,6 +13928,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Polish individuals recruited in Poland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Polish</oboInOwl:hasExactSynonym>
         <rdfs:label>Polish in Poland (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13715,6 +13952,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Russian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Russian</oboInOwl:hasExactSynonym>
         <rdfs:label>Russian in Russia (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13732,6 +13970,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Saami individuals recruited in Finland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Saami</oboInOwl:hasExactSynonym>
         <rdfs:label>Saami in Finland (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13749,6 +13988,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Samaritan individuals recruited in Israel as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Samaritan</oboInOwl:hasExactSynonym>
         <rdfs:label>Samaritan in Israel (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13766,6 +14006,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Sardinian individuals recruited in Italy as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Sardinian</oboInOwl:hasExactSynonym>
         <rdfs:label>Sardinian in Italy (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13789,6 +14030,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Spanish individuals recruited in Spain as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Spanish</oboInOwl:hasExactSynonym>
         <rdfs:label>Spanish in Spain (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13797,6 +14039,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0841 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0841">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13811,6 +14055,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Tajik individuals recruited in Tajikistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tajik</oboInOwl:hasExactSynonym>
         <rdfs:label>Tajik in Tajikistan (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13834,6 +14079,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Turkish individuals recruited in Turkey as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Turkish</oboInOwl:hasExactSynonym>
         <rdfs:label>Turkish in Turkey (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13851,6 +14097,7 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Tuscan individuals recruited in Italy(Tuscany) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tuscan</oboInOwl:hasExactSynonym>
         <rdfs:label>Tuscan in Italy(Tuscany) (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -13868,7 +14115,19 @@ category does not include all native populations within the Arctic circle for ex
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Yemenite Jew individuals recruited in Yemen as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Yemenite Jew</oboInOwl:hasExactSynonym>
         <rdfs:label>Yemenite Jew in Yemen (SGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0845">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
+        <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Indigenous peoples of Sibera</oboInOwl:hasExactSynonym>
+        <rdfs:label>Indigenous Siberian</rdfs:label>
     </owl:Class>
     
 

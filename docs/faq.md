@@ -74,7 +74,7 @@ Researchers commonly use reference populations such as those catalogued by the [
 
 Special note on ancestry mappings for populations from the Simons Genome Diversity Project (SGDP): as discussed in [Mallick et al.](https://doi.org/10.1038/nature18964), in particular in Extended Data Figure 3: ADMIXTURE analysis, the authors carried out unsupervised ADMIXTURE analysis over the 300 SGDP individuals, with ancestral population threshold from K=2 to K=12. While the project assigned to their populations to one of 7 continental ancestry groups, these groups do not directly align with the HANCESTRO ancestry populations, in particular the populations `Central Asia and Siberia (SGDP)` and `West Eurasia (SGDP)`. We used the aforementioned Extended Data Figure 3 in combination with our existing HANCESTRO hierarchy to infer the closest HANCESTRO ancestry group for each population where a direct equivalence did not exist. We would welcome feedback from users on these inferences, in particular    
 
-For our users' convenience, the mappings are also provided in tabular format [here](link).
+For our users' convenience, the mappings are also provided in tabular format [here](hancestro_reference_population_mappings.tsv).
 
 
 ## What's the difference between ancestry and ethnicity? 
