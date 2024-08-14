@@ -9818,7 +9818,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000332"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 4 samples from San individuals recruited in Namibia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 4 samples from San individuals recruited in Namibia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>San</oboInOwl:hasExactSynonym>
         <rdfs:label>San in Namibia (HGDP)</rdfs:label>
     </owl:Class>
@@ -10166,7 +10166,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 3 samples from Masai individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 3 samples from Masai individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MKK</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Masai</oboInOwl:hasExactSynonym>
         <rdfs:label>Masai in Kenya</rdfs:label>
@@ -10332,7 +10332,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/United_States"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 113 samples from African Ancestry individuals recruited in Southwest US as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 113 samples from African Ancestry individuals recruited in Southwest US as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ASW</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>African Ancestry SW</oboInOwl:hasExactSynonym>
         <rdfs:label>African Ancestry in Southwest US</rdfs:label>
@@ -10358,7 +10358,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0567"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 123 samples from African Caribbean individuals recruited in Barbados as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 123 samples from African Caribbean individuals recruited in Barbados as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ACB</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>African Caribbean</oboInOwl:hasExactSynonym>
         <rdfs:label>African Caribbean in Barbados</rdfs:label>
@@ -10383,7 +10383,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000420"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 173 samples from Esan individuals recruited in Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 173 samples from Esan individuals recruited in Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ESN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Esan</oboInOwl:hasExactSynonym>
         <rdfs:label>Esan in Nigeria</rdfs:label>
@@ -10408,7 +10408,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000104"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 100 samples from Fula individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 100 samples from Fula individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GWF</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Gambian Fula</oboInOwl:hasExactSynonym>
         <rdfs:label>Gambian in Western Division, The Gambia - Fula</rdfs:label>
@@ -10433,7 +10433,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000205"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 100 samples from Jola individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 100 samples from Jola individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GWJ</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Gambian Jola</oboInOwl:hasExactSynonym>
         <rdfs:label>Gambian in Western Division, The Gambia - Jola</rdfs:label>
@@ -10458,7 +10458,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000430"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 280 samples from Mandinka individuals recruited in Western Division, The Gambia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 280 samples from Mandinka individuals recruited in Western Division, The Gambia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GWD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Gambian Mandinka</oboInOwl:hasExactSynonym>
         <rdfs:label>Gambian in Western Division, The Gambia - Mandinka</rdfs:label>
@@ -10483,7 +10483,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000428"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 100 samples from Wolof individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 100 samples from Wolof individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GWW</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Gambian Wolof</oboInOwl:hasExactSynonym>
         <rdfs:label>Gambian in Western Division, The Gambia - Wolof</rdfs:label>
@@ -10508,7 +10508,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000405"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 117 samples from Luhya individuals recruited in Webuye, Kenya as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 117 samples from Luhya individuals recruited in Webuye, Kenya as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>LWK</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Luhya</oboInOwl:hasExactSynonym>
         <rdfs:label>Luhya in Webuye, Kenya</rdfs:label>
@@ -10533,7 +10533,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000432"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 129 samples from Mende individuals recruited in Sierra Leone as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 129 samples from Mende individuals recruited in Sierra Leone as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MSL</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Mende</oboInOwl:hasExactSynonym>
         <rdfs:label>Mende in Sierra Leone</rdfs:label>
@@ -10558,7 +10558,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000105"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 187 samples from Yoruba individuals recruited in Ibadan, Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 187 samples from Yoruba individuals recruited in Ibadan, Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>YRI</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Yoruba</oboInOwl:hasExactSynonym>
         <rdfs:label>Yoruba in Ibadan, Nigeria</rdfs:label>
@@ -10627,7 +10627,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0614"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 21 samples from Maya individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 21 samples from Maya individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Maya</oboInOwl:hasExactSynonym>
         <rdfs:label>Maya in Mexico (HGDP)</rdfs:label>
     </owl:Class>
@@ -10921,7 +10921,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0403"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 148 samples from Colombian individuals recruited in Medellin, Colombia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 148 samples from Colombian individuals recruited in Medellin, Colombia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CLM</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Colombian</oboInOwl:hasExactSynonym>
         <rdfs:label>Colombian in Medellin, Colombia</rdfs:label>
@@ -10946,7 +10946,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0415"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 107 samples from Mexican Ancestry individuals recruited in Los Angeles, California as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 107 samples from Mexican Ancestry individuals recruited in Los Angeles, California as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MXL</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Mexican Ancestry</oboInOwl:hasExactSynonym>
         <rdfs:label>Mexican Ancestry in Los Angeles, California</rdfs:label>
@@ -10971,7 +10971,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0420"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 130 samples from Peruvian individuals recruited in Lima, Peru as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 130 samples from Peruvian individuals recruited in Lima, Peru as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PEL</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Peruvian</oboInOwl:hasExactSynonym>
         <rdfs:label>Peruvian in Lima, Peru</rdfs:label>
@@ -10996,7 +10996,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0421"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 150 samples from Puerto Rican individuals recruited in Puerto Rico as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 150 samples from Puerto Rican individuals recruited in Puerto Rico as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PUR</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Puerto Rican</oboInOwl:hasExactSynonym>
         <rdfs:label>Puerto Rican in Puerto Rico</rdfs:label>
@@ -11400,7 +11400,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Pakistan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 23 samples from Pathan individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 23 samples from Pathan individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Pathan</oboInOwl:hasExactSynonym>
         <rdfs:label>Pathan in Pakistan (HGDP)</rdfs:label>
     </owl:Class>
@@ -11468,7 +11468,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0493"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 9 samples from Cambodian individuals recruited in Cambodia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 9 samples from Cambodian individuals recruited in Cambodia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Cambodian</oboInOwl:hasExactSynonym>
         <rdfs:label>Cambodian in Cambodia (HGDP)</rdfs:label>
     </owl:Class>
@@ -11786,7 +11786,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Russia"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 23 samples from Yakut individuals recruited in Siberia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 23 samples from Yakut individuals recruited in Siberia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Yakut</oboInOwl:hasExactSynonym>
         <rdfs:label>Yakut in Siberia (HGDP)</rdfs:label>
     </owl:Class>
@@ -12276,7 +12276,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0577"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 109 samples from Chinese Dai individuals recruited in Xishuangbanna, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 109 samples from Chinese Dai individuals recruited in Xishuangbanna, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CDX</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Dai Chinese</oboInOwl:hasExactSynonym>
         <rdfs:label>Chinese Dai in Xishuangbanna, China</rdfs:label>
@@ -12301,7 +12301,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 112 samples from Han Chinese individuals recruited in Beijing, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 112 samples from Han Chinese individuals recruited in Beijing, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CHB</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Han Chinese</oboInOwl:hasExactSynonym>
         <rdfs:label>Han Chinese in Beijing, China</rdfs:label>
@@ -12326,7 +12326,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 105 samples from Japanese individuals recruited in Tokyo, Japan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 105 samples from Japanese individuals recruited in Tokyo, Japan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>JPT</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Japanese</oboInOwl:hasExactSynonym>
         <rdfs:label>Japanese in Tokyo, Japan</rdfs:label>
@@ -12346,7 +12346,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Vietnam"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 124 samples from Kinh individuals recruited in Ho Chi Minh City, Vietnam as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 124 samples from Kinh individuals recruited in Ho Chi Minh City, Vietnam as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>KHV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Kinh Vietnamese</oboInOwl:hasExactSynonym>
         <rdfs:label>Kinh in Ho Chi Minh City, Vietnam</rdfs:label>
@@ -12371,7 +12371,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 171 samples from Han Chinese South individuals recruited in China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 171 samples from Han Chinese South individuals recruited in China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CHS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Southern Han Chinese</oboInOwl:hasExactSynonym>
         <rdfs:label>Han Chinese South</rdfs:label>
@@ -12546,7 +12546,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 107 samples from British individuals recruited in England and Scotland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 107 samples from British individuals recruited in England and Scotland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>British</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GBR</oboInOwl:hasExactSynonym>
         <rdfs:label>British in England and Scotland</rdfs:label>
@@ -12571,7 +12571,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0590"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 184 samples from individuals resident in Utah (CEPH) with Northern and Western European ancestry recruited in Utah, USA as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 184 samples from individuals resident in Utah (CEPH) with Northern and Western European ancestry recruited in Utah, USA as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CEPH</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CEU</oboInOwl:hasExactSynonym>
         <rdfs:label>Utah residents (CEPH) with Northern and Western European ancestry</rdfs:label>
@@ -12596,7 +12596,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0321"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 105 samples from Finnish individuals recruited in Finland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 105 samples from Finnish individuals recruited in Finland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>FIN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Finnish</oboInOwl:hasExactSynonym>
         <rdfs:label>Finnish in Finland</rdfs:label>
@@ -12615,7 +12615,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Spain"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 162 samples from Iberian populations individuals recruited in Spain as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 162 samples from Iberian populations individuals recruited in Spain as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>IBS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Iberian</oboInOwl:hasExactSynonym>
         <rdfs:label>Iberian populations in Spain</rdfs:label>
@@ -12634,7 +12634,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Italy"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 112 samples from Toscani individuals recruited in Italy as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 112 samples from Toscani individuals recruited in Italy as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>TSI</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Toscani</oboInOwl:hasExactSynonym>
         <rdfs:label>Toscani in Italy</rdfs:label>
@@ -12695,7 +12695,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000231"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 27 samples from Mozabite individuals recruited in Mzab, Algeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian). </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 27 samples from Mozabite individuals recruited in Mzab, Algeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Mozabite</oboInOwl:hasExactSynonym>
         <rdfs:label>Mozabite in Mzab, Algeria (HGDP)</rdfs:label>
     </owl:Class>
@@ -13254,7 +13254,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Bangladesh"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 144 samples from Bengali individuals recruited in Bangladesh as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 144 samples from Bengali individuals recruited in Bangladesh as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>BEB</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Bengali</oboInOwl:hasExactSynonym>
         <rdfs:label>Bengali in Bangladesh</rdfs:label>
@@ -13267,7 +13267,7 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0803">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <obo:IAO_0000115>A population made up of 113 samples from Gujarati Indians individuals recruited in Houston, TX as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 113 samples from Gujarati Indians individuals recruited in Houston, TX as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GIH</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Gujarati</oboInOwl:hasExactSynonym>
         <rdfs:label>Gujarati Indians in Houston, TX</rdfs:label>
@@ -13286,7 +13286,7 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Pakistan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A population made up of 158 samples from Punjabi individuals recruited in Lahore, Pakistan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 158 samples from Punjabi individuals recruited in Lahore, Pakistan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PJL</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Punjabi</oboInOwl:hasExactSynonym>
         <rdfs:label>Punjabi in Lahore, Pakistan</rdfs:label>
@@ -13299,7 +13299,7 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0805">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <obo:IAO_0000115>A population made up of 128 samples from Sri Lankan Tamil individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 128 samples from Sri Lankan Tamil individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>STU</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Tamil</oboInOwl:hasExactSynonym>
         <rdfs:label>Sri Lankan Tamil in the UK</rdfs:label>
@@ -13312,7 +13312,7 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0806">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <obo:IAO_0000115>A population made up of 118 samples from Indian Telugu individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian. </obo:IAO_0000115>
+        <obo:IAO_0000115>A population made up of 118 samples from Indian Telugu individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ITU</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Telugu</oboInOwl:hasExactSynonym>
         <rdfs:label>Indian Telugu in the UK</rdfs:label>
