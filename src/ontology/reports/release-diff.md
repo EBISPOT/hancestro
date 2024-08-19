@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/hancestro.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/hancestro/releases/2024-06-21/hancestro.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/hancestro/releases/2024-08-19/hancestro.owl`
 - Loaded from: `file:/work/src/ontology/hancestro.owl`
 
 ### Ontology imports 
@@ -27,7 +27,9 @@
 
 - [has ontology root term](http://purl.obolibrary.org/obo/IAO_0000700) [geographic category](http://purl.obolibrary.org/obo/HANCESTRO_0602) 
 
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2024-06-21" 
+- [has ontology root term](http://purl.obolibrary.org/obo/IAO_0000700) [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2024-08-19" 
 
 
 ### !Kung `http://purl.obolibrary.org/obo/AfPO_0000263`
@@ -91,6 +93,24 @@ ktz &ndash; Southern ǃKung"
 - [!Kung](http://purl.obolibrary.org/obo/AfPO_0000263) SubClassOf [San](http://purl.obolibrary.org/obo/AfPO_0000332) 
 
 - [!Kung](http://purl.obolibrary.org/obo/AfPO_0000263) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Angola](http://dbpedia.org/resource/Angola) 
+
+
+### Abkhasian in Abkhazia or Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0807`
+
+#### Added
+- [Abkhasian in Abkhazia or Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0807) [label](http://www.w3.org/2000/01/rdf-schema#label) "Abkhasian in Abkhazia or Russia (SGDP)" 
+
+- [Abkhasian in Abkhazia or Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0807) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Abkhasian" 
+
+- [Abkhasian in Abkhazia or Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0807) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Abkhasian individuals recruited in Abkhazia or Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Abkhasian in Abkhazia or Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0807) 
+
+- [Abkhasian in Abkhazia or Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0807) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Abkhasian in Abkhazia or Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0807) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Abkhasian in Abkhazia or Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0807) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Aboriginal Australian `http://purl.obolibrary.org/obo/HANCESTRO_0552`
@@ -218,6 +238,46 @@ ktz &ndash; Southern ǃKung"
 - [Adele](http://purl.obolibrary.org/obo/AfPO_0000410) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 
+### Adygei in Caucasus, Russia (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0757`
+
+#### Added
+- [Adygei in Caucasus, Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0757) [label](http://www.w3.org/2000/01/rdf-schema#label) "Adygei in Caucasus, Russia (HGDP)" 
+
+- [Adygei in Caucasus, Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0757) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Adygei" 
+
+- [Adygei in Caucasus, Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0757) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 15 samples from Adygei individuals recruited in Caucasus, Russia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- Class: [Adygei in Caucasus, Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0757) 
+
+- [Adygei in Caucasus, Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0757) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Adygei in Caucasus, Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0757) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Adygei in Caucasus, Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0757) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+
+### Adygei in Russia(Caucasus) (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0808`
+
+#### Added
+- [Adygei in Russia(Caucasus) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0808) [label](http://www.w3.org/2000/01/rdf-schema#label) "Adygei in Russia(Caucasus) (SGDP)" 
+
+- [Adygei in Russia(Caucasus) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0808) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Adygei individuals recruited in Russia(Caucasus) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Adygei in Russia(Caucasus) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0808) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Adygei" 
+
+- Class: [Adygei in Russia(Caucasus) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0808) 
+
+- [Adygei in Russia(Caucasus) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0808) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Adygei in Russia(Caucasus) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0808) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Adygei in Russia(Caucasus) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0808) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Adygei in Russia(Caucasus) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0808) SubClassOf [Central Asian](http://purl.obolibrary.org/obo/HANCESTRO_0286) 
+
+- [Adygei in Russia(Caucasus) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0808) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Afar `http://purl.obolibrary.org/obo/AfPO_0000383`
 
 #### Added
@@ -271,6 +331,52 @@ ktz &ndash; Southern ǃKung"
 - [Afar](http://purl.obolibrary.org/obo/AfPO_0000383) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Somalia](http://dbpedia.org/resource/Somalia) 
 
 - [Afar](http://purl.obolibrary.org/obo/AfPO_0000383) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Ethiopia](http://dbpedia.org/resource/Ethiopia) 
+
+
+### African Ancestry in Southwest US `http://purl.obolibrary.org/obo/HANCESTRO_0659`
+
+#### Added
+- [African Ancestry in Southwest US](http://purl.obolibrary.org/obo/HANCESTRO_0659) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ASW" 
+
+- [African Ancestry in Southwest US](http://purl.obolibrary.org/obo/HANCESTRO_0659) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 113 samples from African Ancestry individuals recruited in Southwest US as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [African Ancestry in Southwest US](http://purl.obolibrary.org/obo/HANCESTRO_0659) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "African Ancestry SW" 
+
+- [African Ancestry in Southwest US](http://purl.obolibrary.org/obo/HANCESTRO_0659) [label](http://www.w3.org/2000/01/rdf-schema#label) "African Ancestry in Southwest US" 
+
+- Class: [African Ancestry in Southwest US](http://purl.obolibrary.org/obo/HANCESTRO_0659) 
+
+- [African Ancestry in Southwest US](http://purl.obolibrary.org/obo/HANCESTRO_0659) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [United States](http://dbpedia.org/resource/United_States) 
+
+- [African Ancestry in Southwest US](http://purl.obolibrary.org/obo/HANCESTRO_0659) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [African Ancestry in Southwest US](http://purl.obolibrary.org/obo/HANCESTRO_0659) SubClassOf [African American or Afro-Caribbean](http://purl.obolibrary.org/obo/HANCESTRO_0016) 
+
+- [African Ancestry in Southwest US](http://purl.obolibrary.org/obo/HANCESTRO_0659) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+
+### African Caribbean in Barbados `http://purl.obolibrary.org/obo/HANCESTRO_0660`
+
+#### Added
+- [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "African Caribbean" 
+
+- [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 123 samples from African Caribbean individuals recruited in Barbados as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) [label](http://www.w3.org/2000/01/rdf-schema#label) "African Caribbean in Barbados" 
+
+- [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ACB" 
+
+- Class: [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) 
+
+- [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Barbados](http://dbpedia.org/resource/Barbados) 
+
+- [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Afro-Caribbean](http://purl.obolibrary.org/obo/HANCESTRO_0567) 
+
+- [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) SubClassOf [African American or Afro-Caribbean](http://purl.obolibrary.org/obo/HANCESTRO_0016) 
+
+- [African Caribbean in Barbados](http://purl.obolibrary.org/obo/HANCESTRO_0660) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Afrikaner `http://purl.obolibrary.org/obo/AfPO_0000325`
@@ -686,6 +792,44 @@ wss &ndash; Wasa"
 - [Aku](http://purl.obolibrary.org/obo/AfPO_0000411) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [The Gambia](http://dbpedia.org/resource/The_Gambia) 
 
 
+### Albanian in Albania (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0809`
+
+#### Added
+- [Albanian in Albania (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0809) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Albanian individuals recruited in Albania as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Albanian in Albania (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0809) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Albanian" 
+
+- [Albanian in Albania (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0809) [label](http://www.w3.org/2000/01/rdf-schema#label) "Albanian in Albania (SGDP)" 
+
+- Class: [Albanian in Albania (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0809) 
+
+- [Albanian in Albania (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0809) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Albanian in Albania (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0809) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Albanian in Albania (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0809) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Albania](http://dbpedia.org/resource/Albania) 
+
+- [Albanian in Albania (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0809) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Albanian](http://purl.obolibrary.org/obo/HANCESTRO_0344) 
+
+
+### Aleut in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0688`
+
+#### Added
+- [Aleut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0688) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Aleut" 
+
+- [Aleut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0688) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Aleut individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Aleut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0688) [label](http://www.w3.org/2000/01/rdf-schema#label) "Aleut in Russia (SGDP)" 
+
+- Class: [Aleut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0688) 
+
+- [Aleut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0688) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Aleut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0688) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Aleut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0688) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Algeria `http://dbpedia.org/resource/Algeria`
 
 #### Added
@@ -774,6 +918,24 @@ T2"
 - Class: [Algerian Berber](http://purl.obolibrary.org/obo/AfPO_0000359) 
 
 - [Algerian Berber](http://purl.obolibrary.org/obo/AfPO_0000359) SubClassOf [Berber Northern](http://purl.obolibrary.org/obo/AfPO_0000356) 
+
+
+### Altaian in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0689`
+
+#### Added
+- [Altaian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0689) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Altaian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Altaian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0689) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Altaian" 
+
+- [Altaian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0689) [label](http://www.w3.org/2000/01/rdf-schema#label) "Altaian in Russia (SGDP)" 
+
+- Class: [Altaian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0689) 
+
+- [Altaian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0689) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Altaian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0689) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Altaian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0689) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
 
 
 ### Alur `http://purl.obolibrary.org/obo/AfPO_0000377`
@@ -934,6 +1096,24 @@ T"
 - [Amhara](http://purl.obolibrary.org/obo/AfPO_0000391) SubClassOf [Semitic Eastern](http://purl.obolibrary.org/obo/AfPO_0000184) 
 
 - [Amhara](http://purl.obolibrary.org/obo/AfPO_0000391) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Ethiopia](http://dbpedia.org/resource/Ethiopia) 
+
+
+### Ami in Taiwan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0730`
+
+#### Added
+- [Ami in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0730) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Ami individuals recruited in Taiwan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Ami in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0730) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Ami" 
+
+- [Ami in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0730) [label](http://www.w3.org/2000/01/rdf-schema#label) "Ami in Taiwan (SGDP)" 
+
+- Class: [Ami in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0730) 
+
+- [Ami in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0730) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Ami in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0730) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Ami in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0730) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Taiwan](http://dbpedia.org/resource/Taiwan) 
 
 
 ### Amish `http://purl.obolibrary.org/obo/HANCESTRO_0316`
@@ -1314,6 +1494,8 @@ L1"
 
 - [Arhuaco](http://purl.obolibrary.org/obo/HANCESTRO_0630) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
 
+- [Arhuaco](http://purl.obolibrary.org/obo/HANCESTRO_0630) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
 
 ### Ari `http://purl.obolibrary.org/obo/AfPO_0000209`
 
@@ -1375,6 +1557,26 @@ L1"
 - [Ari](http://purl.obolibrary.org/obo/AfPO_0000209) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 
+### Armenian in Armenia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0810`
+
+#### Added
+- [Armenian in Armenia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0810) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Armenian" 
+
+- [Armenian in Armenia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0810) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Armenian individuals recruited in Armenia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Armenian in Armenia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0810) [label](http://www.w3.org/2000/01/rdf-schema#label) "Armenian in Armenia (SGDP)" 
+
+- Class: [Armenian in Armenia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0810) 
+
+- [Armenian in Armenia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0810) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Armenian in Armenia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0810) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Armenian in Armenia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0810) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Armenian](http://purl.obolibrary.org/obo/HANCESTRO_0432) 
+
+- [Armenian in Armenia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0810) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Armenia](http://dbpedia.org/resource/Armenia) 
+
+
 ### Ashkenazi Jew `http://purl.obolibrary.org/obo/HANCESTRO_0324`
 #### Removed
 - [Ashkenazi Jew](http://purl.obolibrary.org/obo/HANCESTRO_0324) SubClassOf [hasAncestryStatus](http://purl.obolibrary.org/obo/HANCESTRO_0301) only [genetically isolated ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0305) 
@@ -1393,6 +1595,26 @@ L1"
 - Class: [Asháninka](http://purl.obolibrary.org/obo/HANCESTRO_0631) 
 
 - [Asháninka](http://purl.obolibrary.org/obo/HANCESTRO_0631) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+- [Asháninka](http://purl.obolibrary.org/obo/HANCESTRO_0631) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Atayal in Taiwan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0731`
+
+#### Added
+- [Atayal in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0731) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Atayal individuals recruited in Taiwan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Atayal in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0731) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Atayal" 
+
+- [Atayal in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0731) [label](http://www.w3.org/2000/01/rdf-schema#label) "Atayal in Taiwan (SGDP)" 
+
+- Class: [Atayal in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0731) 
+
+- [Atayal in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0731) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Atayal in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0731) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Taiwan](http://dbpedia.org/resource/Taiwan) 
+
+- [Atayal in Taiwan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0731) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Aushi `http://purl.obolibrary.org/obo/AfPO_0000516`
@@ -1425,6 +1647,26 @@ L1"
 - Class: [Aushi](http://purl.obolibrary.org/obo/AfPO_0000516) 
 
 - [Aushi](http://purl.obolibrary.org/obo/AfPO_0000516) SubClassOf [Bemba](http://purl.obolibrary.org/obo/AfPO_0000132) 
+
+
+### Australian in Australia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0777`
+
+#### Added
+- [Australian in Australia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0777) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Australian" 
+
+- [Australian in Australia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0777) [label](http://www.w3.org/2000/01/rdf-schema#label) "Australian in Australia (SGDP)" 
+
+- [Australian in Australia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0777) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Australian individuals recruited in Australia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- Class: [Australian in Australia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0777) 
+
+- [Australian in Australia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0777) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Australian in Australia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0777) SubClassOf [Aboriginal Australian](http://purl.obolibrary.org/obo/HANCESTRO_0552) 
+
+- [Australian in Australia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0777) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+- [Australian in Australia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0777) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Australia](http://dbpedia.org/resource/Australia) 
 
 
 ### Aweer `http://purl.obolibrary.org/obo/AfPO_0000498`
@@ -1508,6 +1750,8 @@ L1"
 - [Aymara](http://purl.obolibrary.org/obo/HANCESTRO_0624) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people in the Andes and Altiplano regions of South America; about 2.3 million live in northwest Argentina, Bolivia, Chile and Peru." 
 
 - Class: [Aymara](http://purl.obolibrary.org/obo/HANCESTRO_0624) 
+
+- [Aymara](http://purl.obolibrary.org/obo/HANCESTRO_0624) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 - [Aymara](http://purl.obolibrary.org/obo/HANCESTRO_0624) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
 
@@ -1804,6 +2048,42 @@ bjt &ndash; Balanta-Ganja"
 - [Balanta](http://purl.obolibrary.org/obo/AfPO_0000229) SubClassOf [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
 
 - [Balanta](http://purl.obolibrary.org/obo/AfPO_0000229) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Senegal](http://dbpedia.org/resource/Senegal) 
+
+
+### Balochi in Pakistan (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0703`
+
+#### Added
+- [Balochi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0703) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Balochi" 
+
+- [Balochi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0703) [label](http://www.w3.org/2000/01/rdf-schema#label) "Balochi in Pakistan (HGDP)" 
+
+- [Balochi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0703) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 22 samples from Balochi individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." 
+
+- Class: [Balochi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0703) 
+
+- [Balochi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0703) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Balochi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0703) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Balochi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0703) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Balochi in Pakistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0784`
+
+#### Added
+- [Balochi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0784) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Balochi" 
+
+- [Balochi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0784) [label](http://www.w3.org/2000/01/rdf-schema#label) "Balochi in Pakistan (SGDP)" 
+
+- [Balochi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0784) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Balochi individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- Class: [Balochi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0784) 
+
+- [Balochi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0784) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Balochi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0784) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Balochi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0784) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
 
 
 ### Bambara `http://purl.obolibrary.org/obo/AfPO_0000074`
@@ -2308,6 +2588,48 @@ bjt &ndash; Balanta-Ganja"
 - [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mozambique](http://dbpedia.org/resource/Mozambique) 
 
 
+### Bantu Herero in Botswana Or Namibia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0640`
+
+#### Added
+- [Bantu Herero in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0640) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bantu Herero in Botswana Or Namibia (SGDP)" 
+
+- [Bantu Herero in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0640) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Bantu Herero individuals recruited in Botswana Or Namibia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Bantu Herero in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0640) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bantu Herero" 
+
+- Class: [Bantu Herero in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0640) 
+
+- [Bantu Herero in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0640) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Bantu Herero in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0640) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bantu Herero in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0640) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Namibia](http://dbpedia.org/resource/Namibia) 
+
+- [Bantu Herero in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0640) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Herero](http://purl.obolibrary.org/obo/AfPO_0000123) 
+
+- [Bantu Herero in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0640) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Botswana](http://dbpedia.org/resource/Botswana) 
+
+
+### Bantu Kenya in Kenya (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0641`
+
+#### Added
+- [Bantu Kenya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0641) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Bantu Kenya individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Bantu Kenya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0641) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bantu Kenya" 
+
+- [Bantu Kenya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0641) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bantu Kenya in Kenya (SGDP)" 
+
+- Class: [Bantu Kenya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0641) 
+
+- [Bantu Kenya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0641) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bantu Kenya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0641) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
+
+- [Bantu Kenya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0641) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Bantu Kenya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0641) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Kenya](http://dbpedia.org/resource/Kenya) 
+
+
 ### Bantu Southern `http://purl.obolibrary.org/obo/AfPO_0000326`
 
 #### Added
@@ -2342,6 +2664,28 @@ bjt &ndash; Balanta-Ganja"
 - [Bantu Southern](http://purl.obolibrary.org/obo/AfPO_0000326) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Namibia](http://dbpedia.org/resource/Namibia) 
 
 
+### Bantu Tswana in Botswana Or Namibia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0642`
+
+#### Added
+- [Bantu Tswana in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0642) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bantu Tswana in Botswana Or Namibia (SGDP)" 
+
+- [Bantu Tswana in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0642) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bantu Tswana" 
+
+- [Bantu Tswana in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0642) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Bantu Tswana individuals recruited in Botswana Or Namibia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Bantu Tswana in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0642) 
+
+- [Bantu Tswana in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0642) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Bantu Tswana in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0642) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Namibia](http://dbpedia.org/resource/Namibia) 
+
+- [Bantu Tswana in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0642) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Tswana](http://purl.obolibrary.org/obo/AfPO_0000142) 
+
+- [Bantu Tswana in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0642) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Botswana](http://dbpedia.org/resource/Botswana) 
+
+- [Bantu Tswana in Botswana Or Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0642) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Bantu Western `http://purl.obolibrary.org/obo/AfPO_0000412`
 
 #### Added
@@ -2360,6 +2704,46 @@ bjt &ndash; Balanta-Ganja"
 - [Bantu Western](http://purl.obolibrary.org/obo/AfPO_0000412) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 - [Bantu Western](http://purl.obolibrary.org/obo/AfPO_0000412) SubClassOf [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
+
+
+### Bantu in Kenya (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0633`
+
+#### Added
+- [Bantu in Kenya (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0633) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bantu in Kenya (HGDP)" 
+
+- [Bantu in Kenya (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0633) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bantu Kenya" 
+
+- [Bantu in Kenya (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0633) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 10 samples from Bantu individuals recruited in Kenya as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Bantu in Kenya (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0633) 
+
+- [Bantu in Kenya (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0633) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
+
+- [Bantu in Kenya (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0633) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Kenya](http://dbpedia.org/resource/Kenya) 
+
+- [Bantu in Kenya (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0633) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Bantu in Kenya (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0633) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Bantu in South Africa (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0634`
+
+#### Added
+- [Bantu in South Africa (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0634) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 4 samples from Bantu individuals recruited in South Africa as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Bantu in South Africa (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0634) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bantu South Africa" 
+
+- [Bantu in South Africa (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0634) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bantu in South Africa (HGDP)" 
+
+- Class: [Bantu in South Africa (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0634) 
+
+- [Bantu in South Africa (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0634) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Bantu in South Africa (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0634) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bantu in South Africa (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0634) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [South Africa](http://dbpedia.org/resource/South_Africa) 
+
+- [Bantu in South Africa (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0634) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Bantu Southern](http://purl.obolibrary.org/obo/AfPO_0000326) 
 
 
 ### Banyarwanda `http://purl.obolibrary.org/obo/AfPO_0000207`
@@ -2653,6 +3037,42 @@ mqu &ndash; Mandari"
 - Class: [Basoga](http://purl.obolibrary.org/obo/AfPO_0000400) 
 
 - [Basoga](http://purl.obolibrary.org/obo/AfPO_0000400) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
+
+
+### Basque in France (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0758`
+
+#### Added
+- [Basque in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0758) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Basque" 
+
+- [Basque in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0758) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 22 samples from Basque individuals recruited in France as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- [Basque in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0758) [label](http://www.w3.org/2000/01/rdf-schema#label) "Basque in France (HGDP)" 
+
+- Class: [Basque in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0758) 
+
+- [Basque in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0758) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Basque in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0758) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Basque in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0758) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [France](http://dbpedia.org/resource/France) 
+
+
+### Basque in France (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0811`
+
+#### Added
+- [Basque in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0811) [label](http://www.w3.org/2000/01/rdf-schema#label) "Basque in France (SGDP)" 
+
+- [Basque in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0811) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Basque individuals recruited in France as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Basque in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0811) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Basque" 
+
+- Class: [Basque in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0811) 
+
+- [Basque in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0811) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Basque in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0811) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Basque in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0811) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [France](http://dbpedia.org/resource/France) 
 
 
 ### Bassa `http://purl.obolibrary.org/obo/AfPO_0000067`
@@ -2953,6 +3373,42 @@ bas"
 - [Bedik](http://purl.obolibrary.org/obo/AfPO_0000528) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 
+### Bedouin B in Israel(Negev) (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0812`
+
+#### Added
+- [Bedouin B in Israel(Negev) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0812) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bedouin B" 
+
+- [Bedouin B in Israel(Negev) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0812) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bedouin B in Israel(Negev) (SGDP)" 
+
+- [Bedouin B in Israel(Negev) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0812) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Bedouin B individuals recruited in Israel(Negev) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Bedouin B in Israel(Negev) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0812) 
+
+- [Bedouin B in Israel(Negev) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0812) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Bedouin B in Israel(Negev) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0812) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bedouin B in Israel(Negev) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0812) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Israel](http://dbpedia.org/resource/Israel) 
+
+
+### Bedouin in Negev, Israel (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0770`
+
+#### Added
+- [Bedouin in Negev, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0770) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bedouin" 
+
+- [Bedouin in Negev, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0770) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bedouin in Negev, Israel (HGDP)" 
+
+- [Bedouin in Negev, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0770) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 44 samples from Bedouin individuals recruited in Negev, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." 
+
+- Class: [Bedouin in Negev, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0770) 
+
+- [Bedouin in Negev, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0770) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bedouin in Negev, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0770) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Israel](http://dbpedia.org/resource/Israel) 
+
+- [Bedouin in Negev, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0770) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+
 ### Beja `http://purl.obolibrary.org/obo/AfPO_0000385`
 
 #### Added
@@ -3076,6 +3532,44 @@ R1b"
 - [Bemba](http://purl.obolibrary.org/obo/AfPO_0000132) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Zambia](http://dbpedia.org/resource/Zambia) 
 
 - [Bemba](http://purl.obolibrary.org/obo/AfPO_0000132) SubClassOf [Bantu Southern](http://purl.obolibrary.org/obo/AfPO_0000326) 
+
+
+### Bengali in Bangladesh `http://purl.obolibrary.org/obo/HANCESTRO_0802`
+
+#### Added
+- [Bengali in Bangladesh](http://purl.obolibrary.org/obo/HANCESTRO_0802) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bengali in Bangladesh" 
+
+- [Bengali in Bangladesh](http://purl.obolibrary.org/obo/HANCESTRO_0802) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 144 samples from Bengali individuals recruited in Bangladesh as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Bengali in Bangladesh](http://purl.obolibrary.org/obo/HANCESTRO_0802) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "BEB" 
+
+- [Bengali in Bangladesh](http://purl.obolibrary.org/obo/HANCESTRO_0802) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bengali" 
+
+- Class: [Bengali in Bangladesh](http://purl.obolibrary.org/obo/HANCESTRO_0802) 
+
+- [Bengali in Bangladesh](http://purl.obolibrary.org/obo/HANCESTRO_0802) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bengali in Bangladesh](http://purl.obolibrary.org/obo/HANCESTRO_0802) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Bengali in Bangladesh](http://purl.obolibrary.org/obo/HANCESTRO_0802) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Bangladesh](http://dbpedia.org/resource/Bangladesh) 
+
+
+### Bengali in Bangladesh (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0785`
+
+#### Added
+- [Bengali in Bangladesh (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0785) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bengali" 
+
+- [Bengali in Bangladesh (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0785) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bengali in Bangladesh (SGDP)" 
+
+- [Bengali in Bangladesh (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0785) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Bengali individuals recruited in Bangladesh as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- Class: [Bengali in Bangladesh (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0785) 
+
+- [Bengali in Bangladesh (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0785) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Bengali in Bangladesh (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0785) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bengali in Bangladesh (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0785) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Bangladesh](http://dbpedia.org/resource/Bangladesh) 
 
 
 ### Benin `http://dbpedia.org/resource/Benin`
@@ -3205,6 +3699,42 @@ J"
 - [Berber Western](http://purl.obolibrary.org/obo/AfPO_0000189) SubClassOf [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
 
 - [Berber Western](http://purl.obolibrary.org/obo/AfPO_0000189) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Burkina Faso](http://dbpedia.org/resource/Burkina_Faso) 
+
+
+### Bergamo Italian in Bergamo, Italy (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0759`
+
+#### Added
+- [Bergamo Italian in Bergamo, Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0759) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 10 samples from Bergamo Italian individuals recruited in Bergamo, Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- [Bergamo Italian in Bergamo, Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0759) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bergamo Italian in Bergamo, Italy (HGDP)" 
+
+- [Bergamo Italian in Bergamo, Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0759) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bergamo Italian" 
+
+- Class: [Bergamo Italian in Bergamo, Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0759) 
+
+- [Bergamo Italian in Bergamo, Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0759) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bergamo Italian in Bergamo, Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0759) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Bergamo Italian in Bergamo, Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0759) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Italy](http://dbpedia.org/resource/Italy) 
+
+
+### Bergamo in Italy(Bergamo) (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0813`
+
+#### Added
+- [Bergamo in Italy(Bergamo) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0813) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bergamo in Italy(Bergamo) (SGDP)" 
+
+- [Bergamo in Italy(Bergamo) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0813) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Bergamo individuals recruited in Italy(Bergamo) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Bergamo in Italy(Bergamo) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0813) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bergamo" 
+
+- Class: [Bergamo in Italy(Bergamo) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0813) 
+
+- [Bergamo in Italy(Bergamo) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0813) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Italy](http://dbpedia.org/resource/Italy) 
+
+- [Bergamo in Italy(Bergamo) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0813) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Bergamo in Italy(Bergamo) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0813) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Beti-Pahuin `http://purl.obolibrary.org/obo/AfPO_0000290`
@@ -3416,6 +3946,46 @@ J"
 - [Biafada](http://purl.obolibrary.org/obo/AfPO_0000413) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Senegal](http://dbpedia.org/resource/Senegal) 
 
 - [Biafada](http://purl.obolibrary.org/obo/AfPO_0000413) SubClassOf [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
+
+
+### Biaka in Central African Republic (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0635`
+
+#### Added
+- [Biaka in Central African Republic (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0635) [label](http://www.w3.org/2000/01/rdf-schema#label) "Biaka in Central African Republic (HGDP)" 
+
+- [Biaka in Central African Republic (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0635) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Biaka" 
+
+- [Biaka in Central African Republic (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0635) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 24 samples from Biaka individuals recruited in Central African Republic as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Biaka in Central African Republic (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0635) 
+
+- [Biaka in Central African Republic (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0635) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Biaka in Central African Republic (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0635) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Biaka in Central African Republic (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0635) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Central African Republic](http://dbpedia.org/resource/Central_African_Republic) 
+
+- [Biaka in Central African Republic (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0635) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Aka](http://purl.obolibrary.org/obo/AfPO_0000282) 
+
+
+### Biaka in Central African Republic (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0643`
+
+#### Added
+- [Biaka in Central African Republic (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0643) [label](http://www.w3.org/2000/01/rdf-schema#label) "Biaka in Central African Republic (SGDP)" 
+
+- [Biaka in Central African Republic (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0643) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Biaka" 
+
+- [Biaka in Central African Republic (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0643) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Biaka individuals recruited in Central African Republic as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Biaka in Central African Republic (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0643) 
+
+- [Biaka in Central African Republic (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0643) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Central African Republic](http://dbpedia.org/resource/Central_African_Republic) 
+
+- [Biaka in Central African Republic (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0643) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Biaka in Central African Republic (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0643) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Aka](http://purl.obolibrary.org/obo/AfPO_0000282) 
+
+- [Biaka in Central African Republic (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0643) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Bihari Mauritian `http://purl.obolibrary.org/obo/AfPO_0000168`
@@ -3768,6 +4338,96 @@ J"
 - [Botswana](http://dbpedia.org/resource/Botswana) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Nama](http://purl.obolibrary.org/obo/AfPO_0000060) 
 
 
+### Bougainville in Bougainville (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0774`
+
+#### Added
+- [Bougainville in Bougainville (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0774) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bougainville in Bougainville (HGDP)" 
+
+- [Bougainville in Bougainville (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0774) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bougainville" 
+
+- [Bougainville in Bougainville (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0774) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 11 samples from Bougainville individuals recruited in Bougainville as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- Class: [Bougainville in Bougainville (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0774) 
+
+- [Bougainville in Bougainville (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0774) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Papua New Guinea](http://dbpedia.org/resource/Papua_New_Guinea) 
+
+- [Bougainville in Bougainville (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0774) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bougainville in Bougainville (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0774) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+
+### Bougainville in Papua New Guinea (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0778`
+
+#### Added
+- [Bougainville in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0778) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Bougainville individuals recruited in Papua New Guinea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- [Bougainville in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0778) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bougainville in Papua New Guinea (SGDP)" 
+
+- [Bougainville in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0778) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bougainville" 
+
+- Class: [Bougainville in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0778) 
+
+- [Bougainville in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0778) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Bougainville in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0778) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+- [Bougainville in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0778) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Papua New Guinea](http://dbpedia.org/resource/Papua_New_Guinea) 
+
+
+### Brahmin in India (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0786`
+
+#### Added
+- [Brahmin in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0786) [label](http://www.w3.org/2000/01/rdf-schema#label) "Brahmin in India (SGDP)" 
+
+- [Brahmin in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0786) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Brahmin individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Brahmin in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0786) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Brahmin" 
+
+- Class: [Brahmin in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0786) 
+
+- [Brahmin in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0786) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Brahmin in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0786) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Brahmin in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0786) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [India](http://dbpedia.org/resource/India) 
+
+
+### Brahui in Pakistan (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0704`
+
+#### Added
+- [Brahui in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0704) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 23 samples from Brahui individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." 
+
+- [Brahui in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0704) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Brahui" 
+
+- [Brahui in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0704) [label](http://www.w3.org/2000/01/rdf-schema#label) "Brahui in Pakistan (HGDP)" 
+
+- Class: [Brahui in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0704) 
+
+- [Brahui in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0704) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Brahui in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0704) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Brahui in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0704) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+
+### Brahui in Pakistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0787`
+
+#### Added
+- [Brahui in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0787) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Brahui individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Brahui in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0787) [label](http://www.w3.org/2000/01/rdf-schema#label) "Brahui in Pakistan (SGDP)" 
+
+- [Brahui in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0787) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Brahui" 
+
+- Class: [Brahui in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0787) 
+
+- [Brahui in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0787) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Brahui in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0787) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Brahui in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0787) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### British diaspora `http://purl.obolibrary.org/obo/AfPO_0000327`
 
 #### Added
@@ -3823,6 +4483,26 @@ J"
 - [British diaspora](http://purl.obolibrary.org/obo/AfPO_0000327) SubClassOf [Eastern African](http://purl.obolibrary.org/obo/AfPO_0000188) 
 
 - [British diaspora](http://purl.obolibrary.org/obo/AfPO_0000327) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Zimbabwe](http://dbpedia.org/resource/Zimbabwe) 
+
+
+### British in England and Scotland `http://purl.obolibrary.org/obo/HANCESTRO_0765`
+
+#### Added
+- [British in England and Scotland](http://purl.obolibrary.org/obo/HANCESTRO_0765) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "British" 
+
+- [British in England and Scotland](http://purl.obolibrary.org/obo/HANCESTRO_0765) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "GBR" 
+
+- [British in England and Scotland](http://purl.obolibrary.org/obo/HANCESTRO_0765) [label](http://www.w3.org/2000/01/rdf-schema#label) "British in England and Scotland" 
+
+- [British in England and Scotland](http://purl.obolibrary.org/obo/HANCESTRO_0765) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 107 samples from British individuals recruited in England and Scotland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- Class: [British in England and Scotland](http://purl.obolibrary.org/obo/HANCESTRO_0765) 
+
+- [British in England and Scotland](http://purl.obolibrary.org/obo/HANCESTRO_0765) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [British](http://purl.obolibrary.org/obo/HANCESTRO_0462) 
+
+- [British in England and Scotland](http://purl.obolibrary.org/obo/HANCESTRO_0765) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [British in England and Scotland](http://purl.obolibrary.org/obo/HANCESTRO_0765) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
 
 
 ### Bubi `http://purl.obolibrary.org/obo/AfPO_0000414`
@@ -3949,6 +4629,26 @@ U3"
 - [Buduma](http://purl.obolibrary.org/obo/AfPO_0000415) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 - [Buduma](http://purl.obolibrary.org/obo/AfPO_0000415) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
+
+
+### Bulgarian in Bulgaria (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0814`
+
+#### Added
+- [Bulgarian in Bulgaria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0814) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bulgarian in Bulgaria (SGDP)" 
+
+- [Bulgarian in Bulgaria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0814) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Bulgarian individuals recruited in Bulgaria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Bulgarian in Bulgaria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0814) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Bulgarian" 
+
+- Class: [Bulgarian in Bulgaria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0814) 
+
+- [Bulgarian in Bulgaria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0814) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Bulgarian](http://purl.obolibrary.org/obo/HANCESTRO_0353) 
+
+- [Bulgarian in Bulgaria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0814) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Bulgarian in Bulgaria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0814) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Bulgaria](http://dbpedia.org/resource/Bulgaria) 
+
+- [Bulgarian in Bulgaria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0814) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Bulsa `http://purl.obolibrary.org/obo/AfPO_0000139`
@@ -4097,6 +4797,28 @@ U3"
 - [Burkina Faso](http://dbpedia.org/resource/Burkina_Faso) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Kusasi](http://purl.obolibrary.org/obo/AfPO_0000148) 
 
 
+### Burmese in Myanmar (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0732`
+
+#### Added
+- [Burmese in Myanmar (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0732) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Burmese individuals recruited in Myanmar as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Burmese in Myanmar (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0732) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Burmese" 
+
+- [Burmese in Myanmar (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0732) [label](http://www.w3.org/2000/01/rdf-schema#label) "Burmese in Myanmar (SGDP)" 
+
+- Class: [Burmese in Myanmar (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0732) 
+
+- [Burmese in Myanmar (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0732) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Burmese in Myanmar (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0732) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Burmese](http://purl.obolibrary.org/obo/HANCESTRO_0497) 
+
+- [Burmese in Myanmar (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0732) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Burmese in Myanmar (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0732) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Myanmar](http://dbpedia.org/resource/Myanmar) 
+
+- [Burmese in Myanmar (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0732) SubClassOf [South East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0007) 
+
+
 ### Burundi `http://dbpedia.org/resource/Burundi`
 
 #### Added
@@ -4184,6 +4906,42 @@ Coordinates  WGS84	5&deg;13'S, 35&deg;58'E
 - [Burunge](http://purl.obolibrary.org/obo/AfPO_0000244) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Tanzania](http://dbpedia.org/resource/Tanzania) 
 
 
+### Burusho in Pakistan (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0705`
+
+#### Added
+- [Burusho in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0705) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 22 samples from Burusho individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." 
+
+- [Burusho in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0705) [label](http://www.w3.org/2000/01/rdf-schema#label) "Burusho in Pakistan (HGDP)" 
+
+- [Burusho in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0705) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Burusho" 
+
+- Class: [Burusho in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0705) 
+
+- [Burusho in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0705) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Burusho in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0705) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Burusho in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0705) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+
+### Burusho in Pakistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0788`
+
+#### Added
+- [Burusho in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0788) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Burusho" 
+
+- [Burusho in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0788) [label](http://www.w3.org/2000/01/rdf-schema#label) "Burusho in Pakistan (SGDP)" 
+
+- [Burusho in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0788) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Burusho individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- Class: [Burusho in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0788) 
+
+- [Burusho in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0788) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Burusho in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0788) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Burusho in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0788) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Cafre `http://purl.obolibrary.org/obo/AfPO_0000258`
 
 #### Added
@@ -4208,6 +4966,50 @@ Coordinates  WGS84	5&deg;13'S, 35&deg;58'E
 - [Cafre](http://purl.obolibrary.org/obo/AfPO_0000258) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Réunion](http://dbpedia.org/resource/Réunion) 
 
 - [Cafre](http://purl.obolibrary.org/obo/AfPO_0000258) SubClassOf [Eastern African](http://purl.obolibrary.org/obo/AfPO_0000188) 
+
+
+### Cambodian in Cambodia (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0712`
+
+#### Added
+- [Cambodian in Cambodia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0712) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 9 samples from Cambodian individuals recruited in Cambodia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Cambodian in Cambodia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0712) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Cambodian" 
+
+- [Cambodian in Cambodia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0712) [label](http://www.w3.org/2000/01/rdf-schema#label) "Cambodian in Cambodia (HGDP)" 
+
+- Class: [Cambodian in Cambodia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0712) 
+
+- [Cambodian in Cambodia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0712) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Cambodian in Cambodia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0712) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Cambodian](http://purl.obolibrary.org/obo/HANCESTRO_0493) 
+
+- [Cambodian in Cambodia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0712) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Cambodian in Cambodia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0712) SubClassOf [South East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0007) 
+
+- [Cambodian in Cambodia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0712) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Cambodia](http://dbpedia.org/resource/Cambodia) 
+
+
+### Cambodian in Cambodia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0733`
+
+#### Added
+- [Cambodian in Cambodia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0733) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Cambodian individuals recruited in Cambodia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Cambodian in Cambodia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0733) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Cambodian" 
+
+- [Cambodian in Cambodia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0733) [label](http://www.w3.org/2000/01/rdf-schema#label) "Cambodian in Cambodia (SGDP)" 
+
+- Class: [Cambodian in Cambodia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0733) 
+
+- [Cambodian in Cambodia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0733) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Cambodian in Cambodia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0733) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Cambodia](http://dbpedia.org/resource/Cambodia) 
+
+- [Cambodian in Cambodia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0733) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Cambodian](http://purl.obolibrary.org/obo/HANCESTRO_0493) 
+
+- [Cambodian in Cambodia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0733) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Cambodian in Cambodia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0733) SubClassOf [South East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0007) 
 
 
 ### Cameroon `http://dbpedia.org/resource/Cameroon`
@@ -4362,7 +5164,7 @@ L4"
 
 - Class: [Central African](http://purl.obolibrary.org/obo/AfPO_0000274) 
 
-- [Central African](http://purl.obolibrary.org/obo/AfPO_0000274) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+- [Central African](http://purl.obolibrary.org/obo/AfPO_0000274) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
 
 
 ### Central African Republic `http://dbpedia.org/resource/Central_African_Republic`
@@ -4554,6 +5356,48 @@ L5"
 - [Chaga](http://purl.obolibrary.org/obo/AfPO_0000401) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
 
 
+### Chane in Argentina (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0674`
+
+#### Added
+- [Chane in Argentina (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0674) [label](http://www.w3.org/2000/01/rdf-schema#label) "Chane in Argentina (SGDP)" 
+
+- [Chane in Argentina (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0674) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Chane individuals recruited in Argentina as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Chane in Argentina (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0674) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Chane" 
+
+- Class: [Chane in Argentina (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0674) 
+
+- [Chane in Argentina (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0674) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+- [Chane in Argentina (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0674) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Chane in Argentina (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0674) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Chane in Argentina (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0674) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Argentina](http://dbpedia.org/resource/Argentina) 
+
+
+### Chechen in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0815`
+
+#### Added
+- [Chechen in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0815) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Chechen" 
+
+- [Chechen in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0815) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Chechen individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Chechen in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0815) [label](http://www.w3.org/2000/01/rdf-schema#label) "Chechen in Russia (SGDP)" 
+
+- Class: [Chechen in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0815) 
+
+- [Chechen in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0815) SubClassOf [Central Asian](http://purl.obolibrary.org/obo/HANCESTRO_0286) 
+
+- [Chechen in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0815) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Chechen in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0815) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Chechen in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0815) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Chechen in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0815) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+
 ### Chewa `http://purl.obolibrary.org/obo/AfPO_0000140`
 
 #### Added
@@ -4617,6 +5461,28 @@ L5"
 
 #### Added
 - [Chilean](http://purl.obolibrary.org/obo/HANCESTRO_0356) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+
+### Chinese Dai in Xishuangbanna, China `http://purl.obolibrary.org/obo/HANCESTRO_0752`
+
+#### Added
+- [Chinese Dai in Xishuangbanna, China](http://purl.obolibrary.org/obo/HANCESTRO_0752) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "CDX" 
+
+- [Chinese Dai in Xishuangbanna, China](http://purl.obolibrary.org/obo/HANCESTRO_0752) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 109 samples from Chinese Dai individuals recruited in Xishuangbanna, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Chinese Dai in Xishuangbanna, China](http://purl.obolibrary.org/obo/HANCESTRO_0752) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Dai Chinese" 
+
+- [Chinese Dai in Xishuangbanna, China](http://purl.obolibrary.org/obo/HANCESTRO_0752) [label](http://www.w3.org/2000/01/rdf-schema#label) "Chinese Dai in Xishuangbanna, China" 
+
+- Class: [Chinese Dai in Xishuangbanna, China](http://purl.obolibrary.org/obo/HANCESTRO_0752) 
+
+- [Chinese Dai in Xishuangbanna, China](http://purl.obolibrary.org/obo/HANCESTRO_0752) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Chinese Dai in Xishuangbanna, China](http://purl.obolibrary.org/obo/HANCESTRO_0752) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Dai Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0577) 
+
+- [Chinese Dai in Xishuangbanna, China](http://purl.obolibrary.org/obo/HANCESTRO_0752) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Chinese Dai in Xishuangbanna, China](http://purl.obolibrary.org/obo/HANCESTRO_0752) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
 
 
 ### Chipeta `http://purl.obolibrary.org/obo/AfPO_0000242`
@@ -4769,6 +5635,24 @@ L5"
 - [Chopi](http://purl.obolibrary.org/obo/AfPO_0000486) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
 
 
+### Chukchi in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0690`
+
+#### Added
+- [Chukchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0690) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Chukchi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Chukchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0690) [label](http://www.w3.org/2000/01/rdf-schema#label) "Chukchi in Russia (SGDP)" 
+
+- [Chukchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0690) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Chukchi" 
+
+- Class: [Chukchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0690) 
+
+- [Chukchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0690) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Chukchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0690) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Chukchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0690) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+
 ### Cilento `http://purl.obolibrary.org/obo/HANCESTRO_0556`
 #### Removed
 - [Cilento](http://purl.obolibrary.org/obo/HANCESTRO_0556) SubClassOf [hasAncestryStatus](http://purl.obolibrary.org/obo/HANCESTRO_0301) only [genetically isolated ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0305) 
@@ -4781,6 +5665,48 @@ L5"
 
 #### Added
 - [Colombian](http://purl.obolibrary.org/obo/HANCESTRO_0403) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+
+### Colombian in Colombia (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0669`
+
+#### Added
+- [Colombian in Colombia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0669) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 5 samples from Colombian individuals recruited in Colombia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Colombian in Colombia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0669) [label](http://www.w3.org/2000/01/rdf-schema#label) "Colombian in Colombia (HGDP)" 
+
+- [Colombian in Colombia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0669) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Colombian" 
+
+- Class: [Colombian in Colombia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0669) 
+
+- [Colombian in Colombia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0669) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Colombian in Colombia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0669) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Colombian](http://purl.obolibrary.org/obo/HANCESTRO_0403) 
+
+- [Colombian in Colombia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0669) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Colombian in Colombia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0669) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Colombia](http://dbpedia.org/resource/Colombia) 
+
+
+### Colombian in Medellin, Colombia `http://purl.obolibrary.org/obo/HANCESTRO_0684`
+
+#### Added
+- [Colombian in Medellin, Colombia](http://purl.obolibrary.org/obo/HANCESTRO_0684) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 148 samples from Colombian individuals recruited in Medellin, Colombia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Colombian in Medellin, Colombia](http://purl.obolibrary.org/obo/HANCESTRO_0684) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "CLM" 
+
+- [Colombian in Medellin, Colombia](http://purl.obolibrary.org/obo/HANCESTRO_0684) [label](http://www.w3.org/2000/01/rdf-schema#label) "Colombian in Medellin, Colombia" 
+
+- [Colombian in Medellin, Colombia](http://purl.obolibrary.org/obo/HANCESTRO_0684) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Colombian" 
+
+- Class: [Colombian in Medellin, Colombia](http://purl.obolibrary.org/obo/HANCESTRO_0684) 
+
+- [Colombian in Medellin, Colombia](http://purl.obolibrary.org/obo/HANCESTRO_0684) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Colombian in Medellin, Colombia](http://purl.obolibrary.org/obo/HANCESTRO_0684) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Colombia](http://dbpedia.org/resource/Colombia) 
+
+- [Colombian in Medellin, Colombia](http://purl.obolibrary.org/obo/HANCESTRO_0684) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Colombian in Medellin, Colombia](http://purl.obolibrary.org/obo/HANCESTRO_0684) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Colombian](http://purl.obolibrary.org/obo/HANCESTRO_0403) 
 
 
 ### Colonial History `http://purl.obolibrary.org/obo/AfPO_0000439`
@@ -4924,6 +5850,24 @@ R1b"
 - [Costa Rican founder](http://purl.obolibrary.org/obo/HANCESTRO_0557) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Individuals who have at least six great-grandparents born in the Central Valley of Costa Rica, to ensure descent from the founder population, composed primarily of Europeans and Native Americans" 
 
 
+### Crete in Greece (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0816`
+
+#### Added
+- [Crete in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0816) [label](http://www.w3.org/2000/01/rdf-schema#label) "Crete in Greece (SGDP)" 
+
+- [Crete in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0816) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Crete individuals recruited in Greece as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Crete in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0816) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Crete" 
+
+- Class: [Crete in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0816) 
+
+- [Crete in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0816) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Greece](http://dbpedia.org/resource/Greece) 
+
+- [Crete in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0816) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Crete in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0816) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+
 ### Cushitic Eastern `http://purl.obolibrary.org/obo/AfPO_0000269`
 
 #### Added
@@ -4956,6 +5900,24 @@ R1b"
 - [Cushitic Eastern](http://purl.obolibrary.org/obo/AfPO_0000269) SubClassOf [Eastern African](http://purl.obolibrary.org/obo/AfPO_0000188) 
 
 - [Cushitic Eastern](http://purl.obolibrary.org/obo/AfPO_0000269) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Czech in Czechoslovakia(pre1989) (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0817`
+
+#### Added
+- [Czech in Czechoslovakia(pre1989) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0817) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Czech individuals recruited in Czechoslovakia(pre1989) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Czech in Czechoslovakia(pre1989) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0817) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Czech" 
+
+- [Czech in Czechoslovakia(pre1989) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0817) [label](http://www.w3.org/2000/01/rdf-schema#label) "Czech in Czechoslovakia(pre1989) (SGDP)" 
+
+- Class: [Czech in Czechoslovakia(pre1989) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0817) 
+
+- [Czech in Czechoslovakia(pre1989) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0817) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Czech in Czechoslovakia(pre1989) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0817) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Czech](http://purl.obolibrary.org/obo/HANCESTRO_0358) 
+
+- [Czech in Czechoslovakia(pre1989) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0817) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Côte d'Ivoire `http://dbpedia.org/resource/Ivory_Coast`
@@ -5126,6 +6088,56 @@ R1b"
 - [Dagomba](http://purl.obolibrary.org/obo/AfPO_0000147) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 
+### Dai Chinese `http://purl.obolibrary.org/obo/HANCESTRO_0577`
+#### Removed
+- [Dai Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0577) [label](http://www.w3.org/2000/01/rdf-schema#label) "Dai Chinese" 
+
+#### Added
+- [Dai Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0577) [alternative_term](http://purl.obolibrary.org/obo/IAO_0000118) "Dai Chinese" 
+
+- [Dai Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0577) [label](http://www.w3.org/2000/01/rdf-schema#label) "Dai" 
+
+
+### Dai in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0713`
+
+#### Added
+- [Dai in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0713) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Dai" 
+
+- [Dai in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0713) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 5 samples from Dai individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Dai in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0713) [label](http://www.w3.org/2000/01/rdf-schema#label) "Dai in China (HGDP)" 
+
+- Class: [Dai in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0713) 
+
+- [Dai in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0713) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Dai in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0713) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Dai Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0577) 
+
+- [Dai in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0713) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Dai in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0713) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Dai in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0734`
+
+#### Added
+- [Dai in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0734) [label](http://www.w3.org/2000/01/rdf-schema#label) "Dai in China (SGDP)" 
+
+- [Dai in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0734) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Dai" 
+
+- [Dai in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 4 samples from Dai individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Dai in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0734) 
+
+- [Dai in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0734) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Dai Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0577) 
+
+- [Dai in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0734) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Dai in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0734) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Dai in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0734) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Damara `http://purl.obolibrary.org/obo/AfPO_0000519`
 
 #### Added
@@ -5220,6 +6232,42 @@ R1b"
 - [Dan](http://purl.obolibrary.org/obo/AfPO_0000543) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Senegal](http://dbpedia.org/resource/Senegal) 
 
 - [Dan](http://purl.obolibrary.org/obo/AfPO_0000543) SubClassOf [Mande Western](http://purl.obolibrary.org/obo/AfPO_0000425) 
+
+
+### Daur in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0714`
+
+#### Added
+- [Daur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0714) [label](http://www.w3.org/2000/01/rdf-schema#label) "Daur in China (HGDP)" 
+
+- [Daur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0714) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Daur" 
+
+- [Daur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0714) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 9 samples from Daur individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Daur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0714) 
+
+- [Daur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0714) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Daur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0714) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Daur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0714) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Daur in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0735`
+
+#### Added
+- [Daur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0735) [label](http://www.w3.org/2000/01/rdf-schema#label) "Daur in China (SGDP)" 
+
+- [Daur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Daur individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Daur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0735) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Daur" 
+
+- Class: [Daur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0735) 
+
+- [Daur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0735) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Daur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0735) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Daur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0735) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
 
 
 ### Daza `http://purl.obolibrary.org/obo/AfPO_0000204`
@@ -5412,6 +6460,8 @@ L5"
 
 - [Diaguita](http://purl.obolibrary.org/obo/HANCESTRO_0625) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
 
+- [Diaguita](http://purl.obolibrary.org/obo/HANCESTRO_0625) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
 
 ### Diffa Arabs `http://purl.obolibrary.org/obo/AfPO_0000530`
 
@@ -5515,6 +6565,26 @@ E1b1b"
 - [Dinka](http://purl.obolibrary.org/obo/AfPO_0000071) SubClassOf [Nilotic Eastern](http://purl.obolibrary.org/obo/AfPO_0000371) 
 
 - [Dinka](http://purl.obolibrary.org/obo/AfPO_0000071) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [South Sudan](http://dbpedia.org/resource/South_Sudan) 
+
+
+### Dinka in Sudan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0644`
+
+#### Added
+- [Dinka in Sudan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0644) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Dinka individuals recruited in Sudan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Dinka in Sudan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0644) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Dinka" 
+
+- [Dinka in Sudan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0644) [label](http://www.w3.org/2000/01/rdf-schema#label) "Dinka in Sudan (SGDP)" 
+
+- Class: [Dinka in Sudan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0644) 
+
+- [Dinka in Sudan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0644) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Dinka in Sudan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0644) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Dinka in Sudan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0644) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Sudan](http://dbpedia.org/resource/Sudan) 
+
+- [Dinka in Sudan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0644) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Dinka](http://purl.obolibrary.org/obo/AfPO_0000071) 
 
 
 ### Ditammari `http://purl.obolibrary.org/obo/AfPO_0000531`
@@ -5801,6 +6871,42 @@ E2"
 - [Dongolese](http://purl.obolibrary.org/obo/AfPO_0000381) SubClassOf [Nubian Eastern](http://purl.obolibrary.org/obo/AfPO_0000190) 
 
 
+### Druze in Carmel, Israel (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0771`
+
+#### Added
+- [Druze in Carmel, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0771) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 40 samples from Druze individuals recruited in Carmel, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." 
+
+- [Druze in Carmel, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0771) [label](http://www.w3.org/2000/01/rdf-schema#label) "Druze in Carmel, Israel (HGDP)" 
+
+- [Druze in Carmel, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0771) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Druze" 
+
+- Class: [Druze in Carmel, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0771) 
+
+- [Druze in Carmel, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0771) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Druze in Carmel, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0771) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Druze in Carmel, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0771) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Israel](http://dbpedia.org/resource/Israel) 
+
+
+### Druze in Israel(Carmel) (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0818`
+
+#### Added
+- [Druze in Israel(Carmel) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0818) [label](http://www.w3.org/2000/01/rdf-schema#label) "Druze in Israel(Carmel) (SGDP)" 
+
+- [Druze in Israel(Carmel) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0818) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Druze individuals recruited in Israel(Carmel) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Druze in Israel(Carmel) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0818) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Druze" 
+
+- Class: [Druze in Israel(Carmel) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0818) 
+
+- [Druze in Israel(Carmel) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0818) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Druze in Israel(Carmel) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0818) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Druze in Israel(Carmel) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0818) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Israel](http://dbpedia.org/resource/Israel) 
+
+
 ### Duala `http://purl.obolibrary.org/obo/AfPO_0000461`
 
 #### Added
@@ -5852,6 +6958,24 @@ E2"
 - Class: [Duala](http://purl.obolibrary.org/obo/AfPO_0000461) 
 
 - [Duala](http://purl.obolibrary.org/obo/AfPO_0000461) SubClassOf [Bantu Central](http://purl.obolibrary.org/obo/AfPO_0000273) 
+
+
+### Dusun in Brunei (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0779`
+
+#### Added
+- [Dusun in Brunei (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0779) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Dusun individuals recruited in Brunei as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- [Dusun in Brunei (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0779) [label](http://www.w3.org/2000/01/rdf-schema#label) "Dusun in Brunei (SGDP)" 
+
+- [Dusun in Brunei (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0779) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Dusun" 
+
+- Class: [Dusun in Brunei (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0779) 
+
+- [Dusun in Brunei (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0779) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Brunei](http://dbpedia.org/resource/Brunei) 
+
+- [Dusun in Brunei (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0779) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+- [Dusun in Brunei (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0779) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Dutch `http://purl.obolibrary.org/obo/HANCESTRO_0320`
@@ -5954,7 +7078,7 @@ E2"
 
 - Class: [Eastern African](http://purl.obolibrary.org/obo/AfPO_0000188) 
 
-- [Eastern African](http://purl.obolibrary.org/obo/AfPO_0000188) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+- [Eastern African](http://purl.obolibrary.org/obo/AfPO_0000188) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
 
 
 ### Edo `http://purl.obolibrary.org/obo/AfPO_0000417`
@@ -6480,6 +7604,22 @@ E2"
 - [Embu](http://purl.obolibrary.org/obo/AfPO_0000402) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
 
 
+### English in England (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0819`
+
+#### Added
+- [English in England (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0819) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from English individuals recruited in England as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [English in England (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0819) [label](http://www.w3.org/2000/01/rdf-schema#label) "English in England (SGDP)" 
+
+- [English in England (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0819) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "English" 
+
+- Class: [English in England (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0819) 
+
+- [English in England (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0819) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [English in England (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0819) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Equatorial Guinea `http://dbpedia.org/resource/Equatorial_Guinea`
 
 #### Added
@@ -6629,6 +7769,48 @@ E2"
 - [Esan](http://purl.obolibrary.org/obo/AfPO_0000420) SubClassOf [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
 
 
+### Esan in Nigeria `http://purl.obolibrary.org/obo/HANCESTRO_0661`
+
+#### Added
+- [Esan in Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0661) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Esan" 
+
+- [Esan in Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0661) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ESN" 
+
+- [Esan in Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0661) [label](http://www.w3.org/2000/01/rdf-schema#label) "Esan in Nigeria" 
+
+- [Esan in Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0661) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 173 samples from Esan individuals recruited in Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Esan in Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0661) 
+
+- [Esan in Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0661) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
+
+- [Esan in Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0661) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Esan in Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0661) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Esan in Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0661) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Esan](http://purl.obolibrary.org/obo/AfPO_0000420) 
+
+
+### Esan in Nigeria (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0645`
+
+#### Added
+- [Esan in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0645) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Esan individuals recruited in Nigeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Esan in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0645) [label](http://www.w3.org/2000/01/rdf-schema#label) "Esan in Nigeria (SGDP)" 
+
+- [Esan in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0645) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Esan" 
+
+- Class: [Esan in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0645) 
+
+- [Esan in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0645) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
+
+- [Esan in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0645) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Esan](http://purl.obolibrary.org/obo/AfPO_0000420) 
+
+- [Esan in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0645) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Esan in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0645) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Eshira `http://purl.obolibrary.org/obo/AfPO_0000462`
 
 #### Added
@@ -6676,6 +7858,80 @@ E2"
 - Class: [Eshira](http://purl.obolibrary.org/obo/AfPO_0000462) 
 
 - [Eshira](http://purl.obolibrary.org/obo/AfPO_0000462) SubClassOf [Bantu Central](http://purl.obolibrary.org/obo/AfPO_0000273) 
+
+
+### Eskimo Chaplin in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0691`
+
+#### Added
+- [Eskimo Chaplin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0691) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Eskimo Chaplin" 
+
+- [Eskimo Chaplin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0691) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Eskimo Chaplin individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Eskimo Chaplin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0691) [label](http://www.w3.org/2000/01/rdf-schema#label) "Eskimo Chaplin in Russia (SGDP)" 
+
+- Class: [Eskimo Chaplin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0691) 
+
+- [Eskimo Chaplin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0691) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Eskimo Chaplin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0691) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Eskimo Chaplin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0691) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+
+### Eskimo Naukan in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0692`
+
+#### Added
+- [Eskimo Naukan in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0692) [label](http://www.w3.org/2000/01/rdf-schema#label) "Eskimo Naukan in Russia (SGDP)" 
+
+- [Eskimo Naukan in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0692) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Eskimo Naukan" 
+
+- [Eskimo Naukan in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0692) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Eskimo Naukan individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- Class: [Eskimo Naukan in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0692) 
+
+- [Eskimo Naukan in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0692) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Eskimo Naukan in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0692) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Eskimo Naukan in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0692) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+
+### Eskimo Sireniki in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0693`
+
+#### Added
+- [Eskimo Sireniki in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0693) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Eskimo Sireniki" 
+
+- [Eskimo Sireniki in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0693) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Eskimo Sireniki individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Eskimo Sireniki in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0693) [label](http://www.w3.org/2000/01/rdf-schema#label) "Eskimo Sireniki in Russia (SGDP)" 
+
+- Class: [Eskimo Sireniki in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0693) 
+
+- [Eskimo Sireniki in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0693) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Eskimo Sireniki in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0693) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Eskimo Sireniki in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0693) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+
+### Estonian in Estonia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0820`
+
+#### Added
+- [Estonian in Estonia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0820) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Estonian" 
+
+- [Estonian in Estonia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0820) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Estonian individuals recruited in Estonia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Estonian in Estonia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0820) [label](http://www.w3.org/2000/01/rdf-schema#label) "Estonian in Estonia (SGDP)" 
+
+- Class: [Estonian in Estonia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0820) 
+
+- [Estonian in Estonia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0820) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Estonian in Estonia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0820) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Estonia](http://dbpedia.org/resource/Estonia) 
+
+- [Estonian in Estonia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0820) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Estonian in Estonia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0820) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Estonian](http://purl.obolibrary.org/obo/HANCESTRO_0360) 
 
 
 ### Eswatini `http://dbpedia.org/resource/Eswatini`
@@ -6768,6 +8024,24 @@ L1"
 - [Ethiopia](http://dbpedia.org/resource/Ethiopia) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Saho](http://purl.obolibrary.org/obo/AfPO_0000387) 
 
 - [Ethiopia](http://dbpedia.org/resource/Ethiopia) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Gabra](http://purl.obolibrary.org/obo/AfPO_0000502) 
+
+
+### Even in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0694`
+
+#### Added
+- [Even in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0694) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Even individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Even in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0694) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Even" 
+
+- [Even in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0694) [label](http://www.w3.org/2000/01/rdf-schema#label) "Even in Russia (SGDP)" 
+
+- Class: [Even in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0694) 
+
+- [Even in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0694) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Even in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0694) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Even in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0694) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Ewe `http://purl.obolibrary.org/obo/AfPO_0000421`
@@ -7018,6 +8292,48 @@ L1"
 
 
 
+### Finnish in Finland `http://purl.obolibrary.org/obo/HANCESTRO_0767`
+
+#### Added
+- [Finnish in Finland](http://purl.obolibrary.org/obo/HANCESTRO_0767) [label](http://www.w3.org/2000/01/rdf-schema#label) "Finnish in Finland" 
+
+- [Finnish in Finland](http://purl.obolibrary.org/obo/HANCESTRO_0767) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Finnish" 
+
+- [Finnish in Finland](http://purl.obolibrary.org/obo/HANCESTRO_0767) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "FIN" 
+
+- [Finnish in Finland](http://purl.obolibrary.org/obo/HANCESTRO_0767) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 105 samples from Finnish individuals recruited in Finland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- Class: [Finnish in Finland](http://purl.obolibrary.org/obo/HANCESTRO_0767) 
+
+- [Finnish in Finland](http://purl.obolibrary.org/obo/HANCESTRO_0767) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Finnish](http://purl.obolibrary.org/obo/HANCESTRO_0321) 
+
+- [Finnish in Finland](http://purl.obolibrary.org/obo/HANCESTRO_0767) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Finnish in Finland](http://purl.obolibrary.org/obo/HANCESTRO_0767) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Finnish in Finland](http://purl.obolibrary.org/obo/HANCESTRO_0767) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Finland](http://dbpedia.org/resource/Finland) 
+
+
+### Finnish in Finland (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0821`
+
+#### Added
+- [Finnish in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0821) [label](http://www.w3.org/2000/01/rdf-schema#label) "Finnish in Finland (SGDP)" 
+
+- [Finnish in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0821) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Finnish" 
+
+- [Finnish in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0821) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Finnish individuals recruited in Finland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Finnish in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0821) 
+
+- [Finnish in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0821) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Finnish in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0821) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Finnish](http://purl.obolibrary.org/obo/HANCESTRO_0321) 
+
+- [Finnish in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0821) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Finland](http://dbpedia.org/resource/Finland) 
+
+- [Finnish in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0821) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+
 ### Fon `http://purl.obolibrary.org/obo/AfPO_0000422`
 
 #### Added
@@ -7184,6 +8500,46 @@ L1"
 - [French diaspora](http://purl.obolibrary.org/obo/AfPO_0000330) SubClassOf [Southern African](http://purl.obolibrary.org/obo/AfPO_0000276) 
 
 - [French diaspora](http://purl.obolibrary.org/obo/AfPO_0000330) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mauritius](http://dbpedia.org/resource/Mauritius) 
+
+
+### French in France (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0760`
+
+#### Added
+- [French in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0760) [label](http://www.w3.org/2000/01/rdf-schema#label) "French in France (HGDP)" 
+
+- [French in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0760) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 24 samples from French individuals recruited in France as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- [French in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0760) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "French" 
+
+- Class: [French in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0760) 
+
+- [French in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0760) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [French in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0760) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [France](http://dbpedia.org/resource/France) 
+
+- [French in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0760) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [French in France (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0760) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [French](http://purl.obolibrary.org/obo/HANCESTRO_0363) 
+
+
+### French in France (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0822`
+
+#### Added
+- [French in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0822) [label](http://www.w3.org/2000/01/rdf-schema#label) "French in France (SGDP)" 
+
+- [French in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0822) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from French individuals recruited in France as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [French in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0822) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "French" 
+
+- Class: [French in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0822) 
+
+- [French in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0822) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [French](http://purl.obolibrary.org/obo/HANCESTRO_0363) 
+
+- [French in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0822) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [French in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0822) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [French in France (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0822) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [France](http://dbpedia.org/resource/France) 
 
 
 ### Friuli Venezia Giulia `http://purl.obolibrary.org/obo/HANCESTRO_0311`
@@ -7635,6 +8991,122 @@ L4"
 - [Gabra](http://purl.obolibrary.org/obo/AfPO_0000502) SubClassOf [Oromo](http://purl.obolibrary.org/obo/AfPO_0000113) 
 
 
+### Gambian `http://purl.obolibrary.org/obo/HANCESTRO_0535`
+#### Removed
+- [Gambian](http://purl.obolibrary.org/obo/HANCESTRO_0535) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
+
+#### Added
+- [Gambian](http://purl.obolibrary.org/obo/HANCESTRO_0535) SubClassOf [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
+
+
+### Gambian in Gambia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0646`
+
+#### Added
+- [Gambian in Gambia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0646) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Gambian" 
+
+- [Gambian in Gambia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0646) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Gambian individuals recruited in Gambia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Gambian in Gambia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0646) [label](http://www.w3.org/2000/01/rdf-schema#label) "Gambian in Gambia (SGDP)" 
+
+- Class: [Gambian in Gambia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0646) 
+
+- [Gambian in Gambia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0646) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Gambian in Gambia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0646) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Gambian in Gambia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0646) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Gambian](http://purl.obolibrary.org/obo/HANCESTRO_0535) 
+
+- [Gambian in Gambia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0646) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [The Gambia](http://dbpedia.org/resource/The_Gambia) 
+
+
+### Gambian in Western Division, The Gambia - Fula `http://purl.obolibrary.org/obo/HANCESTRO_0662`
+
+#### Added
+- [Gambian in Western Division, The Gambia - Fula](http://purl.obolibrary.org/obo/HANCESTRO_0662) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Gambian Fula" 
+
+- [Gambian in Western Division, The Gambia - Fula](http://purl.obolibrary.org/obo/HANCESTRO_0662) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 100 samples from Fula individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Gambian in Western Division, The Gambia - Fula](http://purl.obolibrary.org/obo/HANCESTRO_0662) [label](http://www.w3.org/2000/01/rdf-schema#label) "Gambian in Western Division, The Gambia - Fula" 
+
+- [Gambian in Western Division, The Gambia - Fula](http://purl.obolibrary.org/obo/HANCESTRO_0662) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "GWF" 
+
+- Class: [Gambian in Western Division, The Gambia - Fula](http://purl.obolibrary.org/obo/HANCESTRO_0662) 
+
+- [Gambian in Western Division, The Gambia - Fula](http://purl.obolibrary.org/obo/HANCESTRO_0662) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Gambian in Western Division, The Gambia - Fula](http://purl.obolibrary.org/obo/HANCESTRO_0662) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [The Gambia](http://dbpedia.org/resource/The_Gambia) 
+
+- [Gambian in Western Division, The Gambia - Fula](http://purl.obolibrary.org/obo/HANCESTRO_0662) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Fulani](http://purl.obolibrary.org/obo/AfPO_0000104) 
+
+- [Gambian in Western Division, The Gambia - Fula](http://purl.obolibrary.org/obo/HANCESTRO_0662) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Gambian in Western Division, The Gambia - Jola `http://purl.obolibrary.org/obo/HANCESTRO_0663`
+
+#### Added
+- [Gambian in Western Division, The Gambia - Jola](http://purl.obolibrary.org/obo/HANCESTRO_0663) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Gambian Jola" 
+
+- [Gambian in Western Division, The Gambia - Jola](http://purl.obolibrary.org/obo/HANCESTRO_0663) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 100 samples from Jola individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Gambian in Western Division, The Gambia - Jola](http://purl.obolibrary.org/obo/HANCESTRO_0663) [label](http://www.w3.org/2000/01/rdf-schema#label) "Gambian in Western Division, The Gambia - Jola" 
+
+- [Gambian in Western Division, The Gambia - Jola](http://purl.obolibrary.org/obo/HANCESTRO_0663) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "GWJ" 
+
+- Class: [Gambian in Western Division, The Gambia - Jola](http://purl.obolibrary.org/obo/HANCESTRO_0663) 
+
+- [Gambian in Western Division, The Gambia - Jola](http://purl.obolibrary.org/obo/HANCESTRO_0663) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [The Gambia](http://dbpedia.org/resource/The_Gambia) 
+
+- [Gambian in Western Division, The Gambia - Jola](http://purl.obolibrary.org/obo/HANCESTRO_0663) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Jola](http://purl.obolibrary.org/obo/AfPO_0000205) 
+
+- [Gambian in Western Division, The Gambia - Jola](http://purl.obolibrary.org/obo/HANCESTRO_0663) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Gambian in Western Division, The Gambia - Jola](http://purl.obolibrary.org/obo/HANCESTRO_0663) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+
+### Gambian in Western Division, The Gambia - Mandinka `http://purl.obolibrary.org/obo/HANCESTRO_0664`
+
+#### Added
+- [Gambian in Western Division, The Gambia - Mandinka](http://purl.obolibrary.org/obo/HANCESTRO_0664) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "GWD" 
+
+- [Gambian in Western Division, The Gambia - Mandinka](http://purl.obolibrary.org/obo/HANCESTRO_0664) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 280 samples from Mandinka individuals recruited in Western Division, The Gambia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Gambian in Western Division, The Gambia - Mandinka](http://purl.obolibrary.org/obo/HANCESTRO_0664) [label](http://www.w3.org/2000/01/rdf-schema#label) "Gambian in Western Division, The Gambia - Mandinka" 
+
+- [Gambian in Western Division, The Gambia - Mandinka](http://purl.obolibrary.org/obo/HANCESTRO_0664) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Gambian Mandinka" 
+
+- Class: [Gambian in Western Division, The Gambia - Mandinka](http://purl.obolibrary.org/obo/HANCESTRO_0664) 
+
+- [Gambian in Western Division, The Gambia - Mandinka](http://purl.obolibrary.org/obo/HANCESTRO_0664) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Gambian in Western Division, The Gambia - Mandinka](http://purl.obolibrary.org/obo/HANCESTRO_0664) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Gambian in Western Division, The Gambia - Mandinka](http://purl.obolibrary.org/obo/HANCESTRO_0664) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [The Gambia](http://dbpedia.org/resource/The_Gambia) 
+
+- [Gambian in Western Division, The Gambia - Mandinka](http://purl.obolibrary.org/obo/HANCESTRO_0664) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mandinka](http://purl.obolibrary.org/obo/AfPO_0000430) 
+
+
+### Gambian in Western Division, The Gambia - Wolof `http://purl.obolibrary.org/obo/HANCESTRO_0665`
+
+#### Added
+- [Gambian in Western Division, The Gambia - Wolof](http://purl.obolibrary.org/obo/HANCESTRO_0665) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 100 samples from Wolof individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Gambian in Western Division, The Gambia - Wolof](http://purl.obolibrary.org/obo/HANCESTRO_0665) [label](http://www.w3.org/2000/01/rdf-schema#label) "Gambian in Western Division, The Gambia - Wolof" 
+
+- [Gambian in Western Division, The Gambia - Wolof](http://purl.obolibrary.org/obo/HANCESTRO_0665) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "GWW" 
+
+- [Gambian in Western Division, The Gambia - Wolof](http://purl.obolibrary.org/obo/HANCESTRO_0665) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Gambian Wolof" 
+
+- Class: [Gambian in Western Division, The Gambia - Wolof](http://purl.obolibrary.org/obo/HANCESTRO_0665) 
+
+- [Gambian in Western Division, The Gambia - Wolof](http://purl.obolibrary.org/obo/HANCESTRO_0665) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Wolof](http://purl.obolibrary.org/obo/AfPO_0000428) 
+
+- [Gambian in Western Division, The Gambia - Wolof](http://purl.obolibrary.org/obo/HANCESTRO_0665) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Gambian in Western Division, The Gambia - Wolof](http://purl.obolibrary.org/obo/HANCESTRO_0665) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [The Gambia](http://dbpedia.org/resource/The_Gambia) 
+
+- [Gambian in Western Division, The Gambia - Wolof](http://purl.obolibrary.org/obo/HANCESTRO_0665) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+
 ### Ganda `http://purl.obolibrary.org/obo/AfPO_0000403`
 
 #### Added
@@ -7791,6 +9263,26 @@ L4"
 - Class: [Gbaya](http://purl.obolibrary.org/obo/AfPO_0000302) 
 
 - [Gbaya](http://purl.obolibrary.org/obo/AfPO_0000302) SubClassOf [Ubangi Central](http://purl.obolibrary.org/obo/AfPO_0000264) 
+
+
+### Georgian in Georgia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0823`
+
+#### Added
+- [Georgian in Georgia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0823) [label](http://www.w3.org/2000/01/rdf-schema#label) "Georgian in Georgia (SGDP)" 
+
+- [Georgian in Georgia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0823) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Georgian individuals recruited in Georgia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Georgian in Georgia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0823) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Georgian" 
+
+- Class: [Georgian in Georgia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0823) 
+
+- [Georgian in Georgia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0823) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Georgian in Georgia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0823) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Georgian](http://purl.obolibrary.org/obo/HANCESTRO_0437) 
+
+- [Georgian in Georgia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0823) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Georgia](http://dbpedia.org/resource/Georgia_(country)) 
+
+- [Georgian in Georgia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0823) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
 
 
 ### Ghana `http://dbpedia.org/resource/Ghana`
@@ -8061,6 +9553,26 @@ oub &ndash; Glio-Ubi"
 - [Grebo](http://purl.obolibrary.org/obo/AfPO_0000547) SubClassOf [Kru](http://purl.obolibrary.org/obo/AfPO_0000443) 
 
 
+### Greek in Greece (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0824`
+
+#### Added
+- [Greek in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0824) [label](http://www.w3.org/2000/01/rdf-schema#label) "Greek in Greece (SGDP)" 
+
+- [Greek in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0824) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Greek" 
+
+- [Greek in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0824) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Greek individuals recruited in Greece as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Greek in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0824) 
+
+- [Greek in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0824) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Greece](http://dbpedia.org/resource/Greece) 
+
+- [Greek in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0824) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Greek in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0824) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Greek in Greece (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0824) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Greek](http://purl.obolibrary.org/obo/HANCESTRO_0366) 
+
+
 ### Guan `http://purl.obolibrary.org/obo/AfPO_0000534`
 
 #### Added
@@ -8201,6 +9713,8 @@ oub &ndash; Glio-Ubi"
 
 - [Guaraní](http://purl.obolibrary.org/obo/HANCESTRO_0627) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
 
+- [Guaraní](http://purl.obolibrary.org/obo/HANCESTRO_0627) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
 
 ### Guinea `http://dbpedia.org/resource/Guinea`
 
@@ -8288,6 +9802,24 @@ oub &ndash; Glio-Ubi"
 - [Guinea-Bissau](http://dbpedia.org/resource/Guinea_Bissau) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Manjak](http://purl.obolibrary.org/obo/AfPO_0000228) 
 
 - [Guinea-Bissau](http://dbpedia.org/resource/Guinea_Bissau) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Papel](http://purl.obolibrary.org/obo/AfPO_0000560) 
+
+
+### Gujarati Indians in Houston, TX `http://purl.obolibrary.org/obo/HANCESTRO_0803`
+
+#### Added
+- [Gujarati Indians in Houston, TX](http://purl.obolibrary.org/obo/HANCESTRO_0803) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Gujarati" 
+
+- [Gujarati Indians in Houston, TX](http://purl.obolibrary.org/obo/HANCESTRO_0803) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 113 samples from Gujarati Indians individuals recruited in Houston, TX as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Gujarati Indians in Houston, TX](http://purl.obolibrary.org/obo/HANCESTRO_0803) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "GIH" 
+
+- [Gujarati Indians in Houston, TX](http://purl.obolibrary.org/obo/HANCESTRO_0803) [label](http://www.w3.org/2000/01/rdf-schema#label) "Gujarati Indians in Houston, TX" 
+
+- Class: [Gujarati Indians in Houston, TX](http://purl.obolibrary.org/obo/HANCESTRO_0803) 
+
+- [Gujarati Indians in Houston, TX](http://purl.obolibrary.org/obo/HANCESTRO_0803) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Gujarati Indians in Houston, TX](http://purl.obolibrary.org/obo/HANCESTRO_0803) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
 
 
 ### Gumuz `http://purl.obolibrary.org/obo/AfPO_00003674`
@@ -8868,6 +10400,90 @@ E-Z1902"
 - [Halfawieen](http://purl.obolibrary.org/obo/AfPO_0000215) SubClassOf [Nubian Eastern](http://purl.obolibrary.org/obo/AfPO_0000190) 
 
 
+### Han Chinese South `http://purl.obolibrary.org/obo/HANCESTRO_0756`
+
+#### Added
+- [Han Chinese South](http://purl.obolibrary.org/obo/HANCESTRO_0756) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 171 samples from Han Chinese South individuals recruited in China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Han Chinese South](http://purl.obolibrary.org/obo/HANCESTRO_0756) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "CHS" 
+
+- [Han Chinese South](http://purl.obolibrary.org/obo/HANCESTRO_0756) [label](http://www.w3.org/2000/01/rdf-schema#label) "Han Chinese South" 
+
+- [Han Chinese South](http://purl.obolibrary.org/obo/HANCESTRO_0756) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Southern Han Chinese" 
+
+- Class: [Han Chinese South](http://purl.obolibrary.org/obo/HANCESTRO_0756) 
+
+- [Han Chinese South](http://purl.obolibrary.org/obo/HANCESTRO_0756) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Han Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0027) 
+
+- [Han Chinese South](http://purl.obolibrary.org/obo/HANCESTRO_0756) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Han Chinese South](http://purl.obolibrary.org/obo/HANCESTRO_0756) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Han Chinese South](http://purl.obolibrary.org/obo/HANCESTRO_0756) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Han Chinese in Beijing, China `http://purl.obolibrary.org/obo/HANCESTRO_0753`
+
+#### Added
+- [Han Chinese in Beijing, China](http://purl.obolibrary.org/obo/HANCESTRO_0753) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "CHB" 
+
+- [Han Chinese in Beijing, China](http://purl.obolibrary.org/obo/HANCESTRO_0753) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Han Chinese" 
+
+- [Han Chinese in Beijing, China](http://purl.obolibrary.org/obo/HANCESTRO_0753) [label](http://www.w3.org/2000/01/rdf-schema#label) "Han Chinese in Beijing, China" 
+
+- [Han Chinese in Beijing, China](http://purl.obolibrary.org/obo/HANCESTRO_0753) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 112 samples from Han Chinese individuals recruited in Beijing, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Han Chinese in Beijing, China](http://purl.obolibrary.org/obo/HANCESTRO_0753) 
+
+- [Han Chinese in Beijing, China](http://purl.obolibrary.org/obo/HANCESTRO_0753) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Han Chinese in Beijing, China](http://purl.obolibrary.org/obo/HANCESTRO_0753) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Han Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0027) 
+
+- [Han Chinese in Beijing, China](http://purl.obolibrary.org/obo/HANCESTRO_0753) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Han Chinese in Beijing, China](http://purl.obolibrary.org/obo/HANCESTRO_0753) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Han in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0715`
+
+#### Added
+- [Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0715) [label](http://www.w3.org/2000/01/rdf-schema#label) "Han in China (HGDP)" 
+
+- [Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0715) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Han" 
+
+- [Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0715) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 30 samples from Han individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0715) 
+
+- [Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0715) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0715) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0715) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Han Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0027) 
+
+- [Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0715) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+
+### Han in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0736`
+
+#### Added
+- [Han in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0736) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Han" 
+
+- [Han in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0736) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Han individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Han in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0736) [label](http://www.w3.org/2000/01/rdf-schema#label) "Han in China (SGDP)" 
+
+- Class: [Han in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0736) 
+
+- [Han in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0736) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Han in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0736) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Han in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0736) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Han in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0736) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Han Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0027) 
+
+
 ### Haratin `http://purl.obolibrary.org/obo/AfPO_0000366`
 
 #### Added
@@ -9006,6 +10622,62 @@ R1b"
 - [Hausa](http://purl.obolibrary.org/obo/AfPO_0000125) SubClassOf [Eastern African](http://purl.obolibrary.org/obo/AfPO_0000188) 
 
 
+### Hawaiian in USA (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0780`
+
+#### Added
+- [Hawaiian in USA (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0780) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Hawaiian" 
+
+- [Hawaiian in USA (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0780) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Hawaiian individuals recruited in USA as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- [Hawaiian in USA (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0780) [label](http://www.w3.org/2000/01/rdf-schema#label) "Hawaiian in USA (SGDP)" 
+
+- Class: [Hawaiian in USA (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0780) 
+
+- [Hawaiian in USA (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0780) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Native Hawaiian](http://purl.obolibrary.org/obo/HANCESTRO_0573) 
+
+- [Hawaiian in USA (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0780) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+- [Hawaiian in USA (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0780) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [United States](http://dbpedia.org/resource/United_States) 
+
+- [Hawaiian in USA (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0780) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Hazara in Pakistan (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0706`
+
+#### Added
+- [Hazara in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0706) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 18 samples from Hazara individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." 
+
+- [Hazara in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0706) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Hazara" 
+
+- [Hazara in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0706) [label](http://www.w3.org/2000/01/rdf-schema#label) "Hazara in Pakistan (HGDP)" 
+
+- Class: [Hazara in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0706) 
+
+- [Hazara in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0706) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Hazara in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0706) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Hazara in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0706) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Hazara in Pakistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0789`
+
+#### Added
+- [Hazara in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0789) [label](http://www.w3.org/2000/01/rdf-schema#label) "Hazara in Pakistan (SGDP)" 
+
+- [Hazara in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0789) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Hazara" 
+
+- [Hazara in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0789) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Hazara individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- Class: [Hazara in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0789) 
+
+- [Hazara in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0789) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Hazara in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0789) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Hazara in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0789) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+
 ### Hema `http://purl.obolibrary.org/obo/AfPO_0000463`
 
 #### Added
@@ -9117,6 +10789,42 @@ R1b"
 - [Herero](http://purl.obolibrary.org/obo/AfPO_0000123) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Angola](http://dbpedia.org/resource/Angola) 
 
 - [Herero](http://purl.obolibrary.org/obo/AfPO_0000123) SubClassOf [Bantu Southern](http://purl.obolibrary.org/obo/AfPO_0000326) 
+
+
+### Hezhen in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0716`
+
+#### Added
+- [Hezhen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0716) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Hezhen" 
+
+- [Hezhen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0716) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 7 samples from Hezhen individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Hezhen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0716) [label](http://www.w3.org/2000/01/rdf-schema#label) "Hezhen in China (HGDP)" 
+
+- Class: [Hezhen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0716) 
+
+- [Hezhen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0716) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Hezhen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0716) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Hezhen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0716) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+
+### Hezhen in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0737`
+
+#### Added
+- [Hezhen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0737) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Hezhen individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Hezhen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0737) [label](http://www.w3.org/2000/01/rdf-schema#label) "Hezhen in China (SGDP)" 
+
+- [Hezhen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0737) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Hezhen" 
+
+- Class: [Hezhen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0737) 
+
+- [Hezhen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0737) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Hezhen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0737) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Hezhen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0737) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
 
 
 ### Hill Nubian `http://purl.obolibrary.org/obo/AfPO_0000382`
@@ -9272,6 +10980,36 @@ from this region. This category includes individuals with known admixture of pri
 
 
 
+### Hui Chinese `http://purl.obolibrary.org/obo/HANCESTRO_0578`
+#### Removed
+- [Hui Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0578) [label](http://www.w3.org/2000/01/rdf-schema#label) "Hui Chinese" 
+
+#### Added
+- [Hui Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0578) [alternative_term](http://purl.obolibrary.org/obo/IAO_0000118) "Hui Chinese" 
+
+- [Hui Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0578) [label](http://www.w3.org/2000/01/rdf-schema#label) "Hui" 
+
+
+### Hungarian in Hungary (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0825`
+
+#### Added
+- [Hungarian in Hungary (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0825) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Hungarian individuals recruited in Hungary as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Hungarian in Hungary (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0825) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Hungarian" 
+
+- [Hungarian in Hungary (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0825) [label](http://www.w3.org/2000/01/rdf-schema#label) "Hungarian in Hungary (SGDP)" 
+
+- Class: [Hungarian in Hungary (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0825) 
+
+- [Hungarian in Hungary (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0825) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Hungary](http://dbpedia.org/resource/Hungary) 
+
+- [Hungarian in Hungary (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0825) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Hungarian in Hungary (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0825) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Hungarian](http://purl.obolibrary.org/obo/HANCESTRO_0368) 
+
+- [Hungarian in Hungary (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0825) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Hutterite `http://purl.obolibrary.org/obo/HANCESTRO_0315`
 #### Removed
 - [Hutterite](http://purl.obolibrary.org/obo/HANCESTRO_0315) SubClassOf [hasAncestryStatus](http://purl.obolibrary.org/obo/HANCESTRO_0301) only [genetically isolated ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0305) 
@@ -9359,6 +11097,26 @@ vin &ndash; Vinza"
 - AnnotationProperty: [IAO_0000234](http://purl.obolibrary.org/obo/IAO_0000234) 
 
 
+### Iberian populations in Spain `http://purl.obolibrary.org/obo/HANCESTRO_0768`
+
+#### Added
+- [Iberian populations in Spain](http://purl.obolibrary.org/obo/HANCESTRO_0768) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 162 samples from Iberian populations individuals recruited in Spain as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- [Iberian populations in Spain](http://purl.obolibrary.org/obo/HANCESTRO_0768) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "IBS" 
+
+- [Iberian populations in Spain](http://purl.obolibrary.org/obo/HANCESTRO_0768) [label](http://www.w3.org/2000/01/rdf-schema#label) "Iberian populations in Spain" 
+
+- [Iberian populations in Spain](http://purl.obolibrary.org/obo/HANCESTRO_0768) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Iberian" 
+
+- Class: [Iberian populations in Spain](http://purl.obolibrary.org/obo/HANCESTRO_0768) 
+
+- [Iberian populations in Spain](http://purl.obolibrary.org/obo/HANCESTRO_0768) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Iberian populations in Spain](http://purl.obolibrary.org/obo/HANCESTRO_0768) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Spain](http://dbpedia.org/resource/Spain) 
+
+- [Iberian populations in Spain](http://purl.obolibrary.org/obo/HANCESTRO_0768) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+
 ### Ibibio `http://purl.obolibrary.org/obo/AfPO_0000423`
 
 #### Added
@@ -9409,6 +11167,26 @@ vin &ndash; Vinza"
 - [Ibibio](http://purl.obolibrary.org/obo/AfPO_0000423) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
 
 - [Ibibio](http://purl.obolibrary.org/obo/AfPO_0000423) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Icelandic in Iceland (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0826`
+
+#### Added
+- [Icelandic in Iceland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0826) [label](http://www.w3.org/2000/01/rdf-schema#label) "Icelandic in Iceland (SGDP)" 
+
+- [Icelandic in Iceland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0826) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Icelandic individuals recruited in Iceland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Icelandic in Iceland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0826) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Icelandic" 
+
+- Class: [Icelandic in Iceland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0826) 
+
+- [Icelandic in Iceland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0826) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Icelandic in Iceland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0826) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Icelandic](http://purl.obolibrary.org/obo/HANCESTRO_0369) 
+
+- [Icelandic in Iceland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0826) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Icelandic in Iceland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0826) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Iceland](http://dbpedia.org/resource/Iceland) 
 
 
 ### Igbo `http://purl.obolibrary.org/obo/AfPO_0000087`
@@ -9468,6 +11246,24 @@ vin &ndash; Vinza"
 - [Igbo](http://purl.obolibrary.org/obo/AfPO_0000087) SubClassOf [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
 
 - [Igbo](http://purl.obolibrary.org/obo/AfPO_0000087) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
+
+
+### Igorot in Philippines (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0781`
+
+#### Added
+- [Igorot in Philippines (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0781) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Igorot individuals recruited in Philippines as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- [Igorot in Philippines (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0781) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Igorot" 
+
+- [Igorot in Philippines (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0781) [label](http://www.w3.org/2000/01/rdf-schema#label) "Igorot in Philippines (SGDP)" 
+
+- Class: [Igorot in Philippines (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0781) 
+
+- [Igorot in Philippines (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0781) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Philippines](http://dbpedia.org/resource/Philippines) 
+
+- [Igorot in Philippines (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0781) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+- [Igorot in Philippines (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0781) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Ijaw `http://purl.obolibrary.org/obo/AfPO_0000424`
@@ -9549,6 +11345,38 @@ vin &ndash; Vinza"
 - [Ijaw](http://purl.obolibrary.org/obo/AfPO_0000424) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
 
 
+### Indian Telugu in the UK `http://purl.obolibrary.org/obo/HANCESTRO_0806`
+
+#### Added
+- [Indian Telugu in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0806) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Telugu" 
+
+- [Indian Telugu in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0806) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 118 samples from Indian Telugu individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Indian Telugu in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0806) [label](http://www.w3.org/2000/01/rdf-schema#label) "Indian Telugu in the UK" 
+
+- [Indian Telugu in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0806) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ITU" 
+
+- Class: [Indian Telugu in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0806) 
+
+- [Indian Telugu in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0806) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Indian Telugu in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0806) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Indigenous Siberian `http://purl.obolibrary.org/obo/HANCESTRO_0845`
+
+#### Added
+- [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan."@en 
+
+- [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Indigenous peoples of Siberia"@en 
+
+- [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) [label](http://www.w3.org/2000/01/rdf-schema#label) "Indigenous Siberian" 
+
+- Class: [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) SubClassOf [ancestry category](http://purl.obolibrary.org/obo/HANCESTRO_0004) 
+
+
 ### Indigenous in North America `http://purl.obolibrary.org/obo/HANCESTRO_0610`
 
 #### Added
@@ -9579,6 +11407,62 @@ vin &ndash; Vinza"
 
 #### Added
 - [Inuit](http://purl.obolibrary.org/obo/HANCESTRO_0595) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Iranian in Iran (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0827`
+
+#### Added
+- [Iranian in Iran (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0827) [label](http://www.w3.org/2000/01/rdf-schema#label) "Iranian in Iran (SGDP)" 
+
+- [Iranian in Iran (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0827) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Iranian individuals recruited in Iran as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Iranian in Iran (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0827) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Iranian" 
+
+- Class: [Iranian in Iran (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0827) 
+
+- [Iranian in Iran (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0827) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Iran](http://dbpedia.org/resource/Iran) 
+
+- [Iranian in Iran (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0827) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Iranian](http://purl.obolibrary.org/obo/HANCESTRO_0438) 
+
+- [Iranian in Iran (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0827) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Iranian in Iran (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0827) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+
+### Iraqi Jew in Iraq (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0828`
+
+#### Added
+- [Iraqi Jew in Iraq (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0828) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Iraqi Jew" 
+
+- [Iraqi Jew in Iraq (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0828) [label](http://www.w3.org/2000/01/rdf-schema#label) "Iraqi Jew in Iraq (SGDP)" 
+
+- [Iraqi Jew in Iraq (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0828) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Iraqi Jew individuals recruited in Iraq as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Iraqi Jew in Iraq (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0828) 
+
+- [Iraqi Jew in Iraq (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0828) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Iraqi Jew in Iraq (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0828) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Iraqi Jew in Iraq (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0828) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Iraq](http://dbpedia.org/resource/Iraq) 
+
+
+### Irula in India (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0790`
+
+#### Added
+- [Irula in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0790) [label](http://www.w3.org/2000/01/rdf-schema#label) "Irula in India (SGDP)" 
+
+- [Irula in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0790) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Irula individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Irula in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0790) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Irula" 
+
+- Class: [Irula in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0790) 
+
+- [Irula in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0790) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Irula in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0790) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Irula in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0790) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [India](http://dbpedia.org/resource/India) 
 
 
 ### Isoko `http://purl.obolibrary.org/obo/AfPO_0000442`
@@ -9637,6 +11521,24 @@ vin &ndash; Vinza"
 #### Removed
 - [Italian founder](http://purl.obolibrary.org/obo/HANCESTRO_0559) SubClassOf [hasAncestryStatus](http://purl.obolibrary.org/obo/HANCESTRO_0301) only [genetically isolated ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0305) 
 
+
+
+### Itelman in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0695`
+
+#### Added
+- [Itelman in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0695) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Itelman individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Itelman in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0695) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Itelman" 
+
+- [Itelman in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0695) [label](http://www.w3.org/2000/01/rdf-schema#label) "Itelman in Russia (SGDP)" 
+
+- Class: [Itelman in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0695) 
+
+- [Itelman in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0695) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Itelman in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0695) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Itelman in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0695) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Itsekiri `http://purl.obolibrary.org/obo/AfPO_0000541`
@@ -9775,6 +11677,68 @@ vin &ndash; Vinza"
 - [Jakhanke](http://purl.obolibrary.org/obo/AfPO_0000550) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mali](http://dbpedia.org/resource/Mali) 
 
 - [Jakhanke](http://purl.obolibrary.org/obo/AfPO_0000550) SubClassOf [Mande Western](http://purl.obolibrary.org/obo/AfPO_0000425) 
+
+
+### Japanese in Japan (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0717`
+
+#### Added
+- [Japanese in Japan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0717) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Japanese" 
+
+- [Japanese in Japan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0717) [label](http://www.w3.org/2000/01/rdf-schema#label) "Japanese in Japan (HGDP)" 
+
+- [Japanese in Japan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0717) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 27 samples from Japanese individuals recruited in Japan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Japanese in Japan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0717) 
+
+- [Japanese in Japan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0717) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Japanese in Japan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0717) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Japanese](http://purl.obolibrary.org/obo/HANCESTRO_0019) 
+
+- [Japanese in Japan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0717) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Japan](http://dbpedia.org/resource/Japan) 
+
+- [Japanese in Japan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0717) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+
+### Japanese in Japan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0738`
+
+#### Added
+- [Japanese in Japan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0738) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Japanese" 
+
+- [Japanese in Japan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0738) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Japanese individuals recruited in Japan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Japanese in Japan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0738) [label](http://www.w3.org/2000/01/rdf-schema#label) "Japanese in Japan (SGDP)" 
+
+- Class: [Japanese in Japan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0738) 
+
+- [Japanese in Japan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0738) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Japanese in Japan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0738) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Japanese in Japan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0738) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Japanese](http://purl.obolibrary.org/obo/HANCESTRO_0019) 
+
+- [Japanese in Japan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0738) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Japan](http://dbpedia.org/resource/Japan) 
+
+
+### Japanese in Tokyo, Japan `http://purl.obolibrary.org/obo/HANCESTRO_0754`
+
+#### Added
+- [Japanese in Tokyo, Japan](http://purl.obolibrary.org/obo/HANCESTRO_0754) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Japanese" 
+
+- [Japanese in Tokyo, Japan](http://purl.obolibrary.org/obo/HANCESTRO_0754) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "JPT" 
+
+- [Japanese in Tokyo, Japan](http://purl.obolibrary.org/obo/HANCESTRO_0754) [label](http://www.w3.org/2000/01/rdf-schema#label) "Japanese in Tokyo, Japan" 
+
+- [Japanese in Tokyo, Japan](http://purl.obolibrary.org/obo/HANCESTRO_0754) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 105 samples from Japanese individuals recruited in Tokyo, Japan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Japanese in Tokyo, Japan](http://purl.obolibrary.org/obo/HANCESTRO_0754) 
+
+- [Japanese in Tokyo, Japan](http://purl.obolibrary.org/obo/HANCESTRO_0754) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Japanese in Tokyo, Japan](http://purl.obolibrary.org/obo/HANCESTRO_0754) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Japan](http://dbpedia.org/resource/Japan) 
+
+- [Japanese in Tokyo, Japan](http://purl.obolibrary.org/obo/HANCESTRO_0754) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Japanese](http://purl.obolibrary.org/obo/HANCESTRO_0019) 
+
+- [Japanese in Tokyo, Japan](http://purl.obolibrary.org/obo/HANCESTRO_0754) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Jarawa `http://purl.obolibrary.org/obo/AfPO_0000224`
@@ -9973,6 +11937,46 @@ vin &ndash; Vinza"
 - [Jola](http://purl.obolibrary.org/obo/AfPO_0000205) SubClassOf [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
 
 
+### Jordanian in Jordan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0829`
+
+#### Added
+- [Jordanian in Jordan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0829) [label](http://www.w3.org/2000/01/rdf-schema#label) "Jordanian in Jordan (SGDP)" 
+
+- [Jordanian in Jordan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0829) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Jordanian individuals recruited in Jordan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Jordanian in Jordan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0829) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Jordanian" 
+
+- Class: [Jordanian in Jordan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0829) 
+
+- [Jordanian in Jordan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0829) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Jordanian](http://purl.obolibrary.org/obo/HANCESTRO_0441) 
+
+- [Jordanian in Jordan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0829) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Jordanian in Jordan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0829) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Jordan](http://dbpedia.org/resource/Jordan) 
+
+- [Jordanian in Jordan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0829) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Ju|'hoan North in Namibia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0647`
+
+#### Added
+- [Ju|'hoan North in Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0647) [label](http://www.w3.org/2000/01/rdf-schema#label) "Ju|'hoan North in Namibia (SGDP)" 
+
+- [Ju|'hoan North in Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0647) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 4 samples from Ju|'hoan North individuals recruited in Namibia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Ju|'hoan North in Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0647) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Ju|'hoan North" 
+
+- Class: [Ju|'hoan North in Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0647) 
+
+- [Ju|'hoan North in Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0647) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Ju|'hoan North in Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0647) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Namibia](http://dbpedia.org/resource/Namibia) 
+
+- [Ju|'hoan North in Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0647) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Ju|'hoan North in Namibia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0647) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [!Kung](http://purl.obolibrary.org/obo/AfPO_0000263) 
+
+
 ### Kabye `http://purl.obolibrary.org/obo/AfPO_0000544`
 
 #### Added
@@ -10091,6 +12095,42 @@ vin &ndash; Vinza"
 - Class: [Kalanga](http://purl.obolibrary.org/obo/AfPO_0000348) 
 
 - [Kalanga](http://purl.obolibrary.org/obo/AfPO_0000348) SubClassOf [Shona](http://purl.obolibrary.org/obo/AfPO_0000342) 
+
+
+### Kalash in Pakistan (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0707`
+
+#### Added
+- [Kalash in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0707) [label](http://www.w3.org/2000/01/rdf-schema#label) "Kalash in Pakistan (HGDP)" 
+
+- [Kalash in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0707) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Kalash" 
+
+- [Kalash in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0707) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 21 samples from Kalash individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." 
+
+- Class: [Kalash in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0707) 
+
+- [Kalash in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0707) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Kalash in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0707) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Kalash in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0707) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+
+### Kalash in Pakistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0791`
+
+#### Added
+- [Kalash in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0791) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Kalash individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Kalash in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0791) [label](http://www.w3.org/2000/01/rdf-schema#label) "Kalash in Pakistan (SGDP)" 
+
+- [Kalash in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0791) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Kalash" 
+
+- Class: [Kalash in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0791) 
+
+- [Kalash in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0791) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Kalash in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0791) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Kalash in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0791) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
 
 
 ### Kalenjin `http://purl.obolibrary.org/obo/AfPO_0000199`
@@ -10409,6 +12449,64 @@ HV"
 - [Kanuri](http://purl.obolibrary.org/obo/AfPO_0000278) SubClassOf [Nilotic Western](http://purl.obolibrary.org/obo/AfPO_0000270) 
 
 - [Kanuri](http://purl.obolibrary.org/obo/AfPO_0000278) SubClassOf [Nilotic Central](http://purl.obolibrary.org/obo/AfPO_0000265) 
+
+
+### Kapu in India (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0792`
+
+#### Added
+- [Kapu in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0792) [label](http://www.w3.org/2000/01/rdf-schema#label) "Kapu in India (SGDP)" 
+
+- [Kapu in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0792) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Kapu" 
+
+- [Kapu in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0792) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Kapu individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- Class: [Kapu in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0792) 
+
+- [Kapu in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0792) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Kapu in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0792) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [India](http://dbpedia.org/resource/India) 
+
+- [Kapu in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0792) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Karitiana in Brazil (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0670`
+
+#### Added
+- [Karitiana in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0670) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 9 samples from Karitiana individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Karitiana in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0670) [label](http://www.w3.org/2000/01/rdf-schema#label) "Karitiana in Brazil (HGDP)" 
+
+- [Karitiana in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0670) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Karitiana" 
+
+- Class: [Karitiana in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0670) 
+
+- [Karitiana in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0670) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+- [Karitiana in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0670) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Karitiana in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0670) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Brazil](http://dbpedia.org/resource/Brazil) 
+
+- [Karitiana in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0670) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+
+### Karitiana in Brazil (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0675`
+
+#### Added
+- [Karitiana in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0675) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Karitiana individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Karitiana in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0675) [label](http://www.w3.org/2000/01/rdf-schema#label) "Karitiana in Brazil (SGDP)" 
+
+- [Karitiana in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0675) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Karitiana" 
+
+- Class: [Karitiana in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0675) 
+
+- [Karitiana in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0675) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Karitiana in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0675) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Karitiana in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0675) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+- [Karitiana in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0675) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Brazil](http://dbpedia.org/resource/Brazil) 
 
 
 ### Karonica `http://purl.obolibrary.org/obo/AfPO_0000580`
@@ -10789,6 +12887,44 @@ R1b"
 - [Khoisan South](http://purl.obolibrary.org/obo/AfPO_0000333) SubClassOf [Khoekhoe](http://purl.obolibrary.org/obo/AfPO_0000331) 
 
 
+### Khomani San in South Africa (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0648`
+
+#### Added
+- [Khomani San in South Africa (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0648) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Khomani San" 
+
+- [Khomani San in South Africa (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0648) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Khomani San individuals recruited in South Africa as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Khomani San in South Africa (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0648) [label](http://www.w3.org/2000/01/rdf-schema#label) "Khomani San in South Africa (SGDP)" 
+
+- Class: [Khomani San in South Africa (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0648) 
+
+- [Khomani San in South Africa (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0648) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Khomani San in South Africa (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0648) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [South Africa](http://dbpedia.org/resource/South_Africa) 
+
+- [Khomani San in South Africa (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0648) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Khomani San in South Africa (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0648) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [San](http://purl.obolibrary.org/obo/AfPO_0000332) 
+
+
+### Khonda Dora in India (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0793`
+
+#### Added
+- [Khonda Dora in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0793) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Khonda Dora individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Khonda Dora in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0793) [label](http://www.w3.org/2000/01/rdf-schema#label) "Khonda Dora in India (SGDP)" 
+
+- [Khonda Dora in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0793) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Khonda Dora" 
+
+- Class: [Khonda Dora in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0793) 
+
+- [Khonda Dora in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0793) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [India](http://dbpedia.org/resource/India) 
+
+- [Khonda Dora in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0793) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Khonda Dora in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0793) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Kiga `http://purl.obolibrary.org/obo/AfPO_0000488`
 
 #### Added
@@ -10932,6 +13068,48 @@ E1b1b"
 - Class: [Kikuyu](http://purl.obolibrary.org/obo/AfPO_0000088) 
 
 - [Kikuyu](http://purl.obolibrary.org/obo/AfPO_0000088) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
+
+
+### Kinh in Ho Chi Minh City, Vietnam `http://purl.obolibrary.org/obo/HANCESTRO_0755`
+
+#### Added
+- [Kinh in Ho Chi Minh City, Vietnam](http://purl.obolibrary.org/obo/HANCESTRO_0755) [label](http://www.w3.org/2000/01/rdf-schema#label) "Kinh in Ho Chi Minh City, Vietnam" 
+
+- [Kinh in Ho Chi Minh City, Vietnam](http://purl.obolibrary.org/obo/HANCESTRO_0755) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 124 samples from Kinh individuals recruited in Ho Chi Minh City, Vietnam as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Kinh in Ho Chi Minh City, Vietnam](http://purl.obolibrary.org/obo/HANCESTRO_0755) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Kinh Vietnamese" 
+
+- [Kinh in Ho Chi Minh City, Vietnam](http://purl.obolibrary.org/obo/HANCESTRO_0755) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "KHV" 
+
+- Class: [Kinh in Ho Chi Minh City, Vietnam](http://purl.obolibrary.org/obo/HANCESTRO_0755) 
+
+- [Kinh in Ho Chi Minh City, Vietnam](http://purl.obolibrary.org/obo/HANCESTRO_0755) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Kinh in Ho Chi Minh City, Vietnam](http://purl.obolibrary.org/obo/HANCESTRO_0755) SubClassOf [South East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0007) 
+
+- [Kinh in Ho Chi Minh City, Vietnam](http://purl.obolibrary.org/obo/HANCESTRO_0755) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Vietnam](http://dbpedia.org/resource/Vietnam) 
+
+- [Kinh in Ho Chi Minh City, Vietnam](http://purl.obolibrary.org/obo/HANCESTRO_0755) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Kinh in Vietnam (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0739`
+
+#### Added
+- [Kinh in Vietnam (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0739) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Kinh" 
+
+- [Kinh in Vietnam (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0739) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Kinh individuals recruited in Vietnam as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Kinh in Vietnam (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0739) [label](http://www.w3.org/2000/01/rdf-schema#label) "Kinh in Vietnam (SGDP)" 
+
+- Class: [Kinh in Vietnam (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0739) 
+
+- [Kinh in Vietnam (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0739) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Kinh in Vietnam (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0739) SubClassOf [South East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0007) 
+
+- [Kinh in Vietnam (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0739) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Vietnam](http://dbpedia.org/resource/Vietnam) 
+
+- [Kinh in Vietnam (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0739) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Kisii `http://purl.obolibrary.org/obo/AfPO_0000404`
@@ -11433,6 +13611,26 @@ yom &ndash; Yombe"
 
 #### Added
 - [Korean](http://purl.obolibrary.org/obo/HANCESTRO_0022) SubClassOf [isDemonymOf](http://purl.obolibrary.org/obo/HANCESTRO_0330) some [North Korea](http://dbpedia.org/resource/North_Korea) 
+
+
+### Korean in Korea (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0740`
+
+#### Added
+- [Korean in Korea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0740) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Korean" 
+
+- [Korean in Korea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0740) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Korean individuals recruited in Korea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Korean in Korea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0740) [label](http://www.w3.org/2000/01/rdf-schema#label) "Korean in Korea (SGDP)" 
+
+- Class: [Korean in Korea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0740) 
+
+- [Korean in Korea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0740) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Korean](http://purl.obolibrary.org/obo/HANCESTRO_0022) 
+
+- [Korean in Korea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0740) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [South Korea](http://dbpedia.org/resource/South_Korea) 
+
+- [Korean in Korea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0740) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Korean in Korea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0740) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Kosraen `http://purl.obolibrary.org/obo/HANCESTRO_0572`
@@ -12265,6 +14463,24 @@ kzc &ndash; Bondoukou"
 - [Kusasi](http://purl.obolibrary.org/obo/AfPO_0000148) SubClassOf [Gurunsi](http://purl.obolibrary.org/obo/AfPO_0000150) 
 
 
+### Kusunda in Nepal (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0794`
+
+#### Added
+- [Kusunda in Nepal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0794) [label](http://www.w3.org/2000/01/rdf-schema#label) "Kusunda in Nepal (SGDP)" 
+
+- [Kusunda in Nepal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0794) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Kusunda" 
+
+- [Kusunda in Nepal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0794) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Kusunda individuals recruited in Nepal as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- Class: [Kusunda in Nepal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0794) 
+
+- [Kusunda in Nepal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0794) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nepal](http://dbpedia.org/resource/Nepal) 
+
+- [Kusunda in Nepal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0794) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Kusunda in Nepal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0794) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Kwama `http://purl.obolibrary.org/obo/AfPO_0000375`
 
 #### Added
@@ -12413,6 +14629,60 @@ kzc &ndash; Bondoukou"
 - [Kwatay](http://purl.obolibrary.org/obo/AfPO_0000288) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Senegal](http://dbpedia.org/resource/Senegal) 
 
 - [Kwatay](http://purl.obolibrary.org/obo/AfPO_0000288) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Kyrgyz in Kyrgyzystan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0696`
+
+#### Added
+- [Kyrgyz in Kyrgyzystan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0696) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Kyrgyz" 
+
+- [Kyrgyz in Kyrgyzystan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0696) [label](http://www.w3.org/2000/01/rdf-schema#label) "Kyrgyz in Kyrgyzystan (SGDP)" 
+
+- [Kyrgyz in Kyrgyzystan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0696) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Kyrgyz individuals recruited in Kyrgyzystan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- Class: [Kyrgyz in Kyrgyzystan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0696) 
+
+- [Kyrgyz in Kyrgyzystan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0696) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Kyrgyz in Kyrgyzystan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0696) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Kyrgyzstan](http://dbpedia.org/resource/Kyrgyzstan) 
+
+- [Kyrgyz in Kyrgyzystan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0696) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Lahu in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0718`
+
+#### Added
+- [Lahu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0718) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Lahu" 
+
+- [Lahu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0718) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lahu in China (HGDP)" 
+
+- [Lahu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0718) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 6 samples from Lahu individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Lahu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0718) 
+
+- [Lahu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0718) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Lahu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0718) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Lahu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0718) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+
+### Lahu in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0741`
+
+#### Added
+- [Lahu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0741) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Lahu" 
+
+- [Lahu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0741) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lahu in China (SGDP)" 
+
+- [Lahu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0741) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Lahu individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Lahu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0741) 
+
+- [Lahu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0741) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Lahu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0741) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Lahu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0741) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Lambya `http://purl.obolibrary.org/obo/AfPO_0000489`
@@ -12650,6 +14920,28 @@ kzc &ndash; Bondoukou"
 - [Lesotho](http://dbpedia.org/resource/Lesotho) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Sotho](http://purl.obolibrary.org/obo/AfPO_0000343) 
 
 - [Lesotho](http://dbpedia.org/resource/Lesotho) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Tswana](http://purl.obolibrary.org/obo/AfPO_0000142) 
+
+
+### Lezgin in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0830`
+
+#### Added
+- [Lezgin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0830) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Lezgin" 
+
+- [Lezgin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0830) [label](http://www.w3.org/2000/01/rdf-schema#label) "Lezgin in Russia (SGDP)" 
+
+- [Lezgin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0830) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Lezgin individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Lezgin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0830) 
+
+- [Lezgin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0830) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Lezgin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0830) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Lezgin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0830) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Lezgin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0830) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Lezgin in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0830) SubClassOf [Central Asian](http://purl.obolibrary.org/obo/HANCESTRO_0286) 
 
 
 ### Liberia `http://dbpedia.org/resource/Liberia`
@@ -13415,6 +15707,48 @@ sng"
 - [Luhya](http://purl.obolibrary.org/obo/HANCESTRO_0592) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 
+### Luhya in Kenya (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0649`
+
+#### Added
+- [Luhya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0649) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Luhya" 
+
+- [Luhya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0649) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Luhya individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Luhya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0649) [label](http://www.w3.org/2000/01/rdf-schema#label) "Luhya in Kenya (SGDP)" 
+
+- Class: [Luhya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0649) 
+
+- [Luhya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0649) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Luhya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0649) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Luhya](http://purl.obolibrary.org/obo/AfPO_0000405) 
+
+- [Luhya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0649) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Luhya in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0649) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Kenya](http://dbpedia.org/resource/Kenya) 
+
+
+### Luhya in Webuye, Kenya `http://purl.obolibrary.org/obo/HANCESTRO_0666`
+
+#### Added
+- [Luhya in Webuye, Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0666) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "LWK" 
+
+- [Luhya in Webuye, Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0666) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Luhya" 
+
+- [Luhya in Webuye, Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0666) [label](http://www.w3.org/2000/01/rdf-schema#label) "Luhya in Webuye, Kenya" 
+
+- [Luhya in Webuye, Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0666) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 117 samples from Luhya individuals recruited in Webuye, Kenya as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Luhya in Webuye, Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0666) 
+
+- [Luhya in Webuye, Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0666) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Luhya in Webuye, Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0666) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Kenya](http://dbpedia.org/resource/Kenya) 
+
+- [Luhya in Webuye, Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0666) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Luhya](http://purl.obolibrary.org/obo/AfPO_0000405) 
+
+- [Luhya in Webuye, Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0666) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Lunda `http://purl.obolibrary.org/obo/AfPO_0000102`
 
 #### Added
@@ -13494,6 +15828,26 @@ B"
 - [Luo](http://purl.obolibrary.org/obo/AfPO_0000198) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Uganda](http://dbpedia.org/resource/Uganda) 
 
 - [Luo](http://purl.obolibrary.org/obo/AfPO_0000198) SubClassOf [Nilotic Eastern](http://purl.obolibrary.org/obo/AfPO_0000371) 
+
+
+### Luo in Kenya (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0650`
+
+#### Added
+- [Luo in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0650) [label](http://www.w3.org/2000/01/rdf-schema#label) "Luo in Kenya (SGDP)" 
+
+- [Luo in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0650) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Luo individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Luo in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0650) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Luo" 
+
+- Class: [Luo in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0650) 
+
+- [Luo in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0650) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Kenya](http://dbpedia.org/resource/Kenya) 
+
+- [Luo in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0650) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Luo in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0650) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Luo](http://purl.obolibrary.org/obo/AfPO_0000198) 
+
+- [Luo in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0650) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
 
 
 ### Luvale `http://purl.obolibrary.org/obo/AfPO_0000527`
@@ -13667,6 +16021,24 @@ L2"
 - [Madagascar](http://dbpedia.org/resource/Madagascar) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Mahafaly](http://purl.obolibrary.org/obo/AfPO_0000257) 
 
 - [Madagascar](http://dbpedia.org/resource/Madagascar) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Merina](http://purl.obolibrary.org/obo/AfPO_0000253) 
+
+
+### Madiga in India (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0795`
+
+#### Added
+- [Madiga in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0795) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Madiga individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Madiga in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0795) [label](http://www.w3.org/2000/01/rdf-schema#label) "Madiga in India (SGDP)" 
+
+- [Madiga in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0795) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Madiga" 
+
+- Class: [Madiga in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0795) 
+
+- [Madiga in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0795) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Madiga in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0795) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Madiga in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0795) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [India](http://dbpedia.org/resource/India) 
 
 
 ### Maghrebi `http://purl.obolibrary.org/obo/AfPO_0000367`
@@ -13905,6 +16277,42 @@ V"
 - [Makonde](http://purl.obolibrary.org/obo/AfPO_0000406) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
 
 
+### Makrani in Pakistan (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0708`
+
+#### Added
+- [Makrani in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0708) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Makrani" 
+
+- [Makrani in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0708) [label](http://www.w3.org/2000/01/rdf-schema#label) "Makrani in Pakistan (HGDP)" 
+
+- [Makrani in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0708) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 23 samples from Makrani individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." 
+
+- Class: [Makrani in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0708) 
+
+- [Makrani in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0708) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Makrani in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0708) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Makrani in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0708) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Makrani in Pakistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0796`
+
+#### Added
+- [Makrani in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0796) [label](http://www.w3.org/2000/01/rdf-schema#label) "Makrani in Pakistan (SGDP)" 
+
+- [Makrani in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0796) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Makrani individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Makrani in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0796) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Makrani" 
+
+- Class: [Makrani in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0796) 
+
+- [Makrani in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0796) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Makrani in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0796) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Makrani in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0796) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Makua `http://purl.obolibrary.org/obo/AfPO_0000339`
 
 #### Added
@@ -14126,6 +16534,14 @@ J"
 - [Malawi](http://dbpedia.org/resource/Malawi) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Yao](http://purl.obolibrary.org/obo/AfPO_0000238) 
 
 
+### Malawian `http://purl.obolibrary.org/obo/HANCESTRO_0540`
+#### Removed
+- [Malawian](http://purl.obolibrary.org/obo/HANCESTRO_0540) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
+
+#### Added
+- [Malawian](http://purl.obolibrary.org/obo/HANCESTRO_0540) SubClassOf [undefined ancestry population](http://purl.obolibrary.org/obo/HANCESTRO_0566) 
+
+
 ### Malbar `http://purl.obolibrary.org/obo/AfPO_0000259`
 
 #### Added
@@ -14310,6 +16726,46 @@ J"
 - [Mande Western](http://purl.obolibrary.org/obo/AfPO_0000425) SubClassOf [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
 
 - [Mande Western](http://purl.obolibrary.org/obo/AfPO_0000425) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Guinea](http://dbpedia.org/resource/Guinea) 
+
+
+### Mandenka in Senegal (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0636`
+
+#### Added
+- [Mandenka in Senegal (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0636) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mandenka in Senegal (HGDP)" 
+
+- [Mandenka in Senegal (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0636) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 20 samples from Mandenka individuals recruited in Senegal as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Mandenka in Senegal (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0636) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mandenka" 
+
+- Class: [Mandenka in Senegal (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0636) 
+
+- [Mandenka in Senegal (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0636) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mandinka](http://purl.obolibrary.org/obo/AfPO_0000430) 
+
+- [Mandenka in Senegal (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0636) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mandenka in Senegal (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0636) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Mandenka in Senegal (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0636) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Senegal](http://dbpedia.org/resource/Senegal) 
+
+
+### Mandenka in Senegal (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0651`
+
+#### Added
+- [Mandenka in Senegal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0651) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mandenka" 
+
+- [Mandenka in Senegal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0651) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Mandenka individuals recruited in Senegal as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Mandenka in Senegal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0651) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mandenka in Senegal (SGDP)" 
+
+- Class: [Mandenka in Senegal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0651) 
+
+- [Mandenka in Senegal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0651) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mandinka](http://purl.obolibrary.org/obo/AfPO_0000430) 
+
+- [Mandenka in Senegal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0651) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mandenka in Senegal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0651) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Senegal](http://dbpedia.org/resource/Senegal) 
+
+- [Mandenka in Senegal (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0651) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
 
 
 ### Mandinka `http://purl.obolibrary.org/obo/AfPO_0000430`
@@ -14754,6 +17210,24 @@ E1b1b"
 - [Mano](http://purl.obolibrary.org/obo/AfPO_0000555) SubClassOf [Mande Western](http://purl.obolibrary.org/obo/AfPO_0000425) 
 
 
+### Mansi in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0697`
+
+#### Added
+- [Mansi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0697) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mansi in Russia (SGDP)" 
+
+- [Mansi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0697) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mansi" 
+
+- [Mansi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0697) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Mansi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- Class: [Mansi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0697) 
+
+- [Mansi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0697) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mansi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0697) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Mansi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0697) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+
 ### Maore `http://purl.obolibrary.org/obo/AfPO_0000576`
 
 #### Added
@@ -14796,6 +17270,24 @@ E1b1b"
 - [Maore](http://purl.obolibrary.org/obo/AfPO_0000576) SubClassOf [Swahili](http://purl.obolibrary.org/obo/AfPO_0000408) 
 
 
+### Maori in New Zealand (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0782`
+
+#### Added
+- [Maori in New Zealand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0782) [label](http://www.w3.org/2000/01/rdf-schema#label) "Maori in New Zealand (SGDP)" 
+
+- [Maori in New Zealand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0782) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Maori" 
+
+- [Maori in New Zealand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0782) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Maori individuals recruited in New Zealand as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- Class: [Maori in New Zealand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0782) 
+
+- [Maori in New Zealand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0782) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+- [Maori in New Zealand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0782) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [New Zealand](http://dbpedia.org/resource/New_Zealand) 
+
+- [Maori in New Zealand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0782) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Mapuche `http://purl.obolibrary.org/obo/HANCESTRO_0626`
 
 #### Added
@@ -14804,6 +17296,8 @@ E1b1b"
 - [Mapuche](http://purl.obolibrary.org/obo/HANCESTRO_0626) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mapuche"@en 
 
 - Class: [Mapuche](http://purl.obolibrary.org/obo/HANCESTRO_0626) 
+
+- [Mapuche](http://purl.obolibrary.org/obo/HANCESTRO_0626) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 - [Mapuche](http://purl.obolibrary.org/obo/HANCESTRO_0626) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
 
@@ -15146,6 +17640,28 @@ tach1242  Tachoni"
 - [Masaba](http://purl.obolibrary.org/obo/AfPO_0000490) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
 
 
+### Masai in Kenya `http://purl.obolibrary.org/obo/HANCESTRO_0652`
+
+#### Added
+- [Masai in Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0652) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Masai individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Masai in Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MKK" 
+
+- [Masai in Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Masai" 
+
+- [Masai in Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0652) [label](http://www.w3.org/2000/01/rdf-schema#label) "Masai in Kenya" 
+
+- Class: [Masai in Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0652) 
+
+- [Masai in Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0652) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Masai in Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0652) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Masai in Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0652) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Maasai](http://purl.obolibrary.org/obo/AfPO_0000056) 
+
+- [Masai in Kenya](http://purl.obolibrary.org/obo/HANCESTRO_0652) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Kenya](http://dbpedia.org/resource/Kenya) 
+
+
 ### Masalit `http://purl.obolibrary.org/obo/AfPO_0000080`
 
 #### Added
@@ -15391,6 +17907,52 @@ V"
 
 - [Maya](http://purl.obolibrary.org/obo/HANCESTRO_0614) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
 
+- [Maya](http://purl.obolibrary.org/obo/HANCESTRO_0614) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Maya in Mexico (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0671`
+
+#### Added
+- [Maya in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0671) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Maya" 
+
+- [Maya in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0671) [label](http://www.w3.org/2000/01/rdf-schema#label) "Maya in Mexico (HGDP)" 
+
+- [Maya in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0671) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 21 samples from Maya individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- Class: [Maya in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0671) 
+
+- [Maya in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0671) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mexico](http://dbpedia.org/resource/Mexico) 
+
+- [Maya in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0671) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Maya](http://purl.obolibrary.org/obo/HANCESTRO_0614) 
+
+- [Maya in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0671) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Maya in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0671) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Maya in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0671) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+
+### Mayan in Mexico (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0676`
+
+#### Added
+- [Mayan in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0676) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Mayan individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Mayan in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0676) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mayan in Mexico (SGDP)" 
+
+- [Mayan in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0676) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mayan" 
+
+- Class: [Mayan in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0676) 
+
+- [Mayan in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0676) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mayan in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0676) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Mayan in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0676) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Mayan in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0676) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mexico](http://dbpedia.org/resource/Mexico) 
+
+- [Mayan in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0676) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Maya](http://purl.obolibrary.org/obo/HANCESTRO_0614) 
+
 
 ### Mayogo `http://purl.obolibrary.org/obo/AfPO_0000268`
 
@@ -15468,6 +18030,8 @@ V"
 - [Mazateco](http://purl.obolibrary.org/obo/HANCESTRO_0616) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mazateco"@en 
 
 - Class: [Mazateco](http://purl.obolibrary.org/obo/HANCESTRO_0616) 
+
+- [Mazateco](http://purl.obolibrary.org/obo/HANCESTRO_0616) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 - [Mazateco](http://purl.obolibrary.org/obo/HANCESTRO_0616) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
 
@@ -15720,6 +18284,46 @@ yom &ndash; Yombe"
 - [Mbuti](http://purl.obolibrary.org/obo/AfPO_0000284) SubClassOf [Pygmy Central](http://purl.obolibrary.org/obo/AfPO_0000281) 
 
 
+### Mbuti in Congo (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0653`
+
+#### Added
+- [Mbuti in Congo (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0653) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mbuti in Congo (SGDP)" 
+
+- [Mbuti in Congo (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0653) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mbuti" 
+
+- [Mbuti in Congo (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0653) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 4 samples from Mbuti individuals recruited in Congo as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Mbuti in Congo (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0653) 
+
+- [Mbuti in Congo (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0653) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mbuti in Congo (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0653) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Mbuti in Congo (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0653) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mbuti](http://purl.obolibrary.org/obo/AfPO_0000284) 
+
+- [Mbuti in Congo (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0653) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Democratic Republic of the Congo](http://dbpedia.org/resource/Democratic_Republic_of_the_Congo) 
+
+
+### Mbuti in Democratic Republic of Congo (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0637`
+
+#### Added
+- [Mbuti in Democratic Republic of Congo (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0637) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 13 samples from Mbuti individuals recruited in Democratic Republic of Congo as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African. Samples from this population were used in data collections  for HGDP Transcriptome." 
+
+- [Mbuti in Democratic Republic of Congo (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0637) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mbuti in Democratic Republic of Congo (HGDP)" 
+
+- [Mbuti in Democratic Republic of Congo (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mbuti" 
+
+- Class: [Mbuti in Democratic Republic of Congo (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0637) 
+
+- [Mbuti in Democratic Republic of Congo (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0637) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Democratic Republic of the Congo](http://dbpedia.org/resource/Democratic_Republic_of_the_Congo) 
+
+- [Mbuti in Democratic Republic of Congo (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0637) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Mbuti in Democratic Republic of Congo (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0637) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mbuti in Democratic Republic of Congo (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0637) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mbuti](http://purl.obolibrary.org/obo/AfPO_0000284) 
+
+
 ### Mende `http://purl.obolibrary.org/obo/HANCESTRO_0594`
 #### Removed
 - [Mende](http://purl.obolibrary.org/obo/HANCESTRO_0594) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mende"@en 
@@ -15807,6 +18411,48 @@ yom &ndash; Yombe"
 - [Mende](http://purl.obolibrary.org/obo/AfPO_0000432) SubClassOf [Mande Western](http://purl.obolibrary.org/obo/AfPO_0000425) 
 
 - [Mende](http://purl.obolibrary.org/obo/AfPO_0000432) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Sierra Leone](http://dbpedia.org/resource/Sierra_Leone) 
+
+
+### Mende in Sierra Leone `http://purl.obolibrary.org/obo/HANCESTRO_0667`
+
+#### Added
+- [Mende in Sierra Leone](http://purl.obolibrary.org/obo/HANCESTRO_0667) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mende in Sierra Leone" 
+
+- [Mende in Sierra Leone](http://purl.obolibrary.org/obo/HANCESTRO_0667) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 129 samples from Mende individuals recruited in Sierra Leone as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Mende in Sierra Leone](http://purl.obolibrary.org/obo/HANCESTRO_0667) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mende" 
+
+- [Mende in Sierra Leone](http://purl.obolibrary.org/obo/HANCESTRO_0667) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MSL" 
+
+- Class: [Mende in Sierra Leone](http://purl.obolibrary.org/obo/HANCESTRO_0667) 
+
+- [Mende in Sierra Leone](http://purl.obolibrary.org/obo/HANCESTRO_0667) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mende in Sierra Leone](http://purl.obolibrary.org/obo/HANCESTRO_0667) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mende](http://purl.obolibrary.org/obo/AfPO_0000432) 
+
+- [Mende in Sierra Leone](http://purl.obolibrary.org/obo/HANCESTRO_0667) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Mende in Sierra Leone](http://purl.obolibrary.org/obo/HANCESTRO_0667) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Sierra Leone](http://dbpedia.org/resource/Sierra_Leone) 
+
+
+### Mende in Sierra Leone (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0654`
+
+#### Added
+- [Mende in Sierra Leone (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0654) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mende" 
+
+- [Mende in Sierra Leone (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0654) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mende in Sierra Leone (SGDP)" 
+
+- [Mende in Sierra Leone (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0654) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Mende individuals recruited in Sierra Leone as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Mende in Sierra Leone (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0654) 
+
+- [Mende in Sierra Leone (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0654) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mende](http://purl.obolibrary.org/obo/AfPO_0000432) 
+
+- [Mende in Sierra Leone (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0654) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Mende in Sierra Leone (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0654) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mende in Sierra Leone (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0654) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Sierra Leone](http://dbpedia.org/resource/Sierra_Leone) 
 
 
 ### Merina `http://purl.obolibrary.org/obo/AfPO_0000253`
@@ -15935,6 +18581,64 @@ yom &ndash; Yombe"
 - Class: [Messiria](http://purl.obolibrary.org/obo/AfPO_0000213) 
 
 - [Messiria](http://purl.obolibrary.org/obo/AfPO_0000213) SubClassOf [Baggara](http://purl.obolibrary.org/obo/AfPO_0000305) 
+
+
+### Mexican Ancestry in Los Angeles, California `http://purl.obolibrary.org/obo/HANCESTRO_0685`
+
+#### Added
+- [Mexican Ancestry in Los Angeles, California](http://purl.obolibrary.org/obo/HANCESTRO_0685) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 107 samples from Mexican Ancestry individuals recruited in Los Angeles, California as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Mexican Ancestry in Los Angeles, California](http://purl.obolibrary.org/obo/HANCESTRO_0685) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mexican Ancestry in Los Angeles, California" 
+
+- [Mexican Ancestry in Los Angeles, California](http://purl.obolibrary.org/obo/HANCESTRO_0685) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MXL" 
+
+- [Mexican Ancestry in Los Angeles, California](http://purl.obolibrary.org/obo/HANCESTRO_0685) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mexican Ancestry" 
+
+- Class: [Mexican Ancestry in Los Angeles, California](http://purl.obolibrary.org/obo/HANCESTRO_0685) 
+
+- [Mexican Ancestry in Los Angeles, California](http://purl.obolibrary.org/obo/HANCESTRO_0685) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [United States](http://dbpedia.org/resource/United_States) 
+
+- [Mexican Ancestry in Los Angeles, California](http://purl.obolibrary.org/obo/HANCESTRO_0685) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mexican Ancestry in Los Angeles, California](http://purl.obolibrary.org/obo/HANCESTRO_0685) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Mexican Ancestry in Los Angeles, California](http://purl.obolibrary.org/obo/HANCESTRO_0685) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mexican](http://purl.obolibrary.org/obo/HANCESTRO_0415) 
+
+
+### Miao in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0719`
+
+#### Added
+- [Miao in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0719) [label](http://www.w3.org/2000/01/rdf-schema#label) "Miao in China (HGDP)" 
+
+- [Miao in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0719) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Miao" 
+
+- [Miao in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0719) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 8 samples from Miao individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Miao in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0719) 
+
+- [Miao in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0719) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Miao in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0719) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Miao in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0719) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+
+### Miao in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0742`
+
+#### Added
+- [Miao in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0742) [label](http://www.w3.org/2000/01/rdf-schema#label) "Miao in China (SGDP)" 
+
+- [Miao in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0742) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Miao individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Miao in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0742) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Miao" 
+
+- Class: [Miao in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0742) 
+
+- [Miao in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0742) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Miao in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0742) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Miao in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0742) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
 
 
 ### Mijikenda `http://purl.obolibrary.org/obo/AfPO_0000127`
@@ -16104,6 +18808,48 @@ seg &ndash; Segeju"
 - [Minianka](http://purl.obolibrary.org/obo/AfPO_0000121) SubClassOf [Senufo](http://purl.obolibrary.org/obo/AfPO_0000201) 
 
 
+### Mixe in Mexico (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0677`
+
+#### Added
+- [Mixe in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0677) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Mixe individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Mixe in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0677) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mixe in Mexico (SGDP)" 
+
+- [Mixe in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0677) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mixe" 
+
+- Class: [Mixe in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0677) 
+
+- [Mixe in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0677) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Mixe in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0677) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mixe in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0677) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Mixe in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0677) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mexico](http://dbpedia.org/resource/Mexico) 
+
+
+### Mixtec in Mexico (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0678`
+
+#### Added
+- [Mixtec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0678) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mixtec in Mexico (SGDP)" 
+
+- [Mixtec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0678) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mixtec" 
+
+- [Mixtec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0678) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Mixtec individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- Class: [Mixtec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0678) 
+
+- [Mixtec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0678) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mixteco](http://purl.obolibrary.org/obo/HANCESTRO_0619) 
+
+- [Mixtec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0678) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Mixtec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0678) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mixtec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0678) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Mixtec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0678) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mexico](http://dbpedia.org/resource/Mexico) 
+
+
 ### Mixteco `http://purl.obolibrary.org/obo/HANCESTRO_0619`
 
 #### Added
@@ -16116,6 +18862,8 @@ seg &ndash; Segeju"
 - Class: [Mixteco](http://purl.obolibrary.org/obo/HANCESTRO_0619) 
 
 - [Mixteco](http://purl.obolibrary.org/obo/HANCESTRO_0619) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Mixteco](http://purl.obolibrary.org/obo/HANCESTRO_0619) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 
 ### Moghamo `http://purl.obolibrary.org/obo/AfPO_0000295`
@@ -16281,6 +19029,48 @@ seg &ndash; Segeju"
 - [Mongo](http://purl.obolibrary.org/obo/AfPO_0000296) SubClassOf [Bantu Central](http://purl.obolibrary.org/obo/AfPO_0000273) 
 
 - [Mongo](http://purl.obolibrary.org/obo/AfPO_0000296) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Republic of the Congo](http://dbpedia.org/resource/Republic_of_the_Congo) 
+
+
+### Mongola in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0698`
+
+#### Added
+- [Mongola in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0698) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mongola" 
+
+- [Mongola in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0698) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mongola in China (SGDP)" 
+
+- [Mongola in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0698) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Mongola individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- Class: [Mongola in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0698) 
+
+- [Mongola in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0698) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mongolian](http://purl.obolibrary.org/obo/HANCESTRO_0023) 
+
+- [Mongola in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0698) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mongola in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0698) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Mongola in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0698) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Mongola in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0698) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+
+### Mongolian in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0720`
+
+#### Added
+- [Mongolian in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0720) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 8 samples from Mongolian individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Mongolian in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0720) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mongolian in China (HGDP)" 
+
+- [Mongolian in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0720) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mongolian" 
+
+- Class: [Mongolian in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0720) 
+
+- [Mongolian in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0720) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mongolian](http://purl.obolibrary.org/obo/HANCESTRO_0023) 
+
+- [Mongolian in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0720) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Mongolian in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0720) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mongolian in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0720) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
 
 
 ### Moor `http://purl.obolibrary.org/obo/AfPO_0000368`
@@ -16640,6 +19430,48 @@ V"
 - [Mozabite](http://purl.obolibrary.org/obo/AfPO_0000231) SubClassOf [Berber Northern](http://purl.obolibrary.org/obo/AfPO_0000356) 
 
 
+### Mozabite in Algeria (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0655`
+
+#### Added
+- [Mozabite in Algeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0655) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Mozabite individuals recruited in Algeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Mozabite in Algeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0655) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mozabite in Algeria (SGDP)" 
+
+- [Mozabite in Algeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0655) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mozabite" 
+
+- Class: [Mozabite in Algeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0655) 
+
+- [Mozabite in Algeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0655) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Mozabite in Algeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0655) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mozabite](http://purl.obolibrary.org/obo/AfPO_0000231) 
+
+- [Mozabite in Algeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0655) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Mozabite in Algeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0655) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mozabite in Algeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0655) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Algeria](http://dbpedia.org/resource/Algeria) 
+
+
+### Mozabite in Mzab, Algeria (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0772`
+
+#### Added
+- [Mozabite in Mzab, Algeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0772) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 27 samples from Mozabite individuals recruited in Mzab, Algeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." 
+
+- [Mozabite in Mzab, Algeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0772) [label](http://www.w3.org/2000/01/rdf-schema#label) "Mozabite in Mzab, Algeria (HGDP)" 
+
+- [Mozabite in Mzab, Algeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0772) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mozabite" 
+
+- Class: [Mozabite in Mzab, Algeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0772) 
+
+- [Mozabite in Mzab, Algeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0772) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Mozabite in Mzab, Algeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0772) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Algeria](http://dbpedia.org/resource/Algeria) 
+
+- [Mozabite in Mzab, Algeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0772) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Mozabite](http://purl.obolibrary.org/obo/AfPO_0000231) 
+
+- [Mozabite in Mzab, Algeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0772) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+
 ### Mozambique `http://dbpedia.org/resource/Mozambique`
 
 #### Added
@@ -16793,6 +19625,8 @@ V"
 - Class: [Nahua](http://purl.obolibrary.org/obo/HANCESTRO_0618) 
 
 - [Nahua](http://purl.obolibrary.org/obo/HANCESTRO_0618) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Nahua](http://purl.obolibrary.org/obo/HANCESTRO_0618) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 
 ### Nama `http://purl.obolibrary.org/obo/AfPO_0000060`
@@ -17119,7 +19953,41 @@ E1b1b"
 
 - [Native American](http://purl.obolibrary.org/obo/HANCESTRO_0013) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Class previously labelled as &quot;Native American&quot;. Use of this term, alongside other terms such as &quot;First Nations&quot;, should be discontinued in favour of the more appropriate &quot;Indigenous American&quot;, which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively." 
 
-- [Native American](http://purl.obolibrary.org/obo/HANCESTRO_0013) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+### Naxi in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0721`
+
+#### Added
+- [Naxi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0721) [label](http://www.w3.org/2000/01/rdf-schema#label) "Naxi in China (HGDP)" 
+
+- [Naxi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0721) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 6 samples from Naxi individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Naxi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0721) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Naxi" 
+
+- Class: [Naxi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0721) 
+
+- [Naxi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0721) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Naxi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0721) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Naxi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0721) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+
+### Naxi in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0743`
+
+#### Added
+- [Naxi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0743) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Naxi" 
+
+- [Naxi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0743) [label](http://www.w3.org/2000/01/rdf-schema#label) "Naxi in China (SGDP)" 
+
+- [Naxi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0743) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Naxi individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Naxi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0743) 
+
+- [Naxi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0743) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Naxi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0743) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Naxi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0743) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
 
 
 ### Ndau `http://purl.obolibrary.org/obo/AfPO_0000495`
@@ -17843,6 +20711,14 @@ gyg &ndash; Gbayi"
 - [Nigeria](http://dbpedia.org/resource/Nigeria) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Jarawa](http://purl.obolibrary.org/obo/AfPO_0000224) 
 
 
+### Nigerian `http://purl.obolibrary.org/obo/HANCESTRO_0544`
+#### Removed
+- [Nigerian](http://purl.obolibrary.org/obo/HANCESTRO_0544) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
+
+#### Added
+- [Nigerian](http://purl.obolibrary.org/obo/HANCESTRO_0544) SubClassOf [undefined ancestry population](http://purl.obolibrary.org/obo/HANCESTRO_0566) 
+
+
 ### Nilotic Central `http://purl.obolibrary.org/obo/AfPO_0000265`
 
 #### Added
@@ -18072,6 +20948,28 @@ E1b1b"
 - [North Ndebele](http://purl.obolibrary.org/obo/AfPO_0000352) SubClassOf [Ndebele](http://purl.obolibrary.org/obo/AfPO_0000350) 
 
 
+### North Ossetian in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0831`
+
+#### Added
+- [North Ossetian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0831) [label](http://www.w3.org/2000/01/rdf-schema#label) "North Ossetian in Russia (SGDP)" 
+
+- [North Ossetian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0831) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from North Ossetian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [North Ossetian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0831) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "North Ossetian" 
+
+- Class: [North Ossetian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0831) 
+
+- [North Ossetian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0831) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [North Ossetian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0831) SubClassOf [Central Asian](http://purl.obolibrary.org/obo/HANCESTRO_0286) 
+
+- [North Ossetian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0831) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [North Ossetian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0831) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [North Ossetian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0831) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+
 ### Northern African `http://purl.obolibrary.org/obo/AfPO_0000275`
 
 #### Added
@@ -18090,6 +20988,46 @@ E1b1b"
 #### Removed
 - [Northern Finnish founder](http://purl.obolibrary.org/obo/HANCESTRO_0560) SubClassOf [hasAncestryStatus](http://purl.obolibrary.org/obo/HANCESTRO_0301) only [genetically isolated ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0305) 
 
+
+
+### Northern Han in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0722`
+
+#### Added
+- [Northern Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0722) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Northern Han" 
+
+- [Northern Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0722) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 10 samples from Northern Han individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Northern Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0722) [label](http://www.w3.org/2000/01/rdf-schema#label) "Northern Han in China (HGDP)" 
+
+- Class: [Northern Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0722) 
+
+- [Northern Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0722) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Northern Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0722) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Northern Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0722) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Han Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0027) 
+
+- [Northern Han in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0722) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+
+### Norwegian in Norway (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0832`
+
+#### Added
+- [Norwegian in Norway (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0832) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Norwegian individuals recruited in Norway as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Norwegian in Norway (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0832) [label](http://www.w3.org/2000/01/rdf-schema#label) "Norwegian in Norway (SGDP)" 
+
+- [Norwegian in Norway (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0832) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Norwegian" 
+
+- Class: [Norwegian in Norway (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0832) 
+
+- [Norwegian in Norway (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0832) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Norwegian in Norway (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0832) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Norway](http://dbpedia.org/resource/Norway) 
+
+- [Norwegian in Norway (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0832) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Norwegian in Norway (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0832) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Norwegian](http://purl.obolibrary.org/obo/HANCESTRO_0380) 
 
 
 ### Nuba `http://purl.obolibrary.org/obo/AfPO_0000216`
@@ -18842,6 +21780,42 @@ nnw &ndash; Southern Nuni"
 
 
 
+### Orcadian in Orkney (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0761`
+
+#### Added
+- [Orcadian in Orkney (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0761) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Orcadian" 
+
+- [Orcadian in Orkney (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0761) [label](http://www.w3.org/2000/01/rdf-schema#label) "Orcadian in Orkney (HGDP)" 
+
+- [Orcadian in Orkney (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0761) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 13 samples from Orcadian individuals recruited in Orkney as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- Class: [Orcadian in Orkney (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0761) 
+
+- [Orcadian in Orkney (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0761) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Orcadian](http://purl.obolibrary.org/obo/HANCESTRO_0318) 
+
+- [Orcadian in Orkney (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0761) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Orcadian in Orkney (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0761) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+
+### Orcadian in Orkney Islands (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0833`
+
+#### Added
+- [Orcadian in Orkney Islands (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0833) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Orcadian" 
+
+- [Orcadian in Orkney Islands (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0833) [label](http://www.w3.org/2000/01/rdf-schema#label) "Orcadian in Orkney Islands (SGDP)" 
+
+- [Orcadian in Orkney Islands (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0833) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Orcadian individuals recruited in Orkney Islands as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Orcadian in Orkney Islands (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0833) 
+
+- [Orcadian in Orkney Islands (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0833) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Orcadian](http://purl.obolibrary.org/obo/HANCESTRO_0318) 
+
+- [Orcadian in Orkney Islands (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0833) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Orcadian in Orkney Islands (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0833) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Oromo `http://purl.obolibrary.org/obo/AfPO_0000113`
 
 #### Added
@@ -19001,6 +21975,42 @@ U"
 - [Oron](http://purl.obolibrary.org/obo/AfPO_0000559) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
 
 
+### Oroqen in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0723`
+
+#### Added
+- [Oroqen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0723) [label](http://www.w3.org/2000/01/rdf-schema#label) "Oroqen in China (HGDP)" 
+
+- [Oroqen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0723) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 7 samples from Oroqen individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Oroqen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0723) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Oroqen" 
+
+- Class: [Oroqen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0723) 
+
+- [Oroqen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0723) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Oroqen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0723) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Oroqen in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0723) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+
+### Oroqen in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0744`
+
+#### Added
+- [Oroqen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0744) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Oroqen individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Oroqen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0744) [label](http://www.w3.org/2000/01/rdf-schema#label) "Oroqen in China (SGDP)" 
+
+- [Oroqen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0744) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Oroqen" 
+
+- Class: [Oroqen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0744) 
+
+- [Oroqen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0744) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Oroqen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0744) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Oroqen in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0744) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+
 ### Otomi `http://purl.obolibrary.org/obo/HANCESTRO_0613`
 
 #### Added
@@ -19011,6 +22021,8 @@ U"
 - Class: [Otomi](http://purl.obolibrary.org/obo/HANCESTRO_0613) 
 
 - [Otomi](http://purl.obolibrary.org/obo/HANCESTRO_0613) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Otomi](http://purl.obolibrary.org/obo/HANCESTRO_0613) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 
 ### Ovambo `http://purl.obolibrary.org/obo/AfPO_0000341`
@@ -19176,6 +22188,46 @@ nne &ndash; Ngandjera"
 
 
 
+### Palestinian in Central, Israel (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0773`
+
+#### Added
+- [Palestinian in Central, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0773) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Palestinian" 
+
+- [Palestinian in Central, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0773) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 43 samples from Palestinian individuals recruited in Central, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." 
+
+- [Palestinian in Central, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0773) [label](http://www.w3.org/2000/01/rdf-schema#label) "Palestinian in Central, Israel (HGDP)" 
+
+- Class: [Palestinian in Central, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0773) 
+
+- [Palestinian in Central, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0773) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Palestinian in Central, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0773) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Palestinian](http://purl.obolibrary.org/obo/HANCESTRO_0446) 
+
+- [Palestinian in Central, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0773) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Palestinian in Central, Israel (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0773) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Israel](http://dbpedia.org/resource/Israel) 
+
+
+### Palestinian in Israel(Central) (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0834`
+
+#### Added
+- [Palestinian in Israel(Central) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0834) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Palestinian" 
+
+- [Palestinian in Israel(Central) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0834) [label](http://www.w3.org/2000/01/rdf-schema#label) "Palestinian in Israel(Central) (SGDP)" 
+
+- [Palestinian in Israel(Central) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0834) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Palestinian individuals recruited in Israel(Central) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Palestinian in Israel(Central) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0834) 
+
+- [Palestinian in Israel(Central) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0834) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Palestinian in Israel(Central) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0834) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Israel](http://dbpedia.org/resource/Israel) 
+
+- [Palestinian in Israel(Central) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0834) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Palestinian](http://purl.obolibrary.org/obo/HANCESTRO_0446) 
+
+- [Palestinian in Israel(Central) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0834) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+
 ### Pana `http://purl.obolibrary.org/obo/AfPO_0000539`
 
 #### Added
@@ -19319,6 +22371,68 @@ nne &ndash; Ngandjera"
 - [Papel](http://purl.obolibrary.org/obo/AfPO_0000560) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Guinea-Bissau](http://dbpedia.org/resource/Guinea_Bissau) 
 
 
+### Papua New Guinean `http://purl.obolibrary.org/obo/HANCESTRO_0476`
+
+#### Added
+- [Papua New Guinean](http://purl.obolibrary.org/obo/HANCESTRO_0476) [alternative_term](http://purl.obolibrary.org/obo/IAO_0000118) "Papuan" 
+
+
+### Papuan Highlands in New Guinea (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0775`
+
+#### Added
+- [Papuan Highlands in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0775) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Papuan Highlands" 
+
+- [Papuan Highlands in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0775) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 6 samples from Papuan Highlands individuals recruited in New Guinea as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- [Papuan Highlands in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0775) [label](http://www.w3.org/2000/01/rdf-schema#label) "Papuan Highlands in New Guinea (HGDP)" 
+
+- Class: [Papuan Highlands in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0775) 
+
+- [Papuan Highlands in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0775) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Papuan Highlands in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0775) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+- [Papuan Highlands in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0775) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Papua New Guinea](http://dbpedia.org/resource/Papua_New_Guinea) 
+
+
+### Papuan Sepik in New Guinea (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0776`
+
+#### Added
+- [Papuan Sepik in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0776) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 8 samples from Papuan Sepik individuals recruited in New Guinea as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- [Papuan Sepik in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0776) [label](http://www.w3.org/2000/01/rdf-schema#label) "Papuan Sepik in New Guinea (HGDP)" 
+
+- [Papuan Sepik in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0776) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Papuan Sepik" 
+
+- Class: [Papuan Sepik in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0776) 
+
+- [Papuan Sepik in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0776) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+- [Papuan Sepik in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0776) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Papua New Guinea](http://dbpedia.org/resource/Papua_New_Guinea) 
+
+- [Papuan Sepik in New Guinea (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0776) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Papuan in Papua New Guinea (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0783`
+
+#### Added
+- [Papuan in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0783) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Papuan" 
+
+- [Papuan in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0783) [label](http://www.w3.org/2000/01/rdf-schema#label) "Papuan in Papua New Guinea (SGDP)" 
+
+- [Papuan in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0783) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 15 samples from Papuan individuals recruited in Papua New Guinea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." 
+
+- Class: [Papuan in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0783) 
+
+- [Papuan in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0783) SubClassOf [Oceanian](http://purl.obolibrary.org/obo/HANCESTRO_0017) 
+
+- [Papuan in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0783) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Papuan in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0783) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Papua New Guinea](http://dbpedia.org/resource/Papua_New_Guinea) 
+
+- [Papuan in Papua New Guinea (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0783) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Papua New Guinean](http://purl.obolibrary.org/obo/HANCESTRO_0476) 
+
+
 ### Pastos `http://purl.obolibrary.org/obo/HANCESTRO_0622`
 
 #### Added
@@ -19328,7 +22442,45 @@ nne &ndash; Ngandjera"
 
 - Class: [Pastos](http://purl.obolibrary.org/obo/HANCESTRO_0622) 
 
+- [Pastos](http://purl.obolibrary.org/obo/HANCESTRO_0622) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
 - [Pastos](http://purl.obolibrary.org/obo/HANCESTRO_0622) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+
+### Pathan in Pakistan (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0709`
+
+#### Added
+- [Pathan in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0709) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Pathan" 
+
+- [Pathan in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0709) [label](http://www.w3.org/2000/01/rdf-schema#label) "Pathan in Pakistan (HGDP)" 
+
+- [Pathan in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0709) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 23 samples from Pathan individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." 
+
+- Class: [Pathan in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0709) 
+
+- [Pathan in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0709) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Pathan in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0709) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Pathan in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0709) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+
+### Pathan in Pakistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0797`
+
+#### Added
+- [Pathan in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0797) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Pathan" 
+
+- [Pathan in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0797) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Pathan individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Pathan in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0797) [label](http://www.w3.org/2000/01/rdf-schema#label) "Pathan in Pakistan (SGDP)" 
+
+- Class: [Pathan in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0797) 
+
+- [Pathan in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0797) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Pathan in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0797) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Pathan in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0797) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
 
 
 ### Pedi `http://purl.obolibrary.org/obo/AfPO_0000347`
@@ -19467,6 +22619,28 @@ nne &ndash; Ngandjera"
 - [Peruvian](http://purl.obolibrary.org/obo/HANCESTRO_0420) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
 
 
+### Peruvian in Lima, Peru `http://purl.obolibrary.org/obo/HANCESTRO_0686`
+
+#### Added
+- [Peruvian in Lima, Peru](http://purl.obolibrary.org/obo/HANCESTRO_0686) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PEL" 
+
+- [Peruvian in Lima, Peru](http://purl.obolibrary.org/obo/HANCESTRO_0686) [label](http://www.w3.org/2000/01/rdf-schema#label) "Peruvian in Lima, Peru" 
+
+- [Peruvian in Lima, Peru](http://purl.obolibrary.org/obo/HANCESTRO_0686) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 130 samples from Peruvian individuals recruited in Lima, Peru as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Peruvian in Lima, Peru](http://purl.obolibrary.org/obo/HANCESTRO_0686) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Peruvian" 
+
+- Class: [Peruvian in Lima, Peru](http://purl.obolibrary.org/obo/HANCESTRO_0686) 
+
+- [Peruvian in Lima, Peru](http://purl.obolibrary.org/obo/HANCESTRO_0686) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Peruvian](http://purl.obolibrary.org/obo/HANCESTRO_0420) 
+
+- [Peruvian in Lima, Peru](http://purl.obolibrary.org/obo/HANCESTRO_0686) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Peruvian in Lima, Peru](http://purl.obolibrary.org/obo/HANCESTRO_0686) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Peruvian in Lima, Peru](http://purl.obolibrary.org/obo/HANCESTRO_0686) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Peru](http://dbpedia.org/resource/Peru) 
+
+
 ### Piapoco `http://purl.obolibrary.org/obo/HANCESTRO_0621`
 
 #### Added
@@ -19477,6 +22651,30 @@ nne &ndash; Ngandjera"
 - Class: [Piapoco](http://purl.obolibrary.org/obo/HANCESTRO_0621) 
 
 - [Piapoco](http://purl.obolibrary.org/obo/HANCESTRO_0621) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+- [Piapoco](http://purl.obolibrary.org/obo/HANCESTRO_0621) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Piapoco in Colombia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0679`
+
+#### Added
+- [Piapoco in Colombia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0679) [label](http://www.w3.org/2000/01/rdf-schema#label) "Piapoco in Colombia (SGDP)" 
+
+- [Piapoco in Colombia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0679) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Piapoco" 
+
+- [Piapoco in Colombia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0679) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Piapoco individuals recruited in Colombia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- Class: [Piapoco in Colombia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0679) 
+
+- [Piapoco in Colombia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0679) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Piapoco in Colombia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0679) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Piapoco in Colombia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0679) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Colombia](http://dbpedia.org/resource/Colombia) 
+
+- [Piapoco in Colombia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0679) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+- [Piapoco in Colombia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0679) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Piapoco](http://purl.obolibrary.org/obo/HANCESTRO_0621) 
 
 
 ### Pima Indian `http://purl.obolibrary.org/obo/HANCESTRO_0570`
@@ -19498,6 +22696,52 @@ nne &ndash; Ngandjera"
 
 - [Pima Indian](http://purl.obolibrary.org/obo/HANCESTRO_0570) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
 
+- [Pima Indian](http://purl.obolibrary.org/obo/HANCESTRO_0570) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Pima in Mexico (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0672`
+
+#### Added
+- [Pima in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0672) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Pima" 
+
+- [Pima in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0672) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 12 samples from Pima individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Pima in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0672) [label](http://www.w3.org/2000/01/rdf-schema#label) "Pima in Mexico (HGDP)" 
+
+- Class: [Pima in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0672) 
+
+- [Pima in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0672) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Pima Indian](http://purl.obolibrary.org/obo/HANCESTRO_0570) 
+
+- [Pima in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0672) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Pima in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0672) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Pima in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0672) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mexico](http://dbpedia.org/resource/Mexico) 
+
+- [Pima in Mexico (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0672) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+
+### Pima in Mexico (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0680`
+
+#### Added
+- [Pima in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0680) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Pima" 
+
+- [Pima in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0680) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Pima individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Pima in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0680) [label](http://www.w3.org/2000/01/rdf-schema#label) "Pima in Mexico (SGDP)" 
+
+- Class: [Pima in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0680) 
+
+- [Pima in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0680) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mexico](http://dbpedia.org/resource/Mexico) 
+
+- [Pima in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0680) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Pima in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0680) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Pima in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0680) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Pima Indian](http://purl.obolibrary.org/obo/HANCESTRO_0570) 
+
+- [Pima in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0680) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
 
 ### Plains American Indian `http://purl.obolibrary.org/obo/HANCESTRO_0571`
 #### Removed
@@ -19511,6 +22755,8 @@ nne &ndash; Ngandjera"
 - [Plains American Indian](http://purl.obolibrary.org/obo/HANCESTRO_0571) [label](http://www.w3.org/2000/01/rdf-schema#label) "Plains Indians" 
 
 - [Plains American Indian](http://purl.obolibrary.org/obo/HANCESTRO_0571) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Individuals who self-identify or are reported by authors as belonging to the indigenous peoples who have historically lived on the Interior Plains (the Great Plains and Canadian Prairies) of North America" 
+
+- [Plains American Indian](http://purl.obolibrary.org/obo/HANCESTRO_0571) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 - [Plains American Indian](http://purl.obolibrary.org/obo/HANCESTRO_0571) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
 
@@ -19715,6 +22961,26 @@ nne &ndash; Ngandjera"
 - [Pokot](http://purl.obolibrary.org/obo/AfPO_0000510) SubClassOf [Kalenjin](http://purl.obolibrary.org/obo/AfPO_0000199) 
 
 
+### Polish in Poland (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0835`
+
+#### Added
+- [Polish in Poland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0835) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Polish individuals recruited in Poland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Polish in Poland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0835) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Polish" 
+
+- [Polish in Poland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0835) [label](http://www.w3.org/2000/01/rdf-schema#label) "Polish in Poland (SGDP)" 
+
+- Class: [Polish in Poland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0835) 
+
+- [Polish in Poland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0835) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Poland](http://dbpedia.org/resource/Poland) 
+
+- [Polish in Poland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0835) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Polish in Poland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0835) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Polish in Poland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0835) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Polish](http://purl.obolibrary.org/obo/HANCESTRO_0381) 
+
+
 ### Population_group `http://purl.obolibrary.org/obo/AfPO_0000447`
 
 #### Added
@@ -19725,6 +22991,66 @@ nne &ndash; Ngandjera"
 - [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) InverseOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) 
 
 - [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) Domain [Country](http://purl.obolibrary.org/obo/NCIT_C25464) 
+
+
+### Puerto Rican in Puerto Rico `http://purl.obolibrary.org/obo/HANCESTRO_0687`
+
+#### Added
+- [Puerto Rican in Puerto Rico](http://purl.obolibrary.org/obo/HANCESTRO_0687) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PUR" 
+
+- [Puerto Rican in Puerto Rico](http://purl.obolibrary.org/obo/HANCESTRO_0687) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 150 samples from Puerto Rican individuals recruited in Puerto Rico as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Puerto Rican in Puerto Rico](http://purl.obolibrary.org/obo/HANCESTRO_0687) [label](http://www.w3.org/2000/01/rdf-schema#label) "Puerto Rican in Puerto Rico" 
+
+- [Puerto Rican in Puerto Rico](http://purl.obolibrary.org/obo/HANCESTRO_0687) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Puerto Rican" 
+
+- Class: [Puerto Rican in Puerto Rico](http://purl.obolibrary.org/obo/HANCESTRO_0687) 
+
+- [Puerto Rican in Puerto Rico](http://purl.obolibrary.org/obo/HANCESTRO_0687) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Puerto Rican in Puerto Rico](http://purl.obolibrary.org/obo/HANCESTRO_0687) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Puerto Rican in Puerto Rico](http://purl.obolibrary.org/obo/HANCESTRO_0687) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Puerto Rican](http://purl.obolibrary.org/obo/HANCESTRO_0421) 
+
+- [Puerto Rican in Puerto Rico](http://purl.obolibrary.org/obo/HANCESTRO_0687) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Puerto Rico](http://dbpedia.org/resource/Puerto_Rico) 
+
+
+### Punjabi in Lahore, Pakistan `http://purl.obolibrary.org/obo/HANCESTRO_0804`
+
+#### Added
+- [Punjabi in Lahore, Pakistan](http://purl.obolibrary.org/obo/HANCESTRO_0804) [label](http://www.w3.org/2000/01/rdf-schema#label) "Punjabi in Lahore, Pakistan" 
+
+- [Punjabi in Lahore, Pakistan](http://purl.obolibrary.org/obo/HANCESTRO_0804) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PJL" 
+
+- [Punjabi in Lahore, Pakistan](http://purl.obolibrary.org/obo/HANCESTRO_0804) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Punjabi" 
+
+- [Punjabi in Lahore, Pakistan](http://purl.obolibrary.org/obo/HANCESTRO_0804) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 158 samples from Punjabi individuals recruited in Lahore, Pakistan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- Class: [Punjabi in Lahore, Pakistan](http://purl.obolibrary.org/obo/HANCESTRO_0804) 
+
+- [Punjabi in Lahore, Pakistan](http://purl.obolibrary.org/obo/HANCESTRO_0804) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Punjabi in Lahore, Pakistan](http://purl.obolibrary.org/obo/HANCESTRO_0804) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Punjabi in Lahore, Pakistan](http://purl.obolibrary.org/obo/HANCESTRO_0804) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+
+### Punjabi in Pakistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0798`
+
+#### Added
+- [Punjabi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0798) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Punjabi" 
+
+- [Punjabi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0798) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 4 samples from Punjabi individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Punjabi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0798) [label](http://www.w3.org/2000/01/rdf-schema#label) "Punjabi in Pakistan (SGDP)" 
+
+- Class: [Punjabi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0798) 
+
+- [Punjabi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0798) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Punjabi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0798) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Punjabi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0798) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
 
 
 ### Punu `http://purl.obolibrary.org/obo/AfPO_0000471`
@@ -19905,6 +23231,30 @@ L5"
 
 - [Quechua](http://purl.obolibrary.org/obo/HANCESTRO_0623) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
 
+- [Quechua](http://purl.obolibrary.org/obo/HANCESTRO_0623) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Quechua in Peru (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0681`
+
+#### Added
+- [Quechua in Peru (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0681) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Quechua individuals recruited in Peru as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Quechua in Peru (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0681) [label](http://www.w3.org/2000/01/rdf-schema#label) "Quechua in Peru (SGDP)" 
+
+- [Quechua in Peru (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0681) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Quechua" 
+
+- Class: [Quechua in Peru (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0681) 
+
+- [Quechua in Peru (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0681) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Quechua](http://purl.obolibrary.org/obo/HANCESTRO_0623) 
+
+- [Quechua in Peru (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0681) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+- [Quechua in Peru (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0681) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Peru](http://dbpedia.org/resource/Peru) 
+
+- [Quechua in Peru (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0681) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Quechua in Peru (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0681) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
 
 ### RO_0002259 `http://purl.obolibrary.org/obo/RO_0002259`
 #### Removed
@@ -19948,6 +23298,8 @@ L5"
 - [Rarámuri](http://purl.obolibrary.org/obo/HANCESTRO_0617) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of the Americas living in the state of Chihuahua in Mexico" 
 
 - Class: [Rarámuri](http://purl.obolibrary.org/obo/HANCESTRO_0617) 
+
+- [Rarámuri](http://purl.obolibrary.org/obo/HANCESTRO_0617) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 - [Rarámuri](http://purl.obolibrary.org/obo/HANCESTRO_0617) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
 
@@ -19995,6 +23347,24 @@ L5"
 - [Rashaida](http://purl.obolibrary.org/obo/AfPO_0000394) SubClassOf [Semitic Eastern](http://purl.obolibrary.org/obo/AfPO_0000184) 
 
 - [Rashaida](http://purl.obolibrary.org/obo/AfPO_0000394) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Sudan](http://dbpedia.org/resource/Sudan) 
+
+
+### Relli in India (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0799`
+
+#### Added
+- [Relli in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0799) [label](http://www.w3.org/2000/01/rdf-schema#label) "Relli in India (SGDP)" 
+
+- [Relli in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0799) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Relli individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Relli in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0799) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Relli" 
+
+- Class: [Relli in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0799) 
+
+- [Relli in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0799) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Relli in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0799) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [India](http://dbpedia.org/resource/India) 
+
+- [Relli in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0799) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Rendille `http://purl.obolibrary.org/obo/AfPO_0000135`
@@ -20192,6 +23562,46 @@ e.g.  if GP X enables ATPase coupled transporter activity' and 'ATPase coupled t
 
 
 
+### Russian in Russia (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0762`
+
+#### Added
+- [Russian in Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0762) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 23 samples from Russian individuals recruited in Russia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- [Russian in Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0762) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Russian" 
+
+- [Russian in Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0762) [label](http://www.w3.org/2000/01/rdf-schema#label) "Russian in Russia (HGDP)" 
+
+- Class: [Russian in Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0762) 
+
+- [Russian in Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0762) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Russian in Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0762) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Russian in Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0762) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Russian](http://purl.obolibrary.org/obo/HANCESTRO_0386) 
+
+- [Russian in Russia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0762) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+
+### Russian in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0836`
+
+#### Added
+- [Russian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0836) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Russian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Russian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0836) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Russian" 
+
+- [Russian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0836) [label](http://www.w3.org/2000/01/rdf-schema#label) "Russian in Russia (SGDP)" 
+
+- Class: [Russian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0836) 
+
+- [Russian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0836) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Russian](http://purl.obolibrary.org/obo/HANCESTRO_0386) 
+
+- [Russian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0836) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Russian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0836) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Russian in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0836) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Rwanda `http://dbpedia.org/resource/Rwanda`
 
 #### Added
@@ -20258,6 +23668,46 @@ e.g.  if GP X enables ATPase coupled transporter activity' and 'ATPase coupled t
 - [Réunion](http://dbpedia.org/resource/Réunion) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Malbar](http://purl.obolibrary.org/obo/AfPO_0000259) 
 
 - [Réunion](http://dbpedia.org/resource/Réunion) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [French diaspora](http://purl.obolibrary.org/obo/AfPO_0000330) 
+
+
+### Saami in Finland (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0837`
+
+#### Added
+- [Saami in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0837) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Saami" 
+
+- [Saami in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0837) [label](http://www.w3.org/2000/01/rdf-schema#label) "Saami in Finland (SGDP)" 
+
+- [Saami in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0837) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Saami individuals recruited in Finland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Saami in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0837) 
+
+- [Saami in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0837) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Saami in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0837) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Saami in Finland (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0837) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Finland](http://dbpedia.org/resource/Finland) 
+
+
+### Saharawi in Western Sahara (Morocco) (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0656`
+
+#### Added
+- [Saharawi in Western Sahara (Morocco) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0656) [label](http://www.w3.org/2000/01/rdf-schema#label) "Saharawi in Western Sahara (Morocco) (SGDP)" 
+
+- [Saharawi in Western Sahara (Morocco) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0656) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Saharawi" 
+
+- [Saharawi in Western Sahara (Morocco) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0656) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Saharawi individuals recruited in Western Sahara (Morocco) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Saharawi in Western Sahara (Morocco) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0656) 
+
+- [Saharawi in Western Sahara (Morocco) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0656) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Saharawi in Western Sahara (Morocco) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0656) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Sahrawi](http://purl.obolibrary.org/obo/AfPO_0000220) 
+
+- [Saharawi in Western Sahara (Morocco) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0656) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Saharawi in Western Sahara (Morocco) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0656) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Saharawi in Western Sahara (Morocco) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0656) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Western Sahara](http://dbpedia.org/resource/Western_Sahara) 
 
 
 ### Saho `http://purl.obolibrary.org/obo/AfPO_0000387`
@@ -20445,6 +23895,24 @@ e.g.  if GP X enables ATPase coupled transporter activity' and 'ATPase coupled t
 - Class: [Sakalava](http://purl.obolibrary.org/obo/AfPO_0000248) 
 
 - [Sakalava](http://purl.obolibrary.org/obo/AfPO_0000248) SubClassOf [Malagasy](http://purl.obolibrary.org/obo/AfPO_0000370) 
+
+
+### Samaritan in Israel (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0838`
+
+#### Added
+- [Samaritan in Israel (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0838) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Samaritan individuals recruited in Israel as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Samaritan in Israel (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0838) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Samaritan" 
+
+- [Samaritan in Israel (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0838) [label](http://www.w3.org/2000/01/rdf-schema#label) "Samaritan in Israel (SGDP)" 
+
+- Class: [Samaritan in Israel (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0838) 
+
+- [Samaritan in Israel (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0838) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Samaritan in Israel (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0838) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Samaritan in Israel (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0838) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Israel](http://dbpedia.org/resource/Israel) 
 
 
 ### Samburu `http://purl.obolibrary.org/obo/AfPO_0000057`
@@ -20681,6 +24149,26 @@ L3g"
 - [San](http://purl.obolibrary.org/obo/AfPO_0000332) SubClassOf [Southern African](http://purl.obolibrary.org/obo/AfPO_0000276) 
 
 
+### San in Namibia (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0638`
+
+#### Added
+- [San in Namibia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0638) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 4 samples from San individuals recruited in Namibia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [San in Namibia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "San" 
+
+- [San in Namibia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0638) [label](http://www.w3.org/2000/01/rdf-schema#label) "San in Namibia (HGDP)" 
+
+- Class: [San in Namibia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0638) 
+
+- [San in Namibia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0638) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [San in Namibia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0638) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Namibia](http://dbpedia.org/resource/Namibia) 
+
+- [San in Namibia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0638) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [San](http://purl.obolibrary.org/obo/AfPO_0000332) 
+
+- [San in Namibia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0638) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+
 ### Sandawe `http://purl.obolibrary.org/obo/AfPO_0000399`
 
 #### Added
@@ -20877,6 +24365,42 @@ L1e"
 
 #### Added
 - [Sardinian](http://purl.obolibrary.org/obo/HANCESTRO_0309) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+
+### Sardinian in Italy (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0763`
+
+#### Added
+- [Sardinian in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0763) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Sardinian" 
+
+- [Sardinian in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0763) [label](http://www.w3.org/2000/01/rdf-schema#label) "Sardinian in Italy (HGDP)" 
+
+- [Sardinian in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0763) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 24 samples from Sardinian individuals recruited in Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- Class: [Sardinian in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0763) 
+
+- [Sardinian in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0763) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Italy](http://dbpedia.org/resource/Italy) 
+
+- [Sardinian in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0763) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Sardinian in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0763) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+
+### Sardinian in Italy (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0839`
+
+#### Added
+- [Sardinian in Italy (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0839) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Sardinian" 
+
+- [Sardinian in Italy (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0839) [label](http://www.w3.org/2000/01/rdf-schema#label) "Sardinian in Italy (SGDP)" 
+
+- [Sardinian in Italy (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0839) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Sardinian individuals recruited in Italy as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Sardinian in Italy (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0839) 
+
+- [Sardinian in Italy (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0839) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Italy](http://dbpedia.org/resource/Italy) 
+
+- [Sardinian in Italy (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0839) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Sardinian in Italy (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0839) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
 
 
 ### Sebei `http://purl.obolibrary.org/obo/AfPO_0000075`
@@ -21511,6 +25035,42 @@ bwg &ndash; Barwe"
 - [Shaigiya](http://purl.obolibrary.org/obo/AfPO_0000212) SubClassOf [Sudanese Arab](http://purl.obolibrary.org/obo/AfPO_0000395) 
 
 
+### She in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0724`
+
+#### Added
+- [She in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0724) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "She" 
+
+- [She in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0724) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 8 samples from She individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [She in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0724) [label](http://www.w3.org/2000/01/rdf-schema#label) "She in China (HGDP)" 
+
+- Class: [She in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0724) 
+
+- [She in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0724) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [She in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0724) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [She in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0724) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+
+### She in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0745`
+
+#### Added
+- [She in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0745) [label](http://www.w3.org/2000/01/rdf-schema#label) "She in China (SGDP)" 
+
+- [She in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0745) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from She individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [She in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0745) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "She" 
+
+- Class: [She in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0745) 
+
+- [She in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0745) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [She in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0745) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [She in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0745) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+
 ### Sherbro `http://purl.obolibrary.org/obo/AfPO_0000561`
 
 #### Added
@@ -21874,6 +25434,42 @@ E1b1b"
 
 
 
+### Sindhi in Pakistan (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0710`
+
+#### Added
+- [Sindhi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0710) [label](http://www.w3.org/2000/01/rdf-schema#label) "Sindhi in Pakistan (HGDP)" 
+
+- [Sindhi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0710) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Sindhi" 
+
+- [Sindhi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0710) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 22 samples from Sindhi individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." 
+
+- Class: [Sindhi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0710) 
+
+- [Sindhi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0710) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Sindhi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0710) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Sindhi in Pakistan (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0710) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+
+### Sindhi in Pakistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0800`
+
+#### Added
+- [Sindhi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0800) [label](http://www.w3.org/2000/01/rdf-schema#label) "Sindhi in Pakistan (SGDP)" 
+
+- [Sindhi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0800) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Sindhi individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- [Sindhi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0800) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Sindhi" 
+
+- Class: [Sindhi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0800) 
+
+- [Sindhi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0800) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Sindhi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0800) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Pakistan](http://dbpedia.org/resource/Pakistan) 
+
+- [Sindhi in Pakistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0800) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Singaporean Chinese `http://purl.obolibrary.org/obo/HANCESTRO_0025`
 #### Removed
 - [Singaporean Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0025) SubClassOf [geographic category](http://purl.obolibrary.org/obo/HANCESTRO_0602) 
@@ -22008,6 +25604,26 @@ E1b1b"
 - [Somali](http://purl.obolibrary.org/obo/HANCESTRO_0518) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete Somali"@en 
 
 - [Somali](http://purl.obolibrary.org/obo/HANCESTRO_0518) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [Somali](http://purl.obolibrary.org/obo/AfPO_0000389) 
+
+
+### Somali in Kenya (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0657`
+
+#### Added
+- [Somali in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0657) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Somali" 
+
+- [Somali in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0657) [label](http://www.w3.org/2000/01/rdf-schema#label) "Somali in Kenya (SGDP)" 
+
+- [Somali in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0657) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 1 samples from Somali individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Somali in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0657) 
+
+- [Somali in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0657) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Somali](http://purl.obolibrary.org/obo/AfPO_0000389) 
+
+- [Somali in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0657) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Somali in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0657) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Kenya](http://dbpedia.org/resource/Kenya) 
+
+- [Somali in Kenya (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0657) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Somalia `http://dbpedia.org/resource/Somalia`
@@ -22581,13 +26197,51 @@ E1b1b"
 
 - Class: [Southern African](http://purl.obolibrary.org/obo/AfPO_0000276) 
 
-- [Southern African](http://purl.obolibrary.org/obo/AfPO_0000276) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+- [Southern African](http://purl.obolibrary.org/obo/AfPO_0000276) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
+
+
+### Spanish in Spain (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0840`
+
+#### Added
+- [Spanish in Spain (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0840) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Spanish individuals recruited in Spain as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Spanish in Spain (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0840) [label](http://www.w3.org/2000/01/rdf-schema#label) "Spanish in Spain (SGDP)" 
+
+- [Spanish in Spain (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0840) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Spanish" 
+
+- Class: [Spanish in Spain (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0840) 
+
+- [Spanish in Spain (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0840) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Spanish in Spain (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0840) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Spain](http://dbpedia.org/resource/Spain) 
+
+- [Spanish in Spain (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0840) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Spanish](http://purl.obolibrary.org/obo/HANCESTRO_0392) 
+
+- [Spanish in Spain (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0840) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Split founder `http://purl.obolibrary.org/obo/HANCESTRO_0565`
 #### Removed
 - [Split founder](http://purl.obolibrary.org/obo/HANCESTRO_0565) SubClassOf [hasAncestryStatus](http://purl.obolibrary.org/obo/HANCESTRO_0301) only [genetically isolated ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0305) 
 
+
+
+### Sri Lankan Tamil in the UK `http://purl.obolibrary.org/obo/HANCESTRO_0805`
+
+#### Added
+- [Sri Lankan Tamil in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0805) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "STU" 
+
+- [Sri Lankan Tamil in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0805) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tamil" 
+
+- [Sri Lankan Tamil in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0805) [label](http://www.w3.org/2000/01/rdf-schema#label) "Sri Lankan Tamil in the UK" 
+
+- [Sri Lankan Tamil in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0805) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 128 samples from Sri Lankan Tamil individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- Class: [Sri Lankan Tamil in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0805) 
+
+- [Sri Lankan Tamil in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0805) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Sri Lankan Tamil in the UK](http://purl.obolibrary.org/obo/HANCESTRO_0805) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
 
 
 ### Sua `http://purl.obolibrary.org/obo/AfPO_0000286`
@@ -22837,6 +26491,46 @@ R1b"
 - Class: [Sukuma](http://purl.obolibrary.org/obo/AfPO_0000496) 
 
 - [Sukuma](http://purl.obolibrary.org/obo/AfPO_0000496) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
+
+
+### Surui in Brazil (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0673`
+
+#### Added
+- [Surui in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0673) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Surui" 
+
+- [Surui in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0673) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 6 samples from Surui individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Surui in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0673) [label](http://www.w3.org/2000/01/rdf-schema#label) "Surui in Brazil (HGDP)" 
+
+- Class: [Surui in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0673) 
+
+- [Surui in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0673) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Surui in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0673) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Surui in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0673) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Brazil](http://dbpedia.org/resource/Brazil) 
+
+- [Surui in Brazil (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0673) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+
+### Surui in Brazil (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0682`
+
+#### Added
+- [Surui in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0682) [label](http://www.w3.org/2000/01/rdf-schema#label) "Surui in Brazil (SGDP)" 
+
+- [Surui in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0682) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Surui individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Surui in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0682) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Surui" 
+
+- Class: [Surui in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0682) 
+
+- [Surui in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0682) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Brazil](http://dbpedia.org/resource/Brazil) 
+
+- [Surui in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0682) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Surui in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0682) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+- [Surui in Brazil (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0682) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Susu `http://purl.obolibrary.org/obo/AfPO_0000064`
@@ -23214,6 +26908,34 @@ R1b"
 - [Taita](http://purl.obolibrary.org/obo/AfPO_0000085) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
 
 
+### Tajik in Tajikistan (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0841`
+
+#### Added
+- [Tajik in Tajikistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0841) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Tajik individuals recruited in Tajikistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Tajik in Tajikistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0841) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tajik" 
+
+- [Tajik in Tajikistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0841) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tajik in Tajikistan (SGDP)" 
+
+- Class: [Tajik in Tajikistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0841) 
+
+- [Tajik in Tajikistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0841) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Tajik in Tajikistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0841) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Tajik in Tajikistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0841) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Tajikistani](http://purl.obolibrary.org/obo/HANCESTRO_0338) 
+
+- [Tajik in Tajikistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0841) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Tajikistan](http://dbpedia.org/resource/Tajikistan) 
+
+- [Tajik in Tajikistan (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0841) SubClassOf [Central Asian](http://purl.obolibrary.org/obo/HANCESTRO_0286) 
+
+
+### Tajikistani `http://purl.obolibrary.org/obo/HANCESTRO_0338`
+
+#### Added
+- [Tajikistani](http://purl.obolibrary.org/obo/HANCESTRO_0338) [alternative_term](http://purl.obolibrary.org/obo/IAO_0000118) "Tajik" 
+
+
 ### Talana `http://purl.obolibrary.org/obo/HANCESTRO_0569`
 #### Removed
 - [Talana](http://purl.obolibrary.org/obo/HANCESTRO_0569) SubClassOf [hasAncestryStatus](http://purl.obolibrary.org/obo/HANCESTRO_0301) only [genetically isolated ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0305) 
@@ -23368,6 +27090,14 @@ R1b"
 - [Tanzania](http://dbpedia.org/resource/Tanzania) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Nyamwezi](http://purl.obolibrary.org/obo/AfPO_0000493) 
 
 - [Tanzania](http://dbpedia.org/resource/Tanzania) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Kuria](http://purl.obolibrary.org/obo/AfPO_0000579) 
+
+
+### Tanzanian `http://purl.obolibrary.org/obo/HANCESTRO_0548`
+#### Removed
+- [Tanzanian](http://purl.obolibrary.org/obo/HANCESTRO_0548) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
+
+#### Added
+- [Tanzanian](http://purl.obolibrary.org/obo/HANCESTRO_0548) SubClassOf [undefined ancestry population](http://purl.obolibrary.org/obo/HANCESTRO_0566) 
 
 
 ### Taveta `http://purl.obolibrary.org/obo/AfPO_0000066`
@@ -23629,6 +27359,28 @@ R1b"
 - [Teso](http://purl.obolibrary.org/obo/AfPO_0000514) SubClassOf [Nilotic Eastern](http://purl.obolibrary.org/obo/AfPO_0000371) 
 
 - [Teso](http://purl.obolibrary.org/obo/AfPO_0000514) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Kenya](http://dbpedia.org/resource/Kenya) 
+
+
+### Thai in Thailand (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0746`
+
+#### Added
+- [Thai in Thailand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0746) [label](http://www.w3.org/2000/01/rdf-schema#label) "Thai in Thailand (SGDP)" 
+
+- [Thai in Thailand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0746) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Thai" 
+
+- [Thai in Thailand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0746) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Thai individuals recruited in Thailand as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Thai in Thailand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0746) 
+
+- [Thai in Thailand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0746) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Thailand](http://dbpedia.org/resource/Thailand) 
+
+- [Thai in Thailand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0746) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Thai](http://purl.obolibrary.org/obo/HANCESTRO_0500) 
+
+- [Thai in Thailand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0746) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Thai in Thailand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0746) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Thai in Thailand (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0746) SubClassOf [South East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0007) 
 
 
 ### Tharaka `http://purl.obolibrary.org/obo/AfPO_0000497`
@@ -23957,6 +27709,24 @@ R1b"
 - [Tiv](http://purl.obolibrary.org/obo/AfPO_0000058) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
 
 
+### Tlingit in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0699`
+
+#### Added
+- [Tlingit in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0699) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tlingit" 
+
+- [Tlingit in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0699) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Tlingit individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Tlingit in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0699) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tlingit in Russia (SGDP)" 
+
+- Class: [Tlingit in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0699) 
+
+- [Tlingit in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0699) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Tlingit in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0699) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Tlingit in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0699) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+
 ### Togo `http://dbpedia.org/resource/Togo`
 
 #### Added
@@ -23995,6 +27765,16 @@ R1b"
 - [Togo](http://dbpedia.org/resource/Togo) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Ewe](http://purl.obolibrary.org/obo/AfPO_0000421) 
 
 - [Togo](http://dbpedia.org/resource/Togo) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Aja](http://purl.obolibrary.org/obo/AfPO_0000521) 
+
+
+### Tonga `http://dbpedia.org/resource/Tonga`
+#### Removed
+- [Tonga](http://dbpedia.org/resource/Tonga) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tonga"@en 
+
+#### Added
+- [Tonga](http://dbpedia.org/resource/Tonga) [label](http://www.w3.org/2000/01/rdf-schema#label) "Kingdom of Tonga" 
+
+- [Tonga](http://dbpedia.org/resource/Tonga) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tonga"@en 
 
 
 ### Tonga `http://purl.obolibrary.org/obo/AfPO_0000344`
@@ -24072,6 +27852,26 @@ R1b"
 - [Tonga](http://purl.obolibrary.org/obo/AfPO_0000344) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Zambia](http://dbpedia.org/resource/Zambia) 
 
 - [Tonga](http://purl.obolibrary.org/obo/AfPO_0000344) SubClassOf [Bantu Southern](http://purl.obolibrary.org/obo/AfPO_0000326) 
+
+
+### Toscani in Italy `http://purl.obolibrary.org/obo/HANCESTRO_0769`
+
+#### Added
+- [Toscani in Italy](http://purl.obolibrary.org/obo/HANCESTRO_0769) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Toscani" 
+
+- [Toscani in Italy](http://purl.obolibrary.org/obo/HANCESTRO_0769) [label](http://www.w3.org/2000/01/rdf-schema#label) "Toscani in Italy" 
+
+- [Toscani in Italy](http://purl.obolibrary.org/obo/HANCESTRO_0769) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "TSI" 
+
+- [Toscani in Italy](http://purl.obolibrary.org/obo/HANCESTRO_0769) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 112 samples from Toscani individuals recruited in Italy as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- Class: [Toscani in Italy](http://purl.obolibrary.org/obo/HANCESTRO_0769) 
+
+- [Toscani in Italy](http://purl.obolibrary.org/obo/HANCESTRO_0769) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Toscani in Italy](http://purl.obolibrary.org/obo/HANCESTRO_0769) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Italy](http://dbpedia.org/resource/Italy) 
+
+- [Toscani in Italy](http://purl.obolibrary.org/obo/HANCESTRO_0769) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Toubou `http://purl.obolibrary.org/obo/AfPO_0000307`
@@ -24331,6 +28131,42 @@ R1b"
 - [Tswana](http://purl.obolibrary.org/obo/AfPO_0000142) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Zimbabwe](http://dbpedia.org/resource/Zimbabwe) 
 
 
+### Tu in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0725`
+
+#### Added
+- [Tu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0725) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 8 samples from Tu individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Tu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0725) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tu in China (HGDP)" 
+
+- [Tu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0725) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tu" 
+
+- Class: [Tu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0725) 
+
+- [Tu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0725) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Tu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0725) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Tu in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0725) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+
+### Tu in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0747`
+
+#### Added
+- [Tu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0747) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Tu individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Tu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0747) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tu in China (SGDP)" 
+
+- [Tu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0747) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tu" 
+
+- Class: [Tu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0747) 
+
+- [Tu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0747) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Tu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0747) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Tu in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0747) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+
 ### Tuareg `http://purl.obolibrary.org/obo/AfPO_0000145`
 
 #### Added
@@ -24404,6 +28240,24 @@ R1b"
 - [Tuareg](http://purl.obolibrary.org/obo/AfPO_0000145) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Niger](http://dbpedia.org/resource/Niger) 
 
 
+### Tubalar in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0700`
+
+#### Added
+- [Tubalar in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0700) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tubalar" 
+
+- [Tubalar in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0700) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Tubalar individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Tubalar in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0700) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tubalar in Russia (SGDP)" 
+
+- Class: [Tubalar in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0700) 
+
+- [Tubalar in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0700) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Tubalar in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0700) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Tubalar in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0700) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+
 ### Tugen `http://purl.obolibrary.org/obo/AfPO_0000109`
 
 #### Added
@@ -24439,6 +28293,42 @@ R1b"
 - Class: [Tugen](http://purl.obolibrary.org/obo/AfPO_0000109) 
 
 - [Tugen](http://purl.obolibrary.org/obo/AfPO_0000109) SubClassOf [Kalenjin](http://purl.obolibrary.org/obo/AfPO_0000199) 
+
+
+### Tujia in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0726`
+
+#### Added
+- [Tujia in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0726) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 8 samples from Tujia individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Tujia in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0726) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tujia in China (HGDP)" 
+
+- [Tujia in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0726) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tujia" 
+
+- Class: [Tujia in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0726) 
+
+- [Tujia in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0726) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Tujia in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0726) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Tujia in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0726) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+
+### Tujia in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0748`
+
+#### Added
+- [Tujia in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0748) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Tujia individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Tujia in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0748) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tujia in China (SGDP)" 
+
+- [Tujia in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0748) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tujia" 
+
+- Class: [Tujia in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0748) 
+
+- [Tujia in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0748) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Tujia in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0748) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Tujia in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0748) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
 
 
 ### Tumbuka `http://purl.obolibrary.org/obo/AfPO_0000409`
@@ -24707,6 +28597,8 @@ V"
 
 - [Tupiniquim](http://purl.obolibrary.org/obo/HANCESTRO_0628) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
 
+- [Tupiniquim](http://purl.obolibrary.org/obo/HANCESTRO_0628) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
 
 ### Tupuri `http://purl.obolibrary.org/obo/AfPO_0000483`
 
@@ -24810,6 +28702,62 @@ nnj &ndash; Nyangatom"
 - [Turkana](http://purl.obolibrary.org/obo/AfPO_0000376) SubClassOf [Nilotic Eastern](http://purl.obolibrary.org/obo/AfPO_0000371) 
 
 - [Turkana](http://purl.obolibrary.org/obo/AfPO_0000376) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Ethiopia](http://dbpedia.org/resource/Ethiopia) 
+
+
+### Turkish in Turkey (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0842`
+
+#### Added
+- [Turkish in Turkey (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0842) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Turkish individuals recruited in Turkey as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Turkish in Turkey (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0842) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Turkish" 
+
+- [Turkish in Turkey (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0842) [label](http://www.w3.org/2000/01/rdf-schema#label) "Turkish in Turkey (SGDP)" 
+
+- Class: [Turkish in Turkey (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0842) 
+
+- [Turkish in Turkey (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0842) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Turkish](http://purl.obolibrary.org/obo/HANCESTRO_0451) 
+
+- [Turkish in Turkey (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0842) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Turkey](http://dbpedia.org/resource/Turkey) 
+
+- [Turkish in Turkey (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0842) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Turkish in Turkey (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0842) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Tuscan in Italy (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0764`
+
+#### Added
+- [Tuscan in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0764) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 6 samples from Tuscan individuals recruited in Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- [Tuscan in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0764) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tuscan in Italy (HGDP)" 
+
+- [Tuscan in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0764) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tuscan" 
+
+- Class: [Tuscan in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0764) 
+
+- [Tuscan in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0764) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Tuscan in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0764) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Tuscan in Italy (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0764) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Italy](http://dbpedia.org/resource/Italy) 
+
+
+### Tuscan in Italy(Tuscany) (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0843`
+
+#### Added
+- [Tuscan in Italy(Tuscany) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0843) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tuscan in Italy(Tuscany) (SGDP)" 
+
+- [Tuscan in Italy(Tuscany) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0843) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Tuscan" 
+
+- [Tuscan in Italy(Tuscany) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0843) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Tuscan individuals recruited in Italy(Tuscany) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- Class: [Tuscan in Italy(Tuscany) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0843) 
+
+- [Tuscan in Italy(Tuscany) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0843) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+- [Tuscan in Italy(Tuscany) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0843) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Tuscan in Italy(Tuscany) (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0843) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Italy](http://dbpedia.org/resource/Italy) 
 
 
 ### Tutsi `http://purl.obolibrary.org/obo/AfPO_0000438`
@@ -25100,6 +29048,24 @@ E2"
 - [Uganda](http://dbpedia.org/resource/Uganda) SubClassOf [Population_group](http://purl.obolibrary.org/obo/AfPO_0000447) some [Teso](http://purl.obolibrary.org/obo/AfPO_0000514) 
 
 
+### Ulchi in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0701`
+
+#### Added
+- [Ulchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0701) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Ulchi" 
+
+- [Ulchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0701) [label](http://www.w3.org/2000/01/rdf-schema#label) "Ulchi in Russia (SGDP)" 
+
+- [Ulchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0701) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Ulchi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- Class: [Ulchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0701) 
+
+- [Ulchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0701) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Ulchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0701) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Ulchi in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0701) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+
 ### Urhobo `http://purl.obolibrary.org/obo/AfPO_0000427`
 
 #### Added
@@ -25178,6 +29144,84 @@ evh"
 
 #### Added
 - [Uruguayan](http://purl.obolibrary.org/obo/HANCESTRO_0429) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+
+### Utah residents (CEPH) with Northern and Western European ancestry `http://purl.obolibrary.org/obo/HANCESTRO_0766`
+
+#### Added
+- [Utah residents (CEPH) with Northern and Western European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0766) [label](http://www.w3.org/2000/01/rdf-schema#label) "Utah residents (CEPH) with Northern and Western European ancestry" 
+
+- [Utah residents (CEPH) with Northern and Western European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0766) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 184 samples from individuals resident in Utah (CEPH) with Northern and Western European ancestry recruited in Utah, USA as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." 
+
+- [Utah residents (CEPH) with Northern and Western European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0766) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "CEPH" 
+
+- [Utah residents (CEPH) with Northern and Western European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0766) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "CEU" 
+
+- Class: [Utah residents (CEPH) with Northern and Western European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0766) 
+
+- [Utah residents (CEPH) with Northern and Western European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0766) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [United States](http://dbpedia.org/resource/United_States) 
+
+- [Utah residents (CEPH) with Northern and Western European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0766) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [European American](http://purl.obolibrary.org/obo/HANCESTRO_0590) 
+
+- [Utah residents (CEPH) with Northern and Western European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0766) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Utah residents (CEPH) with Northern and Western European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0766) SubClassOf [European](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
+
+
+### Uygur Chinese `http://purl.obolibrary.org/obo/HANCESTRO_0581`
+#### Removed
+- [Uygur Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0581) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Uigur Chinese" 
+
+- [Uygur Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0581) [label](http://www.w3.org/2000/01/rdf-schema#label) "Uygur Chinese" 
+
+#### Added
+- [Uygur Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0581) [label](http://www.w3.org/2000/01/rdf-schema#label) "Uygur" 
+
+- [Uygur Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0581) [alternative_term](http://purl.obolibrary.org/obo/IAO_0000118) "Uygur Chinese" 
+
+- [Uygur Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0581) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Uigur" 
+
+
+### Uygur in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0711`
+
+#### Added
+- [Uygur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0711) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 8 samples from Uygur individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." 
+
+- [Uygur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0711) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Uygur" 
+
+- [Uygur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0711) [label](http://www.w3.org/2000/01/rdf-schema#label) "Uygur in China (HGDP)" 
+
+- Class: [Uygur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0711) 
+
+- [Uygur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0711) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Uygur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0711) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Uygur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0711) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Uygur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0711) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Uygur in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0711) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Uygur Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0581) 
+
+
+### Uygur in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0749`
+
+#### Added
+- [Uygur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0749) [label](http://www.w3.org/2000/01/rdf-schema#label) "Uygur in China (SGDP)" 
+
+- [Uygur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0749) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Uygur" 
+
+- [Uygur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0749) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Uygur individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Uygur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0749) 
+
+- [Uygur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0749) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Uygur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0749) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Uygur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0749) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Uygur Chinese](http://purl.obolibrary.org/obo/HANCESTRO_0581) 
+
+- [Uygur in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0749) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
 
 
 ### Vai `http://purl.obolibrary.org/obo/AfPO_0000556`
@@ -25417,7 +29461,27 @@ evh"
 
 - Class: [Wayúu](http://purl.obolibrary.org/obo/HANCESTRO_0620) 
 
+- [Wayúu](http://purl.obolibrary.org/obo/HANCESTRO_0620) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
 - [Wayúu](http://purl.obolibrary.org/obo/HANCESTRO_0620) SubClassOf [Indigenous in South America](http://purl.obolibrary.org/obo/HANCESTRO_0611) 
+
+
+### West African `http://purl.obolibrary.org/obo/HANCESTRO_0576`
+#### Removed
+- [West African](http://purl.obolibrary.org/obo/HANCESTRO_0576) [label](http://www.w3.org/2000/01/rdf-schema#label) "West African" 
+
+- [West African](http://purl.obolibrary.org/obo/HANCESTRO_0576) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
+
+- [West African](http://purl.obolibrary.org/obo/HANCESTRO_0576) SubClassOf [geographic category](http://purl.obolibrary.org/obo/HANCESTRO_0602) 
+
+- [West African](http://purl.obolibrary.org/obo/HANCESTRO_0576) SubClassOf [has quality](http://purl.obolibrary.org/obo/RO_0000086) some [geographic descriptor](http://purl.obolibrary.org/obo/HANCESTRO_0600) 
+
+#### Added
+- [West African](http://purl.obolibrary.org/obo/HANCESTRO_0576) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [West African](http://purl.obolibrary.org/obo/HANCESTRO_0576) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete West African" 
+
+- [West African](http://purl.obolibrary.org/obo/HANCESTRO_0576) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
 
 
 ### Western African `http://purl.obolibrary.org/obo/AfPO_0000277`
@@ -25431,7 +29495,7 @@ evh"
 
 - Class: [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) 
 
-- [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+- [Western African](http://purl.obolibrary.org/obo/AfPO_0000277) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
 
 
 ### Western Sahara `http://dbpedia.org/resource/Western_Sahara`
@@ -25738,6 +29802,60 @@ E2"
 - [Xhosa](http://purl.obolibrary.org/obo/AfPO_0000116) SubClassOf [Nguni](http://purl.obolibrary.org/obo/AfPO_0000340) 
 
 
+### Xibo in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0727`
+
+#### Added
+- [Xibo in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0727) [label](http://www.w3.org/2000/01/rdf-schema#label) "Xibo in China (HGDP)" 
+
+- [Xibo in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0727) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Xibo" 
+
+- [Xibo in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0727) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 7 samples from Xibo individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Xibo in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0727) 
+
+- [Xibo in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0727) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Xibo in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0727) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Xibo in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0727) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+
+### Xibo in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0750`
+
+#### Added
+- [Xibo in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0750) [label](http://www.w3.org/2000/01/rdf-schema#label) "Xibo in China (SGDP)" 
+
+- [Xibo in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Xibo individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Xibo in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0750) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Xibo" 
+
+- Class: [Xibo in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0750) 
+
+- [Xibo in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0750) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+- [Xibo in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0750) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Xibo in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0750) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Yadava in India (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0801`
+
+#### Added
+- [Yadava in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0801) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Yadava" 
+
+- [Yadava in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0801) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yadava in India (SGDP)" 
+
+- [Yadava in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0801) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Yadava individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." 
+
+- Class: [Yadava in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0801) 
+
+- [Yadava in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0801) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Yadava in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0801) SubClassOf [South Asian](http://purl.obolibrary.org/obo/HANCESTRO_0006) 
+
+- [Yadava in India (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0801) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [India](http://dbpedia.org/resource/India) 
+
+
 ### Yaka `http://purl.obolibrary.org/obo/AfPO_0000482`
 
 #### Added
@@ -25841,6 +29959,42 @@ E2"
 - [Yakoma](http://purl.obolibrary.org/obo/AfPO_0000485) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 - [Yakoma](http://purl.obolibrary.org/obo/AfPO_0000485) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Central African Republic](http://dbpedia.org/resource/Central_African_Republic) 
+
+
+### Yakut in Russia (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0702`
+
+#### Added
+- [Yakut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0702) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Yakut individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." 
+
+- [Yakut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0702) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Yakut" 
+
+- [Yakut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0702) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yakut in Russia (SGDP)" 
+
+- Class: [Yakut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0702) 
+
+- [Yakut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0702) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Yakut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0702) SubClassOf [Indigenous Siberian](http://purl.obolibrary.org/obo/HANCESTRO_0845) 
+
+- [Yakut in Russia (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0702) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
+### Yakut in Siberia (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0728`
+
+#### Added
+- [Yakut in Siberia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0728) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yakut in Siberia (HGDP)" 
+
+- [Yakut in Siberia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0728) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Yakut" 
+
+- [Yakut in Siberia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0728) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 23 samples from Yakut individuals recruited in Siberia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- Class: [Yakut in Siberia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0728) 
+
+- [Yakut in Siberia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0728) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Russia](http://dbpedia.org/resource/Russia) 
+
+- [Yakut in Siberia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0728) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Yakut in Siberia (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0728) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
 
 ### Yalunka `http://purl.obolibrary.org/obo/AfPO_0000557`
@@ -25975,6 +30129,24 @@ E2"
 - [Yao](http://purl.obolibrary.org/obo/AfPO_0000238) SubClassOf [Bantu Eastern](http://purl.obolibrary.org/obo/AfPO_0000369) 
 
 
+### Yemenite Jew in Yemen (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0844`
+
+#### Added
+- [Yemenite Jew in Yemen (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0844) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Yemenite Jew" 
+
+- [Yemenite Jew in Yemen (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0844) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Yemenite Jew individuals recruited in Yemen as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." 
+
+- [Yemenite Jew in Yemen (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0844) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yemenite Jew in Yemen (SGDP)" 
+
+- Class: [Yemenite Jew in Yemen (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0844) 
+
+- [Yemenite Jew in Yemen (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0844) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Yemen](http://dbpedia.org/resource/Yemen) 
+
+- [Yemenite Jew in Yemen (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0844) SubClassOf [Greater Middle Eastern  (Middle Eastern or North African or Persian)](http://purl.obolibrary.org/obo/HANCESTRO_0015) 
+
+- [Yemenite Jew in Yemen (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0844) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+
 ### Yeyi `http://purl.obolibrary.org/obo/AfPO_0000346`
 
 #### Added
@@ -26028,6 +30200,42 @@ E2"
 - Class: [Yeyi](http://purl.obolibrary.org/obo/AfPO_0000346) 
 
 - [Yeyi](http://purl.obolibrary.org/obo/AfPO_0000346) SubClassOf [Bantu Southern](http://purl.obolibrary.org/obo/AfPO_0000326) 
+
+
+### Yi in China (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0729`
+
+#### Added
+- [Yi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0729) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 8 samples from Yi individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Yi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0729) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Yi" 
+
+- [Yi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0729) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yi in China (HGDP)" 
+
+- Class: [Yi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0729) 
+
+- [Yi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0729) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Yi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0729) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Yi in China (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0729) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
+
+
+### Yi in China (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0751`
+
+#### Added
+- [Yi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0751) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yi in China (SGDP)" 
+
+- [Yi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0751) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Yi individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." 
+
+- [Yi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0751) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Yi" 
+
+- Class: [Yi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0751) 
+
+- [Yi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0751) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Yi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0751) SubClassOf [East Asian](http://purl.obolibrary.org/obo/HANCESTRO_0009) 
+
+- [Yi in China (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0751) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [China](http://dbpedia.org/resource/China) 
 
 
 ### Yoruba `http://purl.obolibrary.org/obo/AfPO_0000105`
@@ -26140,6 +30348,84 @@ B"
 - [Yoruba](http://purl.obolibrary.org/obo/AfPO_0000105) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
 
 - [Yoruba](http://purl.obolibrary.org/obo/AfPO_0000105) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Benin](http://dbpedia.org/resource/Benin) 
+
+
+### Yoruba in Ibadan, Nigeria `http://purl.obolibrary.org/obo/HANCESTRO_0668`
+
+#### Added
+- [Yoruba in Ibadan, Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0668) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Yoruba" 
+
+- [Yoruba in Ibadan, Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0668) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "YRI" 
+
+- [Yoruba in Ibadan, Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0668) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yoruba in Ibadan, Nigeria" 
+
+- [Yoruba in Ibadan, Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0668) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 187 samples from Yoruba individuals recruited in Ibadan, Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- Class: [Yoruba in Ibadan, Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0668) 
+
+- [Yoruba in Ibadan, Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0668) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Yoruba](http://purl.obolibrary.org/obo/AfPO_0000105) 
+
+- [Yoruba in Ibadan, Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0668) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Yoruba in Ibadan, Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0668) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Yoruba in Ibadan, Nigeria](http://purl.obolibrary.org/obo/HANCESTRO_0668) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
+
+
+### Yoruba in Nigeria (HGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0639`
+
+#### Added
+- [Yoruba in Nigeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0639) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Yoruba" 
+
+- [Yoruba in Nigeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0639) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 18 samples from Yoruba individuals recruited in Nigeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Yoruba in Nigeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0639) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yoruba in Nigeria (HGDP)" 
+
+- Class: [Yoruba in Nigeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0639) 
+
+- [Yoruba in Nigeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0639) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Yoruba](http://purl.obolibrary.org/obo/AfPO_0000105) 
+
+- [Yoruba in Nigeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0639) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Yoruba in Nigeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0639) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Yoruba in Nigeria (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0639) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
+
+
+### Yoruba in Nigeria (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0658`
+
+#### Added
+- [Yoruba in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0658) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 3 samples from Yoruba individuals recruited in Nigeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." 
+
+- [Yoruba in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0658) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Yoruba" 
+
+- [Yoruba in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0658) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yoruba in Nigeria (SGDP)" 
+
+- Class: [Yoruba in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0658) 
+
+- [Yoruba in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0658) SubClassOf [African](http://purl.obolibrary.org/obo/HANCESTRO_0010) 
+
+- [Yoruba in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0658) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Yoruba in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0658) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Yoruba](http://purl.obolibrary.org/obo/AfPO_0000105) 
+
+- [Yoruba in Nigeria (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0658) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Nigeria](http://dbpedia.org/resource/Nigeria) 
+
+
+### Yoruban `http://purl.obolibrary.org/obo/HANCESTRO_0575`
+#### Removed
+- [Yoruban](http://purl.obolibrary.org/obo/HANCESTRO_0575) [label](http://www.w3.org/2000/01/rdf-schema#label) "Yoruban" 
+
+- [Yoruban](http://purl.obolibrary.org/obo/HANCESTRO_0575) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
+
+- [Yoruban](http://purl.obolibrary.org/obo/HANCESTRO_0575) SubClassOf [Sub-Saharan African](http://purl.obolibrary.org/obo/HANCESTRO_0011) 
+
+#### Added
+- [Yoruban](http://purl.obolibrary.org/obo/HANCESTRO_0575) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete Yoruban" 
+
+- [Yoruban](http://purl.obolibrary.org/obo/HANCESTRO_0575) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [Yoruba](http://purl.obolibrary.org/obo/AfPO_0000105) 
+
+- [Yoruban](http://purl.obolibrary.org/obo/HANCESTRO_0575) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 
 ### Zafimaniry `http://purl.obolibrary.org/obo/AfPO_0000252`
@@ -26347,6 +30633,28 @@ L5"
 - [Zande](http://purl.obolibrary.org/obo/AfPO_0000304) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [South Sudan](http://dbpedia.org/resource/South_Sudan) 
 
 
+### Zapotec in Mexico (SGDP) `http://purl.obolibrary.org/obo/HANCESTRO_0683`
+
+#### Added
+- [Zapotec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0683) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made up of 2 samples from Zapotec individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." 
+
+- [Zapotec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0683) [label](http://www.w3.org/2000/01/rdf-schema#label) "Zapotec in Mexico (SGDP)" 
+
+- [Zapotec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0683) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Zapotec" 
+
+- Class: [Zapotec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0683) 
+
+- [Zapotec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0683) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [Zapotec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0683) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Zapotec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0683) SubClassOf [Hispanic or Latin American](http://purl.obolibrary.org/obo/HANCESTRO_0014) 
+
+- [Zapotec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0683) SubClassOf [hasCountryOfOrigin](http://purl.obolibrary.org/obo/HANCESTRO_0308) some [Mexico](http://dbpedia.org/resource/Mexico) 
+
+- [Zapotec in Mexico (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_0683) SubClassOf [partially overlaps](http://purl.obolibrary.org/obo/RO_0002151) some [Zapoteco](http://purl.obolibrary.org/obo/HANCESTRO_0615) 
+
+
 ### Zapoteco `http://purl.obolibrary.org/obo/HANCESTRO_0615`
 
 #### Added
@@ -26357,6 +30665,8 @@ L5"
 - Class: [Zapoteco](http://purl.obolibrary.org/obo/HANCESTRO_0615) 
 
 - [Zapoteco](http://purl.obolibrary.org/obo/HANCESTRO_0615) SubClassOf [Indigenous in North America](http://purl.obolibrary.org/obo/HANCESTRO_0610) 
+
+- [Zapoteco](http://purl.obolibrary.org/obo/HANCESTRO_0615) SubClassOf [ethnicity category](http://purl.obolibrary.org/obo/HANCESTRO_0601) 
 
 
 ### Zarabe `http://purl.obolibrary.org/obo/AfPO_0000260`
@@ -28837,6 +33147,12 @@ A and B can be physically interacting but not necessarily. Immediately upstream 
 - [obsolescence reason specification](http://purl.obolibrary.org/obo/IAO_0000225) EquivalentTo {[failed exploratory term](http://purl.obolibrary.org/obo/IAO_0000103) , [placeholder removed](http://purl.obolibrary.org/obo/IAO_0000226) , [terms merged](http://purl.obolibrary.org/obo/IAO_0000227) , [term imported](http://purl.obolibrary.org/obo/IAO_0000228) , [term split](http://purl.obolibrary.org/obo/IAO_0000229) , [out of scope](http://purl.obolibrary.org/obo/OMO_0001000)} 
 
 
+### obsolete Swaziland `http://dbpedia.org/resource/Swaziland`
+#### Removed
+- [obsolete Swaziland](http://dbpedia.org/resource/Swaziland) SubClassOf [Thing](http://www.w3.org/2002/07/owl#Thing) 
+
+
+
 ### occurrent `http://purl.obolibrary.org/obo/BFO_0000003`
 #### Removed
 - [occurrent](http://purl.obolibrary.org/obo/BFO_0000003) [label](http://www.w3.org/2000/01/rdf-schema#label) "occurrent"@en 
@@ -29308,6 +33624,18 @@ A and B can be physically interacting but not necessarily. Immediately upstream 
 
 - [realizable entity](http://purl.obolibrary.org/obo/BFO_0000017) SubClassOf [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) 
 
+
+
+### reference population `http://purl.obolibrary.org/obo/HANCESTRO_0632`
+
+#### Added
+- [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) [label](http://www.w3.org/2000/01/rdf-schema#label) "reference population" 
+
+- [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A population made of individuals from whom samples were collected as part of a project such as the 1000 Genomes Project or the Human Genome Diversity Project (HDGP) in order to establish a comprehensive overview of human genetic diversity. Sample sizes for these reference populations vary from 1-3 to 100s of individuals but all individuals in a population will have been sampled in the same location. Each population is allocated to a continental or sub-continental superpopulation such as European or African. Subsets of samples from a reference population may have been used in multiple different analyses." 
+
+- Class: [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
+
+- [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) SubClassOf [population](http://purl.obolibrary.org/obo/OBI_0000181) 
 
 
 ### regulated by `http://purl.obolibrary.org/obo/RO_0002334`
