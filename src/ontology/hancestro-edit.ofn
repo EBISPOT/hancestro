@@ -4137,12 +4137,6 @@ This category also includes individuals who genetically cluster with reference p
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0599"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</obo:IAO_0000115>
         <rdfs:comment>Class previously labelled as &quot;Native American&quot;. Use of this term, alongside other terms such as &quot;First Nations&quot;, should be discontinued in favour of the more appropriate &quot;Indigenous American&quot;, which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively.</rdfs:comment>
         <rdfs:label xml:lang="en">Indigenous American</rdfs:label>
@@ -14126,7 +14120,7 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0845">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym xml:lang="en">Indigenous peoples of Sibera</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Indigenous peoples of Siberia</oboInOwl:hasExactSynonym>
         <rdfs:label>Indigenous Siberian</rdfs:label>
     </owl:Class>
     

@@ -1,7 +1,9 @@
 format-version: 1.2
-data-version: hancestro/releases/2024-06-21/hancestro-base.owl
+data-version: hancestro/releases/2024-08-19/hancestro-base.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: foaf http://xmlns.com/foaf/0.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: protege http://protege.stanford.edu/plugins/owl/protege# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: hancestro/hancestro-base
 property_value: dc:description "Human ancestry ontology for the NHGRI GWAS Catalog" xsd:string
@@ -11,7 +13,8 @@ property_value: IAO:0000700 HANCESTRO:0004
 property_value: IAO:0000700 HANCESTRO:0304
 property_value: IAO:0000700 HANCESTRO:0601
 property_value: IAO:0000700 HANCESTRO:0602
-property_value: owl:versionInfo "2024-06-21" xsd:string
+property_value: IAO:0000700 HANCESTRO:0632
+property_value: owl:versionInfo "2024-08-19" xsd:string
 property_value: terms:license http://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -89,7 +92,6 @@ name: Indigenous American
 def: "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
 comment: Class previously labelled as "Native American". Use of this term, alongside other terms such as "First Nations", should be discontinued in favour of the more appropriate "Indigenous American", which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively.
 is_a: HANCESTRO:0004 ! ancestry category
-is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0014
@@ -582,6 +584,7 @@ name: Tajikistani
 is_a: HANCESTRO:0566 ! undefined ancestry population
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tajikistan ! isDemonymOf
+property_value: IAO:0000118 "Tajik" xsd:string
 
 [Term]
 id: HANCESTRO:0339
@@ -1551,6 +1554,7 @@ name: Papua New Guinean
 is_a: HANCESTRO:0017 ! Oceanian
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Papua_New_Guinea ! isDemonymOf
+property_value: IAO:0000118 "Papuan" xsd:string
 
 [Term]
 id: HANCESTRO:0477
@@ -1953,7 +1957,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Gabon ! isDemonymOf
 [Term]
 id: HANCESTRO:0535
 name: Gambian
-is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: AfPO:0000277
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 The:Gambia ! isDemonymOf
 
@@ -1988,7 +1992,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lesotho ! isDemonymOf
 [Term]
 id: HANCESTRO:0540
 name: Malawian
-is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0566 ! undefined ancestry population
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malawi ! isDemonymOf
 
@@ -2016,7 +2020,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Niger ! isDemonymOf
 [Term]
 id: HANCESTRO:0544
 name: Nigerian
-is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0566 ! undefined ancestry population
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nigeria ! isDemonymOf
 
@@ -2043,7 +2047,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Togo ! isDemonymOf
 [Term]
 id: HANCESTRO:0548
 name: Tanzanian
-is_a: HANCESTRO:0011 ! Sub-Saharan African
+is_a: HANCESTRO:0566 ! undefined ancestry population
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tanzania ! isDemonymOf
 
@@ -2202,6 +2206,7 @@ def: "Individuals who self-identify or are reported by authors as belonging to a
 synonym: "Akimel O'otham" EXACT []
 synonym: "Pima" EXACT []
 synonym: "Pima Indian" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2209,6 +2214,7 @@ id: HANCESTRO:0571
 name: Plains Indians
 def: "Individuals who self-identify or are reported by authors as belonging to the indigenous peoples who have historically lived on the Interior Plains (the Great Plains and Canadian Prairies) of North America" []
 synonym: "Plains American Indian" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2231,30 +2237,31 @@ is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0575
-name: Yoruban
-is_a: HANCESTRO:0011 ! Sub-Saharan African
-is_a: HANCESTRO:0601 ! ethnicity category
+name: obsolete Yoruban
+is_obsolete: true
+replaced_by: AfPO:0000105
 
 [Term]
 id: HANCESTRO:0576
-name: West African
-is_a: HANCESTRO:0011 ! Sub-Saharan African
-is_a: HANCESTRO:0602 ! geography-based population category
-relationship: RO:0000086 HANCESTRO:0600 ! geographic descriptor
+name: obsolete West African
+is_obsolete: true
+replaced_by: AfPO:0000277
 
 [Term]
 id: HANCESTRO:0577
-name: Dai Chinese
+name: Dai
 is_a: HANCESTRO:0009 ! East Asian
 is_a: HANCESTRO:0601 ! ethnicity category
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
+property_value: IAO:0000118 "Dai Chinese" xsd:string
 
 [Term]
 id: HANCESTRO:0578
-name: Hui Chinese
+name: Hui
 is_a: HANCESTRO:0009 ! East Asian
 is_a: HANCESTRO:0601 ! ethnicity category
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
+property_value: IAO:0000118 "Hui Chinese" xsd:string
 
 [Term]
 id: HANCESTRO:0579
@@ -2272,11 +2279,12 @@ relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0581
-name: Uygur Chinese
-synonym: "Uigur Chinese" EXACT []
+name: Uygur
+synonym: "Uigur" EXACT []
 is_a: HANCESTRO:0009 ! East Asian
 is_a: HANCESTRO:0601 ! ethnicity category
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
+property_value: IAO:0000118 "Uygur Chinese" xsd:string
 
 [Term]
 id: HANCESTRO:0582
@@ -2454,24 +2462,28 @@ relationship: RO:0002151 HANCESTRO:0014 ! Latin or Admixed American
 id: HANCESTRO:0613
 name: Otomi
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of Mexico inhabiting the central Mexican Plateau (Altiplano) region." []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
 id: HANCESTRO:0614
 name: Maya
 def: "Individuals who self-identify or are reported by authors as belonging to the Mayan ethnolinguistic group of indigenous peoples of Mesoamerica." []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
 id: HANCESTRO:0615
 name: Zapoteco
 def: "Individuals who self-identify or are reported by authors as belonging to the Zapotec ethnolinguistic group of indigenous people of Mexico. The Zapotec population is concentrated in the southern state of Oaxaca, but Zapotec communities also exist in neighboring states" []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
 id: HANCESTRO:0616
 name: Mazateco
 def: "Individuals who self-identify or are reported by authors as belonging to the Mazatecan ethnolinguistic group of indigenous peoples in the area known as the Sierra Mazateca, which is in the northern part of the state of Oaxaca in southern Mexico, as well as in adjacent areas of the states of Puebla and Veracruz" []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2479,12 +2491,14 @@ id: HANCESTRO:0617
 name: Rarámuri
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of the Americas living in the state of Chihuahua in Mexico" []
 synonym: "Tarahumara" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
 id: HANCESTRO:0618
 name: Nahua
 def: "Individuals who self-identify or are reported by authors as belonging to a group of the indigenous people of Mexico, El Salvador, Guatemala, Honduras, and Nicaragua" []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2492,6 +2506,7 @@ id: HANCESTRO:0619
 name: Mixteco
 def: "Individuals who self-identify or are reported by authors as belonging to indigenous Mesoamerican peoples of Mexico inhabiting the region known as La Mixteca of Oaxaca and Puebla as well as La Montaña Region and Costa Chica Regions of the state of Guerrero" []
 synonym: "Mixtec" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2502,18 +2517,21 @@ synonym: "Guajiro" EXACT []
 synonym: "Wahiro" EXACT []
 synonym: "Wayu" EXACT []
 synonym: "Wayuu" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
 id: HANCESTRO:0621
 name: Piapoco
 def: "Individuals who self-identify or are reported by authors as belonging to an Arawakan ethnolinguistic group in Colombia and Venezuela" []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
 id: HANCESTRO:0622
 name: Pastos
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people native to the Nariño region of southern Colombia and neighbouring Equador" []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2521,6 +2539,7 @@ id: HANCESTRO:0623
 name: Quechua
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of South America who speak the Quechua languages. Although most Quechua speakers are native to Peru, there are some significant populations in Ecuador, Bolivia, Chile, Colombia, and Argentina" []
 synonym: "Quichua" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2528,18 +2547,21 @@ id: HANCESTRO:0624
 name: Aymara
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people in the Andes and Altiplano regions of South America; about 2.3 million live in northwest Argentina, Bolivia, Chile and Peru." []
 synonym: "Aimara" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
 id: HANCESTRO:0625
 name: Diaguita
 def: "Individuals who self-identify or are reported by authors as belonging to a group of South American indigenous people native to the Chilean Norte Chico and the Argentine Northwest." []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
 id: HANCESTRO:0626
 name: Mapuche
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of present-day south-central Chile and southwestern Argentina, including parts of present-day Patagonia" []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2547,6 +2569,7 @@ id: HANCESTRO:0627
 name: Guaraní
 def: "Individuals who self-identify or are reported by authors as belonging to a group of culturally-related indigenous peoples of South America, living primarily in present-day Paraguay between the Paraná River and lower Paraguay River, the Misiones Province of Argentina, southern Brazil as far east as Rio de Janeiro, and parts of Uruguay and Bolivia." []
 synonym: "Guaraní-Mbyá" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2558,6 +2581,7 @@ synonym: "Tupinanquins" EXACT []
 synonym: "Tupinaquis" EXACT []
 synonym: "Tupiniquins" EXACT []
 synonym: "Tupinã-ki" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2566,6 +2590,7 @@ name: Arhuaco
 def: "Individuals who self-identify or are reported by authors as belonging to an Chibchan-speaking indigenous people of Colombia, descended from the Tairona culture, concentrated in northern Colombia in the Sierra Nevada de Santa Marta." []
 synonym: "Ica" EXACT []
 synonym: "Ika" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2573,7 +2598,2088 @@ id: HANCESTRO:0631
 name: Asháninka
 def: "Individuals who self-identify or are reported by authors as belonging to an indigenous people living in the rainforests of Peru and in the State of Acre, Brazil. Their ancestral lands are in the forests of Junín, Pasco, Huánuco and part of Ucayali in Peru." []
 synonym: "Asháninca" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 is_a: HANCESTRO:0611 ! Indigenous in South America
+
+[Term]
+id: HANCESTRO:0632
+name: reference population
+def: "A population made of individuals from whom samples were collected as part of a project such as the 1000 Genomes Project or the Human Genome Diversity Project (HDGP) in order to establish a comprehensive overview of human genetic diversity. Sample sizes for these reference populations vary from 1-3 to 100s of individuals but all individuals in a population will have been sampled in the same location. Each population is allocated to a continental or sub-continental superpopulation such as European or African. Subsets of samples from a reference population may have been used in multiple different analyses." []
+is_a: OBI:0000181
+
+[Term]
+id: HANCESTRO:0633
+name: Bantu in Kenya (HGDP)
+def: "A population made up of 10 samples from Bantu individuals recruited in Kenya as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Bantu Kenya" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Kenya ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000369
+
+[Term]
+id: HANCESTRO:0634
+name: Bantu in South Africa (HGDP)
+def: "A population made up of 4 samples from Bantu individuals recruited in South Africa as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Bantu South Africa" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 South:Africa ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000326
+
+[Term]
+id: HANCESTRO:0635
+name: Biaka in Central African Republic (HGDP)
+def: "A population made up of 24 samples from Biaka individuals recruited in Central African Republic as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Biaka" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Central_African_Republic ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000282
+
+[Term]
+id: HANCESTRO:0636
+name: Mandenka in Senegal (HGDP)
+def: "A population made up of 20 samples from Mandenka individuals recruited in Senegal as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Mandenka" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Senegal ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000430
+
+[Term]
+id: HANCESTRO:0637
+name: Mbuti in Democratic Republic of Congo (HGDP)
+def: "A population made up of 13 samples from Mbuti individuals recruited in Democratic Republic of Congo as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African. Samples from this population were used in data collections  for HGDP Transcriptome." []
+synonym: "Mbuti" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Democratic_Republic_of_the_Congo ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000284
+
+[Term]
+id: HANCESTRO:0638
+name: San in Namibia (HGDP)
+def: "A population made up of 4 samples from San individuals recruited in Namibia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "San" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Namibia ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000332
+
+[Term]
+id: HANCESTRO:0639
+name: Yoruba in Nigeria (HGDP)
+def: "A population made up of 18 samples from Yoruba individuals recruited in Nigeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Yoruba" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Nigeria ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000105
+
+[Term]
+id: HANCESTRO:0640
+name: Bantu Herero in Botswana Or Namibia (SGDP)
+def: "A population made up of 2 samples from Bantu Herero individuals recruited in Botswana Or Namibia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Bantu Herero" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Botswana ! hasCountryOfOrigin
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Namibia ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000123
+
+[Term]
+id: HANCESTRO:0641
+name: Bantu Kenya in Kenya (SGDP)
+def: "A population made up of 2 samples from Bantu Kenya individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Bantu Kenya" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Kenya ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000369
+
+[Term]
+id: HANCESTRO:0642
+name: Bantu Tswana in Botswana Or Namibia (SGDP)
+def: "A population made up of 2 samples from Bantu Tswana individuals recruited in Botswana Or Namibia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Bantu Tswana" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Botswana ! hasCountryOfOrigin
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Namibia ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000142
+
+[Term]
+id: HANCESTRO:0643
+name: Biaka in Central African Republic (SGDP)
+def: "A population made up of 2 samples from Biaka individuals recruited in Central African Republic as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Biaka" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Central_African_Republic ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000282
+
+[Term]
+id: HANCESTRO:0644
+name: Dinka in Sudan (SGDP)
+def: "A population made up of 3 samples from Dinka individuals recruited in Sudan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Dinka" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Sudan ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000071
+
+[Term]
+id: HANCESTRO:0645
+name: Esan in Nigeria (SGDP)
+def: "A population made up of 2 samples from Esan individuals recruited in Nigeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Esan" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Nigeria ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000420
+
+[Term]
+id: HANCESTRO:0646
+name: Gambian in Gambia (SGDP)
+def: "A population made up of 2 samples from Gambian individuals recruited in Gambia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Gambian" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 The:Gambia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0535 ! Gambian
+
+[Term]
+id: HANCESTRO:0647
+name: Ju|'hoan North in Namibia (SGDP)
+def: "A population made up of 4 samples from Ju|'hoan North individuals recruited in Namibia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Ju|'hoan North" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Namibia ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000263
+
+[Term]
+id: HANCESTRO:0648
+name: Khomani San in South Africa (SGDP)
+def: "A population made up of 2 samples from Khomani San individuals recruited in South Africa as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Khomani San" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 South:Africa ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000332
+
+[Term]
+id: HANCESTRO:0649
+name: Luhya in Kenya (SGDP)
+def: "A population made up of 2 samples from Luhya individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Luhya" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Kenya ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000405
+
+[Term]
+id: HANCESTRO:0650
+name: Luo in Kenya (SGDP)
+def: "A population made up of 2 samples from Luo individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Luo" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Kenya ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000198
+
+[Term]
+id: HANCESTRO:0651
+name: Mandenka in Senegal (SGDP)
+def: "A population made up of 3 samples from Mandenka individuals recruited in Senegal as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Mandenka" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Senegal ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000430
+
+[Term]
+id: HANCESTRO:0652
+name: Masai in Kenya
+def: "A population made up of 3 samples from Masai individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Masai" EXACT []
+synonym: "MKK" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Kenya ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000056
+
+[Term]
+id: HANCESTRO:0653
+name: Mbuti in Congo (SGDP)
+def: "A population made up of 4 samples from Mbuti individuals recruited in Congo as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Mbuti" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Democratic_Republic_of_the_Congo ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000284
+
+[Term]
+id: HANCESTRO:0654
+name: Mende in Sierra Leone (SGDP)
+def: "A population made up of 2 samples from Mende individuals recruited in Sierra Leone as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Mende" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 Sierra:Leone ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000432
+
+[Term]
+id: HANCESTRO:0655
+name: Mozabite in Algeria (SGDP)
+def: "A population made up of 2 samples from Mozabite individuals recruited in Algeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Mozabite" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Algeria ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000231
+
+[Term]
+id: HANCESTRO:0656
+name: Saharawi in Western Sahara (Morocco) (SGDP)
+def: "A population made up of 2 samples from Saharawi individuals recruited in Western Sahara (Morocco) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Saharawi" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 Western:Sahara ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000220
+
+[Term]
+id: HANCESTRO:0657
+name: Somali in Kenya (SGDP)
+def: "A population made up of 1 samples from Somali individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Somali" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Kenya ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000389
+
+[Term]
+id: HANCESTRO:0658
+name: Yoruba in Nigeria (SGDP)
+def: "A population made up of 3 samples from Yoruba individuals recruited in Nigeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Yoruba" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Nigeria ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000105
+
+[Term]
+id: HANCESTRO:0659
+name: African Ancestry in Southwest US
+def: "A population made up of 113 samples from African Ancestry individuals recruited in Southwest US as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "African Ancestry SW" EXACT []
+synonym: "ASW" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 United:States ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0660
+name: African Caribbean in Barbados
+def: "A population made up of 123 samples from African Caribbean individuals recruited in Barbados as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "ACB" EXACT []
+synonym: "African Caribbean" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0016 ! African American or Afro-Caribbean
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Barbados ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0567 ! Afro-Caribbean
+
+[Term]
+id: HANCESTRO:0661
+name: Esan in Nigeria
+def: "A population made up of 173 samples from Esan individuals recruited in Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Esan" EXACT []
+synonym: "ESN" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Nigeria ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000420
+
+[Term]
+id: HANCESTRO:0662
+name: Gambian in Western Division, The Gambia - Fula
+def: "A population made up of 100 samples from Fula individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Gambian Fula" EXACT []
+synonym: "GWF" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 The:Gambia ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000104
+
+[Term]
+id: HANCESTRO:0663
+name: Gambian in Western Division, The Gambia - Jola
+def: "A population made up of 100 samples from Jola individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Gambian Jola" EXACT []
+synonym: "GWJ" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 The:Gambia ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000205
+
+[Term]
+id: HANCESTRO:0664
+name: Gambian in Western Division, The Gambia - Mandinka
+def: "A population made up of 280 samples from Mandinka individuals recruited in Western Division, The Gambia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Gambian Mandinka" EXACT []
+synonym: "GWD" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 The:Gambia ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000430
+
+[Term]
+id: HANCESTRO:0665
+name: Gambian in Western Division, The Gambia - Wolof
+def: "A population made up of 100 samples from Wolof individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Gambian Wolof" EXACT []
+synonym: "GWW" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 The:Gambia ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000428
+
+[Term]
+id: HANCESTRO:0666
+name: Luhya in Webuye, Kenya
+def: "A population made up of 117 samples from Luhya individuals recruited in Webuye, Kenya as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Luhya" EXACT []
+synonym: "LWK" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Kenya ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000405
+
+[Term]
+id: HANCESTRO:0667
+name: Mende in Sierra Leone
+def: "A population made up of 129 samples from Mende individuals recruited in Sierra Leone as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Mende" EXACT []
+synonym: "MSL" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 Sierra:Leone ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000432
+
+[Term]
+id: HANCESTRO:0668
+name: Yoruba in Ibadan, Nigeria
+def: "A population made up of 187 samples from Yoruba individuals recruited in Ibadan, Nigeria as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African." []
+synonym: "Yoruba" EXACT []
+synonym: "YRI" EXACT []
+is_a: HANCESTRO:0010 ! African
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Nigeria ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000105
+
+[Term]
+id: HANCESTRO:0669
+name: Colombian in Colombia (HGDP)
+def: "A population made up of 5 samples from Colombian individuals recruited in Colombia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Colombian" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Colombia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0403 ! Colombian
+
+[Term]
+id: HANCESTRO:0670
+name: Karitiana in Brazil (HGDP)
+def: "A population made up of 9 samples from Karitiana individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Karitiana" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0611 ! Indigenous in South America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brazil ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0671
+name: Maya in Mexico (HGDP)
+def: "A population made up of 21 samples from Maya individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Maya" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0610 ! Indigenous in North America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0614 ! Maya
+
+[Term]
+id: HANCESTRO:0672
+name: Pima in Mexico (HGDP)
+def: "A population made up of 12 samples from Pima individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Pima" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0610 ! Indigenous in North America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0570 ! Akimel O'odham
+
+[Term]
+id: HANCESTRO:0673
+name: Surui in Brazil (HGDP)
+def: "A population made up of 6 samples from Surui individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Surui" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0611 ! Indigenous in South America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brazil ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0674
+name: Chane in Argentina (SGDP)
+def: "A population made up of 1 samples from Chane individuals recruited in Argentina as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Chane" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0611 ! Indigenous in South America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Argentina ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0675
+name: Karitiana in Brazil (SGDP)
+def: "A population made up of 3 samples from Karitiana individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Karitiana" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0611 ! Indigenous in South America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brazil ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0676
+name: Mayan in Mexico (SGDP)
+def: "A population made up of 2 samples from Mayan individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Mayan" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0610 ! Indigenous in North America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0614 ! Maya
+
+[Term]
+id: HANCESTRO:0677
+name: Mixe in Mexico (SGDP)
+def: "A population made up of 3 samples from Mixe individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Mixe" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0610 ! Indigenous in North America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0678
+name: Mixtec in Mexico (SGDP)
+def: "A population made up of 2 samples from Mixtec individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Mixtec" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0610 ! Indigenous in North America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0619 ! Mixteco
+
+[Term]
+id: HANCESTRO:0679
+name: Piapoco in Colombia (SGDP)
+def: "A population made up of 2 samples from Piapoco individuals recruited in Colombia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Piapoco" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0611 ! Indigenous in South America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Colombia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0621 ! Piapoco
+
+[Term]
+id: HANCESTRO:0680
+name: Pima in Mexico (SGDP)
+def: "A population made up of 2 samples from Pima individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Pima" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0610 ! Indigenous in North America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0570 ! Akimel O'odham
+
+[Term]
+id: HANCESTRO:0681
+name: Quechua in Peru (SGDP)
+def: "A population made up of 3 samples from Quechua individuals recruited in Peru as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Quechua" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0611 ! Indigenous in South America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Peru ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0623 ! Quechua
+
+[Term]
+id: HANCESTRO:0682
+name: Surui in Brazil (SGDP)
+def: "A population made up of 2 samples from Surui individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Surui" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0611 ! Indigenous in South America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brazil ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0683
+name: Zapotec in Mexico (SGDP)
+def: "A population made up of 2 samples from Zapotec individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Zapotec" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0610 ! Indigenous in North America
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0615 ! Zapoteco
+
+[Term]
+id: HANCESTRO:0684
+name: Colombian in Medellin, Colombia
+def: "A population made up of 148 samples from Colombian individuals recruited in Medellin, Colombia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "CLM" EXACT []
+synonym: "Colombian" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Colombia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0403 ! Colombian
+
+[Term]
+id: HANCESTRO:0685
+name: Mexican Ancestry in Los Angeles, California
+def: "A population made up of 107 samples from Mexican Ancestry individuals recruited in Los Angeles, California as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Mexican Ancestry" EXACT []
+synonym: "MXL" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 United:States ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0415 ! Mexican
+
+[Term]
+id: HANCESTRO:0686
+name: Peruvian in Lima, Peru
+def: "A population made up of 130 samples from Peruvian individuals recruited in Lima, Peru as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "PEL" EXACT []
+synonym: "Peruvian" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Peru ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0420 ! Peruvian
+
+[Term]
+id: HANCESTRO:0687
+name: Puerto Rican in Puerto Rico
+def: "A population made up of 150 samples from Puerto Rican individuals recruited in Puerto Rico as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
+synonym: "Puerto Rican" EXACT []
+synonym: "PUR" EXACT []
+is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 Puerto:Rico ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0421 ! Puerto Rican
+
+[Term]
+id: HANCESTRO:0688
+name: Aleut in Russia (SGDP)
+def: "A population made up of 2 samples from Aleut individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Aleut" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0689
+name: Altaian in Russia (SGDP)
+def: "A population made up of 1 samples from Altaian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Altaian" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0690
+name: Chukchi in Russia (SGDP)
+def: "A population made up of 1 samples from Chukchi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Chukchi" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0691
+name: Eskimo Chaplin in Russia (SGDP)
+def: "A population made up of 1 samples from Eskimo Chaplin individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Eskimo Chaplin" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0692
+name: Eskimo Naukan in Russia (SGDP)
+def: "A population made up of 2 samples from Eskimo Naukan individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Eskimo Naukan" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0693
+name: Eskimo Sireniki in Russia (SGDP)
+def: "A population made up of 2 samples from Eskimo Sireniki individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Eskimo Sireniki" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0694
+name: Even in Russia (SGDP)
+def: "A population made up of 3 samples from Even individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Even" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0695
+name: Itelman in Russia (SGDP)
+def: "A population made up of 1 samples from Itelman individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Itelman" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0696
+name: Kyrgyz in Kyrgyzystan (SGDP)
+def: "A population made up of 2 samples from Kyrgyz individuals recruited in Kyrgyzystan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Kyrgyz" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Kyrgyzstan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0697
+name: Mansi in Russia (SGDP)
+def: "A population made up of 2 samples from Mansi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Mansi" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0698
+name: Mongola in China (SGDP)
+def: "A population made up of 2 samples from Mongola individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Mongola" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0023 ! Mongolian
+
+[Term]
+id: HANCESTRO:0699
+name: Tlingit in Russia (SGDP)
+def: "A population made up of 2 samples from Tlingit individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Tlingit" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0700
+name: Tubalar in Russia (SGDP)
+def: "A population made up of 2 samples from Tubalar individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Tubalar" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0701
+name: Ulchi in Russia (SGDP)
+def: "A population made up of 2 samples from Ulchi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Ulchi" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0702
+name: Yakut in Russia (SGDP)
+def: "A population made up of 2 samples from Yakut individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
+synonym: "Yakut" EXACT []
+is_a: HANCESTRO:0632 ! reference population
+is_a: HANCESTRO:0845 ! Indigenous Siberian
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0703
+name: Balochi in Pakistan (HGDP)
+def: "A population made up of 22 samples from Balochi individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." []
+synonym: "Balochi" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0704
+name: Brahui in Pakistan (HGDP)
+def: "A population made up of 23 samples from Brahui individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." []
+synonym: "Brahui" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0705
+name: Burusho in Pakistan (HGDP)
+def: "A population made up of 22 samples from Burusho individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." []
+synonym: "Burusho" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0706
+name: Hazara in Pakistan (HGDP)
+def: "A population made up of 18 samples from Hazara individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." []
+synonym: "Hazara" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0707
+name: Kalash in Pakistan (HGDP)
+def: "A population made up of 21 samples from Kalash individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." []
+synonym: "Kalash" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0708
+name: Makrani in Pakistan (HGDP)
+def: "A population made up of 23 samples from Makrani individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." []
+synonym: "Makrani" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0709
+name: Pathan in Pakistan (HGDP)
+def: "A population made up of 23 samples from Pathan individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." []
+synonym: "Pathan" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0710
+name: Sindhi in Pakistan (HGDP)
+def: "A population made up of 22 samples from Sindhi individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." []
+synonym: "Sindhi" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0711
+name: Uygur in China (HGDP)
+def: "A population made up of 8 samples from Uygur individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian." []
+synonym: "Uygur" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0581 ! Uygur
+
+[Term]
+id: HANCESTRO:0712
+name: Cambodian in Cambodia (HGDP)
+def: "A population made up of 9 samples from Cambodian individuals recruited in Cambodia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Cambodian" EXACT []
+is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Cambodia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0493 ! Cambodian
+
+[Term]
+id: HANCESTRO:0713
+name: Dai in China (HGDP)
+def: "A population made up of 5 samples from Dai individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Dai" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0577 ! Dai
+
+[Term]
+id: HANCESTRO:0714
+name: Daur in China (HGDP)
+def: "A population made up of 9 samples from Daur individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Daur" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0715
+name: Han in China (HGDP)
+def: "A population made up of 30 samples from Han individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Han" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0027 ! Han Chinese
+
+[Term]
+id: HANCESTRO:0716
+name: Hezhen in China (HGDP)
+def: "A population made up of 7 samples from Hezhen individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Hezhen" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0717
+name: Japanese in Japan (HGDP)
+def: "A population made up of 27 samples from Japanese individuals recruited in Japan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Japanese" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Japan ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0019 ! Japanese
+
+[Term]
+id: HANCESTRO:0718
+name: Lahu in China (HGDP)
+def: "A population made up of 6 samples from Lahu individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Lahu" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0719
+name: Miao in China (HGDP)
+def: "A population made up of 8 samples from Miao individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Miao" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0720
+name: Mongolian in China (HGDP)
+def: "A population made up of 8 samples from Mongolian individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Mongolian" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0023 ! Mongolian
+
+[Term]
+id: HANCESTRO:0721
+name: Naxi in China (HGDP)
+def: "A population made up of 6 samples from Naxi individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Naxi" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0722
+name: Northern Han in China (HGDP)
+def: "A population made up of 10 samples from Northern Han individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Northern Han" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0027 ! Han Chinese
+
+[Term]
+id: HANCESTRO:0723
+name: Oroqen in China (HGDP)
+def: "A population made up of 7 samples from Oroqen individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Oroqen" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0724
+name: She in China (HGDP)
+def: "A population made up of 8 samples from She individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "She" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0725
+name: Tu in China (HGDP)
+def: "A population made up of 8 samples from Tu individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Tu" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0726
+name: Tujia in China (HGDP)
+def: "A population made up of 8 samples from Tujia individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Tujia" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0727
+name: Xibo in China (HGDP)
+def: "A population made up of 7 samples from Xibo individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Xibo" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0728
+name: Yakut in Siberia (HGDP)
+def: "A population made up of 23 samples from Yakut individuals recruited in Siberia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Yakut" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0729
+name: Yi in China (HGDP)
+def: "A population made up of 8 samples from Yi individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Yi" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0730
+name: Ami in Taiwan (SGDP)
+def: "A population made up of 2 samples from Ami individuals recruited in Taiwan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Ami" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Taiwan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0731
+name: Atayal in Taiwan (SGDP)
+def: "A population made up of 1 samples from Atayal individuals recruited in Taiwan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Atayal" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Taiwan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0732
+name: Burmese in Myanmar (SGDP)
+def: "A population made up of 2 samples from Burmese individuals recruited in Myanmar as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Burmese" EXACT []
+is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Myanmar ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0497 ! Burmese
+
+[Term]
+id: HANCESTRO:0733
+name: Cambodian in Cambodia (SGDP)
+def: "A population made up of 2 samples from Cambodian individuals recruited in Cambodia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Cambodian" EXACT []
+is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Cambodia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0493 ! Cambodian
+
+[Term]
+id: HANCESTRO:0734
+name: Dai in China (SGDP)
+def: "A population made up of 4 samples from Dai individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Dai" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0577 ! Dai
+
+[Term]
+id: HANCESTRO:0735
+name: Daur in China (SGDP)
+def: "A population made up of 1 samples from Daur individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Daur" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0736
+name: Han in China (SGDP)
+def: "A population made up of 3 samples from Han individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Han" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0027 ! Han Chinese
+
+[Term]
+id: HANCESTRO:0737
+name: Hezhen in China (SGDP)
+def: "A population made up of 2 samples from Hezhen individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Hezhen" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0738
+name: Japanese in Japan (SGDP)
+def: "A population made up of 3 samples from Japanese individuals recruited in Japan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Japanese" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Japan ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0019 ! Japanese
+
+[Term]
+id: HANCESTRO:0739
+name: Kinh in Vietnam (SGDP)
+def: "A population made up of 2 samples from Kinh individuals recruited in Vietnam as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Kinh" EXACT []
+is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Vietnam ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0740
+name: Korean in Korea (SGDP)
+def: "A population made up of 2 samples from Korean individuals recruited in Korea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Korean" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 South:Korea ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0022 ! Korean
+
+[Term]
+id: HANCESTRO:0741
+name: Lahu in China (SGDP)
+def: "A population made up of 2 samples from Lahu individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Lahu" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0742
+name: Miao in China (SGDP)
+def: "A population made up of 2 samples from Miao individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Miao" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0743
+name: Naxi in China (SGDP)
+def: "A population made up of 3 samples from Naxi individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Naxi" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0744
+name: Oroqen in China (SGDP)
+def: "A population made up of 2 samples from Oroqen individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Oroqen" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0745
+name: She in China (SGDP)
+def: "A population made up of 2 samples from She individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "She" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0746
+name: Thai in Thailand (SGDP)
+def: "A population made up of 2 samples from Thai individuals recruited in Thailand as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Thai" EXACT []
+is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Thailand ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0500 ! Thai
+
+[Term]
+id: HANCESTRO:0747
+name: Tu in China (SGDP)
+def: "A population made up of 2 samples from Tu individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Tu" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0748
+name: Tujia in China (SGDP)
+def: "A population made up of 2 samples from Tujia individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Tujia" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0749
+name: Uygur in China (SGDP)
+def: "A population made up of 2 samples from Uygur individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Uygur" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0581 ! Uygur
+
+[Term]
+id: HANCESTRO:0750
+name: Xibo in China (SGDP)
+def: "A population made up of 2 samples from Xibo individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Xibo" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0751
+name: Yi in China (SGDP)
+def: "A population made up of 2 samples from Yi individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Yi" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0752
+name: Chinese Dai in Xishuangbanna, China
+def: "A population made up of 109 samples from Chinese Dai individuals recruited in Xishuangbanna, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "CDX" EXACT []
+synonym: "Dai Chinese" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0577 ! Dai
+
+[Term]
+id: HANCESTRO:0753
+name: Han Chinese in Beijing, China
+def: "A population made up of 112 samples from Han Chinese individuals recruited in Beijing, China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "CHB" EXACT []
+synonym: "Han Chinese" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0027 ! Han Chinese
+
+[Term]
+id: HANCESTRO:0754
+name: Japanese in Tokyo, Japan
+def: "A population made up of 105 samples from Japanese individuals recruited in Tokyo, Japan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "Japanese" EXACT []
+synonym: "JPT" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Japan ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0019 ! Japanese
+
+[Term]
+id: HANCESTRO:0755
+name: Kinh in Ho Chi Minh City, Vietnam
+def: "A population made up of 124 samples from Kinh individuals recruited in Ho Chi Minh City, Vietnam as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "KHV" EXACT []
+synonym: "Kinh Vietnamese" EXACT []
+is_a: HANCESTRO:0007 ! South East Asian
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Vietnam ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0756
+name: Han Chinese South
+def: "A population made up of 171 samples from Han Chinese South individuals recruited in China as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation East Asian." []
+synonym: "CHS" EXACT []
+synonym: "Southern Han Chinese" EXACT []
+is_a: HANCESTRO:0009 ! East Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0027 ! Han Chinese
+
+[Term]
+id: HANCESTRO:0757
+name: Adygei in Caucasus, Russia (HGDP)
+def: "A population made up of 15 samples from Adygei individuals recruited in Caucasus, Russia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "Adygei" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0758
+name: Basque in France (HGDP)
+def: "A population made up of 22 samples from Basque individuals recruited in France as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "Basque" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/France ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0759
+name: Bergamo Italian in Bergamo, Italy (HGDP)
+def: "A population made up of 10 samples from Bergamo Italian individuals recruited in Bergamo, Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "Bergamo Italian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0760
+name: French in France (HGDP)
+def: "A population made up of 24 samples from French individuals recruited in France as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "French" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/France ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0363 ! French
+
+[Term]
+id: HANCESTRO:0761
+name: Orcadian in Orkney (HGDP)
+def: "A population made up of 13 samples from Orcadian individuals recruited in Orkney as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "Orcadian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: RO:0002151 HANCESTRO:0318 ! Orcadian
+
+[Term]
+id: HANCESTRO:0762
+name: Russian in Russia (HGDP)
+def: "A population made up of 23 samples from Russian individuals recruited in Russia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "Russian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0386 ! Russian
+
+[Term]
+id: HANCESTRO:0763
+name: Sardinian in Italy (HGDP)
+def: "A population made up of 24 samples from Sardinian individuals recruited in Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "Sardinian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0764
+name: Tuscan in Italy (HGDP)
+def: "A population made up of 6 samples from Tuscan individuals recruited in Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "Tuscan" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0765
+name: British in England and Scotland
+def: "A population made up of 107 samples from British individuals recruited in England and Scotland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "British" EXACT []
+synonym: "GBR" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: RO:0002151 HANCESTRO:0462 ! British
+
+[Term]
+id: HANCESTRO:0766
+name: Utah residents (CEPH) with Northern and Western European ancestry
+def: "A population made up of 184 samples from individuals resident in Utah (CEPH) with Northern and Western European ancestry recruited in Utah, USA as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "CEPH" EXACT []
+synonym: "CEU" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 United:States ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0590 ! European American
+
+[Term]
+id: HANCESTRO:0767
+name: Finnish in Finland
+def: "A population made up of 105 samples from Finnish individuals recruited in Finland as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "FIN" EXACT []
+synonym: "Finnish" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Finland ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0321 ! Finnish
+
+[Term]
+id: HANCESTRO:0768
+name: Iberian populations in Spain
+def: "A population made up of 162 samples from Iberian populations individuals recruited in Spain as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "Iberian" EXACT []
+synonym: "IBS" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Spain ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0769
+name: Toscani in Italy
+def: "A population made up of 112 samples from Toscani individuals recruited in Italy as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European." []
+synonym: "Toscani" EXACT []
+synonym: "TSI" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0770
+name: Bedouin in Negev, Israel (HGDP)
+def: "A population made up of 44 samples from Bedouin individuals recruited in Negev, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." []
+synonym: "Bedouin" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0771
+name: Druze in Carmel, Israel (HGDP)
+def: "A population made up of 40 samples from Druze individuals recruited in Carmel, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." []
+synonym: "Druze" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0772
+name: Mozabite in Mzab, Algeria (HGDP)
+def: "A population made up of 27 samples from Mozabite individuals recruited in Mzab, Algeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." []
+synonym: "Mozabite" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Algeria ! hasCountryOfOrigin
+relationship: RO:0002151 AfPO:0000231
+
+[Term]
+id: HANCESTRO:0773
+name: Palestinian in Central, Israel (HGDP)
+def: "A population made up of 43 samples from Palestinian individuals recruited in Central, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." []
+synonym: "Palestinian" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0446 ! Palestinian
+
+[Term]
+id: HANCESTRO:0774
+name: Bougainville in Bougainville (HGDP)
+def: "A population made up of 11 samples from Bougainville individuals recruited in Bougainville as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Bougainville" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0775
+name: Papuan Highlands in New Guinea (HGDP)
+def: "A population made up of 6 samples from Papuan Highlands individuals recruited in New Guinea as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Papuan Highlands" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0776
+name: Papuan Sepik in New Guinea (HGDP)
+def: "A population made up of 8 samples from Papuan Sepik individuals recruited in New Guinea as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Papuan Sepik" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0777
+name: Australian in Australia (SGDP)
+def: "A population made up of 2 samples from Australian individuals recruited in Australia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Australian" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0552 ! Aboriginal Australian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Australia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0778
+name: Bougainville in Papua New Guinea (SGDP)
+def: "A population made up of 2 samples from Bougainville individuals recruited in Papua New Guinea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Bougainville" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0779
+name: Dusun in Brunei (SGDP)
+def: "A population made up of 2 samples from Dusun individuals recruited in Brunei as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Dusun" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brunei ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0780
+name: Hawaiian in USA (SGDP)
+def: "A population made up of 1 samples from Hawaiian individuals recruited in USA as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Hawaiian" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 United:States ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0573 ! Native Hawaiian
+
+[Term]
+id: HANCESTRO:0781
+name: Igorot in Philippines (SGDP)
+def: "A population made up of 2 samples from Igorot individuals recruited in Philippines as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Igorot" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Philippines ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0782
+name: Maori in New Zealand (SGDP)
+def: "A population made up of 1 samples from Maori individuals recruited in New Zealand as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Maori" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 New:Zealand ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0783
+name: Papuan in Papua New Guinea (SGDP)
+def: "A population made up of 15 samples from Papuan individuals recruited in Papua New Guinea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
+synonym: "Papuan" EXACT []
+is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0476 ! Papua New Guinean
+
+[Term]
+id: HANCESTRO:0784
+name: Balochi in Pakistan (SGDP)
+def: "A population made up of 2 samples from Balochi individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Balochi" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0785
+name: Bengali in Bangladesh (SGDP)
+def: "A population made up of 2 samples from Bengali individuals recruited in Bangladesh as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Bengali" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Bangladesh ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0786
+name: Brahmin in India (SGDP)
+def: "A population made up of 2 samples from Brahmin individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Brahmin" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/India ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0787
+name: Brahui in Pakistan (SGDP)
+def: "A population made up of 2 samples from Brahui individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Brahui" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0788
+name: Burusho in Pakistan (SGDP)
+def: "A population made up of 2 samples from Burusho individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Burusho" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0789
+name: Hazara in Pakistan (SGDP)
+def: "A population made up of 2 samples from Hazara individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Hazara" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0790
+name: Irula in India (SGDP)
+def: "A population made up of 2 samples from Irula individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Irula" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/India ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0791
+name: Kalash in Pakistan (SGDP)
+def: "A population made up of 2 samples from Kalash individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Kalash" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0792
+name: Kapu in India (SGDP)
+def: "A population made up of 2 samples from Kapu individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Kapu" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/India ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0793
+name: Khonda Dora in India (SGDP)
+def: "A population made up of 1 samples from Khonda Dora individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Khonda Dora" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/India ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0794
+name: Kusunda in Nepal (SGDP)
+def: "A population made up of 2 samples from Kusunda individuals recruited in Nepal as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Kusunda" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Nepal ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0795
+name: Madiga in India (SGDP)
+def: "A population made up of 1 samples from Madiga individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Madiga" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/India ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0796
+name: Makrani in Pakistan (SGDP)
+def: "A population made up of 2 samples from Makrani individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Makrani" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0797
+name: Pathan in Pakistan (SGDP)
+def: "A population made up of 2 samples from Pathan individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Pathan" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0798
+name: Punjabi in Pakistan (SGDP)
+def: "A population made up of 4 samples from Punjabi individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Punjabi" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0799
+name: Relli in India (SGDP)
+def: "A population made up of 2 samples from Relli individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Relli" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/India ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0800
+name: Sindhi in Pakistan (SGDP)
+def: "A population made up of 2 samples from Sindhi individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Sindhi" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0801
+name: Yadava in India (SGDP)
+def: "A population made up of 2 samples from Yadava individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "Yadava" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/India ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0802
+name: Bengali in Bangladesh
+def: "A population made up of 144 samples from Bengali individuals recruited in Bangladesh as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "BEB" EXACT []
+synonym: "Bengali" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Bangladesh ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0803
+name: Gujarati Indians in Houston, TX
+def: "A population made up of 113 samples from Gujarati Indians individuals recruited in Houston, TX as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "GIH" EXACT []
+synonym: "Gujarati" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+
+[Term]
+id: HANCESTRO:0804
+name: Punjabi in Lahore, Pakistan
+def: "A population made up of 158 samples from Punjabi individuals recruited in Lahore, Pakistan as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "PJL" EXACT []
+synonym: "Punjabi" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Pakistan ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0805
+name: Sri Lankan Tamil in the UK
+def: "A population made up of 128 samples from Sri Lankan Tamil individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "STU" EXACT []
+synonym: "Tamil" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+
+[Term]
+id: HANCESTRO:0806
+name: Indian Telugu in the UK
+def: "A population made up of 118 samples from Indian Telugu individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian." []
+synonym: "ITU" EXACT []
+synonym: "Telugu" EXACT []
+is_a: HANCESTRO:0006 ! South Asian
+is_a: HANCESTRO:0632 ! reference population
+
+[Term]
+id: HANCESTRO:0807
+name: Abkhasian in Abkhazia or Russia (SGDP)
+def: "A population made up of 2 samples from Abkhasian individuals recruited in Abkhazia or Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Abkhasian" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0808
+name: Adygei in Russia(Caucasus) (SGDP)
+def: "A population made up of 2 samples from Adygei individuals recruited in Russia(Caucasus) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Adygei" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0286 ! Central Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0809
+name: Albanian in Albania (SGDP)
+def: "A population made up of 1 samples from Albanian individuals recruited in Albania as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Albanian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Albania ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0344 ! Albanian
+
+[Term]
+id: HANCESTRO:0810
+name: Armenian in Armenia (SGDP)
+def: "A population made up of 2 samples from Armenian individuals recruited in Armenia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Armenian" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Armenia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0432 ! Armenian
+
+[Term]
+id: HANCESTRO:0811
+name: Basque in France (SGDP)
+def: "A population made up of 2 samples from Basque individuals recruited in France as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Basque" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/France ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0812
+name: Bedouin B in Israel(Negev) (SGDP)
+def: "A population made up of 2 samples from Bedouin B individuals recruited in Israel(Negev) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Bedouin B" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0813
+name: Bergamo in Italy(Bergamo) (SGDP)
+def: "A population made up of 2 samples from Bergamo individuals recruited in Italy(Bergamo) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Bergamo" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0814
+name: Bulgarian in Bulgaria (SGDP)
+def: "A population made up of 2 samples from Bulgarian individuals recruited in Bulgaria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Bulgarian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Bulgaria ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0353 ! Bulgarian
+
+[Term]
+id: HANCESTRO:0815
+name: Chechen in Russia (SGDP)
+def: "A population made up of 1 samples from Chechen individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Chechen" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0286 ! Central Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0816
+name: Crete in Greece (SGDP)
+def: "A population made up of 2 samples from Crete individuals recruited in Greece as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Crete" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Greece ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0817
+name: Czech in Czechoslovakia(pre1989) (SGDP)
+def: "A population made up of 1 samples from Czech individuals recruited in Czechoslovakia(pre1989) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Czech" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: RO:0002151 HANCESTRO:0358 ! Czech
+
+[Term]
+id: HANCESTRO:0818
+name: Druze in Israel(Carmel) (SGDP)
+def: "A population made up of 2 samples from Druze individuals recruited in Israel(Carmel) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Druze" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0819
+name: English in England (SGDP)
+def: "A population made up of 2 samples from English individuals recruited in England as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "English" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+
+[Term]
+id: HANCESTRO:0820
+name: Estonian in Estonia (SGDP)
+def: "A population made up of 2 samples from Estonian individuals recruited in Estonia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Estonian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Estonia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0360 ! Estonian
+
+[Term]
+id: HANCESTRO:0821
+name: Finnish in Finland (SGDP)
+def: "A population made up of 3 samples from Finnish individuals recruited in Finland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Finnish" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Finland ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0321 ! Finnish
+
+[Term]
+id: HANCESTRO:0822
+name: French in France (SGDP)
+def: "A population made up of 3 samples from French individuals recruited in France as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "French" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/France ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0363 ! French
+
+[Term]
+id: HANCESTRO:0823
+name: Georgian in Georgia (SGDP)
+def: "A population made up of 2 samples from Georgian individuals recruited in Georgia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Georgian" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 Georgia:(country) ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0437 ! Georgian
+
+[Term]
+id: HANCESTRO:0824
+name: Greek in Greece (SGDP)
+def: "A population made up of 2 samples from Greek individuals recruited in Greece as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Greek" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Greece ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0366 ! Greek
+
+[Term]
+id: HANCESTRO:0825
+name: Hungarian in Hungary (SGDP)
+def: "A population made up of 2 samples from Hungarian individuals recruited in Hungary as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Hungarian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Hungary ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0368 ! Hungarian
+
+[Term]
+id: HANCESTRO:0826
+name: Icelandic in Iceland (SGDP)
+def: "A population made up of 2 samples from Icelandic individuals recruited in Iceland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Icelandic" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Iceland ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0369 ! Icelandic
+
+[Term]
+id: HANCESTRO:0827
+name: Iranian in Iran (SGDP)
+def: "A population made up of 2 samples from Iranian individuals recruited in Iran as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Iranian" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Iran ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0438 ! Iranian
+
+[Term]
+id: HANCESTRO:0828
+name: Iraqi Jew in Iraq (SGDP)
+def: "A population made up of 2 samples from Iraqi Jew individuals recruited in Iraq as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Iraqi Jew" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Iraq ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0829
+name: Jordanian in Jordan (SGDP)
+def: "A population made up of 3 samples from Jordanian individuals recruited in Jordan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Jordanian" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Jordan ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0441 ! Jordanian
+
+[Term]
+id: HANCESTRO:0830
+name: Lezgin in Russia (SGDP)
+def: "A population made up of 2 samples from Lezgin individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Lezgin" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0286 ! Central Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0831
+name: North Ossetian in Russia (SGDP)
+def: "A population made up of 2 samples from North Ossetian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "North Ossetian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0286 ! Central Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0832
+name: Norwegian in Norway (SGDP)
+def: "A population made up of 1 samples from Norwegian individuals recruited in Norway as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Norwegian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Norway ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0380 ! Norwegian
+
+[Term]
+id: HANCESTRO:0833
+name: Orcadian in Orkney Islands (SGDP)
+def: "A population made up of 2 samples from Orcadian individuals recruited in Orkney Islands as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Orcadian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: RO:0002151 HANCESTRO:0318 ! Orcadian
+
+[Term]
+id: HANCESTRO:0834
+name: Palestinian in Israel(Central) (SGDP)
+def: "A population made up of 3 samples from Palestinian individuals recruited in Israel(Central) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Palestinian" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0446 ! Palestinian
+
+[Term]
+id: HANCESTRO:0835
+name: Polish in Poland (SGDP)
+def: "A population made up of 1 samples from Polish individuals recruited in Poland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Polish" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Poland ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0381 ! Polish
+
+[Term]
+id: HANCESTRO:0836
+name: Russian in Russia (SGDP)
+def: "A population made up of 2 samples from Russian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Russian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0386 ! Russian
+
+[Term]
+id: HANCESTRO:0837
+name: Saami in Finland (SGDP)
+def: "A population made up of 2 samples from Saami individuals recruited in Finland as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Saami" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Finland ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0838
+name: Samaritan in Israel (SGDP)
+def: "A population made up of 1 samples from Samaritan individuals recruited in Israel as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Samaritan" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0839
+name: Sardinian in Italy (SGDP)
+def: "A population made up of 3 samples from Sardinian individuals recruited in Italy as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Sardinian" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0840
+name: Spanish in Spain (SGDP)
+def: "A population made up of 2 samples from Spanish individuals recruited in Spain as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Spanish" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Spain ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0392 ! Spanish
+
+[Term]
+id: HANCESTRO:0841
+name: Tajik in Tajikistan (SGDP)
+def: "A population made up of 2 samples from Tajik individuals recruited in Tajikistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Tajik" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0286 ! Central Asian
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Tajikistan ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0338 ! Tajikistani
+
+[Term]
+id: HANCESTRO:0842
+name: Turkish in Turkey (SGDP)
+def: "A population made up of 2 samples from Turkish individuals recruited in Turkey as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Turkish" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Turkey ! hasCountryOfOrigin
+relationship: RO:0002151 HANCESTRO:0451 ! Turkish
+
+[Term]
+id: HANCESTRO:0843
+name: Tuscan in Italy(Tuscany) (SGDP)
+def: "A population made up of 2 samples from Tuscan individuals recruited in Italy(Tuscany) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Tuscan" EXACT []
+is_a: HANCESTRO:0005 ! European
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Italy ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0844
+name: Yemenite Jew in Yemen (SGDP)
+def: "A population made up of 2 samples from Yemenite Jew individuals recruited in Yemen as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
+synonym: "Yemenite Jew" EXACT []
+is_a: HANCESTRO:0015 ! Greater Middle Eastern  (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0632 ! reference population
+relationship: HANCESTRO:0308 http://dbpedia.org/resource/Yemen ! hasCountryOfOrigin
+
+[Term]
+id: HANCESTRO:0845
+name: Indigenous Siberian
+def: "Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan." []
+synonym: "Indigenous peoples of Siberia" EXACT []
+is_a: HANCESTRO:0004 ! ancestry category
 
 [Term]
 id: http://dbpedia.org/resource/Caribbean
