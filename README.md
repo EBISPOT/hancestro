@@ -35,19 +35,13 @@ For more information, take a look at [our website](https://ebispot.github.io/han
 
 ##Ancestry Ontology - Release Notes ##
 
-### Current release: v2024-06-21
+### Current release: v2024-08-19
 
-Date Released: 21 June 2024
+Date Released: 19 August 2024
 
-Class Count: 1045 
+Class Count: 1259 
 
-- **AfPO import**: As of release v2023-06-21, HANCESTRO defers to the [African Population Ontology (AfPO)](https://github.com/h3abionet/afpo) on all terminology relating to African populations. 
-- Renamed `geographic category (HANCESTRO:0602)` to `geography-based population category`
-- Renamed `Hispanic or Latin American (HANCESTRO:0014)` to `Latin or Admixed American` and reclassified several population descriptors from `undefined ancestry population (HANCESTRO:0566)` to `Latin or Admixed American`
-- Renamed `Native American (HANCESTRO:0013)` to `Indigenous American`, and added separate sub-classes for `Indigenous in North America (HANCESTRO:0610)` and `Indigenous in South America (HANCESTRO:0611)` with a number of indigenous populations in each category
-- Added `Hispanic (HANCESTRO:0612)`
-- Moved from HERMIT to ELK as our ontology reasoner
-	- Adjusted some axiomatisations to conform to OWL2-EL to maintain reasoned hierarchy with ELK.
+- **Reference populations**: The latest release of HANCESTRO includes all reference populations from projects such as the 1000 Genomes Project and the Human Genome Diversity Project (HGDP), as listed on the International Genome Sample Resource (IGSR). Reference populations are grouped under the new parent term `reference population (HANCESTRO:0632)`.
 
 See the [release notes](https://github.com/EBISPOT/hancestro/releases) for further details of most recent changes or check out our new [automatically generated ontology diff report](https://github.com/EBISPOT/hancestro/blob/main/src/ontology/reports/release-diff.md).
 
