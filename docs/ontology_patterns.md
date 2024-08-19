@@ -1,7 +1,5 @@
-# human-ancestry-ontology-design-patterns
+# HANCESTRO design patterns
 
-HANCESTRO design patterns
-========
 
 ## HANCESTRO native object properties
 
@@ -17,6 +15,7 @@ In addition, it uses several imported properties:
 - has quality (RO:0000086)
 - located in (RO:0001025)
 - part of (BFO:0000050)
+- partially overlaps (RO:0002151)
 
 
 ## Defined classes
@@ -44,6 +43,14 @@ Additionally, many descriptors may be applicable as both a geographic and an eth
 
 
 ## Other design patterns
+
+### Links between populations
+
+We use the patterns
+
+```partially overlaps some <population>``` 
+ 
+to create links between certain populations, e.g. between ethnic groups and nationalities in cases where a substantial part of a group is known to have this nationality. We also use the property to link reference populations to their closest ethnicities. 
 
 ### Country-region links
 
@@ -74,4 +81,6 @@ As mentioned in the section on defined classes, we create links between geograph
 
 ### Country of origin
 
-In exceptional cases, ancestry categories are associated with countries via the `hasCountryOfOrigin` relationship. This is a fairly formal definition generally reserved for genetically isolated populations where objectively verifiable information is available to relate individuals from this population to a small geographic area within a certain country. We do not use 
+In exceptional cases, ancestry categories are associated with countries via the `hasCountryOfOrigin` relationship. This is a fairly formal definition generally reserved for genetically isolated populations where objectively verifiable information is available to relate individuals from this population to a small geographic area within a certain country. This property is also used to link reference populations to their country of origin, where this is known.
+
+It should be noted that the African Population Ontology (AfPO) uses this property more liberally than HANCESTRO to indicate that a population group has a major presence in a given country.

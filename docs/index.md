@@ -55,6 +55,16 @@ In order to make it easier for HANCESTRO users to identify all geographical desc
 Please note that we make every effort to ensure that our ethnicity and geograph-based population descriptors groupings are non-overlapping, i.e. each term should only appear in one list. For this reason, you may sometimes find a geographic descriptor in the ethnicities list, in particular if that descriptor has child terms that are themselves not geographic descriptors. 
 
 
+### Reference population
+
+Reference populations consist of groups of individuals from a common geographic area and tribal or ethnolinguistic group whose DNA was sampled and sequenced as part of a large-scale genomic diversity project such as the [1000 Genomes Project](https://www.internationalgenome.org/1000-genomes-summary), the [Human Genome Diversity Project (HGDP)](https://www.internationalgenome.org/data-portal/data-collection/hgdp) or [Simons Genome Diversity Project (SGDP)](https://www.internationalgenome.org/data-portal/data-collection/sgdp). All populations listed in HANCESTRO were identified from the [International Genome Sample Resource (IGSR)](https://www.internationalgenome.org/about).
+
+A list of all reference populations included in HANCESTRO and their mapping to HANCESTRO ancestry categories and ethncities is available in tabular format [here](hancestro_reference_population_mappings.tsv).
+
+
+## Other core concepts in HANCESTRO
+
+
 ### Ancestry status
 
 This class represents the general characterisation of the ancestry of a population or individual. Ancestry status can either be admixed or genetically isolated.
@@ -75,7 +85,9 @@ Convenience grouping of geographic areas larger than countries but smaller than 
 
 ## African populations in HANCESTRO
 
-As of release v2023-06-21, HANCESTRO defers to the [African Population Ontology (AfPO)](https://github.com/h3abionet/afpo), produced as part of the [H3ABioNet project](https://www.h3abionet.org/), on all terminology relating to African populations. We import all population terms created by AfPO and include them in our hierarchy underneath our continental ancestry term `African (HANCESTRO:0010)`. Existing HANCESTRO terms such as `Masaai (HANCESTRO:0593)` or `Somali (HANCESTRO:0518)` have been deprecated in favour of their AfPO equivalents. AfPO terms can easily be identified by their AfPO identifiers (`AfPO:0000000` or `http://purl.obolibrary.org/obo/AfPO_0000000`). For any queries, concerns, bug reports, change or new term requests about African populations, please raise an issue on the AfPO [Github Tracker](https://github.com/h3abionet/afpo/issues) directly.
+As of release v2023-06-21, HANCESTRO defers to the [African Population Ontology (AfPO)](https://github.com/h3abionet/afpo), produced as part of the [H3ABioNet project](https://www.h3abionet.org/), on virtually all terminology relating to African populations. We import all population terms created by AfPO and include them in our hierarchy underneath our continental ancestry term `African (HANCESTRO:0010)`. Existing HANCESTRO terms such as `Masaai (HANCESTRO:0593)` or `Somali (HANCESTRO:0518)` have been deprecated in favour of their AfPO equivalents. The only exception to this scenario is for African national demonyms such as `Gambian (HANCESTRO:0535)` or `Nigerian (HANCESTRO:0544)`, which do not relate to a specific population group as defined in the context of the AfPO. We will maintain these terms in HANCESTRO for reasons of backwards compatibility. 
+
+AfPO terms can easily be identified by their AfPO identifiers (`AfPO:0000000` or `http://purl.obolibrary.org/obo/AfPO_0000000`). For any queries, concerns, bug reports, change or new term requests about African populations, please raise an issue on the AfPO [Github Tracker](https://github.com/h3abionet/afpo/issues) directly.
 
 
 

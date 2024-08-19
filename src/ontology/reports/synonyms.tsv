@@ -11,7 +11,7 @@
 <http://dbpedia.org/resource/Kosovo>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kosovo"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0342>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kazakhstani"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0542>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mozambican"@en	
-<http://dbpedia.org/resource/Tonga>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tonga"@en	
+<http://dbpedia.org/resource/Tonga>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kingdom of Tonga"	
 <http://dbpedia.org/resource/Ghana>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ghana"@en	
 <http://dbpedia.org/resource/Channel_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Channel Islands"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0306>	<http://www.w3.org/2000/01/rdf-schema#label>	"admixed ancestry"@en	
@@ -30,7 +30,7 @@
 <http://dbpedia.org/resource/Malaysia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Malaysia"@en	
 <http://dbpedia.org/resource/Pakistan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pakistan"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0474>	<http://www.w3.org/2000/01/rdf-schema#label>	"Niuean"@en	
-<http://purl.obolibrary.org/obo/HANCESTRO_0575>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yoruban"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0575>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Yoruban"	
 <http://dbpedia.org/resource/Guinea_Bissau>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guinea-Bissau"@en	
 <http://dbpedia.org/resource/Venezuela>	<http://www.w3.org/2000/01/rdf-schema#label>	"Venezuela"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0549>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zambian"@en	
@@ -439,7 +439,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0316>	<http://www.w3.org/2000/01/rdf-schema#label>	"Amish"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0475>	<http://www.w3.org/2000/01/rdf-schema#label>	"Palauan"@en	
 <http://dbpedia.org/resource/Faeroe_Islands>	<http://www.w3.org/2000/01/rdf-schema#label>	"Faeroe Islands"@en	
-<http://purl.obolibrary.org/obo/HANCESTRO_0576>	<http://www.w3.org/2000/01/rdf-schema#label>	"West African"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0576>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete West African"	
 <http://dbpedia.org/resource/Portugal>	<http://www.w3.org/2000/01/rdf-schema#label>	"Portugal"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0439>	<http://www.w3.org/2000/01/rdf-schema#label>	"Iraqi"@en	
 <http://dbpedia.org/resource/Macau>	<http://www.w3.org/2000/01/rdf-schema#label>	"Macau"	
@@ -1144,6 +1144,7 @@
 <http://dbpedia.org/resource/Central_America>	<http://www.w3.org/2000/01/rdf-schema#label>	"Central America"	
 <http://dbpedia.org/resource/Southern_Africa>	<http://www.w3.org/2000/01/rdf-schema#label>	"Southern Africa"	
 <http://dbpedia.org/resource/Melanesia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Melanesia"	
+<http://dbpedia.org/resource/Tonga>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tonga"@en	
 <http://dbpedia.org/resource/Laos>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Lao People's Democratic Republic"@en	
 <http://dbpedia.org/resource/Falkland_Islands>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Falkland Islands (Malvinas)"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0610>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"American Indian"	
