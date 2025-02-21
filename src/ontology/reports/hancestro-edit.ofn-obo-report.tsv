@@ -779,6 +779,7 @@ WARN	missing_definition	AfPO:0000578	IAO:0000115
 WARN	missing_definition	AfPO:0000579	IAO:0000115	
 WARN	missing_definition	AfPO:0000580	IAO:0000115	
 WARN	missing_definition	GAZ:00000013	IAO:0000115	
+WARN	missing_definition	GAZ:00000448	IAO:0000115	
 WARN	missing_definition	HANCESTRO:0019	IAO:0000115	
 WARN	missing_definition	HANCESTRO:0020	IAO:0000115	
 WARN	missing_definition	HANCESTRO:0021	IAO:0000115	
