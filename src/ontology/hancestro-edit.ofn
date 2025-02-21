@@ -19,7 +19,8 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/hancestro/imports/afpo_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/hancestro/imports/bfo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/hancestro/imports/foodon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/hancestro/imports/gaz_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/hancestro/imports/ncit_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/hancestro/imports/obi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/hancestro/imports/ro_import.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
@@ -4016,10 +4017,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -14129,6 +14138,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/NCIT_C25464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
