@@ -28,8 +28,6 @@ import_group:
       module_type_slme: BOT
     - id: ro
       use_base: TRUE
-    - id: foodon
-      module_type: custom
     - id: afpo
       module_type: custom
 components:

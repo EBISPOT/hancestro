@@ -7,8 +7,9 @@
   <uri name="http://purl.obolibrary.org/obo/hancestro/imports/ro_import.owl" uri="imports/ro_import.owl"/>
   <!-- <uri name="http://purl.obolibrary.org/obo/hancestro/imports/merged_import.owl" uri="imports/merged_import.owl"/> -->
   <uri name="http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl" uri="components/gaz_xrefs.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/hancestro/imports/foodon_import.owl" uri="imports/foodon_import.owl"/>
-    <uri name="http://purl.obolibrary.org/obo/hancestro/imports/afpo_import.owl" uri="imports/afpo_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/hancestro/imports/gaz_import.owl" uri="imports/gaz_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/hancestro/imports/ncit_import.owl" uri="imports/ncit_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/hancestro/imports/afpo_import.owl" uri="imports/afpo_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/hancestro/components/dbpedia_geography.owl" uri="components/dbpedia_geography.owl"/>   
   <uri name="http://purl.obolibrary.org/obo/hancestro/components/afpo_annotations.owl" uri="components/afpo_annotations.owl"/>   
 </group>

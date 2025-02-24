@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/components/afpo_annotations.owl>
-<http://purl.obolibrary.org/obo/hancestro/releases/2024-08-19/components/afpo_annotations.owl>
-Annotation(owl:versionInfo "2024-08-19")
+<http://purl.obolibrary.org/obo/hancestro/releases/2025-02-21/components/afpo_annotations.owl>
+Annotation(owl:versionInfo "2025-02-21")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000056>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000057>))

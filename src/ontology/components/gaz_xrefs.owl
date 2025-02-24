@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hancestro/components/gaz_xrefs.owl>
-<http://purl.obolibrary.org/obo/hancestro/releases/2024-08-19/components/gaz_xrefs.owl>
-Annotation(owl:versionInfo "2024-08-19")
+<http://purl.obolibrary.org/obo/hancestro/releases/2025-02-21/components/gaz_xrefs.owl>
+Annotation(owl:versionInfo "2025-02-21")
 
 Declaration(Class(<http://dbpedia.org/resource/Afghanistan>))
 Declaration(Class(<http://dbpedia.org/resource/Africa>))

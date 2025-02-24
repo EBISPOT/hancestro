@@ -19,7 +19,6 @@ These are the current imports in HANCESTRO
 | obi | http://purl.obolibrary.org/obo/obi.owl | custom |
 | bfo | http://purl.obolibrary.org/obo/bfo.owl | slme |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
-| foodon | http://purl.obolibrary.org/obo/foodon.owl | custom |
 | afpo | http://purl.obolibrary.org/obo/afpo.owl | custom |
 
 ## Components
