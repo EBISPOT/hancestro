@@ -28,9 +28,9 @@
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-08-19"
+        "val" : "2025-02-24"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2024-08-19/hancestro-full.json"
+      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2025-02-24/hancestro-full.json"
     },
     "nodes" : [ {
       "id" : "http://dbpedia.org/resource/Afghanistan",
@@ -30775,10 +30775,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/COB_0000032",
-      "lbl" : "geographical location",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/GAZ_00000013",
       "lbl" : "continent",
       "type" : "CLASS",
@@ -30788,7 +30784,55 @@
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "CONTIN"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Continent {alternative name}"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "continent {alternative name}"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "continental region"
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "major area"
+        } ],
+        "xrefs" : [ {
+          "val" : "FTT:540"
+        }, {
+          "val" : "GeoNames:CONT"
+        }, {
+          "val" : "TGN:21402"
+        }, {
+          "val" : "TGN:29000"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "GAZ:00190836"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "GAZ"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GAZ_00000448",
+      "lbl" : "geographic location",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A reference to a place on the Earth, by its name or by its geographical location."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "geographic region {alternative name}"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "GAZ:00000467"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "GAZ"
         } ]
       }
     }, {
@@ -30836,12 +30880,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0005",
-      "lbl" : "European",
+      "lbl" : "European ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Includes individuals who either self-report or have been described by authors as\nEuropean, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations."
         },
+        "comments" : [ "It should be noted that the synonym \"Caucasian\", while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Caucasian"
@@ -30852,7 +30897,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0006",
-      "lbl" : "South Asian",
+      "lbl" : "South Asian ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -30861,16 +30906,20 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0007",
-      "lbl" : "South East Asian",
+      "lbl" : "South East Asian ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations."
-        }
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Southeast Asian"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0008",
-      "lbl" : "Asian",
+      "lbl" : "Asian ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -30883,7 +30932,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0009",
-      "lbl" : "East Asian",
+      "lbl" : "East Asian ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -30892,7 +30941,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0010",
-      "lbl" : "African",
+      "lbl" : "African ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -30930,6 +30979,14 @@
         "definition" : {
           "val" : "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations"
         },
+        "comments" : [ "Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Mestizo"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Pardo"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Jackie MacArthur"
@@ -30940,7 +30997,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0015",
-      "lbl" : "Greater Middle Eastern  (Middle Eastern or North African or Persian)",
+      "lbl" : "Greater Middle Eastern (Middle Eastern or North African or Persian)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -30953,7 +31010,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0016",
-      "lbl" : "African American or Afro-Caribbean",
+      "lbl" : "African American or Afro-Caribbean ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -31019,7 +31076,16 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0027",
       "lbl" : "Han Chinese",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as belonging to the Han people, an East Asian ethnic group native to Greater China."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Chinese Han"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0029",
       "lbl" : "obsolete Africa",
@@ -31301,7 +31367,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0286",
-      "lbl" : "Central Asian",
+      "lbl" : "Central Asian ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -31420,7 +31486,13 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0319",
       "lbl" : "Korčulan",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Korculan"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0320",
       "lbl" : "Dutch",
@@ -31440,7 +31512,16 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0324",
       "lbl" : "Ashkenazi Jew",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as belonging to a Jewish diaspora population with an admixture of European and Middle Eastern ancestry"
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Ashkenazi Jewish"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0328",
       "lbl" : "obsolete_Caribbean",
@@ -31708,7 +31789,22 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0392",
       "lbl" : "Spanish",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as living in or originating from Spain."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Castellano"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Castilian"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Spaniard"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0393",
       "lbl" : "Swedish",
@@ -31951,9 +32047,15 @@
       "lbl" : "Saudi",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as living in or originating from Saudi Arabia."
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Saudi Arab"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Saudi Arabian"
         } ]
       }
     }, {
@@ -32158,7 +32260,16 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0496",
       "lbl" : "Malaysian",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as living in or originating from Malaysia."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Malay"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0497",
       "lbl" : "Burmese",
@@ -32508,15 +32619,46 @@
       "lbl" : "Afro-Caribbean",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as Afro-Caribbean. Term used by some communities to describe themselves and some US and UK government and other institutions on official forms used to collect demographic information."
+        },
+        "comments" : [ "It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "African Caribbean"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Black"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Black Caribbean"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Preto"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "West Indian"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "negro"
         } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0568",
       "lbl" : "African American",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as African American. Term used by some communities to describe themselves and some US government and other institutions on official forms used to collect demographic information."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Afro-American"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Black"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0569",
       "lbl" : "Talana",
@@ -32556,7 +32698,13 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0572",
       "lbl" : "Kosraean",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Kosraen"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0573",
       "lbl" : "Native Hawaiian",
@@ -32690,9 +32838,22 @@
       "lbl" : "European American",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as European American. Term used by some communities to describe themselves and some US and UK government and other institutions on official forms used to collect demographic information."
+        },
+        "comments" : [ "It should be noted that the synonym \"Caucasian\", while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "American of European ancestry"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Caucasian"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Non-Hispanic White"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "White"
         } ]
       }
     }, {
@@ -32840,7 +33001,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Population category defined in terms of cultural, religious, tribal or other social similarities"
+          "val" : "Population category defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors"
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -32864,9 +33025,25 @@
         "definition" : {
           "val" : "Includes indigenous individuals of North and Central America, descended from the original human migration into the Americas from Siberia."
         },
+        "comments" : [ "Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "Aboriginal people in North America"
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "American Indian"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "First Nations"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "First peoples"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Native American"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Native peoples"
         } ]
       }
     }, {
@@ -32876,16 +33053,56 @@
       "meta" : {
         "definition" : {
           "val" : "Includes indigenous individuals of Central and South America, descended from the original human migration into the Americas from Siberia."
-        }
+        },
+        "comments" : [ "Synonyms include terms typically refers to Indigenous Americans in Mexico, Central and South Lain America and is the preferred general term by these groups. Indio is an outdated and possibly offensive term that is outdated and should be avoided." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Indígena"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "indo"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nativos"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pueblos indígenas"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pueblos originarios"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0612",
-      "lbl" : "Hispanic",
+      "lbl" : "Hispanic or Latin",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Individuals who self-identify or are reported by authors as being of of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin. It should be noted that \"Hispanic\" is considered entirely as an ethnicity or cultural descriptor and is not associated with any specific genetic reference population."
-        }
+          "val" : "Individuals who self-identify or are reported by authors as being of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin. It should be noted that \"Hispanic\" is considered entirely as an ethnicity or cultural descriptor and is not associated with any specific genetic reference population. Synonyms include tersm used by some communities to describe themselves and some North and South American government and other institutions on official forms used to collect demographic information."
+        },
+        "comments" : [ "Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Latin"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Latine"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Latino/a"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Latinx"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Mestizo"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Pardo"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Spanish Origin"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0613",
@@ -33367,7 +33584,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0652",
-      "lbl" : "Masai in Kenya",
+      "lbl" : "Masai in Kenya (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33461,7 +33678,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0659",
-      "lbl" : "African Ancestry in Southwest US",
+      "lbl" : "African Ancestry in Southwest US (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33477,7 +33694,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0660",
-      "lbl" : "African Caribbean in Barbados",
+      "lbl" : "African Caribbean in Barbados (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33493,7 +33710,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0661",
-      "lbl" : "Esan in Nigeria",
+      "lbl" : "Esan in Nigeria (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33509,7 +33726,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0662",
-      "lbl" : "Gambian in Western Division, The Gambia - Fula",
+      "lbl" : "Gambian in Western Division, The Gambia - Fula (GGVP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33525,7 +33742,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0663",
-      "lbl" : "Gambian in Western Division, The Gambia - Jola",
+      "lbl" : "Gambian in Western Division, The Gambia - Jola (GGVP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33541,7 +33758,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0664",
-      "lbl" : "Gambian in Western Division, The Gambia - Mandinka",
+      "lbl" : "Gambian in Western Division, The Gambia - Mandinka (GGVP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33557,7 +33774,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0665",
-      "lbl" : "Gambian in Western Division, The Gambia - Wolof",
+      "lbl" : "Gambian in Western Division, The Gambia - Wolof (GGVP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33573,7 +33790,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0666",
-      "lbl" : "Luhya in Webuye, Kenya",
+      "lbl" : "Luhya in Webuye, Kenya (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33589,7 +33806,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0667",
-      "lbl" : "Mende in Sierra Leone",
+      "lbl" : "Mende in Sierra Leone (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33605,7 +33822,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0668",
-      "lbl" : "Yoruba in Ibadan, Nigeria",
+      "lbl" : "Yoruba in Ibadan, Nigeria  (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33816,7 +34033,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0684",
-      "lbl" : "Colombian in Medellin, Colombia",
+      "lbl" : "Colombian in Medellin, Colombia (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33832,7 +34049,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0685",
-      "lbl" : "Mexican Ancestry in Los Angeles, California",
+      "lbl" : "Mexican Ancestry in Los Angeles, California (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33848,7 +34065,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0686",
-      "lbl" : "Peruvian in Lima, Peru",
+      "lbl" : "Peruvian in Lima, Peru (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -33864,7 +34081,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0687",
-      "lbl" : "Puerto Rican in Puerto Rico",
+      "lbl" : "Puerto Rican in Puerto Rico (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34712,7 +34929,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0752",
-      "lbl" : "Chinese Dai in Xishuangbanna, China",
+      "lbl" : "Chinese Dai in Xishuangbanna, China (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34728,7 +34945,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0753",
-      "lbl" : "Han Chinese in Beijing, China",
+      "lbl" : "Han Chinese in Beijing, China (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34744,7 +34961,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0754",
-      "lbl" : "Japanese in Tokyo, Japan",
+      "lbl" : "Japanese in Tokyo, Japan (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34760,7 +34977,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0755",
-      "lbl" : "Kinh in Ho Chi Minh City, Vietnam",
+      "lbl" : "Kinh in Ho Chi Minh City, Vietnam (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34776,7 +34993,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0756",
-      "lbl" : "Han Chinese South",
+      "lbl" : "Han Chinese South (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34896,7 +35113,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0765",
-      "lbl" : "British in England and Scotland",
+      "lbl" : "British in England and Scotland (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34912,7 +35129,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0766",
-      "lbl" : "Utah residents (CEPH) with Northern and Western European ancestry",
+      "lbl" : "Utah residents (CEPH) with Northern and Western European ancestry  (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34928,7 +35145,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0767",
-      "lbl" : "Finnish in Finland",
+      "lbl" : "Finnish in Finland (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34944,7 +35161,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0768",
-      "lbl" : "Iberian populations in Spain",
+      "lbl" : "Iberian populations in Spain (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -34960,7 +35177,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0769",
-      "lbl" : "Toscani in Italy",
+      "lbl" : "Toscani in Italy (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -35392,7 +35609,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0802",
-      "lbl" : "Bengali in Bangladesh",
+      "lbl" : "Bengali in Bangladesh (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -35408,7 +35625,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0803",
-      "lbl" : "Gujarati Indians in Houston, TX",
+      "lbl" : "Gujarati Indians in Houston, TX (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -35424,7 +35641,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0804",
-      "lbl" : "Punjabi in Lahore, Pakistan",
+      "lbl" : "Punjabi in Lahore, Pakistan (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -35440,7 +35657,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0805",
-      "lbl" : "Sri Lankan Tamil in the UK",
+      "lbl" : "Sri Lankan Tamil in the UK (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -35456,7 +35673,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0806",
-      "lbl" : "Indian Telugu in the UK",
+      "lbl" : "Indian Telugu in the UK (1KGP)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -35978,6 +36195,288 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0846",
+      "lbl" : "Native American",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "General term that refers to Indigenous Americans in North, Central, and South America, without any reference to validated genetic ancestry information. Synonyms include historical and contemporary terms that are in use in parts of North American and Spanish and Portuguese speaking regions of North and South America by some Indigenous populations to describe themselves, and local and national governmental institutions."
+        },
+        "comments" : [ "Some of these terms may be outdated or only used regionally. The term indio is an outdated and possibly offensive term that is outdated and should be avoided." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "American Indian"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "First Nations"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "First Peoples"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Indigenous Peoples"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Native Peoples"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nativos"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pueblos indígenas"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pueblos originarios"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0847",
+      "lbl" : "Asian",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are described by authors as Asian, without any reference to validated genetic ancestry information and where there was not sufficient information to allow description as East Asian, Central Asian, South Asian or South-East Asian."
+        },
+        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0848",
+      "lbl" : "South Asian",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are described by authors as South Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as India, Bangladesh, Bhutan, Nepal, Pakistan, and Sri Lanka, and sometimes Afghanistan and the Maldives."
+        },
+        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0849",
+      "lbl" : "East Asian",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are described by authors as East Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as China, Japan, Mongolia, North Korea, South Korea, Taiwan, and special administrative states Hong Kong and Macau."
+        },
+        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0850",
+      "lbl" : "Southeast Asian",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0851",
+      "lbl" : "Central Asian",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are described by authors as Central Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan. It is a region of Asia bounded by the Caspian Sea to the southwest, European Russia to the northwest, Western China and Mongolia to the east, Afghanistan and Iran to the south, and Siberia to the north."
+        },
+        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0852",
+      "lbl" : "Middle Eastern",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are described by authors as Middle Eastern, without any reference to validated genetic ancestry information. This may include individuals from countries such as Lebanon, Syria, Israel, Jordan, Saudi Arabia, Yemen, Oman, Bahrain, Qatar, United Arab Emirates, Kuwait, Iraq, and Iran, as well as the Palestinian Territories of Gaza and the West Bank."
+        },
+        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0853",
+      "lbl" : "Chane",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as belonging to an Arawakan ethnolinguistic group who originally lived in the plains of the northern Gran Chaco and in the foothills of the Andes in Paraguay, Brazil, Bolivia, and Argentina."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Chané"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Izoceno"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Izoceño"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0854",
+      "lbl" : "Karitiana",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as belonging to the Karitiana, an indigenous people of Brazil whose reservation is located in the western Amazon and whose language is part of the Arikém family."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Caritiana"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0855",
+      "lbl" : "Mixe",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as belonging to the Mixe indigenous people of Mexcio who live in the eastern highlands of the state of Oaxaca and speak the Mixe languages, part of the Mixe-Zoque family."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0856",
+      "lbl" : "Surui",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as belonging to an indigenous people of Brazil, who live in ten villages near the Mato Grosso–Rondônia border. This population is not be confused with the Suruí do Pará people of Brazil."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Paiter"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Suruí"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Suruí de Rondônia"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Suruí do Jiparaná"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0857",
+      "lbl" : "Persian",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as belonging to the Persion ethnolinguistic group of Western Iran, which comprises the majority of the population of Iran"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0858",
+      "lbl" : "Arab-American",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as Arab-American. This term is part of commonly collected standard demographic terms in the US."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0859",
+      "lbl" : "Persian-American",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as Persian-American.  This term is part of commonly collected standard demographic terms in the US."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0860",
+      "lbl" : "Asian British",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as Asian-British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Indian, Pakistani, Bangladeshi, Chinese or any other Asian background."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0861",
+      "lbl" : "Black British",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as Black British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Caribbean or African background."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Black"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0862",
+      "lbl" : "Asian-American",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as Asian-American.  This term is part of commonly collected standard demographic terms in the US."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0863",
+      "lbl" : "Chicano",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as Chicano or Mexian-American. This term used by some communities to describe themselves and some US government and other institutions on official forms used to collect demographic information"
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Chicana"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Mexican American"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0864",
+      "lbl" : "Afro-Latin",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as Afro-Latin. This term is possibly an outdated  and offensive racial term but that is currently used by Latin American government and other institutions on official forms used to collect demographic information and is used by some communities Latin American communities to describe themselves."
+        },
+        "comments" : [ "It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Preto"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "negro"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0865",
+      "lbl" : "English",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as living in or originating from England, a nation of the United Kingdom and that is located on the island of Great Britain."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0866",
+      "lbl" : "Welsh",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as living in or originating from Wales, a nation of the United Kingdom and that is located on the island of Great Britain."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0867",
+      "lbl" : "Scottish",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as living in or originating from Scotland, a nation of the United Kingdom and that is located on the island of Great Britain."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0868",
+      "lbl" : "Northern Irish",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as living in or originating from Northern Ireland, a nation of the United Kingdom and that is located on the island of Ireland."
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000078",
       "lbl" : "curation status specification",
       "type" : "CLASS",
@@ -36059,7 +36558,100 @@
       "meta" : {
         "definition" : {
           "val" : "A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C132298", "http://purl.obolibrary.org/obo/NCIT_C132308", "http://purl.obolibrary.org/obo/NCIT_C183061", "http://purl.obolibrary.org/obo/NCIT_C188693", "http://purl.obolibrary.org/obo/NCIT_C201253", "http://purl.obolibrary.org/obo/NCIT_C54447", "http://purl.obolibrary.org/obo/NCIT_C61410" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "COUNTRY"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Country"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Country"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Country"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Country"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16305"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16311"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16364"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16380"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16427"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16428"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16530"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16727"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16760"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16764"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16784"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16914"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C17134"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C17151"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C17232"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C17234"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C25464"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Geographic Area"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Country"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0454664"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CDISC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "DIPG/DMG"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "FDA"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "A sovereign nation occupying a distinct territory and ruled by an autonomous government."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Country"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000181",
@@ -37298,6 +37890,58 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_A40",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P106",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P108",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P207",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P322",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P325",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P366",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P378",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P381",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P383",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P384",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_P386",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0001900",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -37400,6 +38044,15 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+      "lbl" : "has_broad_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
       "lbl" : "database_cross_reference",
       "type" : "PROPERTY",
@@ -37410,11 +38063,25 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "lbl" : "has_narrow_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "lbl" : "comment",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
@@ -45456,17 +46123,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COB_0000032",
+      "sub" : "http://purl.obolibrary.org/obo/GAZ_00000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GAZ_00000448"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GAZ_00000448",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000141"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/GAZ_00000013",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COB_0000032"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0002",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COB_0000032"
+      "obj" : "http://purl.obolibrary.org/obo/GAZ_00000448"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0004",
       "pred" : "is_a",
@@ -49628,6 +50295,10 @@
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0308",
       "obj" : "http://dbpedia.org/resource/Brazil"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0670",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0854"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0671",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
@@ -49684,6 +50355,10 @@
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0308",
       "obj" : "http://dbpedia.org/resource/Brazil"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0673",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0856"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0674",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
@@ -49700,6 +50375,10 @@
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0308",
       "obj" : "http://dbpedia.org/resource/Argentina"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0674",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0853"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0675",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0014"
@@ -49715,6 +50394,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0675",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0308",
       "obj" : "http://dbpedia.org/resource/Brazil"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0675",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0854"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0676",
       "pred" : "is_a",
@@ -49751,6 +50434,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0677",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0308",
       "obj" : "http://dbpedia.org/resource/Mexico"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0677",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0855"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0678",
       "pred" : "is_a",
@@ -49847,6 +50534,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0682",
       "pred" : "http://purl.obolibrary.org/obo/HANCESTRO_0308",
       "obj" : "http://dbpedia.org/resource/Brazil"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0682",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0856"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0683",
       "pred" : "is_a",
@@ -51676,6 +52367,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0632"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0819",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0865"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0820",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
@@ -52064,9 +52759,157 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0004"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0846",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0846",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002151",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0847",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0848",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0849",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0850",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0851",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0852",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0853",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0853",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0611"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0854",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0854",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0611"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0855",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0855",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0610"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0856",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0856",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0611"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0857",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0857",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0858",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0859",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0860",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0861",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0862",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0863",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0864",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0865",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0865",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0865",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0600"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0866",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0866",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0866",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0600"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0867",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0867",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0867",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0600"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0868",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0868",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0602"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0868",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0600"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C25464",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COB_0000032"
+      "obj" : "http://purl.obolibrary.org/obo/GAZ_00000448"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000181",
       "pred" : "is_a",
