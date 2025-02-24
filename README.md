@@ -35,13 +35,13 @@ For more information, take a look at [our website](https://ebispot.github.io/han
 
 ##Ancestry Ontology - Release Notes ##
 
-### Current release: v2024-08-19
+### Current release: v2025-02-124
 
-Date Released: 19 August 2024
+Date Released: 24 February 2025
 
-Class Count: 1259 
+Class Count: 1282 
 
-- **Reference populations**: The latest release of HANCESTRO includes all reference populations from projects such as the 1000 Genomes Project and the Human Genome Diversity Project (HGDP), as listed on the International Genome Sample Resource (IGSR). Reference populations are grouped under the new parent term `reference population (HANCESTRO:0632)`.
+- **Extended geography-based and ethncity descriptors**: The latest release of HANCESTRO includes new geography-based and ethnicity descriptors. Some of the original ancestry descriptors received the suffix `ancestry` in order to distinguish them from the new descriptors.
 
 See the [release notes](https://github.com/EBISPOT/hancestro/releases) for further details of most recent changes or check out our new [automatically generated ontology diff report](https://github.com/EBISPOT/hancestro/blob/main/src/ontology/reports/release-diff.md).
 
