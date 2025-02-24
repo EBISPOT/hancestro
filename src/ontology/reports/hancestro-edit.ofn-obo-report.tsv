@@ -1,10 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	multiple_labels	HANCESTRO:0610	rdfs:label	Indigenous in North America
-ERROR	multiple_labels	HANCESTRO:0610	rdfs:label	Indigenous in North America@en
-ERROR	multiple_labels	HANCESTRO:0611	rdfs:label	Indigenous in South America
-ERROR	multiple_labels	HANCESTRO:0611	rdfs:label	Indigenous in South America@en
-ERROR	multiple_labels	HANCESTRO:0612	rdfs:label	Hispanic or Latin
-ERROR	multiple_labels	HANCESTRO:0612	rdfs:label	Hispanic or Latin@en
 WARN	duplicate_exact_synonym	HANCESTRO:0639	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	HANCESTRO:0658	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	HANCESTRO:0668	oboInOwl:hasExactSynonym	

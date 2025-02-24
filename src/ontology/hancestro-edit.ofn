@@ -9392,7 +9392,6 @@ category does not include all native populations within the Arctic circle for ex
         <oboInOwl:hasExactSynonym>Native peoples</oboInOwl:hasExactSynonym>
         <rdfs:comment>Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions</rdfs:comment>
         <rdfs:label>Indigenous in North America</rdfs:label>
-        <rdfs:label xml:lang="en">Indigenous in North America</rdfs:label>
     </owl:Class>
     
 
@@ -9409,7 +9408,6 @@ category does not include all native populations within the Arctic circle for ex
         <oboInOwl:hasExactSynonym>pueblos originarios</oboInOwl:hasExactSynonym>
         <rdfs:comment>Synonyms include terms typically refers to Indigenous Americans in Mexico, Central and South Lain America and is the preferred general term by these groups. Indio is an outdated and possibly offensive term that is outdated and should be avoided.</rdfs:comment>
         <rdfs:label>Indigenous in South America</rdfs:label>
-        <rdfs:label xml:lang="en">Indigenous in South America</rdfs:label>
     </owl:Class>
     
 
@@ -9440,7 +9438,6 @@ category does not include all native populations within the Arctic circle for ex
         <oboInOwl:hasExactSynonym>Spanish Origin</oboInOwl:hasExactSynonym>
         <rdfs:comment>Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions.</rdfs:comment>
         <rdfs:label>Hispanic or Latin</rdfs:label>
-        <rdfs:label xml:lang="en">Hispanic or Latin</rdfs:label>
     </owl:Class>
     
 
@@ -10681,6 +10678,12 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Brazil"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0854"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 9 samples from Karitiana individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Karitiana</oboInOwl:hasExactSynonym>
         <rdfs:label>Karitiana in Brazil (HGDP)</rdfs:label>
@@ -10750,6 +10753,12 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Brazil"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0856"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 6 samples from Surui individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Surui</oboInOwl:hasExactSynonym>
         <rdfs:label>Surui in Brazil (HGDP)</rdfs:label>
@@ -10769,6 +10778,12 @@ category does not include all native populations within the Arctic circle for ex
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Argentina"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0853"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 1 samples from Chane individuals recruited in Argentina as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Chane</oboInOwl:hasExactSynonym>
         <rdfs:label>Chane in Argentina (SGDP)</rdfs:label>
@@ -10786,6 +10801,12 @@ category does not include all native populations within the Arctic circle for ex
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Brazil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0854"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Karitiana individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
@@ -10830,6 +10851,12 @@ category does not include all native populations within the Arctic circle for ex
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Mexico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0855"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 3 samples from Mixe individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
@@ -10949,6 +10976,12 @@ category does not include all native populations within the Arctic circle for ex
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/Brazil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0856"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from Surui individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American.</obo:IAO_0000115>
@@ -13642,6 +13675,12 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0819">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A population made up of 2 samples from English individuals recruited in England as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>English</oboInOwl:hasExactSynonym>
         <rdfs:label>English in England (SGDP)</rdfs:label>
@@ -14273,7 +14312,6 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0850">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0602"/>
-        <obo:IAO_0000115>Individuals who self-identify or are described by authors as Southeast Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Brunei, Burma (Myanmar), Cambodia, Timor-Leste, Indonesia, Laos, Malaysia, the Philippines, Singapore, Thailand, and Vietnam.</obo:IAO_0000115>
         <rdfs:comment>This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.</rdfs:comment>
         <rdfs:label>Southeast Asian</rdfs:label>
     </owl:Class>
@@ -14341,7 +14379,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0855 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0855">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
