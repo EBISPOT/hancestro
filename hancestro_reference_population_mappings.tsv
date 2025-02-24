@@ -1,0 +1,213 @@
+HANCESTRO ID	Reference population	HANCESTRO ancestry category	HANCESTRO ethnicity	Source project superpopulation	Source data collections
+HANCESTRO:0633	Bantu in Kenya (HGDP)	African	Bantu Eastern	Africa (HGDP)	Human Genome Diversity Project
+HANCESTRO:0634	Bantu in South Africa (HGDP)	African	Bantu Southern	Africa (HGDP)	Human Genome Diversity Project
+HANCESTRO:0635	Biaka in Central African Republic (HGDP)	African	Aka	Africa (HGDP)	Human Genome Diversity Project
+HANCESTRO:0636	Mandenka in Senegal (HGDP)	African	Mandinka	Africa (HGDP)	Human Genome Diversity Project
+HANCESTRO:0637	Mbuti in Democratic Republic of Congo (HGDP)	African	Mbuti	Africa (HGDP)	HGDP Transcriptome,Human Genome Diversity Project
+HANCESTRO:0638	San in Namibia (HGDP)	African	San	Africa (HGDP)	HGDP Transcriptome,Human Genome Diversity Project
+HANCESTRO:0639	Yoruba in Nigeria (HGDP)	African	Yoruba	Africa (HGDP)	Human Genome Diversity Project
+HANCESTRO:0640	Bantu Herero in Botswana Or Namibia (SGDP)	African	Herero	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0641	Bantu Kenya in Kenya (SGDP)	African	Bantu Eastern	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0642	Bantu Tswana in Botswana Or Namibia (SGDP)	African	Tswana	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0643	Biaka in Central African Republic (SGDP)	African	Aka	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0644	Dinka in Sudan (SGDP)	African	Dinka	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0645	Esan in Nigeria (SGDP)	African	Esan	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0646	Gambian in Gambia (SGDP)	African	Gambian	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0647	Ju|'hoan North in Namibia (SGDP)	African	!Kung	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0648	Khomani San in South Africa (SGDP)	African	San	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0649	Luhya in Kenya (SGDP)	African	Luhya	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0650	Luo in Kenya (SGDP)	African	Luo	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0651	Mandenka in Senegal (SGDP)	African	Mandinka	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0652	Masai in Kenya	African	Maasai	Africa (SGDP)	Simons Genome Diversity Project,Human Genome Structural Variation Consortium, Phase 3
+HANCESTRO:0653	Mbuti in Congo (SGDP)	African	Mbuti	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0654	Mende in Sierra Leone (SGDP)	African	Mende	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0655	Mozabite in Algeria (SGDP)	African|Greater Middle Eastern  (Middle Eastern or North African or Persian)	Mozabite	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0656	Saharawi in Western Sahara (Morocco) (SGDP)	African|Greater Middle Eastern  (Middle Eastern or North African or Persian)	Sahrawi	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0657	Somali in Kenya (SGDP)	African	Somali	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0658	Yoruba in Nigeria (SGDP)	African	Yoruba	Africa (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0659	African Ancestry in Southwest US	African|African American or Afro-Caribbean		African Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+HANCESTRO:0660	African Caribbean in Barbados	African|African American or Afro-Caribbean	Afro-Caribbean	African Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+HANCESTRO:0661	Esan in Nigeria	African	Esan	African Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+HANCESTRO:0662	Gambian in Western Division, The Gambia - Fula	African	Fulani	African Ancestry	Gambian Genome Variation Project (GRCh37),Gambian Genome Variation Project (GRCh38)
+HANCESTRO:0663	Gambian in Western Division, The Gambia - Jola	African	Jola	African Ancestry	Gambian Genome Variation Project (GRCh37),Gambian Genome Variation Project (GRCh38)
+HANCESTRO:0664	Gambian in Western Division, The Gambia - Mandinka	African	Mandinka	African Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Gambian Genome Variation Project (GRCh37),Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,Gambian Genome Variation Project (GRCh38)
+HANCESTRO:0665	Gambian in Western Division, The Gambia - Wolof	African	Wolof	African Ancestry	Gambian Genome Variation Project (GRCh37),Gambian Genome Variation Project (GRCh38)
+HANCESTRO:0666	Luhya in Webuye, Kenya	African	Luhya	African Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+HANCESTRO:0667	Mende in Sierra Leone	African	Mende	African Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+HANCESTRO:0668	Yoruba in Ibadan, Nigeria	African	Yoruba	African Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,The Human Genome Structural Variation Consortium,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+HANCESTRO:0669	Colombian in Colombia (HGDP)	Latin or Admixed American	Colombian	America (HGDP)	Human Genome Diversity Project
+HANCESTRO:0670	Karitiana in Brazil (HGDP)	Latin or Admixed American|Indigenous in South America		America (HGDP)	Human Genome Diversity Project
+HANCESTRO:0671	Maya in Mexico (HGDP)	Latin or Admixed American|Indigenous in North America	Maya	America (HGDP)	HGDP Transcriptome,Human Genome Diversity Project
+HANCESTRO:0672	Pima in Mexico (HGDP)	Latin or Admixed American|Indigenous in North America	Akimel O'odham	America (HGDP)	Human Genome Diversity Project
+HANCESTRO:0673	Surui in Brazil (HGDP)	Latin or Admixed American|Indigenous in South America		America (HGDP)	Human Genome Diversity Project
+HANCESTRO:0674	Chane in Argentina (SGDP)	Latin or Admixed American|Indigenous in South America		America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0675	Karitiana in Brazil (SGDP)	Latin or Admixed American|Indigenous in South America		America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0676	Mayan in Mexico (SGDP)	Latin or Admixed American|Indigenous in North America	Maya	America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0677	Mixe in Mexico (SGDP)	Latin or Admixed American|Indigenous in North America		America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0678	Mixtec in Mexico (SGDP)	Latin or Admixed American|Indigenous in North America	Mixteco	America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0679	Piapoco in Colombia (SGDP)	Latin or Admixed American|Indigenous in South America	Piapoco	America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0680	Pima in Mexico (SGDP)	Latin or Admixed American|Indigenous in North America	Akimel O'odham	America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0681	Quechua in Peru (SGDP)	Latin or Admixed American|Indigenous in South America	Quechua	America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0682	Surui in Brazil (SGDP)	Latin or Admixed American|Indigenous in South America		America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0683	Zapotec in Mexico (SGDP)	Latin or Admixed American|Indigenous in North America	Zapoteco	America (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0684	Colombian in Medellin, Colombia	Latin or Admixed American	Colombian	American Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+HANCESTRO:0685	Mexican Ancestry in Los Angeles, California	Latin or Admixed American	Mexican	American Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+HANCESTRO:0686	Peruvian in Lima, Peru	Latin or Admixed American	Peruvian	American Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+HANCESTRO:0687	Puerto Rican in Puerto Rico	Latin or Admixed American	Puerto Rican	American Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,The Human Genome Structural Variation Consortium,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+HANCESTRO:0688	Aleut in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0689	Altaian in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0690	Chukchi in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0691	Eskimo Chaplin in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0692	Eskimo Naukan in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0693	Eskimo Sireniki in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0694	Even in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0695	Itelman in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0696	Kyrgyz in Kyrgyzystan (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0697	Mansi in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0698	Mongola in China (SGDP)	East Asian|Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0699	Tlingit in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0700	Tubalar in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0701	Ulchi in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0702	Yakut in Russia (SGDP)	Indigenous Siberian		Central Asia and Siberia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0703	Balochi in Pakistan (HGDP)	South Asian		Central South Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0704	Brahui in Pakistan (HGDP)	South Asian		Central South Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0705	Burusho in Pakistan (HGDP)	South Asian		Central South Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0706	Hazara in Pakistan (HGDP)	South Asian		Central South Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0707	Kalash in Pakistan (HGDP)	South Asian		Central South Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0708	Makrani in Pakistan (HGDP)	South Asian		Central South Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0709	Pathan in Pakistan (HGDP)	South Asian		Central South Asia (HGDP)	HGDP Transcriptome,Human Genome Diversity Project
+HANCESTRO:0710	Sindhi in Pakistan (HGDP)	South Asian		Central South Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0711	Uygur in China (HGDP)	South Asian|East Asian	Uygur	Central South Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0712	Cambodian in Cambodia (HGDP)	East Asian|South East Asian	Cambodian	East Asia (HGDP)	HGDP Transcriptome,Human Genome Diversity Project
+HANCESTRO:0713	Dai in China (HGDP)	East Asian	Dai	East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0714	Daur in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0715	Han in China (HGDP)	East Asian	Han Chinese	East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0716	Hezhen in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0717	Japanese in Japan (HGDP)	East Asian	Japanese	East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0718	Lahu in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0719	Miao in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0720	Mongolian in China (HGDP)	East Asian	Mongolian	East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0721	Naxi in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0722	Northern Han in China (HGDP)	East Asian	Han Chinese	East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0723	Oroqen in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0724	She in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0725	Tu in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0726	Tujia in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0727	Xibo in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0728	Yakut in Siberia (HGDP)	East Asian		East Asia (HGDP)	HGDP Transcriptome,Human Genome Diversity Project
+HANCESTRO:0729	Yi in China (HGDP)	East Asian		East Asia (HGDP)	Human Genome Diversity Project
+HANCESTRO:0730	Ami in Taiwan (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0731	Atayal in Taiwan (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0732	Burmese in Myanmar (SGDP)	East Asian|South East Asian	Burmese	East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0733	Cambodian in Cambodia (SGDP)	East Asian|South East Asian	Cambodian	East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0734	Dai in China (SGDP)	East Asian	Dai	East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0735	Daur in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0736	Han in China (SGDP)	East Asian	Han Chinese	East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0737	Hezhen in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0738	Japanese in Japan (SGDP)	East Asian	Japanese	East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0739	Kinh in Vietnam (SGDP)	East Asian|South East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0740	Korean in Korea (SGDP)	East Asian	Korean	East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0741	Lahu in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0742	Miao in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0743	Naxi in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0744	Oroqen in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0745	She in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0746	Thai in Thailand (SGDP)	East Asian|South East Asian	Thai	East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0747	Tu in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0748	Tujia in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0749	Uygur in China (SGDP)	East Asian	Uygur	East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0750	Xibo in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0751	Yi in China (SGDP)	East Asian		East Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0752	Chinese Dai in Xishuangbanna, China	East Asian	Dai	East Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release
+HANCESTRO:0753	Han Chinese in Beijing, China	East Asian	Han Chinese	East Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release,90 Han Chinese high coverage genomes
+HANCESTRO:0754	Japanese in Tokyo, Japan	East Asian	Japanese	East Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+HANCESTRO:0755	Kinh in Ho Chi Minh City, Vietnam	East Asian|South East Asian		East Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+HANCESTRO:0756	Han Chinese South	East Asian	Han Chinese	East Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,The Human Genome Structural Variation Consortium,1000 Genomes phase 3 release,1000 Genomes phase 1 release,90 Han Chinese high coverage genomes
+HANCESTRO:0757	Adygei in Caucasus, Russia (HGDP)	European		Europe (HGDP)	Human Genome Diversity Project
+HANCESTRO:0758	Basque in France (HGDP)	European		Europe (HGDP)	Human Genome Diversity Project
+HANCESTRO:0759	Bergamo Italian in Bergamo, Italy (HGDP)	European		Europe (HGDP)	Human Genome Diversity Project
+HANCESTRO:0760	French in France (HGDP)	European	French	Europe (HGDP)	Human Genome Diversity Project
+HANCESTRO:0761	Orcadian in Orkney (HGDP)	European	Orcadian	Europe (HGDP)	Human Genome Diversity Project
+HANCESTRO:0762	Russian in Russia (HGDP)	European	Russian	Europe (HGDP)	Human Genome Diversity Project
+HANCESTRO:0763	Sardinian in Italy (HGDP)	European		Europe (HGDP)	Human Genome Diversity Project
+HANCESTRO:0764	Tuscan in Italy (HGDP)	European		Europe (HGDP)	Human Genome Diversity Project
+HANCESTRO:0765	British in England and Scotland	European	British	European Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+HANCESTRO:0766	Utah residents (CEPH) with Northern and Western European ancestry	European	European American	European Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Illumina Platinum pedigree,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+HANCESTRO:0767	Finnish in Finland	European	Finnish	European Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+HANCESTRO:0768	Iberian populations in Spain	European		European Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+HANCESTRO:0769	Toscani in Italy	European		European Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+HANCESTRO:0770	Bedouin in Negev, Israel (HGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)		Middle East (HGDP)	Human Genome Diversity Project
+HANCESTRO:0771	Druze in Carmel, Israel (HGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)		Middle East (HGDP)	Human Genome Diversity Project
+HANCESTRO:0772	Mozabite in Mzab, Algeria (HGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)	Mozabite	Middle East (HGDP)	HGDP Transcriptome,Human Genome Diversity Project
+HANCESTRO:0773	Palestinian in Central, Israel (HGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)	Palestinian	Middle East (HGDP)	Human Genome Diversity Project
+HANCESTRO:0774	Bougainville in Bougainville (HGDP)	Oceanian		Oceania (HGDP)	Human Genome Diversity Project
+HANCESTRO:0775	Papuan Highlands in New Guinea (HGDP)	Oceanian		Oceania (HGDP)	Human Genome Diversity Project
+HANCESTRO:0776	Papuan Sepik in New Guinea (HGDP)	Oceanian		Oceania (HGDP)	Human Genome Diversity Project
+HANCESTRO:0777	Australian in Australia (SGDP)	Oceanian|Aboriginal Australian		Oceania (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0778	Bougainville in Papua New Guinea (SGDP)	Oceanian		Oceania (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0779	Dusun in Brunei (SGDP)	Oceanian		Oceania (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0780	Hawaiian in USA (SGDP)	Oceanian	Native Hawaiian	Oceania (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0781	Igorot in Philippines (SGDP)	Oceanian		Oceania (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0782	Maori in New Zealand (SGDP)	Oceanian		Oceania (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0783	Papuan in Papua New Guinea (SGDP)	Oceanian	Papua New Guinean	Oceania (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0784	Balochi in Pakistan (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0785	Bengali in Bangladesh (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0786	Brahmin in India (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0787	Brahui in Pakistan (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0788	Burusho in Pakistan (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0789	Hazara in Pakistan (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0790	Irula in India (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0791	Kalash in Pakistan (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0792	Kapu in India (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0793	Khonda Dora in India (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0794	Kusunda in Nepal (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0795	Madiga in India (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0796	Makrani in Pakistan (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0797	Pathan in Pakistan (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0798	Punjabi in Pakistan (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0799	Relli in India (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0800	Sindhi in Pakistan (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0801	Yadava in India (SGDP)	South Asian		South Asia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0802	Bengali in Bangladesh	South Asian		South Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+HANCESTRO:0803	Gujarati Indians in Houston, TX	South Asian		South Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release
+HANCESTRO:0804	Punjabi in Lahore, Pakistan	South Asian		South Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release
+HANCESTRO:0805	Sri Lankan Tamil in the UK	South Asian		South Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+HANCESTRO:0806	Indian Telugu in the UK	South Asian		South Asian Ancestry	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+HANCESTRO:0807	Abkhasian in Abkhazia or Russia (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0808	Adygei in Russia(Caucasus) (SGDP)	European|Greater Middle Eastern (Middle Eastern or North African or Persian)|Central Asian		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0809	Albanian in Albania (SGDP)	European	Albanian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0810	Armenian in Armenia (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)	Armenian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0811	Basque in France (SGDP)	European		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0812	Bedouin B in Israel(Negev) (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0813	Bergamo in Italy(Bergamo) (SGDP)	European		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0814	Bulgarian in Bulgaria (SGDP)	European	Bulgarian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0815	Chechen in Russia (SGDP)	European|Greater Middle Eastern (Middle Eastern or North African or Persian)|Central Asian		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0816	Crete in Greece (SGDP)	European		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0817	Czech in Czechoslovakia(pre1989) (SGDP)	European	Czech	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0818	Druze in Israel(Carmel) (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0819	English in England (SGDP)	European		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0820	Estonian in Estonia (SGDP)	European	Estonian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0821	Finnish in Finland (SGDP)	European	Finnish	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0822	French in France (SGDP)	European	French	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0823	Georgian in Georgia (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)	Georgian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0824	Greek in Greece (SGDP)	European	Greek	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0825	Hungarian in Hungary (SGDP)	European	Hungarian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0826	Icelandic in Iceland (SGDP)	European	Icelandic	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0827	Iranian in Iran (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)	Iranian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0828	Iraqi Jew in Iraq (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0829	Jordanian in Jordan (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)	Jordanian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0830	Lezgin in Russia (SGDP)	European|Greater Middle Eastern (Middle Eastern or North African or Persian)|Central Asian		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0831	North Ossetian in Russia (SGDP)	European|Greater Middle Eastern (Middle Eastern or North African or Persian)|Central Asian		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0832	Norwegian in Norway (SGDP)	European	Norwegian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0833	Orcadian in Orkney Islands (SGDP)	European	Orcadian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0834	Palestinian in Israel(Central) (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)	Palestinian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0835	Polish in Poland (SGDP)	European	Polish	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0836	Russian in Russia (SGDP)	European	Russian	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0837	Saami in Finland (SGDP)	European		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0838	Samaritan in Israel (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0839	Sardinian in Italy (SGDP)	European		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0840	Spanish in Spain (SGDP)	European	Spanish	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0841	Tajik in Tajikistan (SGDP)	Greater Middle Eastern (Middle Eastern or North African or Persian)|Central Asian	Tajikistani	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0842	Turkish in Turkey (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)	Turkish	West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0843	Tuscan in Italy(Tuscany) (SGDP)	European		West Eurasia (SGDP)	Simons Genome Diversity Project
+HANCESTRO:0844	Yemenite Jew in Yemen (SGDP)	Greater Middle Eastern  (Middle Eastern or North African or Persian)		West Eurasia (SGDP)	Simons Genome Diversity Project
