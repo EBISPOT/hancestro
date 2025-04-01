@@ -9,7 +9,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0617>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rarámuri"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0683>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zapotec in Mexico (SGDP)"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0051>	<http://www.w3.org/2000/01/rdf-schema#label>	"Australia/New Zealand"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0845>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indigenous Siberian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0845>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indigenous Siberian ancestry"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0452>	<http://www.w3.org/2000/01/rdf-schema#label>	"Emirati"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0290>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetically isolated population"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0556>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cilento"	
@@ -84,7 +84,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0850>	<http://www.w3.org/2000/01/rdf-schema#label>	"Southeast Asian"	
 <http://dbpedia.org/resource/Portugal>	<http://www.w3.org/2000/01/rdf-schema#label>	"Portugal"@en	
 <http://dbpedia.org/resource/Lebanon>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lebanon"@en	
-<http://purl.obolibrary.org/obo/HANCESTRO_0014>	<http://www.w3.org/2000/01/rdf-schema#label>	"Latin or Admixed American"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0014>	<http://www.w3.org/2000/01/rdf-schema#label>	"Latin or Admixed American ancestry"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0473>	<http://www.w3.org/2000/01/rdf-schema#label>	"New Caledonian"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0391>	<http://www.w3.org/2000/01/rdf-schema#label>	"Slovene"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0696>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kyrgyz in Kyrgyzystan (SGDP)"	
@@ -111,7 +111,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0656>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saharawi in Western Sahara (Morocco) (SGDP)"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0425>	<http://www.w3.org/2000/01/rdf-schema#label>	"Surinamese"@en	
 <http://dbpedia.org/resource/Christmas_Island>	<http://www.w3.org/2000/01/rdf-schema#label>	"Christmas Island"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0013>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indigenous American"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0013>	<http://www.w3.org/2000/01/rdf-schema#label>	"Indigenous American ancestry"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0478>	<http://www.w3.org/2000/01/rdf-schema#label>	"Samoan"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0521>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ugandan"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0390>	<http://www.w3.org/2000/01/rdf-schema#label>	"Slovak"@en	
@@ -436,7 +436,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0317>	<http://www.w3.org/2000/01/rdf-schema#label>	"Erasmus Rucphen"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0853>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chane"	
 <http://dbpedia.org/resource/Gabon>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gabon"@en	
-<http://purl.obolibrary.org/obo/HANCESTRO_0017>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oceanian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0017>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oceanian ancestry"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0757>	<http://www.w3.org/2000/01/rdf-schema#label>	"Adygei in Caucasus, Russia (HGDP)"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0394>	<http://www.w3.org/2000/01/rdf-schema#label>	"Swiss"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0468>	<http://www.w3.org/2000/01/rdf-schema#label>	"Guamanian"@en	
@@ -526,7 +526,7 @@
 <http://dbpedia.org/resource/Philippines>	<http://www.w3.org/2000/01/rdf-schema#label>	"Philippines"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0335>	<http://www.w3.org/2000/01/rdf-schema#label>	"Barbadian"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0566>	<http://www.w3.org/2000/01/rdf-schema#label>	"undefined ancestry population"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0552>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aboriginal Australian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0552>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aboriginal Australian ancestry"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0783>	<http://www.w3.org/2000/01/rdf-schema#label>	"Papuan in Papua New Guinea (SGDP)"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.w3.org/2000/01/rdf-schema#label>	"European American"	
 <http://dbpedia.org/resource/Republic_of_the_Congo>	<http://www.w3.org/2000/01/rdf-schema#label>	"Republic of the Congo"	
@@ -554,6 +554,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0801>	<http://www.w3.org/2000/01/rdf-schema#label>	"Yadava in India (SGDP)"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0861>	<http://www.w3.org/2000/01/rdf-schema#label>	"Black British"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0364>	<http://www.w3.org/2000/01/rdf-schema#label>	"German"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0869>	<http://www.w3.org/2000/01/rdf-schema#label>	"Alaska Native"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0581>	<http://www.w3.org/2000/01/rdf-schema#label>	"Uygur"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0446>	<http://www.w3.org/2000/01/rdf-schema#label>	"Palestinian"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0630>	<http://www.w3.org/2000/01/rdf-schema#label>	"Arhuaco"	
@@ -787,7 +788,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0315>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hutterite"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0851>	<http://www.w3.org/2000/01/rdf-schema#label>	"Central Asian"	
 <http://dbpedia.org/resource/Turkey>	<http://www.w3.org/2000/01/rdf-schema#label>	"Turkey"@en	
-<http://purl.obolibrary.org/obo/HANCESTRO_0015>	<http://www.w3.org/2000/01/rdf-schema#label>	"Greater Middle Eastern (Middle Eastern or North African or Persian)"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0015>	<http://www.w3.org/2000/01/rdf-schema#label>	"Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry"@en	
 <http://dbpedia.org/resource/Taiwan>	<http://www.w3.org/2000/01/rdf-schema#label>	"Taiwan"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0755>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kinh in Ho Chi Minh City, Vietnam (1KGP)"	
 <http://dbpedia.org/resource/Switzerland>	<http://www.w3.org/2000/01/rdf-schema#label>	"Switzerland"@en	
@@ -1384,6 +1385,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0617>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tarahumara"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0683>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Zapotec"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0845>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Indigenous peoples of Siberia"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0845>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Indigenous Siberian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0290>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"population isolate"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0290>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"founder population"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0787>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Brahui"	
@@ -1426,9 +1428,11 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0487>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Indian Asian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0487>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Asian Indian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0014>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Pardo"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0014>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Latin or Admised American"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0014>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mestizo"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0696>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Kyrgyz"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0008>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Asian unspecified"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0008>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Asian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0640>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Bantu Herero"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0863>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mexican American"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0863>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Chicana"	
@@ -1441,6 +1445,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0752>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"CDX"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0656>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Saharawi"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0425>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Surinamer"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0013>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Indigenous American"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0730>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Ami"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0826>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Icelandic"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0839>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Sardinian"	
@@ -1482,6 +1487,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0818>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Druze"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0673>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Surui"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"white"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"European"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Caucasian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0610>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"First peoples"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0610>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Native American"	
@@ -1497,6 +1503,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0817>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Czech"	
 <http://dbpedia.org/resource/Saint_Helena>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"St. Helena"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0007>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Southeast Asian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0007>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"South East Asian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0721>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Naxi"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0809>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Albanian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0647>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Ju|'hoan North"	
@@ -1588,6 +1595,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0853>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Izoceño"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0853>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Izoceno"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0853>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Chané"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0017>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Oceanian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0757>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Adygei"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0699>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tlingit"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0823>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Georgian"	
@@ -1620,6 +1628,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0778>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Bougainville"	
 <http://dbpedia.org/resource/Macau>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"China, Macao SAR"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0797>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Pathan"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0552>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Aboriginal Australian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0783>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Papuan"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"White"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Non-Hispanic White"	
@@ -1640,6 +1649,8 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0831>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"North Ossetian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0801>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Yadava"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0861>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Black"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0869>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Native Alaskan"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0869>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Indigenous Alaskan"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0581>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Uigur"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0630>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Ika"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0630>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Ica"@en	
@@ -1650,6 +1661,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0624>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Aimara"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0643>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Biaka"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0637>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mbuti"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0016>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"African American or Afro-Caribbean"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0749>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Uygur"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0698>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mongola"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0684>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Colombian"	
@@ -1660,6 +1672,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0807>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Abkhasian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0645>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Esan"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0010>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"African unspecified"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0010>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"African"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0732>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Burmese"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0828>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Iraqi Jew"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0496>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Malay"	
@@ -1727,6 +1740,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0748>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tujia"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0734>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Dai"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0814>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Bulgarian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0009>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"East Asian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0800>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Sindhi"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0747>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tu"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0731>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Atayal"	
@@ -1736,6 +1750,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0642>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Bantu Tswana"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0708>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Makrani"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0015>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Middle Eastern/North African"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0015>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Greater Middle Eastern (Middle Eastern or North African or Persian)"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0755>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Kinh Vietnamese"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0755>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"KHV"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0392>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Spaniard"	
@@ -1753,9 +1768,11 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0768>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"IBS"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0707>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Kalash"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0633>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Bantu Kenya"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0286>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Central Asian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0715>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Han"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0819>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"English"	
 <http://dbpedia.org/resource/Hong_Kong>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"China, Hong Kong SAR"@en	
+<http://purl.obolibrary.org/obo/HANCESTRO_0006>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"South Asian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0654>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mende"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0728>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Yakut"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0774>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Bougainville"	

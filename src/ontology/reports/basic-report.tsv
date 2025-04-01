@@ -34,6 +34,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0483>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0686>	"A population made up of 130 samples from Peruvian individuals recruited in Lima, Peru as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American."	
 <http://dbpedia.org/resource/Grenada>		"GAZ:02000573"
+<http://purl.obolibrary.org/obo/HANCESTRO_0869>	"General term that refers to the Indigenous Peoples of Alaska, encompassing a diverse range of cultural and linguistic groups."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0023>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0047>		
 <http://purl.obolibrary.org/obo/AfPO_0000261>	"French people who were born in Metropolitan France."	
@@ -113,7 +114,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0587>	"Includes individuals who either self-report or have been described by authors as Aboriginal Australian of Martu ancestry. The Martu Australian Aboriginal people are from the Western Desert region located across the Pilbara in Western Australia"	
 <http://dbpedia.org/resource/Dominican_Republic>		"GAZ:00003952"
 <http://purl.obolibrary.org/obo/HANCESTRO_0354>		
-<http://purl.obolibrary.org/obo/HANCESTRO_0463>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0762>	"A population made up of 23 samples from Russian individuals recruited in Russia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European."	
 <http://dbpedia.org/resource/French_Guiana>		"GAZ:00002516"
 <http://purl.obolibrary.org/obo/AfPO_0000329>	"A Southern African population with a population size of 0.03 millions. People of mixed race claiming both European and African descent."	
@@ -696,6 +696,7 @@
 <http://purl.obolibrary.org/obo/AfPO_00003674>	"A Nilotic Eastern population with a population size of 0.2 million"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0036>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0660>	"A population made up of 123 samples from African Caribbean individuals recruited in Barbados as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African."	
+<http://purl.obolibrary.org/obo/HANCESTRO_0463>	"Individuals who self-identify or are reported by authors as being citizens of the United States of America."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0777>	"A population made up of 2 samples from Australian individuals recruited in Australia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0634>	"A population made up of 4 samples from Bantu individuals recruited in South Africa as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African."	
 <http://purl.obolibrary.org/obo/OBI_0000245>	"An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members."@en	

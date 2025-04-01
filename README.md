@@ -41,7 +41,7 @@ Date Released: 24 February 2025
 
 Class Count: 1282 
 
-- **Extended geography-based and ethncity descriptors**: The latest release of HANCESTRO includes new geography-based and ethnicity descriptors. Some of the original ancestry descriptors received the suffix `ancestry` in order to distinguish them from the new descriptors.
+- **Extended geography-based and ethncity descriptors**: The latest release of HANCESTRO includes a new ethnicity term `Alaska Native (HANCESTRO:0869)` and the addition of the suffix `ancestry` to all root-level ancestry categories, even those without equivalent ethnicity descriptors.
 
 See the [release notes](https://github.com/EBISPOT/hancestro/releases) for further details of most recent changes or check out our new [automatically generated ontology diff report](https://github.com/EBISPOT/hancestro/blob/main/src/ontology/reports/release-diff.md).
 
