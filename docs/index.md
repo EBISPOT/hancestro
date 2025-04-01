@@ -36,6 +36,8 @@ The primary asserted relationship between ancestry categories and countries is v
 
 In exceptional cases, ancestry categories are associated with countries via the `hasCountryOfOrigin` relationship. This is much more formal definition generally reserved for genetically isolated populations where objectively verifiable information is available to relate individuals from this population to a small geographic area within a certain country.
 
+**UPDATE**: As of release v20205-04-01, the labels for all root level ancestry categories includes the suffix `ancestry`. This is due to a use case-driven creation of equiavlent ethnicity-specific terms for some of these categories, e.g. there are now separate ancestry and ethnicity categories for `East Asian ancestry (HANCESTRO:0009)` and `East Asian (HANCESTRO:0849)`. The usage guidance for ancestry and ethnicity categories remains the same.
+
 ### Ethnicity category
 
 Many population descriptors do not fully match defined ancestry populations although individuals from these populations may show some levels of genetic similarity with a given ancestry category. Ethnicity descriptors are more likely to describe populations groups with a similar cultural, religious, tribal, geographic or other social background. This includes terms such as `Jewish Israeli`, `Punjabi Sikh` or `Hispanic`. 

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hancestro/releases/2025-02-24/hancestro-full.owl
+data-version: hancestro/releases/2025-04-01/hancestro-full.owl
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -18,7 +18,7 @@ property_value: IAO:0000700 HANCESTRO:0304
 property_value: IAO:0000700 HANCESTRO:0601
 property_value: IAO:0000700 HANCESTRO:0602
 property_value: IAO:0000700 HANCESTRO:0632
-property_value: owl:versionInfo "2025-02-24" xsd:string
+property_value: owl:versionInfo "2025-04-01" xsd:string
 property_value: terms:license http://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -10602,6 +10602,7 @@ name: European ancestry
 def: "Includes individuals who either self-report or have been described by authors as\nEuropean, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations." []
 comment: It should be noted that the synonym "Caucasian", while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible.
 synonym: "Caucasian" EXACT []
+synonym: "European" EXACT []
 synonym: "white" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
 
@@ -10609,12 +10610,14 @@ is_a: HANCESTRO:0004 ! ancestry category
 id: HANCESTRO:0006
 name: South Asian ancestry
 def: "Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations." []
+synonym: "South Asian" EXACT []
 is_a: HANCESTRO:0008 ! Asian ancestry
 
 [Term]
 id: HANCESTRO:0007
 name: South East Asian ancestry
 def: "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations." []
+synonym: "South East Asian" EXACT []
 synonym: "Southeast Asian" EXACT []
 is_a: HANCESTRO:0008 ! Asian ancestry
 
@@ -10622,6 +10625,7 @@ is_a: HANCESTRO:0008 ! Asian ancestry
 id: HANCESTRO:0008
 name: Asian ancestry
 def: "Includes individuals that either self-report or have been described as Asian but there was not sufficient information to allow classification as East Asian, Central Asian, South Asian or South-East Asian." []
+synonym: "Asian" EXACT []
 synonym: "Asian unspecified" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
 
@@ -10629,12 +10633,14 @@ is_a: HANCESTRO:0004 ! ancestry category
 id: HANCESTRO:0009
 name: East Asian ancestry
 def: "Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations." []
+synonym: "East Asian" EXACT []
 is_a: HANCESTRO:0008 ! Asian ancestry
 
 [Term]
 id: HANCESTRO:0010
 name: African ancestry
 def: "Includes individuals that either self-report or have been described as African, but there was not sufficient information to allow classification as African American, AfroCaribbean or Sub-Saharan African." []
+synonym: "African" EXACT []
 synonym: "African unspecified" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
 
@@ -10646,16 +10652,18 @@ is_a: HANCESTRO:0010 ! African ancestry
 
 [Term]
 id: HANCESTRO:0013
-name: Indigenous American
+name: Indigenous American ancestry
 def: "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
 comment: Class previously labelled as "Native American". Use of this term, alongside other terms such as "First Nations", should be discontinued in favour of the more appropriate "Indigenous American", which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively.
+synonym: "Indigenous American" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
 
 [Term]
 id: HANCESTRO:0014
-name: Latin or Admixed American
+name: Latin or Admixed American ancestry
 def: "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations" []
 comment: Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions
+synonym: "Latin or Admised American" EXACT []
 synonym: "Mestizo" EXACT []
 synonym: "Pardo" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
@@ -10665,8 +10673,9 @@ property_value: IAO:0000117 "Joannella Morales" xsd:string
 
 [Term]
 id: HANCESTRO:0015
-name: Greater Middle Eastern (Middle Eastern or North African or Persian)
+name: Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 def: "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
+synonym: "Greater Middle Eastern (Middle Eastern or North African or Persian)" EXACT []
 synonym: "Middle Eastern/North African" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
 
@@ -10674,13 +10683,15 @@ is_a: HANCESTRO:0004 ! ancestry category
 id: HANCESTRO:0016
 name: African American or Afro-Caribbean ancestry
 def: "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations." []
+synonym: "African American or Afro-Caribbean" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
 relationship: HANCESTRO:0301 HANCESTRO:0306 ! hasAncestryStatus admixed ancestry
 
 [Term]
 id: HANCESTRO:0017
-name: Oceanian
+name: Oceanian ancestry
 def: "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
+synonym: "Oceanian" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
 
 [Term]
@@ -10917,6 +10928,7 @@ replaced_by: Eastern:Asia
 id: HANCESTRO:0286
 name: Central Asian ancestry
 def: "Includes individuals who either self-report or have been described by authors as Central Asian. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap." []
+synonym: "Central Asian" EXACT []
 is_a: HANCESTRO:0008 ! Asian ancestry
 
 [Term]
@@ -11099,7 +11111,7 @@ is_obsolete: true
 [Term]
 id: HANCESTRO:0331
 name: Sudanese
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Sudan ! isDemonymOf Sudan
 
@@ -11246,7 +11258,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bosnia_and_Herzegovina 
 [Term]
 id: HANCESTRO:0352
 name: Brazilian
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Brazil ! isDemonymOf Brazil
 
@@ -11274,7 +11286,7 @@ relationship: HANCESTRO:0330 Channel:Islands ! isDemonymOf Channel Islands
 [Term]
 id: HANCESTRO:0356
 name: Chilean
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Chile ! isDemonymOf Chile
 
@@ -11608,28 +11620,28 @@ relationship: HANCESTRO:0330 Cayman:Islands ! isDemonymOf Cayman Islands
 [Term]
 id: HANCESTRO:0403
 name: Colombian
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Colombia ! isDemonymOf Colombia
 
 [Term]
 id: HANCESTRO:0404
 name: Costa Rican
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 Costa:Rica ! isDemonymOf Costa Rica
 
 [Term]
 id: HANCESTRO:0405
 name: Cuban
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cuba ! isDemonymOf Cuba
 
 [Term]
 id: HANCESTRO:0406
 name: Dominican
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 Dominican:Republic ! isDemonymOf Dominican Republic
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Dominica ! isDemonymOf Dominica
@@ -11693,7 +11705,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Martinique ! isDemonymO
 [Term]
 id: HANCESTRO:0415
 name: Mexican
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mexico ! isDemonymOf Mexico
 
@@ -11728,14 +11740,14 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Paraguay ! isDemonymOf 
 [Term]
 id: HANCESTRO:0420
 name: Peruvian
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Peru ! isDemonymOf Peru
 
 [Term]
 id: HANCESTRO:0421
 name: Puerto Rican
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 Puerto:Rico ! isDemonymOf Puerto Rico
 
@@ -11792,7 +11804,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/United_States_Virgin_Is
 [Term]
 id: HANCESTRO:0429
 name: Uruguayan
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uruguay ! isDemonymOf Uruguay
 
@@ -11806,35 +11818,35 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Venezuela ! isDemonymOf
 [Term]
 id: HANCESTRO:0431
 name: Algerian
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Algeria ! isDemonymOf Algeria
 
 [Term]
 id: HANCESTRO:0432
 name: Armenian
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Armenia ! isDemonymOf Armenia
 
 [Term]
 id: HANCESTRO:0433
 name: Azerbaijani
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Azerbaijan ! isDemonymOf Azerbaijan
 
 [Term]
 id: HANCESTRO:0434
 name: Bahraini
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bahrain ! isDemonymOf Bahrain
 
 [Term]
 id: HANCESTRO:0435
 name: Cypriote
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cyprus ! isDemonymOf Cyprus
 
@@ -11847,84 +11859,84 @@ replaced_by: AfPO:0000365
 [Term]
 id: HANCESTRO:0437
 name: Georgian
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 Georgia:(country) ! isDemonymOf Georgia
 
 [Term]
 id: HANCESTRO:0438
 name: Iranian
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iran ! isDemonymOf Iran
 
 [Term]
 id: HANCESTRO:0439
 name: Iraqi
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iraq ! isDemonymOf Iraq
 
 [Term]
 id: HANCESTRO:0440
 name: Israeli
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Israel ! isDemonymOf Israel
 
 [Term]
 id: HANCESTRO:0441
 name: Jordanian
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Jordan ! isDemonymOf Jordan
 
 [Term]
 id: HANCESTRO:0442
 name: Kuwaiti
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kuwait ! isDemonymOf Kuwait
 
 [Term]
 id: HANCESTRO:0443
 name: Lebanese
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lebanon ! isDemonymOf Lebanon
 
 [Term]
 id: HANCESTRO:0444
 name: Libyan
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Libya ! isDemonymOf Libya
 
 [Term]
 id: HANCESTRO:0445
 name: Moroccan
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Morocco ! isDemonymOf Morocco
 
 [Term]
 id: HANCESTRO:0446
 name: Palestinian
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 Palestinian:territories ! isDemonymOf Palestinian Territories
 
 [Term]
 id: HANCESTRO:0447
 name: Omani
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Oman ! isDemonymOf Oman
 
 [Term]
 id: HANCESTRO:0448
 name: Qatari
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Qatar ! isDemonymOf Qatar
 
@@ -11934,14 +11946,14 @@ name: Saudi
 def: "Individuals who self-identify or are reported by authors as living in or originating from Saudi Arabia." []
 synonym: "Saudi Arab" EXACT []
 synonym: "Saudi Arabian" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 Saudi:Arabia ! isDemonymOf Saudi Arabia
 
 [Term]
 id: HANCESTRO:0450
 name: Tunisian
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tunisia ! isDemonymOf Tunisia
 
@@ -11955,14 +11967,14 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turkey ! isDemonymOf Tu
 [Term]
 id: HANCESTRO:0452
 name: Emirati
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/United_Arab_Emirates ! isDemonymOf United Arab Emirates
 
 [Term]
 id: HANCESTRO:0453
 name: Yemeni
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Yemen ! isDemonymOf Yemen
 
@@ -12018,7 +12030,7 @@ relationship: HANCESTRO:0330 South:Sudan ! isDemonymOf South Sudan
 [Term]
 id: HANCESTRO:0461
 name: Syrian
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Syria ! isDemonymOf Syria
 
@@ -12032,6 +12044,8 @@ relationship: HANCESTRO:0330 United:Kingdom ! isDemonymOf United Kingdom
 [Term]
 id: HANCESTRO:0463
 name: American
+def: "Individuals who self-identify or are reported by authors as being citizens of the United States of America." []
+comment: This term should be used exclusively to refer to citizenship, without any inference of individuals' ethnic, linguistic, religious or other cultural background.
 is_a: HANCESTRO:0566 ! undefined ancestry population
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 United:States ! isDemonymOf United States
@@ -12088,7 +12102,7 @@ relationship: HANCESTRO:0330 Marshall:Islands ! isDemonymOf Marshall Islands
 [Term]
 id: HANCESTRO:0471
 name: Micronesian
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Federated_States_of_Micronesia ! isDemonymOf Micronesia (Federated States of)
 
@@ -12123,7 +12137,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Palau ! isDemonymOf Pal
 [Term]
 id: HANCESTRO:0476
 name: Papua New Guinean
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Papua_New_Guinea ! isDemonymOf Papua New Guinea
 property_value: IAO:0000118 "Papuan" xsd:string
@@ -12145,7 +12159,7 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Samoa ! isDemonymOf Sam
 [Term]
 id: HANCESTRO:0479
 name: Solomon Islander
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: HANCESTRO:0330 Solomon:Islands ! isDemonymOf Solomon Islands
 
@@ -12650,8 +12664,9 @@ relationship: RO:0002151 HANCESTRO:0383 ! partially overlaps Irish
 
 [Term]
 id: HANCESTRO:0552
-name: Aboriginal Australian
+name: Aboriginal Australian ancestry
 def: "Includes individuals who either self-report or have been described by authors as Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation." []
+synonym: "Aboriginal Australian" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
 is_a: HANCESTRO:0601 ! ethnicity category
 
@@ -12672,7 +12687,7 @@ is_a: HANCESTRO:0290 ! genetically isolated population
 id: HANCESTRO:0555
 name: Arab Israeli founder
 synonym: "Israeli Arab" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0290 ! genetically isolated population
 
 [Term]
@@ -12687,7 +12702,7 @@ relationship: RO:0002151 HANCESTRO:0307 ! partially overlaps Italian
 id: HANCESTRO:0557
 name: Costa Rican founder
 def: "Individuals who have at least six great-grandparents born in the Central Valley of Costa Rica, to ensure descent from the founder population, composed primarily of Europeans and Native Americans" []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0290 ! genetically isolated population
 relationship: HANCESTRO:0308 Costa:Rica {all_only="true"} ! hasCountryOfOrigin Costa Rica
 relationship: RO:0002151 HANCESTRO:0404 ! partially overlaps Costa Rican
@@ -12805,19 +12820,19 @@ is_a: HANCESTRO:0610 ! Indigenous in North America
 id: HANCESTRO:0572
 name: Kosraean
 synonym: "Kosraen" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0573
 name: Native Hawaiian
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: HANCESTRO:0574
 name: Pacific Islander
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
@@ -12906,7 +12921,7 @@ is_a: HANCESTRO:0601 ! ethnicity category
 id: HANCESTRO:0587
 name: Martu Australian Aboriginal
 def: "Includes individuals who either self-report or have been described by authors as Aboriginal Australian of Martu ancestry. The Martu Australian Aboriginal people are from the Western Desert region located across the Pilbara in Western Australia" []
-is_a: HANCESTRO:0552 ! Aboriginal Australian
+is_a: HANCESTRO:0552 ! Aboriginal Australian ancestry
 property_value: IAO:0000118 "Mardu Aboriginal Australian" xsd:string
 property_value: IAO:0000118 "Mardu Australian Aboriginal" xsd:string
 property_value: IAO:0000118 "Martu Aboriginal Australian" xsd:string
@@ -12978,7 +12993,7 @@ property_value: IAO:0000119 "PMID:29220501" xsd:string
 id: HANCESTRO:0596
 name: Arab
 def: "Includes individuals with ethnic origins in the Semitic people populating the Arabian Peninsula and other countries in the Middle East and Northern Africa" []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0601 ! ethnicity category
 property_value: IAO:0000119 "PMID:27393651" xsd:string
 property_value: IAO:0000119 "PMID:28106113" xsd:string
@@ -13039,7 +13054,7 @@ synonym: "First Nations" EXACT []
 synonym: "First peoples" EXACT []
 synonym: "Native American" EXACT []
 synonym: "Native peoples" EXACT []
-is_a: HANCESTRO:0013 ! Indigenous American
+is_a: HANCESTRO:0013 ! Indigenous American ancestry
 
 [Term]
 id: HANCESTRO:0611
@@ -13051,7 +13066,7 @@ synonym: "Indígena" EXACT []
 synonym: "nativos" EXACT []
 synonym: "pueblos indígenas" EXACT []
 synonym: "pueblos originarios" EXACT []
-is_a: HANCESTRO:0013 ! Indigenous American
+is_a: HANCESTRO:0013 ! Indigenous American ancestry
 
 [Term]
 id: HANCESTRO:0612
@@ -13066,7 +13081,7 @@ synonym: "Mestizo" EXACT []
 synonym: "Pardo" EXACT []
 synonym: "Spanish Origin" EXACT []
 is_a: HANCESTRO:0601 ! ethnicity category
-relationship: RO:0002151 HANCESTRO:0014 ! partially overlaps Latin or Admixed American
+relationship: RO:0002151 HANCESTRO:0014 ! partially overlaps Latin or Admixed American ancestry
 
 [Term]
 id: HANCESTRO:0613
@@ -13446,7 +13461,7 @@ name: Mozabite in Algeria (SGDP)
 def: "A population made up of 2 samples from Mozabite individuals recruited in Algeria as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
 synonym: "Mozabite" EXACT []
 is_a: HANCESTRO:0010 ! African ancestry
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Algeria ! hasCountryOfOrigin Algeria
 relationship: RO:0002151 AfPO:0000231 ! partially overlaps Mozabite
@@ -13457,7 +13472,7 @@ name: Saharawi in Western Sahara (Morocco) (SGDP)
 def: "A population made up of 2 samples from Saharawi individuals recruited in Western Sahara (Morocco) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African." []
 synonym: "Saharawi" EXACT []
 is_a: HANCESTRO:0010 ! African ancestry
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 Western:Sahara ! hasCountryOfOrigin Western Sahara
 relationship: RO:0002151 AfPO:0000220 ! partially overlaps Sahrawi
@@ -13598,7 +13613,7 @@ id: HANCESTRO:0669
 name: Colombian in Colombia (HGDP)
 def: "A population made up of 5 samples from Colombian individuals recruited in Colombia as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Colombian" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Colombia ! hasCountryOfOrigin Colombia
 relationship: RO:0002151 HANCESTRO:0403 ! partially overlaps Colombian
@@ -13608,7 +13623,7 @@ id: HANCESTRO:0670
 name: Karitiana in Brazil (HGDP)
 def: "A population made up of 9 samples from Karitiana individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Karitiana" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0611 ! Indigenous in South America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brazil ! hasCountryOfOrigin Brazil
@@ -13619,7 +13634,7 @@ id: HANCESTRO:0671
 name: Maya in Mexico (HGDP)
 def: "A population made up of 21 samples from Maya individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Maya" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0610 ! Indigenous in North America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin Mexico
@@ -13630,7 +13645,7 @@ id: HANCESTRO:0672
 name: Pima in Mexico (HGDP)
 def: "A population made up of 12 samples from Pima individuals recruited in Mexico as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Pima" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0610 ! Indigenous in North America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin Mexico
@@ -13641,7 +13656,7 @@ id: HANCESTRO:0673
 name: Surui in Brazil (HGDP)
 def: "A population made up of 6 samples from Surui individuals recruited in Brazil as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Surui" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0611 ! Indigenous in South America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brazil ! hasCountryOfOrigin Brazil
@@ -13652,7 +13667,7 @@ id: HANCESTRO:0674
 name: Chane in Argentina (SGDP)
 def: "A population made up of 1 samples from Chane individuals recruited in Argentina as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Chane" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0611 ! Indigenous in South America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Argentina ! hasCountryOfOrigin Argentina
@@ -13663,7 +13678,7 @@ id: HANCESTRO:0675
 name: Karitiana in Brazil (SGDP)
 def: "A population made up of 3 samples from Karitiana individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Karitiana" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0611 ! Indigenous in South America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brazil ! hasCountryOfOrigin Brazil
@@ -13674,7 +13689,7 @@ id: HANCESTRO:0676
 name: Mayan in Mexico (SGDP)
 def: "A population made up of 2 samples from Mayan individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Mayan" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0610 ! Indigenous in North America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin Mexico
@@ -13685,7 +13700,7 @@ id: HANCESTRO:0677
 name: Mixe in Mexico (SGDP)
 def: "A population made up of 3 samples from Mixe individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Mixe" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0610 ! Indigenous in North America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin Mexico
@@ -13696,7 +13711,7 @@ id: HANCESTRO:0678
 name: Mixtec in Mexico (SGDP)
 def: "A population made up of 2 samples from Mixtec individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Mixtec" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0610 ! Indigenous in North America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin Mexico
@@ -13707,7 +13722,7 @@ id: HANCESTRO:0679
 name: Piapoco in Colombia (SGDP)
 def: "A population made up of 2 samples from Piapoco individuals recruited in Colombia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Piapoco" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0611 ! Indigenous in South America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Colombia ! hasCountryOfOrigin Colombia
@@ -13718,7 +13733,7 @@ id: HANCESTRO:0680
 name: Pima in Mexico (SGDP)
 def: "A population made up of 2 samples from Pima individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Pima" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0610 ! Indigenous in North America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin Mexico
@@ -13729,7 +13744,7 @@ id: HANCESTRO:0681
 name: Quechua in Peru (SGDP)
 def: "A population made up of 3 samples from Quechua individuals recruited in Peru as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Quechua" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0611 ! Indigenous in South America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Peru ! hasCountryOfOrigin Peru
@@ -13740,7 +13755,7 @@ id: HANCESTRO:0682
 name: Surui in Brazil (SGDP)
 def: "A population made up of 2 samples from Surui individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Surui" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0611 ! Indigenous in South America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brazil ! hasCountryOfOrigin Brazil
@@ -13751,7 +13766,7 @@ id: HANCESTRO:0683
 name: Zapotec in Mexico (SGDP)
 def: "A population made up of 2 samples from Zapotec individuals recruited in Mexico as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Zapotec" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0610 ! Indigenous in North America
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Mexico ! hasCountryOfOrigin Mexico
@@ -13763,7 +13778,7 @@ name: Colombian in Medellin, Colombia (1KGP)
 def: "A population made up of 148 samples from Colombian individuals recruited in Medellin, Colombia as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "CLM" EXACT []
 synonym: "Colombian" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Colombia ! hasCountryOfOrigin Colombia
 relationship: RO:0002151 HANCESTRO:0403 ! partially overlaps Colombian
@@ -13774,7 +13789,7 @@ name: Mexican Ancestry in Los Angeles, California (1KGP)
 def: "A population made up of 107 samples from Mexican Ancestry individuals recruited in Los Angeles, California as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Mexican Ancestry" EXACT []
 synonym: "MXL" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 United:States ! hasCountryOfOrigin United States
 relationship: RO:0002151 HANCESTRO:0415 ! partially overlaps Mexican
@@ -13785,7 +13800,7 @@ name: Peruvian in Lima, Peru (1KGP)
 def: "A population made up of 130 samples from Peruvian individuals recruited in Lima, Peru as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "PEL" EXACT []
 synonym: "Peruvian" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Peru ! hasCountryOfOrigin Peru
 relationship: RO:0002151 HANCESTRO:0420 ! partially overlaps Peruvian
@@ -13796,7 +13811,7 @@ name: Puerto Rican in Puerto Rico (1KGP)
 def: "A population made up of 150 samples from Puerto Rican individuals recruited in Puerto Rico as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American." []
 synonym: "Puerto Rican" EXACT []
 synonym: "PUR" EXACT []
-is_a: HANCESTRO:0014 ! Latin or Admixed American
+is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 Puerto:Rico ! hasCountryOfOrigin Puerto Rico
 relationship: RO:0002151 HANCESTRO:0421 ! partially overlaps Puerto Rican
@@ -13807,7 +13822,7 @@ name: Aleut in Russia (SGDP)
 def: "A population made up of 2 samples from Aleut individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Aleut" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13816,7 +13831,7 @@ name: Altaian in Russia (SGDP)
 def: "A population made up of 1 samples from Altaian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Altaian" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13825,7 +13840,7 @@ name: Chukchi in Russia (SGDP)
 def: "A population made up of 1 samples from Chukchi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Chukchi" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13834,7 +13849,7 @@ name: Eskimo Chaplin in Russia (SGDP)
 def: "A population made up of 1 samples from Eskimo Chaplin individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Eskimo Chaplin" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13843,7 +13858,7 @@ name: Eskimo Naukan in Russia (SGDP)
 def: "A population made up of 2 samples from Eskimo Naukan individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Eskimo Naukan" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13852,7 +13867,7 @@ name: Eskimo Sireniki in Russia (SGDP)
 def: "A population made up of 2 samples from Eskimo Sireniki individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Eskimo Sireniki" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13861,7 +13876,7 @@ name: Even in Russia (SGDP)
 def: "A population made up of 3 samples from Even individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Even" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13870,7 +13885,7 @@ name: Itelman in Russia (SGDP)
 def: "A population made up of 1 samples from Itelman individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Itelman" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13879,7 +13894,7 @@ name: Kyrgyz in Kyrgyzystan (SGDP)
 def: "A population made up of 2 samples from Kyrgyz individuals recruited in Kyrgyzystan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Kyrgyz" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Kyrgyzstan ! hasCountryOfOrigin Kyrgyzstan
 
 [Term]
@@ -13888,7 +13903,7 @@ name: Mansi in Russia (SGDP)
 def: "A population made up of 2 samples from Mansi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Mansi" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13898,7 +13913,7 @@ def: "A population made up of 2 samples from Mongola individuals recruited in Ch
 synonym: "Mongola" EXACT []
 is_a: HANCESTRO:0009 ! East Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/China ! hasCountryOfOrigin China
 relationship: RO:0002151 HANCESTRO:0023 ! partially overlaps Mongolian
 
@@ -13908,7 +13923,7 @@ name: Tlingit in Russia (SGDP)
 def: "A population made up of 2 samples from Tlingit individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Tlingit" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13917,7 +13932,7 @@ name: Tubalar in Russia (SGDP)
 def: "A population made up of 2 samples from Tubalar individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Tubalar" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13926,7 +13941,7 @@ name: Ulchi in Russia (SGDP)
 def: "A population made up of 2 samples from Ulchi individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Ulchi" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -13935,7 +13950,7 @@ name: Yakut in Russia (SGDP)
 def: "A population made up of 2 samples from Yakut individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian." []
 synonym: "Yakut" EXACT []
 is_a: HANCESTRO:0632 ! reference population
-is_a: HANCESTRO:0845 ! Indigenous Siberian
+is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
 [Term]
@@ -14586,7 +14601,7 @@ id: HANCESTRO:0770
 name: Bedouin in Negev, Israel (HGDP)
 def: "A population made up of 44 samples from Bedouin individuals recruited in Negev, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." []
 synonym: "Bedouin" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin Israel
 
@@ -14595,7 +14610,7 @@ id: HANCESTRO:0771
 name: Druze in Carmel, Israel (HGDP)
 def: "A population made up of 40 samples from Druze individuals recruited in Carmel, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." []
 synonym: "Druze" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin Israel
 
@@ -14604,7 +14619,7 @@ id: HANCESTRO:0772
 name: Mozabite in Mzab, Algeria (HGDP)
 def: "A population made up of 27 samples from Mozabite individuals recruited in Mzab, Algeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." []
 synonym: "Mozabite" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Algeria ! hasCountryOfOrigin Algeria
 relationship: RO:0002151 AfPO:0000231 ! partially overlaps Mozabite
@@ -14614,7 +14629,7 @@ id: HANCESTRO:0773
 name: Palestinian in Central, Israel (HGDP)
 def: "A population made up of 43 samples from Palestinian individuals recruited in Central, Israel as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Greater Middle Eastern  (Middle Eastern or North African or Persian)." []
 synonym: "Palestinian" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin Israel
 relationship: RO:0002151 HANCESTRO:0446 ! partially overlaps Palestinian
@@ -14624,7 +14639,7 @@ id: HANCESTRO:0774
 name: Bougainville in Bougainville (HGDP)
 def: "A population made up of 11 samples from Bougainville individuals recruited in Bougainville as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Bougainville" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin Papua New Guinea
 
@@ -14633,7 +14648,7 @@ id: HANCESTRO:0775
 name: Papuan Highlands in New Guinea (HGDP)
 def: "A population made up of 6 samples from Papuan Highlands individuals recruited in New Guinea as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Papuan Highlands" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin Papua New Guinea
 
@@ -14642,7 +14657,7 @@ id: HANCESTRO:0776
 name: Papuan Sepik in New Guinea (HGDP)
 def: "A population made up of 8 samples from Papuan Sepik individuals recruited in New Guinea as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Papuan Sepik" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin Papua New Guinea
 
@@ -14651,8 +14666,8 @@ id: HANCESTRO:0777
 name: Australian in Australia (SGDP)
 def: "A population made up of 2 samples from Australian individuals recruited in Australia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Australian" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
-is_a: HANCESTRO:0552 ! Aboriginal Australian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
+is_a: HANCESTRO:0552 ! Aboriginal Australian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Australia ! hasCountryOfOrigin Australia
 
@@ -14661,7 +14676,7 @@ id: HANCESTRO:0778
 name: Bougainville in Papua New Guinea (SGDP)
 def: "A population made up of 2 samples from Bougainville individuals recruited in Papua New Guinea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Bougainville" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin Papua New Guinea
 
@@ -14670,7 +14685,7 @@ id: HANCESTRO:0779
 name: Dusun in Brunei (SGDP)
 def: "A population made up of 2 samples from Dusun individuals recruited in Brunei as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Dusun" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Brunei ! hasCountryOfOrigin Brunei
 
@@ -14679,7 +14694,7 @@ id: HANCESTRO:0780
 name: Hawaiian in USA (SGDP)
 def: "A population made up of 1 samples from Hawaiian individuals recruited in USA as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Hawaiian" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 United:States ! hasCountryOfOrigin United States
 relationship: RO:0002151 HANCESTRO:0573 ! partially overlaps Native Hawaiian
@@ -14689,7 +14704,7 @@ id: HANCESTRO:0781
 name: Igorot in Philippines (SGDP)
 def: "A population made up of 2 samples from Igorot individuals recruited in Philippines as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Igorot" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Philippines ! hasCountryOfOrigin Philippines
 
@@ -14698,7 +14713,7 @@ id: HANCESTRO:0782
 name: Maori in New Zealand (SGDP)
 def: "A population made up of 1 samples from Maori individuals recruited in New Zealand as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Maori" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 New:Zealand ! hasCountryOfOrigin New Zealand
 
@@ -14707,7 +14722,7 @@ id: HANCESTRO:0783
 name: Papuan in Papua New Guinea (SGDP)
 def: "A population made up of 15 samples from Papuan individuals recruited in Papua New Guinea as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Oceanian." []
 synonym: "Papuan" EXACT []
-is_a: HANCESTRO:0017 ! Oceanian
+is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Papua_New_Guinea ! hasCountryOfOrigin Papua New Guinea
 relationship: RO:0002151 HANCESTRO:0476 ! partially overlaps Papua New Guinean
@@ -14926,7 +14941,7 @@ id: HANCESTRO:0807
 name: Abkhasian in Abkhazia or Russia (SGDP)
 def: "A population made up of 2 samples from Abkhasian individuals recruited in Abkhazia or Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Abkhasian" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
 
@@ -14936,7 +14951,7 @@ name: Adygei in Russia(Caucasus) (SGDP)
 def: "A population made up of 2 samples from Adygei individuals recruited in Russia(Caucasus) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Adygei" EXACT []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0286 ! Central Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
@@ -14956,7 +14971,7 @@ id: HANCESTRO:0810
 name: Armenian in Armenia (SGDP)
 def: "A population made up of 2 samples from Armenian individuals recruited in Armenia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Armenian" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Armenia ! hasCountryOfOrigin Armenia
 relationship: RO:0002151 HANCESTRO:0432 ! partially overlaps Armenian
@@ -14975,7 +14990,7 @@ id: HANCESTRO:0812
 name: Bedouin B in Israel(Negev) (SGDP)
 def: "A population made up of 2 samples from Bedouin B individuals recruited in Israel(Negev) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Bedouin B" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin Israel
 
@@ -15004,7 +15019,7 @@ name: Chechen in Russia (SGDP)
 def: "A population made up of 1 samples from Chechen individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Chechen" EXACT []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0286 ! Central Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
@@ -15032,7 +15047,7 @@ id: HANCESTRO:0818
 name: Druze in Israel(Carmel) (SGDP)
 def: "A population made up of 2 samples from Druze individuals recruited in Israel(Carmel) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Druze" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin Israel
 
@@ -15080,7 +15095,7 @@ id: HANCESTRO:0823
 name: Georgian in Georgia (SGDP)
 def: "A population made up of 2 samples from Georgian individuals recruited in Georgia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Georgian" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 Georgia:(country) ! hasCountryOfOrigin Georgia
 relationship: RO:0002151 HANCESTRO:0437 ! partially overlaps Georgian
@@ -15120,7 +15135,7 @@ id: HANCESTRO:0827
 name: Iranian in Iran (SGDP)
 def: "A population made up of 2 samples from Iranian individuals recruited in Iran as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Iranian" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Iran ! hasCountryOfOrigin Iran
 relationship: RO:0002151 HANCESTRO:0438 ! partially overlaps Iranian
@@ -15130,7 +15145,7 @@ id: HANCESTRO:0828
 name: Iraqi Jew in Iraq (SGDP)
 def: "A population made up of 2 samples from Iraqi Jew individuals recruited in Iraq as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Iraqi Jew" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Iraq ! hasCountryOfOrigin Iraq
 
@@ -15139,7 +15154,7 @@ id: HANCESTRO:0829
 name: Jordanian in Jordan (SGDP)
 def: "A population made up of 3 samples from Jordanian individuals recruited in Jordan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Jordanian" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Jordan ! hasCountryOfOrigin Jordan
 relationship: RO:0002151 HANCESTRO:0441 ! partially overlaps Jordanian
@@ -15150,7 +15165,7 @@ name: Lezgin in Russia (SGDP)
 def: "A population made up of 2 samples from Lezgin individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Lezgin" EXACT []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0286 ! Central Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
@@ -15161,7 +15176,7 @@ name: North Ossetian in Russia (SGDP)
 def: "A population made up of 2 samples from North Ossetian individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "North Ossetian" EXACT []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0286 ! Central Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Russia ! hasCountryOfOrigin Russia
@@ -15190,7 +15205,7 @@ id: HANCESTRO:0834
 name: Palestinian in Israel(Central) (SGDP)
 def: "A population made up of 3 samples from Palestinian individuals recruited in Israel(Central) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Palestinian" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin Israel
 relationship: RO:0002151 HANCESTRO:0446 ! partially overlaps Palestinian
@@ -15229,7 +15244,7 @@ id: HANCESTRO:0838
 name: Samaritan in Israel (SGDP)
 def: "A population made up of 1 samples from Samaritan individuals recruited in Israel as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Samaritan" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Israel ! hasCountryOfOrigin Israel
 
@@ -15257,7 +15272,7 @@ id: HANCESTRO:0841
 name: Tajik in Tajikistan (SGDP)
 def: "A population made up of 2 samples from Tajik individuals recruited in Tajikistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Tajik" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0286 ! Central Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Tajikistan ! hasCountryOfOrigin Tajikistan
@@ -15268,7 +15283,7 @@ id: HANCESTRO:0842
 name: Turkish in Turkey (SGDP)
 def: "A population made up of 2 samples from Turkish individuals recruited in Turkey as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Turkish" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Turkey ! hasCountryOfOrigin Turkey
 relationship: RO:0002151 HANCESTRO:0451 ! partially overlaps Turkish
@@ -15287,15 +15302,16 @@ id: HANCESTRO:0844
 name: Yemenite Jew in Yemen (SGDP)
 def: "A population made up of 2 samples from Yemenite Jew individuals recruited in Yemen as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian." []
 synonym: "Yemenite Jew" EXACT []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Yemen ! hasCountryOfOrigin Yemen
 
 [Term]
 id: HANCESTRO:0845
-name: Indigenous Siberian
+name: Indigenous Siberian ancestry
 def: "Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan." []
 synonym: "Indigenous peoples of Siberia" EXACT []
+synonym: "Indigenous Siberian" EXACT []
 is_a: HANCESTRO:0004 ! ancestry category
 
 [Term]
@@ -15312,7 +15328,7 @@ synonym: "nativos" EXACT []
 synonym: "pueblos indígenas" EXACT []
 synonym: "pueblos originarios" EXACT []
 is_a: HANCESTRO:0601 ! ethnicity category
-relationship: RO:0002151 HANCESTRO:0013 ! partially overlaps Indigenous American
+relationship: RO:0002151 HANCESTRO:0013 ! partially overlaps Indigenous American ancestry
 
 [Term]
 id: HANCESTRO:0847
@@ -15395,7 +15411,7 @@ is_a: HANCESTRO:0611 ! Indigenous in South America
 id: HANCESTRO:0857
 name: Persian
 def: "Individuals who self-identify or are reported by authors as belonging to the Persion ethnolinguistic group of Western Iran, which comprises the majority of the population of Iran" []
-is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian)
+is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
@@ -15477,6 +15493,15 @@ def: "Individuals who self-identify or are reported by authors as living in or o
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0602 ! geography-based population category
 relationship: RO:0000086 HANCESTRO:0600 ! has quality geographic descriptor
+
+[Term]
+id: HANCESTRO:0869
+name: Alaska Native
+def: "General term that refers to the Indigenous Peoples of Alaska, encompassing a diverse range of cultural and linguistic groups." []
+comment: This term was created due to its use as a category in the US Census. US Census categories are commonly reused in other contexts, including in research, as they are widely known.
+synonym: "Indigenous Alaskan" EXACT []
+synonym: "Native Alaskan" EXACT []
+is_a: HANCESTRO:0601 ! ethnicity category
 
 [Term]
 id: Holy:See

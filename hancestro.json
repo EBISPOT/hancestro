@@ -28,9 +28,9 @@
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-02-24"
+        "val" : "2025-04-01"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2025-02-24/hancestro.json"
+      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2025-04-01/hancestro.json"
     },
     "nodes" : [ {
       "id" : "http://dbpedia.org/resource/Afghanistan",
@@ -30892,6 +30892,9 @@
           "val" : "Caucasian"
         }, {
           "pred" : "hasExactSynonym",
+          "val" : "European"
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "white"
         } ]
       }
@@ -30902,7 +30905,11 @@
       "meta" : {
         "definition" : {
           "val" : "Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations."
-        }
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "South Asian"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0007",
@@ -30913,6 +30920,9 @@
           "val" : "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations."
         },
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "South East Asian"
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "Southeast Asian"
         } ]
@@ -30927,6 +30937,9 @@
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "Asian"
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "Asian unspecified"
         } ]
       }
@@ -30937,7 +30950,11 @@
       "meta" : {
         "definition" : {
           "val" : "Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations."
-        }
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "East Asian"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0010",
@@ -30948,6 +30965,9 @@
           "val" : "Includes individuals that either self-report or have been described as African, but there was not sufficient information to allow classification as African American, AfroCaribbean or Sub-Saharan African."
         },
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "African"
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "African unspecified"
         } ]
@@ -30963,17 +30983,21 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0013",
-      "lbl" : "Indigenous American",
+      "lbl" : "Indigenous American ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."
         },
-        "comments" : [ "Class previously labelled as \"Native American\". Use of this term, alongside other terms such as \"First Nations\", should be discontinued in favour of the more appropriate \"Indigenous American\", which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively." ]
+        "comments" : [ "Class previously labelled as \"Native American\". Use of this term, alongside other terms such as \"First Nations\", should be discontinued in favour of the more appropriate \"Indigenous American\", which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Indigenous American"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0014",
-      "lbl" : "Latin or Admixed American",
+      "lbl" : "Latin or Admixed American ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -30981,6 +31005,9 @@
         },
         "comments" : [ "Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions" ],
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Latin or Admised American"
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "Mestizo"
         }, {
@@ -30997,13 +31024,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0015",
-      "lbl" : "Greater Middle Eastern (Middle Eastern or North African or Persian)",
+      "lbl" : "Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."
         },
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Greater Middle Eastern (Middle Eastern or North African or Persian)"
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "Middle Eastern/North African"
         } ]
@@ -31015,16 +31045,24 @@
       "meta" : {
         "definition" : {
           "val" : "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations."
-        }
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "African American or Afro-Caribbean"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0017",
-      "lbl" : "Oceanian",
+      "lbl" : "Oceanian ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."
-        }
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Oceanian"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0018",
@@ -31372,7 +31410,11 @@
       "meta" : {
         "definition" : {
           "val" : "Includes individuals who either self-report or have been described by authors as Central Asian. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap."
-        }
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Central Asian"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0288",
@@ -32113,7 +32155,13 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0463",
       "lbl" : "American",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Individuals who self-identify or are reported by authors as being citizens of the United States of America."
+        },
+        "comments" : [ "This term should be used exclusively to refer to citizenship, without any inference of individuals' ethnic, linguistic, religious or other cultural background." ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0464",
       "lbl" : "American Samoan",
@@ -32529,12 +32577,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0552",
-      "lbl" : "Aboriginal Australian",
+      "lbl" : "Aboriginal Australian ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Includes individuals who either self-report or have been described by authors as Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation."
-        }
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Aboriginal Australian"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0553",
@@ -36183,13 +36235,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0845",
-      "lbl" : "Indigenous Siberian",
+      "lbl" : "Indigenous Siberian ancestry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan."
         },
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Indigenous Siberian"
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "Indigenous peoples of Siberia"
         } ]
@@ -36475,6 +36530,23 @@
         "definition" : {
           "val" : "Individuals who self-identify or are reported by authors as living in or originating from Northern Ireland, a nation of the United Kingdom and that is located on the island of Ireland."
         }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0869",
+      "lbl" : "Alaska Native",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "General term that refers to the Indigenous Peoples of Alaska, encompassing a diverse range of cultural and linguistic groups."
+        },
+        "comments" : [ "This term was created due to its use as a category in the US Census. US Census categories are commonly reused in other contexts, including in research, as they are widely known." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Indigenous Alaskan"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Native Alaskan"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000078",
@@ -52906,6 +52978,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0868",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0600"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0869",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C25464",
       "pred" : "is_a",
