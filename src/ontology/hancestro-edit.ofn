@@ -4092,6 +4092,7 @@
 European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Caucasian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>white</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>European</oboInOwl:hasExactSynonym>
         <rdfs:comment>It should be noted that the synonym &quot;Caucasian&quot;, while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible.</rdfs:comment>
         <rdfs:label>European ancestry</rdfs:label>
     </owl:Class>
@@ -4104,6 +4105,7 @@ European, Caucasian, White or one of the sub-populations from this region (e.g D
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0008"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap
 BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>South Asian</oboInOwl:hasExactSynonym>
         <rdfs:label>South Asian ancestry</rdfs:label>
     </owl:Class>
     
@@ -4115,6 +4117,7 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0008"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Southeast Asian</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>South East Asian</oboInOwl:hasExactSynonym>
         <rdfs:label>South East Asian ancestry</rdfs:label>
     </owl:Class>
     
@@ -4126,6 +4129,7 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals that either self-report or have been described as Asian but there was not sufficient information to allow classification as East Asian, Central Asian, South Asian or South-East Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Asian unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Asian</oboInOwl:hasExactSynonym>
         <rdfs:label>Asian ancestry</rdfs:label>
     </owl:Class>
     
@@ -4136,6 +4140,7 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0008"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>East Asian</oboInOwl:hasExactSynonym>
         <rdfs:label>East Asian ancestry</rdfs:label>
     </owl:Class>
     
@@ -4147,6 +4152,7 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals that either self-report or have been described as African, but there was not sufficient information to allow classification as African American, AfroCaribbean or Sub-Saharan African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">African unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>African</oboInOwl:hasExactSynonym>
         <rdfs:label>African ancestry</rdfs:label>
     </owl:Class>
     
@@ -4168,8 +4174,9 @@ This category also includes individuals who genetically cluster with reference p
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Indigenous American</oboInOwl:hasExactSynonym>
         <rdfs:comment>Class previously labelled as &quot;Native American&quot;. Use of this term, alongside other terms such as &quot;First Nations&quot;, should be discontinued in favour of the more appropriate &quot;Indigenous American&quot;, which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively.</rdfs:comment>
-        <rdfs:label xml:lang="en">Indigenous American</rdfs:label>
+        <rdfs:label xml:lang="en">Indigenous American ancestry</rdfs:label>
     </owl:Class>
     
 
@@ -4189,8 +4196,9 @@ This category also includes individuals who genetically cluster with reference p
         <obo:IAO_0000117>Joannella Morales</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym>Mestizo</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pardo</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Latin or Admised American</oboInOwl:hasExactSynonym>
         <rdfs:comment>Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions</rdfs:comment>
-        <rdfs:label>Latin or Admixed American</rdfs:label>
+        <rdfs:label>Latin or Admixed American ancestry</rdfs:label>
     </owl:Class>
     
 
@@ -4201,7 +4209,8 @@ This category also includes individuals who genetically cluster with reference p
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Middle Eastern/North African</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">Greater Middle Eastern (Middle Eastern or North African or Persian)</rdfs:label>
+        <oboInOwl:hasExactSynonym>Greater Middle Eastern (Middle Eastern or North African or Persian)</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry</rdfs:label>
     </owl:Class>
     
 
@@ -4217,6 +4226,7 @@ This category also includes individuals who genetically cluster with reference p
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>African American or Afro-Caribbean</oboInOwl:hasExactSynonym>
         <rdfs:label>African American or Afro-Caribbean ancestry</rdfs:label>
     </owl:Class>
     
@@ -4227,7 +4237,8 @@ This category also includes individuals who genetically cluster with reference p
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</obo:IAO_0000115>
-        <rdfs:label>Oceanian</rdfs:label>
+        <oboInOwl:hasExactSynonym>Oceanian</oboInOwl:hasExactSynonym>
+        <rdfs:label>Oceanian ancestry</rdfs:label>
     </owl:Class>
     
 
@@ -4674,6 +4685,7 @@ This category also includes individuals who genetically cluster with reference p
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0008"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as Central Asian. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Central Asian</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Central Asian ancestry</rdfs:label>
     </owl:Class>
     
@@ -7164,6 +7176,8 @@ This category also includes individuals who genetically cluster with reference p
                 <owl:someValuesFrom rdf:resource="http://dbpedia.org/resource/United_States"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as being citizens of the United States of America.</obo:IAO_0000115>
+        <rdfs:comment>This term should be used exclusively to refer to citizenship, without any inference of individuals&apos; ethnic, linguistic, religious or other cultural background.</rdfs:comment>
         <rdfs:label xml:lang="en">American</rdfs:label>
     </owl:Class>
     
@@ -8484,7 +8498,8 @@ This category also includes individuals who genetically cluster with reference p
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Includes individuals who either self-report or have been described by authors as Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation.</obo:IAO_0000115>
-        <rdfs:label>Aboriginal Australian</rdfs:label>
+        <oboInOwl:hasExactSynonym>Aboriginal Australian</oboInOwl:hasExactSynonym>
+        <rdfs:label>Aboriginal Australian ancestry</rdfs:label>
     </owl:Class>
     
 
@@ -14245,7 +14260,8 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">Indigenous peoples of Siberia</oboInOwl:hasExactSynonym>
-        <rdfs:label>Indigenous Siberian</rdfs:label>
+        <oboInOwl:hasExactSynonym>Indigenous Siberian</oboInOwl:hasExactSynonym>
+        <rdfs:label>Indigenous Siberian ancestry</rdfs:label>
     </owl:Class>
     
 
@@ -14564,6 +14580,19 @@ category does not include all native populations within the Arctic circle for ex
         </rdfs:subClassOf>
         <obo:IAO_0000115>Individuals who self-identify or are reported by authors as living in or originating from Northern Ireland, a nation of the United Kingdom and that is located on the island of Ireland.</obo:IAO_0000115>
         <rdfs:label>Northern Irish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0869">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
+        <obo:IAO_0000115>General term that refers to the Indigenous Peoples of Alaska, encompassing a diverse range of cultural and linguistic groups.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Indigenous Alaskan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Native Alaskan</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This term was created due to its use as a category in the US Census. US Census categories are commonly reused in other contexts, including in research, as they are widely known.</rdfs:comment>
+        <rdfs:label>Alaska Native</rdfs:label>
     </owl:Class>
     
 
