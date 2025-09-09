@@ -9,3 +9,4 @@ src/ontology/target/
 src/ontology/tmp/
 src/ontology/imports/*_terms_combined.txt
 src/ontology/hancestro-full.owl
+tools/
