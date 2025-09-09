@@ -14594,6 +14594,178 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:comment>This term was created due to its use as a category in the US Census. US Census categories are commonly reused in other contexts, including in research, as they are widely known.</rdfs:comment>
         <rdfs:label>Alaska Native</rdfs:label>
     </owl:Class>
+
+	
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an African Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Africa (1KG)</oboInOwl:hasExactSynonym>
+        <rdfs:label>African reference superpopulation (1KG)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an American Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>America (1KG)</oboInOwl:hasExactSynonym>
+        <rdfs:label>American reference superpopulation (1KG)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>East Asia (1KG)</oboInOwl:hasExactSynonym>
+        <rdfs:label>East Asian reference superpopulation (1KG)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a European Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Europe (1KG)</oboInOwl:hasExactSynonym>
+        <rdfs:label>European reference superpopulation (1KG)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a South Asian Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>South Asia (1KG)</oboInOwl:hasExactSynonym>
+        <rdfs:label>South Asian reference superpopulation (1KG)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an African Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Africa (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>African reference population (HGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an American Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>America (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>American reference population (HGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000007 -->
+	
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a Central South Asian Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Central South Asia (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Central South Asian reference population (HGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>East Asia (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>East Asian reference population (HGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Europe (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>European reference population (HGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a Middle East Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Middle East (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Middle East reference population (HGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Oceania (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Oceanian reference population (HGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an African Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Africa (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>African reference population (SGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an American Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>America (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>American reference population (SGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a Central Asian and Siberia Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Central Asia and Siberia (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Central Asian and Siberia reference population (SGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>East Asia (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>East Asian reference population (SGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Oceania (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Oceanian reference population (SGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a South Asian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>South Asia (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>South Asian reference population (SGDP)</rdfs:label>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000018 -->
+	
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a West Eurasian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>West Eurasia (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>West Eurasian reference population (SGDP)</rdfs:label>
+    </owl:Class>
     
 
 
