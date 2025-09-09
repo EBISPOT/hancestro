@@ -3,7 +3,7 @@
 This includes instructions for editing the HANCESTRO ontology. 
 
 ## Project Layout
-- Main development file is `src/ontology/hancestro-edit.ofn` (OWL Functional syntax)
+- Main development file is `src/ontology/hancestro-edit.ofn` (in RDF/XML Functional syntax)
 - ODK and ontology documentation can be found in `/docs/`
 
 ## Querying ontology
