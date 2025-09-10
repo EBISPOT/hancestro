@@ -14642,7 +14642,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a South Asian Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>South Asia (1KG)</oboInOwl:hasExactSynonym>
-		<rdfs:label>South Asian reference superpopulation (1KG)</rdfs:label>
+		<oboInOwl:hasExactSynonym>South Asian reference superpopulation (1KG)</oboInOwl:hasExactSynonym>
         <rdfs:label>SAS reference superpopulation (1KG)</rdfs:label>
     </owl:Class>
 
