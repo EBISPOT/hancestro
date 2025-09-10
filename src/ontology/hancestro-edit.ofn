@@ -10244,7 +10244,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0652">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10260,7 +10260,7 @@ category does not include all native populations within the Arctic circle for ex
         <obo:IAO_0000115>A population made up of 3 samples from Masai individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MKK</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Masai</oboInOwl:hasExactSynonym>
-        <rdfs:label>Masai in Kenya (1KGP)</rdfs:label>
+        <rdfs:label>Masai in Kenya (SGDP)</rdfs:label>
     </owl:Class>
     
 
