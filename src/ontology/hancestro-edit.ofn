@@ -14601,9 +14601,9 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an African Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Africa (1KG)</oboInOwl:hasExactSynonym>
-		<oboInOwl:hasExactSynonym>African reference superpopulation (1KG)</oboInOwl:hasExactSynonym>
-        <rdfs:label>AFR reference superpopulation (1KG)</rdfs:label>
+        <oboInOwl:hasExactSynonym>Africa (1KGP)</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasExactSynonym>African reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>AFR reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000001 -->
@@ -14611,9 +14611,9 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an American Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>America (1KG)</oboInOwl:hasExactSynonym>
-		<oboInOwl:hasExactSynonym>American reference superpopulation (1KG</oboInOwl:hasExactSynonym>
-        <rdfs:label>AMR reference superpopulation (1KG)</rdfs:label>
+        <oboInOwl:hasExactSynonym>America (1KGP)</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasExactSynonym>American reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>AMR reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000002 -->
@@ -14621,9 +14621,9 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>East Asia (1KG)</oboInOwl:hasExactSynonym>
-		<oboInOwl:hasExactSynonym>East Asian reference superpopulation (1KG)</oboInOwl:hasExactSynonym>
-        <rdfs:label>EAS reference superpopulation (1KG)</rdfs:label>
+        <oboInOwl:hasExactSynonym>East Asia (1KGP)</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasExactSynonym>East Asian reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>EAS reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000003 -->
@@ -14631,9 +14631,9 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a European Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Europe (1KG)</oboInOwl:hasExactSynonym>
-		<oboInOwl:hasExactSynonym>European reference superpopulation (1KG)</oboInOwl:hasExactSynonym>
-        <rdfs:label>EUR reference superpopulation (1KG)</rdfs:label>
+        <oboInOwl:hasExactSynonym>Europe (1KGP)</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasExactSynonym>European reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>EUR reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000004 -->
@@ -14641,9 +14641,9 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a South Asian Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>South Asia (1KG)</oboInOwl:hasExactSynonym>
-		<oboInOwl:hasExactSynonym>South Asian reference superpopulation (1KG)</oboInOwl:hasExactSynonym>
-        <rdfs:label>SAS reference superpopulation (1KG)</rdfs:label>
+        <oboInOwl:hasExactSynonym>South Asia (1KGP)</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasExactSynonym>South Asian reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:label>SAS reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000005 -->
