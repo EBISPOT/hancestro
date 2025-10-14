@@ -13332,7 +13332,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_2009",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0590"
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_2009",
       "pred" : "is_a",

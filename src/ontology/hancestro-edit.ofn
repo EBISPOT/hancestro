@@ -14609,9 +14609,9 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>EAS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>EAS reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>East Asian Ancestry (1KGP)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>EAS</oboInOwl:hasExactSynonym>
         <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>East Asian (EAS) reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
@@ -14624,9 +14624,9 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a European Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>EUR</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>EUR reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>European Ancestry (1KGP)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>EUR</oboInOwl:hasExactSynonym>
         <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>European (EUR) reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
@@ -14639,9 +14639,9 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a South Asian Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>SAS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>SAS reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>South Asian Ancestry (1KGP)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>SAS</oboInOwl:hasExactSynonym>
         <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>South Asian (SAS) reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
@@ -14703,7 +14703,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_2009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0590"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Europe (HGDP)</oboInOwl:hasExactSynonym>

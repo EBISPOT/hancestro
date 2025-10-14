@@ -197,8 +197,8 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/taveta.html
 [Term]
 id: AfPO:0000067
 name: Bassa
-def: "A Bantu Western population with a population size of 0.8 million" [https://en.wikipedia.org/wiki/Bassa_people_(Cameroon)]
 def: "A Bantu Western population with a population size of 0.8 million" [https://en.wikipedia.org/wiki/Bassa_people_(Liberia)]
+def: "A Bantu Western population with a population size of 0.8 million" [https://en.wikipedia.org/wiki/Bassa_people_(Cameroon)]
 is_a: AfPO:0000412 ! Bantu Western
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Cameroon ! hasCountryOfOrigin Cameroon
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Liberia ! hasCountryOfOrigin Liberia
@@ -15507,7 +15507,7 @@ name: European reference superpopulation (HGDP)
 def: "A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project." []
 comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Europe (HGDP)" EXACT []
-is_a: HANCESTRO:0590 ! European American
+is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0632 ! reference population
 
 [Term]

@@ -4948,7 +4948,7 @@ name: European reference superpopulation (HGDP)
 def: "A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project." []
 comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Europe (HGDP)" EXACT []
-is_a: HANCESTRO:0590 ! European American
+is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0632 ! reference population
 
 [Term]

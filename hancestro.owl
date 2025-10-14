@@ -39027,7 +39027,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_2009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0590"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Europe (HGDP)</oboInOwl:hasExactSynonym>

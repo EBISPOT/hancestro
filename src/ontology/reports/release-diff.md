@@ -917,7 +917,7 @@
 
 - [European reference superpopulation (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_2009) [label](http://www.w3.org/2000/01/rdf-schema#label) "European reference superpopulation (HGDP)" 
 
-- [European reference superpopulation (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_2009) SubClassOf [European American](http://purl.obolibrary.org/obo/HANCESTRO_0590) 
+- [European reference superpopulation (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_2009) SubClassOf [European ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0005) 
 
 - [European reference superpopulation (HGDP)](http://purl.obolibrary.org/obo/HANCESTRO_2009) SubClassOf [reference population](http://purl.obolibrary.org/obo/HANCESTRO_0632) 
 
