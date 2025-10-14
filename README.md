@@ -35,13 +35,13 @@ For more information, take a look at [our website](https://ebispot.github.io/han
 
 ##Ancestry Ontology - Release Notes ##
 
-### Current release: v2025-04-01
+### Current release: v2025-10-14
 
-Date Released: 1 April 2025
+Date Released: 14 October 2025
 
-Class Count: 1283 
+Class Count: 1310
 
-The latest release of HANCESTRO includes a new ethnicity term `Alaska Native (HANCESTRO:0869)` and the addition of the suffix `ancestry` to all root-level ancestry categories, even those without equivalent ethnicity descriptors.
+The latest release of HANCESTRO includes new classes for project-specific reference superpopulations for the 1KGP, SGDP and HGDP, as well as new terms requested by users for Oceanian and Indigenous South American populations. 
 
 See the [release notes](https://github.com/EBISPOT/hancestro/releases) for further details of most recent changes or check out our new [automatically generated ontology diff report](https://github.com/EBISPOT/hancestro/blob/main/src/ontology/reports/release-diff.md).
 
