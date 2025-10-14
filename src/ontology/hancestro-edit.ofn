@@ -4091,8 +4091,8 @@
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as
 European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Caucasian</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>white</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>European</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>white</oboInOwl:hasExactSynonym>
         <rdfs:comment>It should be noted that the synonym &quot;Caucasian&quot;, while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible.</rdfs:comment>
         <rdfs:label>European ancestry</rdfs:label>
     </owl:Class>
@@ -4116,8 +4116,8 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0008"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Southeast Asian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>South East Asian</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Southeast Asian</oboInOwl:hasExactSynonym>
         <rdfs:label>South East Asian ancestry</rdfs:label>
     </owl:Class>
     
@@ -4128,8 +4128,8 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals that either self-report or have been described as Asian but there was not sufficient information to allow classification as East Asian, Central Asian, South Asian or South-East Asian.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Asian unspecified</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Asian</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Asian unspecified</oboInOwl:hasExactSynonym>
         <rdfs:label>Asian ancestry</rdfs:label>
     </owl:Class>
     
@@ -4151,8 +4151,8 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals that either self-report or have been described as African, but there was not sufficient information to allow classification as African American, AfroCaribbean or Sub-Saharan African.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym xml:lang="en">African unspecified</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>African</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">African unspecified</oboInOwl:hasExactSynonym>
         <rdfs:label>African ancestry</rdfs:label>
     </owl:Class>
     
@@ -4194,9 +4194,9 @@ This category also includes individuals who genetically cluster with reference p
         <obo:IAO_0000115>Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations</obo:IAO_0000115>
         <obo:IAO_0000117>Jackie MacArthur</obo:IAO_0000117>
         <obo:IAO_0000117>Joannella Morales</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>Latin or Admixed American</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Mestizo</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pardo</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Latin or Admised American</oboInOwl:hasExactSynonym>
         <rdfs:comment>Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions</rdfs:comment>
         <rdfs:label>Latin or Admixed American ancestry</rdfs:label>
     </owl:Class>
@@ -4208,8 +4208,8 @@ This category also includes individuals who genetically cluster with reference p
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Middle Eastern/North African</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Greater Middle Eastern (Middle Eastern or North African or Persian)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Middle Eastern/North African</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry</rdfs:label>
     </owl:Class>
     
@@ -9775,8 +9775,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0633">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -9799,8 +9798,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0634 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0634">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -9823,8 +9821,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0635 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0635">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -9847,8 +9844,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0636">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -9871,8 +9867,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0637 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0637">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -9895,8 +9890,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0638 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0638">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -9919,8 +9913,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0639 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0639">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -9943,8 +9936,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0640 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0640">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -9973,8 +9965,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0641 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0641">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -9997,8 +9988,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0642">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10027,8 +10017,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0643 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0643">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10051,8 +10040,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0644 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0644">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10075,8 +10063,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0645 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0645">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10099,8 +10086,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0646 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0646">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10123,8 +10109,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0647 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0647">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10147,8 +10132,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0648 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0648">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10171,8 +10155,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0649 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0649">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10195,8 +10178,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0650 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0650">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10219,8 +10201,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0651 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0651">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10243,8 +10224,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0652 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0652">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10260,7 +10240,7 @@ category does not include all native populations within the Arctic circle for ex
         <obo:IAO_0000115>A population made up of 3 samples from Masai individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MKK</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Masai</oboInOwl:hasExactSynonym>
-        <rdfs:label>Masai in Kenya (1KGP)</rdfs:label>
+        <rdfs:label>Masai in Kenya (SGDP)</rdfs:label>
     </owl:Class>
     
 
@@ -10268,8 +10248,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0653 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0653">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10292,8 +10271,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0654 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0654">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10316,9 +10294,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0655 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0655">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10341,9 +10318,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0656 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0656">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10366,8 +10342,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0657 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0657">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10390,8 +10365,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0658 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0658">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10414,9 +10388,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0659 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0659">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0016"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10434,9 +10407,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0660 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0660">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0016"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10460,8 +10432,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0661 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0661">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10485,8 +10456,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0662 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0662">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10510,8 +10480,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0663 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0663">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10535,8 +10504,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0664 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0664">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10560,8 +10528,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0665 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0665">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10585,8 +10552,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0666 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0666">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10610,8 +10576,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0667 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0667">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10635,8 +10600,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0668 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0668">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10660,8 +10624,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0669">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10684,9 +10647,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0670 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0670">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10709,9 +10671,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0671 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0671">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10734,9 +10695,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0672 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0672">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10759,9 +10719,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0673">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10784,9 +10743,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10809,9 +10767,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0675 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0675">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10834,9 +10791,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0676 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0676">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10859,9 +10815,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0677 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0677">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10884,9 +10839,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0678 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0678">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10909,9 +10863,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0679">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10934,9 +10887,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0680 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0680">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10959,9 +10911,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0681 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0681">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -10984,9 +10935,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0682 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0682">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11009,9 +10959,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0683 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0683">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11034,8 +10983,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0684 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0684">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11059,8 +11007,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0685 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0685">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11084,8 +11031,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0686 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0686">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11109,8 +11055,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0687">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11134,8 +11079,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0688 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0688">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11152,8 +11096,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0689 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0689">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11170,8 +11113,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0690 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0690">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11188,8 +11130,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0691 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0691">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11206,8 +11147,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0692 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0692">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11224,8 +11164,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0693 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0693">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11242,8 +11181,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0694 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0694">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11260,8 +11198,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0695 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0695">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11278,8 +11215,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0696 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0696">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11296,8 +11232,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0697 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0697">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11315,8 +11250,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0698">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11339,8 +11273,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0699 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0699">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11357,8 +11290,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0700 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0700">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11375,8 +11307,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0701 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0701">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11393,8 +11324,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0702 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0702">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11411,8 +11341,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0703 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0703">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11429,8 +11358,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0704 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0704">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11447,8 +11375,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0705 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0705">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11465,8 +11392,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0706 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0706">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11483,8 +11409,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0707 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0707">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11501,8 +11426,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0708 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0708">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11519,8 +11443,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0709 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0709">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11537,8 +11460,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0710 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0710">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11555,9 +11477,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0711 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0711">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11581,8 +11502,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0712">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11605,8 +11525,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0713 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0713">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11629,8 +11548,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0714 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0714">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11647,8 +11565,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0715 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0715">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11671,8 +11588,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0716 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0716">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11689,8 +11605,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0717 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0717">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11713,8 +11628,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0718 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0718">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11731,8 +11645,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0719 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0719">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11749,8 +11662,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0720 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0720">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11773,8 +11685,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0721 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0721">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11791,8 +11702,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0722 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0722">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11815,8 +11725,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0723 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0723">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11833,8 +11742,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0724 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0724">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11851,8 +11759,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0725 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0725">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11869,8 +11776,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0726 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0726">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11887,8 +11793,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0727 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0727">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11905,8 +11810,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0728 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0728">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11923,8 +11827,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0729 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0729">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11941,8 +11844,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0730 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0730">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11959,8 +11861,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0731">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -11978,8 +11879,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0732">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12003,8 +11903,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0733">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12027,8 +11926,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0734 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0734">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12051,8 +11949,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0735 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0735">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12069,8 +11966,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0736 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0736">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12093,8 +11989,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0737 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0737">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12111,8 +12006,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0738 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0738">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12136,8 +12030,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0739">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12154,8 +12047,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0740 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0740">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12178,8 +12070,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0741 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0741">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12196,8 +12087,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0742 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0742">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12214,8 +12104,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0743 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0743">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12232,8 +12121,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0744 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0744">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12250,8 +12138,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0745 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0745">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12269,8 +12156,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0746">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12293,8 +12179,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0747 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0747">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12311,8 +12196,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0748 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0748">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12329,8 +12213,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0749 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0749">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12353,8 +12236,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0750 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0750">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12371,8 +12253,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0751 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0751">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12389,8 +12270,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0752 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0752">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12414,8 +12294,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0753 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0753">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12439,8 +12318,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0754 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0754">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12465,8 +12343,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0755">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12484,8 +12361,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0756 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0756">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12509,8 +12385,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0757 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0757">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12527,8 +12402,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0758 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0758">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12545,8 +12419,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0759 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0759">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12563,8 +12436,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0760 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0760">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12587,8 +12459,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0761 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0761">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
@@ -12605,8 +12476,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0762 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0762">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12629,8 +12499,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0763 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0763">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12647,8 +12516,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0764 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0764">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12665,8 +12533,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0765 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0765">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
@@ -12684,8 +12551,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0766 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0766">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12709,8 +12575,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0767 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0767">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12734,8 +12599,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0768 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0768">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12753,8 +12617,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0769 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0769">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12772,8 +12635,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0770 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0770">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12790,8 +12652,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0771 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0771">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12808,8 +12669,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0772 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0772">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12832,8 +12692,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0773 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0773">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12856,8 +12715,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0774 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0774">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12874,8 +12732,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0775 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0775">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12892,8 +12749,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0776 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0776">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12910,9 +12766,8 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0777 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0777">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0552"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12929,8 +12784,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0778 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0778">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12947,8 +12801,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0779 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0779">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12965,8 +12818,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0780 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0780">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -12989,8 +12841,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0781 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0781">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13007,8 +12858,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0782 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0782">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13025,8 +12875,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0783 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0783">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13049,8 +12898,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0784 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0784">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13067,8 +12915,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0785 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0785">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13085,8 +12932,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0786 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0786">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13103,8 +12949,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0787 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0787">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13121,8 +12966,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0788 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0788">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13139,8 +12983,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0789 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0789">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13157,8 +13000,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0790 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0790">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13175,8 +13017,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0791 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0791">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13193,8 +13034,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0792 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0792">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13211,8 +13051,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0793 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0793">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13229,8 +13068,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0794 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0794">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13247,8 +13085,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0795 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0795">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13265,8 +13102,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0796 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0796">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13283,8 +13119,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0797 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0797">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13301,8 +13136,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0798 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0798">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13319,8 +13153,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0799 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0799">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13337,8 +13170,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0800 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0800">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13355,8 +13187,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0801 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0801">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13373,8 +13204,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0802 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0802">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13392,8 +13222,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0803 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0803">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2004"/>
         <obo:IAO_0000115>A population made up of 113 samples from Gujarati Indians individuals recruited in Houston, TX as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GIH</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Gujarati</oboInOwl:hasExactSynonym>
@@ -13405,8 +13234,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0804 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0804">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13424,8 +13252,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0805 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0805">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2004"/>
         <obo:IAO_0000115>A population made up of 128 samples from Sri Lankan Tamil individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>STU</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Tamil</oboInOwl:hasExactSynonym>
@@ -13437,8 +13264,7 @@ category does not include all native populations within the Arctic circle for ex
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0806 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0806">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2004"/>
         <obo:IAO_0000115>A population made up of 118 samples from Indian Telugu individuals recruited in the UK as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation South Asian.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ITU</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Telugu</oboInOwl:hasExactSynonym>
@@ -13451,7 +13277,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0807">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13471,7 +13297,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13489,7 +13315,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0809">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13513,7 +13339,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0810">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13537,7 +13363,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0811">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13555,7 +13381,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0812">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13573,7 +13399,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0813">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13591,7 +13417,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0814">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13617,7 +13443,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13635,7 +13461,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0816">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13653,7 +13479,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0817">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
@@ -13671,7 +13497,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0818">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13689,7 +13515,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0819">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
@@ -13707,7 +13533,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0820">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13731,7 +13557,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0821">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13755,7 +13581,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0822">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13779,7 +13605,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0823">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13803,7 +13629,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0824">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13827,7 +13653,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0825">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13851,7 +13677,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0826">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13875,7 +13701,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0827">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13899,7 +13725,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0828">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13917,7 +13743,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0829">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13943,7 +13769,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13963,7 +13789,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -13981,7 +13807,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0832">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14005,7 +13831,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0833">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002151"/>
@@ -14023,7 +13849,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0834">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14047,7 +13873,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0835">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14071,7 +13897,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0836">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14095,7 +13921,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0837">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14113,7 +13939,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0838">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14131,7 +13957,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0839">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14149,7 +13975,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0840">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14174,7 +14000,7 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0841">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0286"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14198,7 +14024,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0842">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14222,7 +14048,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0843">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14240,7 +14066,7 @@ category does not include all native populations within the Arctic circle for ex
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0844">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_2018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0308"/>
@@ -14259,8 +14085,8 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0845">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym xml:lang="en">Indigenous peoples of Siberia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Indigenous Siberian</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Indigenous peoples of Siberia</oboInOwl:hasExactSynonym>
         <rdfs:label>Indigenous Siberian ancestry</rdfs:label>
     </owl:Class>
     
@@ -14593,6 +14419,412 @@ category does not include all native populations within the Arctic circle for ex
         <oboInOwl:hasExactSynonym>Native Alaskan</oboInOwl:hasExactSynonym>
         <rdfs:comment>This term was created due to its use as a category in the US Census. US Census categories are commonly reused in other contexts, including in research, as they are widely known.</rdfs:comment>
         <rdfs:label>Alaska Native</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0870 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0870">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0599"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Individuals who either self-report or have been described by authors as Papuan.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:32483274</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:34202821</obo:IAO_0000119>
+        <rdfs:comment>It should be noted that individuals characterised with this term may be part of ethnic groups in countries other than Papua New Guinea, such as Indonesia, which is why this term is broader than Papua New Guinean (HANCESTRO:0476)</rdfs:comment>
+        <rdfs:label>Papuan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0871">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0599"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Individuals who either self-report or have been described by authors as Balinese.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:16114819</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:35341056</obo:IAO_0000119>
+        <rdfs:label>Balinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0599"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as belonging to the Bora indigenous populations in Peru and Colombia.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:22911594</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:29765620</obo:IAO_0000119>
+        <obo:IAO_0000119>http://www.amazon-indians.org/page12.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Bora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0599"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as belonging to the Yagua indigenous population that inhabits the Peruvian Amazon. The Yagua language is the only surviving language of the Peba-Yagua linguistic family.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:25522106</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:36429736</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:38076857</obo:IAO_0000119>
+        <obo:IAO_0000119>http://www.amazon-indians.org/page17.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Yagua</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0874">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0599"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as belonging to the Kukama Kukamiria indigenous population in the Peruvian Amazon. Their language, also called Kukama-Kukamiria, is a Tupi-Guarani language.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:29407757</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:33945560</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.wwf.org.ec/?389371/The-Kukama-Kukamiria-an-invisible-indigenous-people-that-emerges-revaluing-their-culture</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>Kukama Kukamilla</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Kukama Kukamiria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0599"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as belonging to the Shipibo-Conibo indigenous population along the Ucayali River in the Amazon rainforest in Peru. Formerly two groups, they eventually became one tribe through intermarriage and communal rituals and are currently known as the Shipibo-Conibo people.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15798863</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:22515992</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:2705014</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Shipibo-Conibo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0876">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0599"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as belonging to the Yine indigenous population in the Peruvian Amazon.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:25123856</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:39360514</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Yine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0877">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0611"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0599"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as belonging to the Moche Chimu indigenous population in the Peruvian Amazon. The Chimu culture succeeded the Moche culture in the same region of Peru.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ebsco.com/research-starters/social-sciences-and-humanities/chimu-culture</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Moche Chimu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an African Ancestry as part of the 1000 Genomes Project and Gambian Genome Variation Project (GGVP).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>AFR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AFR reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>African Ancestry (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>African (AFR) reference superpopulation (1KGP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an American Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>AMR reference superpopulation (1KGP)</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>AMR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>American Ancestry (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>American (AMR) reference superpopulation (1KGP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>EAS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>EAS reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>East Asian Ancestry (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>East Asian (EAS) reference superpopulation (1KGP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a European Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>EUR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>EUR reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>European Ancestry (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>European (EUR) reference superpopulation (1KGP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a South Asian Ancestry as part of the 1000 Genomes Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>SAS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SAS reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>South Asian Ancestry (1KGP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>South Asian (SAS) reference superpopulation (1KGP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an African Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Africa (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>African reference superpopulation (HGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an American Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>America (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>American reference superpopulation (HGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a Central South Asian Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Central South Asia (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>Central South Asian reference superpopulation (HGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>East Asia (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>East Asian reference superpopulation (HGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Europe (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>European reference superpopulation (HGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a Middle East Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Middle East (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>Middle East reference superpopulation (HGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Oceania (HGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>Oceanian reference superpopulation (HGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an African Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Africa (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>African reference superpopulation (SGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an American Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>America (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>American reference superpopulation (SGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a Central Asian and Siberia Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Central Asia and Siberia (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>Central Asian and Siberia reference superpopulation (SGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>East Asia (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>East Asian reference superpopulation (SGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0017"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Oceania (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>Oceanian reference superpopulation (SGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a South Asian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>South Asia (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>South Asian reference superpopulation (SGDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_2018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_2018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
+        <obo:IAO_0000115>A reference population made up of samples from individuals with a West Eurasian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>West Eurasia (SGDP)</oboInOwl:hasExactSynonym>
+        <rdfs:comment>This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:label>West Eurasian reference superpopulation (SGDP)</rdfs:label>
     </owl:Class>
     
 
