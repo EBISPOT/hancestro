@@ -39,6 +39,14 @@ This will create all the specified release targets (OBO, OWL, JSON, and the vari
     3. Ideally also take a look at `hancestro-full.owl`, which may reveal interesting new inferences you did not know about. Note that the diff of this file is sometimes quite large.
 4. Like with every pull request, we recommend to always employ a second set of eyes when reviewing a PR!
 
+## Create a release diff
+
+An automatic command is available to create a diff between the new and previous release. This is optional but beneficial for releases with lots of changes.
+
+1. (Optional). Run `sh run.sh make clean`. This removes all temporary files and will force the actual diff command to download the current release. Without this command, a cached older release might be used - check the version numbers in the diff!
+2. Run `sh run.sh make release_diff`.
+3. It's a good idea to quickly check the output to ensure that nothing unexpected snuck into the release.
+
 ## Merge the main branch
 Once your [CI checks](ContinuousIntegration.md) have passed, and your reviews are completed, you can now merge the branch into your main branch (don't forget to delete the branch afterwards - a big button will appear after the merge is finished).
 

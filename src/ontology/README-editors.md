@@ -56,7 +56,14 @@ If this looks good type:
 This generates derived files such as hancestro.owl and hancestro.obo and places
 them in the top level (../..). The versionIRI will be added.
 
-Commit and push these files.
+Create a release diff by running:
+
+    sh run.sh make clean
+    sh run.sh make release_diff
+
+The first command removes all temporary file and forces the process to use the latest release. Otherwise it is possible that a cached version of a previous release will be used instead.
+
+Now commit and push all these files.
 
     git commit -a
 
