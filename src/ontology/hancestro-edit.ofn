@@ -179,6 +179,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
@@ -4079,7 +4087,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
         <obo:IAO_0000115>Population descriptor defined using ancestry informative markers (AIMs) based on genetic/genomic data</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ancestral group</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ancestry descriptor</oboInOwl:hasExactSynonym>
         <rdfs:label>ancestry label</rdfs:label>
     </owl:Class>
     
@@ -9366,7 +9373,6 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
         <obo:IAO_0000115>Population descriptor defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ethnic group</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ethnicity descriptor</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">ethnicity label</rdfs:label>
     </owl:Class>
     
@@ -9391,7 +9397,6 @@ descriptor does not include all native populations within the Arctic circle for 
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
         <obo:IAO_0000115>Population descriptor defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European).</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>geography-based population descriptor</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">geography-based population label</rdfs:label>
     </owl:Class>
     
@@ -9420,10 +9425,10 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0013"/>
         <obo:IAO_0000115 xml:lang="en">Includes indigenous individuals of Central and South America, descended from the original human migration into the Americas from Siberia.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Indígena</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>indo</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>nativos</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pueblos indígenas</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pueblos originarios</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>indio</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>Synonyms include terms typically refers to Indigenous Americans in Mexico, Central and South Lain America and is the preferred general term by these groups. Indio is an outdated and possibly offensive term that is outdated and should be avoided.</rdfs:comment>
         <rdfs:label>Indigenous in South America</rdfs:label>
     </owl:Class>
@@ -14342,7 +14347,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
         <obo:IAO_0000115>Individuals who self-identify or are reported by authors as Afro-Latin. This term is possibly an outdated  and offensive racial term but that is currently used by Latin American government and other institutions on official forms used to collect demographic information and is used by some communities Latin American communities to describe themselves.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Preto</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>negro</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">negro</oboInOwl:hasExactSynonym>
         <rdfs:comment>It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label.</rdfs:comment>
         <rdfs:label>Afro-Latin</rdfs:label>
     </owl:Class>
