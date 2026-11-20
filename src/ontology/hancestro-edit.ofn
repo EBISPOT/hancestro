@@ -4098,9 +4098,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as
 European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Caucasian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>European</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>white</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Caucasian</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>white</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>It should be noted that the synonym &quot;Caucasian&quot;, while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible.</rdfs:comment>
         <rdfs:label>European ancestry</rdfs:label>
     </owl:Class>
@@ -9209,9 +9209,9 @@ descriptor does not include all native populations within the Arctic circle for 
         </rdfs:subClassOf>
         <obo:IAO_0000115>Individuals who self-identify or are reported by authors as European American. Term used by some communities to describe themselves and some US and UK government and other institutions on official forms used to collect demographic information.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>American of European ancestry</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Caucasian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Non-Hispanic White</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>White</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Caucasian</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>It should be noted that the synonym &quot;Caucasian&quot;, while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible.</rdfs:comment>
         <rdfs:label>European American</rdfs:label>
     </owl:Class>
