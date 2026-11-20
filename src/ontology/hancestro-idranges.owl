@@ -7,7 +7,7 @@ Prefix: xml: <http://www.w3.org/XML/1998/namespace>
 Prefix: idprefix: <http://purl.obolibrary.org/obo/IAO_0000599>
 Prefix: iddigits: <http://purl.obolibrary.org/obo/IAO_0000596>
 Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-Prefix: idrange: <http://purl.obolibrary.org/obo/ro/idrange/>
+Prefix: idrange: <http://purl.obolibrary.org/obo/hancestro/idrange/>
 Prefix: owl: <http://www.w3.org/2002/07/owl#>
 
 
@@ -32,19 +32,15 @@ AnnotationProperty: idsfor:
 AnnotationProperty: allocatedto:
 
 Datatype: idrange:1
-
     Annotations: 
-        allocatedto: "Danielle Welter"
-    
+        allocatedto: "Danielle Welter"    
     EquivalentTo: 
         xsd:integer[>= 0 , <= 1999]
 
     
 Datatype: idrange:2
-
     Annotations: 
-        allocatedto: "ADDITIONAL EDITOR"
-    
+        allocatedto: "ADDITIONAL EDITOR"        
     EquivalentTo: 
-        xsd:integer[>= 2000 , <= 10000]
+        xsd:integer[>= 2000 , <= 9999]
     

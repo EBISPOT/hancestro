@@ -434,6 +434,7 @@
 <http://purl.obolibrary.org/obo/AfPO_0000359>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0409>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0518>		
+<http://purl.obolibrary.org/obo/BFO_0000020>		
 <http://dbpedia.org/resource/Morocco>		"GAZ:00000565"
 <http://dbpedia.org/resource/Cambodia>		"GAZ:00006888"
 <http://purl.obolibrary.org/obo/AfPO_0000487>	"A Embu population with a population size of 195250"	
@@ -442,7 +443,6 @@
 <http://purl.obolibrary.org/obo/AfPO_0000334>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0825>	"A population made up of 2 samples from Hungarian individuals recruited in Hungary as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0706>	"A population made up of 18 samples from Hazara individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian."	
-<http://purl.obolibrary.org/obo/BFO_0000004>	"b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0553>	"Includes native populations of Alaska, Siberia, and the Aleutian Archipelago. This\ncategory does not include all native populations within the Arctic circle for example the Finnish Saami who are descended from Europeans and are therefore included within the European ancestry category."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0654>	"A population made up of 2 samples from Mende individuals recruited in Sierra Leone as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African."	
 <http://dbpedia.org/resource/Eastern_Europe>		
@@ -616,6 +616,7 @@
 <http://purl.obolibrary.org/obo/AfPO_0000242>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0838>	"A population made up of 1 samples from Samaritan individuals recruited in Israel as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0682>	"A population made up of 2 samples from Surui individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American."	
+<http://purl.obolibrary.org/obo/BFO_0000004>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0768>	"A population made up of 162 samples from Iberian populations individuals recruited in Spain as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation European."	
 <http://purl.obolibrary.org/obo/AfPO_0000198>	"A Nilotic Eastern population with a population size of Nilo-Saharan, Luo, River-Lake"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0425>		
@@ -972,7 +973,6 @@
 <http://dbpedia.org/resource/Kenya>		"GAZ:00001101"
 <http://purl.obolibrary.org/obo/AfPO_0000397>	"A Semitic Eastern population with a population size of 1.5 millions"	
 <http://dbpedia.org/resource/Burkina_Faso>		"GAZ:00000905"
-<http://purl.obolibrary.org/obo/BFO_0000020>	"b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0493>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0360>		
 <http://dbpedia.org/resource/Central_African_Republic>		"GAZ:00001089"

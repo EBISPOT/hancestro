@@ -5,6 +5,7 @@ git_main_branch: main
 repo: hancestro
 report_fail_on: ERROR
 reasoner: ELK
+use_mappings: true
 documentation: 
   documentation_system: mkdocs
 export_formats:
@@ -51,6 +52,7 @@ sssom_mappingset_group:
   products:
     - id: hancestro-to-external
       maintenance: manual
+      release_mappings: true
 robot_report:
   release_reports: False
   fail_on: ERROR
