@@ -28,9 +28,9 @@
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-10-14"
+        "val" : "2026-11-20"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2025-10-14/hancestro-full.json"
+      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2026-11-20/hancestro-full.json"
     },
     "nodes" : [ {
       "id" : "http://dbpedia.org/resource/Afghanistan",
@@ -30428,33 +30428,6 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "entity"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "Entity"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "Julius Caesar"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "Verdi’s Requiem"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the Second World War"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "your body mass index"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
         } ]
@@ -30465,42 +30438,6 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "continuant"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "Continuant"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] "
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
         } ]
@@ -30510,61 +30447,7 @@
       "lbl" : "independent continuant",
       "type" : "CLASS",
       "meta" : {
-        "definition" : {
-          "val" : "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"
-        },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "ic"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "IndependentContinuant"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a chair"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a heart"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a leg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a spatial region"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an atom"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an orchestra."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the bottom right portion of a human torso"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the interior of your mouth"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] "
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
         } ]
@@ -30578,42 +30461,6 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "Quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the ambient temperature of this portion of air"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the color of a tomato"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the length of the circumference of your waist"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the mass of this piece of gold."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the shape of your nose"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the shape of your nostril"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "If an entity is a quality at any time that it exists, then it is a quality at every time that it exists. (axiom label in BFO2 Reference: [105-001])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] "
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
         } ]
@@ -30623,55 +30470,7 @@
       "lbl" : "specifically dependent continuant",
       "type" : "CLASS",
       "meta" : {
-        "definition" : {
-          "val" : "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"
-        },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "sdc"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "SpecificallyDependentContinuant"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "of one-sided specifically dependent continuants: the mass of this tomato"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the disposition of this fish to decay"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the function of this heart: to pump blood"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the mutual dependence of proton donors and acceptors in chemical reactions [79"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the pink color of a medium rare piece of grilled filet mignon at its center"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the role of being a doctor"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the shape of this hole."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the smell of this portion of mozzarella"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Specifically dependent continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. We're not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] "
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
         } ]
@@ -30682,75 +30481,6 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "material"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "MaterialEntity"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a flame"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a forest fire"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a human being"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a hurricane"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a photon"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a puff of smoke"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a sea wave"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a tornado"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an aggregate of human beings."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an energy wave"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an epidemic"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the undetached arm of a human being"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] "
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
         } ]
@@ -30761,15 +30491,6 @@
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "immaterial"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "ImmaterialEntity"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: Immaterial entities are divided into two subgroups:boundaries and sites, which bound, or are demarcated in relation, to material entities, and which can thus change location, shape and size and as their material hosts move or change shape or size (for example: your nasal passage; the hold of a ship; the boundary of Wales (which moves with the rotation of the Earth) [38, 7, 10"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
         } ]
@@ -30867,11 +30588,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0004",
-      "lbl" : "ancestry category",
+      "lbl" : "ancestry label",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data"
+          "val" : "Population descriptor defined using ancestry informative markers (AIMs) based on genetic/genomic data"
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -30884,17 +30605,17 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as\nEuropean, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations."
         },
         "comments" : [ "It should be noted that the synonym \"Caucasian\", while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "Caucasian"
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "European"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
+          "val" : "Caucasian"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "white"
         } ]
       }
@@ -30904,7 +30625,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -30917,7 +30638,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This descriptor also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -30949,7 +30670,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -30978,7 +30699,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban).\nThis category also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban). This descriptor also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations."
         }
       }
     }, {
@@ -30987,7 +30708,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."
+          "val" : "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."
         },
         "comments" : [ "Class previously labelled as \"Native American\". Use of this term, alongside other terms such as \"First Nations\", should be discontinued in favour of the more appropriate \"Indigenous American\", which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively." ],
         "synonyms" : [ {
@@ -31001,7 +30722,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations"
+          "val" : "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This descriptor includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations"
         },
         "comments" : [ "Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions" ],
         "synonyms" : [ {
@@ -31028,7 +30749,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."
+          "val" : "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this descriptor with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -31044,7 +30765,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -31057,7 +30778,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."
+          "val" : "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -31070,7 +30791,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories"
+          "val" : "A population for which specific ancestry information is known but that does not fall into any of the defined ancestry descriptors"
         }
       }
     }, {
@@ -32663,7 +32384,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American"
+          "val" : "Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry descriptors, eg American"
         }
       }
     }, {
@@ -32680,18 +32401,18 @@
           "val" : "African Caribbean"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Black"
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "Black Caribbean"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Preto"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "West Indian"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
+          "val" : "Black"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Preto"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "negro"
         } ]
       }
@@ -32707,7 +32428,7 @@
           "pred" : "hasExactSynonym",
           "val" : "Afro-American"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Black"
         } ]
       }
@@ -32898,13 +32619,13 @@
           "pred" : "hasExactSynonym",
           "val" : "American of European ancestry"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Caucasian"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Non-Hispanic White"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "White"
         } ]
       }
@@ -33049,11 +32770,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0601",
-      "lbl" : "ethnicity category",
+      "lbl" : "ethnicity label",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Population category defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors"
+          "val" : "Population descriptor defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors"
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -33062,11 +32783,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0602",
-      "lbl" : "geography-based population category",
+      "lbl" : "geography-based population label",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Population category defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European)."
+          "val" : "Population descriptor defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European)."
         }
       }
     }, {
@@ -33112,9 +32833,6 @@
           "val" : "Indígena"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "indo"
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "nativos"
         }, {
           "pred" : "hasExactSynonym",
@@ -33122,6 +32840,9 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "pueblos originarios"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "indio"
         } ]
       }
     }, {
@@ -33146,13 +32867,13 @@
           "pred" : "hasExactSynonym",
           "val" : "Latinx"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasNarrowSynonym",
           "val" : "Mestizo"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Pardo"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Spanish Origin"
         } ]
       }
@@ -36274,13 +35995,13 @@
           "pred" : "hasExactSynonym",
           "val" : "Native Peoples"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "nativos"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "pueblos indígenas"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "pueblos originarios"
         } ]
       }
@@ -36292,7 +36013,7 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as Asian, without any reference to validated genetic ancestry information and where there was not sufficient information to allow description as East Asian, Central Asian, South Asian or South-East Asian."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0848",
@@ -36302,7 +36023,7 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as South Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as India, Bangladesh, Bhutan, Nepal, Pakistan, and Sri Lanka, and sometimes Afghanistan and the Maldives."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0849",
@@ -36312,14 +36033,17 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as East Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as China, Japan, Mongolia, North Korea, South Korea, Taiwan, and special administrative states Hong Kong and Macau."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0850",
       "lbl" : "Southeast Asian",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "definition" : {
+          "val" : "Individuals who self-identify or are described by authors as South East Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+        },
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0851",
@@ -36329,7 +36053,7 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as Central Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan. It is a region of Asia bounded by the Caspian Sea to the southwest, European Russia to the northwest, Western China and Mongolia to the east, Afghanistan and Iran to the south, and Siberia to the north."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0852",
@@ -36339,7 +36063,7 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as Middle Eastern, without any reference to validated genetic ancestry information. This may include individuals from countries such as Lebanon, Syria, Israel, Jordan, Saudi Arabia, Yemen, Oman, Bahrain, Qatar, United Arab Emirates, Kuwait, Iraq, and Iran, as well as the Palestinian Territories of Gaza and the West Bank."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0853",
@@ -36449,7 +36173,7 @@
           "val" : "Individuals who self-identify or are reported by authors as Black British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Caribbean or African background."
         },
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Black"
         } ]
       }
@@ -36488,10 +36212,10 @@
         },
         "comments" : [ "It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Preto"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "negro"
         } ]
       }
@@ -36701,7 +36425,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an African Ancestry as part of the 1000 Genomes Project and Gambian Genome Variation Project (GGVP)."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "AFR"
@@ -36721,7 +36445,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an American Ancestry as part of the 1000 Genomes Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasBroadSynonym",
           "val" : "AMR reference superpopulation (1KGP)"
@@ -36741,7 +36465,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an East Asian Ancestry as part of the 1000 Genomes Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "EAS"
@@ -36761,7 +36485,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a European Ancestry as part of the 1000 Genomes Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "EUR"
@@ -36781,7 +36505,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a South Asian Ancestry as part of the 1000 Genomes Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SAS"
@@ -36801,7 +36525,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an African Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Africa (HGDP)"
@@ -36815,7 +36539,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an American Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "America (HGDP)"
@@ -36829,7 +36553,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a Central South Asian Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Central South Asia (HGDP)"
@@ -36843,7 +36567,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an East Asian Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "East Asia (HGDP)"
@@ -36857,7 +36581,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Europe (HGDP)"
@@ -36871,7 +36595,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a Middle East Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Middle East (HGDP)"
@@ -36885,7 +36609,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Oceania (HGDP)"
@@ -36899,7 +36623,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an African Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Africa (SGDP)"
@@ -36913,7 +36637,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an American Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "America (SGDP)"
@@ -36927,7 +36651,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a Central Asian and Siberia Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Central Asia and Siberia (SGDP)"
@@ -36941,7 +36665,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an East Asian Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "East Asia (SGDP)"
@@ -36955,7 +36679,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Oceania (SGDP)"
@@ -36969,7 +36693,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a South Asian Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "South Asia (SGDP)"
@@ -36983,7 +36707,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a West Eurasian Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "West Eurasia (SGDP)"
@@ -37070,24 +36794,81 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states."
+          "val" : "A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P378",
+              "val" : "NCI"
+            }, {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P381",
+              "val" : "from CIA World Factbook 2002: http://www.cia.gov/cia/publications/factbook/docs/notesanddefs.html"
+            } ]
+          }
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C132298", "http://purl.obolibrary.org/obo/NCIT_C132308", "http://purl.obolibrary.org/obo/NCIT_C183061", "http://purl.obolibrary.org/obo/NCIT_C188693", "http://purl.obolibrary.org/obo/NCIT_C201253", "http://purl.obolibrary.org/obo/NCIT_C54447", "http://purl.obolibrary.org/obo/NCIT_C61410" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "COUNTRY"
+          "val" : "COUNTRY",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P383",
+              "val" : "PT"
+            }, {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P384",
+              "val" : "FDA"
+            }, {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P386",
+              "val" : "ICSR"
+            } ]
+          }
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Country"
+          "val" : "Country",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P383",
+              "val" : "PT"
+            }, {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P384",
+              "val" : "CDISC"
+            } ]
+          }
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Country"
+          "val" : "Country",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P383",
+              "val" : "PT"
+            }, {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P384",
+              "val" : "DIPG/DMG"
+            } ]
+          }
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Country"
+          "val" : "Country",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P383",
+              "val" : "PT"
+            }, {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P384",
+              "val" : "NCI"
+            } ]
+          }
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Country"
+          "val" : "Country",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P383",
+              "val" : "SY"
+            }, {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P384",
+              "val" : "caDSR"
+            } ]
+          }
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_A40",
@@ -37160,7 +36941,13 @@
           "val" : "FDA"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
-          "val" : "A sovereign nation occupying a distinct territory and ruled by an autonomous government."
+          "val" : "A sovereign nation occupying a distinct territory and ruled by an autonomous government.",
+          "meta" : {
+            "basicPropertyValues" : [ {
+              "pred" : "http://purl.obolibrary.org/obo/NCIT_P378",
+              "val" : "CDISC"
+            } ]
+          }
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
           "val" : "Country"
@@ -37258,67 +37045,12 @@
         "definition" : {
           "val" : "a core relation that holds between a part and its whole"
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_gp2term", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "is part of"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "my brain is part of my body (continuant parthood, two material entities)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this day is part of this year (occurrent parthood)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "part_of"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0040042",
-          "val" : "http://purl.obolibrary.org/obo/BFO_0000002"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0040042",
-          "val" : "http://purl.obolibrary.org/obo/BFO_0000003"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0040042",
-          "val" : "http://purl.obolibrary.org/obo/BFO_0000004"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0040042",
-          "val" : "http://purl.obolibrary.org/obo/BFO_0000017"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0040042",
-          "val" : "http://purl.obolibrary.org/obo/BFO_0000019"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0040042",
-          "val" : "http://purl.obolibrary.org/obo/BFO_0000020"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0040042",
-          "val" : "http://purl.obolibrary.org/obo/BFO_0000031"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://ontologydesignpatterns.org/wiki/Submissions:PartOf"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://www.obofoundry.org/ro/#OBO_REL:part_of"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://wiki.geneontology.org/Part_of"
         } ]
       }
     }, {
@@ -37330,34 +37062,12 @@
         "definition" : {
           "val" : "a core relation that holds between a whole and its part"
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "has part"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "my body has part my brain (continuant parthood, two material entities)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this year has part this day (occurrent parthood)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "has_part"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
         } ]
       }
     }, {
@@ -37402,17 +37112,8 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "inheres in"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this fragility is a characteristic of this vase"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this red color is a characteristic of this apple"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "inheres_in"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
         } ]
       }
     }, {
@@ -37428,23 +37129,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "bearer of"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this apple is bearer of this red color"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this vase is bearer of this fragility"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "bearer_of"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "is bearer of"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
         } ]
       }
     }, {
@@ -37458,12 +37147,6 @@
         },
         "comments" : [ "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020." ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this red color is a quality of this apple"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A quality inheres in its bearer at all times for which the quality exists."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "is quality of"
         }, {
@@ -37481,12 +37164,6 @@
           "val" : "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this apple has quality this red color"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "has_quality"
         } ]
@@ -37504,20 +37181,8 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "is location of"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "my head is the location of my brain"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this cage is the location of this rat"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "location_of"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
         } ]
       }
     }, {
@@ -37529,34 +37194,12 @@
         "definition" : {
           "val" : "a relation between two independent continuants, the target and the location, in which the target is entirely within the location"
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_gp2term" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "located in"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "my brain is located in my head"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this rat is located in this cage"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "located_in"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
-        }, {
-          "pred" : "http://purl.org/dc/terms/source",
-          "val" : "http://www.obofoundry.org/ro/#OBO_REL:located_in"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://wiki.geneontology.org/Located_in"
         } ]
       }
     }, {
@@ -37568,16 +37211,9 @@
         "definition" : {
           "val" : "x overlaps y if and only if there exists some z such that x has part z and z part of y"
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000424",
-          "val" : "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
         } ]
       }
     }, {
@@ -37589,22 +37225,12 @@
         "definition" : {
           "val" : "x partially overlaps y iff there exists some z such that z is part of x and z is part of y, and it is also the case that neither x is part of y or y is part of x"
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "We would like to include disjointness axioms with part_of and has_part, however this is not possible in OWL2 as these are non-simple properties and hence cannot appear in a disjointness axiom"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "proper overlaps"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000426",
-          "val" : "(forall (?x ?y) \n\t(iff \n\t\t(proper_overlaps ?x ?y)\n\t\t(and \n\t\t\t(overlaps ?x ?y)\n\t\t\t(not (part_of ?x ?y)) \n\t\t\t(not (part_of ?y ?x)))))"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
         } ]
       }
     }, {
@@ -37617,9 +37243,6 @@
           "val" : "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w."
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Because part_of is transitive, inheres in is a sub-relation of characteristic of part of"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "https://orcid.org/0000-0002-6601-2165"
         }, {
@@ -37628,12 +37251,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "http://www.ncbi.nlm.nih.gov/pubmed/20064205"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://purl.obolibrary.org/obo/ro/docs/reflexivity/"
         } ]
       }
     }, {
@@ -37648,12 +37265,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "https://orcid.org/0000-0002-6601-2165"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
-          "val" : "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
-          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
         } ]
       }
     }, {
@@ -37666,14 +37277,8 @@
           "val" : "x spatially_coextensive_with y if and inly if x and y have the same location"
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "A lump of clay and a statue"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "https://orcid.org/0000-0002-6601-2165"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
-          "val" : "This relation is added for formal completeness. It is unlikely to be used in many practical scenarios"
         } ]
       }
     }, {
@@ -37685,9 +37290,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "https://orcid.org/0000-0002-6601-2165"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://purl.obolibrary.org/obo/BFO_0000169"
         } ]
       }
     }, {
@@ -38256,14 +37858,6 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000179",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000180",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000111",
       "lbl" : "editor preferred term",
       "type" : "PROPERTY",
@@ -38353,27 +37947,7 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000424",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000426",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000589",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000600",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000601",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000602",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
@@ -38393,10 +37967,6 @@
           "val" : "Nicolas Matentzoglu"
         } ]
       }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0010000",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
       "lbl" : "term replaced by",
@@ -38455,44 +38025,6 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0001900",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002582",
-      "lbl" : "is a defining property chain axiom where second argument is reflexive",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "If R <- P o Q is a defining property chain axiom, then (1) R -> P o Q holds and (2) Q is either reflexive or locally reflexive. A corollary of this is that P SubPropertyOf R."
-        }
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0040042",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/valid_for_go_gp2term",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/valid_for_go_ontology",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/valid_for_gocam",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/ro/subsets#ro-eco",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
       "id" : "http://purl.org/dc/elements/1.1/contributor",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -38525,10 +38057,6 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.org/dc/elements/1.1/type",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
       "id" : "http://purl.org/dc/terms/contributor",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -38541,15 +38069,7 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.org/dc/terms/source",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
       "id" : "http://purl.org/dc/terms/title",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
@@ -38585,6 +38105,11 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "lbl" : "has_related_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#id",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -38612,14 +38137,6 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.w3.org/2002/07/owl#versionInfo",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://xmlns.com/foaf/0.1/homepage",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://xmlns.com/foaf/0.1/mbox",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     } ],
@@ -53094,8 +52611,6 @@
     } ],
     "domainRangeAxioms" : [ {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0001025",
-      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ],
-      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ],
       "allValuesFromEdges" : [ {
         "sub" : "http://dbpedia.org/resource/Afghanistan",
         "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -54239,13 +53754,7 @@
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/BFO_0000050" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002131",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000051", "http://purl.obolibrary.org/obo/BFO_0000050" ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002131",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000051", "http://purl.obolibrary.org/obo/RO_0002131" ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002314",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0000052", "http://purl.obolibrary.org/obo/BFO_0000050" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0001025",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0001025", "http://purl.obolibrary.org/obo/BFO_0000050" ]

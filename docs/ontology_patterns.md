@@ -25,13 +25,13 @@ In addition, it uses several imported properties:
 `ancestry status` is defined as being equivalent to `genetically isolated ancestry or admixed ancestry`. It is a grouping class for population genetics qualifiers.
 
 
-### Ethnicity category
+### Ethnicity label
 
-`ethnicity category`is defined as being equivalent to `has quality some ethnicity descriptor`. This means that any subclass of `ethnicity category` has an inherent quality of being a descriptor of type ethnicity.
+`ethnicity label`is defined as being equivalent to `has quality some ethnicity descriptor`. This means that any subclass of `ethnicity label` has an inherent quality of being a descriptor of type ethnicity.
 
-### Geography-based population category
+### Geography-based population label
 
-`geography-based population category`is defined as being equivalent to `(isDemonymOf some Country) or (has quality some geographic descriptor)`. This means that any subclass of `geography-based population category` is either directly identified as a denomym of a country identified in the ontology or it has an inherent quality of being a descriptor of type geography.
+`geography-based population label`is defined as being equivalent to `(isDemonymOf some Country) or (has quality some geographic descriptor)`. This means that any subclass of `geography-based population label` is either directly identified as a denomym of a country identified in the ontology or it has an inherent quality of being a descriptor of type geography.
 
 ### Exclusions from ethnicity and geography descriptors
 

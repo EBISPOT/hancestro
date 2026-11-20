@@ -47,6 +47,11 @@ components:
       template_options: '--prefix "HANCESTRO: http://purl.obolibrary.org/obo/HANCESTRO_" --prefix "RO: http://purl.obolibrary.org/obo/RO_"'
       templates:
         - afpo_annotations.csv
+# sssom_mappingset_group:
+#   products:
+#     - id: hancestro-to-external
+#       maintenance: manual
+#       release_mappings: true
 robot_report:
   release_reports: False
   fail_on: ERROR
