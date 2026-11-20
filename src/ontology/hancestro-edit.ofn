@@ -4096,8 +4096,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
-        <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as
-European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>European</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Caucasian</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>white</oboInOwl:hasRelatedSynonym>
@@ -4170,8 +4169,7 @@ BEB, GIH, ITU, PJL and STU populations.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0010"/>
-        <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban).
-This descriptor also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban). This descriptor also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations.</obo:IAO_0000115>
         <rdfs:label>Sub-Saharan African</rdfs:label>
     </owl:Class>
     
@@ -8516,7 +8514,7 @@ This descriptor also includes individuals who genetically cluster with reference
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0553">
         <obo:IAO_0000115>Includes native populations of Alaska, Siberia, and the Aleutian Archipelago. This
-descriptor does not include all native populations within the Arctic circle for example the Finnish Saami who are descended from Europeans and are therefore included within the European ancestry descriptor.</obo:IAO_0000115>
+category does not include all native populations within the Arctic circle for example the Finnish Saami who are descended from Europeans and are therefore included within the European ancestry category.</obo:IAO_0000115>
         <rdfs:label>obsolete_Circumpolar people</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14162,6 +14160,7 @@ descriptor does not include all native populations within the Arctic circle for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0850">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0602"/>
+        <obo:IAO_0000115>Individuals who self-identify or are described by authors as South East Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam.</obo:IAO_0000115>
         <rdfs:comment>This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.</rdfs:comment>
         <rdfs:label>Southeast Asian</rdfs:label>
     </owl:Class>
@@ -14302,7 +14301,7 @@ descriptor does not include all native populations within the Arctic circle for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0860">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
-        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as Asian-British. This term is part of the standardised ethnicity descriptors collected in the UK and may include individuals of Indian, Pakistani, Bangladeshi, Chinese or any other Asian background.</obo:IAO_0000115>
+        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as Asian-British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Indian, Pakistani, Bangladeshi, Chinese or any other Asian background.</obo:IAO_0000115>
         <rdfs:label>Asian British</rdfs:label>
     </owl:Class>
     
@@ -14312,7 +14311,7 @@ descriptor does not include all native populations within the Arctic circle for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0861">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
-        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as Black British. This term is part of the standardised ethnicity descriptors collected in the UK and may include individuals of Caribbean or African background.</obo:IAO_0000115>
+        <obo:IAO_0000115>Individuals who self-identify or are reported by authors as Black British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Caribbean or African background.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Black</oboInOwl:hasExactSynonym>
         <rdfs:label>Black British</rdfs:label>
     </owl:Class>
@@ -14346,8 +14345,8 @@ descriptor does not include all native populations within the Arctic circle for 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0864">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
         <obo:IAO_0000115>Individuals who self-identify or are reported by authors as Afro-Latin. This term is possibly an outdated  and offensive racial term but that is currently used by Latin American government and other institutions on official forms used to collect demographic information and is used by some communities Latin American communities to describe themselves.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Preto</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="es">negro</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="pt">Preto</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="es">negro</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label.</rdfs:comment>
         <rdfs:label>Afro-Latin</rdfs:label>
     </owl:Class>
@@ -14425,7 +14424,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <obo:IAO_0000115>General term that refers to the Indigenous Peoples of Alaska, encompassing a diverse range of cultural and linguistic groups.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Indigenous Alaskan</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Native Alaskan</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This term was created due to its use as a descriptor in the US Census. US Census descriptors are commonly reused in other contexts, including in research, as they are widely known.</rdfs:comment>
+        <rdfs:comment>This term was created due to its use as a category in the US Census. US Census categories are commonly reused in other contexts, including in research, as they are widely known.</rdfs:comment>
         <rdfs:label>Alaska Native</rdfs:label>
     </owl:Class>
     
@@ -14590,7 +14589,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <oboInOwl:hasExactSynonym>AFR</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>AFR reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>African Ancestry (1KGP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>African (AFR) reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
     
@@ -14605,7 +14604,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <oboInOwl:hasBroadSynonym>AMR reference superpopulation (1KGP)</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>AMR</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>American Ancestry (1KGP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>American (AMR) reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
     
@@ -14620,7 +14619,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <oboInOwl:hasExactSynonym>EAS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>EAS reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>East Asian Ancestry (1KGP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>East Asian (EAS) reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
     
@@ -14635,7 +14634,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <oboInOwl:hasExactSynonym>EUR</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>EUR reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>European Ancestry (1KGP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>European (EUR) reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
     
@@ -14650,7 +14649,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <oboInOwl:hasExactSynonym>SAS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>SAS reference superpopulation (1KGP)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>South Asian Ancestry (1KGP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>South Asian (SAS) reference superpopulation (1KGP)</rdfs:label>
     </owl:Class>
     
@@ -14663,7 +14662,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an African Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Africa (HGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>African reference superpopulation (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -14676,7 +14675,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an American Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>America (HGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>American reference superpopulation (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -14689,7 +14688,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a Central South Asian Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Central South Asia (HGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>Central South Asian reference superpopulation (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -14702,7 +14701,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>East Asia (HGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>East Asian reference superpopulation (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -14715,7 +14714,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Europe (HGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>European reference superpopulation (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -14728,7 +14727,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a Middle East Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Middle East (HGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>Middle East reference superpopulation (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -14741,7 +14740,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Human Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Oceania (HGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>Oceanian reference superpopulation (HGDP)</rdfs:label>
     </owl:Class>
     
@@ -14754,7 +14753,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an African Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Africa (SGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>African reference superpopulation (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -14767,7 +14766,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an American Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>America (SGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>American reference superpopulation (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -14780,7 +14779,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0845"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a Central Asian and Siberia Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Central Asia and Siberia (SGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>Central Asian and Siberia reference superpopulation (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -14793,7 +14792,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an East Asian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>East Asia (SGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>East Asian reference superpopulation (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -14806,7 +14805,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Oceania (SGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>Oceanian reference superpopulation (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -14819,7 +14818,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a South Asian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>South Asia (SGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>South Asian reference superpopulation (SGDP)</rdfs:label>
     </owl:Class>
     
@@ -14831,7 +14830,7 @@ descriptor does not include all native populations within the Arctic circle for 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0632"/>
         <obo:IAO_0000115>A reference population made up of samples from individuals with a West Eurasian Ancestry as part of the Simons Genome Diversity Project.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>West Eurasia (SGDP)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This descriptor was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
+        <rdfs:comment>This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.</rdfs:comment>
         <rdfs:label>West Eurasian reference superpopulation (SGDP)</rdfs:label>
     </owl:Class>
     

@@ -38,8 +38,9 @@ HANCESTRO:0007	South East Asian ancestry	skos:relatedMatch	mesh:D000095224	South
 HANCESTRO:0009	East Asian ancestry	skos:relatedMatch	mesh:D000095225	East Asian People	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0552	Aboriginal Australian ancestry	skos:relatedMatch	mesh:D000095283	Australian Aboriginal and Torres Strait Islander Peoples	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0010	African ancestry	skos:relatedMatch	NCIT:C42331	African	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
-HANCESTRO:0610	Indigenous in North America	skos:relatedMatch	NCIT:C41259	American Indian or Alaska Native	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
-HANCESTRO:0008	Asian ancestry	skos:relatedMatch	NCIT:C41260	Asian	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
+HANCESTRO:0846	Native American	skos:relatedMatch	NCIT:C41259	American Indian or Alaska Native	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
+HANCESTRO:0869	Alaska Native	skos:relatedMatch	NCIT:C41259	American Indian or Alaska Native	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
+HANCESTRO:0847	Asian	skos:relatedMatch	NCIT:C41260	Asian	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0862	Asian-American	skos:relatedMatch	NCIT:C16310	Asian American	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0568	African American	skos:relatedMatch	NCIT:C16352	Black or African American	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0005	European ancestry	skos:relatedMatch	NCIT:C43851	European	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
@@ -48,14 +49,15 @@ HANCESTRO:0014	Latin or Admixed American ancestry	skos:relatedMatch	NCIT:C126531
 HANCESTRO:0015	Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry	skos:relatedMatch	NCIT:C43866	Middle Eastern or North African 	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0017	Oceanian ancestry	skos:relatedMatch	NCIT:C41219	Native Hawaiian or Other Pacific Islander	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0005	European ancestry	skos:relatedMatch	NCIT:C41261	White	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
-HANCESTRO:0610	Indigenous in North America	skos:relatedMatch	omb:AmericanIndianorAlaskaNative	American Indian or Alaska Native	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
-HANCESTRO:0008	Asian ancestry	skos:relatedMatch	omb:Asian	Asian	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
+HANCESTRO:0846	Native American	skos:relatedMatch	omb:AmericanIndianorAlaskaNative	American Indian or Alaska Native	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
+HANCESTRO:0869	Alaska Native	skos:relatedMatch	omb:AmericanIndianorAlaskaNative	American Indian or Alaska Native	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
+HANCESTRO:0847	Asian	skos:relatedMatch	omb:Asian	Asian	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0568	African American	skos:relatedMatch	omb:BlackorAfricanAmerican	Black or African American	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0612	Hispanic of Latin	skos:relatedMatch	omb:HispanicorLatino	Hispanic or Latino	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0015	Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry	skos:relatedMatch	omb:MiddleEasternorNorthAfrican	Middle Eastern or North African 	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0017	Oceanian ancestry	skos:relatedMatch	omb:NativeHawaiianorOtherPacificIslander	Native Hawaiian or Other Pacific Islander	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0005	European ancestry	skos:relatedMatch	omb:White	White	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
-HANCESTRO:0008	Asian ancestry	skos:relatedMatch	ons:AsianAsianBritishorAsianWelsh	"Asian, Asian British or Asian Welsh"	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
+HANCESTRO:0847	Asian	skos:relatedMatch	ons:AsianAsianBritishorAsianWelsh	"Asian, Asian British or Asian Welsh"	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0860	Asian British	skos:relatedMatch	ons:AsianAsianBritishorAsianWelsh	"Asian, Asian British or Asian Welsh"	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0010	African ancestry	skos:relatedMatch	ons:BlackBlackBritishBlackWelshCaribbeanorAfrican	"Black, Black British, Black Welsh, Caribbean or African"	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668
 HANCESTRO:0567	Afro-Caribbean	skos:relatedMatch	ons:BlackBlackBritishBlackWelshCaribbeanorAfrican	"Black, Black British, Black Welsh, Caribbean or African"	semapv:ManualMappingCuration	orcid:0000-0003-1058-2668

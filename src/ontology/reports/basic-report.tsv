@@ -125,6 +125,7 @@
 <http://purl.obolibrary.org/obo/AfPO_0000270>		
 <http://dbpedia.org/resource/Malawi>		"GAZ:00001105"
 <http://purl.obolibrary.org/obo/AfPO_0000238>	"A Bantu Eastern population with a population size of > 2 millions"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0015>	"Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this descriptor with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."@en	
 <http://purl.obolibrary.org/obo/AfPO_0000534>	"The Guan are a Western African population with a population size of 1 million."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0702>	"A population made up of 2 samples from Yakut individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0830>	"A population made up of 2 samples from Lezgin individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	
@@ -139,7 +140,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0464>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0331>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0440>		
-<http://purl.obolibrary.org/obo/HANCESTRO_0015>	"Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."@en	
 <http://dbpedia.org/resource/Luxembourg>		"GAZ:00002947"
 <http://purl.obolibrary.org/obo/AfPO_0000550>	"A Mande Western population with a population size of 115200"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0844>	"A population made up of 2 samples from Yemenite Jew individuals recruited in Yemen as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	
@@ -210,6 +210,7 @@
 <http://dbpedia.org/resource/Montserrat>		"GAZ:00003988"
 <http://purl.obolibrary.org/obo/HANCESTRO_0391>		
 <http://dbpedia.org/resource/Palestinian_territories>		"GAZ:00002475"
+<http://purl.obolibrary.org/obo/HANCESTRO_0011>	"Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban). This descriptor also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations."@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0789>	"A population made up of 2 samples from Hazara individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_2002>	"A reference population made up of samples from individuals with an East Asian Ancestry as part of the 1000 Genomes Project."	
 <http://dbpedia.org/resource/Northern_America>		"GAZ:00000458"
@@ -218,7 +219,6 @@
 <http://purl.obolibrary.org/obo/AfPO_0000422>	"The Fon are a Western African population with a population size of 4 million."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0731>	"A population made up of 1 samples from Atayal individuals recruited in Taiwan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian."	
 <http://purl.obolibrary.org/obo/AfPO_0000064>	"A Mande Western population with a population size of 2.2 millions"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0018>	"A population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0675>	"A population made up of 3 samples from Karitiana individuals recruited in Brazil as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American."	
 <http://purl.obolibrary.org/obo/AfPO_0000502>	"A Oromo population with a population size of 700000"	
 <http://purl.obolibrary.org/obo/AfPO_0000501>	"A Oromo population with a population size of 1025000"	
@@ -264,7 +264,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0751>	"A population made up of 2 samples from Yi individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian."	
 <http://purl.obolibrary.org/obo/AfPO_0000558>	"A Western African population with a population size of 106900"	
 <http://purl.obolibrary.org/obo/AfPO_0000107>	"A Nilotic Central, Nilotic Eastern, Northern African population with a population size of 0.4 million"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0602>	"Population category defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European)."	
 <http://purl.obolibrary.org/obo/AfPO_0000085>	"A Bantu Eastern population with a population size of 0.34 millions"	
 <http://dbpedia.org/resource/San_Marino>		"GAZ:00003102"
 <http://purl.obolibrary.org/obo/HANCESTRO_0807>	"A population made up of 2 samples from Abkhasian individuals recruited in Abkhazia or Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	
@@ -272,7 +271,6 @@
 <http://dbpedia.org/resource/Mauritius>		"GAZ:00003745"
 <http://purl.obolibrary.org/obo/HANCESTRO_0834>	"A population made up of 3 samples from Palestinian individuals recruited in Israel(Central) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0043>		
-<http://purl.obolibrary.org/obo/HANCESTRO_0007>	"Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations."@en	
 <http://purl.obolibrary.org/obo/AfPO_0000171>	"A Eastern African population with a population size of 0.055 millions"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0796>	"A population made up of 2 samples from Makrani individuals recruited in Pakistan as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0639>	"A population made up of 18 samples from Yoruba individuals recruited in Nigeria as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African."	
@@ -284,6 +282,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0371>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0651>	"A population made up of 3 samples from Mandenka individuals recruited in Senegal as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0480>		
+<http://purl.obolibrary.org/obo/HANCESTRO_0007>	"Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This descriptor also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations."@en	
 <http://purl.obolibrary.org/obo/AfPO_0000153>	"The Dagaaba are a Western African population with a population size of 1 million."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0858>	"Individuals who self-identify or are reported by authors as Arab-American. This term is part of commonly collected standard demographic terms in the US."	
 <http://dbpedia.org/resource/Greece>		"GAZ:00002945"
@@ -309,7 +308,6 @@
 <http://dbpedia.org/resource/Mongolia>		"GAZ:00008744"
 <http://purl.obolibrary.org/obo/AfPO_0000391>	"A Semitic Eastern population with a population size of 24 millions"	
 <http://purl.obolibrary.org/obo/AfPO_0000366>	"A Semite Northern population with a population size of 2 millions"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0009>	"Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations."@en	
 <http://purl.obolibrary.org/obo/AfPO_0000383>	"A Cushitic Eastern population with a population size of 6.3 million"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0396>		
 <http://purl.obolibrary.org/obo/AfPO_0000497>	"A Bantu Eastern population with a population size of 175905"	
@@ -320,7 +318,6 @@
 <http://purl.obolibrary.org/obo/AfPO_0000115>	"A Nilotic Eastern population with a population size of 1 million"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0722>	"A population made up of 10 samples from Northern Han individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian."	
 <http://purl.obolibrary.org/obo/AfPO_0000424>	"A Western African population with a population size of >14 millions"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0004>	"Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data"	
 <http://dbpedia.org/resource/Indonesia>		"GAZ:00003727"
 <http://dbpedia.org/resource/Equatorial_Guinea>		"GAZ:00001091"
 <http://purl.obolibrary.org/obo/HANCESTRO_0511>		
@@ -337,7 +334,6 @@
 <http://dbpedia.org/resource/Kosovo>		"GAZ:00011337"
 <http://dbpedia.org/resource/Burundi>		"GAZ:00001090"
 <http://purl.obolibrary.org/obo/AfPO_0000357>	"A Eastern African, Northern African population with a population size of 20 millions"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0013>	"Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."@en	
 <http://dbpedia.org/resource/Romania>		"GAZ:00002951"
 <http://dbpedia.org/resource/Armenia>		"GAZ:00004094"
 <http://purl.obolibrary.org/obo/HANCESTRO_0611>	"Includes indigenous individuals of Central and South America, descended from the original human migration into the Americas from Siberia."@en	
@@ -349,6 +345,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0512>		
 <http://purl.obolibrary.org/obo/HANCESTRO_2018>	"A reference population made up of samples from individuals with a West Eurasian Ancestry as part of the Simons Genome Diversity Project."	
 <http://purl.obolibrary.org/obo/AfPO_0000390>	"A Sudanic population with a population size of 11 millions"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0005>	"Includes individuals who either self-report or have been described by authors as European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations."@en	
 <http://purl.obolibrary.org/obo/AfPO_0000280>	"A Central African population with a population size of 0.45 millions"	
 <http://dbpedia.org/resource/Canada>		"GAZ:00002560"
 <http://purl.obolibrary.org/obo/AfPO_0000478>	"A Central African population with a population size of 165000"	
@@ -410,6 +407,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0842>	"A population made up of 2 samples from Turkish individuals recruited in Turkey as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0516>		
 <http://dbpedia.org/resource/Holy_See>		"GAZ:00003103"
+<http://purl.obolibrary.org/obo/HANCESTRO_0006>	"Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations."@en	
 <http://dbpedia.org/resource/Western_Sahara>		"GAZ:00000564"
 <http://dbpedia.org/resource/Kazakhstan>		"GAZ:00004999"
 <http://purl.obolibrary.org/obo/AfPO_0000404>	"A Bantu Eastern population with a population size of 2.2 millions"	
@@ -419,6 +417,7 @@
 <http://dbpedia.org/resource/Africa>		"GAZ:00000457"
 <http://purl.obolibrary.org/obo/AfPO_0000469>		
 <http://purl.obolibrary.org/obo/AfPO_0000365>	"A Semite Northern population with a population size of 85 millions"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0850>	"Individuals who self-identify or are described by authors as South East Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."	
 <http://purl.obolibrary.org/obo/AfPO_0000150>	"A Gurma population with a population size of 0.8 millions"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0517>		
 <http://purl.obolibrary.org/obo/AfPO_0000245>	"A Malagasy population with a population size of 0.05 million"	
@@ -450,7 +449,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0619>	"Individuals who self-identify or are reported by authors as belonging to indigenous Mesoamerican peoples of Mexico inhabiting the region known as La Mixteca of Oaxaca and Puebla as well as La Montaña Region and Costa Chica Regions of the state of Guerrero"	
 <http://purl.obolibrary.org/obo/AfPO_0000251>	"A Malagasy population with a population size of 4.359 millions"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0519>		
-<http://purl.obolibrary.org/obo/HANCESTRO_0005>	"Includes individuals who either self-report or have been described by authors as\nEuropean, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations."@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0657>	"A population made up of 1 samples from Somali individuals recruited in Kenya as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation African."	
 <http://dbpedia.org/resource/Guyana>		"GAZ:00002522"
 <http://dbpedia.org/resource/Chile>		"GAZ:00002825"
@@ -464,6 +462,7 @@
 <http://dbpedia.org/resource/Serbia>		"GAZ:00002957"
 <http://purl.obolibrary.org/obo/HANCESTRO_0357>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0575>		
+<http://purl.obolibrary.org/obo/HANCESTRO_0566>	"Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry descriptors, eg American"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0333>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0466>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0551>		
@@ -576,6 +575,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0447>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0760>	"A population made up of 24 samples from French individuals recruited in France as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European."	
 <http://purl.obolibrary.org/obo/AfPO_0000113>	"A Cushitic Eastern population with a population size of 40 millions"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0602>	"Population descriptor defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European)."	
 <http://dbpedia.org/resource/Bahrain>		"GAZ:00005281"
 <http://dbpedia.org/resource/SouthAmerica>		"GAZ:00000459"
 <http://dbpedia.org/resource/Ukraine>		"GAZ:00002724"
@@ -706,7 +706,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0681>	"A population made up of 3 samples from Quechua individuals recruited in Peru as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American."	
 <http://purl.obolibrary.org/obo/AfPO_0000286>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0472>		
-<http://purl.obolibrary.org/obo/HANCESTRO_0017>	"Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0363>		
 <http://purl.obolibrary.org/obo/AfPO_00003674>	"A Nilotic Eastern population with a population size of 0.2 million"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0036>		
@@ -753,6 +752,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0630>	"Individuals who self-identify or are reported by authors as belonging to an Chibchan-speaking indigenous people of Colombia, descended from the Tairona culture, concentrated in northern Colombia in the Sierra Nevada de Santa Marta."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0038>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0717>	"A population made up of 27 samples from Japanese individuals recruited in Japan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian."	
+<http://purl.obolibrary.org/obo/HANCESTRO_0601>	"Population descriptor defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors"	
 <http://dbpedia.org/resource/Eritrea>		"GAZ:00000581"
 <http://purl.obolibrary.org/obo/HANCESTRO_0699>	"A population made up of 2 samples from Tlingit individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian."	
 <http://purl.obolibrary.org/obo/AfPO_0000405>	"A Bantu Eastern population with a population size of 5.4 millions"	
@@ -839,11 +839,13 @@
 <http://purl.obolibrary.org/obo/AfPO_0000528>	"A Western African population with a population size of 2500"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0714>	"A population made up of 9 samples from Daur individuals recruited in China as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian."	
 <http://dbpedia.org/resource/Dominica>		"GAZ:00006890"
+<http://purl.obolibrary.org/obo/HANCESTRO_0014>	"Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This descriptor includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations"	
 <http://purl.obolibrary.org/obo/AfPO_0000216>	"'The Nuba trace their geographical roots to the area around the Nuba mountains, the uppermost regions around the Ingessana hills and communities close to the Red Sea.' taken from: Culture and Customs of Sudan. Written by De Kwame Essien, Toyin Falola Ph.D."	
 <http://purl.obolibrary.org/obo/AfPO_0000434>	"A Songhai population with a population size of >5 millions"	
 <http://purl.obolibrary.org/obo/AfPO_0000195>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0763>	"A population made up of 24 samples from Sardinian individuals recruited in Italy as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European."	
 <http://dbpedia.org/resource/El_Salvador>		"GAZ:00002935"
+<http://purl.obolibrary.org/obo/HANCESTRO_0017>	"Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."@en	
 <http://purl.obolibrary.org/obo/AfPO_0000355>	"Descendants of Andalusians people"	
 <http://purl.obolibrary.org/obo/AfPO_0000276>	"People living in: Botswana OR Eswatini OR Lesotho OR Namibia OR South Africa"	
 <http://purl.obolibrary.org/obo/AfPO_0000408>	"A Bantu Eastern population with a population size of >0.1 millons"	
@@ -857,7 +859,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0747>	"A population made up of 2 samples from Tu individuals recruited in China as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation East Asian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0050>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0624>	"Individuals who self-identify or are reported by authors as belonging to a group of indigenous people in the Andes and Altiplano regions of South America; about 2.3 million live in northwest Argentina, Bolivia, Chile and Peru."	
-<http://purl.obolibrary.org/obo/HANCESTRO_0006>	"Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations."@en	
 <http://purl.obolibrary.org/obo/AfPO_0000377>	"A Luo population with a population size of 1.7 million"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0795>	"A population made up of 1 samples from Madiga individuals recruited in India as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation South Asian."	
 <http://dbpedia.org/resource/Djibouti>		"GAZ:00000582"
@@ -866,6 +867,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0662>	"A population made up of 100 samples from Fula individuals recruited in Western Division, The Gambia as part of the Gambian Genome Variation Project. The population was assigned by the collecting project to the superpopulation African."	
 <http://purl.obolibrary.org/obo/AfPO_0000413>	"A Western African population with a population size of 0.04"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0865>	"Individuals who self-identify or are reported by authors as living in or originating from England, a nation of the United Kingdom and that is located on the island of Great Britain."	
+<http://purl.obolibrary.org/obo/HANCESTRO_0013>	"Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0708>	"A population made up of 23 samples from Makrani individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian."	
 <http://purl.obolibrary.org/obo/AfPO_0000520>	"A Western African population with a population size of 61500"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0693>	"A population made up of 2 samples from Eskimo Sireniki individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian."	
@@ -873,6 +875,7 @@
 <http://purl.obolibrary.org/obo/IAO_0000078>	"The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en	
 <http://purl.obolibrary.org/obo/AfPO_0000147>	"A Western African population with a population size of 0.93 millions"	
 <http://dbpedia.org/resource/Jordan>		"GAZ:00002473"
+<http://purl.obolibrary.org/obo/HANCESTRO_0018>	"A population for which specific ancestry information is known but that does not fall into any of the defined ancestry descriptors"	
 <http://purl.obolibrary.org/obo/AfPO_0000289>	"A Kanuri population with a population size of 0.655 millions"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0051>		
 <http://dbpedia.org/resource/Republic_of_the_Congo>		"GAZ:00001088"
@@ -961,7 +964,6 @@
 <http://purl.obolibrary.org/obo/AfPO_0000461>	"A Bantu Central population with a population size of 260000"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0866>	"Individuals who self-identify or are reported by authors as living in or originating from Wales, a nation of the United Kingdom and that is located on the island of Great Britain."	
 <http://purl.obolibrary.org/obo/AfPO_0000352>	"A Ndebele population with a population size of 1.5 million"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0016>	"Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations."	
 <http://purl.obolibrary.org/obo/AfPO_0000255>	"A Malagasy population with a population size of 0.0012 million"	
 <http://purl.obolibrary.org/obo/AfPO_0000400>	"A Bantu Eastern population with a population size of 2.9"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0032>		
@@ -995,7 +997,6 @@
 <http://dbpedia.org/resource/Sierra_Leone>		"GAZ:00000914"
 <http://purl.obolibrary.org/obo/AfPO_0000069>	"A Nguni population with a population size of 12 millions"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0324>	"Individuals who self-identify or are reported by authors as belonging to a Jewish diaspora population with an admixture of European and Middle Eastern ancestry"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0850>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0523>		
 <http://dbpedia.org/resource/New_Caledonia>		"GAZ:00005206"
 <http://purl.obolibrary.org/obo/AfPO_0000336>	"The Himba are a Bantu Southern population with a population size of 0.05 million."	
@@ -1007,7 +1008,6 @@
 <http://purl.obolibrary.org/obo/AfPO_0000362>	"A Berber Northern population with a population size of Afro-Asiatic|Berber|Northern|Atlas"	
 <http://dbpedia.org/resource/Tuvalu>		"GAZ:00009715"
 <http://purl.obolibrary.org/obo/HANCESTRO_0524>		
-<http://purl.obolibrary.org/obo/HANCESTRO_0601>	"Population category defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors"	
 <http://purl.obolibrary.org/obo/AfPO_0000479>	"A Central African population with a population size of 347614"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0415>		
 <http://dbpedia.org/resource/Turks_and_Caicos_Islands>		"GAZ:00003955"
@@ -1033,8 +1033,8 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0549>		
 <http://dbpedia.org/resource/Rwanda>		"GAZ:00001087"
 <http://purl.obolibrary.org/obo/HANCESTRO_0525>		
-<http://purl.obolibrary.org/obo/HANCESTRO_0566>	"Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0674>	"A population made up of 1 samples from Chane individuals recruited in Argentina as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American."	
+<http://purl.obolibrary.org/obo/HANCESTRO_0009>	"Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations."@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0808>	"A population made up of 2 samples from Adygei individuals recruited in Russia(Caucasus) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	
 <http://dbpedia.org/resource/Réunion>		"GAZ:00053746"
 <http://purl.obolibrary.org/obo/HANCESTRO_0819>	"A population made up of 2 samples from English individuals recruited in England as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	
@@ -1074,7 +1074,6 @@
 <http://purl.obolibrary.org/obo/AfPO_0000347>	"A Sotho population with a population size of 4.7 millions"	
 <http://purl.obolibrary.org/obo/AfPO_0000131>	"A Gurma population with a population size of 7.6 millions"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0527>		
-<http://purl.obolibrary.org/obo/HANCESTRO_0011>	"Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban).\nThis category also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations."@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0707>	"A population made up of 21 samples from Kalash individuals recruited in Pakistan as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central South Asian."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0503>		
 <http://purl.obolibrary.org/obo/AfPO_0000304>	"A Ubangi Central, Eastern African population with a population size of 1-4 millions"	
@@ -1107,6 +1106,7 @@
 <http://purl.obolibrary.org/obo/AfPO_0000427>	"The Urhobo are a Western African population with a population size of 2 million."	
 <http://purl.obolibrary.org/obo/HANCESTRO_2005>	"A reference population made up of samples from individuals with an African Ancestry as part of the Human Genome Diversity Project."	
 <http://dbpedia.org/resource/Central_America>		"GAZ:00002891"
+<http://purl.obolibrary.org/obo/HANCESTRO_0004>	"Population descriptor defined using ancestry informative markers (AIMs) based on genetic/genomic data"	
 <http://purl.obolibrary.org/obo/AfPO_0000500>	"A Cushitic Eastern population with a population size of 2 million"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0700>	"A population made up of 2 samples from Tubalar individuals recruited in Russia as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation Central Asian and Siberian."	
 <http://purl.obolibrary.org/obo/AfPO_0000384>	"A Cushitic Eastern population with a population size of 1 million"	
@@ -1118,7 +1118,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0860>	"Individuals who self-identify or are reported by authors as Asian-British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Indian, Pakistani, Bangladeshi, Chinese or any other Asian background."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0685>	"A population made up of 107 samples from Mexican Ancestry individuals recruited in Los Angeles, California as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation Latin or Admixed American."	
 <http://purl.obolibrary.org/obo/HANCESTRO_0529>		
-<http://purl.obolibrary.org/obo/HANCESTRO_0014>	"Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0505>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0667>	"A population made up of 129 samples from Mende individuals recruited in Sierra Leone as part of the 1000 Genomes Project. The population was assigned by the collecting project to the superpopulation African."	
 <http://dbpedia.org/resource/Philippines>		"GAZ:00004525"
@@ -1148,6 +1147,7 @@
 <http://purl.obolibrary.org/obo/AfPO_0000213>		
 <http://purl.obolibrary.org/obo/AfPO_0000237>		
 <http://purl.obolibrary.org/obo/HANCESTRO_0758>	"A population made up of 22 samples from Basque individuals recruited in France as part of the Human Genome Diversity Project. The population was assigned by the collecting project to the superpopulation European."	
+<http://purl.obolibrary.org/obo/HANCESTRO_0016>	"Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations."	
 <http://purl.obolibrary.org/obo/AfPO_0000074>	"A Mande Western population with a population size of 14 millions"	
 <http://purl.obolibrary.org/obo/AfPO_0000277>	"People living in: Benin OR Burkina Faso OR Cabo Verde OR Cote d'Ivoire OR Equatorial Guinea OR Gambia OR Ghana OR Guinea OR Guinea-Bissau OR Liberia OR Mali OR Niger OR Nigeria OR Saint Helena OR Sao Tome and Principe OR Senegal OR Sierra Leone OR Togo"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0812>	"A population made up of 2 samples from Bedouin B individuals recruited in Israel(Negev) as part of the Simons Genome Diversity Project. The population was assigned by the collecting project to the superpopulation West Eurasian."	

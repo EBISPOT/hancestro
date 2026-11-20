@@ -8,8 +8,6 @@ WARN	duplicate_exact_synonym	HANCESTRO:0702	oboInOwl:hasExactSynonym	Yakut
 WARN	duplicate_exact_synonym	HANCESTRO:0728	oboInOwl:hasExactSynonym	Yakut
 WARN	duplicate_exact_synonym	HANCESTRO:0727	oboInOwl:hasExactSynonym	Xibo
 WARN	duplicate_exact_synonym	HANCESTRO:0750	oboInOwl:hasExactSynonym	Xibo
-WARN	duplicate_exact_synonym	HANCESTRO:0005	oboInOwl:hasExactSynonym	white
-WARN	duplicate_exact_synonym	HANCESTRO:0590	oboInOwl:hasExactSynonym	White
 WARN	duplicate_exact_synonym	HANCESTRO:0711	oboInOwl:hasExactSynonym	Uygur
 WARN	duplicate_exact_synonym	HANCESTRO:0749	oboInOwl:hasExactSynonym	Uygur
 WARN	duplicate_exact_synonym	HANCESTRO:0764	oboInOwl:hasExactSynonym	Tuscan
@@ -34,8 +32,6 @@ WARN	duplicate_exact_synonym	HANCESTRO:0611	oboInOwl:hasExactSynonym	pueblos ori
 WARN	duplicate_exact_synonym	HANCESTRO:0846	oboInOwl:hasExactSynonym	pueblos originarios
 WARN	duplicate_exact_synonym	HANCESTRO:0611	oboInOwl:hasExactSynonym	pueblos indígenas
 WARN	duplicate_exact_synonym	HANCESTRO:0846	oboInOwl:hasExactSynonym	pueblos indígenas
-WARN	duplicate_exact_synonym	HANCESTRO:0567	oboInOwl:hasExactSynonym	Preto
-WARN	duplicate_exact_synonym	HANCESTRO:0864	oboInOwl:hasExactSynonym	Preto
 WARN	duplicate_exact_synonym	HANCESTRO:0570	oboInOwl:hasExactSynonym	Pima
 WARN	duplicate_exact_synonym	HANCESTRO:0672	oboInOwl:hasExactSynonym	Pima
 WARN	duplicate_exact_synonym	HANCESTRO:0680	oboInOwl:hasExactSynonym	Pima
@@ -49,8 +45,6 @@ WARN	duplicate_exact_synonym	HANCESTRO:0723	oboInOwl:hasExactSynonym	Oroqen
 WARN	duplicate_exact_synonym	HANCESTRO:0744	oboInOwl:hasExactSynonym	Oroqen
 WARN	duplicate_exact_synonym	HANCESTRO:0761	oboInOwl:hasExactSynonym	Orcadian
 WARN	duplicate_exact_synonym	HANCESTRO:0833	oboInOwl:hasExactSynonym	Orcadian
-WARN	duplicate_exact_synonym	HANCESTRO:0567	oboInOwl:hasExactSynonym	negro
-WARN	duplicate_exact_synonym	HANCESTRO:0864	oboInOwl:hasExactSynonym	negro
 WARN	duplicate_exact_synonym	HANCESTRO:0721	oboInOwl:hasExactSynonym	Naxi
 WARN	duplicate_exact_synonym	HANCESTRO:0743	oboInOwl:hasExactSynonym	Naxi
 WARN	duplicate_exact_synonym	HANCESTRO:0611	oboInOwl:hasExactSynonym	nativos
@@ -108,8 +102,6 @@ WARN	duplicate_exact_synonym	HANCESTRO:0713	oboInOwl:hasExactSynonym	Dai
 WARN	duplicate_exact_synonym	HANCESTRO:0734	oboInOwl:hasExactSynonym	Dai
 WARN	duplicate_exact_synonym	HANCESTRO:0669	oboInOwl:hasExactSynonym	Colombian
 WARN	duplicate_exact_synonym	HANCESTRO:0684	oboInOwl:hasExactSynonym	Colombian
-WARN	duplicate_exact_synonym	HANCESTRO:0005	oboInOwl:hasExactSynonym	Caucasian
-WARN	duplicate_exact_synonym	HANCESTRO:0590	oboInOwl:hasExactSynonym	Caucasian
 WARN	duplicate_exact_synonym	HANCESTRO:0712	oboInOwl:hasExactSynonym	Cambodian
 WARN	duplicate_exact_synonym	HANCESTRO:0733	oboInOwl:hasExactSynonym	Cambodian
 WARN	duplicate_exact_synonym	HANCESTRO:0705	oboInOwl:hasExactSynonym	Burusho
@@ -1087,7 +1079,6 @@ WARN	missing_definition	HANCESTRO:0585	IAO:0000115
 WARN	missing_definition	HANCESTRO:0586	IAO:0000115	
 WARN	missing_definition	HANCESTRO:0588	IAO:0000115	
 WARN	missing_definition	HANCESTRO:0589	IAO:0000115	
-WARN	missing_definition	HANCESTRO:0850	IAO:0000115	
 WARN	missing_definition	IAO:0000114	IAO:0000115	
 WARN	missing_definition	IAO:0000115	IAO:0000115	
 WARN	missing_definition	IAO:0000117	IAO:0000115	
@@ -1100,4 +1091,5 @@ WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115
 WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasExactSynonym	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000115	
 INFO	missing_superclass	GAZ:00000013	rdfs:subClassOf	

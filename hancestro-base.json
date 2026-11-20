@@ -31,9 +31,9 @@
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-10-14"
+        "val" : "2026-11-20"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2025-10-14/hancestro-base.json"
+      "version" : "http://purl.obolibrary.org/obo/hancestro/releases/2026-11-20/hancestro-base.json"
     },
     "nodes" : [ {
       "id" : "http://dbpedia.org/resource/Afghanistan",
@@ -892,11 +892,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0004",
-      "lbl" : "ancestry category",
+      "lbl" : "ancestry label",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data"
+          "val" : "Population descriptor defined using ancestry informative markers (AIMs) based on genetic/genomic data"
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -909,17 +909,17 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as\nEuropean, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations."
         },
         "comments" : [ "It should be noted that the synonym \"Caucasian\", while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "Caucasian"
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "European"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
+          "val" : "Caucasian"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "white"
         } ]
       }
@@ -929,7 +929,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -942,7 +942,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This descriptor also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -974,7 +974,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1003,7 +1003,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban).\nThis category also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban). This descriptor also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations."
         }
       }
     }, {
@@ -1012,7 +1012,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."
+          "val" : "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."
         },
         "comments" : [ "Class previously labelled as \"Native American\". Use of this term, alongside other terms such as \"First Nations\", should be discontinued in favour of the more appropriate \"Indigenous American\", which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively." ],
         "synonyms" : [ {
@@ -1026,7 +1026,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations"
+          "val" : "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This descriptor includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations"
         },
         "comments" : [ "Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions" ],
         "synonyms" : [ {
@@ -1053,7 +1053,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."
+          "val" : "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this descriptor with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1069,7 +1069,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations."
+          "val" : "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1082,7 +1082,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap."
+          "val" : "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1095,7 +1095,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories"
+          "val" : "A population for which specific ancestry information is known but that does not fall into any of the defined ancestry descriptors"
         }
       }
     }, {
@@ -2688,7 +2688,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American"
+          "val" : "Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry descriptors, eg American"
         }
       }
     }, {
@@ -2924,13 +2924,13 @@
           "val" : "American of European ancestry"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Caucasian"
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "Non-Hispanic White"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "White"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Caucasian"
         } ]
       }
     }, {
@@ -3074,11 +3074,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0601",
-      "lbl" : "ethnicity category",
+      "lbl" : "ethnicity label",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Population category defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors"
+          "val" : "Population descriptor defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors"
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -3087,11 +3087,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0602",
-      "lbl" : "geography-based population category",
+      "lbl" : "geography-based population label",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Population category defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European)."
+          "val" : "Population descriptor defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European)."
         }
       }
     }, {
@@ -3137,9 +3137,6 @@
           "val" : "Indígena"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "indo"
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "nativos"
         }, {
           "pred" : "hasExactSynonym",
@@ -3147,6 +3144,9 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "pueblos originarios"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "indio"
         } ]
       }
     }, {
@@ -6317,7 +6317,7 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as Asian, without any reference to validated genetic ancestry information and where there was not sufficient information to allow description as East Asian, Central Asian, South Asian or South-East Asian."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0848",
@@ -6327,7 +6327,7 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as South Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as India, Bangladesh, Bhutan, Nepal, Pakistan, and Sri Lanka, and sometimes Afghanistan and the Maldives."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0849",
@@ -6337,14 +6337,17 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as East Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as China, Japan, Mongolia, North Korea, South Korea, Taiwan, and special administrative states Hong Kong and Macau."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0850",
       "lbl" : "Southeast Asian",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "definition" : {
+          "val" : "Individuals who self-identify or are described by authors as South East Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam."
+        },
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0851",
@@ -6354,7 +6357,7 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as Central Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan. It is a region of Asia bounded by the Caspian Sea to the southwest, European Russia to the northwest, Western China and Mongolia to the east, Afghanistan and Iran to the south, and Siberia to the north."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0852",
@@ -6364,7 +6367,7 @@
         "definition" : {
           "val" : "Individuals who self-identify or are described by authors as Middle Eastern, without any reference to validated genetic ancestry information. This may include individuals from countries such as Lebanon, Syria, Israel, Jordan, Saudi Arabia, Yemen, Oman, Bahrain, Qatar, United Arab Emirates, Kuwait, Iraq, and Iran, as well as the Palestinian Territories of Gaza and the West Bank."
         },
-        "comments" : [ "This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
+        "comments" : [ "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0853",
@@ -6513,10 +6516,10 @@
         },
         "comments" : [ "It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Preto"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "negro"
         } ]
       }
@@ -6726,7 +6729,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an African Ancestry as part of the 1000 Genomes Project and Gambian Genome Variation Project (GGVP)."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "AFR"
@@ -6746,7 +6749,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an American Ancestry as part of the 1000 Genomes Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasBroadSynonym",
           "val" : "AMR reference superpopulation (1KGP)"
@@ -6766,7 +6769,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an East Asian Ancestry as part of the 1000 Genomes Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "EAS"
@@ -6786,7 +6789,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a European Ancestry as part of the 1000 Genomes Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "EUR"
@@ -6806,7 +6809,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a South Asian Ancestry as part of the 1000 Genomes Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SAS"
@@ -6826,7 +6829,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an African Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Africa (HGDP)"
@@ -6840,7 +6843,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an American Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "America (HGDP)"
@@ -6854,7 +6857,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a Central South Asian Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Central South Asia (HGDP)"
@@ -6868,7 +6871,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an East Asian Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "East Asia (HGDP)"
@@ -6882,7 +6885,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Europe (HGDP)"
@@ -6896,7 +6899,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a Middle East Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Middle East (HGDP)"
@@ -6910,7 +6913,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Human Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Oceania (HGDP)"
@@ -6924,7 +6927,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an African Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Africa (SGDP)"
@@ -6938,7 +6941,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an American Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "America (SGDP)"
@@ -6952,7 +6955,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a Central Asian and Siberia Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Central Asia and Siberia (SGDP)"
@@ -6966,7 +6969,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an East Asian Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "East Asia (SGDP)"
@@ -6980,7 +6983,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Oceania (SGDP)"
@@ -6994,7 +6997,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a South Asian Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "South Asia (SGDP)"
@@ -7008,7 +7011,7 @@
         "definition" : {
           "val" : "A reference population made up of samples from individuals with a West Eurasian Ancestry as part of the Simons Genome Diversity Project."
         },
-        "comments" : [ "This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
+        "comments" : [ "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "West Eurasia (SGDP)"
@@ -7106,6 +7109,10 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     } ],
