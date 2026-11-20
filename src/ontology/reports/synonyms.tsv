@@ -1412,9 +1412,22 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0611>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"indio"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0005>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"white"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0005>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Caucasian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Spanish Origin"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Pardo"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"negro"@es	
+<http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Preto"@pt	
+<http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Black"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"White"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Non-Hispanic White"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Caucasian"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0861>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Black"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0568>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Black"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"pueblos indígenas"@es	
+<http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"pueblos originarios"@es	
+<http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"nativos"@es	
 <http://purl.obolibrary.org/obo/HANCESTRO_0864>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"negro"@es	
 <http://purl.obolibrary.org/obo/HANCESTRO_0864>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Preto"@pt	
+<http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"Mestizo"	
 <http://purl.obolibrary.org/obo/HANCESTRO_2001>	<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>	"AMR reference superpopulation (1KGP)"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0617>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tarahumara"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0683>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Zapotec"	
@@ -1596,9 +1609,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Latine"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Latin"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Latinx"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mestizo"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Spanish Origin"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Pardo"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0612>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Latino/a"	
 <http://purl.obolibrary.org/obo/HANCESTRO_2002>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"East Asian Ancestry (1KGP)"	
 <http://purl.obolibrary.org/obo/HANCESTRO_2002>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"EAS reference superpopulation (1KGP)"	
@@ -1616,11 +1626,8 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0798>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Punjabi"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0737>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Hezhen"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"West Indian"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Preto"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"African Caribbean"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"negro"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Black Caribbean"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0567>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Black"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0672>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Pima"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0723>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Oroqen"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0803>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Gujarati"	
@@ -1683,8 +1690,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0797>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Pathan"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0552>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Aboriginal Australian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0783>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Papuan"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"White"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Non-Hispanic White"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0590>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"American of European ancestry"	
 <http://dbpedia.org/resource/Republic_of_the_Congo>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Congo"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0722>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Northern Han"	
@@ -1703,7 +1708,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0677>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mixe"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0831>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"North Ossetian"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0801>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Yadava"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0861>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Black"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0869>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Native Alaskan"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0869>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Indigenous Alaskan"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0581>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Uigur"	
@@ -1751,7 +1755,6 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0791>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Kalash"	
 <http://dbpedia.org/resource/Palestinian_territories>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Occupied Palestinian Territory"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0799>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Relli"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0568>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Black"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0568>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Afro-American"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0716>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Hezhen"	
 <http://dbpedia.org/resource/Saint_Pierre_and_Miquelon>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Saint-Pierre-et-Miquelon"@en	
@@ -1770,10 +1773,7 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0657>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Somali"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"First Nations"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"First Peoples"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pueblos indígenas"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"American Indian"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pueblos originarios"	
-<http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"nativos"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Native Peoples"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0846>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Indigenous Peoples"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0676>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mayan"	
@@ -1850,10 +1850,10 @@
 <http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tubu"	
 <http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tibbu"	
 <http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Umbararo"	
-<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tabu"	
 <http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tebu"	
-<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tuda"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tabu"	
 <http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Todga"	
+<http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tuda"	
 <http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tebou"	
 <http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Todaga"	
 <http://purl.obolibrary.org/obo/AfPO_0000307>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Tibu"	

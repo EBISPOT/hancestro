@@ -30,6 +30,14 @@
 - [African (AFR) reference superpopulation (1KGP)](http://purl.obolibrary.org/obo/HANCESTRO_2000) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." 
 
 
+### African American `http://purl.obolibrary.org/obo/HANCESTRO_0568`
+#### Removed
+- [African American](http://purl.obolibrary.org/obo/HANCESTRO_0568) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Black" 
+
+#### Added
+- [African American](http://purl.obolibrary.org/obo/HANCESTRO_0568) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Black" 
+
+
 ### African American or Afro-Caribbean ancestry `http://purl.obolibrary.org/obo/HANCESTRO_0016`
 #### Removed
 - [African American or Afro-Caribbean ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0016) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations." 
@@ -52,6 +60,22 @@
 
 #### Added
 - [African reference superpopulation (SGDP)](http://purl.obolibrary.org/obo/HANCESTRO_2012) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference." 
+
+
+### Afro-Caribbean `http://purl.obolibrary.org/obo/HANCESTRO_0567`
+#### Removed
+- [Afro-Caribbean](http://purl.obolibrary.org/obo/HANCESTRO_0567) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Black" 
+
+- [Afro-Caribbean](http://purl.obolibrary.org/obo/HANCESTRO_0567) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Preto" 
+
+- [Afro-Caribbean](http://purl.obolibrary.org/obo/HANCESTRO_0567) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negro" 
+
+#### Added
+- [Afro-Caribbean](http://purl.obolibrary.org/obo/HANCESTRO_0567) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Black" 
+
+- [Afro-Caribbean](http://purl.obolibrary.org/obo/HANCESTRO_0567) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Preto"@pt 
+
+- [Afro-Caribbean](http://purl.obolibrary.org/obo/HANCESTRO_0567) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "negro"@es 
 
 
 ### Afro-Latin `http://purl.obolibrary.org/obo/HANCESTRO_0864`
@@ -96,6 +120,14 @@
 
 #### Added
 - [Asian](http://purl.obolibrary.org/obo/HANCESTRO_0847) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." 
+
+
+### Black British `http://purl.obolibrary.org/obo/HANCESTRO_0861`
+#### Removed
+- [Black British](http://purl.obolibrary.org/obo/HANCESTRO_0861) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Black" 
+
+#### Added
+- [Black British](http://purl.obolibrary.org/obo/HANCESTRO_0861) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Black" 
 
 
 ### Central Asian `http://purl.obolibrary.org/obo/HANCESTRO_0851`
@@ -174,8 +206,16 @@
 #### Removed
 - [European American](http://purl.obolibrary.org/obo/HANCESTRO_0590) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Caucasian" 
 
+- [European American](http://purl.obolibrary.org/obo/HANCESTRO_0590) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Non-Hispanic White" 
+
+- [European American](http://purl.obolibrary.org/obo/HANCESTRO_0590) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "White" 
+
 #### Added
 - [European American](http://purl.obolibrary.org/obo/HANCESTRO_0590) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Caucasian" 
+
+- [European American](http://purl.obolibrary.org/obo/HANCESTRO_0590) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Non-Hispanic White" 
+
+- [European American](http://purl.obolibrary.org/obo/HANCESTRO_0590) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "White" 
 
 
 ### European ancestry `http://purl.obolibrary.org/obo/HANCESTRO_0005`
@@ -209,6 +249,22 @@ European, Caucasian, White or one of the sub-populations from this region (e.g D
 
 #### Added
 - [Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry](http://purl.obolibrary.org/obo/HANCESTRO_0015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this descriptor with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap."@en 
+
+
+### Hispanic or Latin `http://purl.obolibrary.org/obo/HANCESTRO_0612`
+#### Removed
+- [Hispanic or Latin](http://purl.obolibrary.org/obo/HANCESTRO_0612) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Mestizo" 
+
+- [Hispanic or Latin](http://purl.obolibrary.org/obo/HANCESTRO_0612) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Pardo" 
+
+- [Hispanic or Latin](http://purl.obolibrary.org/obo/HANCESTRO_0612) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Spanish Origin" 
+
+#### Added
+- [Hispanic or Latin](http://purl.obolibrary.org/obo/HANCESTRO_0612) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "Mestizo" 
+
+- [Hispanic or Latin](http://purl.obolibrary.org/obo/HANCESTRO_0612) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Pardo" 
+
+- [Hispanic or Latin](http://purl.obolibrary.org/obo/HANCESTRO_0612) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Spanish Origin" 
 
 
 ### Indigenous American ancestry `http://purl.obolibrary.org/obo/HANCESTRO_0013`
@@ -249,6 +305,22 @@ European, Caucasian, White or one of the sub-populations from this region (e.g D
 
 #### Added
 - [Middle Eastern](http://purl.obolibrary.org/obo/HANCESTRO_0852) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection." 
+
+
+### Native American `http://purl.obolibrary.org/obo/HANCESTRO_0846`
+#### Removed
+- [Native American](http://purl.obolibrary.org/obo/HANCESTRO_0846) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nativos" 
+
+- [Native American](http://purl.obolibrary.org/obo/HANCESTRO_0846) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pueblos ind&iacute;genas" 
+
+- [Native American](http://purl.obolibrary.org/obo/HANCESTRO_0846) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pueblos originarios" 
+
+#### Added
+- [Native American](http://purl.obolibrary.org/obo/HANCESTRO_0846) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "nativos"@es 
+
+- [Native American](http://purl.obolibrary.org/obo/HANCESTRO_0846) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pueblos ind&iacute;genas"@es 
+
+- [Native American](http://purl.obolibrary.org/obo/HANCESTRO_0846) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pueblos originarios"@es 
 
 
 ### Oceanian ancestry `http://purl.obolibrary.org/obo/HANCESTRO_0017`

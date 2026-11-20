@@ -2217,10 +2217,10 @@ name: Afro-Caribbean
 def: "Individuals who self-identify or are reported by authors as Afro-Caribbean. Term used by some communities to describe themselves and some US and UK government and other institutions on official forms used to collect demographic information." []
 comment: It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label.
 synonym: "African Caribbean" EXACT []
-synonym: "Black" EXACT []
+synonym: "Black" RELATED []
 synonym: "Black Caribbean" EXACT []
-synonym: "negro" EXACT []
-synonym: "Preto" EXACT []
+synonym: "negro" RELATED []
+synonym: "Preto" RELATED []
 synonym: "West Indian" EXACT []
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean ancestry
 is_a: HANCESTRO:0601 ! ethnicity label
@@ -2230,7 +2230,7 @@ id: HANCESTRO:0568
 name: African American
 def: "Individuals who self-identify or are reported by authors as African American. Term used by some communities to describe themselves and some US government and other institutions on official forms used to collect demographic information." []
 synonym: "Afro-American" EXACT []
-synonym: "Black" EXACT []
+synonym: "Black" RELATED []
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean ancestry
 is_a: HANCESTRO:0601 ! ethnicity label
 
@@ -2390,8 +2390,8 @@ def: "Individuals who self-identify or are reported by authors as European Ameri
 comment: It should be noted that the synonym "Caucasian", while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible.
 synonym: "American of European ancestry" EXACT []
 synonym: "Caucasian" RELATED []
-synonym: "Non-Hispanic White" EXACT []
-synonym: "White" EXACT []
+synonym: "Non-Hispanic White" RELATED []
+synonym: "White" RELATED []
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0601 ! ethnicity label
 
@@ -2521,9 +2521,9 @@ synonym: "Latin" EXACT []
 synonym: "Latine" EXACT []
 synonym: "Latino/a" EXACT []
 synonym: "Latinx" EXACT []
-synonym: "Mestizo" EXACT []
-synonym: "Pardo" EXACT []
-synonym: "Spanish Origin" EXACT []
+synonym: "Mestizo" NARROW []
+synonym: "Pardo" RELATED []
+synonym: "Spanish Origin" RELATED []
 is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0014 ! Latin or Admixed American ancestry
 
@@ -4594,9 +4594,9 @@ synonym: "First Nations" EXACT []
 synonym: "First Peoples" EXACT []
 synonym: "Indigenous Peoples" EXACT []
 synonym: "Native Peoples" EXACT []
-synonym: "nativos" EXACT []
-synonym: "pueblos indígenas" EXACT []
-synonym: "pueblos originarios" EXACT []
+synonym: "nativos" RELATED []
+synonym: "pueblos indígenas" RELATED []
+synonym: "pueblos originarios" RELATED []
 is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0013 ! Indigenous American ancestry
 
@@ -4707,7 +4707,7 @@ is_a: HANCESTRO:0601 ! ethnicity label
 id: HANCESTRO:0861
 name: Black British
 def: "Individuals who self-identify or are reported by authors as Black British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Caribbean or African background." []
-synonym: "Black" EXACT []
+synonym: "Black" RELATED []
 is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]

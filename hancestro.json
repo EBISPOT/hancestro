@@ -32869,18 +32869,18 @@
           "val" : "African Caribbean"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Black"
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "Black Caribbean"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Preto"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "West Indian"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
+          "val" : "Black"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Preto"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "negro"
         } ]
       }
@@ -32896,7 +32896,7 @@
           "pred" : "hasExactSynonym",
           "val" : "Afro-American"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Black"
         } ]
       }
@@ -33087,14 +33087,14 @@
           "pred" : "hasExactSynonym",
           "val" : "American of European ancestry"
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Non-Hispanic White"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "White"
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Caucasian"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Non-Hispanic White"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "White"
         } ]
       }
     }, {
@@ -33335,13 +33335,13 @@
           "pred" : "hasExactSynonym",
           "val" : "Latinx"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasNarrowSynonym",
           "val" : "Mestizo"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Pardo"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Spanish Origin"
         } ]
       }
@@ -36463,13 +36463,13 @@
           "pred" : "hasExactSynonym",
           "val" : "Native Peoples"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "nativos"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "pueblos indígenas"
         }, {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "pueblos originarios"
         } ]
       }
@@ -36641,7 +36641,7 @@
           "val" : "Individuals who self-identify or are reported by authors as Black British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Caribbean or African background."
         },
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Black"
         } ]
       }

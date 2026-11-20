@@ -28,17 +28,11 @@ WARN	duplicate_exact_synonym	HANCESTRO:0762	oboInOwl:hasExactSynonym	Russian
 WARN	duplicate_exact_synonym	HANCESTRO:0836	oboInOwl:hasExactSynonym	Russian
 WARN	duplicate_exact_synonym	HANCESTRO:0798	oboInOwl:hasExactSynonym	Punjabi
 WARN	duplicate_exact_synonym	HANCESTRO:0804	oboInOwl:hasExactSynonym	Punjabi
-WARN	duplicate_exact_synonym	HANCESTRO:0611	oboInOwl:hasExactSynonym	pueblos originarios
-WARN	duplicate_exact_synonym	HANCESTRO:0846	oboInOwl:hasExactSynonym	pueblos originarios
-WARN	duplicate_exact_synonym	HANCESTRO:0611	oboInOwl:hasExactSynonym	pueblos indígenas
-WARN	duplicate_exact_synonym	HANCESTRO:0846	oboInOwl:hasExactSynonym	pueblos indígenas
 WARN	duplicate_exact_synonym	HANCESTRO:0570	oboInOwl:hasExactSynonym	Pima
 WARN	duplicate_exact_synonym	HANCESTRO:0672	oboInOwl:hasExactSynonym	Pima
 WARN	duplicate_exact_synonym	HANCESTRO:0680	oboInOwl:hasExactSynonym	Pima
 WARN	duplicate_exact_synonym	HANCESTRO:0709	oboInOwl:hasExactSynonym	Pathan
 WARN	duplicate_exact_synonym	HANCESTRO:0797	oboInOwl:hasExactSynonym	Pathan
-WARN	duplicate_exact_synonym	HANCESTRO:0014	oboInOwl:hasExactSynonym	Pardo
-WARN	duplicate_exact_synonym	HANCESTRO:0612	oboInOwl:hasExactSynonym	Pardo
 WARN	duplicate_exact_synonym	HANCESTRO:0773	oboInOwl:hasExactSynonym	Palestinian
 WARN	duplicate_exact_synonym	HANCESTRO:0834	oboInOwl:hasExactSynonym	Palestinian
 WARN	duplicate_exact_synonym	HANCESTRO:0723	oboInOwl:hasExactSynonym	Oroqen
@@ -47,8 +41,6 @@ WARN	duplicate_exact_synonym	HANCESTRO:0761	oboInOwl:hasExactSynonym	Orcadian
 WARN	duplicate_exact_synonym	HANCESTRO:0833	oboInOwl:hasExactSynonym	Orcadian
 WARN	duplicate_exact_synonym	HANCESTRO:0721	oboInOwl:hasExactSynonym	Naxi
 WARN	duplicate_exact_synonym	HANCESTRO:0743	oboInOwl:hasExactSynonym	Naxi
-WARN	duplicate_exact_synonym	HANCESTRO:0611	oboInOwl:hasExactSynonym	nativos
-WARN	duplicate_exact_synonym	HANCESTRO:0846	oboInOwl:hasExactSynonym	nativos
 WARN	duplicate_exact_synonym	HANCESTRO:0610	oboInOwl:hasExactSynonym	Native peoples
 WARN	duplicate_exact_synonym	HANCESTRO:0846	oboInOwl:hasExactSynonym	Native Peoples
 WARN	duplicate_exact_synonym	HANCESTRO:0655	oboInOwl:hasExactSynonym	Mozabite
@@ -57,8 +49,6 @@ WARN	duplicate_exact_synonym	HANCESTRO:0619	oboInOwl:hasExactSynonym	Mixtec
 WARN	duplicate_exact_synonym	HANCESTRO:0678	oboInOwl:hasExactSynonym	Mixtec
 WARN	duplicate_exact_synonym	HANCESTRO:0719	oboInOwl:hasExactSynonym	Miao
 WARN	duplicate_exact_synonym	HANCESTRO:0742	oboInOwl:hasExactSynonym	Miao
-WARN	duplicate_exact_synonym	HANCESTRO:0014	oboInOwl:hasExactSynonym	Mestizo
-WARN	duplicate_exact_synonym	HANCESTRO:0612	oboInOwl:hasExactSynonym	Mestizo
 WARN	duplicate_exact_synonym	HANCESTRO:0654	oboInOwl:hasExactSynonym	Mende
 WARN	duplicate_exact_synonym	HANCESTRO:0667	oboInOwl:hasExactSynonym	Mende
 WARN	duplicate_exact_synonym	HANCESTRO:0637	oboInOwl:hasExactSynonym	Mbuti
@@ -110,9 +100,6 @@ WARN	duplicate_exact_synonym	HANCESTRO:0704	oboInOwl:hasExactSynonym	Brahui
 WARN	duplicate_exact_synonym	HANCESTRO:0787	oboInOwl:hasExactSynonym	Brahui
 WARN	duplicate_exact_synonym	HANCESTRO:0774	oboInOwl:hasExactSynonym	Bougainville
 WARN	duplicate_exact_synonym	HANCESTRO:0778	oboInOwl:hasExactSynonym	Bougainville
-WARN	duplicate_exact_synonym	HANCESTRO:0567	oboInOwl:hasExactSynonym	Black
-WARN	duplicate_exact_synonym	HANCESTRO:0568	oboInOwl:hasExactSynonym	Black
-WARN	duplicate_exact_synonym	HANCESTRO:0861	oboInOwl:hasExactSynonym	Black
 WARN	duplicate_exact_synonym	HANCESTRO:0635	oboInOwl:hasExactSynonym	Biaka
 WARN	duplicate_exact_synonym	HANCESTRO:0643	oboInOwl:hasExactSynonym	Biaka
 WARN	duplicate_exact_synonym	HANCESTRO:0785	oboInOwl:hasExactSynonym	Bengali

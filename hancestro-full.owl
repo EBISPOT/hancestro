@@ -33404,11 +33404,11 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
         <obo:IAO_0000115>Individuals who self-identify or are reported by authors as Afro-Caribbean. Term used by some communities to describe themselves and some US and UK government and other institutions on official forms used to collect demographic information.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>African Caribbean</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Black</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Black Caribbean</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Preto</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>West Indian</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>negro</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Black</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="pt">Preto</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="es">negro</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label.</rdfs:comment>
         <rdfs:label>Afro-Caribbean</rdfs:label>
     </owl:Class>
@@ -33422,7 +33422,7 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
         <obo:IAO_0000115>Individuals who self-identify or are reported by authors as African American. Term used by some communities to describe themselves and some US government and other institutions on official forms used to collect demographic information.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Afro-American</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Black</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Black</oboInOwl:hasRelatedSynonym>
         <rdfs:label>African American</rdfs:label>
     </owl:Class>
     
@@ -33703,9 +33703,9 @@ category does not include all native populations within the Arctic circle for ex
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
         <obo:IAO_0000115>Individuals who self-identify or are reported by authors as European American. Term used by some communities to describe themselves and some US and UK government and other institutions on official forms used to collect demographic information.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>American of European ancestry</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Non-Hispanic White</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>White</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Caucasian</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Non-Hispanic White</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>White</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>It should be noted that the synonym &quot;Caucasian&quot;, while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible.</rdfs:comment>
         <rdfs:label>European American</rdfs:label>
     </owl:Class>
@@ -33930,9 +33930,9 @@ category does not include all native populations within the Arctic circle for ex
         <oboInOwl:hasExactSynonym>Latine</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Latino/a</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Latinx</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Mestizo</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Pardo</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Spanish Origin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>Mestizo</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>Pardo</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Spanish Origin</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions.</rdfs:comment>
         <rdfs:label>Hispanic or Latin</rdfs:label>
     </owl:Class>
@@ -38500,9 +38500,9 @@ category does not include all native populations within the Arctic circle for ex
         <oboInOwl:hasExactSynonym>First Peoples</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Indigenous Peoples</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Native Peoples</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>nativos</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>pueblos indígenas</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>pueblos originarios</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="es">nativos</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="es">pueblos indígenas</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="es">pueblos originarios</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>Some of these terms may be outdated or only used regionally. The term indio is an outdated and possibly offensive term that is outdated and should be avoided.</rdfs:comment>
         <rdfs:label>Native American</rdfs:label>
     </owl:Class>
@@ -38673,7 +38673,7 @@ category does not include all native populations within the Arctic circle for ex
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0861">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
         <obo:IAO_0000115>Individuals who self-identify or are reported by authors as Black British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Caribbean or African background.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Black</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Black</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Black British</rdfs:label>
     </owl:Class>
     
