@@ -28117,7 +28117,6 @@ kqs</obo:AfPO_0000567>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
         <obo:IAO_0000115>Population descriptor defined using ancestry informative markers (AIMs) based on genetic/genomic data</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ancestral group</oboInOwl:hasExactSynonym>
-        <rdfs:label>ancestry category</rdfs:label>
         <rdfs:label>ancestry label</rdfs:label>
     </owl:Class>
     

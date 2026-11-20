@@ -3,4 +3,4 @@ ID	A rdfs:label	C %
 BFO:0000019	quality	owl:Thing
 OBI:0000181	population	owl:Thing
 HANCESTRO:0304	ancestry status	quality
-HANCESTRO:0004	ancestry category	population
+HANCESTRO:0004	ancestry label	population

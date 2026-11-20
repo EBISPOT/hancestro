@@ -486,6 +486,8 @@ This category also includes individuals who genetically cluster with reference p
 #### Removed
 - [ancestry label](http://purl.obolibrary.org/obo/HANCESTRO_0004) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data" 
 
+- [ancestry label](http://purl.obolibrary.org/obo/HANCESTRO_0004) [label](http://www.w3.org/2000/01/rdf-schema#label) "ancestry category" 
+
 #### Added
 - [ancestry label](http://purl.obolibrary.org/obo/HANCESTRO_0004) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Population descriptor defined using ancestry informative markers (AIMs) based on genetic/genomic data" 
 

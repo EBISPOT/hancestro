@@ -10489,7 +10489,7 @@ replaced_by: http://purl.obolibrary.org/obo/NCIT_C25464
 
 [Term]
 id: HANCESTRO:0004
-name: ancestry category
+name: ancestry label
 def: "Population descriptor defined using ancestry informative markers (AIMs) based on genetic/genomic data" []
 synonym: "ancestral group" EXACT []
 is_a: OBI:0000181 ! population
@@ -10502,7 +10502,7 @@ comment: It should be noted that the synonym "Caucasian", while widely used in s
 synonym: "Caucasian" RELATED []
 synonym: "European" EXACT []
 synonym: "white" RELATED []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0006
@@ -10525,7 +10525,7 @@ name: Asian ancestry
 def: "Includes individuals that either self-report or have been described as Asian but there was not sufficient information to allow classification as East Asian, Central Asian, South Asian or South-East Asian." []
 synonym: "Asian" EXACT []
 synonym: "Asian unspecified" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0009
@@ -10540,7 +10540,7 @@ name: African ancestry
 def: "Includes individuals that either self-report or have been described as African, but there was not sufficient information to allow classification as African American, AfroCaribbean or Sub-Saharan African." []
 synonym: "African" EXACT []
 synonym: "African unspecified" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0011
@@ -10554,7 +10554,7 @@ name: Indigenous American ancestry
 def: "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap." []
 comment: Class previously labelled as "Native American". Use of this term, alongside other terms such as "First Nations", should be discontinued in favour of the more appropriate "Indigenous American", which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively.
 synonym: "Indigenous American" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0014
@@ -10564,7 +10564,7 @@ comment: Synonyms include historical and contemporary terms in use in parts of C
 synonym: "Latin or Admixed American" EXACT []
 synonym: "Mestizo" EXACT []
 synonym: "Pardo" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 relationship: HANCESTRO:0301 HANCESTRO:0306 ! hasAncestryStatus admixed ancestry
 property_value: IAO:0000117 "Jackie MacArthur" xsd:string
 property_value: IAO:0000117 "Joannella Morales" xsd:string
@@ -10575,14 +10575,14 @@ name: Greater Middle Eastern (Middle Eastern or North African or Persian) ancest
 def: "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this descriptor with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap." []
 synonym: "Greater Middle Eastern (Middle Eastern or North African or Persian)" EXACT []
 synonym: "Middle Eastern/North African" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0016
 name: African American or Afro-Caribbean ancestry
 def: "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations." []
 synonym: "African American or Afro-Caribbean" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 relationship: HANCESTRO:0301 HANCESTRO:0306 ! hasAncestryStatus admixed ancestry
 
 [Term]
@@ -10590,13 +10590,13 @@ id: HANCESTRO:0017
 name: Oceanian ancestry
 def: "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap." []
 synonym: "Oceanian" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0018
 name: uncategorised population
 def: "A population for which specific ancestry information is known but that does not fall into any of the defined ancestry descriptors" []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0019
@@ -10847,7 +10847,7 @@ name: genetically isolated population
 def: "A population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation" []
 synonym: "founder population" EXACT []
 synonym: "population isolate" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 relationship: HANCESTRO:0301 HANCESTRO:0305 ! hasAncestryStatus genetically isolated ancestry
 
 [Term]
@@ -12565,7 +12565,7 @@ id: HANCESTRO:0552
 name: Aboriginal Australian ancestry
 def: "Includes individuals who either self-report or have been described by authors as Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation." []
 synonym: "Aboriginal Australian" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
@@ -12663,7 +12663,7 @@ relationship: RO:0002151 HANCESTRO:0357 ! partially overlaps Croatian
 id: HANCESTRO:0566
 name: undefined ancestry population
 def: "Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry descriptors, eg American" []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0567
@@ -15036,7 +15036,7 @@ name: Indigenous Siberian ancestry
 def: "Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan." []
 synonym: "Indigenous peoples of Siberia" EXACT []
 synonym: "Indigenous Siberian" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0846
