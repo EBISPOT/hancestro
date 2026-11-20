@@ -465,8 +465,8 @@
 <http://purl.obolibrary.org/obo/HANCESTRO_0386>	<http://www.w3.org/2000/01/rdf-schema#label>	"Russian"@en	
 <http://dbpedia.org/resource/Estonia>	<http://www.w3.org/2000/01/rdf-schema#label>	"Estonia"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0498>	<http://www.w3.org/2000/01/rdf-schema#label>	"Filipino"@en	
-<http://purl.obolibrary.org/obo/HANCESTRO_0407>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ecuadorian"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0808>	<http://www.w3.org/2000/01/rdf-schema#label>	"Adygei in Russia(Caucasus) (SGDP)"	
+<http://purl.obolibrary.org/obo/HANCESTRO_0407>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ecuadorian"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0646>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gambian in Gambia (SGDP)"	
 <http://purl.obolibrary.org/obo/HANCESTRO_0877>	<http://www.w3.org/2000/01/rdf-schema#label>	"Moche Chimu"@en	
 <http://purl.obolibrary.org/obo/HANCESTRO_0033>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Latin America and the Caribbean"	
