@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/hancestro.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/hancestro/releases/2026-11-20/hancestro.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/hancestro/releases/2026-11-23/hancestro.owl`
 - Loaded from: `file:/work/src/ontology/hancestro.owl`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2025-10-14" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-20" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-23" 
 
 
 ### African (AFR) reference superpopulation (1KGP) `http://purl.obolibrary.org/obo/HANCESTRO_2000`

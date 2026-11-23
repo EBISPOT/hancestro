@@ -14,7 +14,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hancestro/hancestro-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2026-11-20/hancestro-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hancestro/releases/2026-11-23/hancestro-full.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0601"/>
@@ -23,7 +23,7 @@
         <dc:description>Human ancestry ontology for the NHGRI GWAS Catalog</dc:description>
         <dc:title>Human Ancestry Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2026-11-20</owl:versionInfo>
+        <owl:versionInfo>2026-11-23</owl:versionInfo>
     </owl:Ontology>
     
 
