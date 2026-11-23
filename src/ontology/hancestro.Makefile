@@ -21,9 +21,11 @@ $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 		
 
+ifeq ($(IMP),true)
+
 imports/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt
 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-        extract -T $(IMPORTDIR)/obi_terms_combined.txt --copy-ontology-annotations true --force true --method MIREOT --upper-term "obo:BFO_0000040" --lower-term "obo:OBI_0000181" --lower-term "obo:OBI_0000245" \
+        extract --copy-ontology-annotations true --force true --method MIREOT --upper-term "obo:BFO_0000040" --lower-term "obo:OBI_0000181" --lower-term "obo:OBI_0000245" \
         query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
         $(ANNOTATE_CONVERT_FILE); fi
 
@@ -35,6 +37,8 @@ $(IMPORTDIR)/afpo_import.owl: $(MIRRORDIR)/afpo.owl $(IMPORTDIR)/afpo_terms.txt 
 		remove -T $(IMPORTDIR)/afpo_strip.txt --prefix "dbpedia: http://dbpedia.org/resource/" --select "self parents" --trim true --signature true\
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru template --merge-after --template $(TEMPLATEDIR)/afpo_hierarchy.csv \
 		$(ANNOTATE_CONVERT_FILE); fi
+
+endif # IMP=true
 		
 
 
