@@ -35,9 +35,9 @@ For more information, take a look at [our website](https://ebispot.github.io/han
 
 ##Ancestry Ontology - Release Notes ##
 
-### Current release: v2026-11-20
+### Current release: v2026-11-23
 
-Date Released: 20 November 2026
+Date Released: 23 November 2026
 
 Class Count: 1310 (1265 active, 45 obsolete)
 
