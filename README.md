@@ -35,16 +35,15 @@ For more information, take a look at [our website](https://ebispot.github.io/han
 
 ##Ancestry Ontology - Release Notes ##
 
-### Current release: v2025-10-14
+### Current release: v2026-11-20
 
-Date Released: 14 October 2025
+Date Released: 20 November 2026
 
-Class Count: 1310
+Class Count: 1310 (1265 active, 45 obsolete)
 
-The latest release of HANCESTRO includes new classes for project-specific reference superpopulations for the 1KGP, SGDP and HGDP, as well as new terms requested by users for Oceanian and Indigenous South American populations. 
+The latest release of HANCESTRO changes several class labels from the suffix "category" to "label" (e.g. "ancestry category" to "ancestry label" for `HANCESTRO:0004`). Similar changes were made in definitions that referred to "ancestry categories". `http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym` was added as an annotation property and used to refer to outdated synonyms such as `Caucasian` in `European ancestry (HANCESTRO:0005)`. SSSOM-compliant mappings were added for some NCIt, SNOMED and MESH terms as well as some of the ethnicity categories defined by the [OMB in the US](https://www.census.gov/about/our-research/race-ethnicity/standards-updates.html) and [ONS](https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/ethnicgroupnationalidentitylanguageandreligionvariablescensus2021/ethnicgroup/classifications) in the UK. Note that this is a work-in-progress and not all possible terms for these sources are mapped yet.
 
 See the [release notes](https://github.com/EBISPOT/hancestro/releases) for further details of most recent changes or check out our new [automatically generated ontology diff report](https://github.com/EBISPOT/hancestro/blob/main/src/ontology/reports/release-diff.md).
-
 
 
 ## Versions

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hancestro/releases/2025-10-14/hancestro-base.owl
+data-version: hancestro/releases/2026-11-23/hancestro-base.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: foaf http://xmlns.com/foaf/0.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -14,7 +14,7 @@ property_value: IAO:0000700 HANCESTRO:0304
 property_value: IAO:0000700 HANCESTRO:0601
 property_value: IAO:0000700 HANCESTRO:0602
 property_value: IAO:0000700 HANCESTRO:0632
-property_value: owl:versionInfo "2025-10-14" xsd:string
+property_value: owl:versionInfo "2026-11-23" xsd:string
 property_value: terms:license http://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -35,32 +35,32 @@ replaced_by: http://purl.obolibrary.org/obo/NCIT_C25464
 
 [Term]
 id: HANCESTRO:0004
-name: ancestry category
-def: "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data" []
+name: ancestry label
+def: "Population descriptor defined using ancestry informative markers (AIMs) based on genetic/genomic data" []
 synonym: "ancestral group" EXACT []
 is_a: OBI:0000181
 
 [Term]
 id: HANCESTRO:0005
 name: European ancestry
-def: "Includes individuals who either self-report or have been described by authors as\nEuropean, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations." []
+def: "Includes individuals who either self-report or have been described by authors as European, Caucasian, White or one of the sub-populations from this region (e.g Dutch). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CEU, FIN, GBR, IBS and TSI populations." []
 comment: It should be noted that the synonym "Caucasian", while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible.
-synonym: "Caucasian" EXACT []
+synonym: "Caucasian" RELATED []
 synonym: "European" EXACT []
-synonym: "white" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+synonym: "white" RELATED []
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0006
 name: South Asian ancestry
-def: "Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations." []
+def: "Includes individuals who either self-report or have been described by authors as South Asian or one of the sub-populations from this region (e.g Asian Indian). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap\nBEB, GIH, ITU, PJL and STU populations." []
 synonym: "South Asian" EXACT []
 is_a: HANCESTRO:0008 ! Asian ancestry
 
 [Term]
 id: HANCESTRO:0007
 name: South East Asian ancestry
-def: "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This category also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations." []
+def: "Includes individuals who either self-report or have been described by authors as South East Asian or one of the sub-populations from this region (e.g Vietnamese). This descriptor also includes includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes KHV population. We note that East Asian and South East Asian populations are often conflated. However, recent studies indicate a unique genetic background for South East Asian populations." []
 synonym: "South East Asian" EXACT []
 synonym: "Southeast Asian" EXACT []
 is_a: HANCESTRO:0008 ! Asian ancestry
@@ -71,12 +71,12 @@ name: Asian ancestry
 def: "Includes individuals that either self-report or have been described as Asian but there was not sufficient information to allow classification as East Asian, Central Asian, South Asian or South-East Asian." []
 synonym: "Asian" EXACT []
 synonym: "Asian unspecified" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0009
 name: East Asian ancestry
-def: "Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations." []
+def: "Includes individuals who either self-report or have been described by authors as East Asian or one of the sub-populations from this region (e.g Chinese). This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CDX, CHB, CHS and JPT populations." []
 synonym: "East Asian" EXACT []
 is_a: HANCESTRO:0008 ! Asian ancestry
 
@@ -86,31 +86,31 @@ name: African ancestry
 def: "Includes individuals that either self-report or have been described as African, but there was not sufficient information to allow classification as African American, AfroCaribbean or Sub-Saharan African." []
 synonym: "African" EXACT []
 synonym: "African unspecified" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0011
 name: Sub-Saharan African
-def: "Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban).\nThis category also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations." []
+def: "Includes individuals who either self-report or have been described by authors as SubSaharan African or one of the subpopulations from this region (e.g. Yoruban). This descriptor also includes individuals who genetically cluster with reference populations from this region for example 1000 Genomes and/or HapMap ESN, LWK, GWD, MSL, MKK and YRI populations." []
 is_a: HANCESTRO:0010 ! African ancestry
 
 [Term]
 id: HANCESTRO:0013
 name: Indigenous American ancestry
-def: "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
+def: "Includes indigenous individuals of North, Central and South America, descended from the original human migration into the Americas from Siberia. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap." []
 comment: Class previously labelled as "Native American". Use of this term, alongside other terms such as "First Nations", should be discontinued in favour of the more appropriate "Indigenous American", which includes indigenous communities across the Americas while the former serve as political designations in the USA and Canada, respectively.
 synonym: "Indigenous American" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0014
 name: Latin or Admixed American ancestry
-def: "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This category includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations" []
+def: "Includes individuals who either self-report or are described by authors as Hispanic, Latino, Latin American or one of the sub-populations from this region. This descriptor includes individuals with known admixture of primarily European, African and Native American ancestries, though some may have also a degree of Asian (e.g. Peru). We also note that the levels of admixture vary depending on the country, with Caribbean countries carrying higher levels of African admixture when compared to South American countries, for example. This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap CLM, MXL, PEL and PUR populations" []
 comment: Synonyms include historical and contemporary terms in use in parts of Canada, Alaska and USA by some Indigenous populations, local and national governmental institutions
 synonym: "Latin or Admixed American" EXACT []
 synonym: "Mestizo" EXACT []
 synonym: "Pardo" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 relationship: HANCESTRO:0301 HANCESTRO:0306 ! hasAncestryStatus admixed ancestry
 property_value: IAO:0000117 "Jackie MacArthur" xsd:string
 property_value: IAO:0000117 "Joannella Morales" xsd:string
@@ -118,37 +118,37 @@ property_value: IAO:0000117 "Joannella Morales" xsd:string
 [Term]
 id: HANCESTRO:0015
 name: Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-def: "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this category with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
+def: "Includes individuals who self-report or were described by authors as Middle Eastern, North African, Persian or one of the subpopulations from this region (e.g. Saudi Arabian). We note there is heterogeneity in this descriptor with different degrees of admixture as well as levels of genetic isolation. We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap." []
 synonym: "Greater Middle Eastern (Middle Eastern or North African or Persian)" EXACT []
 synonym: "Middle Eastern/North African" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0016
 name: African American or Afro-Caribbean ancestry
-def: "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This category also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations." []
+def: "Includes individuals who either self-report or have been described by authors as African American or Afro-Caribbean. This descriptor also includes individuals who genetically cluster with reference populations from this region, for example 1000 Genomes and/or HapMap ACB or ASW populations. We note that there is likely to be significant admixture with European ancestry populations." []
 synonym: "African American or Afro-Caribbean" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 relationship: HANCESTRO:0301 HANCESTRO:0306 ! hasAncestryStatus admixed ancestry
 
 [Term]
 id: HANCESTRO:0017
 name: Oceanian ancestry
-def: "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this category and efforts are required to fill this gap." []
+def: "Includes individuals that either self-report or have been described by authors as Oceanian or one of the sub-populations from this region (e.g. Native Hawaiian). We note that there does not appear to be a suitable reference population for this descriptor and efforts are required to fill this gap." []
 synonym: "Oceanian" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0018
 name: uncategorised population
-def: "A population for which specific ancestry information is known but that does not fall into any of the defined ancestry categories" []
-is_a: HANCESTRO:0004 ! ancestry category
+def: "A population for which specific ancestry information is known but that does not fall into any of the defined ancestry descriptors" []
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0019
 name: Japanese
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Japan ! isDemonymOf
 
 [Term]
@@ -156,21 +156,21 @@ id: HANCESTRO:0020
 name: Taiwanese
 synonym: "non-aboriginal Taiwanese" EXACT []
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Taiwan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0021
 name: Chinese
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/China ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0022
 name: Korean
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 North:Korea ! isDemonymOf
 relationship: HANCESTRO:0330 South:Korea ! isDemonymOf
 
@@ -178,14 +178,14 @@ relationship: HANCESTRO:0330 South:Korea ! isDemonymOf
 id: HANCESTRO:0023
 name: Mongolian
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mongolia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0024
 name: Macanese
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Macau ! isDemonymOf
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
@@ -193,14 +193,14 @@ relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 id: HANCESTRO:0025
 name: Singaporean Chinese
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0026
 name: Hong Kong Chinese
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
@@ -209,7 +209,7 @@ name: Han Chinese
 def: "Individuals who self-identify or are reported by authors as belonging to the Han people, an East Asian ethnic group native to Greater China." []
 synonym: "Chinese Han" EXACT []
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
@@ -393,7 +393,7 @@ name: genetically isolated population
 def: "A population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation" []
 synonym: "founder population" EXACT []
 synonym: "population isolate" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 relationship: HANCESTRO:0301 HANCESTRO:0305 ! hasAncestryStatus genetically isolated ancestry
 
 [Term]
@@ -420,7 +420,7 @@ is_a: HANCESTRO:0304 ! ancestry status
 id: HANCESTRO:0307
 name: Italian
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Italy ! isDemonymOf
 
 [Term]
@@ -428,7 +428,7 @@ id: HANCESTRO:0309
 name: Sardinian
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0307 ! Italian
 
 [Term]
@@ -460,7 +460,7 @@ id: HANCESTRO:0313
 name: Old Order Amish
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 disjoint_from: HANCESTRO:0316 ! Amish
 
 [Term]
@@ -468,21 +468,21 @@ id: HANCESTRO:0314
 name: Sorb
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0315
 name: Hutterite
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0316
 name: Amish
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0317
@@ -497,7 +497,7 @@ id: HANCESTRO:0318
 name: Orcadian
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: HANCESTRO:0308 http://dbpedia.org/resource/Scotland {all_only="true"} ! hasCountryOfOrigin
 
 [Term]
@@ -512,14 +512,14 @@ relationship: HANCESTRO:0308 http://dbpedia.org/resource/Croatia {all_only="true
 id: HANCESTRO:0320
 name: Dutch
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Netherlands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0321
 name: Finnish
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Finland ! isDemonymOf
 
 [Term]
@@ -545,7 +545,7 @@ def: "Individuals who self-identify or are reported by authors as belonging to a
 synonym: "Ashkenazi Jewish" EXACT []
 is_a: HANCESTRO:0018 ! uncategorised population
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0328
@@ -556,7 +556,7 @@ is_obsolete: true
 id: HANCESTRO:0331
 name: Sudanese
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Sudan ! isDemonymOf
 
 [Term]
@@ -569,42 +569,42 @@ replaced_by: AfPO:0000220
 id: HANCESTRO:0333
 name: Anguillan
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Anguilla ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0334
 name: Antiguan or Barbudan
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Antigua_and_Barbuda ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0335
 name: Barbadian
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Barbados ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0336
 name: Haitian
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Haiti ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0337
 name: Jamaican
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Jamaica ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0338
 name: Tajikistani
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tajikistan ! isDemonymOf
 property_value: IAO:0000118 "Tajik" xsd:string
 
@@ -612,280 +612,280 @@ property_value: IAO:0000118 "Tajik" xsd:string
 id: HANCESTRO:0339
 name: Turkmen
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turkmenistan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0340
 name: Uzbekistani
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uzbekistan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0341
 name: Afghan
 is_a: HANCESTRO:0018 ! uncategorised population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Afghanistan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0342
 name: Kazakhstani
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kazakhstan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0343
 name: Kyrgyzstani
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kyrgyzstan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0344
 name: Albanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Albania ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0345
 name: Andorran
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Andorra ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0346
 name: Australian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Australia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0347
 name: Austrian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Austria ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0348
 name: Belarusian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Belarus ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0349
 name: Belgian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Belgium ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0350
 name: Bermudian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bermuda ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0351
 name: Bosnian or Herzegovinian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bosnia_and_Herzegovina ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0352
 name: Brazilian
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Brazil ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0353
 name: Bulgarian
 is_a: HANCESTRO:0018 ! uncategorised population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bulgaria ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0354
 name: Canadian
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Canada ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0355
 name: Channel Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Channel:Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0356
 name: Chilean
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Chile ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0357
 name: Croatian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Croatia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0358
 name: Czech
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Czech:Republic ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0359
 name: Danish
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Denmark ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0360
 name: Estonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Estonia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0361
 name: Faroese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Faeroe:Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0362
 name: Falkland Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Falkland:Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0363
 name: French
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/France ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0364
 name: German
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Germany ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0365
 name: Gibraltarian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Gibraltar ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0366
 name: Greek
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Greece ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0367
 name: Greenlander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Greenland ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0368
 name: Hungarian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Hungary ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0369
 name: Icelandic
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iceland ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0370
 name: Manx
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Isle_of_Man ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0371
 name: Latvian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Latvia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0372
 name: Liechtensteiner
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Liechtenstein ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0373
 name: Lithuanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lithuania ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0374
 name: Luxembourgish
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Luxembourg ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0375
 name: Maltese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malta ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0376
 name: Monegasque
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Monaco ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0377
 name: Montenegrin
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Montenegro ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0378
 name: New Zealander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 New:Zealand ! isDemonymOf
 
 [Term]
@@ -893,91 +893,91 @@ id: HANCESTRO:0379
 name: Norfolk Islander
 is_a: HANCESTRO:0018 ! uncategorised population
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Norfolk:Island ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0380
 name: Norwegian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Norway ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0381
 name: Polish
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Poland ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0382
 name: Portugese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Portugal ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0383
 name: Irish
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_Ireland ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0384
 name: Moldovan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Moldova ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0385
 name: Romanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Romania ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0386
 name: Russian
 is_a: HANCESTRO:0018 ! uncategorised population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Russia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0387
 name: Saint-Pierrais or Miquelonnais
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Saint_Pierre_and_Miquelon ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0388
 name: Sammarinese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 San:Marino ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0389
 name: Serb
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Serbia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0390
 name: Slovak
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Slovakia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0391
 name: Slovene
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Slovenia ! isDemonymOf
 
 [Term]
@@ -988,105 +988,105 @@ synonym: "Castellano" EXACT []
 synonym: "Castilian" EXACT []
 synonym: "Spaniard" EXACT []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Spain ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0393
 name: Swedish
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Sweden ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0394
 name: Swiss
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Switzerland ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0395
 name: Macedonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_Macedonia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0396
 name: Ukrainian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ukraine ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0397
 name: Argentine
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Argentina ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0398
 name: Bahamian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 The:Bahamas ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0399
 name: Belizean
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Belize ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0400
 name: Bolivian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bolivia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0401
 name: British Virgin Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/British_Virgin_Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0402
 name: Caymanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Cayman:Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0403
 name: Colombian
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Colombia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0404
 name: Costa Rican
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Costa:Rica ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0405
 name: Cuban
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cuba ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0406
 name: Dominican
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Dominican:Republic ! isDemonymOf
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Dominica ! isDemonymOf
 
@@ -1094,126 +1094,126 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Dominica ! isDemonymOf
 id: HANCESTRO:0407
 name: Ecuadorian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ecuador ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0408
 name: Salvadoran
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 El:Salvador ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0409
 name: French Guianese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 French:Guiana ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0410
 name: Grenadian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Grenada ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0411
 name: Guatemalan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guatemala ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0412
 name: Guyanese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guyana ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0413
 name: Honduran
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Honduras ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0414
 name: Martinican
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Martinique ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0415
 name: Mexican
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mexico ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0416
 name: Montserratian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Montserrat ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0417
 name: Nicaraguan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nicaragua ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0418
 name: Panamanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Panama ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0419
 name: Paraguayan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Paraguay ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0420
 name: Peruvian
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Peru ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0421
 name: Puerto Rican
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Puerto:Rico ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0422
 name: Kittitian or Nevisian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Saint_Kitts_and_Nevis ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0423
 name: Saint Lucian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Saint:Lucia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0424
 name: Saint Vincentian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines ! isDemonymOf
 
 [Term]
@@ -1221,77 +1221,77 @@ id: HANCESTRO:0425
 name: Surinamese
 synonym: "Surinamer" EXACT []
 is_a: HANCESTRO:0018 ! uncategorised population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Suriname ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0426
 name: Trinidadian or Tobagonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Trinidad_and_Tobago ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0427
 name: Turks and Caicos Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turks_and_Caicos_Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0428
 name: Virgin Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/United_States_Virgin_Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0429
 name: Uruguayan
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uruguay ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0430
 name: Venezuelan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Venezuela ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0431
 name: Algerian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Algeria ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0432
 name: Armenian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Armenia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0433
 name: Azerbaijani
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Azerbaijan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0434
 name: Bahraini
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bahrain ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0435
 name: Cypriote
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cyprus ! isDemonymOf
 
 [Term]
@@ -1304,84 +1304,84 @@ replaced_by: AfPO:0000365
 id: HANCESTRO:0437
 name: Georgian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Georgia:(country) ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0438
 name: Iranian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iran ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0439
 name: Iraqi
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Iraq ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0440
 name: Israeli
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Israel ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0441
 name: Jordanian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Jordan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0442
 name: Kuwaiti
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kuwait ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0443
 name: Lebanese
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lebanon ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0444
 name: Libyan
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Libya ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0445
 name: Moroccan
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Morocco ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0446
 name: Palestinian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Palestinian:territories ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0447
 name: Omani
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Oman ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0448
 name: Qatari
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Qatar ! isDemonymOf
 
 [Term]
@@ -1391,98 +1391,98 @@ def: "Individuals who self-identify or are reported by authors as living in or o
 synonym: "Saudi Arab" EXACT []
 synonym: "Saudi Arabian" EXACT []
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Saudi:Arabia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0450
 name: Tunisian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tunisia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0451
 name: Turkish
 is_a: HANCESTRO:0018 ! uncategorised population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Turkey ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0452
 name: Emirati
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/United_Arab_Emirates ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0453
 name: Yemeni
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Yemen ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0454
 name: Aruban
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Aruba ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0455
 name: Christmas Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Christmas:Island ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0456
 name: Cocos Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cocos_(Keeling)_Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0457
 name: Curacaoan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Curacao ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0458
 name: Kosovar
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kosovo ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0459
 name: Northern Mariana Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Northern_Mariana_Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0460
 name: South Sudanese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 South:Sudan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0461
 name: Syrian
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Syria ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0462
 name: British
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 United:Kingdom ! isDemonymOf
 
 [Term]
@@ -1491,98 +1491,98 @@ name: American
 def: "Individuals who self-identify or are reported by authors as being citizens of the United States of America." []
 comment: This term should be used exclusively to refer to citizenship, without any inference of individuals' ethnic, linguistic, religious or other cultural background.
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 United:States ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0464
 name: American Samoan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 American:Samoa ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0465
 name: Cook Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Cook:Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0466
 name: Fijian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Fiji ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0467
 name: French Polynesian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 French:Polynesia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0468
 name: Guamanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guam ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0469
 name: I-Kiribati
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kiribati ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0470
 name: Marshallese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Marshall:Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0471
 name: Micronesian
 is_a: HANCESTRO:0017 ! Oceanian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Federated_States_of_Micronesia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0472
 name: Nauruan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nauru ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0473
 name: New Caledonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 New:Caledonia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0474
 name: Niuean
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Niue ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0475
 name: Palauan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Palau ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0476
 name: Papua New Guinean
 is_a: HANCESTRO:0017 ! Oceanian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Papua_New_Guinea ! isDemonymOf
 property_value: IAO:0000118 "Papuan" xsd:string
 
@@ -1590,70 +1590,70 @@ property_value: IAO:0000118 "Papuan" xsd:string
 id: HANCESTRO:0477
 name: Pitcairn Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Pitcairn:Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0478
 name: Samoan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Samoa ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0479
 name: Solomon Islander
 is_a: HANCESTRO:0017 ! Oceanian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Solomon:Islands ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0480
 name: Tokelauan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tokelau ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0481
 name: Tongan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tonga ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0482
 name: Tuvaluan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tuvalu ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0483
 name: Ni-Vanuato
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Vanuatu ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0484
 name: Wallis and Futuna Islander
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Wallis_and_Futuna ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0485
 name: Bangladeshi
 is_a: HANCESTRO:0006 ! South Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bangladesh ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0486
 name: Bhutanese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Bhutan ! isDemonymOf
 
 [Term]
@@ -1662,63 +1662,63 @@ name: Indian
 synonym: "Asian Indian" EXACT []
 synonym: "Indian Asian" EXACT []
 is_a: HANCESTRO:0006 ! South Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/India ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0488
 name: Maldivian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Maldives ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0489
 name: Nepalese
 is_a: HANCESTRO:0008 ! Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nepal ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0490
 name: Pakistani
 is_a: HANCESTRO:0006 ! South Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Pakistan ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0491
 name: Sri Lankan
 is_a: HANCESTRO:0006 ! South Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Sri:Lanka ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0492
 name: Bruneian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Brunei ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0493
 name: Cambodian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cambodia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0494
 name: Indonesian
 is_a: HANCESTRO:0007 ! South East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Indonesia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0495
 name: Lao
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Laos ! isDemonymOf
 
 [Term]
@@ -1727,84 +1727,84 @@ name: Malaysian
 def: "Individuals who self-identify or are reported by authors as living in or originating from Malaysia." []
 synonym: "Malay" EXACT []
 is_a: HANCESTRO:0007 ! South East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malaysia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0497
 name: Burmese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Myanmar ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0498
 name: Filipino
 is_a: HANCESTRO:0008 ! Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Philippines ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0500
 name: Thai
 is_a: HANCESTRO:0007 ! South East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Thailand ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0501
 name: Timorese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 East:Timor ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0502
 name: Vietnamese
 is_a: HANCESTRO:0007 ! South East Asian ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Vietnam ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0503
 name: Cameroonian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Cameroon ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0504
 name: Cape Verdean
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Cape:Verde ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0505
 name: Chadian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Chad ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0506
 name: Ethiopian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ethiopia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0507
 name: Kenyan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Kenya ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0508
 name: Liberian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Liberia ! isDemonymOf
 
 [Term]
@@ -1817,42 +1817,42 @@ replaced_by: AfPO:0000370
 id: HANCESTRO:0510
 name: Mauritanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mauretania ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0511
 name: Mauritian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mauritius ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0512
 name: Mahoran
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mayotte ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0513
 name: Namibian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Namibia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0514
 name: Sao Tomean
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/São_Tomé_and_Príncipe ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0515
 name: Senegalese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Senegal ! isDemonymOf
 
 [Term]
@@ -1865,7 +1865,7 @@ replaced_by: AfPO:0000180
 id: HANCESTRO:0517
 name: Sierra Leonean
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Sierra:Leone ! isDemonymOf
 
 [Term]
@@ -1878,56 +1878,56 @@ replaced_by: AfPO:0000389
 id: HANCESTRO:0519
 name: South African
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 South:Africa ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0520
 name: St. Helenian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Saint:Helena ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0521
 name: Ugandan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Uganda ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0522
 name: Angolan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Angola ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0523
 name: Beninese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Benin ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0524
 name: Motswana
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Botswana ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0525
 name: Burkinabe
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Burkina:Faso ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0526
 name: Burundian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Burundi ! isDemonymOf
 
 [Term]
@@ -1940,14 +1940,14 @@ replaced_by: AfPO:0000274
 id: HANCESTRO:0528
 name: Comoran
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Comoros ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0529
 name: Congolese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Democratic_Republic_of_the_Congo ! isDemonymOf
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_the_Congo ! isDemonymOf
 
@@ -1955,112 +1955,112 @@ relationship: HANCESTRO:0330 http://dbpedia.org/resource/Republic_of_the_Congo !
 id: HANCESTRO:0530
 name: Ivoirian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Ivory:Coast ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0531
 name: Djiboutian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Djibouti ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0532
 name: Equatorial Guinean
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Equatorial:Guinea ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0533
 name: Eritrean
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Eritrea ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0534
 name: Gabonese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Gabon ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0535
 name: Gambian
 is_a: AfPO:0000277
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 The:Gambia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0536
 name: Ghanaian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Ghana ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0537
 name: Guinean
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Guinea ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0538
 name: Bissau-Guinean
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 Guinea:Bissau ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0539
 name: Mosotho
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Lesotho ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0540
 name: Malawian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Malawi ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0541
 name: Malian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mali ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0542
 name: Mozambican
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Mozambique ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0543
 name: Nigerien
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Niger ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0544
 name: Nigerian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Nigeria ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0545
 name: Rwandan
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Rwanda ! isDemonymOf
 
 [Term]
@@ -2073,28 +2073,28 @@ replaced_by: AfPO:0000351
 id: HANCESTRO:0547
 name: Togolese
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Togo ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0548
 name: Tanzanian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Tanzania ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0549
 name: Zambian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Zambia ! isDemonymOf
 
 [Term]
 id: HANCESTRO:0550
 name: Zimbabweian
 is_a: HANCESTRO:0566 ! undefined ancestry population
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: HANCESTRO:0330 http://dbpedia.org/resource/Zimbabwe ! isDemonymOf
 
 [Term]
@@ -2111,8 +2111,8 @@ id: HANCESTRO:0552
 name: Aboriginal Australian ancestry
 def: "Includes individuals who either self-report or have been described by authors as Australian Aboriginal. These are expected to be descendents of early human migration into Australia from Eastern Asia and can be distinguished from other Asian populations by mtDNA and Y chromosome variation." []
 synonym: "Aboriginal Australian" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0004 ! ancestry label
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0553
@@ -2189,7 +2189,7 @@ id: HANCESTRO:0563
 name: South Tyrolean
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0290 ! genetically isolated population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0564
@@ -2208,8 +2208,8 @@ relationship: RO:0002151 HANCESTRO:0357 ! Croatian
 [Term]
 id: HANCESTRO:0566
 name: undefined ancestry population
-def: "Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry categories, eg American" []
-is_a: HANCESTRO:0004 ! ancestry category
+def: "Population for which insufficient information is available to allocate it to a specific ancestral group or which contain individuals from a range of known ancestry descriptors, eg American" []
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0567
@@ -2217,22 +2217,22 @@ name: Afro-Caribbean
 def: "Individuals who self-identify or are reported by authors as Afro-Caribbean. Term used by some communities to describe themselves and some US and UK government and other institutions on official forms used to collect demographic information." []
 comment: It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label.
 synonym: "African Caribbean" EXACT []
-synonym: "Black" EXACT []
+synonym: "Black" RELATED []
 synonym: "Black Caribbean" EXACT []
-synonym: "negro" EXACT []
-synonym: "Preto" EXACT []
+synonym: "negro" RELATED []
+synonym: "Preto" RELATED []
 synonym: "West Indian" EXACT []
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0568
 name: African American
 def: "Individuals who self-identify or are reported by authors as African American. Term used by some communities to describe themselves and some US government and other institutions on official forms used to collect demographic information." []
 synonym: "Afro-American" EXACT []
-synonym: "Black" EXACT []
+synonym: "Black" RELATED []
 is_a: HANCESTRO:0016 ! African American or Afro-Caribbean ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0569
@@ -2249,7 +2249,7 @@ def: "Individuals who self-identify or are reported by authors as belonging to a
 synonym: "Akimel O'otham" EXACT []
 synonym: "Pima" EXACT []
 synonym: "Pima Indian" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2257,7 +2257,7 @@ id: HANCESTRO:0571
 name: Plains Indians
 def: "Individuals who self-identify or are reported by authors as belonging to the indigenous peoples who have historically lived on the Interior Plains (the Great Plains and Canadian Prairies) of North America" []
 synonym: "Plains American Indian" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2265,19 +2265,19 @@ id: HANCESTRO:0572
 name: Kosraean
 synonym: "Kosraen" EXACT []
 is_a: HANCESTRO:0017 ! Oceanian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0573
 name: Native Hawaiian
 is_a: HANCESTRO:0017 ! Oceanian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0574
 name: Pacific Islander
 is_a: HANCESTRO:0017 ! Oceanian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0575
@@ -2295,7 +2295,7 @@ replaced_by: AfPO:0000277
 id: HANCESTRO:0577
 name: Dai
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 property_value: IAO:0000118 "Dai Chinese" xsd:string
 
@@ -2303,7 +2303,7 @@ property_value: IAO:0000118 "Dai Chinese" xsd:string
 id: HANCESTRO:0578
 name: Hui
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 property_value: IAO:0000118 "Hui Chinese" xsd:string
 
@@ -2311,14 +2311,14 @@ property_value: IAO:0000118 "Hui Chinese" xsd:string
 id: HANCESTRO:0579
 name: Jingpo Chinese
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
 id: HANCESTRO:0580
 name: Malaysian Chinese
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 
 [Term]
@@ -2326,7 +2326,7 @@ id: HANCESTRO:0581
 name: Uygur
 synonym: "Uigur" EXACT []
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0021 ! Chinese
 property_value: IAO:0000118 "Uygur Chinese" xsd:string
 
@@ -2334,32 +2334,32 @@ property_value: IAO:0000118 "Uygur Chinese" xsd:string
 id: HANCESTRO:0582
 name: Tibetan
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0583
 name: Taiwanese Han
 synonym: "Han Taiwanese" EXACT []
 is_a: HANCESTRO:0009 ! East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0584
 name: Sri Lankan Sinhalese
 is_a: HANCESTRO:0006 ! South Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0585
 name: Tatar
 is_a: HANCESTRO:0018 ! uncategorised population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0586
 name: Bashkir
 is_a: HANCESTRO:0018 ! uncategorised population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0587
@@ -2375,13 +2375,13 @@ property_value: IAO:0000119 "PMID:27070114" xsd:string
 id: HANCESTRO:0588
 name: Jewish Israeli
 is_a: HANCESTRO:0018 ! uncategorised population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0589
 name: Punjabi Sikh
 is_a: HANCESTRO:0006 ! South Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0590
@@ -2389,11 +2389,11 @@ name: European American
 def: "Individuals who self-identify or are reported by authors as European American. Term used by some communities to describe themselves and some US and UK government and other institutions on official forms used to collect demographic information." []
 comment: It should be noted that the synonym "Caucasian", while widely used in some part of the world, has strong associations with notions of white supremancy and should be avoided whenever possible.
 synonym: "American of European ancestry" EXACT []
-synonym: "Caucasian" EXACT []
-synonym: "Non-Hispanic White" EXACT []
-synonym: "White" EXACT []
+synonym: "Caucasian" RELATED []
+synonym: "Non-Hispanic White" RELATED []
+synonym: "White" RELATED []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0591
@@ -2429,7 +2429,7 @@ name: Inuit
 def: "Native people residing in the Arctic of Alaska, northern Canada, Greenland, or eastern Siberia" []
 comment: Class previously labelled as "Eskimo", which is outdated and culturally inappropriate. Outdated label may be added as an appropriately flagged synonym at a later stage.
 is_a: HANCESTRO:0018 ! uncategorised population
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 property_value: IAO:0000119 "PMID:25884279" xsd:string
 property_value: IAO:0000119 "PMID:29220501" xsd:string
 
@@ -2438,7 +2438,7 @@ id: HANCESTRO:0596
 name: Arab
 def: "Includes individuals with ethnic origins in the Semitic people populating the Arabian Peninsula and other countries in the Middle East and Northern Africa" []
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 property_value: IAO:0000119 "PMID:27393651" xsd:string
 property_value: IAO:0000119 "PMID:28106113" xsd:string
 
@@ -2447,7 +2447,7 @@ id: HANCESTRO:0597
 name: Singaporean Malay
 def: "Includes individuals who either self-report or have been described by authors as Singaporean Malay." []
 is_a: HANCESTRO:0007 ! South East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 property_value: IAO:0000119 "PMID:19700652" xsd:string
 property_value: IAO:0000119 "PMID:31626772" xsd:string
 
@@ -2456,7 +2456,7 @@ id: HANCESTRO:0598
 name: Singaporean Indian
 def: "Includes individuals who either self-report or have been described by authors as Singaporean Indian." []
 is_a: HANCESTRO:0006 ! South Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0487 ! Indian
 property_value: IAO:0000119 "PMID:19700652" xsd:string
 property_value: IAO:0000119 "PMID:31626772" xsd:string
@@ -2475,16 +2475,16 @@ is_a: BFO:0000019
 
 [Term]
 id: HANCESTRO:0601
-name: ethnicity category
-def: "Population category defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors" []
+name: ethnicity label
+def: "Population descriptor defined in terms of cultural, religious, tribal or other social similarities, excluding geography-based descriptors" []
 synonym: "ethnic group" EXACT []
 is_a: OBI:0000181
 relationship: RO:0000086 HANCESTRO:0599 ! ethnicity descriptor
 
 [Term]
 id: HANCESTRO:0602
-name: geography-based population category
-def: "Population category defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European)." []
+name: geography-based population label
+def: "Population descriptor defined in relation to a geographic location. Geography-based population descriptors include most nationalities but the classification goes beyond nationalities, since geography-based groups can also include regional groups at sub-national (e.g. Welsh or Scottish) or supra-national level (e.g. Western European)." []
 is_a: OBI:0000181
 
 [Term]
@@ -2505,7 +2505,7 @@ id: HANCESTRO:0611
 name: Indigenous in South America
 def: "Includes indigenous individuals of Central and South America, descended from the original human migration into the Americas from Siberia." []
 comment: Synonyms include terms typically refers to Indigenous Americans in Mexico, Central and South Lain America and is the preferred general term by these groups. Indio is an outdated and possibly offensive term that is outdated and should be avoided.
-synonym: "indo" EXACT []
+synonym: "indio" RELATED []
 synonym: "Indígena" EXACT []
 synonym: "nativos" EXACT []
 synonym: "pueblos indígenas" EXACT []
@@ -2521,38 +2521,38 @@ synonym: "Latin" EXACT []
 synonym: "Latine" EXACT []
 synonym: "Latino/a" EXACT []
 synonym: "Latinx" EXACT []
-synonym: "Mestizo" EXACT []
-synonym: "Pardo" EXACT []
-synonym: "Spanish Origin" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+synonym: "Mestizo" NARROW []
+synonym: "Pardo" RELATED []
+synonym: "Spanish Origin" RELATED []
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0014 ! Latin or Admixed American ancestry
 
 [Term]
 id: HANCESTRO:0613
 name: Otomi
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of Mexico inhabiting the central Mexican Plateau (Altiplano) region." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
 id: HANCESTRO:0614
 name: Maya
 def: "Individuals who self-identify or are reported by authors as belonging to the Mayan ethnolinguistic group of indigenous peoples of Mesoamerica." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
 id: HANCESTRO:0615
 name: Zapoteco
 def: "Individuals who self-identify or are reported by authors as belonging to the Zapotec ethnolinguistic group of indigenous people of Mexico. The Zapotec population is concentrated in the southern state of Oaxaca, but Zapotec communities also exist in neighboring states" []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
 id: HANCESTRO:0616
 name: Mazateco
 def: "Individuals who self-identify or are reported by authors as belonging to the Mazatecan ethnolinguistic group of indigenous peoples in the area known as the Sierra Mazateca, which is in the northern part of the state of Oaxaca in southern Mexico, as well as in adjacent areas of the states of Puebla and Veracruz" []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2560,14 +2560,14 @@ id: HANCESTRO:0617
 name: Rarámuri
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of the Americas living in the state of Chihuahua in Mexico" []
 synonym: "Tarahumara" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
 id: HANCESTRO:0618
 name: Nahua
 def: "Individuals who self-identify or are reported by authors as belonging to a group of the indigenous people of Mexico, El Salvador, Guatemala, Honduras, and Nicaragua" []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2575,7 +2575,7 @@ id: HANCESTRO:0619
 name: Mixteco
 def: "Individuals who self-identify or are reported by authors as belonging to indigenous Mesoamerican peoples of Mexico inhabiting the region known as La Mixteca of Oaxaca and Puebla as well as La Montaña Region and Costa Chica Regions of the state of Guerrero" []
 synonym: "Mixtec" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -2586,21 +2586,21 @@ synonym: "Guajiro" EXACT []
 synonym: "Wahiro" EXACT []
 synonym: "Wayu" EXACT []
 synonym: "Wayuu" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
 id: HANCESTRO:0621
 name: Piapoco
 def: "Individuals who self-identify or are reported by authors as belonging to an Arawakan ethnolinguistic group in Colombia and Venezuela" []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
 id: HANCESTRO:0622
 name: Pastos
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people native to the Nariño region of southern Colombia and neighbouring Equador" []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2608,7 +2608,7 @@ id: HANCESTRO:0623
 name: Quechua
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of South America who speak the Quechua languages. Although most Quechua speakers are native to Peru, there are some significant populations in Ecuador, Bolivia, Chile, Colombia, and Argentina" []
 synonym: "Quichua" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2616,21 +2616,21 @@ id: HANCESTRO:0624
 name: Aymara
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people in the Andes and Altiplano regions of South America; about 2.3 million live in northwest Argentina, Bolivia, Chile and Peru." []
 synonym: "Aimara" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
 id: HANCESTRO:0625
 name: Diaguita
 def: "Individuals who self-identify or are reported by authors as belonging to a group of South American indigenous people native to the Chilean Norte Chico and the Argentine Northwest." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
 id: HANCESTRO:0626
 name: Mapuche
 def: "Individuals who self-identify or are reported by authors as belonging to a group of indigenous people of present-day south-central Chile and southwestern Argentina, including parts of present-day Patagonia" []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2638,7 +2638,7 @@ id: HANCESTRO:0627
 name: Guaraní
 def: "Individuals who self-identify or are reported by authors as belonging to a group of culturally-related indigenous peoples of South America, living primarily in present-day Paraguay between the Paraná River and lower Paraguay River, the Misiones Province of Argentina, southern Brazil as far east as Rio de Janeiro, and parts of Uruguay and Bolivia." []
 synonym: "Guaraní-Mbyá" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2650,7 +2650,7 @@ synonym: "Tupinanquins" EXACT []
 synonym: "Tupinaquis" EXACT []
 synonym: "Tupiniquins" EXACT []
 synonym: "Tupinã-ki" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2659,7 +2659,7 @@ name: Arhuaco
 def: "Individuals who self-identify or are reported by authors as belonging to an Chibchan-speaking indigenous people of Colombia, descended from the Tairona culture, concentrated in northern Colombia in the Sierra Nevada de Santa Marta." []
 synonym: "Ica" EXACT []
 synonym: "Ika" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -2667,7 +2667,7 @@ id: HANCESTRO:0631
 name: Asháninka
 def: "Individuals who self-identify or are reported by authors as belonging to an indigenous people living in the rainforests of Peru and in the State of Acre, Brazil. Their ancestral lands are in the forests of Junín, Pasco, Huánuco and part of Ucayali in Peru." []
 synonym: "Asháninca" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -4582,7 +4582,7 @@ name: Indigenous Siberian ancestry
 def: "Includes individuals who either self-report or have been described by authors as Indigenous Siberan. This covers any indigenous groups from the northern part of the Asian contient that is commonly referred to as Siberia and which reaches from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the northern borders of Kazakhstan, Mongolia and China in the south. We note that there does not appear to be a suitable reference population for this population and efforts are required to fill this gap, although smaller reference populations were defined by the SGDP. Principal-component analysis of samples from this population suggest a close genetic relatedness with some Indigenous North American populations, such as the Chipewyan." []
 synonym: "Indigenous peoples of Siberia" EXACT []
 synonym: "Indigenous Siberian" EXACT []
-is_a: HANCESTRO:0004 ! ancestry category
+is_a: HANCESTRO:0004 ! ancestry label
 
 [Term]
 id: HANCESTRO:0846
@@ -4594,52 +4594,53 @@ synonym: "First Nations" EXACT []
 synonym: "First Peoples" EXACT []
 synonym: "Indigenous Peoples" EXACT []
 synonym: "Native Peoples" EXACT []
-synonym: "nativos" EXACT []
-synonym: "pueblos indígenas" EXACT []
-synonym: "pueblos originarios" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+synonym: "nativos" RELATED []
+synonym: "pueblos indígenas" RELATED []
+synonym: "pueblos originarios" RELATED []
+is_a: HANCESTRO:0601 ! ethnicity label
 relationship: RO:0002151 HANCESTRO:0013 ! Indigenous American ancestry
 
 [Term]
 id: HANCESTRO:0847
 name: Asian
 def: "Individuals who self-identify or are described by authors as Asian, without any reference to validated genetic ancestry information and where there was not sufficient information to allow description as East Asian, Central Asian, South Asian or South-East Asian." []
-comment: This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
-is_a: HANCESTRO:0602 ! geography-based population category
+comment: This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
+is_a: HANCESTRO:0602 ! geography-based population label
 
 [Term]
 id: HANCESTRO:0848
 name: South Asian
 def: "Individuals who self-identify or are described by authors as South Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as India, Bangladesh, Bhutan, Nepal, Pakistan, and Sri Lanka, and sometimes Afghanistan and the Maldives." []
-comment: This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
-is_a: HANCESTRO:0602 ! geography-based population category
+comment: This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
+is_a: HANCESTRO:0602 ! geography-based population label
 
 [Term]
 id: HANCESTRO:0849
 name: East Asian
 def: "Individuals who self-identify or are described by authors as East Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as China, Japan, Mongolia, North Korea, South Korea, Taiwan, and special administrative states Hong Kong and Macau." []
-comment: This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
-is_a: HANCESTRO:0602 ! geography-based population category
+comment: This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
+is_a: HANCESTRO:0602 ! geography-based population label
 
 [Term]
 id: HANCESTRO:0850
 name: Southeast Asian
-comment: This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
-is_a: HANCESTRO:0602 ! geography-based population category
+def: "Individuals who self-identify or are described by authors as South East Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam." []
+comment: This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
+is_a: HANCESTRO:0602 ! geography-based population label
 
 [Term]
 id: HANCESTRO:0851
 name: Central Asian
 def: "Individuals who self-identify or are described by authors as Central Asian, without any reference to validated genetic ancestry information. This may include individuals from countries such as Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan. It is a region of Asia bounded by the Caspian Sea to the southwest, European Russia to the northwest, Western China and Mongolia to the east, Afghanistan and Iran to the south, and Siberia to the north." []
-comment: This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
-is_a: HANCESTRO:0602 ! geography-based population category
+comment: This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
+is_a: HANCESTRO:0602 ! geography-based population label
 
 [Term]
 id: HANCESTRO:0852
 name: Middle Eastern
 def: "Individuals who self-identify or are described by authors as Middle Eastern, without any reference to validated genetic ancestry information. This may include individuals from countries such as Lebanon, Syria, Israel, Jordan, Saudi Arabia, Yemen, Oman, Bahrain, Qatar, United Arab Emirates, Kuwait, Iraq, and Iran, as well as the Palestinian Territories of Gaza and the West Bank." []
-comment: This category was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
-is_a: HANCESTRO:0602 ! geography-based population category
+comment: This descriptor was created to accommodate US, UK and EU use of super-national geographic descriptors in non-genetic contexts, to enable researchers to accurately annotate data, prevent loss of data, and comply with local governmental and funding standards around data collection.
+is_a: HANCESTRO:0602 ! geography-based population label
 
 [Term]
 id: HANCESTRO:0853
@@ -4648,7 +4649,7 @@ def: "Individuals who self-identify or are reported by authors as belonging to a
 synonym: "Chané" EXACT []
 synonym: "Izoceno" EXACT []
 synonym: "Izoceño" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -4656,14 +4657,14 @@ id: HANCESTRO:0854
 name: Karitiana
 def: "Individuals who self-identify or are reported by authors as belonging to the Karitiana, an indigenous people of Brazil whose reservation is located in the western Amazon and whose language is part of the Arikém family." []
 synonym: "Caritiana" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
 id: HANCESTRO:0855
 name: Mixe
 def: "Individuals who self-identify or are reported by authors as belonging to the Mixe indigenous people of Mexcio who live in the eastern highlands of the state of Oaxaca and speak the Mixe languages, part of the Mixe-Zoque family." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0610 ! Indigenous in North America
 
 [Term]
@@ -4674,7 +4675,7 @@ synonym: "Paiter" EXACT []
 synonym: "Suruí" EXACT []
 synonym: "Suruí de Rondônia" EXACT []
 synonym: "Suruí do Jiparaná" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 
 [Term]
@@ -4682,38 +4683,38 @@ id: HANCESTRO:0857
 name: Persian
 def: "Individuals who self-identify or are reported by authors as belonging to the Persion ethnolinguistic group of Western Iran, which comprises the majority of the population of Iran" []
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0858
 name: Arab-American
 def: "Individuals who self-identify or are reported by authors as Arab-American. This term is part of commonly collected standard demographic terms in the US." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0859
 name: Persian-American
 def: "Individuals who self-identify or are reported by authors as Persian-American.  This term is part of commonly collected standard demographic terms in the US." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0860
 name: Asian British
 def: "Individuals who self-identify or are reported by authors as Asian-British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Indian, Pakistani, Bangladeshi, Chinese or any other Asian background." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0861
 name: Black British
 def: "Individuals who self-identify or are reported by authors as Black British. This term is part of the standardised ethnicity categories collected in the UK and may include individuals of Caribbean or African background." []
-synonym: "Black" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+synonym: "Black" RELATED []
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0862
 name: Asian-American
 def: "Individuals who self-identify or are reported by authors as Asian-American.  This term is part of commonly collected standard demographic terms in the US." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0863
@@ -4721,23 +4722,23 @@ name: Chicano
 def: "Individuals who self-identify or are reported by authors as Chicano or Mexian-American. This term used by some communities to describe themselves and some US government and other institutions on official forms used to collect demographic information" []
 synonym: "Chicana" EXACT []
 synonym: "Mexican American" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0864
 name: Afro-Latin
 def: "Individuals who self-identify or are reported by authors as Afro-Latin. This term is possibly an outdated  and offensive racial term but that is currently used by Latin American government and other institutions on official forms used to collect demographic information and is used by some communities Latin American communities to describe themselves." []
 comment: It should be noted that the synonyms for this term represent the commonly used Spanish and Portugese translations of the primary label.
-synonym: "negro" EXACT []
-synonym: "Preto" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+synonym: "negro" RELATED []
+synonym: "Preto" RELATED []
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0865
 name: English
 def: "Individuals who self-identify or are reported by authors as living in or originating from England, a nation of the United Kingdom and that is located on the island of Great Britain." []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: RO:0000086 HANCESTRO:0600 ! geographic descriptor
 
 [Term]
@@ -4745,7 +4746,7 @@ id: HANCESTRO:0866
 name: Welsh
 def: "Individuals who self-identify or are reported by authors as living in or originating from Wales, a nation of the United Kingdom and that is located on the island of Great Britain." []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: RO:0000086 HANCESTRO:0600 ! geographic descriptor
 
 [Term]
@@ -4753,7 +4754,7 @@ id: HANCESTRO:0867
 name: Scottish
 def: "Individuals who self-identify or are reported by authors as living in or originating from Scotland, a nation of the United Kingdom and that is located on the island of Great Britain." []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: RO:0000086 HANCESTRO:0600 ! geographic descriptor
 
 [Term]
@@ -4761,7 +4762,7 @@ id: HANCESTRO:0868
 name: Northern Irish
 def: "Individuals who self-identify or are reported by authors as living in or originating from Northern Ireland, a nation of the United Kingdom and that is located on the island of Ireland." []
 is_a: HANCESTRO:0005 ! European ancestry
-is_a: HANCESTRO:0602 ! geography-based population category
+is_a: HANCESTRO:0602 ! geography-based population label
 relationship: RO:0000086 HANCESTRO:0600 ! geographic descriptor
 
 [Term]
@@ -4771,7 +4772,7 @@ def: "General term that refers to the Indigenous Peoples of Alaska, encompassing
 comment: This term was created due to its use as a category in the US Census. US Census categories are commonly reused in other contexts, including in research, as they are widely known.
 synonym: "Indigenous Alaskan" EXACT []
 synonym: "Native Alaskan" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 
 [Term]
 id: HANCESTRO:0870
@@ -4779,7 +4780,7 @@ name: Papuan
 def: "Individuals who either self-report or have been described by authors as Papuan." []
 comment: It should be noted that individuals characterised with this term may be part of ethnic groups in countries other than Papua New Guinea, such as Indonesia, which is why this term is broader than Papua New Guinean (HANCESTRO:0476)
 is_a: HANCESTRO:0017 ! Oceanian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 property_value: IAO:0000119 "PMID:32483274" xsd:string
 property_value: IAO:0000119 "PMID:34202821" xsd:string
 
@@ -4788,7 +4789,7 @@ id: HANCESTRO:0871
 name: Balinese
 def: "Individuals who either self-report or have been described by authors as Balinese." []
 is_a: HANCESTRO:0007 ! South East Asian ancestry
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 property_value: IAO:0000119 "PMID:16114819" xsd:string
 property_value: IAO:0000119 "PMID:35341056" xsd:string
 
@@ -4796,7 +4797,7 @@ property_value: IAO:0000119 "PMID:35341056" xsd:string
 id: HANCESTRO:0872
 name: Bora
 def: "Individuals who self-identify or are reported by authors as belonging to the Bora indigenous populations in Peru and Colombia." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 property_value: IAO:0000119 "http://www.amazon-indians.org/page12.html" xsd:string
 property_value: IAO:0000119 "PMID:22911594" xsd:string
@@ -4806,7 +4807,7 @@ property_value: IAO:0000119 "PMID:29765620" xsd:string
 id: HANCESTRO:0873
 name: Yagua
 def: "Individuals who self-identify or are reported by authors as belonging to the Yagua indigenous population that inhabits the Peruvian Amazon. The Yagua language is the only surviving language of the Peba-Yagua linguistic family." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 property_value: IAO:0000119 "http://www.amazon-indians.org/page17.html" xsd:string
 property_value: IAO:0000119 "PMID:25522106" xsd:string
@@ -4818,7 +4819,7 @@ id: HANCESTRO:0874
 name: Kukama Kukamiria
 def: "Individuals who self-identify or are reported by authors as belonging to the Kukama Kukamiria indigenous population in the Peruvian Amazon. Their language, also called Kukama-Kukamiria, is a Tupi-Guarani language." []
 synonym: "Kukama Kukamilla" EXACT []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 property_value: IAO:0000119 "https://www.wwf.org.ec/?389371/The-Kukama-Kukamiria-an-invisible-indigenous-people-that-emerges-revaluing-their-culture" xsd:string
 property_value: IAO:0000119 "PMID:29407757" xsd:string
@@ -4828,7 +4829,7 @@ property_value: IAO:0000119 "PMID:33945560" xsd:string
 id: HANCESTRO:0875
 name: Shipibo-Conibo
 def: "Individuals who self-identify or are reported by authors as belonging to the Shipibo-Conibo indigenous population along the Ucayali River in the Amazon rainforest in Peru. Formerly two groups, they eventually became one tribe through intermarriage and communal rituals and are currently known as the Shipibo-Conibo people." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 property_value: IAO:0000119 "PMID:15798863" xsd:string
 property_value: IAO:0000119 "PMID:22515992" xsd:string
@@ -4838,7 +4839,7 @@ property_value: IAO:0000119 "PMID:2705014" xsd:string
 id: HANCESTRO:0876
 name: Yine
 def: "Individuals who self-identify or are reported by authors as belonging to the Yine indigenous population in the Peruvian Amazon." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 property_value: IAO:0000119 "PMID:25123856" xsd:string
 property_value: IAO:0000119 "PMID:39360514" xsd:string
@@ -4847,7 +4848,7 @@ property_value: IAO:0000119 "PMID:39360514" xsd:string
 id: HANCESTRO:0877
 name: Moche Chimu
 def: "Individuals who self-identify or are reported by authors as belonging to the Moche Chimu indigenous population in the Peruvian Amazon. The Chimu culture succeeded the Moche culture in the same region of Peru." []
-is_a: HANCESTRO:0601 ! ethnicity category
+is_a: HANCESTRO:0601 ! ethnicity label
 is_a: HANCESTRO:0611 ! Indigenous in South America
 property_value: IAO:0000119 "https://www.ebsco.com/research-starters/social-sciences-and-humanities/chimu-culture" xsd:string
 
@@ -4855,7 +4856,7 @@ property_value: IAO:0000119 "https://www.ebsco.com/research-starters/social-scie
 id: HANCESTRO:2000
 name: African (AFR) reference superpopulation (1KGP)
 def: "A reference population made up of samples from individuals with an African Ancestry as part of the 1000 Genomes Project and Gambian Genome Variation Project (GGVP)." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "AFR" EXACT []
 synonym: "AFR reference superpopulation (1KGP)" EXACT []
 synonym: "African Ancestry (1KGP)" EXACT []
@@ -4866,7 +4867,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2001
 name: American (AMR) reference superpopulation (1KGP)
 def: "A reference population made up of samples from individuals with an American Ancestry as part of the 1000 Genomes Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "American Ancestry (1KGP)" EXACT []
 synonym: "AMR" EXACT []
 synonym: "AMR reference superpopulation (1KGP)" BROAD []
@@ -4877,7 +4878,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2002
 name: East Asian (EAS) reference superpopulation (1KGP)
 def: "A reference population made up of samples from individuals with an East Asian Ancestry as part of the 1000 Genomes Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "EAS" EXACT []
 synonym: "EAS reference superpopulation (1KGP)" EXACT []
 synonym: "East Asian Ancestry (1KGP)" EXACT []
@@ -4888,7 +4889,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2003
 name: European (EUR) reference superpopulation (1KGP)
 def: "A reference population made up of samples from individuals with a European Ancestry as part of the 1000 Genomes Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "EUR" EXACT []
 synonym: "EUR reference superpopulation (1KGP)" EXACT []
 synonym: "European Ancestry (1KGP)" EXACT []
@@ -4899,7 +4900,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2004
 name: South Asian (SAS) reference superpopulation (1KGP)
 def: "A reference population made up of samples from individuals with a South Asian Ancestry as part of the 1000 Genomes Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "SAS" EXACT []
 synonym: "SAS reference superpopulation (1KGP)" EXACT []
 synonym: "South Asian Ancestry (1KGP)" EXACT []
@@ -4910,7 +4911,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2005
 name: African reference superpopulation (HGDP)
 def: "A reference population made up of samples from individuals with an African Ancestry as part of the Human Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Africa (HGDP)" EXACT []
 is_a: HANCESTRO:0010 ! African ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -4919,7 +4920,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2006
 name: American reference superpopulation (HGDP)
 def: "A reference population made up of samples from individuals with an American Ancestry as part of the Human Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "America (HGDP)" EXACT []
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -4928,7 +4929,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2007
 name: Central South Asian reference superpopulation (HGDP)
 def: "A reference population made up of samples from individuals with a Central South Asian Ancestry as part of the Human Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Central South Asia (HGDP)" EXACT []
 is_a: HANCESTRO:0006 ! South Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -4937,7 +4938,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2008
 name: East Asian reference superpopulation (HGDP)
 def: "A reference population made up of samples from individuals with an East Asian Ancestry as part of the Human Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "East Asia (HGDP)" EXACT []
 is_a: HANCESTRO:0009 ! East Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -4946,7 +4947,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2009
 name: European reference superpopulation (HGDP)
 def: "A reference population made up of samples from individuals with a European Ancestry as part of the Human Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Europe (HGDP)" EXACT []
 is_a: HANCESTRO:0005 ! European ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -4955,7 +4956,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2010
 name: Middle East reference superpopulation (HGDP)
 def: "A reference population made up of samples from individuals with a Middle East Ancestry as part of the Human Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Middle East (HGDP)" EXACT []
 is_a: HANCESTRO:0015 ! Greater Middle Eastern (Middle Eastern or North African or Persian) ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -4964,7 +4965,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2011
 name: Oceanian reference superpopulation (HGDP)
 def: "A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Human Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Oceania (HGDP)" EXACT []
 is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -4973,7 +4974,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2012
 name: African reference superpopulation (SGDP)
 def: "A reference population made up of samples from individuals with an African Ancestry as part of the Simons Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Africa (SGDP)" EXACT []
 is_a: HANCESTRO:0010 ! African ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -4982,7 +4983,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2013
 name: American reference superpopulation (SGDP)
 def: "A reference population made up of samples from individuals with an American Ancestry as part of the Simons Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "America (SGDP)" EXACT []
 is_a: HANCESTRO:0014 ! Latin or Admixed American ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -4991,7 +4992,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2014
 name: Central Asian and Siberia reference superpopulation (SGDP)
 def: "A reference population made up of samples from individuals with a Central Asian and Siberia Ancestry as part of the Simons Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Central Asia and Siberia (SGDP)" EXACT []
 is_a: HANCESTRO:0632 ! reference population
 is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
@@ -5000,7 +5001,7 @@ is_a: HANCESTRO:0845 ! Indigenous Siberian ancestry
 id: HANCESTRO:2015
 name: East Asian reference superpopulation (SGDP)
 def: "A reference population made up of samples from individuals with an East Asian Ancestry as part of the Simons Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "East Asia (SGDP)" EXACT []
 is_a: HANCESTRO:0009 ! East Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -5009,7 +5010,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2016
 name: Oceanian reference superpopulation (SGDP)
 def: "A reference population made up of samples from individuals with an Oceanian Ancestry as part of the Simons Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "Oceania (SGDP)" EXACT []
 is_a: HANCESTRO:0017 ! Oceanian ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -5018,7 +5019,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2017
 name: South Asian reference superpopulation (SGDP)
 def: "A reference population made up of samples from individuals with a South Asian Ancestry as part of the Simons Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "South Asia (SGDP)" EXACT []
 is_a: HANCESTRO:0006 ! South Asian ancestry
 is_a: HANCESTRO:0632 ! reference population
@@ -5027,7 +5028,7 @@ is_a: HANCESTRO:0632 ! reference population
 id: HANCESTRO:2018
 name: West Eurasian reference superpopulation (SGDP)
 def: "A reference population made up of samples from individuals with a West Eurasian Ancestry as part of the Simons Genome Diversity Project." []
-comment: This category was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
+comment: This class was created to facilitate the grouping of reference populations into the superpopulations they were allocated to in the context of the project in which they were collected. This classification is intended for project provenance traceability and does not imply any kind of biological difference.
 synonym: "West Eurasia (SGDP)" EXACT []
 is_a: HANCESTRO:0632 ! reference population
 
