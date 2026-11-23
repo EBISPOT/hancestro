@@ -70,3 +70,5 @@ src/patterns/all_pattern_terms.txt
 src/ontology/hancestro_inferred.owl
 src/ontology/tmp/
 src/ontology/hancestro-full.owl
+
+!/mappings/
